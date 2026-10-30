@@ -14,6 +14,8 @@ This complements [stat evaluation](client-stat-evaluation.md),
 [DoT routing](client-dot-routing.md). The native/network provider distinction established there
 continues to apply. In particular, a registered native formula does not establish that receiving
 an ordinary network stat causes local reevaluation.
+The separate [defender-context predicate](client-defender-context-presence.md) detects 37 conditional inputs;
+its Boolean composition does not establish their numerical application to a hit.
 
 | Input | Identity |
 |---|---|

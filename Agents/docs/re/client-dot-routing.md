@@ -255,6 +255,8 @@ Input reachability, exception state and live actor evaluation eligibility remain
 
 There are genuine local native computations upstream of taken-as; the raw fire forwarding callback alone was
 too narrow a view. Their inputs remain stats, rather than a recovered list of timed damage instances.
+The [complete fire self-rate equation](client-fire-self-rate.md) expands output 8180 below, preserving
+signed64 percentage truncations, float32 Her Embrace arithmetic, all state gates and the final conversion.
 
 | Output | Callback | Verified upstream arithmetic |
 |---|---|---|

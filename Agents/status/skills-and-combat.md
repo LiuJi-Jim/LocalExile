@@ -718,11 +718,14 @@ and can require explicit recipes.
   Existing Buff partial updates directly overwrite duration/speed; omitted wire speed becomes 1.0.
   The named Burning Arrow backend's partial-update callbacks add no recalculation after these copies.
   Selected Buff observers clear reference holders; they do not establish a Stats-to-existing-clock subscription.
+  Three actual Buff backend Stats subscriptions reach cache/visibility/Render outputs; clock refresh stays open.
   Life initialization/transition can gate definition-selected Buff ticks through a retained Buffs component.
   A decoded Life assignment from nonpositive to positive clears that guard and separately resets fractional carry.
   RF backend refresh/removal has art-object outputs; its two tick slots and insertion callback are empty.
   Burning Arrow's named backend lifecycle slots are empty; its incoming-rate publication is still unresolved.
   A named RF template declares an incoming fire-rate magnitude; active instance/target publication stays open.
+  Fire self-rate 8180 has a complete signed64/float32 equation, conditional state terms and difficulty selection.
+  Separate percentage truncations, Boolean 13574, ignite transfer and the final upper saturation are preserved.
   Selected outgoing ailments independently scale base/added/history: bleed 42, ignite 54, poison 18 per minute.
   Faster/slower and critical ailment multipliers have separate rounding and Perfect Agony replacement branches.
   All twelve named MH/OH min/max bleeding rates and their critical/noncritical multiplier builders are recovered.
@@ -739,6 +742,7 @@ and can require explicit recipes.
   Complete MH/OH/spell chance builders preserve hand-specific overrides, weapon tables and float32 operation order.
   Shared/typed hit-taken final factors, additive elemental input and resistance-ignore predicates are recovered.
   Enemy-critical increased input has a component-only cap; actual joint hit-resolver application remains open.
+  Defender-conditional presence output 9189 is a 37-input nonzero OR, distinct from numerical hit application.
   Virtual faster and combined ailment multiplier inputs preserve attack/weapon/aura/charge qualifications.
   Twelve common DoT multiplier outputs preserve typed/ailment/non-ailment sums and signed integer order.
   Cold divides before its resistance coefficient; chaos multiplies before division, with different rounding.

@@ -3620,6 +3620,22 @@
       ],
       "selectedDecompilationCompleted": true
     },
+    "0x1400ac5e0": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1400ac5e0",
+          "endExclusive": "0x1400ac67f",
+          "bytes": 159,
+          "fileOffset": 702944,
+          "sha256": "026332be14235d0f7a1aa2d98a5e5c3220f1fe946535cbb571c6e7a02c80be61"
+        }
+      ],
+      "sourceBatches": [
+        "r10-fire-self-rate"
+      ],
+      "selectedDecompilationCompleted": null
+    },
     "0x1400ac9b0": {
       "boundary": "PE-unwind-root-and-chains",
       "ranges": [
@@ -7330,6 +7346,22 @@
       ],
       "selectedDecompilationCompleted": null
     },
+    "0x1400d5640": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1400d5640",
+          "endExclusive": "0x1400d5710",
+          "bytes": 208,
+          "fileOffset": 870976,
+          "sha256": "c8846e508715b19a766b4013dde66ad22418d9382d58b5809b925892de7396ea"
+        }
+      ],
+      "sourceBatches": [
+        "r10-defender-context-final"
+      ],
+      "selectedDecompilationCompleted": null
+    },
     "0x1400d5e30": {
       "boundary": "PE-unwind-root-and-chains",
       "ranges": [
@@ -8043,6 +8075,22 @@
       ],
       "selectedDecompilationCompleted": true
     },
+    "0x14012c3e0": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x14012c3e0",
+          "endExclusive": "0x14012c47a",
+          "bytes": 154,
+          "fileOffset": 1226720,
+          "sha256": "aa72115131e4125fe3d1fb8901ba940542c148392a2ad2a343853b5e25c17ba8"
+        }
+      ],
+      "sourceBatches": [
+        "r10-buff-subscriptions-final"
+      ],
+      "selectedDecompilationCompleted": null
+    },
     "0x140133540": {
       "boundary": "PE-unwind-root-and-chains",
       "ranges": [
@@ -8212,6 +8260,7 @@
         }
       ],
       "sourceBatches": [
+        "r10-buff-subscriptions-final",
         "r3-action-extensions-consequences",
         "r3-pr373-mortar-attachments"
       ],
@@ -10096,7 +10145,152 @@
         }
       ],
       "sourceBatches": [
+        "r10-buff-subscriptions-final",
         "r2-buff-registry-callers"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x1415c6300": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1415c6300",
+          "endExclusive": "0x1415c6432",
+          "bytes": 306,
+          "fileOffset": 22828800,
+          "sha256": "8c88f2996c4be8fb0aefefcc602287c3f9fade0b66519fcf4f81a0ee5bfe3d06"
+        }
+      ],
+      "sourceBatches": [
+        "r10-buff-subscriptions-final"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x1415c66d0": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1415c66d0",
+          "endExclusive": "0x1415c6762",
+          "bytes": 146,
+          "fileOffset": 22829776,
+          "sha256": "10081e3ba12e285288703b78f1da50e030c9d12b34362375eef2dd02093781a8"
+        }
+      ],
+      "sourceBatches": [
+        "r10-buff-subscriptions-final"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x1415c74c0": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1415c74c0",
+          "endExclusive": "0x1415c7650",
+          "bytes": 400,
+          "fileOffset": 22833344,
+          "sha256": "73d6089e5e5da9ae884a91914f680c31379c5c3fb8746d51f43ae5303870c04d"
+        }
+      ],
+      "sourceBatches": [
+        "r10-buff-subscriptions-final"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x1415c7670": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1415c7670",
+          "endExclusive": "0x1415c796c",
+          "bytes": 764,
+          "fileOffset": 22833776,
+          "sha256": "6be3e10d2ebbfebbadaf807e52ee473cc5c8c44f838efaaa00d69a33b0a0c0e9"
+        }
+      ],
+      "sourceBatches": [
+        "r10-buff-subscriptions-final"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x1415c8e10": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1415c8e10",
+          "endExclusive": "0x1415c9117",
+          "bytes": 775,
+          "fileOffset": 22839824,
+          "sha256": "5f947e117170263614a64d6be3e551f582b0538f9bed88b90a3be17d16ea20f7"
+        }
+      ],
+      "sourceBatches": [
+        "r10-buff-subscriptions-final"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x1415c9220": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1415c9220",
+          "endExclusive": "0x1415c9243",
+          "bytes": 35,
+          "fileOffset": 22840864,
+          "sha256": "0b86fbd92a31f244c52afb8742acaf593d69d2018994b71cbde10a60f6adda87"
+        }
+      ],
+      "sourceBatches": [
+        "r10-buff-subscriptions-final"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x1415c9250": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1415c9250",
+          "endExclusive": "0x1415c927d",
+          "bytes": 45,
+          "fileOffset": 22840912,
+          "sha256": "50526f8cb78c9733b003608097b1377913f99ecb76b2d094948434952a832998"
+        }
+      ],
+      "sourceBatches": [
+        "r10-buff-subscriptions-final"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x1415c9280": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1415c9280",
+          "endExclusive": "0x1415c93df",
+          "bytes": 351,
+          "fileOffset": 22840960,
+          "sha256": "cbe3a880fc5d57ef626948032945a766f3b47733e3b10535204fcaf83293c88e"
+        }
+      ],
+      "sourceBatches": [
+        "r10-buff-subscriptions-final"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x1415c93e0": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1415c93e0",
+          "endExclusive": "0x1415c9479",
+          "bytes": 153,
+          "fileOffset": 22841312,
+          "sha256": "1f6ee480607ca2c7e4ab23027a7a0d7ba2499317624c812a546de4de8bb79c8e"
+        }
+      ],
+      "sourceBatches": [
+        "r10-buff-subscriptions-final"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -10116,6 +10310,38 @@
       ],
       "selectedDecompilationCompleted": null
     },
+    "0x1415cc8c0": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1415cc8c0",
+          "endExclusive": "0x1415cc914",
+          "bytes": 84,
+          "fileOffset": 22854848,
+          "sha256": "7c01e3ac081871ba43b451d2f3ea5262392c4ed565b107a59d870a9895349e16"
+        }
+      ],
+      "sourceBatches": [
+        "r10-buff-subscriptions-final"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x1415cc920": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1415cc920",
+          "endExclusive": "0x1415cc9d4",
+          "bytes": 180,
+          "fileOffset": 22854944,
+          "sha256": "1dfb49ed65a14a6b05a49da56d449fcef170bba38270450135be0120ee556d4a"
+        }
+      ],
+      "sourceBatches": [
+        "r10-buff-subscriptions-final"
+      ],
+      "selectedDecompilationCompleted": null
+    },
     "0x1415ccc00": {
       "boundary": "PE-unwind-root-and-chains",
       "ranges": [
@@ -10129,6 +10355,54 @@
       ],
       "sourceBatches": [
         "r3-entity-task-boundaries-final"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x1415ce380": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1415ce380",
+          "endExclusive": "0x1415ce3d4",
+          "bytes": 84,
+          "fileOffset": 22861696,
+          "sha256": "12265d752cec1c9e29948de0b7864d7399f32b05af330ce1260965b24b6aba0d"
+        }
+      ],
+      "sourceBatches": [
+        "r10-buff-subscriptions-final"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x1415ce3e0": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1415ce3e0",
+          "endExclusive": "0x1415ce494",
+          "bytes": 180,
+          "fileOffset": 22861792,
+          "sha256": "f0500e0788e90b243dffa2e2d2a59bad150ada1a94a505ca8c7264057b02a8f1"
+        }
+      ],
+      "sourceBatches": [
+        "r10-buff-subscriptions-final"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x1415d04a0": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1415d04a0",
+          "endExclusive": "0x1415d04e4",
+          "bytes": 68,
+          "fileOffset": 22870176,
+          "sha256": "4f4d5b2d9c12aaeadd6c9840b441d3ca5664126e786aac6a15b76598cb04aa09"
+        }
+      ],
+      "sourceBatches": [
+        "r10-buff-subscriptions-final"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -10163,6 +10437,22 @@
       ],
       "sourceBatches": [
         "r2-rf-backend"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x1415d2d40": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1415d2d40",
+          "endExclusive": "0x1415d2e81",
+          "bytes": 321,
+          "fileOffset": 22880576,
+          "sha256": "43bf188497e663ac7ca55910e3a632d0d991edf319c2ddebd7e0005a23d1d288"
+        }
+      ],
+      "sourceBatches": [
+        "r10-buff-subscriptions-final"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -11262,6 +11552,22 @@
       ],
       "sourceBatches": [
         "r2-grants-value-resolver"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x1417a51c0": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1417a51c0",
+          "endExclusive": "0x1417a5397",
+          "bytes": 471,
+          "fileOffset": 24790464,
+          "sha256": "761cb2f9ad18cf4e8e9d3a93fbf4bc8511ebfd593ade9d837d91791ea39fc0a3"
+        }
+      ],
+      "sourceBatches": [
+        "r10-buff-subscriptions-final"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -19885,6 +20191,7 @@
       "sourceBatches": [
         "life-and-stat-binding",
         "r1-client-mode-init",
+        "r10-buff-subscriptions-final",
         "r3-contact-entropy-lifecycle",
         "source-and-authority"
       ],
@@ -19933,6 +20240,22 @@
         "network-and-sources"
       ],
       "selectedDecompilationCompleted": true
+    },
+    "0x1421c3100": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1421c3100",
+          "endExclusive": "0x1421c311f",
+          "bytes": 31,
+          "fileOffset": 35398912,
+          "sha256": "b02becef38a9203b15882bc712d8c2e3128b50eebe50cd85354e0b188ca834a1"
+        }
+      ],
+      "sourceBatches": [
+        "r10-buff-subscriptions-final"
+      ],
+      "selectedDecompilationCompleted": null
     },
     "0x1421c3700": {
       "boundary": "PE-unwind-root-and-chains",
@@ -20553,6 +20876,22 @@
       ],
       "selectedDecompilationCompleted": true
     },
+    "0x1424cfad0": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1424cfad0",
+          "endExclusive": "0x1424cfae3",
+          "bytes": 19,
+          "fileOffset": 38596304,
+          "sha256": "918d37e06e32265934954699e71152eed6cca2940dbc33277c2d38c7a4602a49"
+        }
+      ],
+      "sourceBatches": [
+        "r10-buff-subscriptions-final"
+      ],
+      "selectedDecompilationCompleted": null
+    },
     "0x1424cfaf0": {
       "boundary": "PE-unwind-root-and-chains",
       "ranges": [
@@ -20965,6 +21304,7 @@
         }
       ],
       "sourceBatches": [
+        "r10-fire-self-rate",
         "r7-ailment-chance",
         "r9-poison-family",
         "stat-and-formula-v2"
@@ -27537,6 +27877,7 @@
         }
       ],
       "sourceBatches": [
+        "r10-fire-self-rate",
         "r2-base-rates"
       ],
       "selectedDecompilationCompleted": true
@@ -32438,6 +32779,22 @@
       ],
       "selectedDecompilationCompleted": true
     },
+    "0x14284fc10": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x14284fc10",
+          "endExclusive": "0x1428510a2",
+          "bytes": 5266,
+          "fileOffset": 42266640,
+          "sha256": "da56ba2a53a3b5305cf8621049701a3e87175500ea37b37f471c0d0ed2bed7f0"
+        }
+      ],
+      "sourceBatches": [
+        "r10-defender-context-final"
+      ],
+      "selectedDecompilationCompleted": null
+    },
     "0x1428548a0": {
       "boundary": "PE-unwind-root-and-chains",
       "ranges": [
@@ -33139,6 +33496,21 @@
       "name": "r1-skill-producers",
       "auditSha256": "e266d92d68d2d130f184410288f8a5c183c3b04b278a3509b3114fd00cd49d0a",
       "functionCount": 14
+    },
+    {
+      "name": "r10-buff-subscriptions-final",
+      "auditSha256": "4ab33457c889dfbd36ce41d2b1a8c6e29f0fc4fe2eff18bd4a36eef46d25dab8",
+      "functionCount": 22
+    },
+    {
+      "name": "r10-defender-context-final",
+      "auditSha256": "895af903e0a6eae6b43251d3eebd6dc285d1f21e018bb9c2fb3b53de2a8631c8",
+      "functionCount": 2
+    },
+    {
+      "name": "r10-fire-self-rate",
+      "auditSha256": "8f9dd3a81decb86cb507913eb0394e032878d95a4140f8f40e8573493d20602f",
+      "functionCount": 3
     },
     {
       "name": "r2-base-rates",
@@ -35791,6 +36163,70 @@
       "fileOffset": 56478272,
       "sha256": "d59ee70ab3c5f1878ec4d545c2a8320033ec12b406979029c163ba09b1198da7",
       "role": "Selected GroundEffect shared cancellation control or typed parent/listener binding"
+    },
+    {
+      "table": "0x143464be8",
+      "offset": "0x0",
+      "target": "0x1415ce380",
+      "fileOffset": 54935528,
+      "sha256": "3d1adcc1b2d06e73ee862402ea89c055daa4b170258fd3ca94c1f1d7734fe907",
+      "role": "Concrete Buff backend Stats subscription factory/listener/provider binding"
+    },
+    {
+      "table": "0x1434651f0",
+      "offset": "0x0",
+      "target": "0x1415c9250",
+      "fileOffset": 54937072,
+      "sha256": "2f42be9ec8cadacbe215f2bb2d398136f5a91b8367a075dbf358a711479e258d",
+      "role": "Concrete Buff backend Stats subscription factory/listener/provider binding"
+    },
+    {
+      "table": "0x143464e00",
+      "offset": "0x0",
+      "target": "0x1415cc8c0",
+      "fileOffset": 54936064,
+      "sha256": "487b821455a84bd4c36745b038faf491d5aa9898daad48155a42b6afda414cce",
+      "role": "Concrete Buff backend Stats subscription factory/listener/provider binding"
+    },
+    {
+      "table": "0x143465270",
+      "offset": "0x0",
+      "target": "0x1415c66d0",
+      "fileOffset": 54937200,
+      "sha256": "1a1dc50ada4d93d798c39752972287b5a3308702f2fb6a1f20bc408b18b06588",
+      "role": "Concrete Buff backend Stats subscription factory/listener/provider binding"
+    },
+    {
+      "table": "0x143465038",
+      "offset": "0x0",
+      "target": "0x1415d04a0",
+      "fileOffset": 54936632,
+      "sha256": "c24fc79c989a20332d6fad8bb80a8483a2665c8e04937036e64157918887c913",
+      "role": "Concrete Buff backend Stats subscription factory/listener/provider binding"
+    },
+    {
+      "table": "0x1434876b8",
+      "offset": "0x0",
+      "target": "0x1417a51c0",
+      "fileOffset": 55077560,
+      "sha256": "5d55a15189ffdfe3a88e37f95c04a29de6584a1ac2346c6b920a312b9331a5bd",
+      "role": "Concrete Buff backend Stats subscription factory/listener/provider binding"
+    },
+    {
+      "table": "0x1435dd4e8",
+      "offset": "0xb0",
+      "target": "0x1421c3100",
+      "fileOffset": 56478104,
+      "sha256": "a11bd835024eee5f96025f4943c3a454afe9e1dfc4625bb7819d0d8e293c6bd5",
+      "role": "Concrete Buff backend Stats subscription factory/listener/provider binding"
+    },
+    {
+      "table": "0x14363bd90",
+      "offset": "0x8",
+      "target": "0x1424cfad0",
+      "fileOffset": 56865176,
+      "sha256": "1b5c38348fbd9722e64e591503184c8003988275ff657601f1357901ef173c1b",
+      "role": "Concrete Buff backend Stats subscription factory/listener/provider binding"
     }
   ],
   "scanCoverage": {
@@ -35825,10 +36261,10 @@
     }
   ],
   "verification": {
-    "entryCount": 1646,
-    "originalByteRangeCount": 2529,
+    "entryCount": 1668,
+    "originalByteRangeCount": 2551,
     "historicalBoundedThunkEntries": 4,
-    "pointerSlotCount": 205,
+    "pointerSlotCount": 213,
     "selectedDecompilationRecords": 877,
     "checkedReferenceInstructions": 13431,
     "decompilationFailures": [],
@@ -38175,6 +38611,177 @@
       "path": "Tools/re/out/client-damage-audit/r9-poison-verification.json",
       "sha256": "721869b707ab4e7760546c095a1402143be3eb88fed6276714fb02e7ceb4a63b",
       "role": "Focused formula verification; synthetic interpretation is not native client execution"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r10-buff-subscriptions-final/audit.json",
+      "bytes": 641538,
+      "sha256": "4ab33457c889dfbd36ce41d2b1a8c6e29f0fc4fe2eff18bd4a36eef46d25dab8",
+      "role": "Three concrete Buff backend Stats subscriptions and selected state/presentation consequence checks"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r10-buff-refresh-external-listener/verification.json",
+      "bytes": 7427,
+      "sha256": "49a00be8d7957069cbb7cc799aced710a4ee3f70322e62432b5ab2f102743ada",
+      "role": "Three concrete Buff backend Stats subscriptions and selected state/presentation consequence checks"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r10-buff-refresh-verify.py",
+      "bytes": 3035,
+      "sha256": "9284a38e37520ee881e493e7d81ff60f34ea413b1c8e957aa238d1fae8f0ac61",
+      "role": "Three concrete Buff backend Stats subscriptions and selected state/presentation consequence checks"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r10-buff-subscriptions-review.py",
+      "bytes": 6728,
+      "sha256": "a6c9e6d3732412f947fbe82c06308cb6bf6542953733b5b17f9858176d4a601c",
+      "role": "Three concrete Buff backend Stats subscriptions and selected state/presentation consequence checks"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r10-buff-subscriptions-review.json",
+      "bytes": 9746,
+      "sha256": "2dcba897e19e0a552f2b93ffbfe077614a94f477cd20cabc3cdabb6958a10291",
+      "role": "Three concrete Buff backend Stats subscriptions and selected state/presentation consequence checks"
+    },
+    {
+      "path": "Agents/docs/re/client-buff-stats-subscriptions.md",
+      "bytes": 8232,
+      "sha256": "d70eacf0309cdb6395d3601efcb2ce5e0ba01895715d6bef6cf4186e457c9392",
+      "role": "Three concrete Buff backend Stats subscriptions and selected state/presentation consequence checks"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r10-buff-subscriptions-verification.json",
+      "sha256": "3259aef6379b051cde5df8daebf4aa8573884f1a619397ba6d6f7bb43b4236a0",
+      "role": "Buff subscriber original-byte support; no global or transitive owner-clock absence claim"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r10-defender-context-final/audit.json",
+      "bytes": 177863,
+      "sha256": "895af903e0a6eae6b43251d3eebd6dc285d1f21e018bb9c2fb3b53de2a8631c8",
+      "role": "37-input defender-conditional presence predicate and independent original-byte/short-circuit checks"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r10-hit-numerical-context/audit.json",
+      "bytes": 177606,
+      "sha256": "8bdd90a14bdcf67b7c1b94cb8808b088bdb99f3d613ef768ec1e61908c303100",
+      "role": "37-input defender-conditional presence predicate and independent original-byte/short-circuit checks"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r10-hit-numerical-context/dependencies.json",
+      "bytes": 4906,
+      "sha256": "deec36a8342a6d8c4862719e0174299897a20c34310d08cdb6c8ac626f433a70",
+      "role": "37-input defender-conditional presence predicate and independent original-byte/short-circuit checks"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r10-hit-numerical-context/cases.json",
+      "bytes": 72419,
+      "sha256": "a21e3f913938991ca034063383b156ce92af3cb375c5f08ef79576ae24da1763",
+      "role": "37-input defender-conditional presence predicate and independent original-byte/short-circuit checks"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r10-hit-numerical-prepare.py",
+      "bytes": 1762,
+      "sha256": "fc08ca09641ca84f4f31794807d1f0401c524cf9229641272e001f3259200d6b",
+      "role": "37-input defender-conditional presence predicate and independent original-byte/short-circuit checks"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r10-hit-numerical-context.py",
+      "bytes": 3076,
+      "sha256": "9d154cead346caa35bef91ff8268dcfb65f3dd7cc30f31735992eba847b608b7",
+      "role": "37-input defender-conditional presence predicate and independent original-byte/short-circuit checks"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r10-hit-numerical-verify.py",
+      "bytes": 3364,
+      "sha256": "b149374640ef3c30264bf909ec5e029161bb13d7b5118547b4b45db2aaca7d72",
+      "role": "37-input defender-conditional presence predicate and independent original-byte/short-circuit checks"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r10-hit-numerical-verification.json",
+      "bytes": 566,
+      "sha256": "ebf3649d1cc2645f9c5ca1ac1d1b272a08d8131c4fe44466d9318e1ce767d475",
+      "role": "37-input defender-conditional presence predicate and independent original-byte/short-circuit checks"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r10-hit-context-review.py",
+      "bytes": 6886,
+      "sha256": "05ebdaf46a08ad6bc5e87f014f54630facbe29caeb53d14674461d0996678b3a",
+      "role": "37-input defender-conditional presence predicate and independent original-byte/short-circuit checks"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r10-hit-context-review.json",
+      "bytes": 71743,
+      "sha256": "93fb8bb6da252db82541c85cfc982b0103ab3ff2cd996921de12437378d62202",
+      "role": "37-input defender-conditional presence predicate and independent original-byte/short-circuit checks"
+    },
+    {
+      "path": "Agents/docs/re/client-defender-context-presence.md",
+      "bytes": 5300,
+      "sha256": "1312b13fa3e88c5772dcffb7ec168c9493a99f3864896a9adb45207c2da081d7",
+      "role": "37-input defender-conditional presence predicate and independent original-byte/short-circuit checks"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r10-defender-context-verification.json",
+      "sha256": "e63ac34504e7111beb03e0ee683d83abe78702cce9725b725becb7f69f27135c",
+      "role": "Defender-context predicate support; actual hit numerical consumer remains unbound"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r10-fire-self-rate/audit.json",
+      "bytes": 164411,
+      "sha256": "8f9dd3a81decb86cb507913eb0394e032878d95a4140f8f40e8573493d20602f",
+      "role": "Complete fire incoming/self-rate8180 formula and original-instruction synthetic comparison"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r10-fire-self-rate/mapping.json",
+      "bytes": 170,
+      "sha256": "42bdd8ab5d044f2357421c6f12d7e1c1b503070b5c88b135999f2786b270bf95",
+      "role": "Complete fire incoming/self-rate8180 formula and original-instruction synthetic comparison"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r10-fire-self-rate/cases.json",
+      "bytes": 1769072,
+      "sha256": "1f1e5febfd25983d81697316ffba52626c0dd890a6177285a9de04628e3e0c27",
+      "role": "Complete fire incoming/self-rate8180 formula and original-instruction synthetic comparison"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r10-fire-self-rate/verification.json",
+      "bytes": 2292,
+      "sha256": "96abeebcecd095c05d9dafb9d91a052cc5b9df37ece9ebdf59d2af038e859746",
+      "role": "Complete fire incoming/self-rate8180 formula and original-instruction synthetic comparison"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r10-fire-self-interpreter.py",
+      "bytes": 7203,
+      "sha256": "70bc52e88bd131889551d0de479c1c861726d7348e27b55ecb416eb48f623a3e",
+      "role": "Complete fire incoming/self-rate8180 formula and original-instruction synthetic comparison"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r10-fire-self-verify.py",
+      "bytes": 4393,
+      "sha256": "0df6db41618ccce31ab1a12c526ccd9bad736effb85040cd0b2c268a18727727",
+      "role": "Complete fire incoming/self-rate8180 formula and original-instruction synthetic comparison"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r10-fire-self-review.py",
+      "bytes": 4849,
+      "sha256": "0c772e2a393864446f384736c8e73330a199575c5db76bda5d1ee631d386060f",
+      "role": "Complete fire incoming/self-rate8180 formula and original-instruction synthetic comparison"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r10-fire-self-review.json",
+      "bytes": 10180,
+      "sha256": "0cae6ef67631eef2aac02b20125c9cf400860112f78c66324e9f43e823384cd0",
+      "role": "Complete fire incoming/self-rate8180 formula and original-instruction synthetic comparison"
+    },
+    {
+      "path": "Agents/docs/re/client-fire-self-rate.md",
+      "bytes": 7609,
+      "sha256": "072eaacbb5d5151a7028deeeabf55cea3e4c62b4a82ab6c3c1f142fce49e6d7b",
+      "role": "Complete fire incoming/self-rate8180 formula and original-instruction synthetic comparison"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r10-fire-self-verification.json",
+      "sha256": "312769d4c6be451ba60e494f7c57d0722d958893c88cdb85fb91b664e27a80de",
+      "role": "Fire incoming rate signed64/float32 arithmetic verification; not source-instance publication"
     },
     {
       "path": "Tools/re/out/client-damage-audit/r9-hit-result-build.py",

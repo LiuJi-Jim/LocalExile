@@ -125,6 +125,9 @@ The suspend/restore lifecycle is explicit LocalExile policy; see protocol/11-ski
   Reuse complete MH/OH/spell chance builders and the selected defender modifier composition.
   Reuse all twelve named bleeding, 56 ignite and 72 poison rates with their category/critical builders.
   Preserve implicit ignite tincture inputs, poison hand gates, wrapping totals and chaos-only always-output gates.
+  Reuse the complete fire self-rate 8180 equation; its primitive source publication remains a separate open edge.
+  Defender-conditional presence output 9189 groups 37 inputs; bind its numerical use before treating it as a resolver.
+  Three concrete Buff Stats subscribers update state/presentation; do not repeat them as clock-refresh candidates.
   Reuse typed ailment permissions, target acquisition gates and ordinary/critical-only chance inputs.
   Connect their real infliction consumers without assuming the chance sums perform a roll or create an instance.
   Keep effective critical probability distinct from per-event trials, confirmation and defender critical modifiers.

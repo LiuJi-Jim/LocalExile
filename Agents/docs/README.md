@@ -67,10 +67,12 @@ How to regenerate them: [re/tooling.md](re/tooling.md) §7.
 | [re/client-critical-formulas.md](re/client-critical-formulas.md) | critical probability/luck/unexciting transforms, overrides, multipliers and math-helper contracts |
 | [re/client-critical-inputs.md](re/client-critical-inputs.md) | complete MH/OH/spell chance input algebra, overrides, weapon classification and arithmetic order |
 | [re/client-hit-defender-modifiers.md](re/client-hit-defender-modifiers.md) | shared/typed hit-taken factors, ignore-resistance predicates and defender enemy-critical inputs |
+| [re/client-defender-context-presence.md](re/client-defender-context-presence.md) | 37-input defender-conditional presence predicate, short circuits and unresolved numerical use |
 | [re/client-ailment-multiplier-inputs.md](re/client-ailment-multiplier-inputs.md) | virtual faster inputs, combined damaging-ailment multipliers and qualification branches |
 | [re/client-dot-multiplier-inputs.md](re/client-dot-multiplier-inputs.md) | generic, typed, ailment and non-ailment DoT multiplier inputs, exact qualifications and integer order |
 | [re/client-ignite-output-family.md](re/client-ignite-output-family.md) | all 56 named ignite rate outputs, category/tincture qualification, conversion history and multiplier builders |
 | [re/client-poison-output-family.md](re/client-poison-output-family.md) | all 72 named poison rates, hand elemental gates, integer-sum totals and chaos-only always-output qualification |
+| [re/client-fire-self-rate.md](re/client-fire-self-rate.md) | complete incoming fire self-rate equation, signed64 percentages, state gates, difficulty selection and overflow |
 | [re/client-effect-source-catalogue.md](re/client-effect-source-catalogue.md) | selected RF/daemon/ground-effect inheritance, mode/component/script declarations and source-stat defaults |
 | [re/client-ground-effect-boundary.md](re/client-ground-effect-boundary.md) | concrete ground-effect lifetime transport, kill/expiry, Buff clock guard, cancellation and removal boundary |
 | [re/client-ground-effect-ownership.md](re/client-ground-effect-ownership.md) | typed ServerFill parent route, shared cancellation-flag producer, reference ownership and infinite-lifetime expiry |
@@ -79,6 +81,7 @@ How to regenerate them: [re/tooling.md](re/tooling.md) §7.
 | [re/client-hit-production.md](re/client-hit-production.md) | concrete Fireball/Melee/Sand Spitter contacts, dodge/accuracy/entropy and action-specific continuation boundaries |
 | [re/client-ranged-action-selection.md](re/client-ranged-action-selection.md) | default Bow/Wand action selector, equipment-to-provider updates and startup registration winners |
 | [re/client-buff-clock-updates.md](re/client-buff-clock-updates.md) | insertion clocks, network replacement and ticking versus unresolved owner-stat-driven refresh |
+| [re/client-buff-stats-subscriptions.md](re/client-buff-stats-subscriptions.md) | three concrete owner-Stats subscribers, backend/instance field identities and non-clock callback consequences |
 | [re/client-buff-clock-producers.md](re/client-buff-clock-producers.md) | concrete Life-to-Buffs advancement guard and its separate speed/rate boundaries |
 | [re/client-buff-network-clock-contract.md](re/client-buff-network-clock-contract.md) | existing Buff duration/speed receiver, omitted-speed default and selected backend callbacks |
 | [re/client-action-extensions.md](re/client-action-extensions.md) | startup-selected melee attachment/controller output and ranged zero-time projectile dispatch |

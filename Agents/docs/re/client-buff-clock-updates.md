@@ -5,6 +5,9 @@ owner's Stats, consumes its stored speed during ticks, and accepts replacement
 speed from network updates. A **changed owner stat → recalculation of an
 already existing instance's speed** remains unclosed. These are different
 paths; a Stats read or an instance callback alone does not connect them.
+Three [concrete external backend subscriptions](client-buff-stats-subscriptions.md) now bind actual owner-Stats
+notifications to cache/visibility/Render updates. Their selected callbacks do not refresh instance speed;
+this positive subscriber evidence remains separate from the unresolved timing-stat connection.
 
 The follow-up [network receiver contract](client-buff-network-clock-contract.md) positively binds the World
 dispatch, existing-instance writes and selected Burning Arrow callbacks. Omitted wire speed becomes `1.0`,
