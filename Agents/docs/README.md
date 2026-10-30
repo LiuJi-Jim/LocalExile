@@ -61,6 +61,9 @@ How to regenerate them: [re/tooling.md](re/tooling.md) §7.
 | [re/client-dot-routing.md](re/client-dot-routing.md) | typed DoT mitigation, healing, ES/Mana/Life routes, self-rate calculations and exact cap/overflow boundaries |
 | [re/client-offence-estimates.md](re/client-offence-estimates.md) | both-hand typed damage ranges, base/added scaling, conversion, averages/DPS and actual numerical UI readers |
 | [re/client-ailment-outgoing-formulas.md](re/client-ailment-outgoing-formulas.md) | outgoing bleed/ignite/poison components, per-minute rates, faster/slower and critical DoT multipliers |
+| [re/client-bleeding-output-family.md](re/client-bleeding-output-family.md) | complete named MH/OH min/max bleeding rates, critical branches and hand/final-factor asymmetries |
+| [re/client-ailment-eligibility.md](re/client-ailment-eligibility.md) | typed ignite/poison permissions, hand-local poison gates and target acquisition prohibitions |
+| [re/client-ailment-chance-inputs.md](re/client-ailment-chance-inputs.md) | ordinary and critical-only bleeding/ignite/poison chance inputs, qualifiers and integer arithmetic |
 | [re/client-critical-formulas.md](re/client-critical-formulas.md) | critical probability/luck/unexciting transforms, overrides, multipliers and math-helper contracts |
 | [re/client-critical-inputs.md](re/client-critical-inputs.md) | complete MH/OH/spell chance input algebra, overrides, weapon classification and arithmetic order |
 | [re/client-hit-defender-modifiers.md](re/client-hit-defender-modifiers.md) | shared/typed hit-taken factors, ignore-resistance predicates and defender enemy-critical inputs |

@@ -276,7 +276,10 @@ minute stat names alone.
 
 Follow-ups remain bounded and explicit:
 
-- Expand maximum/offhand, critical bleeding, and the other typed eligibility callbacks.
+- Reuse the [complete named bleeding family](client-bleeding-output-family.md),
+  [typed eligibility and target gates](client-ailment-eligibility.md), and
+  [ailment chance inputs](client-ailment-chance-inputs.md); expand remaining ignite/poison
+  maximum/offhand and typed contribution outputs.
 - Reuse the [combined ailment multipliers and virtual faster producers](client-ailment-multiplier-inputs.md);
   expand remaining generic/typed multiplier production when needed.
 - Trace lifetime, instance snapshot/update policy, duration clocks, and stack selection separately.

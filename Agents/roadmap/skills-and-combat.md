@@ -123,7 +123,9 @@ The suspend/restore lifecycle is explicit LocalExile policy; see protocol/11-ski
   Existing owner-stat-to-clock subscriptions and source-rate expiry publication remain separate open edges.
   Reuse recovered outgoing ailment coefficients, faster/slower and critical-multiplier branches.
   Reuse complete MH/OH/spell chance builders and the selected defender modifier composition.
-  Complete missing typed/offhand/max ailment outputs only where needed for the common model.
+  Bleeding's twelve named rates and hand/critical builders are recovered; expand remaining ignite/poison outputs.
+  Reuse typed ailment permissions, target acquisition gates and ordinary/critical-only chance inputs.
+  Connect their real infliction consumers without assuming the chance sums perform a roll or create an instance.
   Keep effective critical probability distinct from per-event trials, confirmation and defender critical modifiers.
   Aura source metadata and versioned stack rules constrain authority without supplying the native rate publisher.
   Concrete Fireball/Melee contact and avoidance decisions are bound separately from panel formulas and feedback.
@@ -143,6 +145,8 @@ The suspend/restore lifecycle is explicit LocalExile policy; see protocol/11-ski
   Keep reference-damage defence estimates separate from accepted-hit mitigation and resource loss.
   Connect accepted contacts to numerical damage/critical/mitigation and pool receivers; these edges remain open.
   Follow other event configurations beyond GEAL/native listeners; selected player/Sand Spitter files have no handler.
+  Build a source-configuration semantic catalogue for effect-relevant .ot inheritance, events, API calls and modes.
+  Prior keyword inventories are bounded searches, not full semantic audits; reuse projectile-side source findings.
   Reuse the pinned PR #373 comparison: `0x1b4` is a skill-stat update; private capture claims need source records.
   Bounded negative scans are not absence proofs.
   Prioritize server-usable calculations and original C/S contracts; full rendering and live parity are not gates.

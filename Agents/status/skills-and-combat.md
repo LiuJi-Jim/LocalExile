@@ -725,6 +725,11 @@ and can require explicit recipes.
   A named RF template declares an incoming fire-rate magnitude; active instance/target publication stays open.
   Selected outgoing ailments independently scale base/added/history: bleed 42, ignite 54, poison 18 per minute.
   Faster/slower and critical ailment multipliers have separate rounding and Perfect Agony replacement branches.
+  All twelve named MH/OH min/max bleeding rates and their critical/noncritical multiplier builders are recovered.
+  MH final-factor 19873 has no mirrored factor in the inspected OH rates; publication rounding remains separate.
+  Typed ignite/poison permissions, hand-local poison gates and three target acquisition gates are recovered.
+  Seventeen ailment chance outputs preserve conditional integer sums, fixed Boolean amounts and no local 100 cap.
+  Original-instruction synthetic checks cover these gates/chances; actual infliction and publication remain open.
   Effective attack critical probability includes lucky/unlucky, extreme and unexciting branches; it is not a roll.
   Critical Link override, the 300% multiplier replacement and 100% floor are bound.
   Complete MH/OH/spell chance builders preserve hand-specific overrides, weapon tables and float32 operation order.
