@@ -137,6 +137,8 @@ The installed Life table binds these methods to `0x141e6c710` and `0x141e6c760` 
 They set byte `+0x1e2` on the object reached through `Entity+0x98` to zero/one and dispatch additional callbacks;
 the latter also invokes event context `+0x70` through `0x141de6000`.
 This is a concrete transition-specific reset, not a reset on every resource assignment.
+The [Buff clock guard audit](client-buff-clock-producers.md#a-decoded-life-assignment-clears-the-guard-on-revival)
+binds the latter callback to the retained Buffs component and its conditional advancement-guard clear.
 The Mana/ES selector branches return after the setter and do not execute that Life-only block.
 
 ### Assignment notifications and recharge delay

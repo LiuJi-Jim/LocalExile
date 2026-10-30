@@ -124,10 +124,12 @@ The suspend/restore lifecycle is explicit LocalExile policy; see protocol/11-ski
   Trace winning action extensions beyond inherited contacts and queued feedback to their numerical consequences.
   Melee attachment/controller outputs and DefaultArrow's five component update targets are bound.
   Selected Entity task factories, timers and secondary subscriptions are bound separately from component updates.
+  Reuse the selected action-start task's bound animation publisher/listener when a relevant trace reaches it.
   Trace live projectile task installation and external/nested listeners beyond those bounded identities.
   Selected Sand Spitter source Actor callbacks and attachment outputs are bound separately.
   Owner-dependent Buff clocks are bound at insertion; trace later stat-change refresh separately from damage rate.
-  Life-to-Buffs advancement guards are bound; trace the paired clear trigger and source-rate consequences.
+  Life-to-Buffs guards and the decoded nonpositive-to-positive Life clear trigger are bound.
+  Trace other guard producers and source-rate consequences separately from that assignment branch.
   A named RF template declares a rate input; connect its actual instance and target to native publication.
   Keep reference-damage defence estimates separate from accepted-hit mitigation and resource loss.
   Connect accepted contacts to numerical damage/critical/mitigation and pool receivers; these edges remain open.

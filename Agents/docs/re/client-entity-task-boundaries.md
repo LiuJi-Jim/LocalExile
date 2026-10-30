@@ -4,8 +4,9 @@ The Bow startup zero-time dispatch reaches a **native task list embedded at
 Entity `+0x58`**. Both local creation and serialized creation feed that list
 through a registry of two factory pointers per type. Selected concrete task
 types are now bound to their constructors and dispatch tables. This closes
-the list/receiver identity; it does **not** close the tasks' external listener
-publishers or establish an ordinary-hit damage/resource consequence.
+the list/receiver identity. The [listener supplement](client-entity-task-listener.md)
+additionally binds selected `0xc944` AnimationController publications; other
+listener paths and ordinary-hit damage/resource consequences remain open.
 
 The input is original `Client/Game.exe`, SHA256
 `78a0e227189c263658a7f65a02f086428b859bfc114ae8e7ce8aab721ebd48d5`,
@@ -115,8 +116,9 @@ the publisher-side container, appends it to that container, and retains
 the link at task `+0x80` (`0x141eb810b..0x141eb8149`). Primary removal
 slot `+0x18 → 0x141eb81f0` clears this retained link and unregisters it
 through `0x142c66120`. The publisher's concrete event invocation and the
-secondary callback consequences remain open. This task cannot be called
-empty or harmless on the basis of its tick return.
+secondary callback are now bound in the [listener supplement](client-entity-task-listener.md).
+The invoked secondary slot is `+0`, reaching animation-related operations;
+this task cannot be called empty or harmless on the basis of its tick return.
 
 **`0xd9aa`: another tick-returning task with a secondary receiver.**
 Constructor `0x1416a0690` stores key `0xd9aa`, the owning Entity, masks
@@ -156,9 +158,9 @@ hit pre-deduction and damage-relevant callbacks therefore remain open.
 
 Concrete next candidates are:
 
-- Bind the publisher returned by `0x14013def0`, its event iteration and
-  **the installed `0xc944` secondary table** before assigning callback
-  semantics. Preserve task `+0x18` receiver adjustment.
+- Reuse the [bound `0xc944` AnimationController publisher and secondary slot](client-entity-task-listener.md)
+  when a damage-relevant trace reaches it. Broader callback/state semantics
+  remain separate from the selected animation-related consequences.
 - Bind the `0xd9aa` publisher returned by `0x1401ebc40` and its secondary
   table separately; shared virtual offsets do not establish shared types.
 - Recover the dynamic type-key sources at callers `0x141fd59c0`,

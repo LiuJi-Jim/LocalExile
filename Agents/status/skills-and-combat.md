@@ -702,6 +702,7 @@ and can require explicit recipes.
   Winning extensions reach melee attachments/controller state and generic zero-time projectile dispatch.
   Conditional DefaultArrow resources bind Entity creation, the action clone and five component update slots.
   Entity-owned tasks have local/serialized factory pairs, owned dispatch, selected timers and secondary subscriptions.
+  A selected action-start task's AnimationController publisher invokes its nonempty secondary slot-zero callback.
   Live projectile task installation and external/nested listener consequences remain open.
   The entropy timer uses selected component simulation deltas and marks lazy re-seeding after 3.0 seconds.
   Actor result queues also drive action/control/knockback effects; numeric hit pre-deduction remains unproven.
@@ -716,6 +717,7 @@ and can require explicit recipes.
   Initial Entity insertion also uses owner clocks; later wire speed replacement differs from owner-stat refresh.
   Selected Buff observers clear reference holders; they do not establish a Stats-to-existing-clock subscription.
   Life initialization/transition can gate definition-selected Buff ticks through a retained Buffs component.
+  A decoded Life assignment from nonpositive to positive clears that guard and separately resets fractional carry.
   RF backend refresh/removal has art-object outputs; its two tick slots and insertion callback are empty.
   Burning Arrow's named backend lifecycle slots are empty; its incoming-rate publication is still unresolved.
   A named RF template declares an incoming fire-rate magnitude; active instance/target publication stays open.

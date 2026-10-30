@@ -3682,6 +3682,7 @@
         "r2-buff-speed-owner-v3",
         "r2-burning-arrow-bound",
         "r2-grants-value-resolver",
+        "r3-c944-listener-final",
         "r3-entity-task-boundaries-final",
         "r3-loss-receiver-boundary",
         "r3-projectile-extension-clone",
@@ -3929,6 +3930,7 @@
         }
       ],
       "sourceBatches": [
+        "r4-buff-guard-revive",
         "r4-client-selfkill-invoke"
       ],
       "selectedDecompilationCompleted": null
@@ -3961,6 +3963,7 @@
         }
       ],
       "sourceBatches": [
+        "r3-c944-listener-final",
         "r3-pr373-mortar-attachments"
       ],
       "selectedDecompilationCompleted": null
@@ -3978,6 +3981,7 @@
       ],
       "sourceBatches": [
         "r3-action-extensions-consequences",
+        "r3-c944-listener-final",
         "r3-pr373-mortar-attachments"
       ],
       "selectedDecompilationCompleted": null
@@ -4408,6 +4412,7 @@
         }
       ],
       "sourceBatches": [
+        "r3-c944-listener-final",
         "r3-weapon-provider-equipment-notify"
       ],
       "selectedDecompilationCompleted": null
@@ -4758,6 +4763,22 @@
         "r3-offence-typed"
       ],
       "selectedDecompilationCompleted": true
+    },
+    "0x140cbe5b0": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x140cbe5b0",
+          "endExclusive": "0x140cbe61d",
+          "bytes": 109,
+          "fileOffset": 13359536,
+          "sha256": "bb779b938de6ea85ce0131226c7aeb4667629eb1f7ef8172cf8231baa5bb3354"
+        }
+      ],
+      "sourceBatches": [
+        "r3-c944-listener-final"
+      ],
+      "selectedDecompilationCompleted": null
     },
     "0x140cbf280": {
       "boundary": "PE-unwind-root-and-chains",
@@ -6053,6 +6074,22 @@
       ],
       "selectedDecompilationCompleted": null
     },
+    "0x141636280": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x141636280",
+          "endExclusive": "0x1416369c2",
+          "bytes": 1858,
+          "fileOffset": 23287424,
+          "sha256": "edfd34cb3fdaf76a580571309f10e1246ceae673f88cbe2368b84e79f097d7ec"
+        }
+      ],
+      "sourceBatches": [
+        "r3-c944-listener-final"
+      ],
+      "selectedDecompilationCompleted": null
+    },
     "0x1416370f0": {
       "boundary": "PE-unwind-root-and-chains",
       "ranges": [
@@ -6085,6 +6122,22 @@
       ],
       "selectedDecompilationCompleted": null
     },
+    "0x14163e010": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x14163e010",
+          "endExclusive": "0x14163e35d",
+          "bytes": 845,
+          "fileOffset": 23319568,
+          "sha256": "631c54fa00bba7f4f5cf9e8ae2aff39eb567c1af2c508b0b832b54743cf7b27d"
+        }
+      ],
+      "sourceBatches": [
+        "r3-c944-listener-final"
+      ],
+      "selectedDecompilationCompleted": null
+    },
     "0x14163ffc0": {
       "boundary": "PE-unwind-root-and-chains",
       "ranges": [
@@ -6097,6 +6150,7 @@
         }
       ],
       "sourceBatches": [
+        "r3-c944-listener-final",
         "r3-entity-task-boundaries-final"
       ],
       "selectedDecompilationCompleted": null
@@ -6162,6 +6216,22 @@
       ],
       "sourceBatches": [
         "r3-entity-task-boundaries-final"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x141641db0": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x141641db0",
+          "endExclusive": "0x141641f34",
+          "bytes": 388,
+          "fileOffset": 23335344,
+          "sha256": "1321ecbad6ca35bbb530a88203fedb58697e8a2e7a42deb977a6a4e8e1fb0274"
+        }
+      ],
+      "sourceBatches": [
+        "r3-c944-listener-final"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -9791,6 +9861,38 @@
       ],
       "selectedDecompilationCompleted": null
     },
+    "0x141dba060": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x141dba060",
+          "endExclusive": "0x141dba20d",
+          "bytes": 429,
+          "fileOffset": 31167584,
+          "sha256": "b1d7854ff4370c34a6180c3b6798dfff92d5d224ccea0d78d6606cad1810fcac"
+        }
+      ],
+      "sourceBatches": [
+        "r3-c944-listener-final"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x141dba530": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x141dba530",
+          "endExclusive": "0x141dbabc6",
+          "bytes": 1686,
+          "fileOffset": 31168816,
+          "sha256": "ef4d8b3c371a19524586fbf40d54b47c6e7347917623e5f24e32bbff4b26d2c3"
+        }
+      ],
+      "sourceBatches": [
+        "r3-c944-listener-final"
+      ],
+      "selectedDecompilationCompleted": null
+    },
     "0x141dbb120": {
       "boundary": "PE-unwind-root-and-chains",
       "ranges": [
@@ -9807,6 +9909,22 @@
       ],
       "selectedDecompilationCompleted": null
     },
+    "0x141dbb620": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x141dbb620",
+          "endExclusive": "0x141dbbb96",
+          "bytes": 1398,
+          "fileOffset": 31173152,
+          "sha256": "279c2021ec72bd505bbd8eb5b4e2b553a4bb5e966e8f9bf7b1ef8dcfd64c2438"
+        }
+      ],
+      "sourceBatches": [
+        "r3-c944-listener-final"
+      ],
+      "selectedDecompilationCompleted": null
+    },
     "0x141dbde00": {
       "boundary": "PE-unwind-root-and-chains",
       "ranges": [
@@ -9820,6 +9938,22 @@
       ],
       "sourceBatches": [
         "r3-action-extensions-consequences"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x141dbe890": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x141dbe890",
+          "endExclusive": "0x141dbee9c",
+          "bytes": 1548,
+          "fileOffset": 31186064,
+          "sha256": "222166d25155bc1caf6e5d2113db6a3ba8aee3acc0beda505621bbbada9ccf6f"
+        }
+      ],
+      "sourceBatches": [
+        "r3-c944-listener-final"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -9853,6 +9987,22 @@
       ],
       "sourceBatches": [
         "r3-pr373-mortar-attachments"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x141dd3420": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x141dd3420",
+          "endExclusive": "0x141dd350c",
+          "bytes": 236,
+          "fileOffset": 31270944,
+          "sha256": "86cfd377e54b7d7fc98ecadd5ddb371435b2fe19528ccdabc477f4f2bec48a27"
+        }
+      ],
+      "sourceBatches": [
+        "r3-c944-listener-final"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -10665,7 +10815,8 @@
       ],
       "sourceBatches": [
         "r4-buff-clock-producers-life-guard",
-        "r4-buff-clock-update-callbacks"
+        "r4-buff-clock-update-callbacks",
+        "r4-buff-guard-revive"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -11678,7 +11829,8 @@
         }
       ],
       "sourceBatches": [
-        "network-and-sources"
+        "network-and-sources",
+        "r4-buff-guard-revive"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -11714,7 +11866,8 @@
         "life-and-stat-binding",
         "r3-loss-receiver-boundary",
         "r4-buff-clock-producers-discovery",
-        "r4-buff-clock-producers-life-guard"
+        "r4-buff-clock-producers-life-guard",
+        "r4-buff-guard-revive"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -11836,7 +11989,8 @@
         }
       ],
       "sourceBatches": [
-        "life-and-stat-binding"
+        "life-and-stat-binding",
+        "r4-buff-guard-revive"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -12195,6 +12349,7 @@
         "r3-hit-target-and-life",
         "r4-buff-clock-producers-discovery",
         "r4-buff-clock-producers-life-guard",
+        "r4-buff-guard-revive",
         "r4-life-death-assignment"
       ],
       "selectedDecompilationCompleted": true
@@ -12943,6 +13098,7 @@
         }
       ],
       "sourceBatches": [
+        "r3-c944-listener-final",
         "r3-entity-task-boundaries-final"
       ],
       "selectedDecompilationCompleted": null
@@ -13823,6 +13979,22 @@
       ],
       "selectedDecompilationCompleted": true
     },
+    "0x141fe0790": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x141fe0790",
+          "endExclusive": "0x141fe0839",
+          "bytes": 169,
+          "fileOffset": 33422224,
+          "sha256": "e3628a773dad4dffeffecccc2349998021899be0c0ba2c04ee55c0a96f11ab8d"
+        }
+      ],
+      "sourceBatches": [
+        "r4-buff-guard-revive"
+      ],
+      "selectedDecompilationCompleted": null
+    },
     "0x141fe5fd0": {
       "boundary": "PE-unwind-root-and-chains",
       "ranges": [
@@ -14477,6 +14649,7 @@
         }
       ],
       "sourceBatches": [
+        "r4-buff-guard-revive",
         "source-and-authority"
       ],
       "selectedDecompilationCompleted": true
@@ -21537,6 +21710,11 @@
       "functionCount": 5
     },
     {
+      "name": "r3-c944-listener-final",
+      "auditSha256": "98295fb083124f05e637d505e366aee3c10f3ee5b8ea7ce62ab4ec6fa84f64c3",
+      "functionCount": 15
+    },
+    {
       "name": "r3-contact-accuracy",
       "auditSha256": "9980ef0752f970413ff3d65b103e93bf533547907b23ff23b409000e436e41ed",
       "functionCount": 3
@@ -22025,6 +22203,11 @@
       "name": "r4-buff-clock-update-discovery",
       "auditSha256": "16c317bdcbadf54377ab387cee7c52e5f26b8771075b68aa5fffc777808502c1",
       "functionCount": 7
+    },
+    {
+      "name": "r4-buff-guard-revive",
+      "auditSha256": "5c8fefd51fca91d2bb03b4b8f0aa1d99d2cc0f99d37bf813f50705df118d4eba",
+      "functionCount": 8
     },
     {
       "name": "r4-client-selfkill-factory",
@@ -23349,6 +23532,142 @@
       "fileOffset": 54951264,
       "sha256": "7f6a514ff06a684b1bccfcd406f746df5df6057bf4d24c3529df8e299dddbc5d",
       "role": "Selected Actor/action, projectile component or Entity task slot; see focused supplements"
+    },
+    {
+      "table": "0x14346d398",
+      "offset": "0x0",
+      "target": "0x141636280",
+      "fileOffset": 54970264,
+      "sha256": "c874128373988d1c463f1a76210635c00873cba1b57ca110be32ec3660fe87c3",
+      "role": "Selected Actor/action, projectile component or Entity task slot; see focused supplements"
+    },
+    {
+      "table": "0x14346d398",
+      "offset": "0x8",
+      "target": "0x1400f0f00",
+      "fileOffset": 54970272,
+      "sha256": "d9ef84a3fe6554ba5faec6f478a120be36e4d00d060b896c9a9387cfb67472f0",
+      "role": "Selected Actor/action, projectile component or Entity task slot; see focused supplements"
+    },
+    {
+      "table": "0x14346d398",
+      "offset": "0x10",
+      "target": "0x1400f0f00",
+      "fileOffset": 54970280,
+      "sha256": "d9ef84a3fe6554ba5faec6f478a120be36e4d00d060b896c9a9387cfb67472f0",
+      "role": "Selected Actor/action, projectile component or Entity task slot; see focused supplements"
+    },
+    {
+      "table": "0x14346d398",
+      "offset": "0x18",
+      "target": "0x1400f0f00",
+      "fileOffset": 54970288,
+      "sha256": "d9ef84a3fe6554ba5faec6f478a120be36e4d00d060b896c9a9387cfb67472f0",
+      "role": "Selected Actor/action, projectile component or Entity task slot; see focused supplements"
+    },
+    {
+      "table": "0x14346d398",
+      "offset": "0x20",
+      "target": "0x1400f0f00",
+      "fileOffset": 54970296,
+      "sha256": "d9ef84a3fe6554ba5faec6f478a120be36e4d00d060b896c9a9387cfb67472f0",
+      "role": "Selected Actor/action, projectile component or Entity task slot; see focused supplements"
+    },
+    {
+      "table": "0x14346d398",
+      "offset": "0x28",
+      "target": "0x1400f0f00",
+      "fileOffset": 54970304,
+      "sha256": "d9ef84a3fe6554ba5faec6f478a120be36e4d00d060b896c9a9387cfb67472f0",
+      "role": "Selected Actor/action, projectile component or Entity task slot; see focused supplements"
+    },
+    {
+      "table": "0x14346d398",
+      "offset": "0x30",
+      "target": "0x1400f0f00",
+      "fileOffset": 54970312,
+      "sha256": "d9ef84a3fe6554ba5faec6f478a120be36e4d00d060b896c9a9387cfb67472f0",
+      "role": "Selected Actor/action, projectile component or Entity task slot; see focused supplements"
+    },
+    {
+      "table": "0x14346d398",
+      "offset": "0x38",
+      "target": "0x1400f0f00",
+      "fileOffset": 54970320,
+      "sha256": "d9ef84a3fe6554ba5faec6f478a120be36e4d00d060b896c9a9387cfb67472f0",
+      "role": "Selected Actor/action, projectile component or Entity task slot; see focused supplements"
+    },
+    {
+      "table": "0x14346d398",
+      "offset": "0x40",
+      "target": "0x1400f0f00",
+      "fileOffset": 54970328,
+      "sha256": "d9ef84a3fe6554ba5faec6f478a120be36e4d00d060b896c9a9387cfb67472f0",
+      "role": "Selected Actor/action, projectile component or Entity task slot; see focused supplements"
+    },
+    {
+      "table": "0x14346d398",
+      "offset": "0x48",
+      "target": "0x1400f0f00",
+      "fileOffset": 54970336,
+      "sha256": "d9ef84a3fe6554ba5faec6f478a120be36e4d00d060b896c9a9387cfb67472f0",
+      "role": "Selected Actor/action, projectile component or Entity task slot; see focused supplements"
+    },
+    {
+      "table": "0x14346d398",
+      "offset": "0x50",
+      "target": "0x1400f0f00",
+      "fileOffset": 54970344,
+      "sha256": "d9ef84a3fe6554ba5faec6f478a120be36e4d00d060b896c9a9387cfb67472f0",
+      "role": "Selected Actor/action, projectile component or Entity task slot; see focused supplements"
+    },
+    {
+      "table": "0x14346d398",
+      "offset": "0x58",
+      "target": "0x1400f0f00",
+      "fileOffset": 54970352,
+      "sha256": "d9ef84a3fe6554ba5faec6f478a120be36e4d00d060b896c9a9387cfb67472f0",
+      "role": "Selected Actor/action, projectile component or Entity task slot; see focused supplements"
+    },
+    {
+      "table": "0x14346d398",
+      "offset": "0x60",
+      "target": "0x1400f0f00",
+      "fileOffset": 54970360,
+      "sha256": "d9ef84a3fe6554ba5faec6f478a120be36e4d00d060b896c9a9387cfb67472f0",
+      "role": "Selected Actor/action, projectile component or Entity task slot; see focused supplements"
+    },
+    {
+      "table": "0x14346d398",
+      "offset": "0x68",
+      "target": "0x1400f0f00",
+      "fileOffset": 54970368,
+      "sha256": "d9ef84a3fe6554ba5faec6f478a120be36e4d00d060b896c9a9387cfb67472f0",
+      "role": "Selected Actor/action, projectile component or Entity task slot; see focused supplements"
+    },
+    {
+      "table": "0x14346d398",
+      "offset": "0x70",
+      "target": "0x1400f0f00",
+      "fileOffset": 54970376,
+      "sha256": "d9ef84a3fe6554ba5faec6f478a120be36e4d00d060b896c9a9387cfb67472f0",
+      "role": "Selected Actor/action, projectile component or Entity task slot; see focused supplements"
+    },
+    {
+      "table": "0x14346d398",
+      "offset": "0x78",
+      "target": "0x1400f0f00",
+      "fileOffset": 54970384,
+      "sha256": "d9ef84a3fe6554ba5faec6f478a120be36e4d00d060b896c9a9387cfb67472f0",
+      "role": "Selected Actor/action, projectile component or Entity task slot; see focused supplements"
+    },
+    {
+      "table": "0x14346d398",
+      "offset": "0x80",
+      "target": "0x1400f0f00",
+      "fileOffset": 54970392,
+      "sha256": "d9ef84a3fe6554ba5faec6f478a120be36e4d00d060b896c9a9387cfb67472f0",
+      "role": "Selected Actor/action, projectile component or Entity task slot; see focused supplements"
     }
   ],
   "scanCoverage": {
@@ -23383,10 +23702,10 @@
     }
   ],
   "verification": {
-    "entryCount": 1076,
-    "originalByteRangeCount": 1587,
+    "entryCount": 1086,
+    "originalByteRangeCount": 1597,
     "historicalBoundedThunkEntries": 4,
-    "pointerSlotCount": 149,
+    "pointerSlotCount": 166,
     "selectedDecompilationRecords": 514,
     "checkedReferenceInstructions": 13431,
     "decompilationFailures": [],
@@ -23542,6 +23861,12 @@
       "role": "Concrete Life configuration/transition to Buffs advancement guard; separate from speed/rate recalculation"
     },
     {
+      "path": "Tools/re/out/client-damage-audit/r4-buff-guard-revive/verification.json",
+      "bytes": 4945,
+      "sha256": "cd01ce44028e6bccada76b7698cd4661f4fb3b90881a1e3844794cfac43649f5",
+      "role": "Decoded Life assignment nonpositive-to-positive crossing clears the retained Buffs clock guard; distinct fractional-carry reset"
+    },
+    {
       "path": "Tools/re/out/client-damage-audit/r2-dot-publication-template-discovery/verification.json",
       "bytes": 2247,
       "sha256": "1177c0bee76324af913ebe3e8c2749f9986daac286555fabb15df2fd66b54bb5",
@@ -23558,6 +23883,12 @@
       "bytes": 27429,
       "sha256": "74efd40990f073f8122b11b69a90cfb0a9228dc01aa00adfe62a6d23eccb0655",
       "role": "Bounded Entity task registry, dual creation/ownership, selected timers and secondary subscription boundaries"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r3-c944-listener-verify.json",
+      "bytes": 9099,
+      "sha256": "e188ddb59073a259c6ec1e3fc9e2ef9831c193e582c2c29cc4aef58e963f1784",
+      "role": "Selected AnimationController publication to concrete c944 secondary slot-zero callback and animation-related consequences"
     },
     {
       "path": "Tools/re/out/client-damage-audit/r3-default-bow-type-enum.json",

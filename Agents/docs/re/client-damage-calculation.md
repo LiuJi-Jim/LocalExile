@@ -64,6 +64,7 @@ Detailed supplements keep the evidence reviewable without treating this summary 
 - [Winning action extensions: attached effects and zero-time projectile updates](client-action-extensions.md).
 - [Conditional DefaultArrow receivers, component updates and Entity task container](client-projectile-extension-receivers.md).
 - [Entity task factories, ownership, selected timers and external subscriptions](client-entity-task-boundaries.md).
+- [Selected action-start task: AnimationController publication and slot-zero listener](client-entity-task-listener.md).
 - [Hit queues, action contexts and control effects](client-hit-feedback.md).
 - [Hit/resource receiver search and its precise coverage](client-hit-resource-boundary.md).
 - [Predictive/lockstep scheduling and resource correction](client-damage-timing.md).
@@ -108,6 +109,7 @@ flowchart TD
   EXTEND --> TASKS[Typed Entity-owned task container]
   TASKS --> TASKFACTORY[Local / serialized factory pair and owned registration]
   TASKFACTORY --> TASKCALLBACK[Selected task countdowns / secondary subscriptions]
+  TASKCALLBACK --> TASKANIM[Selected c944: AnimationController publishes to secondary slot zero]
   TASKCALLBACK -. live installation and listener consequences unresolved .-> EFFECTS
   AVOID --> CONTINUE[Action-specific continuation: feedback / bookkeeping / empty slots]
   AVOID -. amount and critical calculation unresolved .-> HITCALC[Numerical damage / mitigation / routing]
@@ -117,7 +119,8 @@ flowchart TD
   ACTOR --> CONTROL[Interruption / knockback / action callbacks]
   ACTOR --> EVENT[Event interpreter]
   NOTIFY --> EVENT
-  NOTIFY --> CLOCKGUARD[Selected Life transition: Buffs advancement guard]
+  CORRECTION --> LIFETRANS[Life selector compares old / assigned current]
+  LIFETRANS --> CLOCKGUARD[Selected sign transitions: set / clear Buffs advancement guard]
   CLOCKGUARD --> CLOCK[Definition-gated duration / backend tick skip]
   REFDAMAGE[Character-sheet / monster reference damage] --> DEFEST[Estimated physical reduction: armour or Ward]
   DEFEST --> CATEGORY[Bound value-to-category reader]
@@ -125,6 +128,7 @@ flowchart TD
   NATIVE[Registered ClientOnlyKillSelf callable] --> ZERO[Context Life: absolute zero if positive]
   ZERO --> POOL
   ZERO --> NOTIFY
+  ZERO --> CLOCKGUARD
 ```
 
 The DoT formula graph and the network pool integration graph are both real static findings.
@@ -560,10 +564,10 @@ No client execution is authorized by this task list.
 | R3 | Physical-defence estimates | Established locally | [Three reference-damage formulas](client-defence-estimates.md), Ward substitution, cap/floor/rounding and category reader; concrete-hit mitigation remains separate |
 | R3 | Concrete contact → defender avoidance decision | Established locally | Fireball/Melee and data-bound Sand Spitter MonsterMortarAttack paths audited; [details](client-hit-production.md); selected source Actor callbacks are empty, attachment outputs bound; ordinary bow specialization remains separate |
 | R3 | Default ranged-action selection | Established locally | [Bow/Wand enum test, selected equipment-to-provider updates and startup registry winners](client-ranged-action-selection.md) bound; contact continuation consumes queued results; numerical damage remains separate |
-| R3 | Winning ranged extension receivers | Partial | [Conditional DefaultArrow selection, Entity creation, same-table action clone and five component update targets](client-projectile-extension-receivers.md) bound; [selected task factories/timers/subscriptions](client-entity-task-boundaries.md) bound separately from live projectile installation and external listener consequences |
+| R3 | Winning ranged extension receivers | Partial | [Conditional DefaultArrow selection, Entity creation, same-table action clone and five component update targets](client-projectile-extension-receivers.md) bound; [task factories/timers](client-entity-task-boundaries.md) and [selected animation listener](client-entity-task-listener.md) bound separately from live projectile installation and other listener consequences |
 | R3 | Accepted hit → numerical pre-deduction | Open | Connect established contact/avoidance to amount, critical, mitigation and typed pool receivers; inspected continuations consume existing feedback or have empty slots |
 | R3 | Hit packet → callbacks | Partial | Queue/control, named actions, secondary-action ID producer, GEAL and resource compiler bound; selected player/Sand Spitter files supply no custom-event handler; other configurations/consequences remain open |
-| R4 | Timing, freshness and correction policy | Partial | Scheduling, pool notifications, carry reset, entropy expiry and [Life-to-Buffs advancement guard](client-buff-clock-producers.md) established; existing-instance speed refresh, source-rate expiry and event/listener effects remain open |
+| R4 | Timing, freshness and correction policy | Partial | Scheduling, pool notifications, carry reset, entropy expiry and [Life-to-Buffs guard set/clear on selected transitions](client-buff-clock-producers.md) established; existing-instance speed refresh, source-rate expiry and event/listener effects remain open |
 | R4 | Official/community comparisons | Established comparison | [Pinned sources](client-damage-comparisons.md) distinguish historical explanations, wiki synthesis and PoB; current server equivalence is unproven |
 | R4 | PR #373 intermediate findings | Established comparison | [Pinned report and static cross-checks](client-damage-pr373-comparison.md); private capture counts/timestamps remain reported observations, not independently verified traffic |
 

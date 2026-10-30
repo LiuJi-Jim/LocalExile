@@ -67,6 +67,7 @@ How to regenerate them: [re/tooling.md](re/tooling.md) §7.
 | [re/client-action-extensions.md](re/client-action-extensions.md) | startup-selected melee attachment/controller output and ranged zero-time projectile dispatch |
 | [re/client-projectile-extension-receivers.md](re/client-projectile-extension-receivers.md) | conditional DefaultArrow resource, Entity/action binding, concrete component updates and task-container boundary |
 | [re/client-entity-task-boundaries.md](re/client-entity-task-boundaries.md) | local/serialized task factories, Entity ownership, selected countdowns and external-listener boundaries |
+| [re/client-entity-task-listener.md](re/client-entity-task-listener.md) | selected action-start task's AnimationController subscription, slot-zero publication and concrete animation callback |
 | [re/client-defence-estimates.md](re/client-defence-estimates.md) | reference-damage physical-defence formulas, Ward substitution and category consumers |
 | [re/client-dot-source-publication.md](re/client-dot-source-publication.md) | named RF template magnitude, table fixups and unresolved active instance publication |
 | [re/client-hit-feedback.md](re/client-hit-feedback.md) | immediate/queued result processing, action contexts, interruption, knockback and unresolved event consequences |

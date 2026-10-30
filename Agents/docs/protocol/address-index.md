@@ -173,7 +173,9 @@ These are client addresses; their presence is not proof of official-server imple
 | `0x141bb13a0` / `0x1412e2970` / `0x141bab560` | Fn | [Conditional projectile receivers](../re/client-projectile-extension-receivers.md): Entity allocation, same-table action clone and retained projectile binding |
 | `0x141edf5c0` / `0x141edf940` | Fn | [Entity-owned task container](../re/client-projectile-extension-receivers.md#entity-owned-tasks-identified-container-open-installed-types): typed factory registration and flag-gated zero-time dispatch |
 | `0x141ee00f0` / `0x141edff60` | Fn | [Serialized tasks and ownership](../re/client-entity-task-boundaries.md): separate factory pair entry, keyed replacement and removal |
+| `0x142188123` / `0x142188129` | Code | [Selected Life assignment crossing](../re/client-buff-clock-producers.md#a-decoded-life-assignment-clears-the-guard-on-revival): nonpositive-to-positive guard clear followed by separate fractional-carry reset |
 | `0x1416370f0` / `0x141ee0ba0` | Fn | [Task registry](../re/client-entity-task-boundaries.md#registry-storage-and-bounded-registration-inventory): 98 registrations in the exact inspected initializer; global total unresolved |
+| `0x141dd3420` / `0x141636280` | Fn | [Action-start task listener](../re/client-entity-task-listener.md): AnimationController publication through secondary slot zero; concrete animation-related callback |
 | `0x141e6a190` | Fn | Life tick; conditional Life/ES/Mana continuous integration |
 | `0x141e6ae70` / `0x141e6b480` / `0x141e6cba0` | Fn | Life / ES / Mana continuous pool steps |
 | `0x141e6a6b0` | Fn | Integer/fractional loss reducer; float overflow result in XMM0 |
