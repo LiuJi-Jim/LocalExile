@@ -10,6 +10,9 @@ No client was started, attached or controlled, and no traffic was captured for t
 The inspected head is `b0afa90ea5c58e9082099d887180df8299dcdaf3` in
 [evrydayjunglist/evryPath](https://github.com/evrydayjunglist/evryPath), branch `feature/ranged-monster-actions`.
 Its base for this comparison is `c1b112e4890d909a11f612a68702b514e66bdb0d`.
+The source PR is now merged; its inspected head is unchanged. This comparison
+still uses that pinned revision, rather than treating later repository changes
+as additional evidence or importing its implementation.
 Hashes below identify the exact Git blob bytes, including their original line endings:
 
 | Repository-relative source at that head | SHA256 |
@@ -28,7 +31,7 @@ decoded here. Static corroboration of a field's meaning does not verify a report
 
 | Reported finding or hypothesis | Independently established here | Remaining boundary |
 |---|---|---|
-| No server-created arrow objects in 45 shots; no mortar objects around sampled Sand Spitter attacks | Named Fireball and data-bound Sand Spitter MonsterMortarAttack paths establish local contact/avoidance and distinct continuation tables | Packet absence and native-object attribution cannot be independently checked without retained traffic; ordinary bow specialization and remaining mortar callbacks are still open |
+| No server-created arrow objects in 45 shots; no mortar objects around sampled Sand Spitter attacks | Named Fireball and data-bound Sand Spitter MonsterMortarAttack paths establish local contact/avoidance and distinct continuation tables; default Bow/Wand selection, equipment inputs and startup winners are now [bound statically](client-ranged-action-selection.md) | Packet absence and native-object attribution cannot be independently checked without retained traffic; the selected bow/wand contact callback consumes existing feedback, while its extensions and numerical damage remain separate |
 | `0x1af` carries action sequences and a byte called `skill index`, reported as 2 | The byte selects an action instance associated with the sequence; it is not a skill-list lookup in the audited consumer | The value 2 in all sampled hits, and its relation to the reported actions, remain capture claims; [consumer evidence](client-hit-feedback.md) is separate |
 | Variable common-header u32 and u16 1 on sampled hits | The common-header fields participate in lockstep scheduling gates | Sample values and packet correlation remain unverified; variation alone does not identify a damage seed |
 | `0x1b4` carries a skill ID and compact-int pairs, possibly a shot path | The complete reader-to-consumer path applies **skill stat key/value overrides**, detailed below | Actual keys and values in the reported 27 packets are unavailable; no shot trajectory can be inferred from the report |

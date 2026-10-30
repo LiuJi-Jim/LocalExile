@@ -196,7 +196,12 @@ The result consumer `0x141e91580` calls action slots `+0x2d0` at
 `0x141e92053` and `+0x2d8` at `0x141e920ae`, with `RDX=result` and
 `R8=resolved target Entity`. Both require a matching action and nonzero
 `result+0x49`. A base Action table with empty slots cannot settle the concrete
-dispatch. Named registrations and the final factory stores give these bindings:
+dispatch. Named registrations and their factory stores give these bindings.
+The Melee entries here belong to the earlier registration set; the later
+[startup winners](client-ranged-action-selection.md#startup-registration-and-replacement-order)
+install `0x1432e5718` and `0x14326d930` respectively, retaining these feedback
+callbacks while changing other slots. The earlier full tables cannot be treated
+as the final startup actions.
 
 | Action / registry variant | Named registration → factory | Final table / installation | `+0x2d0` | `+0x2d8` |
 |---|---|---|---|---|
@@ -224,7 +229,8 @@ supplied ASCII name with multiply-then-XOR FNV starting at zero and folds its
 high/low 16-bit halves. Coverage argument 0 inserts both variants, argument 1 only variant 0,
 and argument 2 only variant 1. The lookup derives the variant from Actor virtual
 `+0x148` data fields `+0x14c/+0x150`; the [selector supplement](client-ranged-action-selection.md)
-now binds this to the Bow/Wand weapon-state enum test, with startup registration order still open.
+now binds this to the Bow/Wand weapon-state enum test, selected equipment updates
+and startup replacement order. The numerical Hit-to-resource edge remains open.
 
 **Correction to the older generic spell-table example:** table `0x1434adb70`
 is concretely installed by factory `0x141991bc0`, whose registration
@@ -234,7 +240,7 @@ Fireball binding; the named Fireball registration above selects another table.
 ### Melee's nonempty callback
 
 `0x14136f210` preserves the target Entity, calls action virtual `+0x4b8`, then
-tail-jumps to `0x1419e4620` with `RCX=action`, `RDX=target`. For final table
+tail-jumps to `0x1419e4620` with `RCX=action`, `RDX=target`. For the earlier table
 `0x143517ba0`, slot `+0x4b8` is `0x141b55cb0`: it returns `1.0` for a skill
 data flag at `+0xa5`; otherwise it obtains stat context through `0x14193b350`,
 selects main/offhand attack-speed key 294/295 using action `+0x311`, and returns

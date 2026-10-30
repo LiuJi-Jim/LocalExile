@@ -76,6 +76,13 @@ selection for every action variant.
 
 ## Concrete action binding
 
+The Melee rows below record the earlier registration set. The audited startup
+later replaces both entries with factories whose final tables are
+`0x1432e5718` and `0x14326d930`; see the
+[startup winner proof](client-ranged-action-selection.md#startup-registration-and-replacement-order).
+The contact/avoidance entries discussed here are inherited by those winners,
+but changed extension callbacks must be followed separately.
+
 | Named registration | Factory / construction | Final primary table |
 |---|---|---|
 | Fireball, `0x141973cd0` | `0x141988dd0` → constructor `0x141a8b150`; table LEA `0x141a8b16c`, store `0x141a8b17e`; action type `0xaa4e` | `0x143335d80` |
@@ -84,7 +91,7 @@ selection for every action variant.
 
 The [ranged selector](client-ranged-action-selection.md) now binds the lookup variant to weapon state;
 the registrar's coverage argument is a separate value, not a server/client or predictive/lockstep mode.
-The winning registration set at ordinary startup remains open. In particular, the
+The winning registration set is now bound in that supplement. In particular, the
 temporary Melee base table is not the final variant-0 object's table. The
 CallAura/CastAura table from earlier broad action triage is not used as a proxy
 for these named actions.
@@ -394,8 +401,10 @@ ActionTypes row 47 `Melee`. Its stat-set row 476 includes getter keys 852
 establishes the general skill identity, **not** the concrete ranged
 specialization selected for the report's bow shot. Neither the selected
 variant-0 Melee empty contact slot nor the MonsterMortarAttack table can stand in
-for that still-open binding. The [selector/provider supplement](client-ranged-action-selection.md)
-now closes the Bow/Wand enum test; equipment updates and the winning registration set remain separate.
+for that binding. The [selector/provider supplement](client-ranged-action-selection.md)
+now closes the Bow/Wand enum test, selected equipment updates and startup winners.
+The winning bow/wand contact continuation consumes existing queued feedback;
+its projectile extension and a numerical damage producer remain separate questions.
 
 ## Remaining closure criteria
 

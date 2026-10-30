@@ -695,7 +695,8 @@ and can require explicit recipes.
   Named Fireball spatial contacts/dodge/projectile avoidance and Melee accuracy/entropy decisions are now bound.
   Sand Spitter MonsterMortarAttack has a factory/accuracy/radius-feedback binding and empty source Actor callbacks.
   Its selected effect continuation reaches attachment/render/animation; generic downstream consequences stay open.
-  Bow/Wand action-variant selection and its mutable Actor provider are bound; equipment/startup selection stays open.
+  Bow/Wand selection, equipment-to-provider notifications and ordered startup registration winners are bound.
+  The winning ranged contact callback consumes queued feedback; extension effects remain separate.
   The entropy timer uses selected component simulation deltas and marks lazy re-seeding after 3.0 seconds.
   Actor result queues also drive action/control/knockback effects; numeric hit pre-deduction remains unproven.
   GEAL rejects specific server-only resource/stat/Buff APIs; native Life reads and script listeners are also bound.
@@ -706,7 +707,10 @@ and can require explicit recipes.
   Buff duration ticks, opcode-driven removal and granted-value display totals are separate from rate publication.
   Buff duration/speed refresh and infinity defaults are bound; native source-token sums remain generic containers.
   Actual owner Stats initialize poison/bleeding instance clocks, including pause conditions and a general 0.25 floor.
+  Initial Entity insertion also uses owner clocks; later wire speed replacement differs from owner-stat refresh.
+  Selected Buff observers clear reference holders; they do not establish a Stats-to-existing-clock subscription.
   RF backend refresh/removal has art-object outputs; its two tick slots and insertion callback are empty.
+  Burning Arrow's named backend lifecycle slots are empty; its incoming-rate publication is still unresolved.
   Source-instance aggregation, event consequences and numerical-hit resource receivers remain open.
   Official/community comparisons and PoB formulas are pinned separately from current-server claims.
   This work neither changes server combat nor establishes official-server behavior.

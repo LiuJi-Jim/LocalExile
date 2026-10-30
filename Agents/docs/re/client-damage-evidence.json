@@ -3523,6 +3523,22 @@
       ],
       "selectedDecompilationCompleted": null
     },
+    "0x1400d8360": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1400d8360",
+          "endExclusive": "0x1400d83b5",
+          "bytes": 85,
+          "fileOffset": 882528,
+          "sha256": "d4598866972aa0fcb87e4bd7c6ab6181bdfa5a7dcdac6d5639f8f4d356bdb663"
+        }
+      ],
+      "sourceBatches": [
+        "r4-buff-clock-update-callbacks"
+      ],
+      "selectedDecompilationCompleted": null
+    },
     "0x1400da230": {
       "boundary": "PE-unwind-root-and-chains",
       "ranges": [
@@ -3616,8 +3632,10 @@
       ],
       "sourceBatches": [
         "r2-buff-speed-owner-v3",
+        "r2-burning-arrow-bound",
         "r2-grants-value-resolver",
         "r3-loss-receiver-boundary",
+        "r4-buff-clock-update-callbacks",
         "r4-contact-leaf-coverage"
       ],
       "selectedDecompilationCompleted": true
@@ -3680,6 +3698,7 @@
         }
       ],
       "sourceBatches": [
+        "r3-default-bow-startup-winner",
         "r3-loss-geal-builtins"
       ],
       "selectedDecompilationCompleted": null
@@ -3696,7 +3715,8 @@
         }
       ],
       "sourceBatches": [
-        "r1-client-mode-init"
+        "r1-client-mode-init",
+        "r3-default-bow-startup-continuations"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -3761,6 +3781,38 @@
       ],
       "sourceBatches": [
         "r4-contact-leaf-coverage"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x14012afe0": {
+      "boundary": "explicit-analyst-leaf-range",
+      "ranges": [
+        {
+          "start": "0x14012afe0",
+          "endExclusive": "0x14012afe6",
+          "bytes": 6,
+          "fileOffset": 1221600,
+          "sha256": "0e16a5f4f32347b761b9ac66a92a90037631e1eda4d9cb38b43bc0b44d90d764"
+        }
+      ],
+      "sourceBatches": [
+        "r4-buff-clock-observer-dispatch"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x140133540": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x140133540",
+          "endExclusive": "0x1401335aa",
+          "bytes": 106,
+          "fileOffset": 1255744,
+          "sha256": "38a3e718955e11b5a9b3f08e13b57efa49c900e83dc5db94efbf025ae61a8e97"
+        }
+      ],
+      "sourceBatches": [
+        "r3-default-bow-startup-continuations"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -3859,6 +3911,7 @@
         }
       ],
       "sourceBatches": [
+        "r3-action-extensions-consequences",
         "r3-pr373-mortar-attachments"
       ],
       "selectedDecompilationCompleted": null
@@ -3907,7 +3960,24 @@
         }
       ],
       "sourceBatches": [
+        "r3-action-extensions-consequences",
         "r3-pr373-mortar-attachments"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x140145180": {
+      "boundary": "explicit-analyst-leaf-range",
+      "ranges": [
+        {
+          "start": "0x140145180",
+          "endExclusive": "0x140145199",
+          "bytes": 25,
+          "fileOffset": 1328512,
+          "sha256": "b5e2f8489b7cb53f4e7d2b4a92694aad9a8a2cf97a1c424f598fd01193957a8c"
+        }
+      ],
+      "sourceBatches": [
+        "r4-buff-clock-observer-dispatch"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -3924,6 +3994,38 @@
       ],
       "sourceBatches": [
         "historical-static-callback-binding"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x140151800": {
+      "boundary": "explicit-analyst-leaf-range",
+      "ranges": [
+        {
+          "start": "0x140151800",
+          "endExclusive": "0x140151809",
+          "bytes": 9,
+          "fileOffset": 1379328,
+          "sha256": "87d72f8b7f8ad9fb7ab27ffb48a0ca48dffb84bdeb9603aaac77d10eef82474c"
+        }
+      ],
+      "sourceBatches": [
+        "r3-default-bow-startup-entry"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x140151810": {
+      "boundary": "explicit-analyst-leaf-range",
+      "ranges": [
+        {
+          "start": "0x140151810",
+          "endExclusive": "0x140151826",
+          "bytes": 22,
+          "fileOffset": 1379344,
+          "sha256": "d687bef10850145ac735f7f8479b8f801c2eb7d327dd5b776e98643eb7c50db6"
+        }
+      ],
+      "sourceBatches": [
+        "r3-default-bow-startup-continuations"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -3957,6 +4059,54 @@
       ],
       "sourceBatches": [
         "historical-static-callback-binding"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x14019a240": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x14019a240",
+          "endExclusive": "0x14019a2b8",
+          "bytes": 120,
+          "fileOffset": 1676864,
+          "sha256": "685a7cfcb28110a190d3e103d2e281cd88ae75e0e0d3b8910fc2d1e5be434c93"
+        }
+      ],
+      "sourceBatches": [
+        "r4-buff-clock-observer-dispatch"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x1401d81f4": {
+      "boundary": "explicit-analyst-leaf-range",
+      "ranges": [
+        {
+          "start": "0x1401d81f4",
+          "endExclusive": "0x1401d81fa",
+          "bytes": 6,
+          "fileOffset": 1930740,
+          "sha256": "3908eb448a0048d0d43a5e557ab0c37babd5486d80ddb6b537445511d88a483e"
+        }
+      ],
+      "sourceBatches": [
+        "r3-weapon-provider-notify-loop"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x1401d8280": {
+      "boundary": "explicit-analyst-leaf-range",
+      "ranges": [
+        {
+          "start": "0x1401d8280",
+          "endExclusive": "0x1401d8286",
+          "bytes": 6,
+          "fileOffset": 1930880,
+          "sha256": "cdd80f1143f03b1f461f90ae039ce7e61138bf8cbf4630386e30f4565b7773e6"
+        }
+      ],
+      "sourceBatches": [
+        "r3-weapon-provider-notify-loop"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -4161,6 +4311,22 @@
       ],
       "sourceBatches": [
         "r2-rf-outgoing-labels"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x1402fffbc": {
+      "boundary": "explicit-analyst-leaf-range",
+      "ranges": [
+        {
+          "start": "0x1402fffbc",
+          "endExclusive": "0x1402fffc1",
+          "bytes": 5,
+          "fileOffset": 3142588,
+          "sha256": "da247c7092194c2459ee733ede620d32077aea0ef19228d36cab019a7aed034a"
+        }
+      ],
+      "sourceBatches": [
+        "r3-weapon-provider-equipment-notify"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -4527,6 +4693,38 @@
       ],
       "selectedDecompilationCompleted": null
     },
+    "0x140cea0bc": {
+      "boundary": "explicit-analyst-leaf-range",
+      "ranges": [
+        {
+          "start": "0x140cea0bc",
+          "endExclusive": "0x140cea0c2",
+          "bytes": 6,
+          "fileOffset": 13538492,
+          "sha256": "3d91333ad567780a5e81239a60b1987d42111ca6d9f477e1c4237a25ff813c50"
+        }
+      ],
+      "sourceBatches": [
+        "r3-weapon-provider-equipment-notify"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x140e2f550": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x140e2f550",
+          "endExclusive": "0x140e2f704",
+          "bytes": 436,
+          "fileOffset": 14870864,
+          "sha256": "77aa30adcb0b75262a3efeb17ca38d70f1c1d0d4114190fce756ab0e2e2e57d3"
+        }
+      ],
+      "sourceBatches": [
+        "r3-default-bow-startup-continuations"
+      ],
+      "selectedDecompilationCompleted": null
+    },
     "0x140e35420": {
       "boundary": "explicit-analyst-leaf-range",
       "ranges": [
@@ -4556,6 +4754,22 @@
       ],
       "sourceBatches": [
         "r3-pr373-fireball-subaction-base"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x141249120": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x141249120",
+          "endExclusive": "0x14125cd9f",
+          "bytes": 81023,
+          "fileOffset": 19170592,
+          "sha256": "0427049efe615eaf5ab7b360c70bc2ad0da52e148ae8b44fa33c15c098cbe465"
+        }
+      ],
+      "sourceBatches": [
+        "r3-default-bow-startup-winner"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -4639,6 +4853,39 @@
       ],
       "selectedDecompilationCompleted": null
     },
+    "0x14126ec80": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x14126ec80",
+          "endExclusive": "0x14126ed0a",
+          "bytes": 138,
+          "fileOffset": 19325056,
+          "sha256": "297c9bd9cb5c1f53681b930d126c7451a3872422767dfb51f233fea5a2efb808"
+        }
+      ],
+      "sourceBatches": [
+        "r3-action-extensions-seeds",
+        "r3-default-bow-startup-continuations"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x14126ed10": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x14126ed10",
+          "endExclusive": "0x14126ed7d",
+          "bytes": 109,
+          "fileOffset": 19325200,
+          "sha256": "af07eb416787c68ddd84b1648bb4e3a77cb218bc56ff775232b349bfd35f5324"
+        }
+      ],
+      "sourceBatches": [
+        "r3-default-bow-startup-continuations"
+      ],
+      "selectedDecompilationCompleted": null
+    },
     "0x141278310": {
       "boundary": "PE-unwind-root-and-chains",
       "ranges": [
@@ -4651,7 +4898,8 @@
         }
       ],
       "sourceBatches": [
-        "r2-buff-registry-callers"
+        "r2-buff-registry-callers",
+        "r2-instance-builder-entry"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -4704,6 +4952,124 @@
       ],
       "selectedDecompilationCompleted": true
     },
+    "0x1412caec0": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1412caec0",
+          "endExclusive": "0x1412cb04f",
+          "bytes": 399,
+          "fileOffset": 19702464,
+          "sha256": "84cccb6b5e7aa1303ff3b319d34ab1ed3a4eb2c7aaf3b8b29ddb458035601a24"
+        }
+      ],
+      "sourceBatches": [
+        "r3-default-bow-startup-winner"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x1412cb0d0": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1412cb0d0",
+          "endExclusive": "0x1412cb228",
+          "bytes": 344,
+          "fileOffset": 19702992,
+          "sha256": "d7a90f43abcdf9df512e6b95a541b9bda0b56075c615ababaf12ffb4b6f041f2"
+        }
+      ],
+      "sourceBatches": [
+        "r3-default-bow-startup-winner"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x1412d50e0": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1412d50e0",
+          "endExclusive": "0x1412d5211",
+          "bytes": 305,
+          "fileOffset": 19743968,
+          "sha256": "b4c02fd2b2997568e43caca4f58abc515ca904420571979eebac03d6f64dbfad"
+        }
+      ],
+      "sourceBatches": [
+        "r3-action-extensions-seeds"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x1412df070": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1412df070",
+          "endExclusive": "0x1412df0b5",
+          "bytes": 69,
+          "fileOffset": 19784816,
+          "sha256": "0db3ddd213b7d7db39bfe79f0bfdf465012a9a52642aa7be88d032aa8020afff"
+        }
+      ],
+      "sourceBatches": [
+        "r3-action-extensions-seeds",
+        "r3-default-bow-startup-continuations"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x1412df7c0": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1412df7c0",
+          "endExclusive": "0x1412df7d6",
+          "bytes": 22,
+          "fileOffset": 19786688,
+          "sha256": "be1e1de4b7633095a07ee637174a38617c7aa4f3290d85ce545d91c1960c7dec"
+        },
+        {
+          "start": "0x1412df7d6",
+          "endExclusive": "0x1412df82a",
+          "bytes": 84,
+          "fileOffset": 19786710,
+          "sha256": "91dee05584418e036b27cfa17de6a2d1217a8860dbfa27674f3728746560253e"
+        },
+        {
+          "start": "0x1412df82a",
+          "endExclusive": "0x1412df862",
+          "bytes": 56,
+          "fileOffset": 19786794,
+          "sha256": "70138a9e9baefbde7ac4cff28787c50c0d438c18950693cf34e4caf45d506a68"
+        },
+        {
+          "start": "0x1412df862",
+          "endExclusive": "0x1412df863",
+          "bytes": 1,
+          "fileOffset": 19786850,
+          "sha256": "ae3f4619b0413d70d3004b9131c3752153074e45725be13b9a148978895e359e"
+        }
+      ],
+      "sourceBatches": [
+        "r3-default-bow-startup-entry"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x1412e1160": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1412e1160",
+          "endExclusive": "0x1412e11e8",
+          "bytes": 136,
+          "fileOffset": 19793248,
+          "sha256": "cbea768c834e871823b7575c06ab06a3e5fc8b20d12b6049aa29294c0e19ecd7"
+        }
+      ],
+      "sourceBatches": [
+        "r3-default-bow-startup-continuations"
+      ],
+      "selectedDecompilationCompleted": null
+    },
     "0x1412e34e0": {
       "boundary": "PE-unwind-root-and-chains",
       "ranges": [
@@ -4716,7 +5082,8 @@
         }
       ],
       "sourceBatches": [
-        "r3-contact-producers-verified"
+        "r3-contact-producers-verified",
+        "r3-default-bow-startup-entry"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -4752,6 +5119,38 @@
       ],
       "selectedDecompilationCompleted": true
     },
+    "0x141370060": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x141370060",
+          "endExclusive": "0x141370094",
+          "bytes": 52,
+          "fileOffset": 20378720,
+          "sha256": "800290b7289b7bae08bacf71683b2563ac07574d7696da2a413d9eac2177cab1"
+        }
+      ],
+      "sourceBatches": [
+        "r3-default-bow-startup-entry"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x141370110": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x141370110",
+          "endExclusive": "0x141370180",
+          "bytes": 112,
+          "fileOffset": 20378896,
+          "sha256": "cba6b1b5251efeb58a6c5716413fd3f4f933b19b29497b13d8a334c8a207d0d6"
+        }
+      ],
+      "sourceBatches": [
+        "r3-default-bow-startup-continuations"
+      ],
+      "selectedDecompilationCompleted": null
+    },
     "0x141374480": {
       "boundary": "PE-unwind-root-and-chains",
       "ranges": [
@@ -4765,6 +5164,52 @@
       ],
       "sourceBatches": [
         "r3-pr373-mortar-source-continuations"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x141378630": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x141378630",
+          "endExclusive": "0x1413786b8",
+          "bytes": 136,
+          "fileOffset": 20412976,
+          "sha256": "2a4db36519fad0075fb601b3c8010a62ec005f3c64f1b0898e0e59d2a761db88"
+        }
+      ],
+      "sourceBatches": [
+        "r3-action-extensions-seeds"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x1413789e0": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1413789e0",
+          "endExclusive": "0x1413789f4",
+          "bytes": 20,
+          "fileOffset": 20413920,
+          "sha256": "a24abb0d241ff6ad8cf3977f7bd4a133cdf326f07ee56079904f6412e3404dfe"
+        },
+        {
+          "start": "0x1413789f4",
+          "endExclusive": "0x141378a44",
+          "bytes": 80,
+          "fileOffset": 20413940,
+          "sha256": "4565a286bf1c2d699f10e6dc3411f9663abfcd9194382b0b7dd233ccbfa19ead"
+        },
+        {
+          "start": "0x141378a44",
+          "endExclusive": "0x141378a4a",
+          "bytes": 6,
+          "fileOffset": 20414020,
+          "sha256": "ac829edc8d3d5ff13f0d67c2504827d5bc4a860f9e0462749c945b7728053f34"
+        }
+      ],
+      "sourceBatches": [
+        "r3-action-extensions-seeds"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -4797,6 +5242,38 @@
       ],
       "sourceBatches": [
         "r3-loss-script-descriptors-bound"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x1413beb20": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1413beb20",
+          "endExclusive": "0x1413bed6a",
+          "bytes": 586,
+          "fileOffset": 20700960,
+          "sha256": "0d3f7ffbca33d6c71a5f044c565198ad24bf10860387ce6a6511ba64e0a037eb"
+        }
+      ],
+      "sourceBatches": [
+        "r3-action-extensions-consequences"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x1413c07a0": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1413c07a0",
+          "endExclusive": "0x1413c0b5a",
+          "bytes": 954,
+          "fileOffset": 20708256,
+          "sha256": "d2bb6295aa5f6523895390f0da28fec6ca19269696995160bad200310b7b3f94"
+        }
+      ],
+      "sourceBatches": [
+        "r3-action-extensions-seeds"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -5056,7 +5533,8 @@
         }
       ],
       "sourceBatches": [
-        "r2-buff-registry-callers"
+        "r2-buff-registry-callers",
+        "r2-instance-builder-entry"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -5089,6 +5567,39 @@
       ],
       "sourceBatches": [
         "r2-buff-registry-callers"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x1415cb8b0": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1415cb8b0",
+          "endExclusive": "0x1415cb90d",
+          "bytes": 93,
+          "fileOffset": 22850736,
+          "sha256": "de73c3ab638cc7af45f3a4c23a392cbf6f9ec8d14dace76ec81843495f072a98"
+        }
+      ],
+      "sourceBatches": [
+        "r2-burning-arrow-methods"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x1415d04f0": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1415d04f0",
+          "endExclusive": "0x1415d054b",
+          "bytes": 91,
+          "fileOffset": 22870256,
+          "sha256": "f91b9998416571b34a14ec5ef38da7ca74926dee68f662cb067e963370764213"
+        }
+      ],
+      "sourceBatches": [
+        "r2-burning-arrow-backend",
+        "r2-burning-arrow-bound"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -5204,6 +5715,50 @@
       ],
       "selectedDecompilationCompleted": null
     },
+    "0x1415fe130": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1415fe130",
+          "endExclusive": "0x1415fe1c4",
+          "bytes": 148,
+          "fileOffset": 23057712,
+          "sha256": "df3c07e7732323a1231f060f656badc7757952b6725fb4a167ca4d2ab5b3f227"
+        },
+        {
+          "start": "0x1415fe1c4",
+          "endExclusive": "0x1415fe224",
+          "bytes": 96,
+          "fileOffset": 23057860,
+          "sha256": "df1bfc253a18c5f0093fab9a0cb95b42af832bd9438ff5846903e470aa8aebd4"
+        },
+        {
+          "start": "0x1415fe224",
+          "endExclusive": "0x1415fe262",
+          "bytes": 62,
+          "fileOffset": 23057956,
+          "sha256": "b6d4a514c9b90f398fe1a79ea5663f6308a28b670ad7166e515db1ad6b5376ef"
+        },
+        {
+          "start": "0x1415fe262",
+          "endExclusive": "0x1415fe27d",
+          "bytes": 27,
+          "fileOffset": 23058018,
+          "sha256": "75c92dc9cb1e5f85c7605e7cddef40a107f7692c589c7c53307c0fcfd0a59996"
+        },
+        {
+          "start": "0x1415fe27d",
+          "endExclusive": "0x1415fe2a0",
+          "bytes": 35,
+          "fileOffset": 23058045,
+          "sha256": "74e1e8cd46af1b55f11935c4b4880b34224f63baab7a3d0cd3b90196cde456c1"
+        }
+      ],
+      "sourceBatches": [
+        "r3-action-extensions-consequences"
+      ],
+      "selectedDecompilationCompleted": null
+    },
     "0x141600aa0": {
       "boundary": "PE-unwind-root-and-chains",
       "ranges": [
@@ -5233,6 +5788,22 @@
       ],
       "sourceBatches": [
         "historical-static-callback-binding"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x141604300": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x141604300",
+          "endExclusive": "0x1416045ed",
+          "bytes": 749,
+          "fileOffset": 23082752,
+          "sha256": "eaa4041387fb2c7e2c300ce1c76ff6e328b620e7c327a29318312567c3e0bf87"
+        }
+      ],
+      "sourceBatches": [
+        "r3-action-extensions-consequences"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -5481,6 +6052,56 @@
         "r4-pool-recharge-notify"
       ],
       "selectedDecompilationCompleted": true
+    },
+    "0x1417959c0": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1417959c0",
+          "endExclusive": "0x141795a5f",
+          "bytes": 159,
+          "fileOffset": 24726976,
+          "sha256": "4c467e3ca7294f7b6b78041a9be66a20a620ce6028848680ec68cd5e38ecfc06"
+        }
+      ],
+      "sourceBatches": [
+        "r2-burning-arrow-methods"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x1417978c0": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1417978c0",
+          "endExclusive": "0x1417978f4",
+          "bytes": 52,
+          "fileOffset": 24734912,
+          "sha256": "bb338754ff25effc20a10cc4cd4162f19b34b662320fff7e3ec2581c6dad89ad"
+        }
+      ],
+      "sourceBatches": [
+        "r2-burning-arrow-bound",
+        "r2-burning-arrow-methods"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x141797900": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x141797900",
+          "endExclusive": "0x141797c7c",
+          "bytes": 892,
+          "fileOffset": 24734976,
+          "sha256": "b6fa053eec3d56304b86c2a2f4594d97d1980e245b8593f62a1f456b87285482"
+        }
+      ],
+      "sourceBatches": [
+        "r2-burning-arrow-bound",
+        "r2-burning-arrow-dtor"
+      ],
+      "selectedDecompilationCompleted": null
     },
     "0x14179d280": {
       "boundary": "PE-unwind-root-and-chains",
@@ -5824,6 +6445,7 @@
       "sourceBatches": [
         "r1-active-skill-owner",
         "r3-contact-producers-verified",
+        "r3-default-bow-startup-continuations",
         "r3-feedback-queue",
         "r3-pr373-action-identities"
       ],
@@ -6239,7 +6861,24 @@
         }
       ],
       "sourceBatches": [
+        "r3-default-bow-startup-winner",
         "r3-loss-action-registry"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x141947e70": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x141947e70",
+          "endExclusive": "0x14195dd33",
+          "bytes": 89795,
+          "fileOffset": 26505840,
+          "sha256": "e4221a834e9d82df8af3a10760fdbb172492c75937dc43a01cf48712b908b94c"
+        }
+      ],
+      "sourceBatches": [
+        "r3-default-bow-startup-winner"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -6339,6 +6978,22 @@
       ],
       "sourceBatches": [
         "r3-loss-concrete-actions"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x141977330": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x141977330",
+          "endExclusive": "0x1419774c4",
+          "bytes": 404,
+          "fileOffset": 26699568,
+          "sha256": "6dd90d3534f6c6320899899c9d585254531cadba79d0ab0786e3476533b86cb9"
+        }
+      ],
+      "sourceBatches": [
+        "r3-default-bow-startup-winner"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -8555,6 +9210,22 @@
       ],
       "selectedDecompilationCompleted": null
     },
+    "0x141dbde00": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x141dbde00",
+          "endExclusive": "0x141dbde7a",
+          "bytes": 122,
+          "fileOffset": 31183360,
+          "sha256": "d74f01fe9b7de9cab23477bc7f080c8a4f3e621eae765b5eb99129241a734894"
+        }
+      ],
+      "sourceBatches": [
+        "r3-action-extensions-consequences"
+      ],
+      "selectedDecompilationCompleted": null
+    },
     "0x141dc31c0": {
       "boundary": "PE-unwind-root-and-chains",
       "ranges": [
@@ -9080,6 +9751,22 @@
       ],
       "selectedDecompilationCompleted": null
     },
+    "0x141e05e30": {
+      "boundary": "explicit-analyst-leaf-range",
+      "ranges": [
+        {
+          "start": "0x141e05e30",
+          "endExclusive": "0x141e05e35",
+          "bytes": 5,
+          "fileOffset": 31478320,
+          "sha256": "e28bcf96b011c4e4cbdea7096f9c763383190c0fe0b9f3271acd392295eabc31"
+        }
+      ],
+      "sourceBatches": [
+        "r4-buff-clock-observer-dispatch"
+      ],
+      "selectedDecompilationCompleted": null
+    },
     "0x141e05e40": {
       "boundary": "PE-unwind-root-and-chains",
       "ranges": [
@@ -9092,6 +9779,8 @@
         }
       ],
       "sourceBatches": [
+        "r2-burning-arrow-bound",
+        "r2-instance-builder-entry",
         "r2-rf-backend"
       ],
       "selectedDecompilationCompleted": null
@@ -9211,6 +9900,96 @@
       ],
       "selectedDecompilationCompleted": null
     },
+    "0x141e091c0": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x141e091c0",
+          "endExclusive": "0x141e091de",
+          "bytes": 30,
+          "fileOffset": 31491520,
+          "sha256": "f986170db15c8fb9c579ebca0941784bdf243a1e6dc086b036de23ef83b8d023"
+        }
+      ],
+      "sourceBatches": [
+        "r4-buff-clock-update-discovery"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x141e091e0": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x141e091e0",
+          "endExclusive": "0x141e091f1",
+          "bytes": 17,
+          "fileOffset": 31491552,
+          "sha256": "83d9ce8b7aecf77267236cacf5aa28dd55d9796dddca00b202fd68eac7dc9063"
+        },
+        {
+          "start": "0x141e091f1",
+          "endExclusive": "0x141e0920e",
+          "bytes": 29,
+          "fileOffset": 31491569,
+          "sha256": "954718183b6555d93c60afb3c67b08d5e094001cc720e4e7dec8159e7ca25b6b"
+        },
+        {
+          "start": "0x141e0920e",
+          "endExclusive": "0x141e0925c",
+          "bytes": 78,
+          "fileOffset": 31491598,
+          "sha256": "d7351f5f35204ef8d8c89f99510a6fb99b6058b4b7c8545c0684e7bbb0f9756f"
+        },
+        {
+          "start": "0x141e0925c",
+          "endExclusive": "0x141e09266",
+          "bytes": 10,
+          "fileOffset": 31491676,
+          "sha256": "f9ad7d0b6e81b3e4af8bf054221b6181e147514570c4ed248db8c800bf3a948a"
+        },
+        {
+          "start": "0x141e09266",
+          "endExclusive": "0x141e0926c",
+          "bytes": 6,
+          "fileOffset": 31491686,
+          "sha256": "4eeabf8bcdc796d3a19ec782d70470e18a3a52ddfa5cfed7abe03e359a03625d"
+        }
+      ],
+      "sourceBatches": [
+        "r4-buff-clock-update-callbacks"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x141e092a0": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x141e092a0",
+          "endExclusive": "0x141e092d7",
+          "bytes": 55,
+          "fileOffset": 31491744,
+          "sha256": "35312e469cf38d743c5ffa0e021e43d315a857543589b94cf77c6b331084e704"
+        },
+        {
+          "start": "0x141e092d7",
+          "endExclusive": "0x141e09371",
+          "bytes": 154,
+          "fileOffset": 31491799,
+          "sha256": "73e627e4d95370d69b8ea5cceb61bd682219ab839e04c8688201d23bf3e3f877"
+        },
+        {
+          "start": "0x141e09371",
+          "endExclusive": "0x141e09383",
+          "bytes": 18,
+          "fileOffset": 31491953,
+          "sha256": "3a95979fdb81b001ba6a99e88d05b07420ff68ef85cf8278b4b48d061a5b5882"
+        }
+      ],
+      "sourceBatches": [
+        "r4-buff-clock-update-callbacks"
+      ],
+      "selectedDecompilationCompleted": null
+    },
     "0x141e09d90": {
       "boundary": "PE-unwind-root-and-chains",
       "ranges": [
@@ -9275,6 +10054,38 @@
       ],
       "selectedDecompilationCompleted": null
     },
+    "0x141e0fbc0": {
+      "boundary": "explicit-analyst-leaf-range",
+      "ranges": [
+        {
+          "start": "0x141e0fbc0",
+          "endExclusive": "0x141e0fbc7",
+          "bytes": 7,
+          "fileOffset": 31518656,
+          "sha256": "adf7db4d044a970a11bb0f7e94c1cc3e8b5df499213436dd10a7fc508b7d53ed"
+        }
+      ],
+      "sourceBatches": [
+        "r4-buff-clock-update-callbacks"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x141e0fbd0": {
+      "boundary": "explicit-analyst-leaf-range",
+      "ranges": [
+        {
+          "start": "0x141e0fbd0",
+          "endExclusive": "0x141e0fbd8",
+          "bytes": 8,
+          "fileOffset": 31518672,
+          "sha256": "cbf6e3c0e7f8c7c94db5aa718e0cf4bd600278d40bd92abbb93ced876a0cac11"
+        }
+      ],
+      "sourceBatches": [
+        "r4-buff-clock-update-callbacks"
+      ],
+      "selectedDecompilationCompleted": null
+    },
     "0x141e0fc40": {
       "boundary": "PE-unwind-root-and-chains",
       "ranges": [
@@ -9287,7 +10098,8 @@
         }
       ],
       "sourceBatches": [
-        "r2-buff-component"
+        "r2-buff-component",
+        "r4-buff-clock-update-discovery"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -9336,7 +10148,8 @@
         }
       ],
       "sourceBatches": [
-        "r2-buff-expiry-owner"
+        "r2-buff-expiry-owner",
+        "r4-buff-clock-update-discovery"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -9352,7 +10165,8 @@
         }
       ],
       "sourceBatches": [
-        "r2-buff-removal"
+        "r2-buff-removal",
+        "r4-buff-clock-update-callbacks"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -9382,7 +10196,8 @@
         }
       ],
       "sourceBatches": [
-        "r2-buff-removal"
+        "r2-buff-removal",
+        "r4-buff-clock-update-discovery"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -9398,7 +10213,8 @@
         }
       ],
       "sourceBatches": [
-        "r2-buff-owner-update"
+        "r2-buff-owner-update",
+        "r4-buff-clock-update-discovery"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -9414,7 +10230,8 @@
         }
       ],
       "sourceBatches": [
-        "r2-buff-expiry-owner"
+        "r2-buff-expiry-owner",
+        "r4-buff-clock-update-discovery"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -9501,6 +10318,116 @@
       ],
       "selectedDecompilationCompleted": null
     },
+    "0x141e1ec10": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x141e1ec10",
+          "endExclusive": "0x141e1ec91",
+          "bytes": 129,
+          "fileOffset": 31580176,
+          "sha256": "1b8b95c7d707208fb8694266048babf26fcd08260cbc1a0e9e844f9ad4259cd6"
+        }
+      ],
+      "sourceBatches": [
+        "r3-weapon-provider-equipment-notify"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x141e1ee30": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x141e1ee30",
+          "endExclusive": "0x141e1f25d",
+          "bytes": 1069,
+          "fileOffset": 31580720,
+          "sha256": "cdaf19c52a7efad6143109dfbd2ee84df970373bb3f6efd759d1bb21c56c4cf7"
+        }
+      ],
+      "sourceBatches": [
+        "r3-weapon-provider-equipment-bound-v2"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x141e1f310": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x141e1f310",
+          "endExclusive": "0x141e1f3a9",
+          "bytes": 153,
+          "fileOffset": 31581968,
+          "sha256": "187c50b2936f36e160b34f063c83c1c3970ea44fbff4fe16d3c3afb8869b7a03"
+        }
+      ],
+      "sourceBatches": [
+        "r3-weapon-provider-equipment-bound-v2"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x141e1f9b0": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x141e1f9b0",
+          "endExclusive": "0x141e1fb78",
+          "bytes": 456,
+          "fileOffset": 31583664,
+          "sha256": "3b0880793990c3dec91a7c37ab3c876b36e7c72b23da9fe065a5e35ce065ddf9"
+        }
+      ],
+      "sourceBatches": [
+        "r3-weapon-provider-equipment-events"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x141e1fb90": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x141e1fb90",
+          "endExclusive": "0x141e1fbfb",
+          "bytes": 107,
+          "fileOffset": 31584144,
+          "sha256": "ec574aab73766650264db6819f05cde75197944ca9bebd12e8ddb38f137ab8fa"
+        }
+      ],
+      "sourceBatches": [
+        "r3-weapon-provider-equipment-notify"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x141e26cb0": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x141e26cb0",
+          "endExclusive": "0x141e26cf3",
+          "bytes": 67,
+          "fileOffset": 31613104,
+          "sha256": "d5f049a521f29139a495b04dff8cd2db3da30a5c16ff4ba8f38084c0b8a4c860"
+        },
+        {
+          "start": "0x141e26cf3",
+          "endExclusive": "0x141e26d91",
+          "bytes": 158,
+          "fileOffset": 31613171,
+          "sha256": "e6c1c15812545c117e331b98830bce0b9ff3c4080d1eeac9d8d48a2e873e6f13"
+        },
+        {
+          "start": "0x141e26d91",
+          "endExclusive": "0x141e26e60",
+          "bytes": 207,
+          "fileOffset": 31613329,
+          "sha256": "81cdd401ba71aac03a5adf0b3e72b7423a05ec024668928d30c5725c8ef97758"
+        }
+      ],
+      "sourceBatches": [
+        "r4-buff-clock-update-discovery"
+      ],
+      "selectedDecompilationCompleted": null
+    },
     "0x141e27e30": {
       "boundary": "PE-unwind-root-and-chains",
       "ranges": [
@@ -9516,6 +10443,38 @@
         "r2-buff-bindings-v2"
       ],
       "selectedDecompilationCompleted": true
+    },
+    "0x141e28710": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x141e28710",
+          "endExclusive": "0x141e287d1",
+          "bytes": 193,
+          "fileOffset": 31619856,
+          "sha256": "84be2ef56887c3e367964d5103768e53b73f8a0682a0936ebeb82e69a29faa22"
+        }
+      ],
+      "sourceBatches": [
+        "r3-weapon-provider-equipment-events"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x141e287e0": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x141e287e0",
+          "endExclusive": "0x141e288b5",
+          "bytes": 213,
+          "fileOffset": 31620064,
+          "sha256": "7d86fbde6c7c3d56d96e5137d233e62cf47df6a7627bfefc141bbb70bab8b40e"
+        }
+      ],
+      "sourceBatches": [
+        "r3-weapon-provider-notify-loop"
+      ],
+      "selectedDecompilationCompleted": null
     },
     "0x141e35d30": {
       "boundary": "PE-unwind-root-and-chains",
@@ -10575,7 +11534,8 @@
       ],
       "sourceBatches": [
         "historical-static-callback-binding",
-        "r3-event-program-actor-ctor"
+        "r3-event-program-actor-ctor",
+        "r3-weapon-provider-equipment-events"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -10822,6 +11782,55 @@
         "r3-hit-target-and-life"
       ],
       "selectedDecompilationCompleted": true
+    },
+    "0x141e97190": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x141e97190",
+          "endExclusive": "0x141e977f2",
+          "bytes": 1634,
+          "fileOffset": 32073104,
+          "sha256": "800970afefc3c0229ff06f993606c54872c6dfc921317d6c5ad06c8dfbe39200"
+        }
+      ],
+      "sourceBatches": [
+        "r3-weapon-provider-equipment",
+        "r3-weapon-provider-equipment-bound-v2"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x141e9d320": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x141e9d320",
+          "endExclusive": "0x141e9d3af",
+          "bytes": 143,
+          "fileOffset": 32098080,
+          "sha256": "f6dc02c59070b08f8f562baa5330ebd16a8e1e4c3f0c8adaa5e55b125300170b"
+        }
+      ],
+      "sourceBatches": [
+        "r3-weapon-provider-equipment-bound-v2"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x141e9d3b0": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x141e9d3b0",
+          "endExclusive": "0x141e9d40f",
+          "bytes": 95,
+          "fileOffset": 32098224,
+          "sha256": "8cbe8c4ba1eac2da49db02ca4ac55e2b29c33cf85032976082d98d6bd879a1f8"
+        }
+      ],
+      "sourceBatches": [
+        "r3-weapon-provider-equipment-bound-v2"
+      ],
+      "selectedDecompilationCompleted": null
     },
     "0x141e9ebb0": {
       "boundary": "PE-unwind-root-and-chains",
@@ -11109,6 +12118,22 @@
       ],
       "sourceBatches": [
         "r3-loss-geal-builtins"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x141edf940": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x141edf940",
+          "endExclusive": "0x141edfb49",
+          "bytes": 521,
+          "fileOffset": 32369984,
+          "sha256": "8141c777793ae2ad076e3333e6ccde645e243e81f53ec0b18a9aa4299ff668d4"
+        }
+      ],
+      "sourceBatches": [
+        "r3-action-extensions-consequences"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -12404,6 +13429,22 @@
       ],
       "selectedDecompilationCompleted": null
     },
+    "0x1421932b0": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1421932b0",
+          "endExclusive": "0x14219409d",
+          "bytes": 3565,
+          "fileOffset": 35202736,
+          "sha256": "d45cba29ef3a6d1c87d4b5ab4e4c9057791f8b0bccdf3cd3d79b5937923c818f"
+        }
+      ],
+      "sourceBatches": [
+        "r3-weapon-provider-wire"
+      ],
+      "selectedDecompilationCompleted": null
+    },
     "0x1421940a0": {
       "boundary": "PE-unwind-root-and-chains",
       "ranges": [
@@ -12421,6 +13462,54 @@
       ],
       "selectedDecompilationCompleted": true
     },
+    "0x142196250": {
+      "boundary": "explicit-analyst-leaf-range",
+      "ranges": [
+        {
+          "start": "0x142196250",
+          "endExclusive": "0x142196257",
+          "bytes": 7,
+          "fileOffset": 35214928,
+          "sha256": "b1629eb14f819cbd1437d57228d82775bc02544edc5f6d18a79643b99b73d788"
+        }
+      ],
+      "sourceBatches": [
+        "r3-weapon-provider-equipment-bound-v2"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x142196260": {
+      "boundary": "explicit-analyst-leaf-range",
+      "ranges": [
+        {
+          "start": "0x142196260",
+          "endExclusive": "0x142196283",
+          "bytes": 35,
+          "fileOffset": 35214944,
+          "sha256": "c2cf2f8c809a2d8cb9fefa18ad274d5543aa11222e5cbd1771582687b7fbbe86"
+        }
+      ],
+      "sourceBatches": [
+        "r3-weapon-provider-equipment-bound-v2"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x142196290": {
+      "boundary": "explicit-analyst-leaf-range",
+      "ranges": [
+        {
+          "start": "0x142196290",
+          "endExclusive": "0x1421962af",
+          "bytes": 31,
+          "fileOffset": 35214992,
+          "sha256": "5e236103622a63f33b174ec451c72df91ecd7c4c834edc5ec675e2af56897053"
+        }
+      ],
+      "sourceBatches": [
+        "r3-weapon-provider-equipment-bound-v2"
+      ],
+      "selectedDecompilationCompleted": null
+    },
     "0x142196ce0": {
       "boundary": "PE-unwind-root-and-chains",
       "ranges": [
@@ -12437,6 +13526,22 @@
       ],
       "selectedDecompilationCompleted": true
     },
+    "0x142197b10": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x142197b10",
+          "endExclusive": "0x1421981c2",
+          "bytes": 1714,
+          "fileOffset": 35221264,
+          "sha256": "31e9393be32818bb89d6c3aa35fb1f068369a922f673fc352089110d667692cb"
+        }
+      ],
+      "sourceBatches": [
+        "r3-weapon-provider-wire"
+      ],
+      "selectedDecompilationCompleted": null
+    },
     "0x1421981d0": {
       "boundary": "PE-unwind-root-and-chains",
       "ranges": [
@@ -12450,6 +13555,22 @@
       ],
       "sourceBatches": [
         "r1-skill-final-binding"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x142198800": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x142198800",
+          "endExclusive": "0x142198d31",
+          "bytes": 1329,
+          "fileOffset": 35224576,
+          "sha256": "1a69dacbcf3e67bd5e3a0194d6ca2bcad59a04cf1e1ff6f99f343afe4d1a8208"
+        }
+      ],
+      "sourceBatches": [
+        "r3-weapon-provider-wire"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -12510,6 +13631,22 @@
       ],
       "sourceBatches": [
         "r3-default-bow-provider"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x142199310": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x142199310",
+          "endExclusive": "0x1421995fb",
+          "bytes": 747,
+          "fileOffset": 35227408,
+          "sha256": "6731922c57a8b9e5a589bf7099a6a571b4f2d532f150f670e0f9a3683bd00d65"
+        }
+      ],
+      "sourceBatches": [
+        "r3-weapon-provider-wire"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -12959,6 +14096,22 @@
         "r1-network-notifications-v2"
       ],
       "selectedDecompilationCompleted": true
+    },
+    "0x1424f44e0": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1424f44e0",
+          "endExclusive": "0x1424f4701",
+          "bytes": 545,
+          "fileOffset": 38746336,
+          "sha256": "93b62eff8e9df90e120ea658c677ce2c8dddf1d0921bde4483e4cab56c89d56d"
+        }
+      ],
+      "sourceBatches": [
+        "r3-weapon-provider-equipment-bound-v2"
+      ],
+      "selectedDecompilationCompleted": null
     },
     "0x1424fb5f0": {
       "boundary": "PE-unwind-root-and-chains",
@@ -18836,6 +19989,26 @@
       "functionCount": 7
     },
     {
+      "name": "r2-burning-arrow-backend",
+      "auditSha256": "d0f0c72f3370b97241547299cd868a4ef3286c3e06aa37ab57cc170e5796a51f",
+      "functionCount": 1
+    },
+    {
+      "name": "r2-burning-arrow-bound",
+      "auditSha256": "2c935fc68c16a6352a595cfb9c6d31c64c8759ef8a99ca1f425e242fac44e510",
+      "functionCount": 5
+    },
+    {
+      "name": "r2-burning-arrow-dtor",
+      "auditSha256": "23565f405fe12675b5310ccbed9629c638c99d9b4fd62eb1915553a6962a2566",
+      "functionCount": 1
+    },
+    {
+      "name": "r2-burning-arrow-methods",
+      "auditSha256": "feb81b05d389949884c52a4f3408a6186b3da12f562be67f9dcac40bcc26a764",
+      "functionCount": 3
+    },
+    {
       "name": "r2-context-dot-production",
       "auditSha256": "302904149ffeb6e0f453abb61bf36e64a02df90b87a7326c2b2def5be53a7f83",
       "functionCount": 2
@@ -18869,6 +20042,16 @@
       "name": "r2-grants-value-resolver",
       "auditSha256": "207b343be97398f9b529a87ef22ec4d0615349ce6334da3faeb2099583f120c7",
       "functionCount": 6
+    },
+    {
+      "name": "r2-instance-builder-entry",
+      "auditSha256": "c805679a1746a5441d15f2cdba4affd43a9e73f5a2497104c1a4e7b22a09c4cd",
+      "functionCount": 3
+    },
+    {
+      "name": "r2-named-dot-backend-refs",
+      "auditSha256": "79c137a9ed6cf5c9e12ecdfd9ffdf44d063ce62314ba582be229ba82afef3d8c",
+      "functionCount": 0
     },
     {
       "name": "r2-native-source-tokens",
@@ -18961,6 +20144,16 @@
       "functionCount": 191
     },
     {
+      "name": "r3-action-extensions-consequences",
+      "auditSha256": "cb9641f1617ee56c7d458a2b8884e97c2f6d362736fbecf0eeb41e8c65ca0028",
+      "functionCount": 7
+    },
+    {
+      "name": "r3-action-extensions-seeds",
+      "auditSha256": "9cdda3bcf091f22843b9989fd74245b4f7282bb41a3c7ad5b72e33389d88387a",
+      "functionCount": 6
+    },
+    {
       "name": "r3-actor-loop",
       "auditSha256": "ccfd55835694fe1e2269054c1547a75dfde2ac405c3722bc601eadd051b33e83",
       "functionCount": 5
@@ -19044,6 +20237,26 @@
       "name": "r3-default-bow-registration-bound",
       "auditSha256": "83793f03968d4f5b3ad964a350ba3d813578ea20a062a764338597bdd55b574d",
       "functionCount": 4
+    },
+    {
+      "name": "r3-default-bow-startup-continuations",
+      "auditSha256": "41fff3aa466ee134484655c9693007aa09dfc1562b67c0b359fd1620ea46e9a6",
+      "functionCount": 10
+    },
+    {
+      "name": "r3-default-bow-startup-entry",
+      "auditSha256": "e0257fc735fb5e97ff38ca7a826f50ec51d2ae2ccd56e76bfce7d4c7fa84df56",
+      "functionCount": 4
+    },
+    {
+      "name": "r3-default-bow-startup-refs",
+      "auditSha256": "95ee8d4a7a9c6a0000e100df824775a06541982df5fa18e46f8183384396adc8",
+      "functionCount": 0
+    },
+    {
+      "name": "r3-default-bow-startup-winner",
+      "auditSha256": "5064bc26ffb97702a752f7267813bad207d3fda3cb6a8b7c4396437f578a74e1",
+      "functionCount": 7
     },
     {
       "name": "r3-event-archive-loader",
@@ -19329,6 +20542,61 @@
       "name": "r3-pr373-subaction-allocation",
       "auditSha256": "53e85f58672854d716864a3cbe51098c6174df6af7776b9ba7c1f06abadf87dc",
       "functionCount": 4
+    },
+    {
+      "name": "r3-weapon-provider-equipment",
+      "auditSha256": "8ab455d1b05b281105ba2f493964a7ba1bfc8a47a75c88bcb40a9f79d565d513",
+      "functionCount": 1
+    },
+    {
+      "name": "r3-weapon-provider-equipment-bound-v2",
+      "auditSha256": "7f1d55ad14669bd0a5792dce9dd8bf37611df1a84eecd2c8d063002712b949ac",
+      "functionCount": 9
+    },
+    {
+      "name": "r3-weapon-provider-equipment-events",
+      "auditSha256": "44ab5f7d998e058c26017c54999f063f5aeab3b59788546436720c9209e99dab",
+      "functionCount": 3
+    },
+    {
+      "name": "r3-weapon-provider-equipment-notify",
+      "auditSha256": "27e1e3f02e69f0c612b78bec314f90e66017fd41399687654950cf2d775eccb4",
+      "functionCount": 4
+    },
+    {
+      "name": "r3-weapon-provider-notify-loop",
+      "auditSha256": "becefc16c81a98786c82be972dfeebb7f4d1143f33e5eb7a149356ccbe6135a6",
+      "functionCount": 3
+    },
+    {
+      "name": "r3-weapon-provider-virtual140",
+      "auditSha256": "31b004d91b7cb72ac2bdae8dd3bee7d3fe83963f165c153dd98d952fc29c27a6",
+      "functionCount": 0
+    },
+    {
+      "name": "r3-weapon-provider-virtual148",
+      "auditSha256": "6f87fbb0ef0ac540a69e74169040cd6bdb682a28f26c32eea5ee36bebde65957",
+      "functionCount": 0
+    },
+    {
+      "name": "r3-weapon-provider-wire",
+      "auditSha256": "c37bc3862348683e236752b962b76624678a684418658adbff46f6429dd2fb4b",
+      "functionCount": 4
+    },
+    {
+      "name": "r4-buff-clock-observer-dispatch",
+      "auditSha256": "0dfad684be45212ab65bc2e6adbac1bd59de411309878dbe1c8ddca6bed92be3",
+      "functionCount": 4
+    },
+    {
+      "name": "r4-buff-clock-update-callbacks",
+      "auditSha256": "bc3b7be30b113229af6cc946b7c732cba9cb0b85d271bcb8403299151da84acb",
+      "functionCount": 7
+    },
+    {
+      "name": "r4-buff-clock-update-discovery",
+      "auditSha256": "16c317bdcbadf54377ab387cee7c52e5f26b8771075b68aa5fffc777808502c1",
+      "functionCount": 7
     },
     {
       "name": "r4-client-selfkill-factory",
@@ -20165,6 +21433,350 @@
       "fileOffset": 52899936,
       "sha256": "f1a3de34dfcbc1d0cc82bee87c62eb9e8556479d67404c0c3c8d3bc7e4df240e",
       "role": "Selected source Actor empty callback or concrete action animation getter; see contact supplement"
+    },
+    {
+      "table": "0x142f9d200",
+      "offset": "0x8",
+      "target": "0x140151810",
+      "fileOffset": 49923592,
+      "sha256": "4eb57415638304cb0f03aedb8caafca25187ebb4cc3b04e2aff604476706d964",
+      "role": "Selected source Actor empty callback or concrete action animation getter; see contact supplement"
+    },
+    {
+      "table": "0x142f9d200",
+      "offset": "0x10",
+      "target": "0x140151800",
+      "fileOffset": 49923600,
+      "sha256": "3eece59be127ece75c82c8c3bb7bec590ba3e599410b5484f495ce3140b36be6",
+      "role": "Selected source Actor empty callback or concrete action animation getter; see contact supplement"
+    },
+    {
+      "table": "0x1432e5718",
+      "offset": "0x2d8",
+      "target": "0x14136f210",
+      "fileOffset": 53366256,
+      "sha256": "f7e15fdf9cb8fc63dd3c0ee28fd5917e0b0aaec38baca8c6ff674a0e7814adf5",
+      "role": "Selected source Actor empty callback or concrete action animation getter; see contact supplement"
+    },
+    {
+      "table": "0x1432e5718",
+      "offset": "0x520",
+      "target": "0x141c98700",
+      "fileOffset": 53366840,
+      "sha256": "9018acd847cca814470c37261742d1ee1ad9994a5320dafb5eea0ff0cfcf7b66",
+      "role": "Selected source Actor empty callback or concrete action animation getter; see contact supplement"
+    },
+    {
+      "table": "0x1432e5718",
+      "offset": "0x530",
+      "target": "0x1400f0f00",
+      "fileOffset": 53366856,
+      "sha256": "d9ef84a3fe6554ba5faec6f478a120be36e4d00d060b896c9a9387cfb67472f0",
+      "role": "Selected source Actor empty callback or concrete action animation getter; see contact supplement"
+    },
+    {
+      "table": "0x1432e5718",
+      "offset": "0x548",
+      "target": "0x14126ec80",
+      "fileOffset": 53366880,
+      "sha256": "c18d78697ce77d1d7f40ebd33f3f27e2ce448126ad42e326a4959abcf8765907",
+      "role": "Selected source Actor empty callback or concrete action animation getter; see contact supplement"
+    },
+    {
+      "table": "0x14326d930",
+      "offset": "0x2d0",
+      "target": "0x1400f0f00",
+      "fileOffset": 52875264,
+      "sha256": "d9ef84a3fe6554ba5faec6f478a120be36e4d00d060b896c9a9387cfb67472f0",
+      "role": "Selected source Actor empty callback or concrete action animation getter; see contact supplement"
+    },
+    {
+      "table": "0x14326d930",
+      "offset": "0x2d8",
+      "target": "0x1400f0f00",
+      "fileOffset": 52875272,
+      "sha256": "d9ef84a3fe6554ba5faec6f478a120be36e4d00d060b896c9a9387cfb67472f0",
+      "role": "Selected source Actor empty callback or concrete action animation getter; see contact supplement"
+    },
+    {
+      "table": "0x14326d930",
+      "offset": "0x530",
+      "target": "0x1412e34e0",
+      "fileOffset": 52875872,
+      "sha256": "f1a3de34dfcbc1d0cc82bee87c62eb9e8556479d67404c0c3c8d3bc7e4df240e",
+      "role": "Selected source Actor empty callback or concrete action animation getter; see contact supplement"
+    },
+    {
+      "table": "0x14326d930",
+      "offset": "0x538",
+      "target": "0x141b6f540",
+      "fileOffset": 52875880,
+      "sha256": "fc5ff756ec5cf742131c0075ecb4a107058a491e55340596b2285ab934dc8aaf",
+      "role": "Selected source Actor empty callback or concrete action animation getter; see contact supplement"
+    },
+    {
+      "table": "0x14326d930",
+      "offset": "0x558",
+      "target": "0x1412df070",
+      "fileOffset": 52875912,
+      "sha256": "fb439692efebef3469af568aeb6b0af262190d49501607f3050ba1858109f056",
+      "role": "Selected source Actor empty callback or concrete action animation getter; see contact supplement"
+    },
+    {
+      "table": "0x14326d930",
+      "offset": "0x570",
+      "target": "0x141b6f950",
+      "fileOffset": 52875936,
+      "sha256": "86b76b6f2963c03b1f9614739ffa43884f967d8721da7721b17adaf522b291cc",
+      "role": "Selected source Actor empty callback or concrete action animation getter; see contact supplement"
+    },
+    {
+      "table": "0x14326d930",
+      "offset": "0x590",
+      "target": "0x1412df7c0",
+      "fileOffset": 52875968,
+      "sha256": "9c4d11f6a5a2865129f651255c1958fa1bb823e42d22972cf4832b172ab6be37",
+      "role": "Selected source Actor empty callback or concrete action animation getter; see contact supplement"
+    },
+    {
+      "table": "0x14326d930",
+      "offset": "0x618",
+      "target": "0x141bb13a0",
+      "fileOffset": 52876104,
+      "sha256": "a2835259d3c93ddf9d21d45b0c03261bec97e2a8ced796c5cf313319b5d973df",
+      "role": "Selected source Actor empty callback or concrete action animation getter; see contact supplement"
+    },
+    {
+      "table": "0x14326d930",
+      "offset": "0x778",
+      "target": "0x1400ed4a0",
+      "fileOffset": 52876456,
+      "sha256": "68a543b57a78e572f8d793bb9bd4ea0e062dad273132d9ff3d8d3bb107493a3f",
+      "role": "Selected source Actor empty callback or concrete action animation getter; see contact supplement"
+    },
+    {
+      "table": "0x14359e078",
+      "offset": "0xc0",
+      "target": "0x141e1fb90",
+      "fileOffset": 56218936,
+      "sha256": "332309bd2bac8caadbbcde0892f52fa7a1b685d8a3a492e1730bb0381e6bf0d1",
+      "role": "Selected source Actor empty callback or concrete action animation getter; see contact supplement"
+    },
+    {
+      "table": "0x14359e078",
+      "offset": "0xa0",
+      "target": "0x141e1ee30",
+      "fileOffset": 56218904,
+      "sha256": "736da8ff6eab2247886b4f8154cca3ffe7293de497fbe5647c1a89234ebdef60",
+      "role": "Selected source Actor empty callback or concrete action animation getter; see contact supplement"
+    },
+    {
+      "table": "0x14346ea20",
+      "offset": "0x0",
+      "target": "0x142196250",
+      "fileOffset": 54976032,
+      "sha256": "d9d630aa820b7de582a8cf48f9bbd6ffd990cb83573ada41ca86e56b83ae0abd",
+      "role": "Selected source Actor empty callback or concrete action animation getter; see contact supplement"
+    },
+    {
+      "table": "0x14346ea20",
+      "offset": "0x8",
+      "target": "0x141e9d320",
+      "fileOffset": 54976040,
+      "sha256": "f8c15663c2af3b94486e08c1617870beb38526c5eb51cbc885f6b70ae2632114",
+      "role": "Selected source Actor empty callback or concrete action animation getter; see contact supplement"
+    },
+    {
+      "table": "0x14346ea20",
+      "offset": "0x10",
+      "target": "0x141e9d3b0",
+      "fileOffset": 54976048,
+      "sha256": "9b124c22064bd4818dec5a0632477bdab19d7ef9dc7b9f8f2caaaf21ee796a96",
+      "role": "Selected source Actor empty callback or concrete action animation getter; see contact supplement"
+    },
+    {
+      "table": "0x14346ea20",
+      "offset": "0x18",
+      "target": "0x142196260",
+      "fileOffset": 54976056,
+      "sha256": "f4fca0c0d6abcdec63d934a5ea1323b021c351de9526ea273479a74553874286",
+      "role": "Selected source Actor empty callback or concrete action animation getter; see contact supplement"
+    },
+    {
+      "table": "0x1435daa70",
+      "offset": "0x140",
+      "target": "0x141651830",
+      "fileOffset": 56467376,
+      "sha256": "86ccbfc4e31beb67b5977b43c9e956c4a419576a09dcb7df3d276df9a661d572",
+      "role": "Selected source Actor empty callback or concrete action animation getter; see contact supplement"
+    },
+    {
+      "table": "0x14346e558",
+      "offset": "0x140",
+      "target": "0x141651830",
+      "fileOffset": 54975128,
+      "sha256": "86ccbfc4e31beb67b5977b43c9e956c4a419576a09dcb7df3d276df9a661d572",
+      "role": "Selected source Actor empty callback or concrete action animation getter; see contact supplement"
+    },
+    {
+      "table": "0x1435daa70",
+      "offset": "0x2a8",
+      "target": "0x142196290",
+      "fileOffset": 56467736,
+      "sha256": "a6c4b8b4e69f0ade83c98bbccd1bdd81c2ef976fe7ecb6600b5bbf36d09d16be",
+      "role": "Selected source Actor empty callback or concrete action animation getter; see contact supplement"
+    },
+    {
+      "table": "0x14346e558",
+      "offset": "0x2a8",
+      "target": "0x142196290",
+      "fileOffset": 54975488,
+      "sha256": "a6c4b8b4e69f0ade83c98bbccd1bdd81c2ef976fe7ecb6600b5bbf36d09d16be",
+      "role": "Selected source Actor empty callback or concrete action animation getter; see contact supplement"
+    },
+    {
+      "table": "0x14359f5f8",
+      "offset": "0x8",
+      "target": "0x1400f0f00",
+      "fileOffset": 56224256,
+      "sha256": "d9ef84a3fe6554ba5faec6f478a120be36e4d00d060b896c9a9387cfb67472f0",
+      "role": "Selected source Actor empty callback or concrete action animation getter; see contact supplement"
+    },
+    {
+      "table": "0x14359f5f8",
+      "offset": "0x10",
+      "target": "0x1400f0f00",
+      "fileOffset": 56224264,
+      "sha256": "d9ef84a3fe6554ba5faec6f478a120be36e4d00d060b896c9a9387cfb67472f0",
+      "role": "Selected source Actor empty callback or concrete action animation getter; see contact supplement"
+    },
+    {
+      "table": "0x14359f5f8",
+      "offset": "0x18",
+      "target": "0x1400f0f00",
+      "fileOffset": 56224272,
+      "sha256": "d9ef84a3fe6554ba5faec6f478a120be36e4d00d060b896c9a9387cfb67472f0",
+      "role": "Selected source Actor empty callback or concrete action animation getter; see contact supplement"
+    },
+    {
+      "table": "0x14359f5f8",
+      "offset": "0x20",
+      "target": "0x1400f0f00",
+      "fileOffset": 56224280,
+      "sha256": "d9ef84a3fe6554ba5faec6f478a120be36e4d00d060b896c9a9387cfb67472f0",
+      "role": "Selected source Actor empty callback or concrete action animation getter; see contact supplement"
+    },
+    {
+      "table": "0x14359f5f8",
+      "offset": "0x28",
+      "target": "0x1400f0f00",
+      "fileOffset": 56224288,
+      "sha256": "d9ef84a3fe6554ba5faec6f478a120be36e4d00d060b896c9a9387cfb67472f0",
+      "role": "Selected source Actor empty callback or concrete action animation getter; see contact supplement"
+    },
+    {
+      "table": "0x14359f5f8",
+      "offset": "0x30",
+      "target": "0x1400f0f00",
+      "fileOffset": 56224296,
+      "sha256": "d9ef84a3fe6554ba5faec6f478a120be36e4d00d060b896c9a9387cfb67472f0",
+      "role": "Selected source Actor empty callback or concrete action animation getter; see contact supplement"
+    },
+    {
+      "table": "0x14359f5f8",
+      "offset": "0x38",
+      "target": "0x1400f0f00",
+      "fileOffset": 56224304,
+      "sha256": "d9ef84a3fe6554ba5faec6f478a120be36e4d00d060b896c9a9387cfb67472f0",
+      "role": "Selected source Actor empty callback or concrete action animation getter; see contact supplement"
+    },
+    {
+      "table": "0x14359f5f8",
+      "offset": "0x40",
+      "target": "0x141e10620",
+      "fileOffset": 56224312,
+      "sha256": "052261b90c3a1416076633f900c4866658e91d1fa92665608e665d57ee585b28",
+      "role": "Selected source Actor empty callback or concrete action animation getter; see contact supplement"
+    },
+    {
+      "table": "0x14359f5f8",
+      "offset": "0x48",
+      "target": "0x141e10690",
+      "fileOffset": 56224320,
+      "sha256": "37ac7823a6267e539ea0df99b65014ce8e61315c4c22276d7ae53a877d2367ec",
+      "role": "Selected source Actor empty callback or concrete action animation getter; see contact supplement"
+    },
+    {
+      "table": "0x14359f5f8",
+      "offset": "0x68",
+      "target": "0x1400f0f00",
+      "fileOffset": 56224352,
+      "sha256": "d9ef84a3fe6554ba5faec6f478a120be36e4d00d060b896c9a9387cfb67472f0",
+      "role": "Selected source Actor empty callback or concrete action animation getter; see contact supplement"
+    },
+    {
+      "table": "0x14359f5f8",
+      "offset": "0x70",
+      "target": "0x1400f0f00",
+      "fileOffset": 56224360,
+      "sha256": "d9ef84a3fe6554ba5faec6f478a120be36e4d00d060b896c9a9387cfb67472f0",
+      "role": "Selected source Actor empty callback or concrete action animation getter; see contact supplement"
+    },
+    {
+      "table": "0x14359f5f8",
+      "offset": "0x78",
+      "target": "0x1400f0f00",
+      "fileOffset": 56224368,
+      "sha256": "d9ef84a3fe6554ba5faec6f478a120be36e4d00d060b896c9a9387cfb67472f0",
+      "role": "Selected source Actor empty callback or concrete action animation getter; see contact supplement"
+    },
+    {
+      "table": "0x14359f5f8",
+      "offset": "0x88",
+      "target": "0x141e114d0",
+      "fileOffset": 56224384,
+      "sha256": "6fbf8089995e0fb6119c88d2af5556a4bab4a1bc315d5b7bd33a02af79d04492",
+      "role": "Selected source Actor empty callback or concrete action animation getter; see contact supplement"
+    },
+    {
+      "table": "0x14359f5f8",
+      "offset": "0x90",
+      "target": "0x1400f0f00",
+      "fileOffset": 56224392,
+      "sha256": "d9ef84a3fe6554ba5faec6f478a120be36e4d00d060b896c9a9387cfb67472f0",
+      "role": "Selected source Actor empty callback or concrete action animation getter; see contact supplement"
+    },
+    {
+      "table": "0x14359f5f8",
+      "offset": "0xb0",
+      "target": "0x141e10810",
+      "fileOffset": 56224424,
+      "sha256": "b27d83c3abe373ff0a89ceb29acc46f874360051cb9e257f253cf11e0beb7f3d",
+      "role": "Selected source Actor empty callback or concrete action animation getter; see contact supplement"
+    },
+    {
+      "table": "0x14359f5f8",
+      "offset": "0xc8",
+      "target": "0x141e0fbc0",
+      "fileOffset": 56224448,
+      "sha256": "03ece84718e76dde6ce935132f1065bc8d020f9271bbc6619b223c03e0d79b5d",
+      "role": "Selected source Actor empty callback or concrete action animation getter; see contact supplement"
+    },
+    {
+      "table": "0x142f9cd70",
+      "offset": "0x8",
+      "target": "0x14012afe0",
+      "fileOffset": 49922424,
+      "sha256": "edc4ff3f3c88b4aed20b8f90982a816f015208107222a7e62a3c5a044718aee3",
+      "role": "Selected source Actor empty callback or concrete action animation getter; see contact supplement"
+    },
+    {
+      "table": "0x142f9cd70",
+      "offset": "0x18",
+      "target": "0x140145180",
+      "fileOffset": 49922440,
+      "sha256": "d2a0bd1b8866a5634e06080f612d558024488daed1d5c67b3063c0e65ee266d5",
+      "role": "Selected source Actor empty callback or concrete action animation getter; see contact supplement"
     }
   ],
   "scanCoverage": {
@@ -20199,12 +21811,12 @@
     }
   ],
   "verification": {
-    "entryCount": 939,
-    "originalByteRangeCount": 1411,
+    "entryCount": 1002,
+    "originalByteRangeCount": 1491,
     "historicalBoundedThunkEntries": 4,
-    "pointerSlotCount": 88,
+    "pointerSlotCount": 131,
     "selectedDecompilationRecords": 514,
-    "checkedReferenceInstructions": 11012,
+    "checkedReferenceInstructions": 11255,
     "decompilationFailures": [],
     "scope": "Original ranges/offsets, unwind ownership or explicit boundaries, stat identity, reference instructions and pointer-slot contents revalidated offline."
   },
@@ -20313,7 +21925,31 @@
       "path": "Tools/re/out/client-damage-audit/r3-default-bow-verify.json",
       "bytes": 6115,
       "sha256": "2aa74032e4a426b2a8507b4721e2aeedd75fb797a814bd96c44f48e803730c13",
-      "role": "Native Bow/Wand/Unarmed enum, conditional action selector and actual Actor weapon-state provider verification; startup winner remains unresolved"
+      "role": "Native Bow/Wand/Unarmed enum, conditional action selector and actual Actor weapon-state provider verification"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r3-default-bow-startup-verify.json",
+      "bytes": 8985,
+      "sha256": "d9037310d782ed39345761b6cfe5cf5b382fb031eb1c43e34d49d32c23c5cf74",
+      "role": "Ordered startup registry replacement, winning factories, bounded tables and inherited contact continuations"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r3-weapon-equipment-verify.json",
+      "bytes": 5905,
+      "sha256": "8dcffe234e3f68adcc074bee99382fcb735369334291f5746e0d47f11b03f85f",
+      "role": "Decoded equipment-visible records, selected Actor subscriptions and actual weapon-state provider setter"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r4-buff-clock-updates-verify.json",
+      "bytes": 11745,
+      "sha256": "0f6e241d8cb5b8c1123ac4b7bd194f163783c10e4b81ea5e0a57cde9989d9f16",
+      "role": "Initial Entity insertion clocks, transported speed replacement, quantity updates and reference-holder observers"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r2-burning-arrow-bound/verification.json",
+      "bytes": 1050,
+      "sha256": "5c2398f556fffaa1d89fcfeddcec0986edb343447cacdab7135bc052f18d3e23",
+      "role": "Named BurningArrowDebuff registry/factory/backend lifecycle and bounded empty callbacks"
     },
     {
       "path": "Tools/re/out/client-damage-audit/r3-default-bow-type-enum.json",

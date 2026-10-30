@@ -54,9 +54,10 @@ Detailed supplements keep the evidence reviewable without treating this summary 
 
 - [Stat objects, inputs, notifications and startup guards](client-stat-evaluation.md).
 - [Typed DoT formulas, resource routes and arithmetic boundaries](client-dot-routing.md).
+- [Buff insertion clocks, network updates and dynamic-refresh boundaries](client-buff-clock-updates.md).
 - [Both-hand offence formulas, conversion, average/DPS and numerical UI consumers](client-offence-estimates.md).
 - [Concrete Fireball/Melee contact production, avoidance and entropy](client-hit-production.md).
-- [Default ranged-action selector, weapon-state provider and registry candidates](client-ranged-action-selection.md).
+- [Default ranged-action selector, equipment inputs and startup registry winners](client-ranged-action-selection.md).
 - [Hit queues, action contexts and control effects](client-hit-feedback.md).
 - [Hit/resource receiver search and its precise coverage](client-hit-resource-boundary.md).
 - [Predictive/lockstep scheduling and resource correction](client-damage-timing.md).
@@ -90,6 +91,10 @@ flowchart TD
   SETTER --> POOL
   SETTER --> NOTIFY[Guarded pool notifications / recharge-delay changes]
   HIT[Fireball / Melee / Sand Spitter contacts] --> AVOID[Concrete target dodge / evasion / projectile avoidance]
+  EQUIP[Decoded equipment-visible records] --> WEAPON[Subscribed Actor refresh / weapon-state provider]
+  WEAPON --> SELECT[Default Bow/Wand action variant]
+  STARTUP[Ordered registry replacement] --> SELECT
+  SELECT --> HIT
   AVOID --> CONTINUE[Action-specific continuation: feedback / bookkeeping / empty slots]
   AVOID -. amount and critical calculation unresolved .-> HITCALC[Numerical damage / mitigation / routing]
   HITCALC -. pre-deduction unresolved .-> POOL
@@ -532,10 +537,10 @@ No client execution is authorized by this task list.
 | R2 | Source instance → base per-minute rate | Open | Find actual writes/read consumers of base rates; identify source and aggregation policy |
 | R2 | Outgoing RF parameter/formula chain | Established locally | Native stat-set constants and FireDot eligibility feed 14408 → 8198 → 5981; [details](client-dot-routing.md#outgoing-righteous-fire-formula-bridge); target application remains open |
 | R2 | Typed resource routes and cap boundaries | Established locally | Eight typed/nonlethal/darkness channels, healing/MoM, aggregates and overflow audited; input reachability remains separate |
-| R2 | Buff instance clock and native contribution-container semantics | Established locally | Duration/speed refresh, infinity default, actual owner-dependent poison/bleeding insertion clocks and RF art lifecycle bound; additive source-token store remains separate from ailment selection and incoming-rate publication |
+| R2 | Buff instance clock and native contribution-container semantics | Established locally | Insertion-time owner clocks, transported speed replacement, infinity defaults and RF/Burning Arrow backend boundaries bound; [existing-instance owner-stat refresh](client-buff-clock-updates.md) and incoming-rate publication remain separate |
 | R3 | Hit panel/offence evaluators | Established locally | Both hands, five types, base/added, conversion, average/DPS and actual network-provider numerical readers audited; [details](client-offence-estimates.md) |
 | R3 | Concrete contact → defender avoidance decision | Established locally | Fireball/Melee and data-bound Sand Spitter MonsterMortarAttack paths audited; [details](client-hit-production.md); selected source Actor callbacks are empty, attachment outputs bound; ordinary bow specialization remains separate |
-| R3 | Default ranged-action selection | Partial | [Bow/Wand enum test and Actor provider](client-ranged-action-selection.md) bound; equipment-to-provider updates and winning duplicate registration set remain open |
+| R3 | Default ranged-action selection | Established locally | [Bow/Wand enum test, selected equipment-to-provider updates and startup registry winners](client-ranged-action-selection.md) bound; contact continuation consumes queued results; extension effects and numerical damage remain separate |
 | R3 | Accepted hit → numerical pre-deduction | Open | Connect established contact/avoidance to amount, critical, mitigation and typed pool receivers; inspected continuations consume existing feedback or have empty slots |
 | R3 | Hit packet → callbacks | Partial | Queue/control, named actions, secondary-action ID producer, GEAL and resource compiler bound; selected player/Sand Spitter files supply no custom-event handler; other configurations/consequences remain open |
 | R4 | Timing, freshness and correction policy | Partial | Scheduling, pool notifications, transition-specific carry reset and entropy expiry established; Buff ticking/removal traced separately; source-rate and event/listener effects remain open |

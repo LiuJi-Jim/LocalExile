@@ -40,6 +40,7 @@ The local evidence batches under ignored `Tools/re/out/client-damage-audit/` are
 | `r2-buff-timewarp-v2` | Packet-to-instance duration/speed transport, partial versus replacement refresh, exact positive-infinity default leaf and timer consumer |
 | `r2-rf-art-lookup-v2` | RF backend's concrete skill-art row, animated-art list callback, variation selection and table identities |
 | `r2-buff-speed-owner-v3` | Actual owner Stats-to-instance clock calculation, poison/bleeding clock branches, RF refresh/removal callbacks and exact reviewed helper leaves |
+| `r2-burning-arrow-bound` | Named additional-burn factory/instance binding, exact lifecycle no-ops, destruction path and factory callback receiver |
 
 Each `audit.json` retains original-file offsets, SHA256s, PE-unwind roots/chains and every decoded instruction.
 Selected `decompilations.jsonl` files come from Ghidra 12.1.4, JDK 21, `-noanalysis`, bounded bodies only.
@@ -373,6 +374,34 @@ The remaining producer boundary is consequently explicit: the inspected reader/c
 does not close `ignite instance → raw8215`, `poison instance → raw8216`, or `RF aura instance → raw2023`.
 Other consumers of the counted vector, Buff events, indirect backend methods and dynamically registered handlers
 remain possible and were not exhausted. This bounded result must not become a claim that Buffs never affect stats.
+
+### Additional Burning Arrow burn: a concrete backend, still no rate publisher
+
+The follow-up distinguishes a positively selected effect from an arbitrary pointer near the Buff code.
+BuffDefinitions row 1443 `burning_arrow_additional_burn` declares Id2 `BurningArrowDebuff` and
+GrantedStats row 2022, native key 2023. In registry initializer `0x1415be830`, the literal at
+`0x143463018` enters the map at `0x1415c0cc0..0x1415c0cdc`; the factory object stored at entry
+`+0x30` is `0x144751e70` (`0x1415c0ce4..0x1415c0ceb`). Its initialized vtable is
+`0x143464a80`, slot zero `0x1415d04f0` (`0x1415c0c96..0x1415c0ca4`).
+That factory allocates a 32-byte backend, keeps the actual Buff argument at backend `+8`, clears
+`+0x10/+0x18` and installs table `0x1434871f0` at `0x1415d050f..0x1415d0523`.
+
+The exact caller-used backend slots `+8/+0x10/+0x18/+0x20/+0x28/+0x30/+0x48/+0x50` all point to
+the three-byte `ret 0` leaf `0x1400f0f00`. The registry's separate factory callback is also positively
+bound: lookup `0x141e05e40` selects the factory from the same Id2 at `0x141e05e7c` and invokes
+factory `+8` at `0x141e05f39`; **that factory slot is the same no-op**. It does not call the similarly
+numbered backend slot or create an incoming contribution. Destructor wrapper `0x1417978c0` calls
+`0x141797900`; the latter conditionally uses the counted Buff vector in an art/resource-cleanup path,
+including `0x141f727f0`, `0x141f66ba0` and the previously established presentation collection.
+These inspected bodies do not supply a direct native source-token/amount publication edge.
+
+This does not establish the existence of a `Poison` or `Ignite` backend: the selected `poison` and
+`ignited` rows still have empty Id2. An empty key requires the actual registry state to determine its
+lookup result; it must not be silently treated as a proven null backend. Likewise, adjacent function
+pointers after the caller-used backend range are not assigned to this object without another binding.
+Local `r2-burning-arrow-bound/verification.json` checks five original-byte bodies/ranges, 344 instructions,
+24 semantic anchors, eleven factory/backend slots, the literal and the declared Buff row.
+The incoming source amount and selection problem remains open; this extra declared native key is not its solution.
 
 ### Confirmed granted-value consumers
 

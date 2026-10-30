@@ -61,7 +61,8 @@ How to regenerate them: [re/tooling.md](re/tooling.md) §7.
 | [re/client-dot-routing.md](re/client-dot-routing.md) | typed DoT mitigation, healing, ES/Mana/Life routes, self-rate calculations and exact cap/overflow boundaries |
 | [re/client-offence-estimates.md](re/client-offence-estimates.md) | both-hand typed damage ranges, base/added scaling, conversion, averages/DPS and actual numerical UI readers |
 | [re/client-hit-production.md](re/client-hit-production.md) | concrete Fireball/Melee/Sand Spitter contacts, dodge/accuracy/entropy and action-specific continuation boundaries |
-| [re/client-ranged-action-selection.md](re/client-ranged-action-selection.md) | default Bow/Wand action selector, Actor weapon-state provider and unresolved startup registration order |
+| [re/client-ranged-action-selection.md](re/client-ranged-action-selection.md) | default Bow/Wand action selector, equipment-to-provider updates and startup registration winners |
+| [re/client-buff-clock-updates.md](re/client-buff-clock-updates.md) | insertion clocks, network replacement and ticking versus unresolved owner-stat-driven refresh |
 | [re/client-hit-feedback.md](re/client-hit-feedback.md) | immediate/queued result processing, action contexts, interruption, knockback and unresolved event consequences |
 | [re/client-hit-resource-boundary.md](re/client-hit-resource-boundary.md) | component/pool receivers, numerical-hit searches, GEAL client/server eligibility and native resource listeners |
 | [re/client-damage-timing.md](re/client-damage-timing.md) | predictive/lockstep message ordering, component ticks, fractional resource integration and correction boundaries |

@@ -120,8 +120,9 @@ The suspend/restore lifecycle is explicit LocalExile policy; see protocol/11-ski
   Outgoing RF parameters and 14408/8198/5981 formulas are bound separately from incoming base rates.
   Resolve source instances into base rates, their expiry/snapshot rules and actual publication eligibility.
   Concrete Fireball/Melee contact and avoidance decisions are bound separately from panel formulas and feedback.
-  Resolve ordinary bow specialization; selected Sand Spitter source Actor callbacks and attachment outputs are bound.
-  Bow/Wand selector and provider are bound; resolve equipment-to-setter and duplicate registration startup order.
+  Bow/Wand specialization, equipment-to-setter updates and startup registry winners are bound.
+  Trace winning action extensions beyond inherited contacts and queued feedback to their numerical consequences.
+  Selected Sand Spitter source Actor callbacks and attachment outputs are bound separately.
   Owner-dependent Buff clocks are bound at insertion; trace later stat-change refresh separately from damage rate.
   Connect accepted contacts to numerical damage/critical/mitigation and pool receivers; these edges remain open.
   Follow other event configurations beyond GEAL/native listeners; selected player/Sand Spitter files have no handler.
