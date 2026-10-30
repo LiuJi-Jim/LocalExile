@@ -13,7 +13,8 @@ Their presence alone does not prove that an ordinary network entity evaluates th
 Network Stats can supply a final rate directly and bypass upstream calculation for that key.
 Ordinary network Actor/skill provider identities, update forwarding and lookup freshness are now established.
 The successful startup path disables the separate action-local native stat mutation mechanism.
-An independent hit roll/mitigation/pre-deduction chain has **not** been established.
+Concrete Fireball contact/avoidance and Melee accuracy/entropy decisions are now bound locally.
+The connection from those decisions to numerical damage/mitigation/pre-deduction has **not** been established.
 
 | Evidence class | Meaning here |
 |---|---|
@@ -54,6 +55,7 @@ Detailed supplements keep the evidence reviewable without treating this summary 
 - [Stat objects, inputs, notifications and startup guards](client-stat-evaluation.md).
 - [Typed DoT formulas, resource routes and arithmetic boundaries](client-dot-routing.md).
 - [Both-hand offence formulas, conversion, average/DPS and numerical UI consumers](client-offence-estimates.md).
+- [Concrete Fireball/Melee contact production, avoidance and entropy](client-hit-production.md).
 - [Hit queues, action contexts and control effects](client-hit-feedback.md).
 - [Hit/resource receiver search and its precise coverage](client-hit-resource-boundary.md).
 - [Predictive/lockstep scheduling and resource correction](client-damage-timing.md).
@@ -66,6 +68,9 @@ Dashed edges are unresolved bindings, not an assumed end-to-end execution path.
 
 ```mermaid
 flowchart TD
+  SKILLDATA[RF stat-set constants] --> RFPARAM[Native parameters / FireDot eligibility]
+  RFPARAM --> RFOUT[Conditional outgoing RF area rate]
+  RFOUT -. source application / aggregation unresolved .-> RAW
   SOURCES[DoT sources / effect instances] -. producer unresolved .-> RAW[Base rates per minute]
   RAW --> AS[Damage taken as: typed rates]
   AS --> MIT[Per-type DoT mitigation and immunity]
@@ -80,7 +85,9 @@ flowchart TD
   CORRECTION[S→C 0x1b1 decoded resource value] --> SETTER[Absolute pool assignment]
   SETTER --> POOL
   SETTER --> NOTIFY[Guarded pool notifications / recharge-delay changes]
-  HIT[Hit input / local contact] -. numeric prediction unresolved .-> HITCALC[Roll / mitigation / routing]
+  HIT[Fireball spatial contacts / Melee range and line tests] --> AVOID[Concrete target dodge / evasion / projectile avoidance]
+  AVOID --> CONTINUE[Action-specific continuation: feedback / bookkeeping / empty slots]
+  AVOID -. amount and critical calculation unresolved .-> HITCALC[Numerical damage / mitigation / routing]
   HITCALC -. pre-deduction unresolved .-> POOL
   FEEDBACK[S→C 0x1af: decimal 431] --> ACTOR[Actor result signals]
   ACTOR --> RENDER[Render / sound / effects callbacks]
@@ -96,6 +103,10 @@ The ordinary network Actor/skill provider chain is bound separately in the stat-
 The dashed rate edge still requires source-effect inputs and eligibility on the relevant native object;
 network getters can instead read an explicit received final rate.
 It is incorrect to present this drawing as proof that the client simulates every source or hit independently.
+The solid contact/avoidance branch has concrete action tables and actual target providers;
+it is separate from both deterministic panel estimates and received hit feedback.
+The RF formula branch is conditional native computation from recovered skill parameters.
+It does not close the separate effect-instance/application edge into an enemy's incoming base rate.
 
 ## 3. Stats interfaces: explicit overrides and upstream calculations
 
@@ -198,6 +209,13 @@ The word "minute" describes the numeric unit, not a rolling or resettable damage
 
 The forwarding callback for fire does not contain an ignite list, RF radius or a duration/snapshot model.
 The producer of base rate 2023 is still unresolved.
+Separately, an outgoing RF chain is now established: stat-set constants 883/1947/3399 feed
+14408, then area-skill intermediate 8198 and final outgoing area rate 5981. It uses skill-user
+Life/ES and mana providers, distinct modifier stages and rounding boundaries. Generic outgoing
+fire rate 1999 has a different intermediate; no direct `14408 → 1999` edge was found in these bodies.
+See [the outgoing RF formula bridge](client-dot-routing.md#outgoing-righteous-fire-formula-bridge).
+These conditional native formulas do not establish a source-instance snapshot, nearby-target
+application, or publication of the result into incoming rate 2023.
 One investigated candidate, factory `0x1412c40e0`, passes immediate `0x7e7` (2023) through action constructors.
 The base action constructor `0x141937cc0` stores it as a 16-bit value at action `+0x118`.
 This is **not a verified stat setter**, even though the integer matches the fire stat key.
@@ -451,9 +469,39 @@ That is a reference-target estimate, not a lookup of the concrete defender's eva
 The helper returns a float in XMM0 even if decompilation guesses another return type.
 No RNG call, per-defender resource mutation or complete critical confirmation roll was established in these callbacks.
 They support the conclusion "client contains offence/stat calculation"; they do not close hit pre-deduction.
-The next checkpoint must connect actual numeric consumers and distinguish panel estimation from contact resolution.
-Some identified UI calls construct localized stat labels rather than retrieving a numeric value;
-the presence of key 670/671 in a UI constructor is not itself a numeric-consumer binding.
+The [offence supplement](client-offence-estimates.md#6-actual-numerical-ui-consumers-and-their-provider)
+now closes the numerical average/DPS readers and their network-provider identities.
+Those readers remain distinct from contact resolution. Other identified UI calls construct localized labels;
+the presence of key 670/671 in a constructor is not itself a numeric-consumer binding.
+
+### Concrete contact and defender decisions
+
+The [contact production supplement](client-hit-production.md) closes a separate positive path:
+Fireball's final action table binds its flight callback to a grid query, candidate-target filtering,
+and the target's spell-dodge/projectile-avoidance checks. The selected Melee table binds range/line
+tests to actual accuracy/evasion inputs and a target-Stats entropy update. These are conditional
+local calculations, not reference-target panel estimates or just received result flags.
+
+Their continuations still matter. Flag-0 Melee's tested-contact `+0x530` slot is empty on its final
+table; Fireball's corresponding slot invokes the already established queued-result consumer.
+Other inspected Melee follow-on slots likewise consume existing feedback or return without work.
+These concrete boundaries do not establish every action's behavior, and a mode check controlling
+alternate-arrow MTX cannot be generalized into a prohibition of local target rolls.
+
+No numerical damage amount, critical confirmation, defender mitigation or typed resource-pool
+deduction has been closed from those accepted contacts. The open edge now starts **after** a
+verified contact/avoidance decision, rather than treating all local hit logic as missing.
+
+The event-script boundary also has positive and excluded paths. GEAL's ordinary client-mode
+compiler rejects the specifically recovered server-only `CalculateDamage`, resource/stat mutation
+and Buff-add metadata entries. Its accepted metadata-only placeholder returns an empty value vector.
+However, concrete native entries can read current Life and register Life listeners that execute
+supplied programs through the same VM. These exact boundaries, and the remaining selected-event
+program identity, are documented in the [resource receiver supplement](client-hit-resource-boundary.md#10-geal-callable-construction-and-clientserver-eligibility).
+They do not justify classifying the whole interpreter as presentation only.
+The same supplement now binds the event tables to actual Actor configuration script-parser producers
+and their compiler. The selected `0x6876` program still needs its resolved resource block;
+a bounded cache search cannot substitute for that resource identity.
 
 ## 8. Research workbench and completion criteria
 
@@ -471,11 +519,13 @@ No client execution is authorized by this task list.
 | R1 | Absolute pool update path | Established | Preserve decoded-field vs wire-offset distinction |
 | R2 | Typed DoT formulas through mitigation | Established locally | All five types and nonlethal branches audited; [asymmetries](client-dot-routing.md) remain explicit |
 | R2 | Source instance → base per-minute rate | Open | Find actual writes/read consumers of base rates; identify source and aggregation policy |
+| R2 | Outgoing RF parameter/formula chain | Established locally | Native stat-set constants and FireDot eligibility feed 14408 → 8198 → 5981; [details](client-dot-routing.md#outgoing-righteous-fire-formula-bridge); target application remains open |
 | R2 | Typed resource routes and cap boundaries | Established locally | Eight typed/nonlethal/darkness channels, healing/MoM, aggregates and overflow audited; input reachability remains separate |
 | R3 | Hit panel/offence evaluators | Established locally | Both hands, five types, base/added, conversion, average/DPS and actual network-provider numerical readers audited; [details](client-offence-estimates.md) |
-| R3 | Concrete hit → numerical pre-deduction | Open | Trace input/contact, defender, RNG and resources; close indirect receiver targets |
-| R3 | Hit packet → callbacks | Partial | Queue/control and named Fireball/Melee callbacks bound; event interpreter reaches program-selected callables whose concrete identities remain open |
-| R4 | Timing, freshness and correction policy | Partial | Scheduling, pool notifications and transition-specific carry reset established; Buff ticking/removal traced separately; source-rate and event/listener effects remain open |
+| R3 | Concrete contact → defender avoidance decision | Established locally | Named Fireball spatial/dodge/avoidance and Melee range/accuracy/entropy paths bound; [details](client-hit-production.md); alternative actions remain separate |
+| R3 | Accepted hit → numerical pre-deduction | Open | Connect established contact/avoidance to amount, critical, mitigation and typed pool receivers; inspected continuations consume existing feedback or have empty slots |
+| R3 | Hit packet → callbacks | Partial | Queue/control, named actions, GEAL eligibility and resource-script parser/compiler bound; selected event program/descriptors and numerical consequences remain open |
+| R4 | Timing, freshness and correction policy | Partial | Scheduling, pool notifications, transition-specific carry reset and entropy expiry established; Buff ticking/removal traced separately; source-rate and event/listener effects remain open |
 | R4 | Official/community comparisons | Established comparison | [Pinned sources](client-damage-comparisons.md) distinguish historical explanations, wiki synthesis and PoB; current server equivalence is unproven |
 
 Useful starting addresses are indexed in [address-index](../protocol/address-index.md#client-damage-research).

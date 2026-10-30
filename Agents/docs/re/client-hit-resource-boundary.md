@@ -366,3 +366,239 @@ file hashes; these generated files remain uncommitted.
 | Fireball table `[0x143335d80,0x143336060)` | 53694848 | `de83e6fabedf0aad31f1dda07d424033903894929b2094d3c3582b210afcaa59` |
 | Melee flag 0 table `[0x143517ba0,0x143518060)` | 55668640 | `bbccd48123f94edcf4292c0f7672aa3be55c7390ee6ee5ad9448b33c29af071f` |
 | Melee flag 1 table `[0x143273730,0x143273a10)` | 52898608 | `775641251ecc13dbac9d9066cf0b01797da58180ac0a4d6d6e5a62516bd2431f` |
+
+## 10. GEAL callable construction and client/server eligibility
+
+The event VM is GEAL: the compiler/interpreter's own error strings name it.
+Its callable availability has a separate mode from the native action-context
+clone guard. Registration body `0x1400fe9f0` calls `0x14013ebc0` at
+`0x1400fee8b`; on that constructor's successful path, `0x14013ed38` writes
+`1` to global `0x14458e830` if it is zero. Compiler `0x141df4bb0` compares the
+literal UTF-16 keywords `server` (`0x143473128`) and `client`
+(`0x1435999a8`): the server branch is enabled for modes 2/3, the client branch
+for modes 1/3. Thus mode 1 has a direct client semantic binding; it is not
+inferred from global `0x1445b38cd`.
+
+Named-function compilation `0x141df94b0` first searches the concrete native
+name/factory registry at `0x1445b9f88..0x1445b9f90`. If no native entry matches,
+it consults name metadata map `0x1445bd038`. At `0x141df96c6..0x141df96db`
+it accepts the entry's mode at `+0x30` only when that mode is 3, equals the
+current mode, or the current mode is zero; otherwise it takes the
+`Function ... does not exist` error path. Metadata initializer `0x141ec7790`
+supplies modes to insertion helper `0x141ee1bf0`, which stores the supplied
+integer at node `+0x30`. The initializer also merges duplicate client/server
+names into mode 3. The selected mode-2 names below have one registration each.
+
+Two concrete array registrations feed the native registry through
+`0x141de6120`: `[0x144488380,0x1444891a0)` has 226 name/factory pairs and
+`[0x1444999b0,0x14449b8e0)` has 499. These are 725 recorded native entries,
+not a proof that all possible dynamic registrations have been recovered.
+The separate metadata initializer contains 1,230 registration calls, including
+duplicates; names in that larger map do not themselves imply an implementation.
+
+| Literal metadata name | Registration call | Initial/final mode for this unique name | Present in either native array? |
+|---|---|---|---|
+| `SetLife` | `0x141ed8417` | 2 | No |
+| `RefillLifeManaESAndFlasks` | `0x141ed28cd` | 2 | No |
+| `CalculateDamage` | `0x141edaec4` | 2 | No |
+| `AddStat` | `0x141ed537a` | 2 | No |
+| `RemoveStatsFromSource` | `0x141ed53d9` | 2 | No |
+| `InterpolateStat` | `0x141ed44a2` | 2 | No |
+| `AddBuff` | `0x141ed6252` | 2 | No |
+| `AddBuffWithOwner` | `0x141ed62b1` | 2 | No |
+| `AddBuffAdvanced` | `0x141ed6310` | 2 | No |
+| `AddBuffInRadius` | `0x141ed3c19` | 2 | No |
+| `AddBuffTemplate` | `0x141edb397` | 2 | No |
+| `IfBuff` | `0x141eca8d6` | 3 | Yes: factory `0x14207d7f0` |
+| `HasBuff` | `0x141eca914` | 3 | Yes: factory `0x14207d940` |
+
+Consequently the shown ordinary client-mode compilation cannot use the
+metadata-only mode-2 names above as native resource/buff mutators. This is an
+exact GEAL lookup/eligibility boundary, not a claim that the rest of the client
+cannot calculate or change resources. In particular, the separate native Buff
+backend registry and resource notification paths require their own analysis.
+The literal names `ApplyDamageOverTime`, `StartDegen`, `DealDamage` and
+`AddBuffWithStatValues` are not present in these two stated name inventories;
+that bounded lookup result does not exclude equivalent behavior under another
+name or another registration path.
+
+### Accepted metadata-only names produce an empty-return placeholder
+
+When a name is accepted through the metadata fallback, `0x141df94b0` emits
+opcode 10 or 12 and appends a 72-byte descriptor to program `+0x30` via
+`0x141e001d0` or growth helper `0x141dfdd50`. This descriptor has variant tag
+1 at `+0x40` and callable table `0x14359b6e0`. Its invoke `+0x10` selects
+the fully inspected leaf `0x141dfeec0`, which sets an empty typed-value vector
+(`begin == end == output+0x18`, capacity end `output+0x40`) and returns without
+any call. This closes that specific placeholder's behavior.
+
+Concrete native entries take another route: their table entry `+8` factory
+builds a callable descriptor, compiler callback `0x141df9930` copies it into
+the same program vector via `0x141de53e0` or `0x141dfdf20`, and the interpreter
+can invoke it through opcode 9/10/11/12 as well as its separate opcode-13
+support. Thus opcode 13 is an explicit open callable route from section 8,
+not the sole native-call boundary. The current pass has not recovered the
+descriptor sequence of the selected Actor `0x6876` program. The inspected
+tag-2 stores in `0x141de53e0`, `0x141e004f0` and `0x141e005c0` are variant
+copy/assignment machinery; they do not identify an original concrete callable.
+
+### A concrete native numeric read, and a programmable Life listener
+
+Entry `0x14449b430`, literal `GetCurrentLife`, binds factory `0x14209e390`.
+The factory installs callable table `0x1435cd8a0`, whose invoke `+0x10` is
+`0x1420e88b0 → 0x1420c6700`. That body resolves Life through `0x14013dda0`,
+reads integer current at Life `+0x1a8` and maximum at `+0x1a4`, and returns
+current as a typed integer or a percentage as a typed float. This is actual
+native numeric access from GEAL; it does not deduct a resource.
+
+The name `AddLifeOnDeath` must also be followed beyond its factory. Static
+entry `0x144499ae0` selects `0x142077a10`, which builds callable table
+`0x1435d5a90`; invoke `+0x10` is `0x1420dea00 → 0x142077b30`. That path
+creates an object through `0x1420cae40`, installs primary table
+`0x1435d10c0`, and installs an embedded listener interface at object `+0x18`
+with table `0x1435d4ee0`. The constructor subscribes that interface to the
+resolved Life's listener list at `+0x20` and retains a supplied code block.
+
+The embedded listener's slot `+0x10 → 0x1420b9f50` and slot
+`+0x20 → 0x1420b9f00` both call `0x142077c60`; the latter is additionally
+gated by object `+0x50`. The complete inspected consequence is
+`0x142077c60 → 0x142060be0 → 0x141fdc2d0 → 0x141df49e0` (callsite
+`0x141fdc483`) and therefore the same interpreter `0x141ded710`.
+The evaluator prepares keyed script variables, invokes the supplied program,
+then inspects/clears script key `0x62ce9938`. No healing amount or deduction
+has been demonstrated by this registration/handler chain. Its supplied program
+remains an open source of further effects; the chain is not classified harmless.
+
+New local records are `r3-loss-geal-{descriptor,emission,registry,builtins,
+native-examples,native-invokes,native-consequences,mode-insert-bound}` and
+`r3-loss-life-death-{handler,invoke,consequence,program,evaluate}` audit batches.
+The joined `r3-loss-geal-source-api-candidates.json` retains literal names,
+registration callsites, initial modes and native-array matches; supporting
+inventories are `r3-loss-geal-name-modes.json` and
+`r3-loss-geal-native-tables.json`. No target execution or new decompiler project
+was needed for this increment.
+
+## 11. Additional GEAL source anchors
+
+All ends are exclusive. Selected table spans do not assert complete object sizes.
+
+| Purpose / VA span | File offset | SHA256 |
+|---|---:|---|
+| Client mode constructor `[0x14013ebc0,0x14013ed6b)` | 1302464 | `0635cbf7f0e9f02a2316b7361b641d024438fcb10ddfea9d5d2aae946e1b3b93` |
+| Name/mode initialization `[0x141ec7790,0x141ede115)` | 32271248 | `2d05487fd091bfefa522eb0c7a6a3ea71c9606f49dc7cd3e68bd4cb5283a3378` |
+| Client/server keyword compiler `[0x141df4bb0,0x141df5120)` | 31408048 | `ed8083c18eb5524c1eb9a7231490ec154a84ea44c21df17340e83f71a915f2b9` |
+| Named function compiler `[0x141df94b0,0x141df9925)` | 31426736 | `3748ce757d11c08fa7a040f0621f0562d6a3dc59cbdffab1442859d5b9b26fac` |
+| Mode insertion helper `[0x141ee1bf0,0x141ee1cc1)` | 32378864 | `e6979e347e136a854cd72579499bcb0f47332d11cc3c25314f4f9f788c8c878c` |
+| Current Life native read `[0x1420c6700,0x1420c686c)` | 34364160 | `fb9d2890f97636cedebf4b30edf86892cbffe9ea2ac4ccf24e8d6e59e64b4481` |
+| Life listener constructor `[0x1420cae40,0x1420cafa5)` | 34382400 | `5d47a9cc70a2c393e6780615908292f275d7005c0fa1a4877aa371bafb4d787a` |
+| Captured-block evaluator `[0x141fdc2d0,0x141fdc4b4)` | 33404624 | `8215c447585de7073d4f8393b415355836f2b0117a93a0094638908faa8bc035` |
+| Native array (226 entries) `[0x144488380,0x1444891a0)` | 71854976 | `42e2990b2b371102b4d163b0e9d56be3cbcdc6544a74a2e7c1f5850ce52c7d29` |
+| Native array (499 entries) `[0x1444999b0,0x14449b8e0)` | 71926192 | `d5cf999c789332f0e6cecbaa7a76f627ab29fbf4d55eb6b983fec5e36a27194c` |
+| Fallback callable table `[0x14359b6e0,0x14359b708)` | 56208096 | `8c6d1c59dd833f512b80d4c89f7e3499ec784ba67a743da249eb23bd9452ff1b` |
+| Fallback empty-return leaf `[0x141dfeec0,0x141dfeed7)` | 31449792 | `d2adb5e4ac0fac0792a7a2bb10c6d2af6c9eb8cc7b8f3e9f6a0eb8036af597d1` |
+| Current Life callable table `[0x1435cd8a0,0x1435cd8c8)` | 56413344 | `5cd1048c06319c781766eaaae242d6afe694064967d404f036d233b9be02790a` |
+| Life listener primary table span `[0x1435d10c0,0x1435d1108)` | 56427712 | `1323b5b7eb031031605fe7ed666b3f75ef29423fdf529883fd35f2a485e1b460` |
+| Life embedded listener table span `[0x1435d4ee0,0x1435d4f08)` | 56443616 | `d78f9991f06476c4947783512ff9cd3030a6928ed7a468db2b59aec9a6cb2a12` |
+
+`r3-loss-geal-binding.json` retains these spans and hashes of the three joined
+inventories. Raw decoded evidence, mode-1 assignment, unique mode-2 registrations,
+placeholder invocation and native numeric-read bindings are checked against the
+same original executable; none of these checks executes the client.
+
+## 12. Actor event programs come from parsed component script blocks
+
+The two event tables consumed by `0x141e95620` have concrete parser producers.
+They are not an unconditional built-in damage program. The Actor constructor
+stores its configuration argument at Actor `+0x188` (`0x141e8c311`), then sets
+Actor `+0x2b0 = configuration+0x140` (`0x141e8c4f2–0x141e8c4ff`). The base
+configuration constructor `0x141e8bf20` constructs this embedded event block
+through `0x141e8c070`; that leaf initializes its vectors, including `+0x60`
+and `+0xd8`, to empty. This is an initialization binding, not a claim that no
+later code can change the Actor's pointer.
+
+The client configuration factory `0x1415e9480` installs table `0x143467ae8`
+at `0x1415e9527`. Its script-parser slot `+0x18` is `0x1421922e0`.
+The object-type component parser `0x142476f40` supplies a parsed block's token
+range in script context `+0xc0..+0xc8`, then calls the selected configuration's
+slot `+0x18` at `0x14247743a`. The client Actor wrapper passes
+`configuration+0x140`, the configuration itself, the field name, and script
+context to `0x141e88020` at `0x1421926fd–0x14219270d`. This connects ordinary
+component resource parsing to the exact event block read by the dispatcher.
+The existing `.ot` loader/inheritance rules are documented in
+[tooling.md](tooling.md#7-schema-generators-objects-and-messages-without-live-trial-and-error).
+
+| Resource field grammar | Parsed destination relative to configuration `+0x140` | Selection by `0x141e95620` |
+|---|---|---|
+| `on_custom_event_<event>_for_<action>` | `+0x60..+0x68`: 0x20-byte action groups, each containing 0x20-byte event records | Action word `+0x118`, then event word |
+| `on_effect_custom_event_<event>_for_<granted-effect>` | `+0xd8..+0xe0`: 0x28-byte effect groups, each containing 0x20-byte event records | Resolved action `+0xf0/+0x48` effect pointer, then event word |
+
+The first branch recognizes its literal at `0x141e8a06a`, splits at `_for_`,
+hashes the event substring through `0x140e35420` (`0x141e8a0fb`), hashes the
+action suffix through `0x1400f3c70` (`0x141e8a132`), and finds/appends the
+action group at `0x141e8a148–0x141e8a1a9`. It finds/appends the event record at
+`0x141e8a1ae–0x141e8a20a`, then passes that record's `+8` program vector and
+the supplied script context to `0x141de5e20` (`0x141e8a237`). Existing matching
+event records take the same append path.
+
+The effect branch recognizes `on_effect_custom_event_` at `0x141e8990d`, hashes
+the event substring through the same leaf (`0x141e8999e`), resolves the suffix
+through `0x14239c860` (`0x141e89a1e`), and finds/appends the effect group and
+event record at `0x141e89a3b–0x141e89b17`. Its program append is
+`0x141e89b22 → 0x141de5e20`. These are the dispatcher's two custom-event
+tables; the distinct `on_event_` / `on_effect_event_` parser branches populate
+other vectors and are not substituted for these bindings.
+
+`0x141de5e20` checks whether the supplied script token range is nonempty,
+appends a zero-initialized 0x60-byte program, and calls `0x141de5720` at
+`0x141de5ea6`. The compiler iterates the supplied token range through the
+already inspected compiler `0x141df4bb0` (`0x141de57ab`) and appends the
+terminating zero opcode. Thus the selected event record's program vector is
+compiled from that resource field's supplied script block; it is not selected
+merely by the presence of opcode 13 support in the interpreter.
+
+The inspected hash leaf multiplies a zero-initialized accumulator by
+`0x1000193`, XORs each byte, and folds upper/lower 16 bits. The literal `hit`
+does produce `0x6876`, but that alone does not identify a resource field or
+exclude another name with the same folded word.
+
+A bounded read of the existing extracted resource cache inspected 12,643
+`.ot`, `.otc`, `.ao`, and `.aoc` files. It found nine fields in these two
+custom-event grammars across seven files; none of their event names hashes to
+`0x6876`. The cache contains no actual `.otc` file bodies, and has a missing-file
+marker for `Metadata/Characters/Character.otc`. These are cache facts, not an
+archive-wide absence result. The local inventory retains the matching resource
+names, raw-file hashes, field names and computed event words. No archive was
+modified and no client was executed.
+
+**Remaining concrete edge:** identify the source Actor's actual object type and
+resolved component resource chain, the matching action ID or granted-effect
+pointer, and any matching custom-event field whose event word is `0x6876`.
+Then recover that field's supplied token block, including inherited and
+client-specific definitions, and bind its emitted descriptors. The available
+cached resources do not supply such a block. This pass closes the producer and
+parser boundary, while the selected program's numerical/resource effects remain
+unresolved; it does not establish a generic client damage calculator or prove
+the callback harmless.
+
+## 13. Event program source anchors
+
+All ends are exclusive. The table span does not assert a complete object size.
+
+| Purpose / VA span | File offset | SHA256 |
+|---|---:|---|
+| Actor event-block initialization `[0x141e8c240,0x141e8c848)` | 32028224 | `370b17726ee3cef9e7ce32442635b82e3562a1b94ee370af015ccd40c4c83370` |
+| Client Actor config factory `[0x1415e9480,0x1415e9551)` | 22972544 | `9a3371a2319c513799ba8734c624ae86f9910dd9973135f5ad80558a2ca1026d` |
+| Client Actor block parser `[0x1421922e0,0x14219285b)` | 35198688 | `177b14472a68afb352516f409e5b898bbbc2cffc8a30181f3f8e5072bb76aa5d` |
+| Actor named-handler parser `[0x141e88020,0x141e8aa7e)` | 32011296 | `d7283053664a2f5e06aeef2adb82a643e37c99572096f9fdd544b71f65924d43` |
+| Type component script dispatch `[0x142476f40,0x142477e98)` | 38232896 | `647afcaf0bdda9ad07b8d1109800480347eff8d476569bf68b64530f3bccaf79` |
+| Event program append `[0x141de5e20,0x141de5eb1)` | 31347232 | `06cd152a9e3c27cfa3e2a6fc50c0724a4548cd7838aa03eaf8af3eace06717e7` |
+| Event block compilation `[0x141de5720,0x141de57f7)` | 31345440 | `889a72f488256ccfc715ea13b9c66c191e3e205e929b0b3b1e933a6fb56a2ce5` |
+| Custom-event name hash leaf `[0x140e35420,0x140e35470)` | 14895136 | `de0609ec85e2dc2d5ef00fe95c2ca859226f2a18922360cc3f37c81aadc8aad2` |
+| Client Actor config table span `[0x143467ae8,0x143467b28)` | 54947560 | `3d97c17ef72598dc4b3e40f32cfcae8ba1605f90c7c10977cb48a07e9118e048` |
+
+Successful new audit batches are `r3-event-program-{actor-ctor,parser,
+resource-link,config-bound}`. `r3-event-program-binding.json` retains the nine
+published spans and inventory hashes. `r3-event-program-resource-handler-inventory.json`
+retains the bounded resource matches. The incomplete `r3-event-program-config`
+attempt is not used as an audit source; its explicit leaf was subsequently
+reviewed and included in `config-bound`.

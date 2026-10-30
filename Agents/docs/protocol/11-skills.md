@@ -133,7 +133,8 @@ Live 2026-10-17 (`dump-stats-object.js`): a skill holding `attack_speed_+%` 2000
 character panel kept showing 1.2.
 This is not proof that the executable contains no derived-stat formulas.
 The [client damage investigation](../re/client-damage-calculation.md) distinguishes explicit network overrides,
-type fallback and separate native evaluation transactions; actor-specific propagation remains unresolved.
+type fallback and separate native evaluation transactions. The ordinary Actor/skill provider and notification
+contract is now bound; receiving a raw override does not enter that native transaction.
 What the client uses:
 
 - The **swing time** follows the skill's `main_hand_attack_speed_+%` (with the base 833 ms). When it is not sent the

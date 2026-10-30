@@ -175,6 +175,19 @@ These are client addresses; their presence is not proof of official-server imple
 | `0x141939f40` / `0x14193a170` / `0x141e91330` | Fn | Retrieve queued action result / phase range processing / filter and dispatch |
 | `0x141e96630` / `0x141e95e60` / `0x141e96790` | Fn | Target control/listeners / timed interruption request / knockback displacement |
 | `0x141e95620` / `0x141ea08a0` | Fn | Actor event selection / callable forwarding to event execution; consequences not exhausted |
+| `0x141bb13a0` / `0x141ba99d0` / `0x141bb83c0` | Fn | Fireball-bound flight callback / projectile contact query / spatial grid walker |
+| `0x141bbaf70` / `0x141ba7b30` | Fn | Spatial candidate filtering / projectile contact and avoidance processing |
+| `0x1419eee20` / `0x141ebd2f0` | Fn | Concrete Fireball defense wrapper / target spell-dodge decision |
+| `0x141c98700` / `0x141c9aa80` / `0x141ebd1a0` | Fn | Selected Melee range test / contact accuracy dispatch / target entropy update |
+| `0x141e40bd0` / `0x1435dd4e8` | Leaf / Vt | Stats entropy countdown and lazy-reset flag / actual component tick table |
+| `0x1426125d0` / `0x142613360` / `0x14262b290` | Fn | Outgoing RF base 14408 / area-skill intermediate 8198 / final area rate 5981 |
+| `0x1428e68b0` / `0x14458e838` / `0x14458e848` / `0x14458e840` | Fn / G | VirtualStatContextFlags table-to-mask initializer / three category masks; distinct from GEAL modes |
+| `0x14013ebc0` / `0x14458e830` / `0x141df94b0` | Fn / G / Fn | GEAL client-mode construction / mode / named-callable lookup and eligibility |
+| `0x141ec7790` / `0x141ee1bf0` | Fn | GEAL name/mode metadata registration / mode insertion and merging |
+| `0x14359b6e0` / `0x141dfeec0` | Vt / Leaf | Accepted metadata-only callable / empty typed-value-vector return |
+| `0x1420c6700` / `0x1420cae40` / `0x141fdc483` | Fn / Fn / Insn | Native current-Life read / supplied-program Life listener construction / listener-to-VM call |
+| `0x143467ae8` / `0x1421922e0` / `0x141e88020` | Vt / Fn | Client Actor config table / component script wrapper / custom-event table producer |
+| `0x141de5e20` / `0x141de5720` / `0x140e35420` | Fn / Fn / Leaf | Event program append / supplied-token compilation / folded custom-event name hash |
 | `0x1421845b0` / `0x142184680` / `0x142184870` | Fn | Predictive component ticks / lockstep message-interleaved ticks / later lockstep entity range |
 | `0x1415f5d50` | Fn | Registers Render callbacks on source/target Actor result signals |
 | `0x141600c10` / `0x141600aa0` / `0x141609f40` | Fn | Source/false-branch/target Render callbacks; no proved pool pre-deduction |

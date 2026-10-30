@@ -176,6 +176,42 @@ The native layout is incompatible with treating a network wrapper as a native ch
 native `+0xf0` is a parent, while network wrapper `+0xf0` begins its explicit-pair vector.
 The two object families must remain separate in the analysis.
 
+### Eligibility masks have a data-table identity
+
+Initializer `0x1428e68b0` names `Data/VirtualStatContextFlags.dat` at `0x1428e6db6`.
+The corresponding extracted `data/tables/VirtualStatContextFlags.json` contains 40 rows,
+SHA256 `cddd987614a0e55dcb9c990242c0cbd94fb679950c44ddfa9fbe7c28e1475c2b`.
+The zero-based table row supplies the bit position; this is separate from the one-based Stats key convention.
+Examples include Object 0, Skill 1, AttackHit 2, SpellHit 3, SecondaryHit 4,
+PhysicalDot/FireDot/ColdDot/LightningDot/ChaosDot 5..9, and SanctumDefence 38.
+
+At `0x1428e6f58..0x1428e6f9c`, the initializer partitions those bits using the table's
+currently unnamed `__col1`: value 0 contributes to global `0x14458e838`, value 1 to
+`0x14458e848`, and value 2 to `0x14458e840`. The five typed DoT rows and SanctumDefence
+have value 1. This binds the native root/child masks above to actual table rows;
+it does not rename those three classes as client/server modes.
+
+The same initializer reads each Stats row's ContextFlags and DotFlag reference lists and
+populates registry masks `+0x40/+0x48` (`0x1428e7008..0x1428e70c4`). ContextFlags populate `+0x40`
+only when that registry entry has a nonnull formula callback (`0x1428e7002..0x1428e7006`);
+the DotFlag-to-`+0x48` loop follows independently. Reverse-dependency
+processing also adds dependent context bits to `+0x48`, except entries whose referenced
+flag row has class 1 (`0x1428e70e1..0x1428e7170`). This is more than a mask guessed from
+its later use: the table-to-mask producer is present in the same executable.
+
+On first materialization of a raw contribution record, `0x1424fc480` reads registry `+0x48`,
+intersects native object `+0x240`, and ORs the result into `+0x238` at `0x1424fc5f4..0x1424fc607`.
+An already-present record branches directly from `0x1424fc540` to `0x1424fc62f`, bypassing that OR.
+Formula publication and inherited raw-record refresh can also add masked bits.
+Thus a zeroed constructor field is not proof that the object's formulas stay permanently ineligible.
+For the pinned Stats table, offence keys 279/670 refer to AttackHit, DPS 679 to Skill,
+and final incoming DoT keys 3357..3359 to Object. Raw source keys 2023/2025/2027/8215/8216/8217
+have empty ContextFlags/DotFlag lists. Empty source lists do not prohibit dependency-derived bits.
+
+These are native formula-context categories. A named AttackHit/FireDot row does not itself
+establish a concrete hit roll, source instance, resource deduction, or native recomputation by a
+network wrapper. Those execution/data-flow questions retain their separate completion criteria.
+
 ## 4. A concrete native skill-data producer
 
 `0x141ee9090 → 0x141ee8ef0` is a verified native contribution producer: it actually calls
@@ -207,6 +243,32 @@ downstream attack-damage equation.
 values can be direct when the context's level parameter is zero, while selected interpolation
 modes use the surrounding rows, level/PlayerLevelReq and effectiveness. A complete port of all
 interpolation modes is outside this bounded result.
+
+### RF stat-set constants can activate a typed DoT context
+
+The pinned data supplies a concrete conditional use of that producer. GrantedEffects row 712
+`RighteousFire` selects GrantedEffectStatSets row 719, whose ConstantStats provide native keys
+883 `base_righteous_fire_%_of_max_life_to_deal_to_nearby_per_minute` and
+1947 `base_righteous_fire_%_of_max_energy_shield_to_deal_to_nearby_per_minute`, both with value 4200.
+GrantedEffects row 713 `RighteousFireAltX` selects stat-set row 720, which supplies native key
+3399 `base_righteous_fire_%_of_max_mana_to_deal_to_nearby_per_minute` with value 4200.
+The table references are zero-based Stats rows 882/1946/3398; the native keys are one greater.
+All three Stats rows explicitly list DotFlag `[6]`, the FireDot context bit.
+
+For a native object whose `+0x240` permits that bit, processing these constants through
+`0x141ee8ef0` reaches native add at `0x141ee8f86`. First record insertion can therefore OR FireDot
+into `+0x238` through `0x1424fc607`; the default native root mask includes class 1 and permits it.
+This is a positive parameter-publication/context-activation bridge, conditional on that stat set being
+processed for that native object. It does not establish a live RF source instance, nearby-target damage,
+or conversion into incoming raw2023. The known type-information callers and their limitations remain below.
+The conditional outgoing formula bridge is now established separately as
+`883/1947/3399 → 14408 → 8198 → 5981`, with native pool getters and arithmetic boundaries in
+[DoT routing](client-dot-routing.md#outgoing-righteous-fire-formula-bridge).
+
+The data bridge is retained in local evidence `r2-context-dot-data/evidence.json`.
+GrantedEffectStatSets SHA256 is `fa258d15498c5e1910f94bf6cfdf938184a4e9d4a1f4b71212cbaace192d5c8b`;
+GrantedEffects SHA256 is `ee02ccde977a7a7c444b3fb329867b65a931dda3ab89f204dfc96b15571a6b3b`.
+The Stats and VirtualStatContextFlags identities are pinned above. No runtime execution was used.
 
 ### Where this producer is used
 
@@ -308,6 +370,8 @@ or original executable bytes belong in version control.
 | `r1-client-entry`, `r1-client-entry-wrapper`, `r1-client-entry-main`, `r1-client-crt` | Original instruction chain from application entry to startup |
 | `r1-client-pe-entry.json` | PE entrypoint and original entry instruction bytes |
 | `r1-client-guard.json` | Bounded verified RIP references to the action mutation flag |
+| `r4-native-mask-initializer` | Context-flag table identity, category partition and registry mask production |
+| `r4-native-eligibility.json` | Bounded native-stat-region field-reference candidates; each still needs object provenance |
 
 Reproduce bounded function audits with [damage_audit.py](../../../scripts/re/damage_audit.py)
 and selected decompilation with [BoundedFunctions.java](../../../scripts/re/ghidra/BoundedFunctions.java),

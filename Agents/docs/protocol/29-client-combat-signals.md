@@ -84,6 +84,20 @@ Target `+0xd0 = 0x141e96790` computes Positioned displacement using knockback pa
 The action `+0x2d0/+0x2d8` methods and event `0x6876` still need their downstream effects resolved.
 These are concrete additional effects, but they do not establish a numerical damage roll or Life/ES/Mana deduction.
 
+### Separate local contact production
+
+The absence of a damage amount in `0x1af` does not imply that all contact decisions come from that message.
+Concrete Fireball flight callbacks query the spatial grid, filter candidates and perform target spell dodge
+and projectile avoidance. Named Melee callbacks use actual target evasion and update its Stats entropy.
+See [contact production](../re/client-hit-production.md) for final table bindings, callsites and guards.
+The inspected Fireball continuation consumes an existing queued-result range; the selected Melee contact
+dispatch slot is empty. Neither binding establishes accepted-contact numerical damage or pre-deduction.
+
+The event VM's callable boundary is also distinct from packet decoding. GEAL client-mode compilation rejects
+the recovered server-only resource/stat/Buff mutation metadata, while real native callables can read Life
+and install listeners executing supplied programs. This does not recover the actual program for event `0x6876`.
+See [GEAL eligibility and native listeners](../re/client-hit-resource-boundary.md#10-geal-callable-construction-and-clientserver-eligibility).
+
 ## `0x1b1`: absolute resource assignment
 
 The [existing wire description](10-chat-and-commands.md) documents the resource message under Monsters.

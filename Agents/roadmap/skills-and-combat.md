@@ -117,9 +117,12 @@ The suspend/restore lifecycle is explicit LocalExile policy; see protocol/11-ski
 - **Client damage research:** recover Hit and DoT calculations before proposing further server mechanics.
   Network Actor/skill input freshness and the distinct native transaction/startup boundary are established.
   Typed routing, cap/overflow boundaries, mode-dependent ticks and absolute assignment have static evidence.
+  Outgoing RF parameters and 14408/8198/5981 formulas are bound separately from incoming base rates.
   Resolve source instances into base rates, their expiry/snapshot rules and actual publication eligibility.
-  For Hit, distinguish panel formulas and Actor feedback from a concrete defender roll and pre-deduction.
-  Trace remaining action/event consequences and pool receivers; bounded negative scans are not absence proofs.
+  Concrete Fireball/Melee contact and avoidance decisions are bound separately from panel formulas and feedback.
+  Connect accepted contacts to numerical damage/critical/mitigation and pool receivers; these edges remain open.
+  Recover selected event programs beyond the established GEAL eligibility/native-listener boundaries.
+  Bounded negative scans are not absence proofs.
   Track artifact hashes, exact anchors and evidence boundaries in the
   [research workbench](../docs/re/client-damage-calculation.md#8-research-workbench-and-completion-criteria).
   This is static research, not authorization for client execution or a server refactor.

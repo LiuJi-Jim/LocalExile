@@ -688,12 +688,17 @@ and can require explicit recipes.
   Actual network Actor/skill providers, current fallback and same-key notification masking are bound statically.
   Native formula transactions are separate; successful startup disables native action-context mutation.
   Typed DoT mitigation, eight resource channels, healing exclusions and multiple cap/overflow stages are audited.
+  RF stat-set constants activate FireDot in permitted native objects; outgoing 14408/8198/5981 formulas are bound.
   Both-hand typed/base/added damage, conversion, average/DPS and actual numerical UI readers are statically bound.
   Accuracy, critical chance and sheet-reference hit chance formulas remain distinct from a concrete defender roll.
+  Named Fireball spatial contacts/dodge/projectile avoidance and Melee accuracy/entropy decisions are now bound.
+  The entropy timer uses selected component simulation deltas and marks lazy re-seeding after 3.0 seconds.
   Actor result queues also drive action/control/knockback effects; numeric hit pre-deduction remains unproven.
+  GEAL rejects specific server-only resource/stat/Buff APIs; native Life reads and script listeners are also bound.
+  Actor event tables now have concrete resource-script parser/compiler producers; selected program identity is open.
   Predictive message-before-tick and lockstep component interleaving are traced into Life/ES/Mana integration.
   Absolute resource loss also dispatches guarded notifications and can change subsequent recharge delay.
-  Buff duration ticking and opcode-driven instance removal are separate from damage-rate publication.
+  Buff duration ticks, opcode-driven removal and granted-value display totals are separate from rate publication.
   Source-instance aggregation, event consequences and numerical-hit resource receivers remain open.
   Official/community comparisons and PoB formulas are pinned separately from current-server claims.
   This work neither changes server combat nor establishes official-server behavior.

@@ -182,6 +182,14 @@ It does not by itself establish independent numerical hit prediction or a server
 
 ## Evidence and remaining boundary
 
+Hit entropy provides another concrete state lifecycle on the same component scheduler.
+The Stats component initializes a 3.0-second float countdown, decrements it by the selected simulation
+delta only while entropy is initialized, and marks it for re-seeding when the countdown becomes nonpositive.
+Expiry does not replace the entropy integer; the next eligible decision does so and refreshes the countdown.
+See [the constructor, exact tick and actual caller bindings](client-hit-production.md#entropy-initialization-and-expiry-use-the-actual-component-tick).
+This is neither a wall-clock measurement nor a fixed number of 33 ms ticks, and it does not establish
+the timing of a Buff's contribution to damage rates.
+
 The retained batches are `r4-world-scheduler`, `r4-world-binding`, `r4-world-constructor`, `r4-object-tick`,
 `r4-pool-assignment-effects`, `r4-pool-recharge-notify`, `r4-pool-notification-leaves`,
 `r4-life-death-assignment`, and the earlier Life/pool audits identified in the main manifest.

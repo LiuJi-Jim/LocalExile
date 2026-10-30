@@ -32,6 +32,11 @@ The local evidence batches under ignored `Tools/re/out/client-damage-audit/` are
 | `r2-buff-expiry-refs` / `r2-buff-expiry-owner` | Direct duration-tick callers and their three owning bodies |
 | `r2-buff-component` / `r2-buff-vtable` | Component constructor, event dispatcher and original-byte vtable entries |
 | `r2-buff-removal` / `r2-buff-destructor` | Message-driven removal, secondary backend tick, component/Buff destructors; exact reviewed five-byte tick thunk |
+| `r2-grants-consumers` / `r2-grants-bindings` / `r2-grants-vtables-v2` | Confirmed granted-vector consumers, named factory bindings and original-byte backend tables |
+| `r2-grants-global-bodies` / `r2-grants-value-resolver` / `r2-grants-display-callers` / `r2-grants-display-total` | Granted-value display helpers/callers, value resolver and exact reviewed Voodoo backend tick/no-op leaves |
+| `r2-context-dot-production` / `r2-rf-outgoing-narrow` | Generic fire final registration/body, RF base and generic fire intermediate registrations/bodies |
+| `r2-rf-outgoing-area-v2` / `r2-rf-outgoing-inputs-v2` | RF area intermediate/final registrations/bodies, native skill-user pool getters and exact reviewed float helper leaves |
+| `r2-rf-outgoing-labels` / `r2-rf-outgoing-key-discovery` / `r2-rf-outgoing-inline-discovery` | Bounded outgoing-key consumers, label formatter and immediate/cache-displacement discovery sidecars |
 
 Each `audit.json` retains original-file offsets, SHA256s, PE-unwind roots/chains and every decoded instruction.
 Selected `decompilations.jsonl` files come from Ghidra 12.1.4, JDK 21, `-noanalysis`, bounded bodies only.
@@ -339,6 +344,49 @@ does not close `ignite instance → raw8215`, `poison instance → raw8216`, or 
 Other consumers of the counted vector, Buff events, indirect backend methods and dynamically registered handlers
 remain possible and were not exhausted. This bounded result must not become a claim that Buffs never affect stats.
 
+### Confirmed granted-value consumers
+
+Two additional Id2 bindings in registry body `0x141e07370` establish concrete consumers of Buff `+0x130`.
+At `0x141e08cd7..0x141e08d2c`, the `AncestralTrialTotemAbsorbDegen` entry receives the factory whose
+vtable `0x14359be80` begins with `0x141e09d90`. That factory stores its Buff pointer at backend `+8`,
+reads the first granted integer at `0x141e09dbd..0x141e09dc4`, converts it to binary32 and stores it at
+backend `+0x10`. Its installed table `0x143487608` has the exact no-op `0x1400f0f00` in the lifecycle
+slots `+8..+0x30` and insertion callback slot `+0x50` (called at `0x141e11ec9`). This is a positive value consumer;
+it does not establish a native stat contribution. The table extent beyond those slots is not inferred here.
+
+At `0x141e078df..0x141e07934`, the `VoodooKingPunishment` entry receives factory `0x141e0a670`
+through vtable `0x14359bd08`. It checks whether the granted vector is nonempty and sets backend `+0x18`
+from a Buff row-key comparison with `0x937`; it does not read a numeric granted value.
+Its installed table `0x1435be3f0` has duration callback `+0x28 = 0x141f75550`.
+That exact reviewed leaf tracks backend timers and actor state, writes `3.0` to Buff remaining duration
+`+0x1c` at `0x141f755b5`, and tail-calls backend slots `+0x58/+0x60` at its two transitions.
+Both slots in this installed table are the no-op `0x1400f0f00` (`ret 0`).
+This closes a local timer-state consumer, without identifying an ignite/poison/RF rate publisher.
+
+The value helpers `0x141f79890` and `0x141f79900` also read the first granted integer after an empty-vector
+check, then call resolver `0x141f794d0`. The resolver reads the first GrantedStats key through the row's
+`+0xdc/+0xe4`, applies conditional scaling and effect-specific limits, and returns an integer.
+The first helper additionally divides by 100 when presentation-kind helper `0x141f79810` returns 7;
+the second formats integer or percentage text and appends a literal percent sign on its percentage paths.
+The five verified direct resolver calls belong to this display-helper cluster and its callers
+`0x1402727e0`, `0x1402943c0` and `0x140294e60`. These are positive consumers of granted values, not
+an established path from those values into raw native actor stats.
+
+There is a concrete display total: `0x1402943c0` rebuilds record `+0x10` by summing the resolved first
+values of unremoved Buffs with `+0x118 == 2`, including the presentation-kind division above.
+The collection-removal body `0x140294e60` removes the passed Buff pointer, subtracts its resolved value
+at `0x140294fcf`, and rebuilds when that total reaches zero. Consumer `0x1402944d0` reads record `+0x10`
+at `0x140294721`, formats it as integer/percentage text and passes that text to `0x1418a91c0`.
+This closes addition/subtraction for the inspected grouped display, without establishing native damage stacking.
+
+Resolver mode comparison `0x141f79560` changes the treatment of Buff `+0x44/+0x46` scaling fields;
+it does not guard the entire function or prove that all Buff stat contributions are disabled.
+
+Debug formatter `0x141e12370` uses the granted-vector count to enumerate GrantedStats names through
+`row+0xdc/+0xe4` at `0x141e123f9..0x141e1241a`. It then enumerates a separate table array through
+`row+0xcc/+0xd4`. The granted integer values themselves are not loaded by that name-formatting loop.
+Neither table names nor this key-count association establish numeric publication.
+
 ### Duration ticking and message-driven removal
 
 Constructor `0x141e0fc40` installs Buffs component vtable `0x14359f5f8` at `0x141e0fca6..0x141e0fcb3`,
@@ -394,6 +442,115 @@ successful-startup binding is documented in [stat evaluation](client-stat-evalua
 Those guards apply to their identified action routes. A Buff-specific route into them has not been recovered,
 so they cannot be generalized into a proof that every Buff damage source is disabled.
 
+## Outgoing Righteous Fire formula bridge
+
+The RF constants have a positive outgoing formula path that is distinct from incoming raw2023.
+The stat-set producer and FireDot activation are established in
+[stat evaluation](client-stat-evaluation.md#rf-stat-set-constants-can-activate-a-typed-dot-context).
+The registered outgoing chain is:
+
+| Output key / Stats Id | Callback | Registration call |
+|---|---|---|
+| 14408 `righteous_fire_base_fire_damage_to_deal_per_minute` | `0x1426125d0` | `0x1400a4b99` |
+| 8198 `intermediary_fire_skill_dot_area_damage_to_deal_per_minute` | `0x142613360` | `0x1400a4d01` |
+| 5981 `fire_skill_dot_area_damage_to_deal_per_minute` | `0x14262b290` | `0x1400a59fb` |
+| 8195 `intermediary_fire_damage_to_deal_per_minute` | `0x14260c880` | `0x1400a48f9` |
+| 1999 `fire_damage_to_deal_per_minute` | `0x14262a950` | `0x1400a587b` |
+
+The RF branch is `883/1947/3399 → 14408 → 8198 → 5981`. Generic base353 instead feeds8195,
+which feeds1999. The audited bodies do not establish a `14408 → 1999` edge.
+These five outputs have ContextFlags `[6]` and empty DotFlag arrays in the pinned Stats table.
+Their typed input constants, context eligibility and native publication remain separate facts.
+
+### RF base, skill-user pools and intermediate modifiers
+
+RF base14408 returns zero when all three percentage inputs883/1947/3399 are zero.
+Otherwise its arithmetic at `0x142612bb3..0x142612c55`, in binary32 order, is:
+
+```text
+lifeTerm = f(S(7418)) * P(S(883))
+esTerm   = f(S(14405)) * P(S(1947))
+manaTerm = f(S(248)) * P(S(3399))
+S(14408) = C(manaTerm + (lifeTerm + esTerm))
+```
+
+Keys7418/14405 are `skill_user_maximum_life` / `skill_user_maximum_energy_shield`;
+248 is `maximum_mana`. Each coefficient is divided by100 and clamped to at least zero through
+the exact reviewed leaf `0x14013c620`. The pool values are not independently clamped here.
+The final compare at `0x142612c29` supplies `C`'s upper saturation, with no final nonnegative clamp.
+No divide-by60 occurs in this base callback.
+
+The two skill-user pool callbacks have concrete local selection rules:
+
+| Pool / callback | Selection order |
+|---|---|
+| 7418 / `0x142872b60` | Nonzero override14406; else trapped2376 or mined2377 returns1; else totemified2378 selects7269; otherwise1216 |
+| 14405 / `0x1428730f0` | Nonzero override14407; else trapped2376 or mined2377 returns0; else totemified2378 selects14404; otherwise249 |
+
+7269/14404 are the predicted totem Life/ES stats;1216 is intermediary maximum Life including
+Chaos Inoculation, and249 is maximum ES. These are native formula providers, not identified packet fields.
+Their registration bodies are `0x1400d8060` and `0x1400d80d0`.
+The FireDot parameter insertion alone does not establish that Skill-context pool callbacks are eligible:
+7418/14405 require ContextFlags `[1]`, a separate context category from FireDot.
+The upstream maximum-pool/cap producers and actual actor ownership were not exhausted in this checkpoint.
+
+Intermediate8198 returns zero when2031 `deal_no_fire_damage_over_time` or
+5756 `deal_no_skill_dot_damage_over_time` is nonzero. Its base is
+`add32(S(18348),S(14408))`;18348 is `virtual_base_skill_fire_damage_to_deal_per_minute`.
+The positive RF-base consumption is visible at `0x14261375f..0x142613824`, including native-parent
+fallback and the ordinary 32-bit base add. Its increased factor uses the ordinary32-bit sum of
+1426/2007/5763/5759/1450/2011/5988/1442/2013/5989, then `I(sum)`.
+These are the all-damage, DoT, skill-DoT, area, elemental and fire increase categories represented
+by those exact keys; the data sidecar retains every Id.
+
+Its final-factor product preserves this binary32 multiplication order:
+
+```text
+g = I(S(2008)) * I(S(1427))
+g = g * I(S(5764)) * I(S(5760)) * I(S(1451)) * I(S(2012)) * I(S(1443))
+g = I(S(2014)) * g
+g = I(S(7845)) * g
+g = I(S(10301)) * g
+v = I(sum) * f(add32(S(18348),S(14408)))
+S(8198) = max(0,R(v * g))
+```
+
+The tail `0x142614c49..0x142614c7c` calls signed-round helper `0x142513810` and selects a positive
+result with a signed comparison. That helper has no upper-saturation comparison; therefore this
+stage uses `R`, not `C0`. The factor helper `0x141d1e400` receives the already-added100 integer,
+divides by100 and clamps to zero. Ordinary integer overflow and x86 float-conversion semantics remain applicable.
+
+### Final outgoing rates and bounded consumer search
+
+Final5981 reads8198 and8172 `virtual_damage_+%_final_from_effective_level_permyriad`.
+Generic final1999 reads8195 and the same8172. Their shared readable arithmetic is:
+
+```text
+F(d,e) = R((f(e)/10000 + 1) * f(d))
+S(5981) = F(S(8198),S(8172))
+S(1999) = F(S(8195),S(8172))
+```
+
+The binary32 operation sequence is at `0x14262b476..0x14262b4ca` and
+`0x14262ab36..0x14262ab8a`. Neither final callback contains an independent upper saturation,
+nonnegative clamp or divide-by60. The field names state per-minute units; these bodies do not close
+their conversion into a timed resource deduction.
+
+The general native evaluator can invoke eligible registered callbacks and publish their results
+to its cache/raw-record representation, as established in the stat supplement. This is a conditional
+native evaluation/publication mechanism, not observed recomputation on a live RF actor.
+
+The outgoing follow-up inspected50 unwind-owned candidates for full encoded32-bit immediate
+1999/5981/14408 in any operand and retained10 exact hits, plus the separate cache-displacement search.
+14408 has the positive numeric consumer8198 above. The three5981 literal label users are
+`0x1402c7210`, `0x14059d650` and `0x1405b4300`, at `0x1402c89e2`, `0x14059d857` and `0x1405b450c`.
+They pass the key to `0x1421fdc40`, which returns formatted UTF-16 stat-name text through
+`0x1421fd1f0` / `0x140143ce0`; it does not retrieve the numeric stat value.
+No numeric final1999/5981 consumer, outgoing-to-incoming2023 bridge, packet publication or target resource
+deduction was closed by this bounded search. Indirect/data-driven keys, computed uses and unwind-less
+code remain outside that negative result. Local evidence `r2-rf-outgoing-data/evidence.json` pins
+the named Stats rows, ContextFlags and DotFlag arrays to the Stats identity above.
+
 ## Coverage and remaining work
 
 Typed mitigation, ES/Mana/Life splits, healing exclusions, lethal/nonlethal aggregates, overflow ratios and their
@@ -414,4 +571,5 @@ A lack of a producer in that search is not proof that no such producer exists.
 The Buff follow-up adds the reader-to-instance path, eight direct registry-singleton references and the named
 RF-aura factory chain described above. It still does not establish source-instance damage snapshots or publication.
 The lifecycle increment additionally closes component ownership of both ticks and the explicit remove-message
-path, while retaining timer-to-rate removal and subscriber-to-native-publication as unresolved edges.
+path. The granted-value follow-up identifies named backend and display consumers, while retaining timer-to-rate
+removal and subscriber/value-to-native-publication as unresolved edges.

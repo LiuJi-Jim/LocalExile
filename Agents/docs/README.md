@@ -60,8 +60,9 @@ How to regenerate them: [re/tooling.md](re/tooling.md) §7.
 | [re/client-stat-evaluation.md](re/client-stat-evaluation.md) | actual network Actor/skill provider chain, update freshness, native transactions and startup guards |
 | [re/client-dot-routing.md](re/client-dot-routing.md) | typed DoT mitigation, healing, ES/Mana/Life routes, self-rate calculations and exact cap/overflow boundaries |
 | [re/client-offence-estimates.md](re/client-offence-estimates.md) | both-hand typed damage ranges, base/added scaling, conversion, averages/DPS and actual numerical UI readers |
+| [re/client-hit-production.md](re/client-hit-production.md) | concrete Fireball spatial contacts, dodge/projectile avoidance, Melee accuracy/entropy and continuation boundaries |
 | [re/client-hit-feedback.md](re/client-hit-feedback.md) | immediate/queued result processing, action contexts, interruption, knockback and unresolved event consequences |
-| [re/client-hit-resource-boundary.md](re/client-hit-resource-boundary.md) | component/pool receiver distinction and bounded numerical-hit deduction searches |
+| [re/client-hit-resource-boundary.md](re/client-hit-resource-boundary.md) | component/pool receivers, numerical-hit searches, GEAL client/server eligibility and native resource listeners |
 | [re/client-damage-timing.md](re/client-damage-timing.md) | predictive/lockstep message ordering, component ticks, fractional resource integration and correction boundaries |
 | [re/client-damage-comparisons.md](re/client-damage-comparisons.md) | versioned GGG/wiki evidence and pinned PoB formulas, caps and modelling limits |
 | [re/011-level-generation.md](re/011-level-generation.md) | the client's level generator: stages, RNG, topology pick, tile hash, generation traces; the server port in progress |
