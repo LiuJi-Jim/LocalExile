@@ -82,6 +82,7 @@ How to regenerate them: [re/tooling.md](re/tooling.md) §7.
 | [re/client-ranged-action-selection.md](re/client-ranged-action-selection.md) | default Bow/Wand action selector, equipment-to-provider updates and startup registration winners |
 | [re/client-buff-clock-updates.md](re/client-buff-clock-updates.md) | insertion clocks, network replacement and ticking versus unresolved owner-stat-driven refresh |
 | [re/client-buff-stats-subscriptions.md](re/client-buff-stats-subscriptions.md) | three concrete owner-Stats subscribers, backend/instance field identities and non-clock callback consequences |
+| [re/client-buff-clock-input-provenance.md](re/client-buff-clock-input-provenance.md) | clock eligibility byte/word transport, zero additive defaults and partial/replacement assignment asymmetry |
 | [re/client-buff-clock-producers.md](re/client-buff-clock-producers.md) | concrete Life-to-Buffs advancement guard and its separate speed/rate boundaries |
 | [re/client-buff-network-clock-contract.md](re/client-buff-network-clock-contract.md) | existing Buff duration/speed receiver, omitted-speed default and selected backend callbacks |
 | [re/client-action-extensions.md](re/client-action-extensions.md) | startup-selected melee attachment/controller output and ranged zero-time projectile dispatch |

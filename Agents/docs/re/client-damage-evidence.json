@@ -15398,6 +15398,7 @@
         }
       ],
       "sourceBatches": [
+        "r11-buff-clock-input-final",
         "r2-buff-network",
         "r2-buff-timewarp-v2"
       ],
@@ -15431,10 +15432,27 @@
         }
       ],
       "sourceBatches": [
+        "r11-buff-clock-input-final",
         "r2-buff-bindings-v2",
         "r2-buff-timewarp-v2"
       ],
       "selectedDecompilationCompleted": true
+    },
+    "0x141e06bb0": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x141e06bb0",
+          "endExclusive": "0x141e07216",
+          "bytes": 1638,
+          "fileOffset": 31481776,
+          "sha256": "d17428a0295018be86533e13e80670507a8635c133b84b9129067795aef4258e"
+        }
+      ],
+      "sourceBatches": [
+        "r11-buff-clock-input-final"
+      ],
+      "selectedDecompilationCompleted": null
     },
     "0x141e07220": {
       "boundary": "PE-unwind-root-and-chains",
@@ -15448,6 +15466,7 @@
         }
       ],
       "sourceBatches": [
+        "r11-buff-clock-input-final",
         "r2-buff-network",
         "r2-buff-timewarp-v2"
       ],
@@ -15808,6 +15827,7 @@
         }
       ],
       "sourceBatches": [
+        "r11-buff-clock-input-final",
         "r2-buff-expiry-owner",
         "r4-buff-clock-update-discovery"
       ],
@@ -15825,6 +15845,7 @@
         }
       ],
       "sourceBatches": [
+        "r11-buff-clock-input-final",
         "r2-buff-network",
         "r2-buff-timewarp-v2",
         "r4-buff-network-clock-contract"
@@ -15843,6 +15864,7 @@
         }
       ],
       "sourceBatches": [
+        "r11-buff-clock-input-final",
         "r2-buff-bindings-v2",
         "r2-buff-speed-owner",
         "r2-buff-speed-owner-v3",
@@ -16324,6 +16346,7 @@
         }
       ],
       "sourceBatches": [
+        "r11-buff-clock-input-final",
         "r2-buff-bindings-v2"
       ],
       "selectedDecompilationCompleted": true
@@ -16560,6 +16583,7 @@
       "sourceBatches": [
         "hit-registrations",
         "offence-evaluators",
+        "r11-type-stat-prefix-final",
         "r2-dynamic-source-candidates"
       ],
       "selectedDecompilationCompleted": true
@@ -18811,6 +18835,7 @@
         }
       ],
       "sourceBatches": [
+        "r11-buff-clock-input-final",
         "r2-buff-runtime-factory",
         "r2-buff-speed-owner",
         "r2-buff-speed-owner-v3"
@@ -19099,6 +19124,22 @@
       ],
       "selectedDecompilationCompleted": true
     },
+    "0x141fdf430": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x141fdf430",
+          "endExclusive": "0x141fdf864",
+          "bytes": 1076,
+          "fileOffset": 33417264,
+          "sha256": "97066b5f63fb03fc227dff5b6c51415affe69a61fd1f1838e1619fca0fb9e6c4"
+        }
+      ],
+      "sourceBatches": [
+        "r11-buff-clock-input-final"
+      ],
+      "selectedDecompilationCompleted": null
+    },
     "0x141fdf870": {
       "boundary": "PE-unwind-root-and-chains",
       "ranges": [
@@ -19111,6 +19152,7 @@
         }
       ],
       "sourceBatches": [
+        "r11-buff-clock-input-final",
         "r2-buff-network",
         "r2-buff-timewarp-v2",
         "r4-buff-network-clock-contract"
@@ -21120,6 +21162,7 @@
       ],
       "sourceBatches": [
         "r1-skill-producers",
+        "r11-type-stat-prefix-final",
         "r2-native-source-tokens"
       ],
       "selectedDecompilationCompleted": true
@@ -21136,6 +21179,7 @@
         }
       ],
       "sourceBatches": [
+        "r11-defender-cache-final",
         "stat-evaluation-dispatch"
       ],
       "selectedDecompilationCompleted": true
@@ -21213,6 +21257,7 @@
         }
       ],
       "sourceBatches": [
+        "r11-defender-cache-final",
         "stat-evaluation-dispatch",
         "stat-update-evaluation"
       ],
@@ -21281,6 +21326,7 @@
         }
       ],
       "sourceBatches": [
+        "r11-defender-cache-final",
         "r3-offence-scalar-helpers",
         "r3-offence-typed",
         "r5-ailment-outgoing-helpers",
@@ -33513,6 +33559,21 @@
       "functionCount": 3
     },
     {
+      "name": "r11-buff-clock-input-final",
+      "auditSha256": "6798e188f5987b74ab3a7918cfa67003b161b86ae3ed7f4cd0d2bc1aaf8f0fc5",
+      "functionCount": 11
+    },
+    {
+      "name": "r11-defender-cache-final",
+      "auditSha256": "a492e62819f532e564a162da8ce7f59ef8a838204d77c9cd3c6ed257be1b333a",
+      "functionCount": 3
+    },
+    {
+      "name": "r11-type-stat-prefix-final",
+      "auditSha256": "f8a3a20171aa68ecc57558d4d0d5c938b3f8f4323a2733cc8ba923091f418181",
+      "functionCount": 2
+    },
+    {
       "name": "r2-base-rates",
       "auditSha256": "3d8a1be28320475810dbb6304e98c0d2e0e4496d49f471dbb16d178889d35ac5",
       "functionCount": 11
@@ -36261,8 +36322,8 @@
     }
   ],
   "verification": {
-    "entryCount": 1668,
-    "originalByteRangeCount": 2551,
+    "entryCount": 1670,
+    "originalByteRangeCount": 2553,
     "historicalBoundedThunkEntries": 4,
     "pointerSlotCount": 213,
     "selectedDecompilationRecords": 877,
@@ -36271,6 +36332,159 @@
     "scope": "Original ranges/offsets, unwind ownership or explicit boundaries, stat identity, reference instructions and pointer-slot contents revalidated offline."
   },
   "supportingRecords": [
+    {
+      "path": "Tools/re/out/client-damage-audit/r11-buff-clock-input-final/audit.json",
+      "bytes": 325000,
+      "sha256": "6798e188f5987b74ab3a7918cfa67003b161b86ae3ed7f4cd0d2bc1aaf8f0fc5",
+      "role": "R11 selected clock-input, native-cache or type-source contract and independent offline review"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r11-buff-clock-input-verify.py",
+      "bytes": 3903,
+      "sha256": "081054bd0e5d234e52d49733b8cd910c734fcd90fad3e4bca2305b0a976c51aa",
+      "role": "R11 selected clock-input, native-cache or type-source contract and independent offline review"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r11-buff-clock-input-provenance/verification.json",
+      "bytes": 5339,
+      "sha256": "5a5f4af69b9a80189e6aa92b2fd07a8c2c549ffe8530e68af74521b582926c61",
+      "role": "R11 selected clock-input, native-cache or type-source contract and independent offline review"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r11-buff-clock-input-review.py",
+      "bytes": 9497,
+      "sha256": "7ab8630db19f3709839edb4949e8264a052eb1e9b3b2049b4313ed50183e1b18",
+      "role": "R11 selected clock-input, native-cache or type-source contract and independent offline review"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r11-buff-clock-input-review.json",
+      "bytes": 10897,
+      "sha256": "f21ed3da450ae079b2b26dbd5bdd00c43d843e13f895ad0934e2c574e464ac07",
+      "role": "R11 selected clock-input, native-cache or type-source contract and independent offline review"
+    },
+    {
+      "path": "Agents/docs/re/client-buff-clock-input-provenance.md",
+      "bytes": 8426,
+      "sha256": "34ff6a7c694c28675adcbe9c049a4159d22b0460d60d751daab67d6abde2bd17",
+      "role": "R11 selected clock-input, native-cache or type-source contract and independent offline review"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r11-buff-clock-input-seal.json",
+      "sha256": "7240740553c33f87d61b8f8600efc34a842d517a9c54dd2bab905553251c715e",
+      "role": "R11 sealed original-byte evidence; actual numerical hit/DoT publisher remains open"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r11-defender-cache-final/audit.json",
+      "bytes": 36292,
+      "sha256": "a492e62819f532e564a162da8ce7f59ef8a838204d77c9cd3c6ed257be1b333a",
+      "role": "R11 selected clock-input, native-cache or type-source contract and independent offline review"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r11-defender-consumer-prepare.py",
+      "bytes": 2152,
+      "sha256": "a95c60018590104f31521e676e58e74ec07b481965926fee1b7ed65029aacfe0",
+      "role": "R11 selected clock-input, native-cache or type-source contract and independent offline review"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r11-defender-consumer-verify.py",
+      "bytes": 3772,
+      "sha256": "5b2981d129dfe2aeb1767eac592efcf6d5afd896b89b683a2d59bc0b9bc64c4f",
+      "role": "R11 selected clock-input, native-cache or type-source contract and independent offline review"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r11-defender-consumer-cache/audit.json",
+      "bytes": 36012,
+      "sha256": "fb864bc0b42edd35f15c443fd40bffdbc10f105f6ac80272d1edc0bca6430087",
+      "role": "R11 selected clock-input, native-cache or type-source contract and independent offline review"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r11-defender-consumer-cache/metadata.json",
+      "bytes": 977,
+      "sha256": "e4771b23078fdcd270101bfb2cc43fcb8e7592b3121149cb1d4159b0c7242858",
+      "role": "R11 selected clock-input, native-cache or type-source contract and independent offline review"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r11-defender-consumer-cache/candidates.json",
+      "bytes": 366,
+      "sha256": "ba52875c1576d3a3a06d5dc5b2056668a833dc7a74e4a5fb3f8ac02fb729361b",
+      "role": "R11 selected clock-input, native-cache or type-source contract and independent offline review"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r11-defender-consumer-verification.json",
+      "bytes": 444,
+      "sha256": "abe255a1678882af78060fe9d729f243db426c52fe668a1dafa528db1bf2097b",
+      "role": "R11 selected clock-input, native-cache or type-source contract and independent offline review"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r11-defender-consumer-review.py",
+      "bytes": 8375,
+      "sha256": "228e19c7522c12ebd14d41955f60eeaa412294a84d4a61620916542f8203c9be",
+      "role": "R11 selected clock-input, native-cache or type-source contract and independent offline review"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r11-defender-consumer-review.json",
+      "bytes": 18318,
+      "sha256": "17a6337930320d89e37a45f557c6e1ae8db52c0c59fd1515e0fe786f4b6782c0",
+      "role": "R11 selected clock-input, native-cache or type-source contract and independent offline review"
+    },
+    {
+      "path": "Agents/docs/re/client-defender-context-presence.md",
+      "bytes": 7628,
+      "sha256": "8731f843d01eb2dafe932a44f73e562c13ee17500c06ffd650c934c846d15a82",
+      "role": "R11 selected clock-input, native-cache or type-source contract and independent offline review"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r11-defender-cache-seal.json",
+      "sha256": "628e36d5a25f62865f16a1b7ca506c14cfb2f5d873056fd859d238577d1e9202",
+      "role": "R11 sealed original-byte evidence; actual numerical hit/DoT publisher remains open"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r11-type-stat-prefix-final/audit.json",
+      "bytes": 52088,
+      "sha256": "f8a3a20171aa68ecc57558d4d0d5c938b3f8f4323a2733cc8ba923091f418181",
+      "role": "R11 selected clock-input, native-cache or type-source contract and independent offline review"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r11-type-stat-prefix.py",
+      "bytes": 3404,
+      "sha256": "3de8ae6c201888fb89d02fef3b90621c4769346d2be786ccfb1af3fe6987f53e",
+      "role": "R11 selected clock-input, native-cache or type-source contract and independent offline review"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r11-type-stat-prefix/audit.json",
+      "bytes": 51897,
+      "sha256": "fcb4660f932948b5c53cc15c46f24c13b1490726cfc8d481f418ec95cf083826",
+      "role": "R11 selected clock-input, native-cache or type-source contract and independent offline review"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r11-type-stat-prefix/verification.json",
+      "bytes": 4653,
+      "sha256": "d82e2faf2ea05dcef97f25cae4533d8276245ed99cb5590cceb4312468c23fc3",
+      "role": "R11 selected clock-input, native-cache or type-source contract and independent offline review"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r11-type-stat-prefix-review.py",
+      "bytes": 6211,
+      "sha256": "3b2002093f0a4584983848c9832db62095d7e869c38d532800821f75de979374",
+      "role": "R11 selected clock-input, native-cache or type-source contract and independent offline review"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r11-type-stat-prefix-review.json",
+      "bytes": 5990,
+      "sha256": "5d43b3f50ef8e06f6ea36568b676de624f2c78762cdf48effa6140116d121f63",
+      "role": "R11 selected clock-input, native-cache or type-source contract and independent offline review"
+    },
+    {
+      "path": "Agents/docs/re/client-effect-source-catalogue.md",
+      "bytes": 18220,
+      "sha256": "5a123b0fcd59c2a60eacc13890f7363cf7d649c6a914526d3eaeb2d4757be07f",
+      "role": "R11 selected clock-input, native-cache or type-source contract and independent offline review"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r11-type-stat-prefix-seal.json",
+      "sha256": "51928b5d562cd46e0a63b6759f718c12966cdd4becb533a8befb5fac200f7f44",
+      "role": "R11 sealed original-byte evidence; actual numerical hit/DoT publisher remains open"
+    },
     {
       "path": "Tools/re/out/client-damage-audit/r3-loss-vm-sidecars.json",
       "sha256": "c5bb8eeb20724dea90e3debffa0163c0f4070b6ac76f5da3570119738472e26e",
@@ -38715,13 +38929,13 @@
     },
     {
       "path": "Agents/docs/re/client-defender-context-presence.md",
-      "bytes": 5300,
-      "sha256": "1312b13fa3e88c5772dcffb7ec168c9493a99f3864896a9adb45207c2da081d7",
+      "bytes": 7628,
+      "sha256": "8731f843d01eb2dafe932a44f73e562c13ee17500c06ffd650c934c846d15a82",
       "role": "37-input defender-conditional presence predicate and independent original-byte/short-circuit checks"
     },
     {
       "path": "Tools/re/out/client-damage-audit/r10-defender-context-verification.json",
-      "sha256": "e63ac34504e7111beb03e0ee683d83abe78702cce9725b725becb7f69f27135c",
+      "sha256": "db0ac715cdff78ea51f2dec51b614c0bf5769010e41586cba580df2a773e634d",
       "role": "Defender-context predicate support; actual hit numerical consumer remains unbound"
     },
     {
@@ -38832,13 +39046,13 @@
     },
     {
       "path": "Agents/docs/re/client-effect-source-catalogue.md",
-      "bytes": 15029,
-      "sha256": "bd3d9c90a4b9d2606a80be7199c360dc08cb4f12a1f24a04df5d69b54155f0c5",
+      "bytes": 18220,
+      "sha256": "5a123b0fcd59c2a60eacc13890f7363cf7d649c6a914526d3eaeb2d4757be07f",
       "role": "Bounded selected source configuration catalogue; field/parent/mode provenance, not native numerical publication"
     },
     {
       "path": "Tools/re/out/client-damage-audit/r8-effect-source-verification.json",
-      "sha256": "22417e5f28681cab9126520a0fe9db8e6958e15adb09af3cd0250fa1b9dfa80e",
+      "sha256": "994a4b62f6c374f5e3161a85ec07a1626465e094a3fa3898fd2df1276d3aaba5",
       "role": "Selected resource identities and source-field verification; no game execution"
     },
     {

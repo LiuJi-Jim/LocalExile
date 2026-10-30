@@ -40,8 +40,9 @@ Line numbers below use decoded logical source lines; byte hashes use the unmodif
 Stat names are matched exactly against `data/tables/Stats.json`, SHA256
 `91c2ed42f6d8094a2704f56aea32f6f16243881b04aadbe4fdbbdd3a566f05da`.
 Native key is zero-based row plus one. Eight distinct `set_...` field spellings have no exact
-`Stats.Id` match; the catalogue records null rather than stripping their prefix and asserting a
-native setter contract that has not been recovered in this pass.
+`Stats.Id` match; the lexical catalogue retains null for that exact-name lookup.
+The separately verified native parser below now binds their stripped names and source-replacement
+contract; those semantic results do not retroactively change the lexical source records.
 
 The native parent/current-file and common/extension passes are already checked in the
 [resource boundary report](client-hit-resource-boundary.md#14-concrete-bundled-source-chains-player-and-sand-spitter).
@@ -190,7 +191,53 @@ raw files and checks the stat-table identity. `r8-effect-source-catalogue.json` 
 provenance, repeated fields, script text, mode and parent chain of every selected resource.
 These local records are ignored and are not substitutes for source-specific native verification.
 
-## 7. Remaining work
+## 7. Native `set_` fields replace the type's own source contribution
+
+The previously identified type parser `0x141e406e0` distinguishes additive stat names from
+`set_` names using actual bytes, rather than a naming convention invented by this catalogue.
+It checks a length of at least four at `0x141e40731/0x141e40735` and compares the first four
+bytes with little-endian `0x5f746573`, ASCII `set_`, at `0x141e4073b`.
+That branch removes exactly four bytes before the existing name lookup
+(`0x141e4075c`, `0x141e40777`, `0x141e407fc`).
+The ordinary branch instead looks up the complete name.
+
+For a resolved name, both paths derive native key `(rowAddress - tableBase) / 0x69 + 1`.
+The `set_` branch first calls per-key source removal `0x1424fc9e0` at `0x141e408d3`,
+passing a pointer to an eight-byte zero token and the resolved key.
+The shared successful-lookup tail then calls native add `0x1424fc480` at `0x141e409e0`
+with that same zero token and the supplied signed32 value retained in `R15D`.
+The already recovered [source-removal contract](client-stat-evaluation.md#native-source-tokens-retain-additive-contributions)
+compares both token words, removes matching entries and rebuilds the raw total from the rest.
+Consequently this operation replaces the contribution for **this key and zero token**;
+it does not clear every source, install a network override, or bypass derived-stat evaluation.
+A zero replacement still removes the previous contribution before the add helper's zero-value guard.
+
+The eight exact selected fields now have the following conditional parser meanings:
+
+| Resource field | Stripped `Stats.Id` / native key | Selected declared values |
+|---|---|---|
+| `set_item_drop_slots` | `item_drop_slots` / 2 | 0 |
+| `set_monster_no_drops_or_experience` | `monster_no_drops_or_experience` / 890 | 1 |
+| `set_monster_do_not_fracture` | `monster_do_not_fracture` / 2513 | 1 |
+| `set_max_frenzy_charges` | `max_frenzy_charges` / 183 | 0 |
+| `set_max_endurance_charges` | `max_endurance_charges` / 182 | 0 |
+| `set_max_power_charges` | `max_power_charges` / 184 | 0 |
+| `set_monster_no_beyond_portal` | `monster_no_beyond_portal` / 2481 | 1 |
+| `set_cannot_be_afflicted` | `cannot_be_afflicted` / 11691 | 1 |
+
+These declarations occur in the already hashed AbstractDaemon and InvisibleFire resources.
+This closes their field-name/native-source semantics, conditional on dispatch to this parser;
+it does not prove which resource a live entity loaded or supply a DoT-instance publisher.
+Unresolved-name behavior and every other component's field merge rules remain separate.
+
+Ignored `r11-type-stat-prefix.py` rechecks both complete function records against the pinned PE:
+two ranges / 398 instructions, with 24 explicit instruction anchors.
+It also checks every one of the 23,346 valid row displacements against the original
+multiply-high/shift division and matches the eight stripped names against the pinned Stats table.
+This is offline verification, not execution of the complete parser or game.
+The retained result is `r11-type-stat-prefix/verification.json`.
+
+## 8. Remaining work
 
 The selected inheritance/field/script catalogue is established within its stated boundary.
 The general source-configuration task remains partial: expand from actual positive resource or

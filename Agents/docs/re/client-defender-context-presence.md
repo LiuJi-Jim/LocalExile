@@ -72,7 +72,44 @@ Each of the 37 keys was tested in isolation with values `INT_MIN`, -1, 1 and
 returned 0. These are interpretations of the original instructions with
 synthetic cache inputs, not observations of the running game.
 
-## 3. Unresolved use
+## 3. Typed native cache contract
+
+A follow-up establishes how a **native evaluation context** would store and
+read this output. This is a receiver contract, not identification of a consumer.
+
+| Original instruction | Verified operation |
+|---|---|
+| `0x1424fd2ea`, `0x1424fd310` | Native transaction creation sets context `+0` to context `+0xc0`, the signed 32-bit value array |
+| `0x1424fd2da`, `0x1424fd324` | Context `+8` points to context `+0x16d8c`, the validity bitmap |
+| `0x1424fd331` | Context `+0xb0` retains the native owner |
+| `0x1424fd365` | Native owner `+0x190` retains that context |
+| `0x1424fccf1`, `0x1424fccf8` | Formula dispatcher passes native owner `+0x190` as callback argument |
+| `0x14251354d`, `0x142513569` | Generic integer lookup addresses the value array by signed key multiplied by four |
+| `0x142513561` | Lookup tests bitmap word `(key >> 5) * 4`, bit `key & 31` |
+| `0x14251356e`, `0x142513575` | A cache miss reads context `+0xb0` through the native owner getter |
+| `0x14251357d`, `0x142513584` | Lookup writes the obtained value and sets its valid bit |
+| `0x1424fcd0b`, `0x1424fcd29` | Formula dispatch publishes its result into the same value/validity layout |
+
+For key 9189 this means value-array byte offset `0x8f94` and validity word
+offset `0x47c`, mask `0x20`. Those offsets identify the key only after the
+receiver is independently bound to this native context layout. A network
+override wrapper, another object's similarly placed field, or an untyped offset
+match is insufficient. The constructor's value region contains 23,347 integer
+slots including key zero, matching 23,346 extracted stat rows.
+
+The extracted row marks 9189 `IsPublic = true`, `IsVirtual = true`,
+`IsApplyDamageFunctionStat = false`, with empty `ContextFlags` and `DotFlag`.
+These are table facts; they do not prove transmission, local evaluation or
+application during an actual hit. In particular, an empty context-flag list
+must not be renamed an explicit server-only restriction.
+
+Original-byte evidence for these three functions and the extracted row is
+retained in private `r11-defender-consumer-cache`, reproduced by
+`r11-defender-consumer-prepare.py` and verified by
+`r11-defender-consumer-verify.py`. The focused follow-up did not bind an actual
+reader of 9189; the numerical consumer remains open.
+
+## 4. Unresolved use
 
 The callback's existence does not show that a received network entity executes
 the native formula; [the stat-provider boundary](client-stat-evaluation.md)

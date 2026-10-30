@@ -716,6 +716,8 @@ and can require explicit recipes.
   Actual owner Stats initialize poison/bleeding instance clocks, including pause conditions and a general 0.25 floor.
   Initial Entity insertion also uses owner clocks; later wire speed replacement differs from owner-stat refresh.
   Existing Buff partial updates directly overwrite duration/speed; omitted wire speed becomes 1.0.
+  Clock eligibility fields have byte/word transport; creation, partial update and replacement copy different fields.
+  Selected network construction defaults the separate additive clock input to zero; later recalculation stays open.
   The named Burning Arrow backend's partial-update callbacks add no recalculation after these copies.
   Selected Buff observers clear reference holders; they do not establish a Stats-to-existing-clock subscription.
   Three actual Buff backend Stats subscriptions reach cache/visibility/Render outputs; clock refresh stays open.
@@ -743,6 +745,7 @@ and can require explicit recipes.
   Shared/typed hit-taken final factors, additive elemental input and resistance-ignore predicates are recovered.
   Enemy-critical increased input has a component-only cap; actual joint hit-resolver application remains open.
   Defender-conditional presence output 9189 is a 37-input nonzero OR, distinct from numerical hit application.
+  Its native cache receiver layout is bound; matching a key offset alone does not identify a numerical consumer.
   Virtual faster and combined ailment multiplier inputs preserve attack/weapon/aura/charge qualifications.
   Twelve common DoT multiplier outputs preserve typed/ailment/non-ailment sums and signed integer order.
   Cold divides before its resistance coefficient; chaos multiplies before division, with different rounding.
@@ -757,6 +760,7 @@ and can require explicit recipes.
   Suppression can preserve listener eligibility; direction and critical feedback are separate received qualifiers.
   The selected Buff listener sums four Ruin quantities into count effects/audio, separate from DoT rates.
   A selected source catalogue closes 22 RF/daemon/ground-effect parent chains and 261 field declarations.
+  Eight set-prefixed fields map through the native parser to zero-token source replacement, rather than all sources.
   Six supplied scripts, explicit modes and component families remain distinct from numerical rate publication.
   GroundEffect lifetime transport, timer replacement/expiry, cancellation and removal-request edges are bound.
   Its typed ServerFill parent creates and retains shared cancellation flags; release can expire infinite children.
