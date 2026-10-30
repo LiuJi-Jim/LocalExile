@@ -200,7 +200,11 @@ PoB configuration state as evidence that a network actor's client-side stat cach
 
 This pass establishes a reproducible, versioned **comparison**, including meaningful agreements, observable model
 differences and primary-source limitations. It does not establish current official-server equivalence.
-Any milestone requiring the latter remains open; absence of that evidence is not evidence that the server disagrees.
-Specific remaining questions are current official cadence; full modifier/data parity; bit-exact integer/float/rounding
-and cap order; actor-specific source aggregation/expiry; stat freshness; and actual per-defender hit resolution.
-The main report owns the R0–R4 states and should retain those independent completion criteria.
+Exact current official-server parity is not a prerequisite for this investigation's goal: recover calculations,
+rules and client/server responsibilities sufficient to guide server implementation. Static original-byte formulas
+and versioned primary/community rules are useful evidence without a live replay. A claim of live parity or measured
+cadence would need its own evidence; no such claim is made here.
+Substantive remaining research includes unresolved formula inputs/cap order, actor-specific source selection,
+aggregation/expiry and concrete per-defender hit responsibility. Missing official traffic does not invalidate
+the closed static contracts, and a presentation callback does not close a missing numerical rule.
+The main report owns the R0–R4 states and retains those independent completion criteria.

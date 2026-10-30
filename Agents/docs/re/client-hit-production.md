@@ -10,8 +10,10 @@ They do **not** establish a local numerical damage roll, critical roll,
 mitigation calculation, or Hit-to-resource-loss chain.
 
 The concrete continuation matters: Melee's tested-contact dispatch slot is empty
-on the selected variant-0 factory object. Fireball's corresponding continuation
-consumes already queued action feedback. A mode-byte reference in projectile
+on the selected variant-0 factory object. The inspected Fireball base continuation
+enters a queued-feedback range processor; actual consumption is mode/kind-dependent.
+The final client factory overrides that continuation, as distinguished below.
+A mode-byte reference in projectile
 termination also gates visual effects; it is not a blanket exclusion of local
 hit tests or proof of damage resolution.
 
@@ -88,6 +90,29 @@ but changed extension callbacks must be followed separately.
 | Fireball, `0x141973cd0` | `0x141988dd0` → constructor `0x141a8b150`; table LEA `0x141a8b16c`, store `0x141a8b17e`; action type `0xaa4e` | `0x143335d80` |
 | Melee, variant 0 (registration argument 1), `0x14196a070` | `0x1419bbb70` calls base constructor `0x141c98150`, then **overwrites** its table at `0x1419bbc67`; action type `0xb188` | `0x143517ba0` |
 | Melee, variant 1 (registration argument 2), `0x14196a040` | `0x1419bbca0` → constructor `0x141ac9dc0`; table LEA `0x141ac9ddc` | `0x143273730` |
+
+**Fireball final-factory correction:** the Fireball row is the named base registration/factory,
+not the final client specialization. Client factory `0x14128d9f0` calls the same constructor at
+`0x14128dad6`, then loads `0x14333ac40` at `0x14128dadb` and overwrites the object's primary table
+at `0x14128dae2`. Its clone `0x1413dfc70` similarly calls the base copy constructor, then restores
+that client table at `0x1413dfc9f/0x1413dfca6`. The two tables share contact producer `+0x618`,
+spell gate `+0x570` and empty result callbacks `+0x2d0/+0x2d8`; they differ at clone `+0x450`
+and terminal `+0x530`. The client terminal is `0x1413dfd00`, not base `0x1412e34e0`.
+Consequently the inherited gate evidence below remains applicable, but the base clone/terminal
+must not stand in for the final client object. This distinction was found by cross-checking the
+parallel projectile research; ignored `r5-fireball-final-crosscheck` retains the two factory/copy
+bodies and `r5-fireball-final-crosscheck/verification.json` the compared slots.
+The parallel investigation also closed the selected startup order: `0x1400feae1` calls the base
+initializer (Fireball wrapper at `0x14194d923`), followed by `0x1400feae6` calling the client
+initializer (wrapper at `0x14124fe57`). Both wrappers register the same `Fireball` literal,
+hash `0xaa4e`, with coverage zero; existing registry payloads are replaced. Thus the later client
+factory wins both variants in this audited pass. Mine/trap/totem branches and later independent
+registry writes are outside that statement.
+Imported original-byte metadata is fixed in ignored `r5-projectile-cross-thread`: startup audit
+SHA256 `3fd26bc1b4b46300a093e7a9993d3d6c46ebedf7edb747649ab8ea67f5ac11aa`.
+Its 12 function spans and 34 instruction anchors were independently rechecked against this PE.
+The companion result-applicability snapshot independently binds eight original ranges and three World slots.
+Specific official result-route selection remains a separate observation question.
 
 The [ranged selector](client-ranged-action-selection.md) now binds the lookup variant to weapon state;
 the registrar's coverage argument is a separate value, not a server/client or predictive/lockstep mode.
@@ -281,7 +306,7 @@ that byte. This is a bounded observation, not a whole-program reachability proof
 | Concrete continuation | Established operation / boundary |
 |---|---|
 | Variant-0 Melee `+0x530` | Pointer at `0x1435180d0` is `0x1400f0f00`, exact bytes `c20000` (`ret 0`). The tested contact does not dispatch a numerical resolver through this slot. |
-| Fireball `+0x530` | Pointer at `0x1433362b0` is `0x1412e34e0`. It invokes `0x14193a170`, and optionally invokes it again under `+0x498`; this advances the action phase and consumes its matching **existing queued result range** through `0x141e91330`, as established in [hit feedback](client-hit-feedback.md). |
+| Fireball **base-table** `+0x530` | Pointer at `0x1433362b0` is `0x1412e34e0`. It invokes `0x14193a170`, optionally again under `+0x498`; phase advancement enters range processor `0x141e91330`. Its mode/kind predicate determines removal/processing; entry alone does not prove ordinary queued records were consumed. The final client table instead binds `0x1413dfd00`. See [hit feedback](client-hit-feedback.md). |
 | Fireball `+0x4c0` | `0x141bae0c0` inserts the target's integer Entity ID into a sorted vector under `action+0x438`, suppressing duplicates. This is target bookkeeping, not pool loss. |
 | Fireball non-piercing continuation | Contact processing retains the target at action `+0x3a8`; flight code calls `+0x4d0` at `0x141baa5ed`. This is the reviewed leaf `0x141ba68b0`, which clears `R8d` and jumps to `0x141ba68c0`. That function chooses projectile split/fork/chain/return/termination branches and calls `0x141baf5f0` with behavior codes 0..7. Its default termination calls that helper at `0x141ba6e63`, then invokes `+0x590` at `0x141ba6e9a`; Fireball's concrete `+0x590` is also `ret 0`. |
 | Projectile `0x141baf5f0` mode check at `0x141baf662` | Selects an optional target effect Entity according to a packed definition mode at `+0x4b`: value 3 bypasses comparison, 5 excludes it, otherwise `(mode==1)` must equal the global byte. The selected block constructs an Entity and configures position/speed. This alone is not a numerical hit resolver. |

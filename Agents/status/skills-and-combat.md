@@ -715,15 +715,27 @@ and can require explicit recipes.
   Buff duration/speed refresh and infinity defaults are bound; native source-token sums remain generic containers.
   Actual owner Stats initialize poison/bleeding instance clocks, including pause conditions and a general 0.25 floor.
   Initial Entity insertion also uses owner clocks; later wire speed replacement differs from owner-stat refresh.
+  Existing Buff partial updates directly overwrite duration/speed; omitted wire speed becomes 1.0.
+  The named Burning Arrow backend's partial-update callbacks add no recalculation after these copies.
   Selected Buff observers clear reference holders; they do not establish a Stats-to-existing-clock subscription.
   Life initialization/transition can gate definition-selected Buff ticks through a retained Buffs component.
   A decoded Life assignment from nonpositive to positive clears that guard and separately resets fractional carry.
   RF backend refresh/removal has art-object outputs; its two tick slots and insertion callback are empty.
   Burning Arrow's named backend lifecycle slots are empty; its incoming-rate publication is still unresolved.
   A named RF template declares an incoming fire-rate magnitude; active instance/target publication stays open.
-  Source-instance aggregation, event consequences and numerical-hit resource receivers remain open.
+  Selected outgoing ailments independently scale base/added/history: bleed 42, ignite 54, poison 18 per minute.
+  Faster/slower and critical ailment multipliers have separate rounding and Perfect Agony replacement branches.
+  Effective attack critical probability includes lucky/unlucky, extreme and unexciting branches; it is not a roll.
+  Critical Link override, the 300% multiplier replacement and 100% floor are bound; chance builders remain partial.
+  Five Aura source APIs are server-mode metadata, ineligible in ordinary client GEAL compilation.
+  Versioned selection rules include aggravated bleed's independent normal/extra selection; native publisher stays open.
+  Fireball client factories overwrite the base action table; inherited gates survive, clone/terminal slots differ.
+  Stage/range processing remains mode/kind-filtered; entering it does not prove ordinary queued-record consumption.
+  The selected Buff listener sums four Ruin quantities into count effects/audio, separate from DoT rates.
+  Source-instance aggregation, required numerical-event consequences and hit resource receivers remain open.
   Official/community comparisons and PoB formulas are pinned separately from current-server claims.
-  This work neither changes server combat nor establishes official-server behavior.
+  Closed static contracts support implementation research without a live replay; full rendering is outside scope.
+  This work neither changes server combat nor claims current official-server numerical parity.
   See [client damage research and task ledger](../docs/re/client-damage-calculation.md).
 - **Damage model (foundation, with armour/evasion).** A hit is a per-type `DamagePacket`;
   `DamageConversion` handles the game's physical, lightning, cold, fire, chaos order, chained conversion, skill/global

@@ -119,15 +119,21 @@ The suspend/restore lifecycle is explicit LocalExile policy; see protocol/11-ski
   Typed routing, cap/overflow boundaries, mode-dependent ticks and absolute assignment have static evidence.
   Outgoing RF parameters and 14408/8198/5981 formulas are bound separately from incoming base rates.
   Resolve source instances into base rates, their expiry/snapshot rules and actual publication eligibility.
+  Reuse recovered outgoing ailment coefficients, faster/slower and critical-multiplier branches.
+  Complete missing typed/offhand/max ailment outputs and chance builders only where needed for the common model.
+  Keep effective critical probability distinct from per-event trials, confirmation and defender critical modifiers.
+  Aura source metadata and versioned stack rules constrain authority without supplying the native rate publisher.
   Concrete Fireball/Melee contact and avoidance decisions are bound separately from panel formulas and feedback.
+  Preserve Fireball base-versus-client factory scope and mode/kind filters; reuse parallel projectile research.
   Bow/Wand specialization, equipment-to-setter updates and startup registry winners are bound.
-  Trace winning action extensions beyond inherited contacts and queued feedback to their numerical consequences.
+  Follow numerical consequences only where a concrete extension output requires them; do not expand all rendering.
   Melee attachment/controller outputs and DefaultArrow's five component update targets are bound.
   Selected Entity task factories, timers and secondary subscriptions are bound separately from component updates.
   Reuse the selected action-start task's bound animation publisher/listener when a relevant trace reaches it.
-  Trace live projectile task installation and external/nested listeners beyond those bounded identities.
+  Selected Buff lifecycle/quantity listeners resolve to Ruin count effects/audio; reuse that closed boundary.
   Selected Sand Spitter source Actor callbacks and attachment outputs are bound separately.
-  Owner-dependent Buff clocks are bound at insertion; trace later stat-change refresh separately from damage rate.
+  Owner clocks initialize at insertion; existing-instance network updates overwrite duration/speed (default 1.0).
+  Separate any local owner-stat refresh claim from that established synchronization contract and damage rate.
   Life-to-Buffs guards and the decoded nonpositive-to-positive Life clear trigger are bound.
   Trace other guard producers and source-rate consequences separately from that assignment branch.
   A named RF template declares a rate input; connect its actual instance and target to native publication.
@@ -136,6 +142,7 @@ The suspend/restore lifecycle is explicit LocalExile policy; see protocol/11-ski
   Follow other event configurations beyond GEAL/native listeners; selected player/Sand Spitter files have no handler.
   Reuse the pinned PR #373 comparison: `0x1b4` is a skill-stat update; private capture claims need source records.
   Bounded negative scans are not absence proofs.
+  Prioritize server-usable calculations and original C/S contracts; full rendering and live parity are not gates.
   Track artifact hashes, exact anchors and evidence boundaries in the
   [research workbench](../docs/re/client-damage-calculation.md#8-research-workbench-and-completion-criteria).
   This is static research, not authorization for client execution or a server refactor.

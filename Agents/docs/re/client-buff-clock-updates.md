@@ -6,6 +6,12 @@ speed from network updates. A **changed owner stat → recalculation of an
 already existing instance's speed** remains unclosed. These are different
 paths; a Stats read or an instance callback alone does not connect them.
 
+The follow-up [network receiver contract](client-buff-network-clock-contract.md) positively binds the World
+dispatch, existing-instance writes and selected Burning Arrow callbacks. Omitted wire speed becomes `1.0`,
+then overwrites the old instance speed. This synchronized clock path can be implemented without assuming
+an owner-Stats listener; the distinct local-refresh claim below remains bounded rather than a completion
+requirement to reconstruct all client components.
+
 This supplement extends [instance clocks](client-dot-routing.md#owner-stats-initialize-concrete-instance-clocks)
 and [provider notifications](client-stat-evaluation.md#notification-forwarding-versus-derived-cache-updates).
 It uses the same original executable, SHA256

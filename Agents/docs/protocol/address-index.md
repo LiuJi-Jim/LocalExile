@@ -176,6 +176,13 @@ These are client addresses; their presence is not proof of official-server imple
 | `0x142188123` / `0x142188129` | Code | [Selected Life assignment crossing](../re/client-buff-clock-producers.md#a-decoded-life-assignment-clears-the-guard-on-revival): nonpositive-to-positive guard clear followed by separate fractional-carry reset |
 | `0x1416370f0` / `0x141ee0ba0` | Fn | [Task registry](../re/client-entity-task-boundaries.md#registry-storage-and-bounded-registration-inventory): 98 registrations in the exact inspected initializer; global total unresolved |
 | `0x141dd3420` / `0x141636280` | Fn | [Action-start task listener](../re/client-entity-task-listener.md): AnimationController publication through secondary slot zero; concrete animation-related callback |
+| `0x142188132` / `0x1401ebc40` / `0x141e11720` | Code / Fn | [Existing Buff clock contract](../re/client-buff-network-clock-contract.md): World dispatch, named Buffs getter and retained-instance duration/speed writes |
+| `0x141e11dc0` / `0x141e11fb0` / `0x141e10810` | Fn | [Ruin count publishers](../re/client-entity-task-ruin-listener.md): insertion/removal/quantity mutation before secondary-listener dispatch |
+| `0x141f793f0` / `0x1416a10f0` | Fn | [Ruin count consumer](../re/client-entity-task-ruin-listener.md): four-definition quantity aggregation and count effect/audio maintenance |
+| `0x14262d7d0` / `0x142659f80` / `0x1426a0ed0` | Fn | [Outgoing ailment rates](../re/client-ailment-outgoing-formulas.md): MH physical bleed, MH fire ignite and physical-source poison |
+| `0x14275c050` / `0x14275c6a0` / `0x14276b920` | Fn | [Critical formulas](../re/client-critical-formulas.md): effective MH/OH probability and main-hand damage multiplier |
+| `0x141ed636f` / `0x141df96db` | Code | [Aura source authority](../re/client-dot-source-authority.md): mode-2 registration and metadata compiler eligibility branch |
+| `0x14128dadb` / `0x1413dfc9f` | Code | [Fireball final-factory correction](../re/client-hit-production.md#concrete-action-binding): client factory/copy overwrite the base primary table |
 | `0x141e6a190` | Fn | Life tick; conditional Life/ES/Mana continuous integration |
 | `0x141e6ae70` / `0x141e6b480` / `0x141e6cba0` | Fn | Life / ES / Mana continuous pool steps |
 | `0x141e6a6b0` | Fn | Integer/fractional loss reducer; float overflow result in XMM0 |

@@ -209,6 +209,13 @@ as the final startup actions.
 | Melee / 0 | `0x14196a070 → 0x1419bbb70` | `0x143517ba0`, final factory store at `0x1419bbc67` | `ret 0` | `0x14136f210` |
 | Melee / 1 | `0x14196a040 → 0x1419bbca0` | `0x143273730` in constructor `0x141ac9dc0`, store at `0x141ac9de3` | `ret 0` | `ret 0` |
 
+The Fireball row likewise records the **base** factory, not the final client specialization.
+Client factory `0x14128d9f0` calls that same constructor and then replaces the table with
+`0x14333ac40` at `0x14128dadb/0x14128dae2`; its clone restores that client table too.
+Both result slots above remain the same exact no-op on the client table, but clone/terminal
+slots differ. See the [factory correction and compared slots](client-hit-production.md#concrete-action-binding).
+Do not generalize the earlier whole base table to the final client action.
+
 Here `ret 0` is the exact leaf `0x1400f0f00`. The selected factory branches
 are the ordinary non-mine/trap/totem cases; wrapper branches through
 `0x1419e2e50`, `0x1419e2ef0` and `0x1419e2fa0` remain unexamined. Melee variant 0

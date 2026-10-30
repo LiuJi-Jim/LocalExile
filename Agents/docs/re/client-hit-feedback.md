@@ -74,6 +74,12 @@ name from a comparison:
    first identifier is **2**; its `0xff` branch resets the low byte to 1 before
    incrementing, and increments the second byte.
 
+The table/clone in steps 3–4 are the inspected **Fireball base-table** path.
+The final client factory replaces primary table `0x143335d80` with `0x14333ac40`;
+its `+0x450` clone is `0x1413dfc70` and restores that client table after the base copy.
+The identifier allocator remains the recovered shared producer, but a base clone is not proof
+of the final client clone's complete behavior. See the [final-factory correction](client-hit-production.md#concrete-action-binding).
+
 Consequently the report's repeated value 2 is consistent with an allocated
 secondary-action identifier. It does not establish a universal value to send
 for every projectile, or prove that the captured bow/mortar action uses this
@@ -110,6 +116,16 @@ For a zero flag, the world virtual `+0x1b0` result is checked.
 When it returns zero, Actor virtual `+0x238` receives the record key with processing flag zero, and the filter removes it.
 Otherwise the filter retains the record.
 This is a conditional protocol/action lifecycle, not evidence of accumulating unprocessed damage amounts.
+In particular, entering `0x141e91330` through a stage/end call is not equivalent to consuming every
+ordinary queued record. Kind-bit-zero records survive the nonzero-mode branch of this predicate;
+the mode/kind result must be retained when describing any concrete action's feedback route.
+The parallel projectile audit binds the selected predictive/lockstep World getters to values 1/2;
+ordinary kind-bit-zero records are therefore retained by this stage/end filter in those paths.
+A zero getter instead removes them without processing; nonzero kind selects processing.
+Immediate `0x1af` and matching queued `0x1af` plus processing `0x1b0` remain separate positive ingress
+contracts. This correction does not require inventing a local area-target loop or asserting that
+the official server always chooses either route. The imported eight-range snapshot is recorded
+with the [final-factory cross-check](client-hit-production.md#concrete-action-binding).
 
 The direct-call scan retains 293 callers of `0x141939f40` and 559 callers of `0x14193a170` in unwind-owned bodies.
 These counts establish broad reuse across actions, not that every caller's skill semantics have been recovered.

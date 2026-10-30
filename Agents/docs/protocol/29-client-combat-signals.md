@@ -145,6 +145,19 @@ The packet gives a wire identity to the previously audited subsequent skill upda
 updates of client-visible skill values. It does not establish which keys the official server sends.
 See the [reader/consumer audit and PR #373 comparison](../re/client-damage-pr373-comparison.md#0x1b4-is-a-skill-stat-update).
 
+## `0x1c1` / `0x1c2`: concrete Buff clock receiver
+
+The existing Buff wire format remains in the protocol's Buff reference. The
+[receiver audit](../re/client-buff-network-clock-contract.md) binds World dispatch `0x142188132`
+through the named Buffs getter to handler `0x141e11720`.
+For an existing instance and decoded selector `+0x81 == 0`, decoded duration/speed at `+0x68/+0x6c`
+overwrite the retained Buff's `+0x1c/+0x20`. These are decoded-object offsets, not wire offsets.
+Omitted speed decodes as `1.0` and therefore replaces the old speed.
+The selected Burning Arrow backend's two post-copy update callbacks are exact no-ops.
+
+This gives an implementation-ready timer synchronization contract. It does not specify which server mechanic
+computes the speed, transform clock speed into a DoT multiplier, or bind source-rate aggregation.
+
 ## Remaining protocol questions
 
 - Resolve action-specific `0x1af` virtual callbacks and event consequences beyond the established queue/control paths.

@@ -6,7 +6,10 @@ through a registry of two factory pointers per type. Selected concrete task
 types are now bound to their constructors and dispatch tables. This closes
 the list/receiver identity. The [listener supplement](client-entity-task-listener.md)
 additionally binds selected `0xc944` AnimationController publications; other
-listener paths and ordinary-hit damage/resource consequences remain open.
+listener paths and ordinary-hit damage/resource consequences remain separate.
+The [Ruin listener supplement](client-entity-task-ruin-listener.md) now closes
+the selected `0xd9aa` Buff lifecycle/quantity subscriber through its concrete
+count effect/audio consumer; no renderer expansion is needed for that boundary.
 
 The input is original `Client/Game.exe`, SHA256
 `78a0e227189c263658a7f65a02f086428b859bfc114ae8e7ce8aab721ebd48d5`,

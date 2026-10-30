@@ -7,6 +7,10 @@ magnitude, but the inspected client paths do not yet connect its application to 
 contribution. This page retains that useful source-data lead and the exact search boundary; it does not replace
 the missing instance publisher with the already known generic evaluator.
 
+The [source-authority supplement](client-dot-source-authority.md) adds positive server-mode Aura metadata
+and separately labelled default instance-selection rules from versioned official/community sources.
+Neither the compiler boundary nor a published gameplay rule is misrepresented as this missing native publisher.
+
 This is static analysis of the existing executable, extracted tables and three selected packaged resources.
 No client process, server, hook, attachment, gameplay operation or new capture was used.
 Executable SHA256 is `78a0e227189c263658a7f65a02f086428b859bfc114ae8e7ce8aab721ebd48d5`;

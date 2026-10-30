@@ -60,16 +60,21 @@ How to regenerate them: [re/tooling.md](re/tooling.md) §7.
 | [re/client-stat-evaluation.md](re/client-stat-evaluation.md) | actual network Actor/skill provider chain, update freshness, native transactions and startup guards |
 | [re/client-dot-routing.md](re/client-dot-routing.md) | typed DoT mitigation, healing, ES/Mana/Life routes, self-rate calculations and exact cap/overflow boundaries |
 | [re/client-offence-estimates.md](re/client-offence-estimates.md) | both-hand typed damage ranges, base/added scaling, conversion, averages/DPS and actual numerical UI readers |
+| [re/client-ailment-outgoing-formulas.md](re/client-ailment-outgoing-formulas.md) | outgoing bleed/ignite/poison components, per-minute rates, faster/slower and critical DoT multipliers |
+| [re/client-critical-formulas.md](re/client-critical-formulas.md) | critical probability/luck/unexciting transforms, overrides, multipliers and math-helper contracts |
 | [re/client-hit-production.md](re/client-hit-production.md) | concrete Fireball/Melee/Sand Spitter contacts, dodge/accuracy/entropy and action-specific continuation boundaries |
 | [re/client-ranged-action-selection.md](re/client-ranged-action-selection.md) | default Bow/Wand action selector, equipment-to-provider updates and startup registration winners |
 | [re/client-buff-clock-updates.md](re/client-buff-clock-updates.md) | insertion clocks, network replacement and ticking versus unresolved owner-stat-driven refresh |
 | [re/client-buff-clock-producers.md](re/client-buff-clock-producers.md) | concrete Life-to-Buffs advancement guard and its separate speed/rate boundaries |
+| [re/client-buff-network-clock-contract.md](re/client-buff-network-clock-contract.md) | existing Buff duration/speed receiver, omitted-speed default and selected backend callbacks |
 | [re/client-action-extensions.md](re/client-action-extensions.md) | startup-selected melee attachment/controller output and ranged zero-time projectile dispatch |
 | [re/client-projectile-extension-receivers.md](re/client-projectile-extension-receivers.md) | conditional DefaultArrow resource, Entity/action binding, concrete component updates and task-container boundary |
 | [re/client-entity-task-boundaries.md](re/client-entity-task-boundaries.md) | local/serialized task factories, Entity ownership, selected countdowns and external-listener boundaries |
 | [re/client-entity-task-listener.md](re/client-entity-task-listener.md) | selected action-start task's AnimationController subscription, slot-zero publication and concrete animation callback |
+| [re/client-entity-task-ruin-listener.md](re/client-entity-task-ruin-listener.md) | Buff lifecycle/quantity publication to Ruin count effects/audio; provider state versus presentation |
 | [re/client-defence-estimates.md](re/client-defence-estimates.md) | reference-damage physical-defence formulas, Ward substitution and category consumers |
 | [re/client-dot-source-publication.md](re/client-dot-source-publication.md) | named RF template magnitude, table fixups and unresolved active instance publication |
+| [re/client-dot-source-authority.md](re/client-dot-source-authority.md) | server-mode Aura APIs, separate Buff/Stats receivers and versioned ailment selection rules |
 | [re/client-hit-feedback.md](re/client-hit-feedback.md) | immediate/queued result processing, action contexts, interruption, knockback and unresolved event consequences |
 | [re/client-hit-resource-boundary.md](re/client-hit-resource-boundary.md) | component/pool receivers, numerical-hit searches, GEAL client/server eligibility and native resource listeners |
 | [re/client-damage-timing.md](re/client-damage-timing.md) | predictive/lockstep message ordering, component ticks, fractional resource integration and correction boundaries |
