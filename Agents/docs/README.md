@@ -60,6 +60,8 @@ How to regenerate them: [re/tooling.md](re/tooling.md) §7.
 | [re/client-stat-evaluation.md](re/client-stat-evaluation.md) | actual network Actor/skill provider chain, update freshness, native transactions and startup guards |
 | [re/client-dot-routing.md](re/client-dot-routing.md) | typed DoT mitigation, healing, ES/Mana/Life routes, self-rate calculations and exact cap/overflow boundaries |
 | [re/client-offence-estimates.md](re/client-offence-estimates.md) | both-hand typed damage ranges, base/added scaling, conversion, averages/DPS and actual numerical UI readers |
+| [re/client-spell-damage-components.md](re/client-spell-damage-components.md) | thirty spell base/intermediate/selected-added equations, wand splitting, typed qualifications and arithmetic boundaries |
+| [re/client-spell-contributor-builders.md](re/client-spell-contributor-builders.md) | life-cost, hand-cast, Battlemage and weapon-as-spell contributors with native qualification tables |
 | [re/client-ailment-outgoing-formulas.md](re/client-ailment-outgoing-formulas.md) | outgoing bleed/ignite/poison components, per-minute rates, faster/slower and critical DoT multipliers |
 | [re/client-bleeding-output-family.md](re/client-bleeding-output-family.md) | complete named MH/OH min/max bleeding rates, critical branches and hand/final-factor asymmetries |
 | [re/client-ailment-eligibility.md](re/client-ailment-eligibility.md) | typed ignite/poison permissions, hand-local poison gates and target acquisition prohibitions |
@@ -85,6 +87,7 @@ How to regenerate them: [re/tooling.md](re/tooling.md) §7.
 | [re/client-buff-stats-subscriptions.md](re/client-buff-stats-subscriptions.md) | three concrete owner-Stats subscribers, backend/instance field identities and non-clock callback consequences |
 | [re/client-buff-clock-input-provenance.md](re/client-buff-clock-input-provenance.md) | clock eligibility byte/word transport, zero additive defaults and partial/replacement assignment asymmetry |
 | [re/client-buff-default-backend.md](re/client-buff-default-backend.md) | strict empty-Id2 backend lookup, startup registration catalogue, null lifecycle guards and remaining numerical boundaries |
+| [re/client-buff-lifecycle-scripts.md](re/client-buff-lifecycle-scripts.md) | actual observer payloads, lifecycle program configuration and invocation, selected Buff-presence predicates |
 | [re/client-applydamage-stat-index.md](re/client-applydamage-stat-index.md) | actual IsApplyDamageFunctionStat reader, metadata map and guarded active function-index vectors; distinct from numerical damage execution |
 | [re/client-buff-clock-producers.md](re/client-buff-clock-producers.md) | concrete Life-to-Buffs advancement guard and its separate speed/rate boundaries |
 | [re/client-buff-network-clock-contract.md](re/client-buff-network-clock-contract.md) | existing Buff duration/speed receiver, omitted-speed default and selected backend callbacks |

@@ -124,12 +124,17 @@ The suspend/restore lifecycle is explicit LocalExile policy; see protocol/11-ski
   Reuse recovered clock input transport/defaults and partial/replacement asymmetry; later recalculation stays open.
   Empty Id2 for ignited/poison selects null in the audited startup catalogue, not an implicit default backend.
   Follow concrete numerical observer/script leads; do not repeat that closed factory/registry question.
+  Reuse actual Buff observer payloads, lifecycle program storage/invocation and selected presence predicates.
+  These contracts do not yet identify a numerical subscriber; do not expand unrelated presentation code.
   Reuse recovered outgoing ailment coefficients, faster/slower and critical-multiplier branches.
   Reuse complete MH/OH/spell chance builders and the selected defender modifier composition.
   Reuse all twelve named bleeding, 56 ignite and 72 poison rates with their category/critical builders.
   Preserve implicit ignite tincture inputs, poison hand gates, wrapping totals and chaos-only always-output gates.
   Reuse the complete fire self-rate 8180 equation; its primitive source publication remains a separate open edge.
   Reuse complete physical/chaos self-rates 8179/8183, including transfer gates and the physical post-cap tail.
+  Reuse thirty typed spell component equations and four life-cost/weapon-as-spell contributor builders.
+  Preserve wand half-splitting, hand-cast/type gates and distinct integer/float32 boundaries.
+  Fire intermediate-added reads active-Buff count outside declared dependencies; grants/refresh stay separate.
   These callbacks consume supplied bleed/ignite/poison rates; primitive instance publication remains open.
   Defender-conditional presence output 9189 groups 37 inputs; bind its numerical use before treating it as a resolver.
   The native cache receiver ABI is established; do not promote untyped offset matches into actual consumers.

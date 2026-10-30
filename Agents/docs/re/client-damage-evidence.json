@@ -97,6 +97,486 @@
       ],
       "selectedDecompilationCompleted": null
     },
+    "0x140096c10": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x140096c10",
+          "endExclusive": "0x140096c6b",
+          "bytes": 91,
+          "fileOffset": 614416,
+          "sha256": "ff53c367ea7731d5a5aa88db791ca6b6bbee8a35cd096640224399896bfd9d30"
+        }
+      ],
+      "sourceBatches": [
+        "r13-spell-components-final"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x140096c70": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x140096c70",
+          "endExclusive": "0x140096ccb",
+          "bytes": 91,
+          "fileOffset": 614512,
+          "sha256": "b84d4139209cd9e9382869e0f90b235934e90ec30807f87c894cf38abe2b8616"
+        }
+      ],
+      "sourceBatches": [
+        "r13-spell-components-final"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x140096cd0": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x140096cd0",
+          "endExclusive": "0x140096d2b",
+          "bytes": 91,
+          "fileOffset": 614608,
+          "sha256": "b4753a73931eb84dd5cfb5d5653adc23b270972f29c829125a1a167416d5577d"
+        }
+      ],
+      "sourceBatches": [
+        "r13-spell-components-final"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x140096d30": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x140096d30",
+          "endExclusive": "0x140096d8b",
+          "bytes": 91,
+          "fileOffset": 614704,
+          "sha256": "47bf134d2e76c47f0d5dc45d52b1f170e2944395e7f6207d2a34da6d0a9f6ce6"
+        }
+      ],
+      "sourceBatches": [
+        "r13-spell-components-final"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x140096d90": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x140096d90",
+          "endExclusive": "0x140096deb",
+          "bytes": 91,
+          "fileOffset": 614800,
+          "sha256": "8f68b2f8643bc2e4350bf4e8b15154d1de8b457277bc502ed3a46258daa37e49"
+        }
+      ],
+      "sourceBatches": [
+        "r13-spell-components-final"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x140096df0": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x140096df0",
+          "endExclusive": "0x140096e4b",
+          "bytes": 91,
+          "fileOffset": 614896,
+          "sha256": "a841b6a716f78fe34e8bcda90cb2abe26681f8b6898b827459825fe23698d7c7"
+        }
+      ],
+      "sourceBatches": [
+        "r13-spell-components-final"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x140096e50": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x140096e50",
+          "endExclusive": "0x140096eab",
+          "bytes": 91,
+          "fileOffset": 614992,
+          "sha256": "16060120a256bf2d2ba052d7826a11e0414931c8ad1fd9dc5443e7959eb1416a"
+        }
+      ],
+      "sourceBatches": [
+        "r13-spell-components-final"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x140096eb0": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x140096eb0",
+          "endExclusive": "0x140096f0b",
+          "bytes": 91,
+          "fileOffset": 615088,
+          "sha256": "63eb20d01a97abc0e39e95bb4e0ca5c8f011544cab3fa0947ce8efa4e93fc583"
+        }
+      ],
+      "sourceBatches": [
+        "r13-spell-components-final"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x140096f10": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x140096f10",
+          "endExclusive": "0x140096f6b",
+          "bytes": 91,
+          "fileOffset": 615184,
+          "sha256": "cb065f33a025faf6e1c84e8b7c7647cbedaeb1a62f7498eb86d8d618fc3598e0"
+        }
+      ],
+      "sourceBatches": [
+        "r13-spell-components-final"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x140096f70": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x140096f70",
+          "endExclusive": "0x140096fcb",
+          "bytes": 91,
+          "fileOffset": 615280,
+          "sha256": "d92749cdf8c7aed111884bbe4c89908137a0921c59bc42eb2c6070e03977fa69"
+        }
+      ],
+      "sourceBatches": [
+        "r13-spell-components-final"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x140096fd0": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x140096fd0",
+          "endExclusive": "0x140097033",
+          "bytes": 99,
+          "fileOffset": 615376,
+          "sha256": "2f1cf4b729cfd8627662e782f3b02a89814c82dba77b4164a21ac500ec12f6aa"
+        }
+      ],
+      "sourceBatches": [
+        "r13-spell-components-final"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x140097040": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x140097040",
+          "endExclusive": "0x1400970d8",
+          "bytes": 152,
+          "fileOffset": 615488,
+          "sha256": "e0d74b37fc2b9def4b55c1d1eb4387514a564237ff5a8176952b41e471a446de"
+        }
+      ],
+      "sourceBatches": [
+        "r13-spell-components-final"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x1400970e0": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1400970e0",
+          "endExclusive": "0x140097143",
+          "bytes": 99,
+          "fileOffset": 615648,
+          "sha256": "9266f0018c686aadafa01bd0ebe91a51a4f739c5fb49c907bf404f47e138c8be"
+        }
+      ],
+      "sourceBatches": [
+        "r13-spell-components-final"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x140097150": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x140097150",
+          "endExclusive": "0x1400971e8",
+          "bytes": 152,
+          "fileOffset": 615760,
+          "sha256": "7a918b2b2111ac554762c2f2ba6601307146a489bbbd24e9e1e7400586131034"
+        }
+      ],
+      "sourceBatches": [
+        "r13-spell-components-final"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x1400971f0": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1400971f0",
+          "endExclusive": "0x140097253",
+          "bytes": 99,
+          "fileOffset": 615920,
+          "sha256": "3ae63c21662e9199740443999ed9c7c0fb51a8241f4ceb92417c0bd769665206"
+        }
+      ],
+      "sourceBatches": [
+        "r13-spell-components-final"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x1400972b0": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1400972b0",
+          "endExclusive": "0x14009733b",
+          "bytes": 139,
+          "fileOffset": 616112,
+          "sha256": "9a02d93df18bf75b6cc25f1e5ac85c060da0df85f41e56c86335d1592cd94e30"
+        }
+      ],
+      "sourceBatches": [
+        "r13-spell-components-final"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x140097340": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x140097340",
+          "endExclusive": "0x1400973a3",
+          "bytes": 99,
+          "fileOffset": 616256,
+          "sha256": "83e32cfca124bdf3e8e40b9c81ac4e99f2d28c74b850357c574f68b38a87b05b"
+        }
+      ],
+      "sourceBatches": [
+        "r13-spell-components-final"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x140097400": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x140097400",
+          "endExclusive": "0x14009748b",
+          "bytes": 139,
+          "fileOffset": 616448,
+          "sha256": "aa4a4c406a6108b8edc2eaf253f7fd688e1e5ab6526e25d439411de9dc79761b"
+        }
+      ],
+      "sourceBatches": [
+        "r13-spell-components-final"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x140097490": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x140097490",
+          "endExclusive": "0x1400974f3",
+          "bytes": 99,
+          "fileOffset": 616592,
+          "sha256": "c265aab6d91de8a6e2e267b516654c230b100afe19d45758b5b117bc494b3e57"
+        }
+      ],
+      "sourceBatches": [
+        "r13-spell-components-final"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x140097500": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x140097500",
+          "endExclusive": "0x14009758f",
+          "bytes": 143,
+          "fileOffset": 616704,
+          "sha256": "10b8bae6f3f385d7eff43e3c2cf1e3bc509d278762cd71baa8cbb6aeb3042325"
+        }
+      ],
+      "sourceBatches": [
+        "r13-spell-components-final"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x140097590": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x140097590",
+          "endExclusive": "0x1400975f3",
+          "bytes": 99,
+          "fileOffset": 616848,
+          "sha256": "4ee13e36fed5c0602016943ed38c312471ab889d4386db3c70a9c91c4ef6415a"
+        }
+      ],
+      "sourceBatches": [
+        "r13-spell-components-final"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x140097600": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x140097600",
+          "endExclusive": "0x14009768f",
+          "bytes": 143,
+          "fileOffset": 616960,
+          "sha256": "1a378fc3fa5184348b077196878f65c6dad2f3126a88149f4fac9fa673fab69a"
+        }
+      ],
+      "sourceBatches": [
+        "r13-spell-components-final"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x140097690": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x140097690",
+          "endExclusive": "0x1400976f3",
+          "bytes": 99,
+          "fileOffset": 617104,
+          "sha256": "bb80c0c2c4a852f7eb6f6e72d6f2998100d2f38ee1abaab8ec996a5befd5e0e0"
+        }
+      ],
+      "sourceBatches": [
+        "r13-spell-components-final"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x140097700": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x140097700",
+          "endExclusive": "0x14009779f",
+          "bytes": 159,
+          "fileOffset": 617216,
+          "sha256": "8af1731f677532337c63a111e99c02ef74b8d2c9c16282f00b967cfcfe949749"
+        }
+      ],
+      "sourceBatches": [
+        "r13-spell-components-final"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x1400977a0": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1400977a0",
+          "endExclusive": "0x140097803",
+          "bytes": 99,
+          "fileOffset": 617376,
+          "sha256": "b71081ecb4056dbf8e16015d71ec9846fafe1325d208408e8c596cf98a523ce3"
+        }
+      ],
+      "sourceBatches": [
+        "r13-spell-components-final"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x140097810": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x140097810",
+          "endExclusive": "0x1400978af",
+          "bytes": 159,
+          "fileOffset": 617488,
+          "sha256": "22e2dcbc2f8c1f09db5adc923b09701ac624b5715ef24bd423f1eff38a0dfc09"
+        }
+      ],
+      "sourceBatches": [
+        "r13-spell-components-final"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x1400978b0": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1400978b0",
+          "endExclusive": "0x140097913",
+          "bytes": 99,
+          "fileOffset": 617648,
+          "sha256": "188d37035fded039cca7ca751ff35065f5a6746c064e0f3efa15c2b61b7c057c"
+        }
+      ],
+      "sourceBatches": [
+        "r13-spell-components-final"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x140097970": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x140097970",
+          "endExclusive": "0x140097a06",
+          "bytes": 150,
+          "fileOffset": 617840,
+          "sha256": "b3507b7b6b119791ddb8ef5feeaf034620e79d51feabf83ce4d222442263a757"
+        }
+      ],
+      "sourceBatches": [
+        "r13-spell-components-final"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x140097a10": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x140097a10",
+          "endExclusive": "0x140097a73",
+          "bytes": 99,
+          "fileOffset": 618000,
+          "sha256": "20b6b056c27ad2bf4e509e5fdd4f142ab0c51043f73592f554c9567239374b41"
+        }
+      ],
+      "sourceBatches": [
+        "r13-spell-components-final"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x140097a80": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x140097a80",
+          "endExclusive": "0x140097b16",
+          "bytes": 150,
+          "fileOffset": 618112,
+          "sha256": "1d52c8aedfb3d48273756a6f19b4bca0f5ea1df42340ee43708b3a4374042d18"
+        }
+      ],
+      "sourceBatches": [
+        "r13-spell-components-final"
+      ],
+      "selectedDecompilationCompleted": null
+    },
     "0x1400982a0": {
       "boundary": "PE-unwind-root-and-chains",
       "ranges": [
@@ -7762,6 +8242,22 @@
       ],
       "selectedDecompilationCompleted": null
     },
+    "0x1400dd730": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1400dd730",
+          "endExclusive": "0x1400dd78b",
+          "bytes": 91,
+          "fileOffset": 903984,
+          "sha256": "5ac3530b23e9331ffded9bd758e824bd1fde2a1bcfee2fd931d3f6ec6a9cfcf7"
+        }
+      ],
+      "sourceBatches": [
+        "r13-spell-builders-final"
+      ],
+      "selectedDecompilationCompleted": null
+    },
     "0x1400de960": {
       "boundary": "PE-unwind-root-and-chains",
       "ranges": [
@@ -7791,6 +8287,54 @@
       ],
       "sourceBatches": [
         "r2-routing-support"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x1400e2200": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1400e2200",
+          "endExclusive": "0x1400e2255",
+          "bytes": 85,
+          "fileOffset": 923136,
+          "sha256": "b0a29e41702d59daa374bcbdc673c8adc79ca4798206de06eb0d4c852c88901f"
+        }
+      ],
+      "sourceBatches": [
+        "r13-spell-builders-final"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x1400e2260": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1400e2260",
+          "endExclusive": "0x1400e22d9",
+          "bytes": 121,
+          "fileOffset": 923232,
+          "sha256": "f00048d1018aad53c205638871e408e858277e98c7685f3cc43c44a992f6efb3"
+        }
+      ],
+      "sourceBatches": [
+        "r13-spell-builders-final"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x1400e22e0": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1400e22e0",
+          "endExclusive": "0x1400e2351",
+          "bytes": 113,
+          "fileOffset": 923360,
+          "sha256": "b004454d4f7d5f2cd2d19cbd0c129e23ff75caf4a50d85596fae3df169b9e24d"
+        }
+      ],
+      "sourceBatches": [
+        "r13-spell-builders-final"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -8615,6 +9159,7 @@
         }
       ],
       "sourceBatches": [
+        "r13-buff-lifecycle-final",
         "r3-d9aa-listener-final",
         "r4-buff-network-clock-contract"
       ],
@@ -12054,6 +12599,7 @@
         }
       ],
       "sourceBatches": [
+        "r13-buff-lifecycle-final",
         "r2-buff-component",
         "r3-d9aa-listener-final"
       ],
@@ -12622,6 +13168,7 @@
         }
       ],
       "sourceBatches": [
+        "r13-buff-lifecycle-final",
         "r4-client-selfkill-invoke",
         "r8-ground-effect-boundary"
       ],
@@ -15974,6 +16521,7 @@
         }
       ],
       "sourceBatches": [
+        "r13-buff-lifecycle-final",
         "r3-event-program-parser"
       ],
       "selectedDecompilationCompleted": null
@@ -15990,6 +16538,7 @@
         }
       ],
       "sourceBatches": [
+        "r13-buff-lifecycle-final",
         "r3-loss-action-seeds"
       ],
       "selectedDecompilationCompleted": true
@@ -16006,6 +16555,7 @@
         }
       ],
       "sourceBatches": [
+        "r13-buff-lifecycle-final",
         "r4-pool-recharge-notify"
       ],
       "selectedDecompilationCompleted": true
@@ -16844,10 +17394,27 @@
         }
       ],
       "sourceBatches": [
+        "r13-buff-lifecycle-final",
         "r2-buff-component",
         "r3-d9aa-listener-final",
         "r4-buff-clock-update-discovery",
         "r4-buff-network-clock-contract"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x141e0fe20": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x141e0fe20",
+          "endExclusive": "0x141e10434",
+          "bytes": 1556,
+          "fileOffset": 31519264,
+          "sha256": "35db3f01688eaec6a45583ddca1dc9fa1615ab27e5120f9032640d6f5d2e0d1c"
+        }
+      ],
+      "sourceBatches": [
+        "r13-buff-lifecycle-final"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -16970,6 +17537,22 @@
       ],
       "selectedDecompilationCompleted": null
     },
+    "0x141e113d0": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x141e113d0",
+          "endExclusive": "0x141e114c9",
+          "bytes": 249,
+          "fileOffset": 31524816,
+          "sha256": "8a372ec232e5d1932fe0c32d08eb39ef610e1c19ca4f2cae7b29cf25f49776fb"
+        }
+      ],
+      "sourceBatches": [
+        "r13-buff-lifecycle-final"
+      ],
+      "selectedDecompilationCompleted": null
+    },
     "0x141e114d0": {
       "boundary": "PE-unwind-root-and-chains",
       "ranges": [
@@ -17022,6 +17605,7 @@
       "sourceBatches": [
         "r11-buff-clock-input-final",
         "r12-buff-default-final",
+        "r13-buff-lifecycle-final",
         "r2-buff-bindings-v2",
         "r2-buff-speed-owner",
         "r2-buff-speed-owner-v3",
@@ -17042,6 +17626,7 @@
       ],
       "sourceBatches": [
         "r12-buff-default-final",
+        "r13-buff-lifecycle-final",
         "r2-buff-removal",
         "r3-d9aa-listener-final"
       ],
@@ -17446,6 +18031,22 @@
       ],
       "selectedDecompilationCompleted": null
     },
+    "0x141e25320": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x141e25320",
+          "endExclusive": "0x141e2543f",
+          "bytes": 287,
+          "fileOffset": 31606560,
+          "sha256": "d623d155be3a62734121ec0de406e2005c0fbf0ed0e6ebc091bce272fd92099c"
+        }
+      ],
+      "sourceBatches": [
+        "r13-buff-lifecycle-final"
+      ],
+      "selectedDecompilationCompleted": null
+    },
     "0x141e25e50": {
       "boundary": "PE-unwind-root-and-chains",
       "ranges": [
@@ -17489,6 +18090,22 @@
       ],
       "sourceBatches": [
         "r4-buff-clock-update-discovery"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x141e26f50": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x141e26f50",
+          "endExclusive": "0x141e27041",
+          "bytes": 241,
+          "fileOffset": 31613776,
+          "sha256": "cea8e3844e09613b82b151f3781bdaa63b9f909849185c7a568f694d1616ce0a"
+        }
+      ],
+      "sourceBatches": [
+        "r13-buff-lifecycle-final"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -20489,6 +21106,38 @@
       ],
       "selectedDecompilationCompleted": null
     },
+    "0x14207d7f0": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x14207d7f0",
+          "endExclusive": "0x14207d939",
+          "bytes": 329,
+          "fileOffset": 34065392,
+          "sha256": "74c5773cd663cae42778a74d26ca7d3e320aca38a0a1d4e125d4132c8ad4ebed"
+        }
+      ],
+      "sourceBatches": [
+        "r13-buff-lifecycle-final"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x14207d940": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x14207d940",
+          "endExclusive": "0x14207da24",
+          "bytes": 228,
+          "fileOffset": 34065728,
+          "sha256": "edecb260a8519c6fe45a4683c5acaf0ed31b11e9a05c89de8e6ad8beb5ba9b9f"
+        }
+      ],
+      "sourceBatches": [
+        "r13-buff-lifecycle-final"
+      ],
+      "selectedDecompilationCompleted": null
+    },
     "0x14208ed90": {
       "boundary": "PE-unwind-root-and-chains",
       "ranges": [
@@ -20651,6 +21300,38 @@
       ],
       "selectedDecompilationCompleted": null
     },
+    "0x1420bc5d0": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1420bc5d0",
+          "endExclusive": "0x1420bc897",
+          "bytes": 711,
+          "fileOffset": 34322896,
+          "sha256": "504e215e835c32573c634c3931df8084e8fdc62b74aac0c7baa9e2c2652346a5"
+        }
+      ],
+      "sourceBatches": [
+        "r13-buff-lifecycle-final"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x1420bc8a0": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1420bc8a0",
+          "endExclusive": "0x1420bc9ed",
+          "bytes": 333,
+          "fileOffset": 34323616,
+          "sha256": "5c0c281991a7f34954abfc3bbe226f499dd2eeaf0e76a5ff31bbeea488a33f82"
+        }
+      ],
+      "sourceBatches": [
+        "r13-buff-lifecycle-final"
+      ],
+      "selectedDecompilationCompleted": null
+    },
     "0x1420c6700": {
       "boundary": "PE-unwind-root-and-chains",
       "ranges": [
@@ -20698,6 +21379,22 @@
         "r8-ground-effect-boundary"
       ],
       "selectedDecompilationCompleted": true
+    },
+    "0x1420dc880": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1420dc880",
+          "endExclusive": "0x1420dc92f",
+          "bytes": 175,
+          "fileOffset": 34454656,
+          "sha256": "81794969be4a44532fab233bd7f03952737145b71be102ddc907c146c45b8e9a"
+        }
+      ],
+      "sourceBatches": [
+        "r13-buff-lifecycle-final"
+      ],
+      "selectedDecompilationCompleted": null
     },
     "0x1420dd1a0": {
       "boundary": "PE-unwind-root-and-chains",
@@ -20776,6 +21473,22 @@
       ],
       "sourceBatches": [
         "r3-loss-geal-native-invokes"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x1420ec830": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1420ec830",
+          "endExclusive": "0x1420ec84b",
+          "bytes": 27,
+          "fileOffset": 34520112,
+          "sha256": "93822f58948a1cd708b8bf3f9da60b74ee4fdf3b5af57f4cbfd0dbe09e266b7d"
+        }
+      ],
+      "sourceBatches": [
+        "r13-buff-lifecycle-final"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -22009,6 +22722,7 @@
         }
       ],
       "sourceBatches": [
+        "r13-buff-lifecycle-final",
         "r3-d9aa-listener-final"
       ],
       "selectedDecompilationCompleted": null
@@ -22791,6 +23505,556 @@
         "r3-offence-typed"
       ],
       "selectedDecompilationCompleted": true
+    },
+    "0x142553d00": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x142553d00",
+          "endExclusive": "0x1425541fd",
+          "bytes": 1277,
+          "fileOffset": 39137536,
+          "sha256": "9d3d0f55221b5c0c81f4639915fd62d4087b9fb6be676e74d9a0794ad98c5917"
+        }
+      ],
+      "sourceBatches": [
+        "r13-spell-components-final"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x142554200": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x142554200",
+          "endExclusive": "0x1425546fd",
+          "bytes": 1277,
+          "fileOffset": 39138816,
+          "sha256": "f561627e7e43e6cf1f46d5688217d4bb4c11c81f44d7cdb76954040dfd0d9bc4"
+        }
+      ],
+      "sourceBatches": [
+        "r13-spell-components-final"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x142554700": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x142554700",
+          "endExclusive": "0x142554c06",
+          "bytes": 1286,
+          "fileOffset": 39140096,
+          "sha256": "f64735743187b0e4becac1610a0c51e7a9801dda3e9d326c8135c2091235c9dd"
+        }
+      ],
+      "sourceBatches": [
+        "r13-spell-components-final"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x142554c10": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x142554c10",
+          "endExclusive": "0x142555116",
+          "bytes": 1286,
+          "fileOffset": 39141392,
+          "sha256": "f18936fa9e3d194547233b763d32102168c1135f1dce865a7f56aa099c0fe225"
+        }
+      ],
+      "sourceBatches": [
+        "r13-spell-components-final"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x142555120": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x142555120",
+          "endExclusive": "0x1425555cd",
+          "bytes": 1197,
+          "fileOffset": 39142688,
+          "sha256": "aadbe89c210169eee38b1b1a0843d6d0c2d4e8f41e69c7d82d81e4e43f784e3a"
+        }
+      ],
+      "sourceBatches": [
+        "r13-spell-components-final"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x1425555d0": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1425555d0",
+          "endExclusive": "0x142555a6a",
+          "bytes": 1178,
+          "fileOffset": 39143888,
+          "sha256": "c393291bd3855fffd3bc6a91f0025a0a635313ecc2a0e4dfe7dd233326711d0e"
+        }
+      ],
+      "sourceBatches": [
+        "r13-spell-components-final"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x142555a70": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x142555a70",
+          "endExclusive": "0x142555f10",
+          "bytes": 1184,
+          "fileOffset": 39145072,
+          "sha256": "d88323c141383563754df8251dc1356f59d70df77caf9f03d5d6013f67e81805"
+        }
+      ],
+      "sourceBatches": [
+        "r13-spell-components-final"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x142555f10": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x142555f10",
+          "endExclusive": "0x1425563b0",
+          "bytes": 1184,
+          "fileOffset": 39146256,
+          "sha256": "6ffcc6fe47e4b9f127946c3a8ff870ed4f004195360158e2f79d2228ad1e6824"
+        }
+      ],
+      "sourceBatches": [
+        "r13-spell-components-final"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x1425563b0": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1425563b0",
+          "endExclusive": "0x142556908",
+          "bytes": 1368,
+          "fileOffset": 39147440,
+          "sha256": "c36c548c883fa94ddec4cd2b538ea2926f12b07403afafd14c4fc7495eeb3641"
+        }
+      ],
+      "sourceBatches": [
+        "r13-spell-components-final"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x142556910": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x142556910",
+          "endExclusive": "0x142556e68",
+          "bytes": 1368,
+          "fileOffset": 39148816,
+          "sha256": "b4d3c45cfaa55a7f8ebdb7fe90089af00c72f0130beaaaeeef97e4f0a0888dac"
+        }
+      ],
+      "sourceBatches": [
+        "r13-spell-components-final"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x142556e70": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x142556e70",
+          "endExclusive": "0x142557079",
+          "bytes": 521,
+          "fileOffset": 39150192,
+          "sha256": "0836dc849e3a7559800f1565a9249b881d35266a01fd13c9f9ba4730e3f9edda"
+        },
+        {
+          "start": "0x142557079",
+          "endExclusive": "0x142557500",
+          "bytes": 1159,
+          "fileOffset": 39150713,
+          "sha256": "a3bdbfa9ba8550be5b06997e5e51a1e731ce4961a2557c111f5dbcfa9c354318"
+        }
+      ],
+      "sourceBatches": [
+        "r13-spell-components-final"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x142557500": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x142557500",
+          "endExclusive": "0x1425585d0",
+          "bytes": 4304,
+          "fileOffset": 39151872,
+          "sha256": "d88e81bc0ff09db5eeea146090cc63083ba3c7183b62eb459cd3522232322355"
+        }
+      ],
+      "sourceBatches": [
+        "r13-spell-components-final"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x1425585d0": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1425585d0",
+          "endExclusive": "0x1425587d9",
+          "bytes": 521,
+          "fileOffset": 39156176,
+          "sha256": "a2a7e48f9a27395524ede8b958afa90276487e933aa20ab8656be8f45ef47c9e"
+        },
+        {
+          "start": "0x1425587d9",
+          "endExclusive": "0x142558c70",
+          "bytes": 1175,
+          "fileOffset": 39156697,
+          "sha256": "bda2ff62b09197f02f662bb54536e4b435eb856cea20576b0a87e9a6ff7eed95"
+        }
+      ],
+      "sourceBatches": [
+        "r13-spell-components-final"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x142558c70": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x142558c70",
+          "endExclusive": "0x142559d40",
+          "bytes": 4304,
+          "fileOffset": 39157872,
+          "sha256": "a3d457bee5483609448ab3085b5d2436085439fce1fa907c7af8f633447c0563"
+        }
+      ],
+      "sourceBatches": [
+        "r13-spell-components-final"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x142559d40": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x142559d40",
+          "endExclusive": "0x142559f49",
+          "bytes": 521,
+          "fileOffset": 39162176,
+          "sha256": "ba1c176c8713de46b39613268b55fae4fdfc6424a977ff92744399c313d28f07"
+        },
+        {
+          "start": "0x142559f49",
+          "endExclusive": "0x14255a3d1",
+          "bytes": 1160,
+          "fileOffset": 39162697,
+          "sha256": "235f340cbcf368177ac8077f8dd7dfbd20c9e37c98c7cf4be06f5e4cc7dc77a7"
+        }
+      ],
+      "sourceBatches": [
+        "r13-spell-components-final"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x14255a3e0": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x14255a3e0",
+          "endExclusive": "0x14255b077",
+          "bytes": 3223,
+          "fileOffset": 39163872,
+          "sha256": "c3e9215f65bd4bf15f4187a004b9f0bea6da11e302d38c0b2d97944f7370883b"
+        }
+      ],
+      "sourceBatches": [
+        "r13-spell-components-final"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x14255b080": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x14255b080",
+          "endExclusive": "0x14255b289",
+          "bytes": 521,
+          "fileOffset": 39167104,
+          "sha256": "3678b6fa051b493cd0641853e01ad7db3fd316ec433da656010cc721db84bcdf"
+        },
+        {
+          "start": "0x14255b289",
+          "endExclusive": "0x14255b720",
+          "bytes": 1175,
+          "fileOffset": 39167625,
+          "sha256": "b40854253cbb262990664a893865da7a56fe161a5404749f33b0b922f0daa35b"
+        }
+      ],
+      "sourceBatches": [
+        "r13-spell-components-final"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x14255b720": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x14255b720",
+          "endExclusive": "0x14255c3b7",
+          "bytes": 3223,
+          "fileOffset": 39168800,
+          "sha256": "4d86f559c38d3f5c864293a62ce9f0a337b3344e18c0463d4e303b6bb1384a77"
+        }
+      ],
+      "sourceBatches": [
+        "r13-spell-components-final"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x14255c3c0": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x14255c3c0",
+          "endExclusive": "0x14255c5c9",
+          "bytes": 521,
+          "fileOffset": 39172032,
+          "sha256": "41b11618423dd4a2e525e6e33bc960a42b04b805953606715e62857948524b57"
+        },
+        {
+          "start": "0x14255c5c9",
+          "endExclusive": "0x14255ca51",
+          "bytes": 1160,
+          "fileOffset": 39172553,
+          "sha256": "8d7993850fb000c15cfb8c3db7b4a5771e52a163d8520caba37146cd74102935"
+        }
+      ],
+      "sourceBatches": [
+        "r13-spell-components-final"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x14255ca60": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x14255ca60",
+          "endExclusive": "0x14255d6fa",
+          "bytes": 3226,
+          "fileOffset": 39173728,
+          "sha256": "4e9f3762b84d17d68a55a8edabe2e4a825f8287a638b0bcf0ffc4e959de04d83"
+        }
+      ],
+      "sourceBatches": [
+        "r13-spell-components-final"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x14255d700": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x14255d700",
+          "endExclusive": "0x14255d909",
+          "bytes": 521,
+          "fileOffset": 39176960,
+          "sha256": "d5f5a521da37748eeccaa2d8680683febab6c0e307e48c42c2f3f11b50377801"
+        },
+        {
+          "start": "0x14255d909",
+          "endExclusive": "0x14255dda0",
+          "bytes": 1175,
+          "fileOffset": 39177481,
+          "sha256": "c2e1ceaee32598d6c10718a36cb7a6ea7c0a837c9be954d0c2dc06294aab1abf"
+        }
+      ],
+      "sourceBatches": [
+        "r13-spell-components-final"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x14255dda0": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x14255dda0",
+          "endExclusive": "0x14255e9f7",
+          "bytes": 3159,
+          "fileOffset": 39178656,
+          "sha256": "90d8e32dc8348c2716a80d7d9045c427c8a03c3447d9fd03cccf9ae579204ca0"
+        }
+      ],
+      "sourceBatches": [
+        "r13-spell-components-final"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x14255ea00": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x14255ea00",
+          "endExclusive": "0x14255ec09",
+          "bytes": 521,
+          "fileOffset": 39181824,
+          "sha256": "7abaa5df2d726d1494d3a0b395a42c0641951932e5e56be22f323649bf9fbf58"
+        },
+        {
+          "start": "0x14255ec09",
+          "endExclusive": "0x14255f091",
+          "bytes": 1160,
+          "fileOffset": 39182345,
+          "sha256": "3b0c8aeb96796ad978d4bcee0960841304c9fe1a7c3410b8dfa809d307e40ca1"
+        }
+      ],
+      "sourceBatches": [
+        "r13-spell-components-final"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x14255f0a0": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x14255f0a0",
+          "endExclusive": "0x1425601a2",
+          "bytes": 4354,
+          "fileOffset": 39183520,
+          "sha256": "4898cbd2aa69ee3bcabfa00673aafb71464e73d3fa9e9e27aab48bbe0116bb38"
+        }
+      ],
+      "sourceBatches": [
+        "r13-spell-components-final"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x1425601b0": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1425601b0",
+          "endExclusive": "0x1425603b9",
+          "bytes": 521,
+          "fileOffset": 39187888,
+          "sha256": "14b970d9eaeb2ad9762c7f7e0a81fff35928c0712650e7fb2edeecb6dbc62b7e"
+        },
+        {
+          "start": "0x1425603b9",
+          "endExclusive": "0x142560850",
+          "bytes": 1175,
+          "fileOffset": 39188409,
+          "sha256": "533422adf8baea0cb3011370ca89a49b15d3161d62017bafe8c3608aff4d627a"
+        }
+      ],
+      "sourceBatches": [
+        "r13-spell-components-final"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x142560850": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x142560850",
+          "endExclusive": "0x142561972",
+          "bytes": 4386,
+          "fileOffset": 39189584,
+          "sha256": "33ba0c68bb7b6f08a858781b53ef640758fdfdf01440335657e04c3d89f32ac8"
+        }
+      ],
+      "sourceBatches": [
+        "r13-spell-components-final"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x142561980": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x142561980",
+          "endExclusive": "0x142561b89",
+          "bytes": 521,
+          "fileOffset": 39193984,
+          "sha256": "469227f03d9610905686ce3dd434f55c74cccd9224d2435211da9c312f709023"
+        },
+        {
+          "start": "0x142561b89",
+          "endExclusive": "0x142562011",
+          "bytes": 1160,
+          "fileOffset": 39194505,
+          "sha256": "47723f7fe39d9fdc61c1143a15dc7681867fd7d0ddca7010010b8714af574c5a"
+        }
+      ],
+      "sourceBatches": [
+        "r13-spell-components-final"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x142562020": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x142562020",
+          "endExclusive": "0x142562fcc",
+          "bytes": 4012,
+          "fileOffset": 39195680,
+          "sha256": "fee4ad0ea444057fc6dda23b909f7399388a22a3f9f5e78d8ac656d756648e42"
+        }
+      ],
+      "sourceBatches": [
+        "r13-spell-components-final"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x142562fd0": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x142562fd0",
+          "endExclusive": "0x1425631d9",
+          "bytes": 521,
+          "fileOffset": 39199696,
+          "sha256": "1f955c1c830d37618cd611888164eb71dd66d37dad72b3ad86f0a2a0e7889f6c"
+        },
+        {
+          "start": "0x1425631d9",
+          "endExclusive": "0x142563670",
+          "bytes": 1175,
+          "fileOffset": 39200217,
+          "sha256": "25f5a6648858666c462fcdedfe6623333642a5d8bdb1a5d67fb32753feaa3788"
+        }
+      ],
+      "sourceBatches": [
+        "r13-spell-components-final"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x142563670": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x142563670",
+          "endExclusive": "0x142564617",
+          "bytes": 4007,
+          "fileOffset": 39201392,
+          "sha256": "213de645276fa7070ae0a3650b6dc8f3b1c38a2d09fe18b747a7ed4ea4906b28"
+        }
+      ],
+      "sourceBatches": [
+        "r13-spell-components-final"
+      ],
+      "selectedDecompilationCompleted": null
     },
     "0x1425733e0": {
       "boundary": "PE-unwind-root-and-chains",
@@ -34536,6 +35800,22 @@
       ],
       "selectedDecompilationCompleted": true
     },
+    "0x14289c710": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x14289c710",
+          "endExclusive": "0x14289caf7",
+          "bytes": 999,
+          "fileOffset": 42580752,
+          "sha256": "5989b46949fdfa7801489bcbee6226d2223701880cb1f8a120d1e04eadb6305a"
+        }
+      ],
+      "sourceBatches": [
+        "r13-spell-builders-final"
+      ],
+      "selectedDecompilationCompleted": null
+    },
     "0x1428a97a0": {
       "boundary": "PE-unwind-root-and-chains",
       "ranges": [
@@ -34567,6 +35847,68 @@
         "r2-routing-support"
       ],
       "selectedDecompilationCompleted": true
+    },
+    "0x1428be820": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1428be820",
+          "endExclusive": "0x1428bea23",
+          "bytes": 515,
+          "fileOffset": 42720288,
+          "sha256": "33ceeaf65fd3f3b4a9902048cc4f4a6d7f2151f5ad05ce1aed922322ea7b58b9"
+        }
+      ],
+      "sourceBatches": [
+        "r13-spell-builders-final"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x1428bea30": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1428bea30",
+          "endExclusive": "0x1428bebf1",
+          "bytes": 449,
+          "fileOffset": 42720816,
+          "sha256": "5ffef0c8bf4039d69ef2f0e58d63a37205fc48aa0e6a7c65037504efb96a8910"
+        },
+        {
+          "start": "0x1428bebf1",
+          "endExclusive": "0x1428bf32a",
+          "bytes": 1849,
+          "fileOffset": 42721265,
+          "sha256": "6adceb1b8a9bc802f093a7287616d65951275a6d228936031790bceaecac6303"
+        }
+      ],
+      "sourceBatches": [
+        "r13-spell-builders-final"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x1428bf330": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1428bf330",
+          "endExclusive": "0x1428bf4e1",
+          "bytes": 433,
+          "fileOffset": 42723120,
+          "sha256": "aa75799cfd64c43d4065a99d9073052000a59822967f82fae0d749d3b6ba5b04"
+        },
+        {
+          "start": "0x1428bf4e1",
+          "endExclusive": "0x1428bfc06",
+          "bytes": 1829,
+          "fileOffset": 42723553,
+          "sha256": "839b30db8fc64af3620e8667957326428269d3d15dbf7debd9cf4bc8406bed75"
+        }
+      ],
+      "sourceBatches": [
+        "r13-spell-builders-final"
+      ],
+      "selectedDecompilationCompleted": null
     },
     "0x1428ce810": {
       "boundary": "PE-unwind-root-and-chains",
@@ -34896,6 +36238,21 @@
       "name": "r12-self-rates-final",
       "auditSha256": "c041234e8ed9c255267ea43df60956372c5c64df78ee9068cf9e8aab89d723f3",
       "functionCount": 4
+    },
+    {
+      "name": "r13-buff-lifecycle-final",
+      "auditSha256": "3d6cb800a9d28f1cc44d2c3545b0e157cc867681d00a8c0a46d5a439612da41b",
+      "functionCount": 20
+    },
+    {
+      "name": "r13-spell-builders-final",
+      "auditSha256": "aa71f69833c99c8415f5075b1d3e238e0ae91b1950301ff1988ba401f20b0c2c",
+      "functionCount": 8
+    },
+    {
+      "name": "r13-spell-components-final",
+      "auditSha256": "22d6706800a6c86961b5a1ef2a6429df0579c1b363f4da0f9c47ac4d5956225e",
+      "functionCount": 60
     },
     {
       "name": "r2-base-rates",
@@ -37646,8 +39003,8 @@
     }
   ],
   "verification": {
-    "entryCount": 1746,
-    "originalByteRangeCount": 2639,
+    "entryCount": 1824,
+    "originalByteRangeCount": 2729,
     "historicalBoundedThunkEntries": 4,
     "pointerSlotCount": 213,
     "selectedDecompilationRecords": 877,
@@ -37656,6 +39013,207 @@
     "scope": "Original ranges/offsets, unwind ownership or explicit boundaries, stat identity, reference instructions and pointer-slot contents revalidated offline."
   },
   "supportingRecords": [
+    {
+      "path": "Tools/re/out/client-damage-audit/r13-buff-lifecycle-final/audit.json",
+      "bytes": 251340,
+      "sha256": "3d6cb800a9d28f1cc44d2c3545b0e157cc867681d00a8c0a46d5a439612da41b",
+      "role": "R13 selected lifecycle or spell-component original-byte contract and independent review"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r13-buff-publication-verify.py",
+      "bytes": 5491,
+      "sha256": "dcbb44de628839bbc47886e9599f51175b8452b73f190d1b2b9115b1978edb8a",
+      "role": "R13 selected lifecycle or spell-component original-byte contract and independent review"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r13-buff-publication-handoff.json",
+      "bytes": 1008,
+      "sha256": "93b7917a4c20adea8b8d408a0dbc51e2f0fdfaae055abaf8283b154ed333a006",
+      "role": "R13 selected lifecycle or spell-component original-byte contract and independent review"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r13-buff-publication-script-boundary/verification.json",
+      "bytes": 10205,
+      "sha256": "e60568ce974399d7faf95b3a9f0f65d355f08fba996b6c88b801f352f0b65cc6",
+      "role": "R13 selected lifecycle or spell-component original-byte contract and independent review"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r13-buff-lifecycle-review.py",
+      "bytes": 11099,
+      "sha256": "295c010278059046ad91f442d9492831fbb62ff1bbc8a0465d2cf7f4fb31ba6b",
+      "role": "R13 selected lifecycle or spell-component original-byte contract and independent review"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r13-buff-lifecycle-review.json",
+      "bytes": 11248,
+      "sha256": "e935054821d1cd29b7ef9433120228804c584eeb115b3e5d88918042b1c2783c",
+      "role": "R13 selected lifecycle or spell-component original-byte contract and independent review"
+    },
+    {
+      "path": "Agents/docs/re/client-buff-lifecycle-scripts.md",
+      "bytes": 8205,
+      "sha256": "9ae0522a670a891ca6636e5f2ea4a15a7095bfb79b5cbe32c85309c82c203dd2",
+      "role": "R13 selected lifecycle or spell-component original-byte contract and independent review"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r13-buff-lifecycle-seal.json",
+      "sha256": "cb98c33d9d72609415a268f6e1ff7b4cf94fed19de8411634bf6a7bb3acb99e6",
+      "role": "R13 sealed reviewed evidence; actual source-instance and numerical hit publication remain open"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r13-spell-builders-final/audit.json",
+      "bytes": 217225,
+      "sha256": "aa71f69833c99c8415f5075b1d3e238e0ae91b1950301ff1988ba401f20b0c2c",
+      "role": "R13 selected lifecycle or spell-component original-byte contract and independent review"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r13-spell-builders-model.py",
+      "bytes": 2048,
+      "sha256": "7a53ae467d6828b2851572db3a4e495b725b928d5fe08a7af2934111f5743854",
+      "role": "R13 selected lifecycle or spell-component original-byte contract and independent review"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r13-spell-builders-verify.py",
+      "bytes": 13718,
+      "sha256": "ba370be2d802f191acfcc2d376667ae66109c41c88f2892f204fe15a09694e37",
+      "role": "R13 selected lifecycle or spell-component original-byte contract and independent review"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r13-spell-builders-verification.json",
+      "bytes": 19152,
+      "sha256": "e53a8cb20cf0079a36692b496056f4b8c328f322a25c9c39eedd720382cccaca",
+      "role": "R13 selected lifecycle or spell-component original-byte contract and independent review"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r13-spell-builders-review.py",
+      "bytes": 9441,
+      "sha256": "86d61cc2b5008f0b4dabd49934d41037577b1c30854d4cedfccfd5619e18adac",
+      "role": "R13 selected lifecycle or spell-component original-byte contract and independent review"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r13-spell-builders-review.json",
+      "bytes": 13592,
+      "sha256": "a938b92973650c0ef4712517124c51295593752ae5bfdc4bcadd17c3e2fe4851",
+      "role": "R13 selected lifecycle or spell-component original-byte contract and independent review"
+    },
+    {
+      "path": "Agents/docs/re/client-spell-contributor-builders.md",
+      "bytes": 9882,
+      "sha256": "282f11e5b82a7dca7ab013a8e3d41e65fbd2f1ec0bd13b99af9aa0906ca6b38f",
+      "role": "R13 selected lifecycle or spell-component original-byte contract and independent review"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r13-spell-builders-seal.json",
+      "sha256": "10a91d462e2f3db8ceadcddd172aa3444e0a9fea48154bc42c4352f3a522626b",
+      "role": "R13 sealed reviewed evidence; actual source-instance and numerical hit publication remain open"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r13-spell-components-final/audit.json",
+      "bytes": 2320688,
+      "sha256": "22d6706800a6c86961b5a1ef2a6429df0579c1b363f4da0f9c47ac4d5956225e",
+      "role": "R13 selected lifecycle or spell-component original-byte contract and independent review"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r13-spell-components-prepare.py",
+      "bytes": 1700,
+      "sha256": "2373ad617328e91f7fd3298c3841ead69d85e5939b092a9bcab6ccd6ac0e3210",
+      "role": "R13 selected lifecycle or spell-component original-byte contract and independent review"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r13-spell-components-model.py",
+      "bytes": 1070,
+      "sha256": "791592bd043008eda42768b29be34b77e213602c3f8a7a68d065873b36ffef06",
+      "role": "R13 selected lifecycle or spell-component original-byte contract and independent review"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r13-spell-components-regdeps.py",
+      "bytes": 200,
+      "sha256": "b9a204ae7aa7b06abde3371a7d4c3f89f7b9f3bd44cae853b3cd5a1da35fe868",
+      "role": "R13 selected lifecycle or spell-component original-byte contract and independent review"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r13-spell-equations.py",
+      "bytes": 2894,
+      "sha256": "aad9e08ad856b6490fb82e60f10c7db7cfab95204d8f20f4fcc022a14fa63a71",
+      "role": "R13 selected lifecycle or spell-component original-byte contract and independent review"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r13-spell-equations-verify.py",
+      "bytes": 3452,
+      "sha256": "f9b1e2b2d47f27034b0568246a0e5fff2cdc21ff6eb0ad7dd8df322d21801097",
+      "role": "R13 selected lifecycle or spell-component original-byte contract and independent review"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r13-spell-components/mapping.json",
+      "bytes": 5294,
+      "sha256": "7e3e273ee12c5d84e9d7f741e3d58047725df0268e2a0e26f3cef312246d101e",
+      "role": "R13 selected lifecycle or spell-component original-byte contract and independent review"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r13-spell-components/dependencies.json",
+      "bytes": 55382,
+      "sha256": "2f07fd182d159472d9ca04dc01991f110762e460ec41f6eeedd8956fd506856a",
+      "role": "R13 selected lifecycle or spell-component original-byte contract and independent review"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r13-spell-components/equation-verification.json",
+      "bytes": 7694,
+      "sha256": "2366804b8450142356a59741542e1e1138141bdf5f8f280325ce62eed1623bfd",
+      "role": "R13 selected lifecycle or spell-component original-byte contract and independent review"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r13-spell-components/equation-cases.json",
+      "bytes": 644551,
+      "sha256": "d930f98524e9d40d516573832c49a9afb6ba979f208058a5a9723e8fb0352f95",
+      "role": "R13 selected lifecycle or spell-component original-byte contract and independent review"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r13-spell-components-review.py",
+      "bytes": 14227,
+      "sha256": "7ab3628434765c53571e53cce7551b600f52a205e5bb8706db479aae4a28da57",
+      "role": "R13 selected lifecycle or spell-component original-byte contract and independent review"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r13-spell-components-review.json",
+      "bytes": 176886,
+      "sha256": "a0015cead77a116e7520923c2e4fcccdb6c1fe03a04ef997d6529d3338cbf0c9",
+      "role": "R13 selected lifecycle or spell-component original-byte contract and independent review"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r9-poison-model.py",
+      "bytes": 7832,
+      "sha256": "219f7a5f1641fbf4faba8e16fa7d6a08156869090e1b660e8f6a1b2d5f5bc4a1",
+      "role": "R13 selected lifecycle or spell-component original-byte contract and independent review"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r7-ailment-chance-model.py",
+      "bytes": 6639,
+      "sha256": "f09ac8aea5224f7bfc889987d40efa207bb363c16d78cfadcfb6f9d394c136bb",
+      "role": "R13 selected lifecycle or spell-component original-byte contract and independent review"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r10-fire-self-interpreter.py",
+      "bytes": 7203,
+      "sha256": "70bc52e88bd131889551d0de479c1c861726d7348e27b55ecb416eb48f623a3e",
+      "role": "R13 selected lifecycle or spell-component original-byte contract and independent review"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r3-peek.py",
+      "bytes": 1745,
+      "sha256": "d9ced54dbcb1fda216961f81643561eb50181a3f36069ed578785a224dca0b7f",
+      "role": "R13 selected lifecycle or spell-component original-byte contract and independent review"
+    },
+    {
+      "path": "Agents/docs/re/client-spell-damage-components.md",
+      "bytes": 11387,
+      "sha256": "9516f9018032c5d66ad89b34c202f0bae1bc38c8565fbba2b09fd3f33440a98f",
+      "role": "R13 selected lifecycle or spell-component original-byte contract and independent review"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r13-spell-components-seal.json",
+      "sha256": "bfc7ebc4e07ae9349d13b5c196ed216255b2f7b03a05f81f9edef597d5affbc4",
+      "role": "R13 sealed reviewed evidence; actual source-instance and numerical hit publication remain open"
+    },
     {
       "path": "Tools/re/out/client-damage-audit/r12-self-rates-final/audit.json",
       "bytes": 203736,
