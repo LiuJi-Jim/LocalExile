@@ -253,8 +253,10 @@ and what local state it changes.
 The remaining numerical question is a concrete **ground source instance → target selection
 → incoming typed rate** publisher, followed by mitigation and resource integration.
 Neither the animation continuation nor the Entity removal queue closes it.
-Useful bounded follow-ups are the concrete producer/implementation of retained token
-`+0x50/+0x58`, and only those source programs that actually invoke this callable or create
-the relevant ground instances.
+The [retained-token ownership supplement](client-ground-effect-ownership.md) now identifies
+the concrete `+0x50/+0x58` producer, typed ServerFill parent route, shared cancellation flag,
+identity-deduplicated retention and release/infinite-lifetime behavior.
+This closes effect-lifetime ownership; numerical publication remains a separate open edge.
+Follow only those source programs that actually invoke this callable or create the relevant ground instances.
 Do not substitute a whole-cache keyword scan or assume every burning/caustic visual has
 the same damage, overlap, snapshot or target-cap contract.

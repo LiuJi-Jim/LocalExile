@@ -68,6 +68,8 @@ Detailed supplements keep the evidence reviewable without treating this summary 
 - [Source-creation authority and versioned ignite/poison/bleed selection rules](client-dot-source-authority.md).
 - [Both-hand offence formulas, conversion, average/DPS and numerical UI consumers](client-offence-estimates.md).
 - [Outgoing bleed/ignite/poison components, faster/slower and critical DoT multipliers](client-ailment-outgoing-formulas.md).
+- [Complete named ignite outputs, category qualifications and intermediate publication boundaries](client-ignite-output-family.md).
+- [Complete named poison outputs, wrapping integer totals and chaos-only always-output gates](client-poison-output-family.md).
 - [Effective critical probabilities, luck rules, overrides and hit multipliers](client-critical-formulas.md).
 - [Complete main-hand, off-hand and spell critical-chance input builders](client-critical-inputs.md).
 - [Shared/typed hit-taken modifiers, ignore predicates and enemy-critical input composition](client-hit-defender-modifiers.md).
@@ -75,6 +77,7 @@ Detailed supplements keep the evidence reviewable without treating this summary 
 - [Common, typed, ailment and non-ailment DoT multiplier input families](client-dot-multiplier-inputs.md).
 - [Selected effect-source inheritance, fields, scripts and mode distinctions](client-effect-source-catalogue.md).
 - [GroundEffect lifetime transport, termination, cancellation and conditional Buff clock guard](client-ground-effect-boundary.md).
+- [GroundEffect cancellation-token producer, typed parent route and shared lifetime ownership](client-ground-effect-ownership.md).
 - [Versioned DoT instance sampling, target dynamics and expiration rules](client-dot-instance-rules.md).
 - [Physical-defence estimates using reference damage, including Ward substitution](client-defence-estimates.md).
 - [Concrete Fireball/Melee contact production, avoidance and entropy](client-hit-production.md).
@@ -85,6 +88,7 @@ Detailed supplements keep the evidence reviewable without treating this summary 
 - [Selected action-start task: AnimationController publication and slot-zero listener](client-entity-task-listener.md).
 - [Buff lifecycle/quantity listener: concrete Ruin count effect/audio responsibility](client-entity-task-ruin-listener.md).
 - [Hit queues, action contexts and control effects](client-hit-feedback.md).
+- [Received-result critical feedback, direction and current-target control admission](client-hit-result-qualifiers.md).
 - [Hit/resource receiver search and its precise coverage](client-hit-resource-boundary.md).
 - [Predictive/lockstep scheduling and resource correction](client-damage-timing.md).
 - [Versioned official/community explanations and PoB comparisons](client-damage-comparisons.md).
@@ -138,7 +142,8 @@ flowchart TD
   HITCALC -. pre-deduction unresolved .-> POOL
   FEEDBACK[S→C 0x1af: decimal 431] --> ACTOR[Actor result signals]
   ACTOR --> RENDER[Render / sound / effects callbacks]
-  ACTOR --> CONTROL[Interruption / knockback / action callbacks]
+  ACTOR --> QUALIFY[Current target admission: mutable control mask / duration]
+  QUALIFY --> CONTROL[Interruption / knockback / action callbacks]
   ACTOR --> EVENT[Event interpreter]
   NOTIFY --> EVENT
   CORRECTION --> LIFETRANS[Life selector compares old / assigned current]
@@ -588,7 +593,7 @@ damage-bearing paths. Keep missing source eligibility/selection, formulas and sy
 | R2 | Typed DoT formulas through mitigation | Established locally | All five types and nonlethal branches audited; [asymmetries](client-dot-routing.md) remain explicit |
 | R2 | Source instance → base per-minute rate | Open | [Named RF template](client-dot-source-publication.md) declares native 2023 magnitude; active instance/target publisher and selection/aggregation remain unbound |
 | R2 | Outgoing RF parameter/formula chain | Established locally | Native stat-set constants and FireDot eligibility feed 14408 → 8198 → 5981; [details](client-dot-routing.md#outgoing-righteous-fire-formula-bridge); target application remains open |
-| R2 | Outgoing ailment rate arithmetic | Partial, selected formulas established | [Bleed/ignite/poison study](client-ailment-outgoing-formulas.md): 42/54/18 per-minute coefficients, separate base/added/history, faster/slower and selected critical multipliers; [virtual faster and combined multiplier inputs](client-ailment-multiplier-inputs.md) recovered; [complete named bleeding rate family](client-bleeding-output-family.md) recovered; remaining ignite/poison typed/offhand/max outputs stay open |
+| R2 | Outgoing ailment rate arithmetic | Established for complete named rate families | [Bleeding](client-bleeding-output-family.md), [56 ignite outputs](client-ignite-output-family.md) and [72 poison outputs](client-poison-output-family.md): both hands/spell/secondary, typed min/max, critical/noncritical and poison always variants; category qualification, conversion history, multiplier builders and distinct rounding/overflow recovered; actual infliction and source-to-target publication stay separate |
 | R2 | Ailment type permissions, target gates and chance-input composition | Established for selected formula families | [21 eligibility outputs](client-ailment-eligibility.md), [17 chance outputs](client-ailment-chance-inputs.md) and their exact condition/hand scopes; actual infliction trial, ordering and instance publication remain separate |
 | R2 | Common DoT multiplier input families | Established for twelve selected outputs | [Generic, five typed, ailment-only and five non-ailment totals](client-dot-multiplier-inputs.md); preserve signed integer operation order, weapon qualification and implicit bow dependency; instance sampling and target application remain separate |
 | R2/R3 | Source configuration semantic catalogue | Partial, selected chains established | [22 selected RF/daemon/invisible-fire/ground-effect source chains](client-effect-source-catalogue.md): 261 declarations, six scripts, common/client mode and component distinctions, exact stat defaults; expand through positive source/data/native links toward numerical publication, without treating prior keyword scans as a semantic audit |
@@ -596,7 +601,7 @@ damage-bearing paths. Keep missing source eligibility/selection, formulas and sy
 | R2 | Instance sampling and duration/expiration rules | Established for selected native formulas and versioned primary explanations | [Faster rate/duration compensation, sampled individual offence, maintained-aura exception, target dynamics and event-driven clock/stat updates](client-dot-instance-rules.md); actual instance publisher and existing-clock owner-stat subscription stay open |
 | R2 | Typed resource routes and cap boundaries | Established locally | Eight typed/nonlethal/darkness channels, healing/MoM, aggregates and overflow audited; input reachability remains separate |
 | R2 | Buff instance clock and native contribution-container semantics | Established locally | Insertion-time owner clocks, infinity defaults and native additive tokens bound; [existing-instance network contract](client-buff-network-clock-contract.md) directly overwrites duration/speed and defaults omitted speed to 1.0; owner-stat-driven refresh and incoming-rate publication are separate claims |
-| R2/R4 | Selected GroundEffect lifecycle and transported lifetime | Established for selected component/callable | [KillGroundEffect, owner component/config enum, five-byte lifetime state, expiry, conditional Buffs guard and cancellation/removal boundary](client-ground-effect-boundary.md); retained token's concrete source type and numerical target-rate publisher remain open |
+| R2/R4 | Selected GroundEffect lifecycle and transported lifetime | Established for selected component/callable | [KillGroundEffect, owner component/config enum, five-byte lifetime state, expiry, conditional Buffs guard and cancellation/removal boundary](client-ground-effect-boundary.md); [typed ServerFill parent, cancellation-token producer and reference ownership](client-ground-effect-ownership.md) recovered; numerical target-rate publisher remains open |
 | R3 | Hit panel/offence evaluators | Established locally | Both hands, five types, base/added, conversion, average/DPS and actual network-provider numerical readers audited; [details](client-offence-estimates.md) |
 | R3 | Selected critical chance and multiplier arithmetic | Established locally | [Effective MH/OH probability and luck/unexciting, Critical Link and multiplier overrides](client-critical-formulas.md) closed; [complete chance-input builders](client-critical-inputs.md) and [selected defender modifier composition](client-hit-defender-modifiers.md) recovered; per-event rolls/confirmation and joint resolver application stay open |
 | R3 | Hit defender modifier composition | Established for selected callbacks | [Shared/typed final, additive elemental, resistance-ignore predicates and enemy-critical increased input](client-hit-defender-modifiers.md); actual hit amount/resistance/critical application stays separate |
@@ -606,6 +611,7 @@ damage-bearing paths. Keep missing source eligibility/selection, formulas and sy
 | R3 | Winning ranged extension receivers (supporting boundary) | Established for selected contracts | [Conditional DefaultArrow Entity/action/component path](client-projectile-extension-receivers.md), [task ownership/timers](client-entity-task-boundaries.md), [animation listener](client-entity-task-listener.md) and [Ruin count listener](client-entity-task-ruin-listener.md) bound; this is not numerical hit damage or a claim about every task |
 | R3 | Accepted hit → numerical pre-deduction | Open | Connect established contact/avoidance to amount, critical, mitigation and typed pool receivers; inspected continuations consume existing feedback or have empty slots |
 | R3 | Hit packet → callbacks | Partial | Queue/control, named actions, secondary-action ID producer, GEAL and resource compiler bound; selected player/Sand Spitter files supply no custom-event handler; other configurations/consequences remain open |
+| R3 | Received-result qualifiers and local control admission | Established for selected consumers | [Mutable mask/duration, current-target stun/leech guards, frozen-time differences, quantized direction and selected critical-feedback bit](client-hit-result-qualifiers.md); supplied qualifiers are not local damage/critical rolls or a numerical pool receiver |
 | R4 | Timing, freshness and correction policy | Partial | Scheduling, pool notifications, carry reset, entropy expiry, [Life-to-Buffs guards](client-buff-clock-producers.md) and [existing-instance duration/speed replacement](client-buff-network-clock-contract.md) established; source-rate expiry/publication and required numerical consequences remain open; full rendering is outside scope |
 | R4 | Official/community comparisons | Established comparison | [Pinned sources](client-damage-comparisons.md) distinguish historical explanations, wiki synthesis and PoB; current server equivalence is unproven |
 | R4 | PR #373 intermediate findings | Established comparison | [Pinned report and static cross-checks](client-damage-pr373-comparison.md); private capture counts/timestamps remain reported observations, not independently verified traffic |

@@ -123,13 +123,15 @@ The suspend/restore lifecycle is explicit LocalExile policy; see protocol/11-ski
   Existing owner-stat-to-clock subscriptions and source-rate expiry publication remain separate open edges.
   Reuse recovered outgoing ailment coefficients, faster/slower and critical-multiplier branches.
   Reuse complete MH/OH/spell chance builders and the selected defender modifier composition.
-  Bleeding's twelve named rates and hand/critical builders are recovered; expand remaining ignite/poison outputs.
+  Reuse all twelve named bleeding, 56 ignite and 72 poison rates with their category/critical builders.
+  Preserve implicit ignite tincture inputs, poison hand gates, wrapping totals and chaos-only always-output gates.
   Reuse typed ailment permissions, target acquisition gates and ordinary/critical-only chance inputs.
   Connect their real infliction consumers without assuming the chance sums perform a roll or create an instance.
   Keep effective critical probability distinct from per-event trials, confirmation and defender critical modifiers.
   Aura source metadata and versioned stack rules constrain authority without supplying the native rate publisher.
   Concrete Fireball/Melee contact and avoidance decisions are bound separately from panel formulas and feedback.
   Preserve Fireball base-versus-client factory scope and mode/kind filters; reuse parallel projectile research.
+  Reuse received-result control admission and mask/duration rewrites; selected critical feedback is not a roll.
   Bow/Wand specialization, equipment-to-setter updates and startup registry winners are bound.
   Follow numerical consequences only where a concrete extension output requires them; do not expand all rendering.
   Melee attachment/controller outputs and DefaultArrow's five component update targets are bound.
@@ -142,7 +144,7 @@ The suspend/restore lifecycle is explicit LocalExile policy; see protocol/11-ski
   Life-to-Buffs guards and the decoded nonpositive-to-positive Life clear trigger are bound.
   Trace other guard producers and source-rate consequences separately from that assignment branch.
   GroundEffect kill/expiry now reaches the owner's conditional Buffs guard and a concrete lifecycle boundary.
-  Follow its retained-token implementation and numerical source-to-target publication separately.
+  Reuse its typed parent/token ownership; numerical source-to-target publication remains a separate open edge.
   A named RF template declares a rate input; connect its actual instance and target to native publication.
   Keep reference-damage defence estimates separate from accepted-hit mitigation and resource loss.
   Connect accepted contacts to numerical damage/critical/mitigation and pool receivers; these edges remain open.

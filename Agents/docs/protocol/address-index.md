@@ -181,6 +181,8 @@ These are client addresses; their presence is not proof of official-server imple
 | `0x141f793f0` / `0x1416a10f0` | Fn | [Ruin count consumer](../re/client-entity-task-ruin-listener.md): four-definition quantity aggregation and count effect/audio maintenance |
 | `0x14262d7d0` / `0x142659f80` / `0x1426a0ed0` | Fn | [Outgoing ailment rates](../re/client-ailment-outgoing-formulas.md): MH physical bleed, MH fire ignite and physical-source poison |
 | `0x142630720` / `0x142631e90` / `0x142633f80` | Fn | [Bleeding output family](../re/client-bleeding-output-family.md): offhand typed rates, hand/final asymmetry and critical aggregate |
+| `0x142656dc0` / `0x1426778f0` / `0x14267b2f0` | Fn | [Ignite output family](../re/client-ignite-output-family.md): complete typed min/max, hand qualification and critical/noncritical aggregate arithmetic |
+| `0x1426c4440` / `0x1426c97e0` | Fn | [Poison output family](../re/client-poison-output-family.md): wrapping integer total versus chaos-only gated always output; neither return upper-saturates |
 | `0x1426f1e20` / `0x1426f2800` / `0x14277fbb0` | Fn | [Ailment eligibility](../re/client-ailment-eligibility.md): all-damage permissions, conditional pairs and target poison gate |
 | `0x1427e9270` / `0x142825210` / `0x142866b80` | Fn | [Ailment chance inputs](../re/client-ailment-chance-inputs.md): generic ignite/poison and main-hand bleed chance composition |
 | `0x14275c050` / `0x14275c6a0` / `0x14276b920` | Fn | [Critical formulas](../re/client-critical-formulas.md): effective MH/OH probability and main-hand damage multiplier |
@@ -192,6 +194,7 @@ These are client addresses; their presence is not proof of official-server imple
 | `0x142773350` / `0x142773640` / `0x142773e80` | Fn | [Ailment and non-ailment multiplier totals](../re/client-dot-multiplier-inputs.md): Elder contribution, typed sums and chaos-only extra input |
 | `0x1420b5ec0` / `0x141e19f10` / `0x141e1a5e0` | Fn | [GroundEffect lifecycle](../re/client-ground-effect-boundary.md): callable timer replacement, tick/expiry, conditional Buffs guard and concrete termination |
 | `0x141e19b10` / `0x141e1b500` / `0x141e1b470` | Fn | [GroundEffect configuration and lifetime transport](../re/client-ground-effect-boundary.md): object_type enum, visual-row selection and five-byte state receiver |
+| `0x1421c3d20` / `0x14218fb00` / `0x1421c3ed0` | Fn | [GroundEffect retained-token ownership](../re/client-ground-effect-ownership.md): typed ServerFill parent, child create/reuse and shared cancellation-flag attachment |
 | `0x141ed636f` / `0x141df96db` | Code | [Aura source authority](../re/client-dot-source-authority.md): mode-2 registration and metadata compiler eligibility branch |
 | `0x14128dadb` / `0x1413dfc9f` | Code | [Fireball final-factory correction](../re/client-hit-production.md#concrete-action-binding): client factory/copy overwrite the base primary table |
 | `0x141e6a190` | Fn | Life tick; conditional Life/ES/Mana continuous integration |
@@ -230,6 +233,7 @@ These are client addresses; their presence is not proof of official-server imple
 | `0x1421845b0` / `0x142184680` / `0x142184870` | Fn | Predictive component ticks / lockstep message-interleaved ticks / later lockstep entity range |
 | `0x1415f5d50` | Fn | Registers Render callbacks on source/target Actor result signals |
 | `0x141600c10` / `0x141600aa0` / `0x141609f40` | Fn | Source/false-branch/target Render callbacks; no proved pool pre-deduction |
+| `0x141e91a9d` / `0x141e91d37` / `0x1416016f1` | Insn | [Received-result qualifiers](../re/client-hit-result-qualifiers.md): leech/stun control rewrites, duration-only suppression and selected critical-feedback test |
 
 ### Player Actor scale ([04](04-player-entity.md#41a-player-actor-scale-299))
 

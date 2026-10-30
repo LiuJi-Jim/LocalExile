@@ -726,6 +726,10 @@ and can require explicit recipes.
   Selected outgoing ailments independently scale base/added/history: bleed 42, ignite 54, poison 18 per minute.
   Faster/slower and critical ailment multipliers have separate rounding and Perfect Agony replacement branches.
   All twelve named MH/OH min/max bleeding rates and their critical/noncritical multiplier builders are recovered.
+  All 56 named ignite and 72 poison rates cover both hands/spell/secondary, min/max and critical variants.
+  Ignite hand gates retain an implicit tincture input; poison hand elemental gates have a separate weapon table.
+  Poison totals wrap an integer sum before one float conversion, unlike ignite's floating sum and saturation.
+  Poison always-output gates read a chaos contribution; neither expected DPS nor all-type summation is implied.
   MH final-factor 19873 has no mirrored factor in the inspected OH rates; publication rounding remains separate.
   Typed ignite/poison permissions, hand-local poison gates and three target acquisition gates are recovered.
   Seventeen ailment chance outputs preserve conditional integer sums, fixed Boolean amounts and no local 100 cap.
@@ -745,10 +749,13 @@ and can require explicit recipes.
   Versioned selection rules include aggravated bleed's independent normal/extra selection; native publisher stays open.
   Fireball client factories overwrite the base action table; inherited gates survive, clone/terminal slots differ.
   Stage/range processing remains mode/kind-filtered; entering it does not prove ordinary queued-record consumption.
+  Selected received-hit consumers rewrite control mask/duration using current target stun/leech admission.
+  Suppression can preserve listener eligibility; direction and critical feedback are separate received qualifiers.
   The selected Buff listener sums four Ruin quantities into count effects/audio, separate from DoT rates.
   A selected source catalogue closes 22 RF/daemon/ground-effect parent chains and 261 field declarations.
   Six supplied scripts, explicit modes and component families remain distinct from numerical rate publication.
   GroundEffect lifetime transport, timer replacement/expiry, cancellation and removal-request edges are bound.
+  Its typed ServerFill parent creates and retains shared cancellation flags; release can expire infinite children.
   Its conditional guard pauses the owner's Buff clocks; it does not establish nearby target-rate publication.
   Source-instance aggregation, required numerical-event consequences and hit resource receivers remain open.
   Official/community comparisons and PoB formulas are pinned separately from current-server claims.

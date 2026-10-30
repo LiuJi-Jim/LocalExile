@@ -160,6 +160,12 @@ Actor tick `0x141e8ef50` later decrements that timer using its time argument and
 This is a real random/control branch, but it is **not an accuracy, critical or damage roll**.
 The complete gameplay taxonomy of these control-action identifiers is not recovered here.
 
+The [received-result qualifier supplement](client-hit-result-qualifiers.md) establishes
+current-target stun/leech admission and distinct mask/duration rewrites before later callbacks,
+the `+0x3a` quantized-direction input, and a selected critical-feedback use of mask bit `0x20`.
+Its zero-duration suppression path can still invoke target listeners; it must not be
+simplified into discarding the complete hit event or recomputing numerical damage.
+
 The knockback method reads `enemy_knockback_direction_is_reversed` (2712),
 `virtual_knockback_distance_+%` (12307), and `knockback_speed_+%` (13596) in the paths shown by its original bytes.
 When a result record supplies the corresponding parameters, it uses the record's signed fields instead.

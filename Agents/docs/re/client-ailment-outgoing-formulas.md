@@ -210,9 +210,12 @@ separate follow-ups; no lifetime model is inferred from a rate callback alone.
 
 ## 6. Branch-specific ailment DoT multipliers
 
-The audited aggregate callbacks sum five typed rates as float32 values, apply an ailment
-DoT-multiplier factor, then upper-saturate/round with `C`. They do not choose a random critical
-result or mix critical chance into these outputs.
+Aggregate arithmetic differs by ailment. The selected ignite callbacks convert each of five
+typed rates to float32, sum them, apply their multiplier and upper-saturate/round with `C`.
+The poison totals instead sum five inputs with wrapping 32-bit integer additions, convert that
+one signed sum to float32, apply their multiplier and use non-saturating `R`, without a final
+nonnegative clamp. Bleeding totals use their single physical typed rate. None of these totals
+chooses a random critical result or mixes critical chance into its output.
 
 | Rate output | Callback | Typed contributions | Multiplier key |
 |---|---|---|---|
@@ -227,9 +230,12 @@ result or mix critical chance into these outputs.
 | 10364 spell crit poison | `0x1426c5b90` | same five | 10316 |
 
 For example `S(6058) = C((float(S(6014)) + ... + float(S(6022))) * F(S(10320)))`.
-The sum is floating point before multiplication, not a potentially overflowing integer sum.
-The source-type callbacks outside the five representatives in sections 3–4 have not been
-individually reconstructed in this pass.
+That floating-point sum is specific to ignite. For MH poison `6122`, the original additions at
+`0x1426c48bb..0x1426c48c2` precede the single signed conversion at
+`0x1426c49cb..0x1426c49cf` and inline non-saturating rounding at `0x1426c49f6`.
+The expanded audit confirms this integer-sum/non-saturating contract for all sixteen poison
+totals (`6122..6129`, `10360..10367`); large inputs can therefore differ from the ignite path.
+The original selected formulas in sections 3–4 are not a claim of complete source-type coverage.
 
 The nine multiplier callbacks are audited too:
 
@@ -270,18 +276,20 @@ critical branches. Minute units are a rate representation: a finite duration or 
 Several callbacks clamp an individual outgoing per-minute value at signed-int maximum. That
 is useful evidence about representation and arithmetic. It does **not** prove that these
 callbacks implement the shared target-side DoT cap: they contain no target-wide aggregation,
-resistance evaluation, stack arbitration, or resource deduction, and some poison paths do not
-upper-saturate. Neither a shared cap nor its exact placement should be inferred from the
+resistance evaluation, stack arbitration, or resource deduction. The recovered poison rate
+paths do not upper-saturate. Neither a shared cap nor its exact placement should be inferred from the
 minute stat names alone.
 
 Follow-ups remain bounded and explicit:
 
 - Reuse the [complete named bleeding family](client-bleeding-output-family.md),
+  [56 named ignite outputs](client-ignite-output-family.md),
+  [72 named poison outputs](client-poison-output-family.md),
   [typed eligibility and target gates](client-ailment-eligibility.md), and
-  [ailment chance inputs](client-ailment-chance-inputs.md); expand remaining ignite/poison
-  maximum/offhand and typed contribution outputs.
+  [ailment chance inputs](client-ailment-chance-inputs.md); preserve their separate
+  source/category qualifiers, aggregate arithmetic and intermediate publication boundaries.
 - Reuse the [combined ailment multipliers and virtual faster producers](client-ailment-multiplier-inputs.md);
-  expand remaining generic/typed multiplier production when needed.
+  reuse [common/typed/ailment/non-ailment multiplier production](client-dot-multiplier-inputs.md).
 - Trace lifetime, instance snapshot/update policy, duration clocks, and stack selection separately.
 - Connect outgoing rates to target mitigation, effective-rate aggregation/cap, and resource pools.
 
