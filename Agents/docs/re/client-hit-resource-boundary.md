@@ -493,6 +493,9 @@ native entry, table slot, literals and exact instruction assertions. The same
 bounded invoke audit records `ConsumeSkillUse` and `KillGroundEffect`
 continuations separately; their names are not evidence of resource deduction
 or incoming DoT publication.
+The [ground-effect lifetime follow-up](client-ground-effect-boundary.md) now binds the latter
+to its owning GroundEffect component, timer replacement, conditional Buffs guard, cancellation
+and animation/removal-request consequences. Its numerical target-rate publication remains open.
 
 ### A concrete native numeric read, and a programmable Life listener
 

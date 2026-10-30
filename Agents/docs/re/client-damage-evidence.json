@@ -4225,6 +4225,198 @@
       ],
       "selectedDecompilationCompleted": null
     },
+    "0x1400bf3d0": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1400bf3d0",
+          "endExclusive": "0x1400bf44f",
+          "bytes": 127,
+          "fileOffset": 780240,
+          "sha256": "1e3cc6ecb5f5a29513ff94e64a2372ea01317e436c9dbf12033c4c68a79096cd"
+        }
+      ],
+      "sourceBatches": [
+        "r8-dot-multiplier-family"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x1400bf450": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1400bf450",
+          "endExclusive": "0x1400bf4c1",
+          "bytes": 113,
+          "fileOffset": 780368,
+          "sha256": "b96c27c52d204594345eff78207b66c0d1ca595662a6619aa7c067d06556293b"
+        }
+      ],
+      "sourceBatches": [
+        "r8-dot-multiplier-family"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x1400bf570": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1400bf570",
+          "endExclusive": "0x1400bf5db",
+          "bytes": 107,
+          "fileOffset": 780656,
+          "sha256": "cf5121ee31125aa35dcbd35fb7af909c1fc052f09a40f5dcde65070c13f07a06"
+        }
+      ],
+      "sourceBatches": [
+        "r8-dot-multiplier-family"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x1400bf630": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1400bf630",
+          "endExclusive": "0x1400bf69b",
+          "bytes": 107,
+          "fileOffset": 780848,
+          "sha256": "16e7538325a20edabf31edb2194ba138a03f5dfa53890a2cfa3472a580af7272"
+        }
+      ],
+      "sourceBatches": [
+        "r8-dot-multiplier-family"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x1400bf6a0": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1400bf6a0",
+          "endExclusive": "0x1400bf6ed",
+          "bytes": 77,
+          "fileOffset": 780960,
+          "sha256": "1994066a6674bc8cac528102fb2cf894ff259e69a49434c63c3f17096b55f84c"
+        }
+      ],
+      "sourceBatches": [
+        "r8-dot-multiplier-family"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x1400bf6f0": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1400bf6f0",
+          "endExclusive": "0x1400bf75b",
+          "bytes": 107,
+          "fileOffset": 781040,
+          "sha256": "7c906d75fc90442cc5fe2b14a9861e958e2902c2b200a0835d02e4acb35f3120"
+        }
+      ],
+      "sourceBatches": [
+        "r8-dot-multiplier-family"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x1400bf760": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1400bf760",
+          "endExclusive": "0x1400bf7bd",
+          "bytes": 93,
+          "fileOffset": 781152,
+          "sha256": "b494c5ffb8a2f9662f49129c78039fe8c7c3668457f4b564713d183785e8d5f6"
+        }
+      ],
+      "sourceBatches": [
+        "r8-dot-multiplier-family"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x1400bf7c0": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1400bf7c0",
+          "endExclusive": "0x1400bf815",
+          "bytes": 85,
+          "fileOffset": 781248,
+          "sha256": "c64aac63fb25b99968d49d82b41725c1e27c2a694c11ca4dc80f9c8c18cecf18"
+        }
+      ],
+      "sourceBatches": [
+        "r8-dot-multiplier-family"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x1400bf820": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1400bf820",
+          "endExclusive": "0x1400bf875",
+          "bytes": 85,
+          "fileOffset": 781344,
+          "sha256": "1c1dac383593393475019b1fe9816afce210c77765bec87f71c1b961eb0d246f"
+        }
+      ],
+      "sourceBatches": [
+        "r8-dot-multiplier-family"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x1400bf880": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1400bf880",
+          "endExclusive": "0x1400bf8d5",
+          "bytes": 85,
+          "fileOffset": 781440,
+          "sha256": "0fbff8079ba9ca4471926251f1e7d79787d57f33d87b0d2b29181f59e93d3dc6"
+        }
+      ],
+      "sourceBatches": [
+        "r8-dot-multiplier-family"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x1400bf8e0": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1400bf8e0",
+          "endExclusive": "0x1400bf935",
+          "bytes": 85,
+          "fileOffset": 781536,
+          "sha256": "abaf0ba011f3509bb779542768a4602cda0a8aeaf063cdd64ac02d9c6dc1cb92"
+        }
+      ],
+      "sourceBatches": [
+        "r8-dot-multiplier-family"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x1400bf940": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1400bf940",
+          "endExclusive": "0x1400bf99d",
+          "bytes": 93,
+          "fileOffset": 781632,
+          "sha256": "c2c0f73d628d64027ae6cad848a38c91b92c0b29d6cff56285c2505ead854c4b"
+        }
+      ],
+      "sourceBatches": [
+        "r8-dot-multiplier-family"
+      ],
+      "selectedDecompilationCompleted": null
+    },
     "0x1400bf9f0": {
       "boundary": "PE-unwind-root-and-chains",
       "ranges": [
@@ -5685,6 +5877,22 @@
       ],
       "selectedDecompilationCompleted": null
     },
+    "0x140129460": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x140129460",
+          "endExclusive": "0x1401294e7",
+          "bytes": 135,
+          "fileOffset": 1214560,
+          "sha256": "8558421e14cb46d33f71e09098fafa7c261856af0b0f26e7efe22c32e7ca7a28"
+        }
+      ],
+      "sourceBatches": [
+        "r8-ground-effect-boundary"
+      ],
+      "selectedDecompilationCompleted": true
+    },
     "0x14012afe0": {
       "boundary": "explicit-analyst-leaf-range",
       "ranges": [
@@ -5819,9 +6027,10 @@
       "sourceBatches": [
         "r3-action-extensions-consequences",
         "r3-c944-listener-final",
-        "r3-pr373-mortar-attachments"
+        "r3-pr373-mortar-attachments",
+        "r8-ground-effect-boundary"
       ],
-      "selectedDecompilationCompleted": null
+      "selectedDecompilationCompleted": true
     },
     "0x14013dfc0": {
       "boundary": "PE-unwind-root-and-chains",
@@ -5871,6 +6080,36 @@
         "r3-pr373-mortar-attachments"
       ],
       "selectedDecompilationCompleted": null
+    },
+    "0x140144930": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x140144930",
+          "endExclusive": "0x140144942",
+          "bytes": 18,
+          "fileOffset": 1326384,
+          "sha256": "8ee6829f8aae82382d7bd6745f08684461dbdc3570ea9f11b61f9b34b9fbf1b5"
+        },
+        {
+          "start": "0x140144942",
+          "endExclusive": "0x1401449a0",
+          "bytes": 94,
+          "fileOffset": 1326402,
+          "sha256": "3ff2fcae860fca6ebf0ed67ccda11686dba6f66d3d63f96600986978e060ccdb"
+        },
+        {
+          "start": "0x1401449a0",
+          "endExclusive": "0x1401449a1",
+          "bytes": 1,
+          "fileOffset": 1326496,
+          "sha256": "ae3f4619b0413d70d3004b9131c3752153074e45725be13b9a148978895e359e"
+        }
+      ],
+      "sourceBatches": [
+        "r8-ground-effect-boundary"
+      ],
+      "selectedDecompilationCompleted": true
     },
     "0x140145180": {
       "boundary": "explicit-analyst-leaf-range",
@@ -5936,6 +6175,22 @@
       ],
       "selectedDecompilationCompleted": null
     },
+    "0x140156ee0": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x140156ee0",
+          "endExclusive": "0x1401570b2",
+          "bytes": 466,
+          "fileOffset": 1401568,
+          "sha256": "07176aec3f512557966d0477b0cedfa9679e62797ae4ab53e87e7b3f7e84a42f"
+        }
+      ],
+      "sourceBatches": [
+        "r8-ground-effect-boundary"
+      ],
+      "selectedDecompilationCompleted": true
+    },
     "0x14015a670": {
       "boundary": "explicit-analyst-leaf-range",
       "ranges": [
@@ -5949,9 +6204,10 @@
       ],
       "sourceBatches": [
         "r2-buff-timewarp-v2",
-        "r4-pool-notification-leaves"
+        "r4-pool-notification-leaves",
+        "r8-ground-effect-boundary"
       ],
-      "selectedDecompilationCompleted": null
+      "selectedDecompilationCompleted": true
     },
     "0x14019a1b0": {
       "boundary": "PE-unwind-root-and-chains",
@@ -7642,6 +7898,22 @@
       ],
       "selectedDecompilationCompleted": null
     },
+    "0x1415a6a50": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1415a6a50",
+          "endExclusive": "0x1415a6ab3",
+          "bytes": 99,
+          "fileOffset": 22699600,
+          "sha256": "cce9d3a56e73023f440ec8b1335141e1edb30fce3202dfac2e407cde61ff3326"
+        }
+      ],
+      "sourceBatches": [
+        "r8-ground-effect-boundary"
+      ],
+      "selectedDecompilationCompleted": true
+    },
     "0x1415be830": {
       "boundary": "PE-unwind-root-and-chains",
       "ranges": [
@@ -8832,9 +9104,10 @@
         }
       ],
       "sourceBatches": [
-        "r4-client-selfkill-invoke"
+        "r4-client-selfkill-invoke",
+        "r8-ground-effect-boundary"
       ],
-      "selectedDecompilationCompleted": null
+      "selectedDecompilationCompleted": true
     },
     "0x1417ddb50": {
       "boundary": "PE-unwind-root-and-chains",
@@ -11891,7 +12164,8 @@
         "r3-offence-typed",
         "r5-ailment-outgoing-helpers",
         "r6-critical-inputs",
-        "r7-bleeding-family"
+        "r7-bleeding-family",
+        "r8-dot-multiplier-family"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -12882,9 +13156,10 @@
       "sourceBatches": [
         "r4-buff-clock-producers-life-guard",
         "r4-buff-clock-update-callbacks",
-        "r4-buff-guard-revive"
+        "r4-buff-guard-revive",
+        "r8-ground-effect-boundary"
       ],
-      "selectedDecompilationCompleted": null
+      "selectedDecompilationCompleted": true
     },
     "0x141e0fbd0": {
       "boundary": "explicit-analyst-leaf-range",
@@ -13126,6 +13401,210 @@
         "r2-grants-consumers"
       ],
       "selectedDecompilationCompleted": null
+    },
+    "0x141e19970": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x141e19970",
+          "endExclusive": "0x141e199ec",
+          "bytes": 124,
+          "fileOffset": 31559024,
+          "sha256": "79d2dd18f5c9068fc0789b879c937d1fd2ac7a32088b7c43ce0c552dfb6b7223"
+        }
+      ],
+      "sourceBatches": [
+        "r8-ground-effect-boundary"
+      ],
+      "selectedDecompilationCompleted": true
+    },
+    "0x141e19b10": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x141e19b10",
+          "endExclusive": "0x141e19d1c",
+          "bytes": 524,
+          "fileOffset": 31559440,
+          "sha256": "0b99c41ac25674addb6d5793f90e14bd43d4b8a86ed6f0b6fa51b4ecf2fb7ab0"
+        }
+      ],
+      "sourceBatches": [
+        "r8-ground-effect-boundary"
+      ],
+      "selectedDecompilationCompleted": true
+    },
+    "0x141e19d20": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x141e19d20",
+          "endExclusive": "0x141e19db5",
+          "bytes": 149,
+          "fileOffset": 31559968,
+          "sha256": "4f27f193334c4d1215f1298185c8b11ec6f6e595aa6a0a60808157fbd68207fc"
+        }
+      ],
+      "sourceBatches": [
+        "r8-ground-effect-boundary"
+      ],
+      "selectedDecompilationCompleted": true
+    },
+    "0x141e19ed0": {
+      "boundary": "explicit-analyst-leaf-range",
+      "ranges": [
+        {
+          "start": "0x141e19ed0",
+          "endExclusive": "0x141e19f0a",
+          "bytes": 58,
+          "fileOffset": 31560400,
+          "sha256": "9ce11b8a8b4be11a60de57012c7e58e6d2dfb91b9c8b48a807bfba830e14412b"
+        }
+      ],
+      "sourceBatches": [
+        "r8-ground-effect-boundary"
+      ],
+      "selectedDecompilationCompleted": true
+    },
+    "0x141e19f10": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x141e19f10",
+          "endExclusive": "0x141e1a527",
+          "bytes": 1559,
+          "fileOffset": 31560464,
+          "sha256": "0212c9328bb6f90fabd4b1c669c01ea3d30c88bd2e891df3e296b2ff8e754bbe"
+        }
+      ],
+      "sourceBatches": [
+        "r8-ground-effect-boundary"
+      ],
+      "selectedDecompilationCompleted": true
+    },
+    "0x141e1a560": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x141e1a560",
+          "endExclusive": "0x141e1a5d5",
+          "bytes": 117,
+          "fileOffset": 31562080,
+          "sha256": "54c636e4ef5e7b2645ceef9610a905be93ec1c2a3597d54d11ec37b6f35a0c01"
+        }
+      ],
+      "sourceBatches": [
+        "r8-ground-effect-boundary"
+      ],
+      "selectedDecompilationCompleted": true
+    },
+    "0x141e1a5e0": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x141e1a5e0",
+          "endExclusive": "0x141e1a813",
+          "bytes": 563,
+          "fileOffset": 31562208,
+          "sha256": "94b7c7e832e07db257a5750237adf5161facd214d9edbdc4c97ae21507bcebf2"
+        }
+      ],
+      "sourceBatches": [
+        "r8-ground-effect-boundary"
+      ],
+      "selectedDecompilationCompleted": true
+    },
+    "0x141e1aef0": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x141e1aef0",
+          "endExclusive": "0x141e1af02",
+          "bytes": 18,
+          "fileOffset": 31564528,
+          "sha256": "ebaf5874ddf2d6eca5f1cb7a2692f77ecf6a7e50d37c33bd7157e0deb3b479f2"
+        },
+        {
+          "start": "0x141e1af02",
+          "endExclusive": "0x141e1af18",
+          "bytes": 22,
+          "fileOffset": 31564546,
+          "sha256": "0cc01d665f0e0178e61afd24916a86a910848b389f47e53e8ac16462bfacf793"
+        },
+        {
+          "start": "0x141e1af18",
+          "endExclusive": "0x141e1af4e",
+          "bytes": 54,
+          "fileOffset": 31564568,
+          "sha256": "a911ac80d211631f0899c3e787ea24f0d8e63c2380a1334c86d71608be8c5253"
+        },
+        {
+          "start": "0x141e1af4e",
+          "endExclusive": "0x141e1af53",
+          "bytes": 5,
+          "fileOffset": 31564622,
+          "sha256": "84c8f296c1e75e157e7159d70a878958e6aef696f8c55bcf7b8f982d6033f0d0"
+        },
+        {
+          "start": "0x141e1af53",
+          "endExclusive": "0x141e1af58",
+          "bytes": 5,
+          "fileOffset": 31564627,
+          "sha256": "3297a0e4175e5d032a2be5212c1a1980cd3df21251db492413a47fcb4b6187ac"
+        }
+      ],
+      "sourceBatches": [
+        "r8-ground-effect-boundary"
+      ],
+      "selectedDecompilationCompleted": true
+    },
+    "0x141e1b430": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x141e1b430",
+          "endExclusive": "0x141e1b465",
+          "bytes": 53,
+          "fileOffset": 31565872,
+          "sha256": "70f4bf4fde350432a2cb4a145ec45601957bbbf672d4a19c6491c76871108be7"
+        }
+      ],
+      "sourceBatches": [
+        "r8-ground-effect-boundary"
+      ],
+      "selectedDecompilationCompleted": true
+    },
+    "0x141e1b470": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x141e1b470",
+          "endExclusive": "0x141e1b4fc",
+          "bytes": 140,
+          "fileOffset": 31565936,
+          "sha256": "e0b8404fed8666884a21632c15fb060378d1db9b65d814c997516057fde5d257"
+        }
+      ],
+      "sourceBatches": [
+        "r8-ground-effect-boundary"
+      ],
+      "selectedDecompilationCompleted": true
+    },
+    "0x141e1b500": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x141e1b500",
+          "endExclusive": "0x141e1b634",
+          "bytes": 308,
+          "fileOffset": 31566080,
+          "sha256": "107b28a9cf2257d23592c96d03ff1a86c174a6c88594a023f3fc6bfc98a7e681"
+        }
+      ],
+      "sourceBatches": [
+        "r8-ground-effect-boundary"
+      ],
+      "selectedDecompilationCompleted": true
     },
     "0x141e1e450": {
       "boundary": "PE-unwind-root-and-chains",
@@ -15290,6 +15769,22 @@
       ],
       "selectedDecompilationCompleted": null
     },
+    "0x141ebe680": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x141ebe680",
+          "endExclusive": "0x141ebe7c7",
+          "bytes": 327,
+          "fileOffset": 32234112,
+          "sha256": "566e289222743d8d52f73d2f86669d7481ef05e47239a8a781b8a138b5a8d804"
+        }
+      ],
+      "sourceBatches": [
+        "r8-ground-effect-boundary"
+      ],
+      "selectedDecompilationCompleted": true
+    },
     "0x141ec1360": {
       "boundary": "PE-unwind-root-and-chains",
       "ranges": [
@@ -16253,9 +16748,10 @@
         }
       ],
       "sourceBatches": [
-        "r4-client-selfkill-factory"
+        "r4-client-selfkill-factory",
+        "r8-ground-effect-boundary"
       ],
-      "selectedDecompilationCompleted": null
+      "selectedDecompilationCompleted": true
     },
     "0x142096680": {
       "boundary": "PE-unwind-root-and-chains",
@@ -16333,9 +16829,10 @@
         }
       ],
       "sourceBatches": [
-        "r4-client-selfkill-invoke"
+        "r4-client-selfkill-invoke",
+        "r8-ground-effect-boundary"
       ],
-      "selectedDecompilationCompleted": null
+      "selectedDecompilationCompleted": true
     },
     "0x1420b6ea0": {
       "boundary": "PE-unwind-root-and-chains",
@@ -16416,6 +16913,22 @@
         "r3-loss-life-death-handler"
       ],
       "selectedDecompilationCompleted": null
+    },
+    "0x1420db7d0": {
+      "boundary": "explicit-analyst-leaf-range",
+      "ranges": [
+        {
+          "start": "0x1420db7d0",
+          "endExclusive": "0x1420db7d9",
+          "bytes": 9,
+          "fileOffset": 34450384,
+          "sha256": "935a1464e18a6f55f780dc65db440e412fbde37450736fd96dde42902556bcaa"
+        }
+      ],
+      "sourceBatches": [
+        "r8-ground-effect-boundary"
+      ],
+      "selectedDecompilationCompleted": true
     },
     "0x1420dd1a0": {
       "boundary": "PE-unwind-root-and-chains",
@@ -17152,6 +17665,82 @@
       "sourceBatches": [
         "network-and-sources",
         "source-and-authority"
+      ],
+      "selectedDecompilationCompleted": true
+    },
+    "0x1421c3c20": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1421c3c20",
+          "endExclusive": "0x1421c3ca8",
+          "bytes": 136,
+          "fileOffset": 35401760,
+          "sha256": "258480a72f21198d4cfd1d481030034ff1a05d239b5c9e2094ee4717f77d4ba5"
+        }
+      ],
+      "sourceBatches": [
+        "r8-ground-effect-boundary"
+      ],
+      "selectedDecompilationCompleted": true
+    },
+    "0x1421c3e00": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1421c3e00",
+          "endExclusive": "0x1421c3e0a",
+          "bytes": 10,
+          "fileOffset": 35402240,
+          "sha256": "acec1f962ad98fe72473550b1ee60db9f0ea2d3a1bdfec5405c5b5559cb95ddc"
+        },
+        {
+          "start": "0x1421c3e0a",
+          "endExclusive": "0x1421c3e3a",
+          "bytes": 48,
+          "fileOffset": 35402250,
+          "sha256": "8b7aa237ca35600633c85e06f7fdad9dcc07d801a289ad3dbb159fc5c79b65ff"
+        },
+        {
+          "start": "0x1421c3e3a",
+          "endExclusive": "0x1421c3e6d",
+          "bytes": 51,
+          "fileOffset": 35402298,
+          "sha256": "228f82673ae9eb9d7564e5b0a352cf84a00353259df4293e4098e8f089e6f47b"
+        },
+        {
+          "start": "0x1421c3e6d",
+          "endExclusive": "0x1421c3e7b",
+          "bytes": 14,
+          "fileOffset": 35402349,
+          "sha256": "ce11fd46981553bd217a7360b5e9f21831cec01783fcbe17720467137b8afcac"
+        },
+        {
+          "start": "0x1421c3e7b",
+          "endExclusive": "0x1421c3e92",
+          "bytes": 23,
+          "fileOffset": 35402363,
+          "sha256": "4f323a29a4790cb5c9a2f4fb50f571f2843ddfadb4a2d678ddb0209ed7062d90"
+        }
+      ],
+      "sourceBatches": [
+        "r8-ground-effect-boundary"
+      ],
+      "selectedDecompilationCompleted": true
+    },
+    "0x1421c3ea0": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1421c3ea0",
+          "endExclusive": "0x1421c3ece",
+          "bytes": 46,
+          "fileOffset": 35402400,
+          "sha256": "2004c532d794c70bc36bb213449276688f0ba8cc9778f9a0529d66547f535739"
+        }
+      ],
+      "sourceBatches": [
+        "r8-ground-effect-boundary"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -17995,7 +18584,8 @@
         "r3-offence-typed",
         "r5-ailment-outgoing-helpers",
         "r7-ailment-chance",
-        "r7-bleeding-family"
+        "r7-bleeding-family",
+        "r8-dot-multiplier-family"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -18049,7 +18639,8 @@
         "r3-offence-typed",
         "r5-ailment-outgoing-helpers",
         "r6-critical-inputs",
-        "r7-bleeding-family"
+        "r7-bleeding-family",
+        "r8-dot-multiplier-family"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -18066,7 +18657,8 @@
       ],
       "sourceBatches": [
         "r5-ailment-outgoing-saturating-v2",
-        "r7-bleeding-family"
+        "r7-bleeding-family",
+        "r8-dot-multiplier-family"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -24157,6 +24749,198 @@
       ],
       "selectedDecompilationCompleted": true
     },
+    "0x142770fd0": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x142770fd0",
+          "endExclusive": "0x142771810",
+          "bytes": 2112,
+          "fileOffset": 41354192,
+          "sha256": "370fa19c5f88635ad595c8fb5f34d3ac2d595b8ea26e1c7ee78946ef38babfd5"
+        }
+      ],
+      "sourceBatches": [
+        "r8-dot-multiplier-family"
+      ],
+      "selectedDecompilationCompleted": true
+    },
+    "0x142771810": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x142771810",
+          "endExclusive": "0x142771f70",
+          "bytes": 1888,
+          "fileOffset": 41356304,
+          "sha256": "e3e4b6943e1f28fc94cdb05edbe185ef08eae5264dea448f58be7a1b98233f94"
+        }
+      ],
+      "sourceBatches": [
+        "r8-dot-multiplier-family"
+      ],
+      "selectedDecompilationCompleted": true
+    },
+    "0x142771f70": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x142771f70",
+          "endExclusive": "0x1427725ff",
+          "bytes": 1679,
+          "fileOffset": 41358192,
+          "sha256": "b5389949b41dc6762c633fc857d9114ad89d36f1626ae3036f14ba5b5ff95e53"
+        }
+      ],
+      "sourceBatches": [
+        "r8-dot-multiplier-family"
+      ],
+      "selectedDecompilationCompleted": true
+    },
+    "0x142772600": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x142772600",
+          "endExclusive": "0x142772bc0",
+          "bytes": 1472,
+          "fileOffset": 41359872,
+          "sha256": "3830615781a7778783afab99fdf01f8f46d6a6049ed62acfc042f12a254a98ad"
+        }
+      ],
+      "sourceBatches": [
+        "r8-dot-multiplier-family"
+      ],
+      "selectedDecompilationCompleted": true
+    },
+    "0x142772bc0": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x142772bc0",
+          "endExclusive": "0x142772cb4",
+          "bytes": 244,
+          "fileOffset": 41361344,
+          "sha256": "b24fdafc0ab3b258482b0d1d033d3a71fad06fcb10682595e6e178cd5c08525f"
+        }
+      ],
+      "sourceBatches": [
+        "r8-dot-multiplier-family"
+      ],
+      "selectedDecompilationCompleted": true
+    },
+    "0x142772cc0": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x142772cc0",
+          "endExclusive": "0x14277334c",
+          "bytes": 1676,
+          "fileOffset": 41361600,
+          "sha256": "21d907858bd823aa8dfb1cf4f86da603956316eb99e99b13e0ee75eb11038842"
+        }
+      ],
+      "sourceBatches": [
+        "r8-dot-multiplier-family"
+      ],
+      "selectedDecompilationCompleted": true
+    },
+    "0x142773350": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x142773350",
+          "endExclusive": "0x142773632",
+          "bytes": 738,
+          "fileOffset": 41363280,
+          "sha256": "59637cfa62c57fd0e7358ff44f68c7e9d3c17d781d9de6b431449ca3e1df6cef"
+        }
+      ],
+      "sourceBatches": [
+        "r8-dot-multiplier-family"
+      ],
+      "selectedDecompilationCompleted": true
+    },
+    "0x142773640": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x142773640",
+          "endExclusive": "0x142773845",
+          "bytes": 517,
+          "fileOffset": 41364032,
+          "sha256": "8b2d483abf1410119ed0750aa21d82f9e3671262bda67c0146f2088092c59bfa"
+        }
+      ],
+      "sourceBatches": [
+        "r8-dot-multiplier-family"
+      ],
+      "selectedDecompilationCompleted": true
+    },
+    "0x142773850": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x142773850",
+          "endExclusive": "0x142773a55",
+          "bytes": 517,
+          "fileOffset": 41364560,
+          "sha256": "c9202934eaf5a5d51d341ec38363b50a9058c022a216727c7d38a0ae36226027"
+        }
+      ],
+      "sourceBatches": [
+        "r8-dot-multiplier-family"
+      ],
+      "selectedDecompilationCompleted": true
+    },
+    "0x142773a60": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x142773a60",
+          "endExclusive": "0x142773c65",
+          "bytes": 517,
+          "fileOffset": 41365088,
+          "sha256": "005772cafcae587f49e1fa79795981e439163e355fadd73f7ae67886e692976c"
+        }
+      ],
+      "sourceBatches": [
+        "r8-dot-multiplier-family"
+      ],
+      "selectedDecompilationCompleted": true
+    },
+    "0x142773c70": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x142773c70",
+          "endExclusive": "0x142773e71",
+          "bytes": 513,
+          "fileOffset": 41365616,
+          "sha256": "3bc798542a501af445e29c5d1f99b43524129a7dccd173ed5e4b80c9ef8e6274"
+        }
+      ],
+      "sourceBatches": [
+        "r8-dot-multiplier-family"
+      ],
+      "selectedDecompilationCompleted": true
+    },
+    "0x142773e80": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x142773e80",
+          "endExclusive": "0x142774164",
+          "bytes": 740,
+          "fileOffset": 41366144,
+          "sha256": "5533db1b381a2cc37758d148a1872e415440904227f2c8ceb6d92b78609e1bac"
+        }
+      ],
+      "sourceBatches": [
+        "r8-dot-multiplier-family"
+      ],
+      "selectedDecompilationCompleted": true
+    },
     "0x142774170": {
       "boundary": "PE-unwind-root-and-chains",
       "ranges": [
@@ -26893,6 +27677,16 @@
       "functionCount": 44
     },
     {
+      "name": "r8-dot-multiplier-family",
+      "auditSha256": "6b54cca6ccdb04bbe409c321175c7ce9312b2ffff398615f7779a785d25a5399",
+      "functionCount": 28
+    },
+    {
+      "name": "r8-ground-effect-boundary",
+      "auditSha256": "b07dfa470dfccba0942efb7993734a91959de0dcf079a345884637353ec642b3",
+      "functionCount": 26
+    },
+    {
       "name": "source-and-authority",
       "auditSha256": "51eab24a151fb87c994478cc032bab92ef92082c0ca47a343a657f3d01f22ce0",
       "functionCount": 10
@@ -28455,6 +29249,94 @@
       "fileOffset": 54974072,
       "sha256": "2a5ad943b9a1c08e4f760c4ce457af953829d0bddbce4ea0f7398ea4cb870326",
       "role": "Selected Actor/action, projectile component or Entity task slot; see focused supplements"
+    },
+    {
+      "table": "0x14449abb0",
+      "offset": "0x0",
+      "target": "0x1435ae3b8",
+      "fileOffset": 71930800,
+      "sha256": "d5af61d6a6dd16dea35620076ed6e242632bae039029c149ed3f647666ad52dc",
+      "role": "KillGroundEffect native registration name"
+    },
+    {
+      "table": "0x14449abb0",
+      "offset": "0x8",
+      "target": "0x14208ed90",
+      "fileOffset": 71930808,
+      "sha256": "8f0f76845711edfba658ad0df1408e89142ac0a58f5d1469871996523c845656",
+      "role": "KillGroundEffect descriptor factory"
+    },
+    {
+      "table": "0x1435d3220",
+      "offset": "0x10",
+      "target": "0x1420db7d0",
+      "fileOffset": 56436272,
+      "sha256": "8834b57553b1ebc20efa11cef21ff336a042a62c78c01fc3760ad8b3007762fc",
+      "role": "KillGroundEffect invoke payload-adjustment leaf"
+    },
+    {
+      "table": "0x14359e268",
+      "offset": "0x40",
+      "target": "0x141e19f10",
+      "fileOffset": 56219304,
+      "sha256": "dc09c4dc036ee9a27ee5ff555bbbd62729c0903d8e0168077a16698b1bb78c84",
+      "role": "GroundEffect lifetime/receiver/termination slot"
+    },
+    {
+      "table": "0x14359e268",
+      "offset": "0x88",
+      "target": "0x141e1b500",
+      "fileOffset": 56219376,
+      "sha256": "2a3e6d18e538f97378abb43f9c2303fef7788d11fa0cda6ae35bbe2a6bc51b0c",
+      "role": "GroundEffect lifetime/receiver/termination slot"
+    },
+    {
+      "table": "0x14359e268",
+      "offset": "0xa0",
+      "target": "0x141e1b430",
+      "fileOffset": 56219400,
+      "sha256": "1471c29a75747c4c1e9ef2c90a1367c082e133cab4a87d202024067843f047d9",
+      "role": "GroundEffect lifetime/receiver/termination slot"
+    },
+    {
+      "table": "0x14359e268",
+      "offset": "0xc8",
+      "target": "0x141e1a5e0",
+      "fileOffset": 56219440,
+      "sha256": "89fa05bf49b1d6726c5d04315127b0abdd0984330d12063304978fcf3b77f84c",
+      "role": "GroundEffect lifetime/receiver/termination slot"
+    },
+    {
+      "table": "0x1435dd640",
+      "offset": "0x40",
+      "target": "0x1421c3e00",
+      "fileOffset": 56478336,
+      "sha256": "c2ff94c9cee86def536e94481156db59115d38edb82b4dc595431cab0636f211",
+      "role": "GroundEffect lifetime/receiver/termination slot"
+    },
+    {
+      "table": "0x1435dd640",
+      "offset": "0x88",
+      "target": "0x141e1b500",
+      "fileOffset": 56478408,
+      "sha256": "2a3e6d18e538f97378abb43f9c2303fef7788d11fa0cda6ae35bbe2a6bc51b0c",
+      "role": "GroundEffect lifetime/receiver/termination slot"
+    },
+    {
+      "table": "0x1435dd640",
+      "offset": "0xa0",
+      "target": "0x141e1b430",
+      "fileOffset": 56478432,
+      "sha256": "1471c29a75747c4c1e9ef2c90a1367c082e133cab4a87d202024067843f047d9",
+      "role": "GroundEffect lifetime/receiver/termination slot"
+    },
+    {
+      "table": "0x1435dd640",
+      "offset": "0xc8",
+      "target": "0x1421c3ea0",
+      "fileOffset": 56478472,
+      "sha256": "9edeccb666129c72cfd755c7031f160d901806292a3ca8273185c7b1f1cc61df",
+      "role": "GroundEffect lifetime/receiver/termination slot"
     }
   ],
   "scanCoverage": {
@@ -28489,11 +29371,11 @@
     }
   ],
   "verification": {
-    "entryCount": 1330,
-    "originalByteRangeCount": 1922,
+    "entryCount": 1374,
+    "originalByteRangeCount": 1976,
     "historicalBoundedThunkEntries": 4,
-    "pointerSlotCount": 189,
-    "selectedDecompilationRecords": 662,
+    "pointerSlotCount": 200,
+    "selectedDecompilationRecords": 700,
     "checkedReferenceInstructions": 13431,
     "decompilationFailures": [],
     "scope": "Original ranges/offsets, unwind ownership or explicit boundaries, stat identity, reference instructions and pointer-slot contents revalidated offline."
@@ -28768,232 +29650,397 @@
       "path": "Tools/re/out/client-damage-audit/r7-ailment-eligibility-formulas/audit.json",
       "bytes": 255034,
       "sha256": "934b5dec673102a9d0af2d82aa12e3c1333af204a0e4a12561a99c8c096d8a26",
-      "role": "R7 ailment eligibility/chance or bleeding arithmetic original-byte and synthetic-check support"
+      "role": "Selected ailment/DoT formula original-byte and synthetic-check support"
     },
     {
       "path": "Tools/re/out/client-damage-audit/r7-ailment-eligibility-formulas/mapping.json",
       "bytes": 2994,
       "sha256": "1dd6e3731b2399dab871a6c1dcd6847444e17cd09863fc0b03d562f99a05d9b0",
-      "role": "R7 ailment eligibility/chance or bleeding arithmetic original-byte and synthetic-check support"
+      "role": "Selected ailment/DoT formula original-byte and synthetic-check support"
     },
     {
       "path": "Tools/re/out/client-damage-audit/r7-ailment-eligibility-formulas/targets.json",
       "bytes": 17825,
       "sha256": "773323650f6c37927bab9ac70ed693d6bb4df3351da8dc0d1da67319d9d41144",
-      "role": "R7 ailment eligibility/chance or bleeding arithmetic original-byte and synthetic-check support"
+      "role": "Selected ailment/DoT formula original-byte and synthetic-check support"
     },
     {
       "path": "Tools/re/out/client-damage-audit/r7-ailment-eligibility-formulas/dependencies.json",
       "bytes": 19665,
       "sha256": "8f6a480b0ef62f42c9c0cb52384344b109047a5fe939b7232963741b8d3b599d",
-      "role": "R7 ailment eligibility/chance or bleeding arithmetic original-byte and synthetic-check support"
+      "role": "Selected ailment/DoT formula original-byte and synthetic-check support"
     },
     {
       "path": "Tools/re/out/client-damage-audit/r7-ailment-eligibility-formulas/decompilations.jsonl",
       "bytes": 50614,
       "sha256": "7ec09ff8a28514a7e29ad2702ac4f584322e5a3d09e1cc3477833cba4da90bc4",
-      "role": "R7 ailment eligibility/chance or bleeding arithmetic original-byte and synthetic-check support"
+      "role": "Selected ailment/DoT formula original-byte and synthetic-check support"
     },
     {
       "path": "Tools/re/out/client-damage-audit/r7-ailment-eligibility-build.py",
       "bytes": 831,
       "sha256": "677cc762e8a3d0d2cdc1191254bf60fd9d2015f47a5f8a1798b945a95ec132d4",
-      "role": "R7 ailment eligibility/chance or bleeding arithmetic original-byte and synthetic-check support"
+      "role": "Selected ailment/DoT formula original-byte and synthetic-check support"
     },
     {
       "path": "Tools/re/out/client-damage-audit/r7-ailment-eligibility-regdeps.py",
       "bytes": 2848,
       "sha256": "daddb3e3cbc3be4862e68212f70cc95352df6812311c5bfdd48e6aaf3efbeedf",
-      "role": "R7 ailment eligibility/chance or bleeding arithmetic original-byte and synthetic-check support"
+      "role": "Selected ailment/DoT formula original-byte and synthetic-check support"
     },
     {
       "path": "Tools/re/out/client-damage-audit/R7EligibilityFunctions.java",
       "bytes": 4384,
       "sha256": "cdb1c6da4e3e49ebc4336930759323aa3681a39bb93327414bcae823ffc879b2",
-      "role": "R7 ailment eligibility/chance or bleeding arithmetic original-byte and synthetic-check support"
+      "role": "Selected ailment/DoT formula original-byte and synthetic-check support"
     },
     {
       "path": "Tools/re/out/client-damage-audit/r7-ailment-eligibility-ghidra.log",
       "bytes": 34205,
       "sha256": "b681d3de26e1fed68dc9a906481c3bc2f93b597bf54787673f2f9d58eca6880c",
-      "role": "R7 ailment eligibility/chance or bleeding arithmetic original-byte and synthetic-check support"
+      "role": "Selected ailment/DoT formula original-byte and synthetic-check support"
     },
     {
       "path": "Tools/re/out/client-damage-audit/r7-ailment-eligibility-verify.py",
       "bytes": 12869,
       "sha256": "edb190ed6cc8af5eb055696db8bd1d796dab686f2f69ae14a77c899032db4427",
-      "role": "R7 ailment eligibility/chance or bleeding arithmetic original-byte and synthetic-check support"
+      "role": "Selected ailment/DoT formula original-byte and synthetic-check support"
     },
     {
       "path": "Agents/docs/re/client-ailment-eligibility.md",
       "bytes": 13446,
       "sha256": "a641f91b44096ab68e1100c7d72e5fa81a5316f29240a2055c8527944954605e",
-      "role": "R7 ailment eligibility/chance or bleeding arithmetic original-byte and synthetic-check support"
+      "role": "Selected ailment/DoT formula original-byte and synthetic-check support"
     },
     {
       "path": "Tools/re/out/client-damage-audit/r7-ailment-eligibility-verification.json",
       "sha256": "d57db8883940c74266c151ba4fb4380fa36fedb79895ac7bddfc5cbea6828c72",
-      "role": "R7 focused formula verification; synthetic interpretation is not native client execution"
+      "role": "Focused formula verification; synthetic interpretation is not native client execution"
     },
     {
       "path": "Tools/re/out/client-damage-audit/r7-ailment-chance/audit.json",
       "bytes": 913316,
       "sha256": "9017807c3a246a7e3d05c9cf0b245610ebdc746a30a4e3325dc53fefe86d39de",
-      "role": "R7 ailment eligibility/chance or bleeding arithmetic original-byte and synthetic-check support"
+      "role": "Selected ailment/DoT formula original-byte and synthetic-check support"
     },
     {
       "path": "Tools/re/out/client-damage-audit/r7-ailment-chance/targets.json",
       "bytes": 15901,
       "sha256": "f8f190c6c2dccd61f76d3ceda4088f7e8fa5fb5e1319316a4e3df64dce6d8a2e",
-      "role": "R7 ailment eligibility/chance or bleeding arithmetic original-byte and synthetic-check support"
+      "role": "Selected ailment/DoT formula original-byte and synthetic-check support"
     },
     {
       "path": "Tools/re/out/client-damage-audit/r7-ailment-chance/mapping.json",
       "bytes": 2656,
       "sha256": "4c89e6f9aa70795bcc802d0ba5a2ccbc6d2498dd63f287ceae9c2670e0cd051f",
-      "role": "R7 ailment eligibility/chance or bleeding arithmetic original-byte and synthetic-check support"
+      "role": "Selected ailment/DoT formula original-byte and synthetic-check support"
     },
     {
       "path": "Tools/re/out/client-damage-audit/r7-ailment-chance/dependencies.json",
       "bytes": 18969,
       "sha256": "47eda74e8c7b137957e2a1fd292f3aeb49e319cfb73bdadae1b671db874a6685",
-      "role": "R7 ailment eligibility/chance or bleeding arithmetic original-byte and synthetic-check support"
+      "role": "Selected ailment/DoT formula original-byte and synthetic-check support"
     },
     {
       "path": "Tools/re/out/client-damage-audit/r7-ailment-chance/decompilations.jsonl",
       "bytes": 146495,
       "sha256": "dddd1632f15951cad769b26f8a650cece88290087867fa9061a4e79f970bd391",
-      "role": "R7 ailment eligibility/chance or bleeding arithmetic original-byte and synthetic-check support"
+      "role": "Selected ailment/DoT formula original-byte and synthetic-check support"
     },
     {
       "path": "Tools/re/out/client-damage-audit/r7-ailment-chance/algebra-vectors.json",
       "bytes": 806718,
       "sha256": "cf49563deea7191b8b286a5d7968cc5be084a6a7186abda5f00b5ca3511f7bb0",
-      "role": "R7 ailment eligibility/chance or bleeding arithmetic original-byte and synthetic-check support"
+      "role": "Selected ailment/DoT formula original-byte and synthetic-check support"
     },
     {
       "path": "Tools/re/out/client-damage-audit/r7-ailment-chance-verify.py",
       "bytes": 4463,
       "sha256": "b12aecb20f2e700f1102799332536a0a18ecdab565ab7eab24835cc9a13c8389",
-      "role": "R7 ailment eligibility/chance or bleeding arithmetic original-byte and synthetic-check support"
+      "role": "Selected ailment/DoT formula original-byte and synthetic-check support"
     },
     {
       "path": "Tools/re/out/client-damage-audit/r7-ailment-chance-model.py",
       "bytes": 6639,
       "sha256": "f09ac8aea5224f7bfc889987d40efa207bb363c16d78cfadcfb6f9d394c136bb",
-      "role": "R7 ailment eligibility/chance or bleeding arithmetic original-byte and synthetic-check support"
+      "role": "Selected ailment/DoT formula original-byte and synthetic-check support"
     },
     {
       "path": "Tools/re/out/client-damage-audit/r7-ailment-chance-interpret.py",
       "bytes": 1465,
       "sha256": "d333f6fd8ef2a278a7ccfeaf56dfeebe66266248261fd160174c88b7fdd180b4",
-      "role": "R7 ailment eligibility/chance or bleeding arithmetic original-byte and synthetic-check support"
+      "role": "Selected ailment/DoT formula original-byte and synthetic-check support"
     },
     {
       "path": "Tools/re/out/client-damage-audit/r7-ailment-chance-regdeps.py",
       "bytes": 2785,
       "sha256": "989278df9acd8dedfe1f54e8ee16d5dba8fba245a61a805d545bc8325468a025",
-      "role": "R7 ailment eligibility/chance or bleeding arithmetic original-byte and synthetic-check support"
+      "role": "Selected ailment/DoT formula original-byte and synthetic-check support"
     },
     {
       "path": "Tools/re/out/client-damage-audit/R7AilmentChanceFunctions.java",
       "bytes": 4860,
       "sha256": "ade6ff75012810d136c7fca4b120b2e17ab288722d6c6dd20da07e20a52d4168",
-      "role": "R7 ailment eligibility/chance or bleeding arithmetic original-byte and synthetic-check support"
+      "role": "Selected ailment/DoT formula original-byte and synthetic-check support"
     },
     {
       "path": "Agents/docs/re/client-ailment-chance-inputs.md",
       "bytes": 10069,
       "sha256": "7777af58f6199ee9ccf1df5765e70ee5b48543029069c5b884e3e134a30fe41d",
-      "role": "R7 ailment eligibility/chance or bleeding arithmetic original-byte and synthetic-check support"
+      "role": "Selected ailment/DoT formula original-byte and synthetic-check support"
     },
     {
       "path": "Tools/re/out/client-damage-audit/r7-ailment-chance-verification.json",
       "sha256": "a92ca5885e4bd0f8d32a0874f85c721630a3978335ca6d4cc9fde1564fa07869",
-      "role": "R7 focused formula verification; synthetic interpretation is not native client execution"
+      "role": "Focused formula verification; synthetic interpretation is not native client execution"
     },
     {
       "path": "Tools/re/out/client-damage-audit/r7-bleeding-verify.py",
       "bytes": 11639,
       "sha256": "a62ebe4805a7c1c10344572e9d04fc03beb829e8b4660d418ac47f1738457f59",
-      "role": "R7 ailment eligibility/chance or bleeding arithmetic original-byte and synthetic-check support"
+      "role": "Selected ailment/DoT formula original-byte and synthetic-check support"
     },
     {
       "path": "Tools/re/out/client-damage-audit/r7-bleeding-prepare.py",
       "bytes": 3254,
       "sha256": "2ba2fd755b98c171556ad5ccac389a6173be392e39604b5c7398e117d484830e",
-      "role": "R7 ailment eligibility/chance or bleeding arithmetic original-byte and synthetic-check support"
+      "role": "Selected ailment/DoT formula original-byte and synthetic-check support"
     },
     {
       "path": "Tools/re/out/client-damage-audit/r7-bleeding-regdeps.py",
       "bytes": 2786,
       "sha256": "c520ee21b3242409d584b61011a7eef2d7782d20116a052cf6146cbf3145589b",
-      "role": "R7 ailment eligibility/chance or bleeding arithmetic original-byte and synthetic-check support"
+      "role": "Selected ailment/DoT formula original-byte and synthetic-check support"
     },
     {
       "path": "Tools/re/out/client-damage-audit/r7-bleeding-decompile.py",
       "bytes": 940,
       "sha256": "9409064c0efca198fbaca4aa419ba7afcbdf3d956c97b03f3037340b14ce111f",
-      "role": "R7 ailment eligibility/chance or bleeding arithmetic original-byte and synthetic-check support"
+      "role": "Selected ailment/DoT formula original-byte and synthetic-check support"
     },
     {
       "path": "Tools/re/out/client-damage-audit/r7-bleeding-compact.py",
       "bytes": 1228,
       "sha256": "00f2c23bb2f170ed7c3b109a593f0ecb0813913ef8b3cc1effe748cd9c4da5ca",
-      "role": "R7 ailment eligibility/chance or bleeding arithmetic original-byte and synthetic-check support"
+      "role": "Selected ailment/DoT formula original-byte and synthetic-check support"
     },
     {
       "path": "Tools/re/out/client-damage-audit/R7BleedingFunctions.java",
       "bytes": 5502,
       "sha256": "e4244371e11617d3a44ddcb7c8dedd6d82a37bbd485d4461d0e4a8ded444bdc5",
-      "role": "R7 ailment eligibility/chance or bleeding arithmetic original-byte and synthetic-check support"
+      "role": "Selected ailment/DoT formula original-byte and synthetic-check support"
     },
     {
       "path": "Tools/re/out/client-damage-audit/r7-bleeding-family/audit.json",
       "bytes": 1345406,
       "sha256": "bdf3d6246f67bf1585df627ee507fea1460e22365cf092523316566baab239c9",
-      "role": "R7 ailment eligibility/chance or bleeding arithmetic original-byte and synthetic-check support"
+      "role": "Selected ailment/DoT formula original-byte and synthetic-check support"
     },
     {
       "path": "Tools/re/out/client-damage-audit/r7-bleeding-family/mapping.json",
       "bytes": 3533,
       "sha256": "68c0c426b559c46a81ec9f3ecb89eeab8469711f6e0360e951f7462ad3755f2a",
-      "role": "R7 ailment eligibility/chance or bleeding arithmetic original-byte and synthetic-check support"
+      "role": "Selected ailment/DoT formula original-byte and synthetic-check support"
     },
     {
       "path": "Tools/re/out/client-damage-audit/r7-bleeding-family/dependencies.json",
       "bytes": 28878,
       "sha256": "f169a7c8a22364fc3637f4e18536316d8fd80ed0efcb02f7c4d4185751617fb7",
-      "role": "R7 ailment eligibility/chance or bleeding arithmetic original-byte and synthetic-check support"
+      "role": "Selected ailment/DoT formula original-byte and synthetic-check support"
     },
     {
       "path": "Tools/re/out/client-damage-audit/r7-bleeding-family/typed-targets.json",
       "bytes": 23100,
       "sha256": "eaf052f356e0ca55cd412b821eecbe53d72e294463f17acc7344a1d03ab250a3",
-      "role": "R7 ailment eligibility/chance or bleeding arithmetic original-byte and synthetic-check support"
+      "role": "Selected ailment/DoT formula original-byte and synthetic-check support"
     },
     {
       "path": "Tools/re/out/client-damage-audit/r7-bleeding-family/typed-decompilations.jsonl",
       "bytes": 216165,
       "sha256": "02feb5bc2c6f0bc6f3bbc221be37451a2230fa2e54efcc3cd6343900d5088fdc",
-      "role": "R7 ailment eligibility/chance or bleeding arithmetic original-byte and synthetic-check support"
+      "role": "Selected ailment/DoT formula original-byte and synthetic-check support"
     },
     {
       "path": "Tools/re/out/client-damage-audit/r7-bleeding-family/console.log",
       "bytes": 29645,
       "sha256": "95c09fa2863ddbf583a2071bade18b5ac1438fd6cdd8ce486e691d09e44cff8b",
-      "role": "R7 ailment eligibility/chance or bleeding arithmetic original-byte and synthetic-check support"
+      "role": "Selected ailment/DoT formula original-byte and synthetic-check support"
     },
     {
       "path": "Agents/docs/re/client-bleeding-output-family.md",
       "bytes": 17001,
       "sha256": "bdcac4b9d7789a6c94d7bd92452ab4824b0ef5e8e2f9c100055e2bd3db66e110",
-      "role": "R7 ailment eligibility/chance or bleeding arithmetic original-byte and synthetic-check support"
+      "role": "Selected ailment/DoT formula original-byte and synthetic-check support"
     },
     {
       "path": "Tools/re/out/client-damage-audit/r7-bleeding-verification.json",
       "sha256": "a02cdcfc3b7cc1226719d7e5179b42c8bb76fb312bafe6cc8dbdeffb8f67ae69",
-      "role": "R7 focused formula verification; synthetic interpretation is not native client execution"
+      "role": "Focused formula verification; synthetic interpretation is not native client execution"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r8-dot-multiplier-verify.py",
+      "bytes": 11256,
+      "sha256": "3306f1ecf567d6819db8395d00b555e52d032f0e4a9fd869a6ac2dff056d2a74",
+      "role": "Selected ailment/DoT formula original-byte and synthetic-check support"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r8-dot-multiplier-prepare.py",
+      "bytes": 3299,
+      "sha256": "cf4cec1d412a7ad8bfebd89f6807391c99f88389c63185596a6867b1310e96e9",
+      "role": "Selected ailment/DoT formula original-byte and synthetic-check support"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r8-dot-multiplier-regdeps.py",
+      "bytes": 2792,
+      "sha256": "bbde34d2ea2b20d3ccb750cbef53e933f90df8fb40ddd627599c56f857076f60",
+      "role": "Selected ailment/DoT formula original-byte and synthetic-check support"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r8-dot-multiplier-decompile.py",
+      "bytes": 971,
+      "sha256": "99d0790fdf7c81f114b5fef8e82ab600e1d39641fe7b33815e3f859832db2116",
+      "role": "Selected ailment/DoT formula original-byte and synthetic-check support"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/R8DotMultiplierFunctions.java",
+      "bytes": 5507,
+      "sha256": "7b3c3646b77fd3dd0f85cd2a2b90a9f22ade29ce06a4f25d3441d55793f84223",
+      "role": "Selected ailment/DoT formula original-byte and synthetic-check support"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r8-dot-multiplier-family/audit.json",
+      "bytes": 463710,
+      "sha256": "6b54cca6ccdb04bbe409c321175c7ce9312b2ffff398615f7779a785d25a5399",
+      "role": "Selected ailment/DoT formula original-byte and synthetic-check support"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r8-dot-multiplier-family/mapping.json",
+      "bytes": 1772,
+      "sha256": "3d98587d7967e1ba68df8e5c42ecca6f5ff4c9b9327de8373396763060f4f1e6",
+      "role": "Selected ailment/DoT formula original-byte and synthetic-check support"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r8-dot-multiplier-family/dependencies.json",
+      "bytes": 12497,
+      "sha256": "a516f43e0243ac8603d064d456f66b704abc0e00ad4596a4b73cc56af916690e",
+      "role": "Selected ailment/DoT formula original-byte and synthetic-check support"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r8-dot-multiplier-family/typed-targets.json",
+      "bytes": 11485,
+      "sha256": "20323c4f51f75469d63ac8d79ab46ac6befcb3012fcd03c683df5c86c58b53b2",
+      "role": "Selected ailment/DoT formula original-byte and synthetic-check support"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r8-dot-multiplier-family/typed-decompilations.jsonl",
+      "bytes": 70438,
+      "sha256": "5e50afebbef43202cee290ec8f9b5453fe4d2f1771d20deb0f7278782f469d5c",
+      "role": "Selected ailment/DoT formula original-byte and synthetic-check support"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r8-dot-multiplier-family/console.log",
+      "bytes": 29110,
+      "sha256": "de801c6255f10444f1901d1b99475c93728d3bd72f5615e9f9e4f8f379764d33",
+      "role": "Selected ailment/DoT formula original-byte and synthetic-check support"
+    },
+    {
+      "path": "Agents/docs/re/client-dot-multiplier-inputs.md",
+      "bytes": 12118,
+      "sha256": "758b5f899eebbee9a29fc85a682230683bfe468d165c5244556fd31471fa24dc",
+      "role": "Selected ailment/DoT formula original-byte and synthetic-check support"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r8-dot-multiplier-verification.json",
+      "sha256": "2a8fff6de37853c17809eb5e885d73431dad3c7875dbb6716771e660a6b96ec9",
+      "role": "Focused formula verification; synthetic interpretation is not native client execution"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r8-effect-source-catalogue.json",
+      "bytes": 611848,
+      "sha256": "ce1d8780c4216d7f075ad9d7358a30f6d397871c8b94f172e939f5bd97dea92f",
+      "role": "Bounded selected source configuration catalogue; field/parent/mode provenance, not native numerical publication"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r8-effect-source-catalogue.py",
+      "bytes": 8697,
+      "sha256": "49e5bacdd9d3b409ad4a06e43a6d4ee00d4503ec1469d941542cfd4263e16a50",
+      "role": "Bounded selected source configuration catalogue; field/parent/mode provenance, not native numerical publication"
+    },
+    {
+      "path": "Agents/docs/re/client-effect-source-catalogue.md",
+      "bytes": 15029,
+      "sha256": "bd3d9c90a4b9d2606a80be7199c360dc08cb4f12a1f24a04df5d69b54155f0c5",
+      "role": "Bounded selected source configuration catalogue; field/parent/mode provenance, not native numerical publication"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r8-effect-source-verification.json",
+      "sha256": "22417e5f28681cab9126520a0fe9db8e6958e15adb09af3cd0250fa1b9dfa80e",
+      "role": "Selected resource identities and source-field verification; no game execution"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r8-ground-effect-build.py",
+      "bytes": 3625,
+      "sha256": "3c4297e12922a9465c56524b1590f962b86e59923842ab8103cfc5caed613427",
+      "role": "Selected GroundEffect callable, lifetime, conditional Buffs guard and termination verification"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r8-ground-effect-decompile.py",
+      "bytes": 3616,
+      "sha256": "86a28c5c0e7bea5c2d0bd9180071944e51d19b731c951ca2dc88f5abff3fb2f4",
+      "role": "Selected GroundEffect callable, lifetime, conditional Buffs guard and termination verification"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r8-ground-effect-verify.py",
+      "bytes": 9317,
+      "sha256": "ad42cd71c9147140fd002fa22859e8836380f63c35478ec66bcb7c9c1523cf18",
+      "role": "Selected GroundEffect callable, lifetime, conditional Buffs guard and termination verification"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r8-ground-effect-boundary/audit.json",
+      "bytes": 238153,
+      "sha256": "b07dfa470dfccba0942efb7993734a91959de0dcf079a345884637353ec642b3",
+      "role": "Selected GroundEffect callable, lifetime, conditional Buffs guard and termination verification"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r8-ground-effect-boundary/targets.json",
+      "bytes": 23845,
+      "sha256": "38af9b988fe6b72c9fc870832439a3ef5f27dbec807fac0f038051fc78a1eedf",
+      "role": "Selected GroundEffect callable, lifetime, conditional Buffs guard and termination verification"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r8-ground-effect-boundary/data-identities.json",
+      "bytes": 324,
+      "sha256": "378f263eaae370dbd90a48585d50058301660b47f13f0cb5e8af9db3db633962",
+      "role": "Selected GroundEffect callable, lifetime, conditional Buffs guard and termination verification"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r8-ground-effect-boundary/R8GroundEffectFunctions.java",
+      "bytes": 5932,
+      "sha256": "86668c8cf4e5f1d810c3d35df4ee314d420b48857a8abfbf3571ad9687451fc0",
+      "role": "Selected GroundEffect callable, lifetime, conditional Buffs guard and termination verification"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r8-ground-effect-boundary/decompilations.jsonl",
+      "bytes": 61087,
+      "sha256": "5cf6c389b28aa1370409ae3adc05cdc66537effeee746351f9962637a98bd81c",
+      "role": "Selected GroundEffect callable, lifetime, conditional Buffs guard and termination verification"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r8-ground-effect-boundary/console.log",
+      "bytes": 30303,
+      "sha256": "6dc20ade0371e9342d12158ef475e079eb507a0a0b8c259fe288c5b8eb7204d4",
+      "role": "Selected GroundEffect callable, lifetime, conditional Buffs guard and termination verification"
+    },
+    {
+      "path": "Agents/docs/re/client-ground-effect-boundary.md",
+      "bytes": 14512,
+      "sha256": "e76f4417c0e5644ea8df229960f07398659a617b18294ef86fa579bbe6508ad6",
+      "role": "Selected GroundEffect callable, lifetime, conditional Buffs guard and termination verification"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r8-ground-effect-verification.json",
+      "sha256": "1b5b353467773018898656eb8284a84be4d6297d7a7020bf9370b63a090399b4",
+      "role": "GroundEffect original-byte/lifetime reconstruction checks; no numerical target-rate claim"
     },
     {
       "path": "Tools/re/out/client-damage-audit/r6-dot-instance-rules/wiki-ledger.json",
@@ -29430,6 +30477,16 @@
       "path": "data/tables/GrantedEffects.json",
       "sha256": "ee02ccde977a7a7c444b3fb329867b65a931dda3ab89f204dfc96b15571a6b3b",
       "rows": 12829
+    },
+    {
+      "path": "data/tables/GroundEffects.json",
+      "sha256": "89d7c41086c55e1b58ee975d07f762bf264b7c39c74aa4643b6342ca898bf111",
+      "rows": 205
+    },
+    {
+      "path": "data/tables/GroundEffectTypes.json",
+      "sha256": "5f6fe9de92f57bb803be077d96779d820f9b41092dae2364ca19e42a8031681e",
+      "rows": 42
     },
     {
       "path": "data/tables/ActiveSkills.json",

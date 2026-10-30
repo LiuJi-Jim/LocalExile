@@ -68,6 +68,9 @@ How to regenerate them: [re/tooling.md](re/tooling.md) §7.
 | [re/client-critical-inputs.md](re/client-critical-inputs.md) | complete MH/OH/spell chance input algebra, overrides, weapon classification and arithmetic order |
 | [re/client-hit-defender-modifiers.md](re/client-hit-defender-modifiers.md) | shared/typed hit-taken factors, ignore-resistance predicates and defender enemy-critical inputs |
 | [re/client-ailment-multiplier-inputs.md](re/client-ailment-multiplier-inputs.md) | virtual faster inputs, combined damaging-ailment multipliers and qualification branches |
+| [re/client-dot-multiplier-inputs.md](re/client-dot-multiplier-inputs.md) | generic, typed, ailment and non-ailment DoT multiplier inputs, exact qualifications and integer order |
+| [re/client-effect-source-catalogue.md](re/client-effect-source-catalogue.md) | selected RF/daemon/ground-effect inheritance, mode/component/script declarations and source-stat defaults |
+| [re/client-ground-effect-boundary.md](re/client-ground-effect-boundary.md) | concrete ground-effect lifetime transport, kill/expiry, Buff clock guard, cancellation and removal boundary |
 | [re/client-dot-instance-rules.md](re/client-dot-instance-rules.md) | versioned source sampling, target dynamics, duration/expiration rules and their native boundaries |
 | [re/client-hit-production.md](re/client-hit-production.md) | concrete Fireball/Melee/Sand Spitter contacts, dodge/accuracy/entropy and action-specific continuation boundaries |
 | [re/client-ranged-action-selection.md](re/client-ranged-action-selection.md) | default Bow/Wand action selector, equipment-to-provider updates and startup registration winners |

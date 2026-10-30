@@ -188,6 +188,10 @@ These are client addresses; their presence is not proof of official-server imple
 | `0x1427d0140` / `0x1427d2480` / `0x14287ae20` | Fn | [Hit defender modifiers](../re/client-hit-defender-modifiers.md): shared/physical final and elemental-ignore predicate; not actual-hit amount calculation |
 | `0x142856610` / `0x14288f2f0` / `0x14288f6d0` | Fn | [Virtual ailment faster inputs](../re/client-ailment-multiplier-inputs.md): ignite/poison/bleed qualifications and additive inputs |
 | `0x142774170` / `0x142774bb0` / `0x142774f70` | Fn | [Combined ailment multipliers](../re/client-ailment-multiplier-inputs.md): bleed/ignite/poison integer sums and conditional scopes |
+| `0x142770fd0` / `0x142772600` / `0x142772cc0` | Fn | [Common DoT multiplier inputs](../re/client-dot-multiplier-inputs.md): generic qualifications, cold divide-before-multiply versus chaos multiply-before-divide |
+| `0x142773350` / `0x142773640` / `0x142773e80` | Fn | [Ailment and non-ailment multiplier totals](../re/client-dot-multiplier-inputs.md): Elder contribution, typed sums and chaos-only extra input |
+| `0x1420b5ec0` / `0x141e19f10` / `0x141e1a5e0` | Fn | [GroundEffect lifecycle](../re/client-ground-effect-boundary.md): callable timer replacement, tick/expiry, conditional Buffs guard and concrete termination |
+| `0x141e19b10` / `0x141e1b500` / `0x141e1b470` | Fn | [GroundEffect configuration and lifetime transport](../re/client-ground-effect-boundary.md): object_type enum, visual-row selection and five-byte state receiver |
 | `0x141ed636f` / `0x141df96db` | Code | [Aura source authority](../re/client-dot-source-authority.md): mode-2 registration and metadata compiler eligibility branch |
 | `0x14128dadb` / `0x1413dfc9f` | Code | [Fireball final-factory correction](../re/client-hit-production.md#concrete-action-binding): client factory/copy overwrite the base primary table |
 | `0x141e6a190` | Fn | Life tick; conditional Life/ES/Mana continuous integration |

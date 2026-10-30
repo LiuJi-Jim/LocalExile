@@ -736,6 +736,8 @@ and can require explicit recipes.
   Shared/typed hit-taken final factors, additive elemental input and resistance-ignore predicates are recovered.
   Enemy-critical increased input has a component-only cap; actual joint hit-resolver application remains open.
   Virtual faster and combined ailment multiplier inputs preserve attack/weapon/aura/charge qualifications.
+  Twelve common DoT multiplier outputs preserve typed/ailment/non-ailment sums and signed integer order.
+  Cold divides before its resistance coefficient; chaos multiplies before division, with different rounding.
   Native final ailment-duration formulas reciprocate faster factors, separately from expiration-speed clocks.
   Versioned GGG examples identify applied source rate/duration, dynamic target response and maintained-aura exceptions.
   Official explanations use relevant events for stat/time-scale updates, with per-frame timer advancement.
@@ -744,6 +746,10 @@ and can require explicit recipes.
   Fireball client factories overwrite the base action table; inherited gates survive, clone/terminal slots differ.
   Stage/range processing remains mode/kind-filtered; entering it does not prove ordinary queued-record consumption.
   The selected Buff listener sums four Ruin quantities into count effects/audio, separate from DoT rates.
+  A selected source catalogue closes 22 RF/daemon/ground-effect parent chains and 261 field declarations.
+  Six supplied scripts, explicit modes and component families remain distinct from numerical rate publication.
+  GroundEffect lifetime transport, timer replacement/expiry, cancellation and removal-request edges are bound.
+  Its conditional guard pauses the owner's Buff clocks; it does not establish nearby target-rate publication.
   Source-instance aggregation, required numerical-event consequences and hit resource receivers remain open.
   Official/community comparisons and PoB formulas are pinned separately from current-server claims.
   Closed static contracts support implementation research without a live replay; full rendering is outside scope.

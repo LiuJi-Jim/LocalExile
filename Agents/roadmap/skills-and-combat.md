@@ -141,11 +141,14 @@ The suspend/restore lifecycle is explicit LocalExile policy; see protocol/11-ski
   Separate any local owner-stat refresh claim from that established synchronization contract and damage rate.
   Life-to-Buffs guards and the decoded nonpositive-to-positive Life clear trigger are bound.
   Trace other guard producers and source-rate consequences separately from that assignment branch.
+  GroundEffect kill/expiry now reaches the owner's conditional Buffs guard and a concrete lifecycle boundary.
+  Follow its retained-token implementation and numerical source-to-target publication separately.
   A named RF template declares a rate input; connect its actual instance and target to native publication.
   Keep reference-damage defence estimates separate from accepted-hit mitigation and resource loss.
   Connect accepted contacts to numerical damage/critical/mitigation and pool receivers; these edges remain open.
   Follow other event configurations beyond GEAL/native listeners; selected player/Sand Spitter files have no handler.
-  Build a source-configuration semantic catalogue for effect-relevant .ot inheritance, events, API calls and modes.
+  Extend the selected 22-source semantic catalogue through positive data/native links to numerical publication.
+  Preserve its exact inheritance, repeated fields, mode and component distinctions; six scripts are catalogued.
   Prior keyword inventories are bounded searches, not full semantic audits; reuse projectile-side source findings.
   Reuse the pinned PR #373 comparison: `0x1b4` is a skill-stat update; private capture claims need source records.
   Bounded negative scans are not absence proofs.
