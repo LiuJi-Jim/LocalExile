@@ -110,10 +110,13 @@ calculations. Continue the original work packages with their existing completion
 
 - R2: follow actual source-instance application and selection/aggregation into incoming rates; keep Buff lifetime
   and refresh evidence separate from damage-magnitude snapshots.
-- R3: resolve ordinary bow specialization and the remaining MonsterMortarAttack target/effect callbacks, then
+- R3: resolve ordinary bow specialization and trace the remaining numerical path after concrete contacts, then
   follow accepted contacts into numerical amount/critical/mitigation/resource mutation if such a client path exists.
   [The Sand Spitter action](client-hit-production.md#pr-373-follow-up-the-actual-sand-spitter-action) now has its own
   data-to-factory/table binding; shared flight code does not imply identical Fireball continuations.
+  Following the actual flight producer now binds its selected `+0x538` receiver to the source Actor;
+  both selected Actor callback slots are empty on the three proven tables. The `+0x590` branch has concrete
+  attachment/render/animation outputs, with transitive resource/event effects still bounded separately.
 - R4: connect source expiry/rate changes and selected event consequences to the already established scheduler.
   Revisit the reported timing and Sand Spitter damage when sanitized, attributable source records become available.
 
@@ -122,6 +125,10 @@ including an indefinite duration; that is not evidence of a damage-magnitude sna
 The RF backend's formerly unclassified lookup resolves art variants and the default `rifire.ao` resource chain,
 not a source Entity. See [the concrete lookup](client-dot-routing.md#network-buff-boundary)
 for the resource tables, original-byte anchors and remaining producer gap.
+The next pass binds owner Stats to poison/bleeding insertion-time clocks and resolves RF refresh/removal
+callbacks plus empty tick/insertion slots. These are clock and art lifecycle findings, not a substitute for
+named incoming-rate publication. A separate positive `ClientOnlyKillSelf` native callable reaches a Life
+absolute-zero setter; it does not connect an accepted contact to a numerical damage amount.
 
 The metadata-only [evidence manifest](client-damage-evidence.json) includes the new factory, reader and compact
 integer functions. Private audit batches `r4-pr373-1b4-wire` and `r4-pr373-1b4-compact` retain original-byte ranges

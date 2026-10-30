@@ -116,6 +116,22 @@ fallback lookup freshness is established independently of a UI listener's refres
 flag-one construction skips subscription to its native type parent; that affects notification delivery,
 not the absent-key getter's fallback behavior.
 
+### A concrete owner-provider consumer: Buff clock initialization
+
+Buff insertion `0x141e11dc0` obtains the owning entity's Stats through `0x14013de10` and reads
+the same component `+0x20` provider at `0x141e11df5`. It passes that provider and the actual new Buff
+to `0x141f79160`, then writes its returned speed into instance `+0x20` at `0x141e11e01`.
+The calculator reads explicit named timing stats through the provider's getter, including
+`poison_time_passed_+%` for the concrete `poison` definition and bleeding-specific expiry inputs.
+This is an actual network-owner provider consumption path, not evidence that the owner enters a native formula
+transaction. The local procedural clock formula can consume current overrides and native-parent fallbacks
+without reevaluating the native damage dependency graph.
+
+The complete clock branches, local floor/pause rules and packet-refresh distinction are in
+[DoT instance clocks](client-dot-routing.md#owner-stats-initialize-concrete-instance-clocks), backed by
+`r2-buff-speed-owner-v3`. This closes insertion-time ownership for those **clock** reads; neither later
+stat-change-driven clock refresh nor named instance damage-source publication is established by this path.
+
 ## 3. Native objects and actual evaluation
 
 The native root constructor `0x1424fb790` installs table `0x14363d3b0`, whose getter is

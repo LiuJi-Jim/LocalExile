@@ -693,15 +693,20 @@ and can require explicit recipes.
   Both-hand typed/base/added damage, conversion, average/DPS and actual numerical UI readers are statically bound.
   Accuracy, critical chance and sheet-reference hit chance formulas remain distinct from a concrete defender roll.
   Named Fireball spatial contacts/dodge/projectile avoidance and Melee accuracy/entropy decisions are now bound.
-  Sand Spitter MonsterMortarAttack has its own factory/accuracy/radius-feedback binding; two continuations stay open.
+  Sand Spitter MonsterMortarAttack has a factory/accuracy/radius-feedback binding and empty source Actor callbacks.
+  Its selected effect continuation reaches attachment/render/animation; generic downstream consequences stay open.
+  Bow/Wand action-variant selection and its mutable Actor provider are bound; equipment/startup selection stays open.
   The entropy timer uses selected component simulation deltas and marks lazy re-seeding after 3.0 seconds.
   Actor result queues also drive action/control/knockback effects; numeric hit pre-deduction remains unproven.
   GEAL rejects specific server-only resource/stat/Buff APIs; native Life reads and script listeners are also bound.
+  Native ClientOnlyKillSelf assigns a concrete Life pool to zero; no contact-derived damage amount is proved.
   Actor event parsers/compilers are bound; selected player/Sand Spitter source files supply no custom-event handler.
   Predictive message-before-tick and lockstep component interleaving are traced into Life/ES/Mana integration.
   Absolute resource loss also dispatches guarded notifications and can change subsequent recharge delay.
   Buff duration ticks, opcode-driven removal and granted-value display totals are separate from rate publication.
   Buff duration/speed refresh and infinity defaults are bound; native source-token sums remain generic containers.
+  Actual owner Stats initialize poison/bleeding instance clocks, including pause conditions and a general 0.25 floor.
+  RF backend refresh/removal has art-object outputs; its two tick slots and insertion callback are empty.
   Source-instance aggregation, event consequences and numerical-hit resource receivers remain open.
   Official/community comparisons and PoB formulas are pinned separately from current-server claims.
   This work neither changes server combat nor establishes official-server behavior.

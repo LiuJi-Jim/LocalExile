@@ -56,6 +56,7 @@ Detailed supplements keep the evidence reviewable without treating this summary 
 - [Typed DoT formulas, resource routes and arithmetic boundaries](client-dot-routing.md).
 - [Both-hand offence formulas, conversion, average/DPS and numerical UI consumers](client-offence-estimates.md).
 - [Concrete Fireball/Melee contact production, avoidance and entropy](client-hit-production.md).
+- [Default ranged-action selector, weapon-state provider and registry candidates](client-ranged-action-selection.md).
 - [Hit queues, action contexts and control effects](client-hit-feedback.md).
 - [Hit/resource receiver search and its precise coverage](client-hit-resource-boundary.md).
 - [Predictive/lockstep scheduling and resource correction](client-damage-timing.md).
@@ -98,6 +99,9 @@ flowchart TD
   ACTOR --> EVENT[Event interpreter]
   NOTIFY --> EVENT
   EVENT -. full script and callable consequences unresolved .-> EFFECTS[Context-dependent effects]
+  NATIVE[Registered ClientOnlyKillSelf callable] --> ZERO[Context Life: absolute zero if positive]
+  ZERO --> POOL
+  ZERO --> NOTIFY
 ```
 
 The DoT formula graph and the network pool integration graph are both real static findings.
@@ -485,7 +489,7 @@ and the target's spell-dodge/projectile-avoidance checks. The selected Melee tab
 tests to actual accuracy/evasion inputs and a target-Stats entropy update. These are conditional
 local calculations, not reference-target panel estimates or just received result flags.
 
-Their continuations still matter. Flag-0 Melee's tested-contact `+0x530` slot is empty on its final
+Their continuations still matter. Variant-0 Melee's tested-contact `+0x530` slot is empty on its final
 table; Fireball's corresponding slot invokes the already established queued-result consumer.
 Other inspected Melee follow-on slots likewise consume existing feedback or return without work.
 These concrete boundaries do not establish every action's behavior, and a mode check controlling
@@ -498,8 +502,10 @@ verified contact/avoidance decision, rather than treating all local hit logic as
 The event-script boundary also has positive and excluded paths. GEAL's ordinary client-mode
 compiler rejects the specifically recovered server-only `CalculateDamage`, resource/stat mutation
 and Buff-add metadata entries. Its accepted metadata-only placeholder returns an empty value vector.
-However, concrete native entries can read current Life and register Life listeners that execute
-supplied programs through the same VM. These exact boundaries, and the remaining selected-event
+However, concrete native entries can read current Life, set a resolved Life pool to zero through
+`ClientOnlyKillSelf`, and register Life listeners that execute supplied programs through the same VM.
+The zero assignment is conditional on invoking that callable; it is not a contact-derived damage amount.
+These exact boundaries, and the remaining selected-event
 program identity, are documented in the [resource receiver supplement](client-hit-resource-boundary.md#10-geal-callable-construction-and-clientserver-eligibility).
 They do not justify classifying the whole interpreter as presentation only.
 The same supplement binds the event tables to actual Actor configuration script-parser producers
@@ -526,9 +532,10 @@ No client execution is authorized by this task list.
 | R2 | Source instance → base per-minute rate | Open | Find actual writes/read consumers of base rates; identify source and aggregation policy |
 | R2 | Outgoing RF parameter/formula chain | Established locally | Native stat-set constants and FireDot eligibility feed 14408 → 8198 → 5981; [details](client-dot-routing.md#outgoing-righteous-fire-formula-bridge); target application remains open |
 | R2 | Typed resource routes and cap boundaries | Established locally | Eight typed/nonlethal/darkness channels, healing/MoM, aggregates and overflow audited; input reachability remains separate |
-| R2 | Buff instance clock and native contribution-container semantics | Established locally | Independent duration/speed refresh, infinity default and direct vector-update boundaries; additive source-token store is separate from ailment selection and incoming-rate publication |
+| R2 | Buff instance clock and native contribution-container semantics | Established locally | Duration/speed refresh, infinity default, actual owner-dependent poison/bleeding insertion clocks and RF art lifecycle bound; additive source-token store remains separate from ailment selection and incoming-rate publication |
 | R3 | Hit panel/offence evaluators | Established locally | Both hands, five types, base/added, conversion, average/DPS and actual network-provider numerical readers audited; [details](client-offence-estimates.md) |
-| R3 | Concrete contact → defender avoidance decision | Established locally | Fireball/Melee and data-bound Sand Spitter MonsterMortarAttack paths audited; [details](client-hit-production.md); ordinary bow specialization and selected target/effect callbacks remain separate |
+| R3 | Concrete contact → defender avoidance decision | Established locally | Fireball/Melee and data-bound Sand Spitter MonsterMortarAttack paths audited; [details](client-hit-production.md); selected source Actor callbacks are empty, attachment outputs bound; ordinary bow specialization remains separate |
+| R3 | Default ranged-action selection | Partial | [Bow/Wand enum test and Actor provider](client-ranged-action-selection.md) bound; equipment-to-provider updates and winning duplicate registration set remain open |
 | R3 | Accepted hit → numerical pre-deduction | Open | Connect established contact/avoidance to amount, critical, mitigation and typed pool receivers; inspected continuations consume existing feedback or have empty slots |
 | R3 | Hit packet → callbacks | Partial | Queue/control, named actions, secondary-action ID producer, GEAL and resource compiler bound; selected player/Sand Spitter files supply no custom-event handler; other configurations/consequences remain open |
 | R4 | Timing, freshness and correction policy | Partial | Scheduling, pool notifications, transition-specific carry reset and entropy expiry established; Buff ticking/removal traced separately; source-rate and event/listener effects remain open |

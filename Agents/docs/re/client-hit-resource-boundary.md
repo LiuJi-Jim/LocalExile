@@ -198,7 +198,7 @@ The result consumer `0x141e91580` calls action slots `+0x2d0` at
 `result+0x49`. A base Action table with empty slots cannot settle the concrete
 dispatch. Named registrations and the final factory stores give these bindings:
 
-| Action / registry flag | Named registration → factory | Final table / installation | `+0x2d0` | `+0x2d8` |
+| Action / registry variant | Named registration → factory | Final table / installation | `+0x2d0` | `+0x2d8` |
 |---|---|---|---|---|
 | Fireball / 0 and 1 | `0x141973cd0 → 0x141988dd0` | `0x143335d80` in constructor `0x141a8b150`, store at `0x141a8b17e` | `ret 0` | `ret 0` |
 | Melee / 0 | `0x14196a070 → 0x1419bbb70` | `0x143517ba0`, final factory store at `0x1419bbc67` | `ret 0` | `0x14136f210` |
@@ -206,7 +206,7 @@ dispatch. Named registrations and the final factory stores give these bindings:
 
 Here `ret 0` is the exact leaf `0x1400f0f00`. The selected factory branches
 are the ordinary non-mine/trap/totem cases; wrapper branches through
-`0x1419e2e50`, `0x1419e2ef0` and `0x1419e2fa0` remain unexamined. Melee flag 0
+`0x1419e2e50`, `0x1419e2ef0` and `0x1419e2fa0` remain unexamined. Melee variant 0
 temporarily installs `0x14355e290` in constructor `0x141c98150`; its later
 factory store is essential. No RTTI class name is inferred from these tables.
 
@@ -221,9 +221,10 @@ Lookup `0x141ee97f0 → 0x141941c90` uses the skill identifier at `+0x40`
 and action hash at `+0x42`, searches the registry through `0x1419774d0`, and
 invokes the selected entry's `+8` factory. Registrar `0x141941bb0` hashes the
 supplied ASCII name with multiply-then-XOR FNV starting at zero and folds its
-high/low 16-bit halves. Mode 0 inserts both flag values, mode 1 only flag 0,
-and mode 2 only flag 1. The lookup derives the flag from actor virtual
-`+0x148` data fields `+0x14c/+0x150`; its semantic name is not established here.
+high/low 16-bit halves. Coverage argument 0 inserts both variants, argument 1 only variant 0,
+and argument 2 only variant 1. The lookup derives the variant from Actor virtual
+`+0x148` data fields `+0x14c/+0x150`; the [selector supplement](client-ranged-action-selection.md)
+now binds this to the Bow/Wand weapon-state enum test, with startup registration order still open.
 
 **Correction to the older generic spell-table example:** table `0x1434adb70`
 is concretely installed by factory `0x141991bc0`, whose registration
@@ -350,13 +351,13 @@ file hashes; these generated files remain uncommitted.
 | Purpose / VA span | File offset | SHA256 |
 |---|---:|---|
 | Fireball registration `[0x141973cd0,0x141973cfd)` | 26685648 | `cecc0a5bb0190fc31c48a3e0333b37b2404a6ca186009b4fc0fd33eba968bce6` |
-| Melee flag 0 registration `[0x14196a070,0x14196a0a0)` | 26645616 | `2ab03a1b2a04e7f7b9e5623021dfd6aeda1a51e1cc2ceba2d94175b1d66b48e0` |
-| Melee flag 1 registration `[0x14196a040,0x14196a070)` | 26645568 | `a5bcc8e8a911c25472f4d96ceb1449984f6201125dd7435ae0e0ebabe30021a9` |
+| Melee variant 0 registration `[0x14196a070,0x14196a0a0)` | 26645616 | `2ab03a1b2a04e7f7b9e5623021dfd6aeda1a51e1cc2ceba2d94175b1d66b48e0` |
+| Melee variant 1 registration `[0x14196a040,0x14196a070)` | 26645568 | `a5bcc8e8a911c25472f4d96ceb1449984f6201125dd7435ae0e0ebabe30021a9` |
 | Fireball factory `[0x141988dd0,0x141988eb0)` | 26771920 | `56a1c63f13ac81fb4e96d98bf0795bfd432c281c2360106455c573e6c4f3ae02` |
-| Melee flag 0 factory `[0x1419bbb70,0x1419bbc9d)` | 26980208 | `a01eef4cb4b070439a07068202f7786b67491af7985602d299313238333c3526` |
-| Melee flag 1 factory `[0x1419bbca0,0x1419bbd80)` | 26980512 | `4a0e76ad393c380687d5bdefb4695448208be15bbfea77f092b38dff1bcb5a9d` |
+| Melee variant 0 factory `[0x1419bbb70,0x1419bbc9d)` | 26980208 | `a01eef4cb4b070439a07068202f7786b67491af7985602d299313238333c3526` |
+| Melee variant 1 factory `[0x1419bbca0,0x1419bbd80)` | 26980512 | `4a0e76ad393c380687d5bdefb4695448208be15bbfea77f092b38dff1bcb5a9d` |
 | Fireball constructor `[0x141a8b150,0x141a8b1c9)` | 27829584 | `9513b412dc56bce9fafb57591ae1bdf291ccacb18b09b153e8303ba79602610b` |
-| Melee flag 1 constructor `[0x141ac9dc0,0x141ac9e27)` | 28086720 | `dae44d0ef4dff2b3c66cd9db5d4f2e41021526e55808866223f12d9838587097` |
+| Melee variant 1 constructor `[0x141ac9dc0,0x141ac9e27)` | 28086720 | `dae44d0ef4dff2b3c66cd9db5d4f2e41021526e55808866223f12d9838587097` |
 | Melee callback `[0x14136f210,0x14136f23e)` | 20375056 | `ad0e1a90356eb6b50c77a66def2a6bcfef7c00214b0087c6bfce11e0464c09ec` |
 | Test-hit helper `[0x1419e4620,0x1419e4743)` | 27146784 | `39ca8955622dbe3d3fac7c62a3660fa716efa0b8f97834248e31b63fd1cdd8fb` |
 | Speed getter `[0x141b55cb0,0x141b55d56)` | 28659888 | `af644618cefa95908c970a89ccca7e5249615c1d0f085dacf31bba6289f16673` |
@@ -364,8 +365,8 @@ file hashes; these generated files remain uncommitted.
 | Interpreter `[0x141ded710,0x141df4948)` | 31378192 | `63ca6a3796bae102c0d4fb50017bb2ce9010d86a5e13dee9d62e75c809df0b89` |
 | Callable bridge `[0x141dfa9f0,0x141dfaa17)` | 31432176 | `f6164daf10a8378c0920d45ae7cc6a7be0f2c82f8a7cea1b66146cf015d47401` |
 | Fireball table `[0x143335d80,0x143336060)` | 53694848 | `de83e6fabedf0aad31f1dda07d424033903894929b2094d3c3582b210afcaa59` |
-| Melee flag 0 table `[0x143517ba0,0x143518060)` | 55668640 | `bbccd48123f94edcf4292c0f7672aa3be55c7390ee6ee5ad9448b33c29af071f` |
-| Melee flag 1 table `[0x143273730,0x143273a10)` | 52898608 | `775641251ecc13dbac9d9066cf0b01797da58180ac0a4d6d6e5a62516bd2431f` |
+| Melee variant 0 table `[0x143517ba0,0x143518060)` | 55668640 | `bbccd48123f94edcf4292c0f7672aa3be55c7390ee6ee5ad9448b33c29af071f` |
+| Melee variant 1 table `[0x143273730,0x143273a10)` | 52898608 | `775641251ecc13dbac9d9066cf0b01797da58180ac0a4d6d6e5a62516bd2431f` |
 
 ## 10. GEAL callable construction and client/server eligibility
 
@@ -441,6 +442,44 @@ not the sole native-call boundary. The current pass has not recovered the
 descriptor sequence of the selected Actor `0x6876` program. The inspected
 tag-2 stores in `0x141de53e0`, `0x141e004f0` and `0x141e005c0` are variant
 copy/assignment machinery; they do not identify an original concrete callable.
+
+### A concrete native numeric write: `ClientOnlyKillSelf`
+
+The client callable inventory contains a positive resource-mutating example;
+the rejected metadata-only `SetLife` name must not be generalized to all GEAL
+callables. Native entry `0x144488ac0` names `ClientOnlyKillSelf` at
+`0x14348f3f0` and binds factory `0x1417ddb50`. That factory accepts no
+arguments and installs table `0x143490a90` at `0x1417ddb72`. Its invoke slot
+`+0x10` is `0x141819ed0`.
+
+The invoke resolves an Entity from its supplied context through `0x1417c53d0`
+and obtains the component by literal `Life` through `0x14013dda0`. When the
+embedded Life pool at `Life+0x178` has a positive integer current (`pool+0x30`),
+`0x141819f09..0x141819f11` supplies reason `0x0e`, integer value zero and
+that pool pointer to absolute setter `0x141e698e0`. The setter clamps to the
+available pool range and writes current at `0x141e69939`; it also dispatches
+the existing change/empty notifications when applicable. The invoke then
+explicitly calls Life slot `+0xe8` at `0x141819f22`, using reason `0x0e`
+and the integer captured from the owning Entity's `+0x88`. On the established
+Life table this slot is `0x141e6c710`, the positive-to-nonpositive transition
+handler. This is an absolute-zero/transition path, not a floating damage delta
+through the ordinary loss reducer.
+
+This closes **registered native callable → context Entity → concrete Life
+pool → numerical assignment → transition callback**, conditional on invoking
+that callable with the stated component/current. No recovered contact program
+has been shown to invoke it, and its name alone does not establish a
+client-only Entity eligibility check. The invoke's actual guards are the
+resolved Life component and positive current. It therefore supplies a positive
+resource-write boundary without proving numerical Hit pre-resolution or a
+source-instance DoT producer.
+
+The factory and invoke audits are `r4-client-selfkill-factory` and
+`r4-client-selfkill-invoke`; `r4-client-selfkill-verification.json` retains the
+native entry, table slot, literals and exact instruction assertions. The same
+bounded invoke audit records `ConsumeSkillUse` and `KillGroundEffect`
+continuations separately; their names are not evidence of resource deduction
+or incoming DoT publication.
 
 ### A concrete native numeric read, and a programmable Life listener
 

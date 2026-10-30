@@ -10,7 +10,7 @@ They do **not** establish a local numerical damage roll, critical roll,
 mitigation calculation, or Hit-to-resource-loss chain.
 
 The concrete continuation matters: Melee's tested-contact dispatch slot is empty
-on the selected flag-0 factory object. Fireball's corresponding continuation
+on the selected variant-0 factory object. Fireball's corresponding continuation
 consumes already queued action feedback. A mode-byte reference in projectile
 termination also gates visual effects; it is not a blanket exclusion of local
 hit tests or proof of damage resolution.
@@ -45,7 +45,7 @@ Ignored evidence under `Tools/re/out/client-damage-audit/` includes:
 - `r3-contact-impact/audit.json`: the non-piercing projectile continuation and
   its concrete termination callbacks.
 - `r3-contact-tables.json`: selected table pointer locations/bytes, with the
-  flag-0 Melee table bounded before its adjacent table at offset `0x590`.
+  variant-0 Melee table bounded before its adjacent table at offset `0x590`.
 - `r3-contact-verify.json`: independently rechecked table pointers, leaf bytes,
   key callsites, selected mode-byte references and function-byte hashes.
 - `r4-contact-leaf-coverage/audit.json`: those six reviewed leaf/thunk spans
@@ -61,6 +61,12 @@ Ignored evidence under `Tools/re/out/client-damage-audit/` includes:
   identity chains, concrete pointers, and an independent recheck of 31
   instructions, nine selected slots, the false leaf, data identities and those
   34 function ranges. These retain no new runtime observations.
+- `r3-pr373-mortar-{source-continuations,attachments,attachment-actions}/audit.json`:
+  source Actor producer/constructors, attachment/render/animation operations and
+  concrete action animation getters; 22 function records and 34 byte ranges.
+  `r3-pr373-mortar-continuations-verify.json` independently rechecks 54
+  instructions, nine selected slots, seven exact component/attachment literals,
+  three Stats identities and those ranges.
 
 These are original-byte audit records, not REA Evidence IDs. Raw pointers alone
 do not establish object ownership. The factory/constructor stores and call
@@ -73,12 +79,13 @@ selection for every action variant.
 | Named registration | Factory / construction | Final primary table |
 |---|---|---|
 | Fireball, `0x141973cd0` | `0x141988dd0` → constructor `0x141a8b150`; table LEA `0x141a8b16c`, store `0x141a8b17e`; action type `0xaa4e` | `0x143335d80` |
-| Melee, registration flag 0, `0x14196a070` | `0x1419bbb70` calls base constructor `0x141c98150`, then **overwrites** its table at `0x1419bbc67`; action type `0xb188` | `0x143517ba0` |
-| Melee, registration flag 1, `0x14196a040` | `0x1419bbca0` → constructor `0x141ac9dc0`; table LEA `0x141ac9ddc` | `0x143273730` |
+| Melee, variant 0 (registration argument 1), `0x14196a070` | `0x1419bbb70` calls base constructor `0x141c98150`, then **overwrites** its table at `0x1419bbc67`; action type `0xb188` | `0x143517ba0` |
+| Melee, variant 1 (registration argument 2), `0x14196a040` | `0x1419bbca0` → constructor `0x141ac9dc0`; table LEA `0x141ac9ddc` | `0x143273730` |
 
-The registration flag's semantic name remains unresolved. It must not be
-silently renamed “server/client” or “predictive/lockstep.” In particular, the
-temporary Melee base table is not the final flag-0 object's table. The
+The [ranged selector](client-ranged-action-selection.md) now binds the lookup variant to weapon state;
+the registrar's coverage argument is a separate value, not a server/client or predictive/lockstep mode.
+The winning registration set at ordinary startup remains open. In particular, the
+temporary Melee base table is not the final variant-0 object's table. The
 CallAura/CastAura table from earlier broad action triage is not used as a proxy
 for these named actions.
 
@@ -156,7 +163,7 @@ This is a concrete local deterministic defense roll.
 
 ## Melee produces an accuracy decision and contact records
 
-Flag-0 Melee table `0x143517ba0` binds `+0x520 → 0x141c98700`.
+Variant-0 Melee table `0x143517ba0` binds `+0x520 → 0x141c98700`.
 That method compares the selected target and source positions/radii and attack
 range; the in-range branch calls `0x141c9fe00` at `0x141c98a2b`.
 `0x141c9fe00` retains the target at action `+0x348`, performs a source/target
@@ -250,7 +257,7 @@ not advance it. Early-return target/cannot-miss/always-hit paths can bypass the
 decision callback. This does not establish three wall-clock seconds, a fixed
 180-tick interval, or one reset per attack action.
 
-Flag-1 Melee has a different `+0x570 → 0x141b6f950` path. Its actual `+0x778`
+Variant-1 Melee has a different `+0x570 → 0x141b6f950` path. Its actual `+0x778`
 slot is the false leaf, selecting the accuracy helper with hand byte `+0x518`
 and false final random-mode flag. Its neighboring `+0x770 → 0x141b6f810` is a
 float speed getter, not the boolean slot used by that test. The two concrete
@@ -266,7 +273,7 @@ that byte. This is a bounded observation, not a whole-program reachability proof
 
 | Concrete continuation | Established operation / boundary |
 |---|---|
-| Flag-0 Melee `+0x530` | Pointer at `0x1435180d0` is `0x1400f0f00`, exact bytes `c20000` (`ret 0`). The tested contact does not dispatch a numerical resolver through this slot. |
+| Variant-0 Melee `+0x530` | Pointer at `0x1435180d0` is `0x1400f0f00`, exact bytes `c20000` (`ret 0`). The tested contact does not dispatch a numerical resolver through this slot. |
 | Fireball `+0x530` | Pointer at `0x1433362b0` is `0x1412e34e0`. It invokes `0x14193a170`, and optionally invokes it again under `+0x498`; this advances the action phase and consumes its matching **existing queued result range** through `0x141e91330`, as established in [hit feedback](client-hit-feedback.md). |
 | Fireball `+0x4c0` | `0x141bae0c0` inserts the target's integer Entity ID into a sorted vector under `action+0x438`, suppressing duplicates. This is target bookkeeping, not pool loss. |
 | Fireball non-piercing continuation | Contact processing retains the target at action `+0x3a8`; flight code calls `+0x4d0` at `0x141baa5ed`. This is the reviewed leaf `0x141ba68b0`, which clears `R8d` and jumps to `0x141ba68c0`. That function chooses projectile split/fork/chain/return/termination branches and calls `0x141baf5f0` with behavior codes 0..7. Its default termination calls that helper at `0x141ba6e63`, then invokes `+0x590` at `0x141ba6e9a`; Fireball's concrete `+0x590` is also `ret 0`. |
@@ -281,7 +288,7 @@ and calls `0x141c99480`; the latter queries nearby targets through
 obtained through guarded `0x14193be90`. This identifies contact expansion and
 stat setup; the pass does not prove that every spatial callback/record consumer
 is empty. In another follow-on record path, `0x141c99a20` invokes `+0x548`,
-optional splash feedback, and `+0x580`. On the selected flag-0 table,
+optional splash feedback, and `+0x580`. On the selected variant-0 table,
 `+0x548 → 0x141c999b0` checks target eligibility, passes its Entity ID to
 `0x141939f40` and thus consumes an existing queued feedback record;
 `+0x580` is `ret 0`. The splash target's `+0x538` callback is the reviewed
@@ -331,15 +338,54 @@ reinstalls that same table at `0x1414005e6`.
 | `+0x530 → 0x141b6a690` | Requires a projectile Entity at `action+0x328`; obtains a radius through `0x141939880`, scales it by definition `+0x40` as a percentage, and queries the spatial object through `0x141b74d70` at `0x141b6a84b`. That walker enumerates cells, tests `distance² <= (radius + signed targetSize)²`, and passes candidates to `0x141b748b0`. The resulting target vector is then iterated. |
 | Per-target `+0x7b8 → 0x1412e9d10` | Exact leaf `[0x1412e9d10,0x1412e9d1b)` loads the target Entity ID from `+0x88` and jumps to `0x141939f40`, the existing queued-result lookup established in [hit feedback](client-hit-feedback.md). The radius handler then invokes `0x14193a170` at `0x141b6a87e`, and optionally again at `0x141b6a896`. This is a concrete contact-expansion-to-feedback boundary. |
 
-Two alternative continuations are explicitly **not closed** by that finding.
-Slot `+0x538 → 0x141b6f540` loads a virtual target callback from the supplied
-object's `+0x1f0`, invokes it with the action and skill context, then forwards
-to `0x141b6f5c0`; the concrete target callback binding remains unresolved.
+### The supplied `+0x538` receiver is the source Actor
+
+Following the actual producer closes an important object-identity gap. In the
+common flight producer `0x141bb13a0`, instructions `0x141bb1406..0x141bb1419`
+take `action+0xe8 → +8` (the source Entity), call `0x14013d8c0`, and save the
+result at `rbp-0x20`. That helper resolves literal `Actor` at `0x1435a9db0`
+and returns the Entity's component-vector element. At `0x141bb22d8` the
+saved value becomes `R13`; `0x141bb23eb` forwards it in `RDX` to action
+`+0x538`. **This receiver is the source Actor, not the contacted target.**
+The earlier unresolved-target interpretation of this continuation is superseded
+by that producer trace.
+
+MonsterMortarAttack's `+0x538 → 0x141b6f540` invokes that Actor's `+0x1f0`
+and then forwards to `0x141b6f5c0`, which conditionally invokes its `+0x1f8`
+before clearing action bytes `+0x519/+0x51a`. Concrete Actor constructors
+`0x141e8c240` (reached by factory `0x141e87ec0`), `0x142192860` and
+`0x1416640c0` install primary tables
+`0x1435aa5d0`, `0x1435daa70` and `0x14346e558` respectively. **Both slots
+on all three tables point to exact leaf `0x1400f0f00`, bytes `c20000`
+(`ret 0`).** Thus these selected source callbacks are empty and the trailing
+action-byte clear is bookkeeping. This closes the reviewed flight-producer
+branch; it does not substitute the source Actor for other callers' receivers.
+
+### `+0x590` reaches attached-projectile art and animation operations
+
 Slot `+0x590 → 0x141400640` creates/configures an effect Entity and, under
 projectile/definition/grid conditions, calls `0x141374480` at `0x141400a4b`.
-That downstream operation is not fully classified, so the whole continuation
-must not be called presentation-only. Neither unknown is evidence that it
-does perform numerical damage calculation.
+The third argument is `&action+0xf0`; its second argument retains the caller's
+supplied value. The downstream body first requires world byte `+0xb79` and
+nonnegative projectile position fields. Its concrete operations further narrow
+this edge:
+
+| Bound operation | Original-byte evidence |
+|---|---|
+| Attachment eligibility and random selection | Reads 7392 `skill_used_by_mirage_archer`, 10972 `map_no_arrow_terrain_attachment_in_area`, and 10886 `terrain_arrow_attachment_chance_reduction_+%`. The chance branch calls `0x140e3b310` and rejects samples outside 0..99 before comparison; this RNG is not a damage or critical roll. |
+| Nearby-object limit | Calls spatial walker `0x141379b50` at `0x1413748d8`. Its selected candidate branch increments the caller-supplied integer at `0x141379d46`; the caller rejects a count greater than one. It does not forward candidates into the radius handler's queued-hit callback. |
+| Effect Entity and animation resource | A branch constructs `Metadata/Effects/Effect`, installs `0x143456508` at `0x141374a6a`, registers it at `0x141374aa7`, then obtains its `Animated` component through `0x14013de80` and calls resource setup `0x141e55b80`. |
+| Arrow joint and object attachment | Passes literal `jntBnd_Arrow` at `0x1432f1cf8` into the attachment setup leading to `0x141dc4d50` / `0x141dc31c0`. The same body contains the explicit invalid-index diagnostic for `m_AttachedProjectileOverrides` at `0x143268740`. |
+| Concrete animation inputs | Actual action slots `+0x5d0/+0x5d8` bind to `0x141ba5c80/0x141ba5d20`: the former derives an animation speed factor from arrow/projectile speed; the latter selects an animation-name string. `0x141baa660` forwards these through the projectile's `Animated → AnimationController` objects. They must not be read as damage amount getters. |
+| Render attachment state | `0x141375052` reloads the supplied second argument; `0x14137514b` obtains that Entity's `Render` component, then `0x14137516d` calls `0x14160a6f0`. That function obtains `AnimatedRender`, manipulates attachment records with stride `0x18`, and returns a reference pair. Other selected branches obtain `AnimationController` and call `0x141dbb120`, or set action attachment byte `+0x3bd`. |
+
+These are positive attachment/resource/render/animation boundaries. They do
+not establish a numerical damage producer or typed Life/Mana/ES reduction.
+The complete transitive effects of resource loading, attachment callbacks and
+generic event programs have not been excluded; the entire `+0x590` subtree
+therefore remains outside a blanket presentation-only claim. In particular,
+the art RNG and integer nearby-object count must not be promoted to a damage
+roll or an amount passed to a victim pool.
 
 The ordinary bow case also remains separate. Extracted Default Attack binds
 GrantedEffects row 468 `PlayerMelee` → ActiveSkills row 108 `melee` →
@@ -347,8 +393,9 @@ ActionTypes row 47 `Melee`. Its stat-set row 476 includes getter keys 852
 `skill_can_fire_arrows` and 853 `skill_can_fire_wand_projectiles`. This
 establishes the general skill identity, **not** the concrete ranged
 specialization selected for the report's bow shot. Neither the selected
-flag-0 Melee empty contact slot nor the MonsterMortarAttack table can stand in
-for that still-open binding.
+variant-0 Melee empty contact slot nor the MonsterMortarAttack table can stand in
+for that still-open binding. The [selector/provider supplement](client-ranged-action-selection.md)
+now closes the Bow/Wand enum test; equipment updates and the winning registration set remain separate.
 
 ## Remaining closure criteria
 

@@ -159,6 +159,10 @@ These are client addresses; their presence is not proof of official-server imple
 | `0x1426cc330` / `0x1426ccf50` / `0x1426cfa50` | Fn | Physical / fire / chaos unaffected self-rate formulas; instance producers remain separate |
 | `0x1426e53f0` / `0x1426e7410` / `0x1426e7d60` | Fn | Life bypass sum / ES total / Life total |
 | `0x1426e7670` / `0x1426e7b00` | Fn | Normal / nonlethal ES overflow share to Mana |
+| `0x141e11dc0` / `0x141f79160` | Fn | Actual owner Stats-to-Buff insertion clock; poison/bleeding expiry inputs, pause guards and general floor |
+| `0x1434876c0` / `0x14179d8a0` / `0x14179d9b0` | Vt / Fn | RF backend table, art-selector/transform refresh and presentation-object removal; tick/insertion slots empty |
+| `0x141819ed0` / `0x141e698e0` | Fn | Registered ClientOnlyKillSelf invoke / absolute pool setter; positive Life goes to zero, not contact-derived damage |
+| `0x141941c90` / `0x141651830` / `0x142199200` | Fn / Leaf / Fn | Bow/Wand action-variant selector, Actor weapon-state provider getter and mutable provider setter |
 | `0x141e6a190` | Fn | Life tick; conditional Life/ES/Mana continuous integration |
 | `0x141e6ae70` / `0x141e6b480` / `0x141e6cba0` | Fn | Life / ES / Mana continuous pool steps |
 | `0x141e6a6b0` | Fn | Integer/fractional loss reducer; float overflow result in XMM0 |

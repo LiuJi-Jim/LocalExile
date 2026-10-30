@@ -3615,11 +3615,12 @@
         }
       ],
       "sourceBatches": [
+        "r2-buff-speed-owner-v3",
         "r2-grants-value-resolver",
         "r3-loss-receiver-boundary",
         "r4-contact-leaf-coverage"
       ],
-      "selectedDecompilationCompleted": null
+      "selectedDecompilationCompleted": true
     },
     "0x1400f3a50": {
       "boundary": "PE-unwind-root-and-chains",
@@ -3775,6 +3776,7 @@
         }
       ],
       "sourceBatches": [
+        "r2-buff-speed-owner-v3",
         "r2-rf-outgoing-area-v2",
         "source-and-authority"
       ],
@@ -3792,7 +3794,24 @@
         }
       ],
       "sourceBatches": [
-        "historical-static-callback-binding"
+        "historical-static-callback-binding",
+        "r3-pr373-mortar-source-continuations"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x14013dda0": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x14013dda0",
+          "endExclusive": "0x14013de0d",
+          "bytes": 109,
+          "fileOffset": 1298848,
+          "sha256": "680f192955361f6963f2348ae8c41db75464e9ef86c6a66c5d8e594f8c6c15f6"
+        }
+      ],
+      "sourceBatches": [
+        "r4-client-selfkill-invoke"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -3812,6 +3831,54 @@
       ],
       "selectedDecompilationCompleted": null
     },
+    "0x14013de80": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x14013de80",
+          "endExclusive": "0x14013deed",
+          "bytes": 109,
+          "fileOffset": 1299072,
+          "sha256": "d4244344041ca138ccfc2cd2a8673866c8b872842d3cf97594d54187a163026f"
+        }
+      ],
+      "sourceBatches": [
+        "r3-pr373-mortar-attachments"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x14013def0": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x14013def0",
+          "endExclusive": "0x14013df5d",
+          "bytes": 109,
+          "fileOffset": 1299184,
+          "sha256": "3bbb5db120e55082c2ccedd2b39de079bfddc61d726d3412fe974b3f67e33d32"
+        }
+      ],
+      "sourceBatches": [
+        "r3-pr373-mortar-attachments"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x14013dfc0": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x14013dfc0",
+          "endExclusive": "0x14013e02d",
+          "bytes": 109,
+          "fileOffset": 1299392,
+          "sha256": "a9ff6059156c5544fadb8fe071c261dc282112c579f4c463a01d216a3eb20492"
+        }
+      ],
+      "sourceBatches": [
+        "r3-pr373-mortar-attachments"
+      ],
+      "selectedDecompilationCompleted": null
+    },
     "0x14013ebc0": {
       "boundary": "PE-unwind-root-and-chains",
       "ranges": [
@@ -3825,6 +3892,22 @@
       ],
       "sourceBatches": [
         "r3-loss-geal-builtins"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x14013fa90": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x14013fa90",
+          "endExclusive": "0x14013fafd",
+          "bytes": 109,
+          "fileOffset": 1306256,
+          "sha256": "0722c803a8bfee916f7698e94fa33196bfef4044d8b609135c1b1de4a9a63f9b"
+        }
+      ],
+      "sourceBatches": [
+        "r3-pr373-mortar-attachments"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -4492,6 +4575,38 @@
       ],
       "selectedDecompilationCompleted": null
     },
+    "0x1412629d0": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1412629d0",
+          "endExclusive": "0x141262a00",
+          "bytes": 48,
+          "fileOffset": 19275216,
+          "sha256": "ef18584e40a30316432c281bd41e8f30002c7d651a526b7d92d5ebf212e6e022"
+        }
+      ],
+      "sourceBatches": [
+        "r3-default-bow-registration-bound"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x141262a00": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x141262a00",
+          "endExclusive": "0x141262a30",
+          "bytes": 48,
+          "fileOffset": 19275264,
+          "sha256": "62262a009c34438842ab13465e8c72b656b4bc095ea42d06b0b3001e497e83b9"
+        }
+      ],
+      "sourceBatches": [
+        "r3-default-bow-registration-bound"
+      ],
+      "selectedDecompilationCompleted": null
+    },
     "0x141265e20": {
       "boundary": "PE-unwind-root-and-chains",
       "ranges": [
@@ -4636,6 +4751,38 @@
         "r3-loss-action-overrides"
       ],
       "selectedDecompilationCompleted": true
+    },
+    "0x141374480": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x141374480",
+          "endExclusive": "0x14137534b",
+          "bytes": 3787,
+          "fileOffset": 20396160,
+          "sha256": "ba61e679a07aab85b700795ea63a02f83ef8f0974d303b0d964b8d89739cd7e9"
+        }
+      ],
+      "sourceBatches": [
+        "r3-pr373-mortar-source-continuations"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x141379b50": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x141379b50",
+          "endExclusive": "0x141379db5",
+          "bytes": 613,
+          "fileOffset": 20418384,
+          "sha256": "e0e929a7275a9e43639d4a1fe97e3794bb11ebc3a3128531bcdb5419b0403512"
+        }
+      ],
+      "sourceBatches": [
+        "r3-pr373-mortar-attachments"
+      ],
+      "selectedDecompilationCompleted": null
     },
     "0x1413b6b00": {
       "boundary": "PE-unwind-root-and-chains",
@@ -5025,6 +5172,22 @@
       ],
       "selectedDecompilationCompleted": null
     },
+    "0x1415f53c0": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1415f53c0",
+          "endExclusive": "0x1415f5d50",
+          "bytes": 2448,
+          "fileOffset": 23021504,
+          "sha256": "66f36a68878eba83a2907ec50d3fab2f75fd8c94e543360d9253bad952585e5b"
+        }
+      ],
+      "sourceBatches": [
+        "r3-pr373-mortar-attachments"
+      ],
+      "selectedDecompilationCompleted": null
+    },
     "0x1415f5d50": {
       "boundary": "PE-unwind-root-and-chains",
       "ranges": [
@@ -5089,6 +5252,22 @@
       ],
       "selectedDecompilationCompleted": null
     },
+    "0x14160a6f0": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x14160a6f0",
+          "endExclusive": "0x14160ad8a",
+          "bytes": 1690,
+          "fileOffset": 23108336,
+          "sha256": "dfb1ab66285b39f1bb2ce2bd806b98d80c40ac3590ff7321cd43f2fb399582c2"
+        }
+      ],
+      "sourceBatches": [
+        "r3-pr373-mortar-attachments"
+      ],
+      "selectedDecompilationCompleted": null
+    },
     "0x14163dbc0": {
       "boundary": "PE-unwind-root-and-chains",
       "ranges": [
@@ -5121,6 +5300,22 @@
       ],
       "selectedDecompilationCompleted": true
     },
+    "0x141651830": {
+      "boundary": "explicit-analyst-leaf-range",
+      "ranges": [
+        {
+          "start": "0x141651830",
+          "endExclusive": "0x141651838",
+          "bytes": 8,
+          "fileOffset": 23399472,
+          "sha256": "5e3974c40ada7171e339c7e546f852bb050033d4d70d94cb6fa872ffb95f97b3"
+        }
+      ],
+      "sourceBatches": [
+        "r3-default-bow-registration-bound"
+      ],
+      "selectedDecompilationCompleted": null
+    },
     "0x1416640c0": {
       "boundary": "PE-unwind-root-and-chains",
       "ranges": [
@@ -5133,7 +5328,9 @@
         }
       ],
       "sourceBatches": [
-        "historical-static-callback-binding"
+        "historical-static-callback-binding",
+        "r3-default-bow-provider",
+        "r3-pr373-mortar-source-continuations"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -5317,6 +5514,23 @@
       ],
       "selectedDecompilationCompleted": null
     },
+    "0x14179d720": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x14179d720",
+          "endExclusive": "0x14179d7ba",
+          "bytes": 154,
+          "fileOffset": 24759072,
+          "sha256": "24cbb565dd1c13eb46fa02b6b09e02c0404cd88f7aca8477325592f7b13a86c7"
+        }
+      ],
+      "sourceBatches": [
+        "r2-buff-owner-update",
+        "r2-buff-speed-owner-v3"
+      ],
+      "selectedDecompilationCompleted": true
+    },
     "0x14179d7c0": {
       "boundary": "PE-unwind-root-and-chains",
       "ranges": [
@@ -5332,6 +5546,73 @@
         "r2-rf-buff-body"
       ],
       "selectedDecompilationCompleted": null
+    },
+    "0x14179d8a0": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x14179d8a0",
+          "endExclusive": "0x14179d8b7",
+          "bytes": 23,
+          "fileOffset": 24759456,
+          "sha256": "9a60a98b595983dbe7b5bc6ab7781898cc4169a45c033f963387e51c3f17389c"
+        },
+        {
+          "start": "0x14179d8b7",
+          "endExclusive": "0x14179d8e3",
+          "bytes": 44,
+          "fileOffset": 24759479,
+          "sha256": "42b3bbcbf11836a230015905d9f873d6384bcc53b480e5ec75229339ec22ac6a"
+        },
+        {
+          "start": "0x14179d8e3",
+          "endExclusive": "0x14179d971",
+          "bytes": 142,
+          "fileOffset": 24759523,
+          "sha256": "e501d7fe332791e99d13bc7467a18b777cfb356973ad67120568d17e3d36928f"
+        },
+        {
+          "start": "0x14179d971",
+          "endExclusive": "0x14179d987",
+          "bytes": 22,
+          "fileOffset": 24759665,
+          "sha256": "bf6659656087ea327d2b80035b67687c44feb96ff6a06c7ef5d4af8d4e0736dd"
+        },
+        {
+          "start": "0x14179d987",
+          "endExclusive": "0x14179d9a6",
+          "bytes": 31,
+          "fileOffset": 24759687,
+          "sha256": "5d9a4e767539193380571ec1fef4291a5cd06e4eaeb208d3b17d2c4f16ed370d"
+        },
+        {
+          "start": "0x14179d9a6",
+          "endExclusive": "0x14179d9ac",
+          "bytes": 6,
+          "fileOffset": 24759718,
+          "sha256": "b13c2122a4910ad1c7f40207d9561e5a2d3418bf2bc40c490e3f913641fd2989"
+        }
+      ],
+      "sourceBatches": [
+        "r2-buff-speed-owner-v3"
+      ],
+      "selectedDecompilationCompleted": true
+    },
+    "0x14179d9b0": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x14179d9b0",
+          "endExclusive": "0x14179d9e5",
+          "bytes": 53,
+          "fileOffset": 24759728,
+          "sha256": "43992a868242f6221ff0405875af9659d0fd4353e003c17421a4a6fe7a853120"
+        }
+      ],
+      "sourceBatches": [
+        "r2-buff-speed-owner-v3"
+      ],
+      "selectedDecompilationCompleted": true
     },
     "0x14179da90": {
       "boundary": "PE-unwind-root-and-chains",
@@ -5362,6 +5643,54 @@
       ],
       "sourceBatches": [
         "r2-grants-value-resolver"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x1417c53d0": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1417c53d0",
+          "endExclusive": "0x1417c55e8",
+          "bytes": 536,
+          "fileOffset": 24922064,
+          "sha256": "282e91b5150ae44f896fe39a476486bb606eb04c0bf7c75c25a041492de930af"
+        }
+      ],
+      "sourceBatches": [
+        "r4-client-selfkill-invoke"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x1417ddb50": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1417ddb50",
+          "endExclusive": "0x1417ddc1e",
+          "bytes": 206,
+          "fileOffset": 25022288,
+          "sha256": "a835f1485093efa0260f367bab7163a57c586e1748c41924329fe1552e701aa0"
+        }
+      ],
+      "sourceBatches": [
+        "r4-client-selfkill-factory"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x141819ed0": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x141819ed0",
+          "endExclusive": "0x141819f7f",
+          "bytes": 175,
+          "fileOffset": 25268944,
+          "sha256": "f5c1d800a5a027bf8d24110ddb5edbdaf4e3d46bca6e73181cfc9a772e9fc902"
+        }
+      ],
+      "sourceBatches": [
+        "r4-client-selfkill-invoke"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -5444,6 +5773,22 @@
       ],
       "sourceBatches": [
         "r3-loss-descriptor-producer"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x1419397d0": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1419397d0",
+          "endExclusive": "0x1419397f5",
+          "bytes": 37,
+          "fileOffset": 26446800,
+          "sha256": "1f0832cb1d1473571eedeeb40a6f791fd23a81d9d03611f24e79c2b5a7bf3880"
+        }
+      ],
+      "sourceBatches": [
+        "r3-pr373-mortar-attachment-actions"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -5860,6 +6205,7 @@
         }
       ],
       "sourceBatches": [
+        "r3-default-bow-provider",
         "r3-loss-concrete-actions"
       ],
       "selectedDecompilationCompleted": null
@@ -5876,6 +6222,7 @@
         }
       ],
       "sourceBatches": [
+        "r3-default-bow-provider",
         "r3-loss-action-factory"
       ],
       "selectedDecompilationCompleted": null
@@ -5925,6 +6272,7 @@
         }
       ],
       "sourceBatches": [
+        "r3-default-bow-provider",
         "r3-loss-concrete-actions"
       ],
       "selectedDecompilationCompleted": null
@@ -5941,6 +6289,7 @@
         }
       ],
       "sourceBatches": [
+        "r3-default-bow-provider",
         "r3-loss-concrete-actions"
       ],
       "selectedDecompilationCompleted": null
@@ -6071,6 +6420,7 @@
         }
       ],
       "sourceBatches": [
+        "r3-default-bow-provider",
         "r3-loss-factories-bound",
         "r3-pr373-monster-mortar-register"
       ],
@@ -6515,6 +6865,7 @@
       ],
       "sourceBatches": [
         "r3-contact-update",
+        "r3-default-bow-provider",
         "r3-loss-action-ctors"
       ],
       "selectedDecompilationCompleted": null
@@ -6761,6 +7112,22 @@
       ],
       "sourceBatches": [
         "r3-pr373-monster-mortar-contacts"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x141b6eb70": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x141b6eb70",
+          "endExclusive": "0x141b6ecd9",
+          "bytes": 361,
+          "fileOffset": 28761968,
+          "sha256": "ce4c584a4a70d8243776395bf19498d0ac6f30799fbbf79c38b096a27f4ef7fd"
+        }
+      ],
+      "sourceBatches": [
+        "r3-default-bow-provider"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -7091,6 +7458,66 @@
       ],
       "selectedDecompilationCompleted": null
     },
+    "0x141ba5c80": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x141ba5c80",
+          "endExclusive": "0x141ba5ca7",
+          "bytes": 39,
+          "fileOffset": 28987520,
+          "sha256": "ca4fe31b666bb71af1239b2e28af42f147add7f1ed564f3658a689b08a287f9e"
+        },
+        {
+          "start": "0x141ba5ca7",
+          "endExclusive": "0x141ba5cfb",
+          "bytes": 84,
+          "fileOffset": 28987559,
+          "sha256": "164e09903ada000ddac18cca337d5cfc2a87fedeb08151204f4def30f262df59"
+        },
+        {
+          "start": "0x141ba5cfb",
+          "endExclusive": "0x141ba5d1e",
+          "bytes": 35,
+          "fileOffset": 28987643,
+          "sha256": "8199712a1170d1f97f4f114e965b79a90a8f41c03e05587e2525823b4403012b"
+        }
+      ],
+      "sourceBatches": [
+        "r3-pr373-mortar-attachment-actions"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x141ba5d20": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x141ba5d20",
+          "endExclusive": "0x141ba5d48",
+          "bytes": 40,
+          "fileOffset": 28987680,
+          "sha256": "0aa85c63b8530133a8144a501463db7aaa2e730bad35abf52347bbf49ebcfbdd"
+        },
+        {
+          "start": "0x141ba5d48",
+          "endExclusive": "0x141ba5d80",
+          "bytes": 56,
+          "fileOffset": 28987720,
+          "sha256": "f51e40f734a656dba9ad2ba6401e2bb1aad677adebb8a56b167f2bf7469f8bd5"
+        },
+        {
+          "start": "0x141ba5d80",
+          "endExclusive": "0x141ba5e67",
+          "bytes": 231,
+          "fileOffset": 28987776,
+          "sha256": "be0b4d2a9d78c256cc9d335d9bbc86736da619d2f30c6b0f0afed88e29b8184d"
+        }
+      ],
+      "sourceBatches": [
+        "r3-pr373-mortar-attachment-actions"
+      ],
+      "selectedDecompilationCompleted": null
+    },
     "0x141ba68b0": {
       "boundary": "explicit-analyst-leaf-range",
       "ranges": [
@@ -7234,6 +7661,22 @@
       ],
       "selectedDecompilationCompleted": null
     },
+    "0x141baa660": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x141baa660",
+          "endExclusive": "0x141baa850",
+          "bytes": 496,
+          "fileOffset": 29006432,
+          "sha256": "02c790f83787b9e29ac3fe5632b0a23b68e7d2bd272dd7e4ce5e8777c4d6448e"
+        }
+      ],
+      "sourceBatches": [
+        "r3-pr373-mortar-attachment-actions"
+      ],
+      "selectedDecompilationCompleted": null
+    },
     "0x141bacf60": {
       "boundary": "PE-unwind-root-and-chains",
       "ranges": [
@@ -7291,6 +7734,64 @@
       ],
       "sourceBatches": [
         "r3-contact-producers-verified"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x141bade00": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x141bade00",
+          "endExclusive": "0x141bade19",
+          "bytes": 25,
+          "fileOffset": 29020672,
+          "sha256": "75673bf2eee9643b3d27e3f0cf795a466da2d0f2a9b0cecac627442e0e767aab"
+        },
+        {
+          "start": "0x141bade19",
+          "endExclusive": "0x141bade36",
+          "bytes": 29,
+          "fileOffset": 29020697,
+          "sha256": "5f96ffc9e99b3a31a6fc718b6c27eb9e447f7e6c108ad88b798aa4031746cc64"
+        },
+        {
+          "start": "0x141bade36",
+          "endExclusive": "0x141bade53",
+          "bytes": 29,
+          "fileOffset": 29020726,
+          "sha256": "b199edfb931116d191e27004c3e32f5e27254477fd1884c866f1cbf0eb661479"
+        },
+        {
+          "start": "0x141bade53",
+          "endExclusive": "0x141badfac",
+          "bytes": 345,
+          "fileOffset": 29020755,
+          "sha256": "48cd184271c65d01338e418a9989e19291441c30ce67d12ca98f3bf7a30bb4ab"
+        },
+        {
+          "start": "0x141badfac",
+          "endExclusive": "0x141badfb1",
+          "bytes": 5,
+          "fileOffset": 29021100,
+          "sha256": "d4ea3f500c7ddcc4ca1288ee9e23d3898724c08d3bea60fc6bd6225767498b6b"
+        },
+        {
+          "start": "0x141badfb1",
+          "endExclusive": "0x141badfb6",
+          "bytes": 5,
+          "fileOffset": 29021105,
+          "sha256": "08a3913566fe5cb3e3c578e6c5b959923342a1f8679f75171617737e4ac9d6ec"
+        },
+        {
+          "start": "0x141badfb6",
+          "endExclusive": "0x141badfbc",
+          "bytes": 6,
+          "fileOffset": 29021110,
+          "sha256": "b13c2122a4910ad1c7f40207d9561e5a2d3418bf2bc40c490e3f913641fd2989"
+        }
+      ],
+      "sourceBatches": [
+        "r3-pr373-mortar-attachment-actions"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -8035,6 +8536,54 @@
       ],
       "sourceBatches": [
         "r2-grants-global-bodies"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x141dbb120": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x141dbb120",
+          "endExclusive": "0x141dbb273",
+          "bytes": 339,
+          "fileOffset": 31171872,
+          "sha256": "610ad65b3ca701ff89e255ff6533c608230311eeb51768fe1c83126a2be9b851"
+        }
+      ],
+      "sourceBatches": [
+        "r3-pr373-mortar-attachments"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x141dc31c0": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x141dc31c0",
+          "endExclusive": "0x141dc372f",
+          "bytes": 1391,
+          "fileOffset": 31204800,
+          "sha256": "74e46da9a6efe64f1fcf31be6f67094346fd249bb2a16ce5e2abd8b75e1357ac"
+        }
+      ],
+      "sourceBatches": [
+        "r3-pr373-mortar-attachments"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x141dc4d50": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x141dc4d50",
+          "endExclusive": "0x141dc553a",
+          "bytes": 2026,
+          "fileOffset": 31211856,
+          "sha256": "44485373f84296b3a7615fc7591234785e70ad1ee1fdb813f52244a0e88d258b"
+        }
+      ],
+      "sourceBatches": [
+        "r3-pr373-mortar-attachments"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -8837,6 +9386,22 @@
       ],
       "selectedDecompilationCompleted": null
     },
+    "0x141e10810": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x141e10810",
+          "endExclusive": "0x141e108de",
+          "bytes": 206,
+          "fileOffset": 31521808,
+          "sha256": "701ab3a6de29e0d50276d87a76574616a5dbdf2f1fc6bf029dcf97353ba4726a"
+        }
+      ],
+      "sourceBatches": [
+        "r2-buff-owner-update"
+      ],
+      "selectedDecompilationCompleted": null
+    },
     "0x141e114d0": {
       "boundary": "PE-unwind-root-and-chains",
       "ranges": [
@@ -8882,7 +9447,9 @@
         }
       ],
       "sourceBatches": [
-        "r2-buff-bindings-v2"
+        "r2-buff-bindings-v2",
+        "r2-buff-speed-owner",
+        "r2-buff-speed-owner-v3"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -9202,6 +9769,52 @@
       ],
       "selectedDecompilationCompleted": null
     },
+    "0x141e55b80": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x141e55b80",
+          "endExclusive": "0x141e55d76",
+          "bytes": 502,
+          "fileOffset": 31805312,
+          "sha256": "30bb6afc19383931e97aaf126c830e77a68fb161c7292d987982a1908607cbdc"
+        }
+      ],
+      "sourceBatches": [
+        "r3-pr373-mortar-attachments"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x141e579f0": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x141e579f0",
+          "endExclusive": "0x141e57a48",
+          "bytes": 88,
+          "fileOffset": 31813104,
+          "sha256": "7c23d2383c3f81e7d1456ed9369ca61645ed3c46852443f823d28fcc01fd058d"
+        },
+        {
+          "start": "0x141e57a48",
+          "endExclusive": "0x141e57abb",
+          "bytes": 115,
+          "fileOffset": 31813192,
+          "sha256": "7d8c158dad2b4dd6c9cf683e1c104729978c1c4596ef5832572367c01a3de206"
+        },
+        {
+          "start": "0x141e57abb",
+          "endExclusive": "0x141e57af1",
+          "bytes": 54,
+          "fileOffset": 31813307,
+          "sha256": "1ea3b7cdaa2b5884cedb655643dbe19f453237ef98f3b4ff86e4de52f075f4cd"
+        }
+      ],
+      "sourceBatches": [
+        "r3-pr373-mortar-attachments"
+      ],
+      "selectedDecompilationCompleted": null
+    },
     "0x141e61010": {
       "boundary": "PE-unwind-root-and-chains",
       "ranges": [
@@ -9340,6 +9953,36 @@
         "r3-hit-target-and-life"
       ],
       "selectedDecompilationCompleted": true
+    },
+    "0x141e698e0": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x141e698e0",
+          "endExclusive": "0x141e6990d",
+          "bytes": 45,
+          "fileOffset": 31886560,
+          "sha256": "829d87e74f119c55a3d901c1b57af9241db3761efe634d2206156138a90f048e"
+        },
+        {
+          "start": "0x141e6990d",
+          "endExclusive": "0x141e699b7",
+          "bytes": 170,
+          "fileOffset": 31886605,
+          "sha256": "8694c6b8742c6c261b7d6770c3a2f00f9239f719155342b1b10f9cdd212f4eb9"
+        },
+        {
+          "start": "0x141e699b7",
+          "endExclusive": "0x141e699c7",
+          "bytes": 16,
+          "fileOffset": 31886775,
+          "sha256": "b41bfa88b733096e81fdb1c064da55832505eeac30613eb436fb4b869e086f59"
+        }
+      ],
+      "sourceBatches": [
+        "r4-client-selfkill-invoke"
+      ],
+      "selectedDecompilationCompleted": null
     },
     "0x141e69fb0": {
       "boundary": "PE-unwind-root-and-chains",
@@ -9821,6 +10464,22 @@
       ],
       "selectedDecompilationCompleted": null
     },
+    "0x141e87ec0": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x141e87ec0",
+          "endExclusive": "0x141e87ef9",
+          "bytes": 57,
+          "fileOffset": 32010944,
+          "sha256": "0be9dc5a93b595c2454852cd97433b6af2a87e1ea259a6e437986fda37df0d6d"
+        }
+      ],
+      "sourceBatches": [
+        "r3-pr373-mortar-source-continuations"
+      ],
+      "selectedDecompilationCompleted": null
+    },
     "0x141e88020": {
       "boundary": "PE-unwind-root-and-chains",
       "ranges": [
@@ -9834,6 +10493,22 @@
       ],
       "sourceBatches": [
         "r3-event-program-parser"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x141e8ac40": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x141e8ac40",
+          "endExclusive": "0x141e8b5de",
+          "bytes": 2462,
+          "fileOffset": 32022592,
+          "sha256": "c07d42a3cf94ad3bfba9a10333fcf8b420cf08a27ef37338bbbc8965baed64a4"
+        }
+      ],
+      "sourceBatches": [
+        "r3-default-bow-provider"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -9866,6 +10541,7 @@
         }
       ],
       "sourceBatches": [
+        "r3-default-bow-registration-bound",
         "r3-event-program-config-bound"
       ],
       "selectedDecompilationCompleted": null
@@ -10778,9 +11454,11 @@
         }
       ],
       "sourceBatches": [
-        "r2-buff-runtime-factory"
+        "r2-buff-runtime-factory",
+        "r2-buff-speed-owner",
+        "r2-buff-speed-owner-v3"
       ],
-      "selectedDecompilationCompleted": null
+      "selectedDecompilationCompleted": true
     },
     "0x141f794d0": {
       "boundary": "PE-unwind-root-and-chains",
@@ -11143,6 +11821,38 @@
       ],
       "selectedDecompilationCompleted": null
     },
+    "0x14208ed90": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x14208ed90",
+          "endExclusive": "0x14208eed8",
+          "bytes": 328,
+          "fileOffset": 34136464,
+          "sha256": "753e402e866b3219400b2d015554d3178098cc842b3c7b18dadad416209e0c61"
+        }
+      ],
+      "sourceBatches": [
+        "r4-client-selfkill-factory"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x142096680": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x142096680",
+          "endExclusive": "0x1420968a2",
+          "bytes": 546,
+          "fileOffset": 34167424,
+          "sha256": "e05cdf684c5f480950a9236d1b27f13fec359e52ae41386c1913fc177e097286"
+        }
+      ],
+      "sourceBatches": [
+        "r4-client-selfkill-factory"
+      ],
+      "selectedDecompilationCompleted": null
+    },
     "0x14209e390": {
       "boundary": "PE-unwind-root-and-chains",
       "ranges": [
@@ -11188,6 +11898,38 @@
       ],
       "sourceBatches": [
         "r3-loss-geal-native-consequences"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x1420b5ec0": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1420b5ec0",
+          "endExclusive": "0x1420b60b0",
+          "bytes": 496,
+          "fileOffset": 34296512,
+          "sha256": "6c71ac214d19600b7f006bf027f4efb3f193cf28e89dd72a483a42b220cbd25a"
+        }
+      ],
+      "sourceBatches": [
+        "r4-client-selfkill-invoke"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x1420b6ea0": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1420b6ea0",
+          "endExclusive": "0x1420b702d",
+          "bytes": 397,
+          "fileOffset": 34300576,
+          "sha256": "fdf2d7b54fd31a00c2cf36c6fa0ba11b7ad081f6eb35248277824708dcb9e86f"
+        }
+      ],
+      "sourceBatches": [
+        "r4-client-selfkill-invoke"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -11656,7 +12398,9 @@
       ],
       "sourceBatches": [
         "historical-static-callback-binding",
-        "r3-event-program-config-bound"
+        "r3-default-bow-provider",
+        "r3-event-program-config-bound",
+        "r3-pr373-mortar-source-continuations"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -11736,6 +12480,36 @@
       ],
       "sourceBatches": [
         "r1-active-skill-owner"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x142199200": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x142199200",
+          "endExclusive": "0x142199261",
+          "bytes": 97,
+          "fileOffset": 35227136,
+          "sha256": "8abe63c57a79a5c025664434e9c6417f6a57e82dbb20baf60db231a48e36190f"
+        },
+        {
+          "start": "0x142199261",
+          "endExclusive": "0x1421992de",
+          "bytes": 125,
+          "fileOffset": 35227233,
+          "sha256": "51b78ae4892bd30510d92517325a933255db3fc31d643764ece70b9ebc314cac"
+        },
+        {
+          "start": "0x1421992de",
+          "endExclusive": "0x14219930b",
+          "bytes": 45,
+          "fileOffset": 35227358,
+          "sha256": "0ffc56acf7d98d893400a9c2b852aece4581e7adbd829992b72cb5b9376a8c8d"
+        }
+      ],
+      "sourceBatches": [
+        "r3-default-bow-provider"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -11895,6 +12669,22 @@
         "r1-active-context"
       ],
       "selectedDecompilationCompleted": true
+    },
+    "0x1423f1bb0": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1423f1bb0",
+          "endExclusive": "0x1423f1cb0",
+          "bytes": 256,
+          "fileOffset": 37687216,
+          "sha256": "facc268630649dcd25b93303b0b4c8cf3483edc458cc29250a47acdfd4419e9f"
+        }
+      ],
+      "sourceBatches": [
+        "r3-default-bow-provider"
+      ],
+      "selectedDecompilationCompleted": null
     },
     "0x1423fb340": {
       "boundary": "PE-unwind-root-and-chains",
@@ -18011,6 +18801,11 @@
       "functionCount": 5
     },
     {
+      "name": "r2-buff-owner-update",
+      "auditSha256": "7989d71a088972b3e6a4f89d04fe3cd6c3851e04baf84ac8282434b25a14fa2f",
+      "functionCount": 2
+    },
+    {
       "name": "r2-buff-registry-callers",
       "auditSha256": "93ec0b0c08a84d10def7929a04cc0dfafa56c0d3a3f125f89608bbb0a1fd536d",
       "functionCount": 7
@@ -18024,6 +18819,16 @@
       "name": "r2-buff-runtime-factory",
       "auditSha256": "4b33bf208b5550ad7713e4a0209762f83ba4367a3d71c55d12bae3b9f37e5a77",
       "functionCount": 3
+    },
+    {
+      "name": "r2-buff-speed-owner",
+      "auditSha256": "f59d41165b593f7487be0536de0f8b97759a454ca96f9d543259114f4008c9d8",
+      "functionCount": 2
+    },
+    {
+      "name": "r2-buff-speed-owner-v3",
+      "auditSha256": "05acc1ef4881da3b2cb349990eae15e266ea91d7f4be4fa2522839ecb49913ac",
+      "functionCount": 7
     },
     {
       "name": "r2-buff-timewarp-v2",
@@ -18224,6 +19029,21 @@
       "name": "r3-contact-update",
       "auditSha256": "6831e6498288aeef33276e6b85a99f1137a0d143e6c9f8c945f270c99b9e7e87",
       "functionCount": 5
+    },
+    {
+      "name": "r3-default-bow-key-refs",
+      "auditSha256": "0aef0d6c38767b92342d8eede54723f3b3bddc53ac06a47a9950fb1f15bff45a",
+      "functionCount": 0
+    },
+    {
+      "name": "r3-default-bow-provider",
+      "auditSha256": "58633b41d327906d3134312f41ba7af3353655e7db4b3a02cee7cf4bee44535a",
+      "functionCount": 12
+    },
+    {
+      "name": "r3-default-bow-registration-bound",
+      "auditSha256": "83793f03968d4f5b3ad964a350ba3d813578ea20a062a764338597bdd55b574d",
+      "functionCount": 4
     },
     {
       "name": "r3-event-archive-loader",
@@ -18476,6 +19296,16 @@
       "functionCount": 3
     },
     {
+      "name": "r3-pr373-mortar-attachment-actions",
+      "auditSha256": "1a309c80e4eac1d5d783799b211e658058dad9019c85c3779ad8b09265b4b20b",
+      "functionCount": 5
+    },
+    {
+      "name": "r3-pr373-mortar-attachments",
+      "auditSha256": "42ab105ca76ee91e01fb8e44aed742f82a4ad1738624f0ea0039375fafa450a2",
+      "functionCount": 12
+    },
+    {
       "name": "r3-pr373-mortar-radius-boundary",
       "auditSha256": "56ce10774e07db3d4678d752ca1cc065f34cfa011a1396ad1febcf50b9d59617",
       "functionCount": 5
@@ -18486,6 +19316,11 @@
       "functionCount": 2
     },
     {
+      "name": "r3-pr373-mortar-source-continuations",
+      "auditSha256": "148a2a47f96129707ed33c08eae56caa1b8f6ac1333052db370a19bda7edcdaf",
+      "functionCount": 5
+    },
+    {
       "name": "r3-pr373-ranged-factory",
       "auditSha256": "9f993ae29cbc4963afe944eec4fd7ae71a653ea52a0d23ef7a6ab6d62feb6daa",
       "functionCount": 2
@@ -18494,6 +19329,16 @@
       "name": "r3-pr373-subaction-allocation",
       "auditSha256": "53e85f58672854d716864a3cbe51098c6174df6af7776b9ba7c1f06abadf87dc",
       "functionCount": 4
+    },
+    {
+      "name": "r4-client-selfkill-factory",
+      "auditSha256": "414282b3ee92d903a73d60863237f02375712e5993631d05e9dc58548b078cd0",
+      "functionCount": 3
+    },
+    {
+      "name": "r4-client-selfkill-invoke",
+      "auditSha256": "b4f544237000714c3e52abde140c0d1baf00bc28d1a35849afa3dd6125c47c27",
+      "functionCount": 6
     },
     {
       "name": "r4-contact-leaf-coverage",
@@ -19152,6 +19997,174 @@
       "fileOffset": 53842880,
       "sha256": "da754868012a489c713f64d1513b635404c43920cdaa296e80fe7e1093b121ea",
       "role": "Concrete MonsterMortarAttack contact/avoidance/feedback binding; see contact supplement"
+    },
+    {
+      "table": "0x143490a90",
+      "offset": "0x10",
+      "target": "0x141819ed0",
+      "fileOffset": 55115424,
+      "sha256": "a543f7375900a9f27d3b85af4621fc67565fe90207c237938cb434d50a663549",
+      "role": "GEAL ClientOnlyKillSelf concrete Life absolute-zero callable"
+    },
+    {
+      "table": "0x1434876c0",
+      "offset": "0x10",
+      "target": "0x14179d8a0",
+      "fileOffset": 55077584,
+      "sha256": "2bbf52220c4b697f2bd5de88c4a8fcf930be3b72c09a3038857b42ec665f0d1c",
+      "role": "RF backend art selector/transform refresh"
+    },
+    {
+      "table": "0x1434876c0",
+      "offset": "0x18",
+      "target": "0x14179d9b0",
+      "fileOffset": 55077592,
+      "sha256": "3ced3230a217b9c20ec91309a6a8523d3dd0bf9d5a37bc2b70608a3c9c7e6920",
+      "role": "RF backend presentation object removal"
+    },
+    {
+      "table": "0x1434876c0",
+      "offset": "0x28",
+      "target": "0x1400f0f00",
+      "fileOffset": 55077608,
+      "sha256": "d9ef84a3fe6554ba5faec6f478a120be36e4d00d060b896c9a9387cfb67472f0",
+      "role": "RF backend first tick no-op"
+    },
+    {
+      "table": "0x1434876c0",
+      "offset": "0x30",
+      "target": "0x1400f0f00",
+      "fileOffset": 55077616,
+      "sha256": "d9ef84a3fe6554ba5faec6f478a120be36e4d00d060b896c9a9387cfb67472f0",
+      "role": "RF backend second tick no-op"
+    },
+    {
+      "table": "0x1434876c0",
+      "offset": "0x50",
+      "target": "0x1400f0f00",
+      "fileOffset": 55077648,
+      "sha256": "d9ef84a3fe6554ba5faec6f478a120be36e4d00d060b896c9a9387cfb67472f0",
+      "role": "RF backend insertion no-op"
+    },
+    {
+      "table": "0x1435aa5d0",
+      "offset": "0x1f0",
+      "target": "0x1400f0f00",
+      "fileOffset": 56269760,
+      "sha256": "d9ef84a3fe6554ba5faec6f478a120be36e4d00d060b896c9a9387cfb67472f0",
+      "role": "Selected source Actor empty callback or concrete action animation getter; see contact supplement"
+    },
+    {
+      "table": "0x1435aa5d0",
+      "offset": "0x1f8",
+      "target": "0x1400f0f00",
+      "fileOffset": 56269768,
+      "sha256": "d9ef84a3fe6554ba5faec6f478a120be36e4d00d060b896c9a9387cfb67472f0",
+      "role": "Selected source Actor empty callback or concrete action animation getter; see contact supplement"
+    },
+    {
+      "table": "0x1435daa70",
+      "offset": "0x1f0",
+      "target": "0x1400f0f00",
+      "fileOffset": 56467552,
+      "sha256": "d9ef84a3fe6554ba5faec6f478a120be36e4d00d060b896c9a9387cfb67472f0",
+      "role": "Selected source Actor empty callback or concrete action animation getter; see contact supplement"
+    },
+    {
+      "table": "0x1435daa70",
+      "offset": "0x1f8",
+      "target": "0x1400f0f00",
+      "fileOffset": 56467560,
+      "sha256": "d9ef84a3fe6554ba5faec6f478a120be36e4d00d060b896c9a9387cfb67472f0",
+      "role": "Selected source Actor empty callback or concrete action animation getter; see contact supplement"
+    },
+    {
+      "table": "0x14346e558",
+      "offset": "0x1f0",
+      "target": "0x1400f0f00",
+      "fileOffset": 54975304,
+      "sha256": "d9ef84a3fe6554ba5faec6f478a120be36e4d00d060b896c9a9387cfb67472f0",
+      "role": "Selected source Actor empty callback or concrete action animation getter; see contact supplement"
+    },
+    {
+      "table": "0x14346e558",
+      "offset": "0x1f8",
+      "target": "0x1400f0f00",
+      "fileOffset": 54975312,
+      "sha256": "d9ef84a3fe6554ba5faec6f478a120be36e4d00d060b896c9a9387cfb67472f0",
+      "role": "Selected source Actor empty callback or concrete action animation getter; see contact supplement"
+    },
+    {
+      "table": "0x143359808",
+      "offset": "0x310",
+      "target": "0x1419397d0",
+      "fileOffset": 53841688,
+      "sha256": "d8b613dc26037541e4615bab7954eae1d8abdda59c1d506b0f50f0edc292a243",
+      "role": "Selected source Actor empty callback or concrete action animation getter; see contact supplement"
+    },
+    {
+      "table": "0x143359808",
+      "offset": "0x5d0",
+      "target": "0x141ba5c80",
+      "fileOffset": 53842392,
+      "sha256": "10b779a685279b2e590d9e04b92c824af0e0d04a467c1c42c2415aead2e19873",
+      "role": "Selected source Actor empty callback or concrete action animation getter; see contact supplement"
+    },
+    {
+      "table": "0x143359808",
+      "offset": "0x5d8",
+      "target": "0x141ba5d20",
+      "fileOffset": 53842400,
+      "sha256": "7ec23e1ecf5567ad948215bce58aa623510d5d04682bc7f6d6a5b098cd9b69f7",
+      "role": "Selected source Actor empty callback or concrete action animation getter; see contact supplement"
+    },
+    {
+      "table": "0x1435daa70",
+      "offset": "0x148",
+      "target": "0x141651830",
+      "fileOffset": 56467384,
+      "sha256": "86ccbfc4e31beb67b5977b43c9e956c4a419576a09dcb7df3d276df9a661d572",
+      "role": "Selected source Actor empty callback or concrete action animation getter; see contact supplement"
+    },
+    {
+      "table": "0x14346e558",
+      "offset": "0x148",
+      "target": "0x141651830",
+      "fileOffset": 54975136,
+      "sha256": "86ccbfc4e31beb67b5977b43c9e956c4a419576a09dcb7df3d276df9a661d572",
+      "role": "Selected source Actor empty callback or concrete action animation getter; see contact supplement"
+    },
+    {
+      "table": "0x1435aa5d0",
+      "offset": "0x148",
+      "target": "0x1400ecd70",
+      "fileOffset": 56269592,
+      "sha256": "d3814e4c63560704ee112d964a66844e757e3293b3f3a38a2a14c50e74a2942a",
+      "role": "Selected source Actor empty callback or concrete action animation getter; see contact supplement"
+    },
+    {
+      "table": "0x1435db980",
+      "offset": "0x8",
+      "target": "0x142199200",
+      "fileOffset": 56470920,
+      "sha256": "b8a187da5404292eb23d915fe7dcbe4193d8250d9a9d39431ec71833cd10d3e3",
+      "role": "Selected source Actor empty callback or concrete action animation getter; see contact supplement"
+    },
+    {
+      "table": "0x143273730",
+      "offset": "0x618",
+      "target": "0x141bb13a0",
+      "fileOffset": 52900168,
+      "sha256": "a2835259d3c93ddf9d21d45b0c03261bec97e2a8ced796c5cf313319b5d973df",
+      "role": "Selected source Actor empty callback or concrete action animation getter; see contact supplement"
+    },
+    {
+      "table": "0x143273730",
+      "offset": "0x530",
+      "target": "0x1412e34e0",
+      "fileOffset": 52899936,
+      "sha256": "f1a3de34dfcbc1d0cc82bee87c62eb9e8556479d67404c0c3c8d3bc7e4df240e",
+      "role": "Selected source Actor empty callback or concrete action animation getter; see contact supplement"
     }
   ],
   "scanCoverage": {
@@ -19186,12 +20199,12 @@
     }
   ],
   "verification": {
-    "entryCount": 900,
-    "originalByteRangeCount": 1351,
+    "entryCount": 939,
+    "originalByteRangeCount": 1411,
     "historicalBoundedThunkEntries": 4,
-    "pointerSlotCount": 67,
-    "selectedDecompilationRecords": 507,
-    "checkedReferenceInstructions": 10985,
+    "pointerSlotCount": 88,
+    "selectedDecompilationRecords": 514,
+    "checkedReferenceInstructions": 11012,
     "decompilationFailures": [],
     "scope": "Original ranges/offsets, unwind ownership or explicit boundaries, stat identity, reference instructions and pointer-slot contents revalidated offline."
   },
@@ -19295,6 +20308,36 @@
       "path": "Tools/re/out/client-damage-audit/r3-event-program-binding.json",
       "sha256": "2160a0df04c511216a79d123a745f0197b4b3616059e6f761d0cb3cca8c45531",
       "role": "Actor event-table resource parser and compiler original-byte anchors and inventory identities"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r3-default-bow-verify.json",
+      "bytes": 6115,
+      "sha256": "2aa74032e4a426b2a8507b4721e2aeedd75fb797a814bd96c44f48e803730c13",
+      "role": "Native Bow/Wand/Unarmed enum, conditional action selector and actual Actor weapon-state provider verification; startup winner remains unresolved"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r3-default-bow-type-enum.json",
+      "bytes": 10646,
+      "sha256": "9211a3b558098e5cfea34d41e5cf83da60c0f5f1f55318a7456c14d738bcea4f",
+      "role": "Literal native weapon-type enum inventory with entry addresses; not extracted-table row assumptions"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r4-client-selfkill-verification.json",
+      "bytes": 3480,
+      "sha256": "d2675c2692c7d7d84aca782ef06606ac40095f8916407e34c4114765eb8c0e73",
+      "role": "Native callable entry, context-to-Life absolute-zero setter and transition instruction assertions; not calculated Hit damage"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r2-buff-speed-owner-v3/verification.json",
+      "bytes": 1884,
+      "sha256": "2da6771fbb9d6f22959b21686edf2a45f013571c50e3dbe90916c39532955fe6",
+      "role": "Owner Stats-to-poison/bleeding insertion clock, clock pause/floor and concrete RF lifecycle original-byte verification"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r3-pr373-mortar-continuations-verify.json",
+      "bytes": 8880,
+      "sha256": "9fddb664a89239e492735bd0c1cda474e2a553b5ab25d3e74c06c16de2aaf4d7",
+      "role": "Source Actor identity/empty slots and concrete ranged attachment/render/animation original-byte verification"
     },
     {
       "path": "Tools/re/out/client-damage-audit/pr373-supplement-verification.json",

@@ -39,6 +39,7 @@ The local evidence batches under ignored `Tools/re/out/client-damage-audit/` are
 | `r2-rf-outgoing-labels` / `r2-rf-outgoing-key-discovery` / `r2-rf-outgoing-inline-discovery` | Bounded outgoing-key consumers, label formatter and immediate/cache-displacement discovery sidecars |
 | `r2-buff-timewarp-v2` | Packet-to-instance duration/speed transport, partial versus replacement refresh, exact positive-infinity default leaf and timer consumer |
 | `r2-rf-art-lookup-v2` | RF backend's concrete skill-art row, animated-art list callback, variation selection and table identities |
+| `r2-buff-speed-owner-v3` | Actual owner Stats-to-instance clock calculation, poison/bleeding clock branches, RF refresh/removal callbacks and exact reviewed helper leaves |
 
 Each `audit.json` retains original-file offsets, SHA256s, PE-unwind roots/chains and every decoded instruction.
 Selected `decompilations.jsonl` files come from Ghidra 12.1.4, JDK 21, `-noanalysis`, bounded bodies only.
@@ -504,7 +505,8 @@ copies remaining duration/speed at `0x141e068e8/0x141e068ee`, but still does not
 `+0x18`. Its backend callbacks bracket the replacement; the partial update separately calls backend `+0x10`.
 Neither branch means that changing time necessarily recalculates a DoT magnitude.
 
-The tick already bound above consumes these exact instance fields:
+Insertion can replace the constructor's transported speed with a locally calculated owner-dependent speed;
+the concrete binding and formula are described below. The tick already bound above consumes these exact instance fields:
 `remaining -= deltaTime * (row.+73 ? 1.0f : speed)` at `0x141e105cd..0x141e105ea`.
 The packet can thus change an existing instance's clock through a partial-update branch that does not directly
 replace its existing granted-value vector. Indirect backend callbacks can have additional effects;
@@ -519,6 +521,81 @@ Local verification `r2-buff-timewarp-v2/verification.json` checks seven original
 1,225 instruction records, 27 exact semantic anchors and the positive-infinity constant.
 It uses existing selected decompilations for context and an explicit reviewed leaf boundary for the default helper;
 no runtime execution or official-server capture was used.
+
+### Owner Stats initialize concrete instance clocks
+
+The new-instance insertion path has a positive owner binding, not merely a compatible calculator interface.
+At `0x141e11de4..0x141e11e01`, component `+8` supplies its entity to the previously bound Stats getter
+`0x14013de10`; when present, Stats `+0x20` is passed with the actual new Buff to `0x141f79160`.
+Its result overwrites that Buff's speed `+0x20` before the backend is created.
+Thus the AddBuff speed field is transported and constructor-assigned, but need not be the final insertion speed.
+The existing-instance partial refresh still has the independent direct speed overwrite described above.
+
+The clock calculator selects a BuffDefinitions key using `0x142454bd0`, reads the owner's Stats through
+its already-bound getter slot, and contains concrete poison and bleeding branches. The following table uses
+native one-based Buff keys and native Stats keys; BuffDefinitions has the pinned identity recorded above.
+
+| Instance condition | Owner input / behavior |
+|---|---|
+| Definition byte `+0x73` nonzero | Return `1.0f` before other clock tests |
+| `0x757` / `ward_broken` | Nonzero 14608 `ward_delay_paused` returns zero |
+| Definition category `+0x67 = 4` | Nonzero 8307 `in_grace_period` returns zero |
+| Category `5` | Nonzero 12597 `hex_time_does_not_tick` returns zero |
+| `0x68c` / `wet`, first `Buff.+80` value zero | Nonzero 13420 `wet_time_does_not_tick` returns zero |
+| `0x1fb` / `withered` | Nonzero 13493 `wither_on_you_does_not_expire` returns zero |
+| Definition `+0x51 = 2`, or `0x99e` / `stacking_shock` | Nonzero 16702 `shock_on_you_does_not_expire` returns zero |
+
+For other cases, the ordinary signed32 sum starts with `Buff.+24` plus 8762 `buff_time_passed_+%`.
+It adds 535 `buff_time_passed_+%_other_than_temporal_chains` unless the instance is
+`0x46` / `curse_temporal_chains` (`0x141f79293..0x141f792a5`).
+An additional branch is eligible when `Buff.+30 == 0` **or** bit zero of `Buff.+38` is set
+(`0x141f792a7..0x141f792b1`); the field meanings are not renamed beyond their established representation.
+Within that branch it adds:
+
+- 13224 `buff_time_passed_+%_only_buff_category` for categories `{1,7,13,16}`, selected by mask `0x12082`.
+- 7505 `virtual_debuff_time_passed_+%` for categories `{2,5,11,14}`, selected by mask `0x4824`.
+- 7948 `poison_time_passed_+%` for `0xb` / `poison`, at `0x141f7930a..0x141f7931c`.
+- 18631 `virtual_bleeding_on_self_expire_speed_+%` for `0x8d` / `bleeding` or `0x38a` / `bleeding_stack`.
+
+For those two bleeding keys within that same eligible branch, the factor also includes
+`1 + S(13580 rupture_debuff_bleeding_time_passed_+%_final)/100` at `0x141f79375..0x141f7939f`.
+Otherwise that factor is `1.0f`. In native binary32 order, the general result is then
+`max(0.25f, bleedingFactor * (1.0f + float(sum)/100.0f))`.
+The final multiply and floor call are at `0x141f793cc/0x141f793d6`; the exact fifteen-byte helper
+`0x14013c620..0x14013c62f` selects the larger input using `comiss; cmovb`.
+The earlier zero-return guards bypass this floor, so a paused clock can actually have speed zero.
+Ordinary integer overflow, floating-point rounding and the helper's unordered-comparison semantics remain applicable.
+
+This establishes a real **target-owner Stats → named poison/bleeding instance clock → timer** path at insertion.
+It does not identify an attacker damage snapshot or equate expiration-speed changes with increased damage rate.
+The bounded direct-call/pointer scan found the insertion call and no stored function pointer to this calculator;
+that is not proof against inlining, indirect callbacks or another implementation of clock refresh.
+Dynamic recalculation after an owner stat update remains unclosed, as does any instance-to-native-DoT-source publication.
+
+### RF refresh callbacks retain a presentation boundary
+
+The installed RF table `0x1434876c0` positively resolves the remaining callback slots:
+`+0x10 → 0x14179d8a0`, `+0x18 → 0x14179d9b0`, and each of `+0x28/+0x30/+0x50 → 0x1400f0f00`.
+The last is the exact three-byte `ret 0` leaf, not an unresolved indirect callee.
+Consequently the RF backend's two audited tick slots and insertion callback have no numerical work.
+
+Refresh `0x14179d8a0` checks its active byte `+0x18`, then compares the first counted Buff `+0x80` value
+(or `-1` when absent) with cached backend `+0x20` at `0x14179d8d7`.
+On a changed selector it removes the existing presentation object through `0x14179d720`, clears the shared handle,
+updates the transform with `0x14179d7c0`, and recreates the object with `0x14179d4e0`
+(`0x14179d8ff`, `0x14179d943`, `0x14179d94e`). These last two helpers have the concrete RF art binding above.
+If the selector is unchanged, a change to cached `Buff.+30` only invokes the transform helper
+(`0x14179d98a..0x14179d992`). Removal callback `0x14179d9b0` conditionally tail-calls the same object-removal helper.
+That helper searches the object's presentation collection in `0xb0`-byte records and calls `0x141dc3730`
+with the retained handle at `0x14179d7af`; it does not directly remove a native stat-source token.
+
+These are bounded, concretely selected RF lifecycle methods. They strengthen the presentation interpretation of
+this backend and close its previously unknown `+0x10/+0x50` targets; they do not establish a general absence of
+numeric Buff subscribers or a server-only DoT model. Named RF/poison/ignite contribution to incoming native rates
+still requires an independent positive edge.
+Local `r2-buff-speed-owner-v3/verification.json` checks seven bodies, thirteen original-byte ranges,
+456 instruction records, 34 semantic anchors, five exact RF vtable slots and the named Buff/Stats identities.
+The v3 batch supersedes the preliminary speed-owner batches; its no-op leaf is bounded through all three bytes.
 
 ## Outgoing Righteous Fire formula bridge
 
@@ -635,7 +712,9 @@ Typed mitigation, ES/Mana/Life splits, healing exclusions, lethal/nonlethal aggr
 local arithmetic boundaries are established as conditional static formulas for this exact executable.
 The raw/self-rate callbacks show more local computation than forwarding alone, but the following are still open:
 
-- Concrete ailment/effect/source instance creation, duration, stacking and snapshot contribution into raw base rates.
+- Named effect/source identity, stacking and snapshot contribution into raw base rates; the network Buff lifecycle
+  and insertion-time owner-dependent clock are established separately and do not supply that numeric edge.
+- Complete owner-stat-change clock refresh and any relationship between expiration speed and damage-rate changes.
 - Whether those source contributions target each actual network actor's fallback object, and when eligible entries evaluate.
 - Reachable ranges of extreme inputs and whether the native conversion/ordinary-overflow boundary cases occur in play.
 - Exhaustive transitive taken-as percentage producers, every upstream maximum-resistance override, and every self-rate state term.
