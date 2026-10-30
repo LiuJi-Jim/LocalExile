@@ -3333,7 +3333,8 @@
         }
       ],
       "sourceBatches": [
-        "r5-critical-formulas"
+        "r5-critical-formulas",
+        "r6-critical-inputs"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -3366,7 +3367,8 @@
         }
       ],
       "sourceBatches": [
-        "r5-critical-formulas"
+        "r5-critical-formulas",
+        "r6-critical-inputs"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -3382,7 +3384,8 @@
         }
       ],
       "sourceBatches": [
-        "r5-critical-formulas"
+        "r5-critical-formulas",
+        "r6-critical-inputs"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -3447,6 +3450,38 @@
       ],
       "sourceBatches": [
         "r5-critical-formulas"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x1400bea20": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1400bea20",
+          "endExclusive": "0x1400bea6d",
+          "bytes": 77,
+          "fileOffset": 777760,
+          "sha256": "e5a21818328bf731daddbc0de526286e74578e6915578c734d983f0574e695d5"
+        }
+      ],
+      "sourceBatches": [
+        "r6-ailment-multiplier-inputs"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x1400beac0": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1400beac0",
+          "endExclusive": "0x1400beb0d",
+          "bytes": 77,
+          "fileOffset": 777920,
+          "sha256": "52ec84ea8ac8334631ea7f8c8bd351275a941f367e14be5cfcfe39b79ae44f77"
+        }
+      ],
+      "sourceBatches": [
+        "r6-ailment-multiplier-inputs"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -3591,6 +3626,54 @@
       ],
       "sourceBatches": [
         "r5-ailment-outgoing-expansion"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x1400bf9f0": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1400bf9f0",
+          "endExclusive": "0x1400bfa61",
+          "bytes": 113,
+          "fileOffset": 781808,
+          "sha256": "dde5e4f6cd567a6a71ec186ea59ff6647d072cec584a902fda744ddf084bd806"
+        }
+      ],
+      "sourceBatches": [
+        "r6-ailment-multiplier-inputs"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x1400bfa70": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1400bfa70",
+          "endExclusive": "0x1400bfac3",
+          "bytes": 83,
+          "fileOffset": 781936,
+          "sha256": "f954fb9f14806efba79836822898b5d25009c46ee7c91c7721731cbb3735102d"
+        }
+      ],
+      "sourceBatches": [
+        "r6-ailment-multiplier-inputs"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x1400bfb20": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1400bfb20",
+          "endExclusive": "0x1400bfb8f",
+          "bytes": 111,
+          "fileOffset": 782112,
+          "sha256": "28108aa995bc88af4aa3d0646f1ef67ececa34cc3840ce4ed86bdb239e3255f7"
+        }
+      ],
+      "sourceBatches": [
+        "r6-ailment-multiplier-inputs"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -3828,6 +3911,118 @@
       ],
       "selectedDecompilationCompleted": null
     },
+    "0x1400c80b0": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1400c80b0",
+          "endExclusive": "0x1400c8113",
+          "bytes": 99,
+          "fileOffset": 816304,
+          "sha256": "a7204c04a595648a882da6f18ddbf210f56b32ad69de71733077a6d13d1e5706"
+        }
+      ],
+      "sourceBatches": [
+        "r6-hit-defender-modifiers"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x1400c8370": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1400c8370",
+          "endExclusive": "0x1400c83c3",
+          "bytes": 83,
+          "fileOffset": 817008,
+          "sha256": "19a3c613e8dd5c6ca50557d7b5556085d88fab5a5794cf495d188d1fd83cbc0f"
+        }
+      ],
+      "sourceBatches": [
+        "r6-hit-defender-modifiers"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x1400c84b0": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1400c84b0",
+          "endExclusive": "0x1400c850d",
+          "bytes": 93,
+          "fileOffset": 817328,
+          "sha256": "cc4f0bc1e9d69a999f3b7189749f612a49f6365cc0f676011991bcb53ce1623d"
+        }
+      ],
+      "sourceBatches": [
+        "r6-hit-defender-modifiers"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x1400c86a0": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1400c86a0",
+          "endExclusive": "0x1400c86fb",
+          "bytes": 91,
+          "fileOffset": 817824,
+          "sha256": "c143bd68e513951cb30e62546b0dea6dff40e70f65953aa6e673fa16351734e1"
+        }
+      ],
+      "sourceBatches": [
+        "r6-hit-defender-modifiers"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x1400c8890": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1400c8890",
+          "endExclusive": "0x1400c88e3",
+          "bytes": 83,
+          "fileOffset": 818320,
+          "sha256": "b04d2dceb1c77f5b23f919ecebb2bcd38449511236a08ff74e8b5c68b903b8de"
+        }
+      ],
+      "sourceBatches": [
+        "r6-hit-defender-modifiers"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x1400c8a70": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1400c8a70",
+          "endExclusive": "0x1400c8ac5",
+          "bytes": 85,
+          "fileOffset": 818800,
+          "sha256": "cae2726f8289fcfeb4ae474860ea7dae110c71d0662211e4cf428e8f923d16c0"
+        }
+      ],
+      "sourceBatches": [
+        "r6-hit-defender-modifiers"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x1400c8c50": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1400c8c50",
+          "endExclusive": "0x1400c8ca5",
+          "bytes": 85,
+          "fileOffset": 819280,
+          "sha256": "0ea88b1cac87d7dbb73da025c1d347a5e051f584b67a639262f086aa88ebde53"
+        }
+      ],
+      "sourceBatches": [
+        "r6-hit-defender-modifiers"
+      ],
+      "selectedDecompilationCompleted": null
+    },
     "0x1400cad00": {
       "boundary": "PE-unwind-root-and-chains",
       "ranges": [
@@ -3921,6 +4116,102 @@
       ],
       "sourceBatches": [
         "r2-typed-routes"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x1400cc730": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1400cc730",
+          "endExclusive": "0x1400cc7bf",
+          "bytes": 143,
+          "fileOffset": 834352,
+          "sha256": "ac8b8ec6bb0be7e2da6652ac40bd800d2cdc8fded699f458517aac1e9a9bbede"
+        }
+      ],
+      "sourceBatches": [
+        "r6-ailment-duration-formulas"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x1400cc7c0": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1400cc7c0",
+          "endExclusive": "0x1400cc821",
+          "bytes": 97,
+          "fileOffset": 834496,
+          "sha256": "0afee9c2508a5eb874238bd81a1d2f98f69709964737f4de2afaf16d83fc5763"
+        }
+      ],
+      "sourceBatches": [
+        "r6-ailment-duration-formulas"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x1400cd3f0": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1400cd3f0",
+          "endExclusive": "0x1400cd467",
+          "bytes": 119,
+          "fileOffset": 837616,
+          "sha256": "6a0aa9057ce565a1149079319c2967cd6fbe242c5a05e683769d2dc0b3edcdb9"
+        }
+      ],
+      "sourceBatches": [
+        "r6-ailment-duration-formulas"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x1400cd470": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1400cd470",
+          "endExclusive": "0x1400cd4c3",
+          "bytes": 83,
+          "fileOffset": 837744,
+          "sha256": "8eb067569a158b042b6ff67541beeda3a27643134b7dd82c85a3ae07c3f7caa7"
+        }
+      ],
+      "sourceBatches": [
+        "r6-ailment-duration-formulas"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x1400cd660": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1400cd660",
+          "endExclusive": "0x1400cd6dd",
+          "bytes": 125,
+          "fileOffset": 838240,
+          "sha256": "ddf0981b1b0e60ecbc378c6b03c0c2c9b6c6526db40cd54b3e51da35643ba2ef"
+        }
+      ],
+      "sourceBatches": [
+        "r6-ailment-duration-formulas"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x1400cd6e0": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1400cd6e0",
+          "endExclusive": "0x1400cd743",
+          "bytes": 99,
+          "fileOffset": 838368,
+          "sha256": "cfa34c37a4600649a591620f41f044190f777592844321da29b4d1b1ba0d9114"
+        }
+      ],
+      "sourceBatches": [
+        "r6-ailment-duration-formulas"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -4068,6 +4359,22 @@
       ],
       "selectedDecompilationCompleted": null
     },
+    "0x1400d5e30": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1400d5e30",
+          "endExclusive": "0x1400d5e8b",
+          "bytes": 91,
+          "fileOffset": 873008,
+          "sha256": "45efff9502d0a020d86174aa5192564c9ab6a34f4777e7ac1defd3d9b840a0f2"
+        }
+      ],
+      "sourceBatches": [
+        "r6-ailment-multiplier-inputs"
+      ],
+      "selectedDecompilationCompleted": null
+    },
     "0x1400d8060": {
       "boundary": "PE-unwind-root-and-chains",
       "ranges": [
@@ -4116,6 +4423,86 @@
       ],
       "selectedDecompilationCompleted": null
     },
+    "0x1400d8fd0": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1400d8fd0",
+          "endExclusive": "0x1400d902d",
+          "bytes": 93,
+          "fileOffset": 885712,
+          "sha256": "617ba505a0dc248e630b61ac00545b56e94102ca71be0b4f6cc1ce11fa18d9bb"
+        }
+      ],
+      "sourceBatches": [
+        "r6-hit-defender-modifiers"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x1400d9030": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1400d9030",
+          "endExclusive": "0x1400d908d",
+          "bytes": 93,
+          "fileOffset": 885808,
+          "sha256": "3354156bf2655981bd897f0176b6c9ae1460ad410023b06f01d7eee6b7c74bfe"
+        }
+      ],
+      "sourceBatches": [
+        "r6-hit-defender-modifiers"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x1400d9090": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1400d9090",
+          "endExclusive": "0x1400d90ed",
+          "bytes": 93,
+          "fileOffset": 885904,
+          "sha256": "377480a410dfec00b3a96b2b8293c4ee3e7163e731c44586011e677244e7b0a9"
+        }
+      ],
+      "sourceBatches": [
+        "r6-hit-defender-modifiers"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x1400d90f0": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1400d90f0",
+          "endExclusive": "0x1400d9145",
+          "bytes": 85,
+          "fileOffset": 886000,
+          "sha256": "8959167ee926d0b697090da663fab1f615855d2ab1e9a9faf0ff7192bc9ac98f"
+        }
+      ],
+      "sourceBatches": [
+        "r6-hit-defender-modifiers"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x1400d9150": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1400d9150",
+          "endExclusive": "0x1400d91b3",
+          "bytes": 99,
+          "fileOffset": 886096,
+          "sha256": "01881993d18854e7d7e59ce572c7410138903b08b8752f73353ed0374f43e2e5"
+        }
+      ],
+      "sourceBatches": [
+        "r6-hit-defender-modifiers"
+      ],
+      "selectedDecompilationCompleted": null
+    },
     "0x1400da230": {
       "boundary": "PE-unwind-root-and-chains",
       "ranges": [
@@ -4129,6 +4516,54 @@
       ],
       "sourceBatches": [
         "r2-route-guards"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x1400db0f0": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1400db0f0",
+          "endExclusive": "0x1400db143",
+          "bytes": 83,
+          "fileOffset": 894192,
+          "sha256": "8e5b43fd95da371d1005301627d082e635bb187ece8e9cb55c84a5125725686f"
+        }
+      ],
+      "sourceBatches": [
+        "r6-hit-defender-modifiers"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x1400db330": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1400db330",
+          "endExclusive": "0x1400db383",
+          "bytes": 83,
+          "fileOffset": 894768,
+          "sha256": "18e7ed35273dd4fd4a1cc95d0015904b1b228b785c5adf39d7f796734c87875f"
+        }
+      ],
+      "sourceBatches": [
+        "r6-ailment-multiplier-inputs"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x1400db390": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1400db390",
+          "endExclusive": "0x1400db3f3",
+          "bytes": 99,
+          "fileOffset": 894864,
+          "sha256": "42e4aa2ea75f02e63e9885d9828bdd6b9d3a2ffe483f75a8afc65f235aa797bc"
+        }
+      ],
+      "sourceBatches": [
+        "r6-ailment-multiplier-inputs"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -4430,6 +4865,7 @@
         "r2-rf-outgoing-area-v2",
         "r5-ailment-outgoing-helpers",
         "r5-critical-math-final",
+        "r6-critical-inputs",
         "source-and-authority"
       ],
       "selectedDecompilationCompleted": true
@@ -10585,7 +11021,8 @@
         "r2-rf-outgoing-inputs-v2",
         "r3-offence-scalar-helpers",
         "r3-offence-typed",
-        "r5-ailment-outgoing-helpers"
+        "r5-ailment-outgoing-helpers",
+        "r6-critical-inputs"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -16738,7 +17175,8 @@
         "r2-rf-outgoing-inputs-v2",
         "r3-offence-scalar-helpers",
         "r3-offence-typed",
-        "r5-ailment-outgoing-helpers"
+        "r5-ailment-outgoing-helpers",
+        "r6-critical-inputs"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -21676,7 +22114,8 @@
         }
       ],
       "sourceBatches": [
-        "r5-critical-formulas"
+        "r5-critical-formulas",
+        "r6-critical-inputs"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -21737,7 +22176,8 @@
         }
       ],
       "sourceBatches": [
-        "r5-critical-formulas"
+        "r5-critical-formulas",
+        "r6-critical-inputs"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -21767,7 +22207,8 @@
         }
       ],
       "sourceBatches": [
-        "r5-critical-formulas"
+        "r5-critical-formulas",
+        "r6-critical-inputs"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -21930,6 +22371,22 @@
       ],
       "sourceBatches": [
         "r5-critical-formulas"
+      ],
+      "selectedDecompilationCompleted": true
+    },
+    "0x14276c1a0": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x14276c1a0",
+          "endExclusive": "0x14276c28e",
+          "bytes": 238,
+          "fileOffset": 41334176,
+          "sha256": "05f860fdb6b7a9701c5a1be126d5fd045f60443e2d23c4035ea007a46007c13b"
+        }
+      ],
+      "sourceBatches": [
+        "r6-ailment-multiplier-inputs"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -22116,6 +22573,54 @@
       ],
       "sourceBatches": [
         "r5-ailment-outgoing-expansion"
+      ],
+      "selectedDecompilationCompleted": true
+    },
+    "0x142774170": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x142774170",
+          "endExclusive": "0x142774bac",
+          "bytes": 2620,
+          "fileOffset": 41366896,
+          "sha256": "144617481686d79cbe742b44a25dbbf8884dd6a0f9414587bb860021b914c6a2"
+        }
+      ],
+      "sourceBatches": [
+        "r6-ailment-multiplier-inputs"
+      ],
+      "selectedDecompilationCompleted": true
+    },
+    "0x142774bb0": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x142774bb0",
+          "endExclusive": "0x142774f70",
+          "bytes": 960,
+          "fileOffset": 41369520,
+          "sha256": "fb5d8c6fe147846040801097159900f488511f89c617ceb9908d94a795c17911"
+        }
+      ],
+      "sourceBatches": [
+        "r6-ailment-multiplier-inputs"
+      ],
+      "selectedDecompilationCompleted": true
+    },
+    "0x142774f70": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x142774f70",
+          "endExclusive": "0x142775b61",
+          "bytes": 3057,
+          "fileOffset": 41370480,
+          "sha256": "edb957b4b9414cb06f25e6ced976e4160431930ad33b1eed8211f342d352a86c"
+        }
+      ],
+      "sourceBatches": [
+        "r6-ailment-multiplier-inputs"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -22592,6 +23097,82 @@
       ],
       "selectedDecompilationCompleted": true
     },
+    "0x1427d0140": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1427d0140",
+          "endExclusive": "0x1427d0153",
+          "bytes": 19,
+          "fileOffset": 41743680,
+          "sha256": "ac6f608a76ba453fd904eba155e28ef0d3278df8dbfa1858fcadda0aa60361fe"
+        },
+        {
+          "start": "0x1427d0153",
+          "endExclusive": "0x1427d01be",
+          "bytes": 107,
+          "fileOffset": 41743699,
+          "sha256": "050595be75bd8de025f6f1812c60387eb7694a22007f0b0702eb1b759f0eadf3"
+        },
+        {
+          "start": "0x1427d01be",
+          "endExclusive": "0x1427d03ad",
+          "bytes": 495,
+          "fileOffset": 41743806,
+          "sha256": "835857d364f074249aca42b8d039908bbf29a2aced081d1f218db1bd4ed0d649"
+        },
+        {
+          "start": "0x1427d03ad",
+          "endExclusive": "0x1427d0865",
+          "bytes": 1208,
+          "fileOffset": 41744301,
+          "sha256": "1c3b999ba4fe07a70ccd6bfaee91a0fe8436031d4bc00fecd4840dd73e4063bc"
+        },
+        {
+          "start": "0x1427d0865",
+          "endExclusive": "0x1427d088c",
+          "bytes": 39,
+          "fileOffset": 41745509,
+          "sha256": "e2d8d0cdb3b8c81b300d53de84f5210a8d1c05a1a3c3024251045c918ff7d42f"
+        }
+      ],
+      "sourceBatches": [
+        "r6-hit-defender-modifiers"
+      ],
+      "selectedDecompilationCompleted": true
+    },
+    "0x1427d2480": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1427d2480",
+          "endExclusive": "0x1427d2981",
+          "bytes": 1281,
+          "fileOffset": 41752704,
+          "sha256": "c95649b3243b503e24277fb2777e4e7cf56ae243f265d85447b1930d085bec57"
+        }
+      ],
+      "sourceBatches": [
+        "r6-hit-defender-modifiers"
+      ],
+      "selectedDecompilationCompleted": true
+    },
+    "0x1427d3b90": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1427d3b90",
+          "endExclusive": "0x1427d3e55",
+          "bytes": 709,
+          "fileOffset": 41758608,
+          "sha256": "8cfbda2dbd619bc4903280d719d85aff0552c41629f2c5f43f10f43bbaf4ff7b"
+        }
+      ],
+      "sourceBatches": [
+        "r6-hit-defender-modifiers"
+      ],
+      "selectedDecompilationCompleted": true
+    },
     "0x1427d4bd0": {
       "boundary": "PE-unwind-root-and-chains",
       "ranges": [
@@ -22605,6 +23186,70 @@
       ],
       "sourceBatches": [
         "stat-and-formula-v2"
+      ],
+      "selectedDecompilationCompleted": true
+    },
+    "0x1427d54d0": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1427d54d0",
+          "endExclusive": "0x1427d5aec",
+          "bytes": 1564,
+          "fileOffset": 41765072,
+          "sha256": "75507e3882fc75496108aeb816cc22a848985b250f4bdac824f22d015aab4a81"
+        }
+      ],
+      "sourceBatches": [
+        "r6-hit-defender-modifiers"
+      ],
+      "selectedDecompilationCompleted": true
+    },
+    "0x1427d6c60": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1427d6c60",
+          "endExclusive": "0x1427d713f",
+          "bytes": 1247,
+          "fileOffset": 41771104,
+          "sha256": "ae1bcf3610ad1ac8599522a57d304d44e07446066a347b6f1bff3380ba94aa59"
+        }
+      ],
+      "sourceBatches": [
+        "r6-hit-defender-modifiers"
+      ],
+      "selectedDecompilationCompleted": true
+    },
+    "0x1427d7eb0": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1427d7eb0",
+          "endExclusive": "0x1427d813d",
+          "bytes": 653,
+          "fileOffset": 41775792,
+          "sha256": "68bc4c39de5d7bb02c897971f864bbbc6416809cb1e12818e92c24cf9e3fdc7f"
+        }
+      ],
+      "sourceBatches": [
+        "r6-hit-defender-modifiers"
+      ],
+      "selectedDecompilationCompleted": true
+    },
+    "0x1427d8e30": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1427d8e30",
+          "endExclusive": "0x1427d90bd",
+          "bytes": 653,
+          "fileOffset": 41779760,
+          "sha256": "29dce6e189add622153b0385a38afba539202f2a16865214e1068200c8b31cfe"
+        }
+      ],
+      "sourceBatches": [
+        "r6-hit-defender-modifiers"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -22687,6 +23332,102 @@
         "r2-typed-routes"
       ],
       "selectedDecompilationCompleted": true
+    },
+    "0x1427fac60": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1427fac60",
+          "endExclusive": "0x1427fb8c8",
+          "bytes": 3176,
+          "fileOffset": 41918560,
+          "sha256": "d75efeda0cf1775e970ec13314ad2acac871ea6fbb33e99d57801aa82e31331c"
+        }
+      ],
+      "sourceBatches": [
+        "r6-ailment-duration-formulas"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x1427fb8d0": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1427fb8d0",
+          "endExclusive": "0x1427fc1d1",
+          "bytes": 2305,
+          "fileOffset": 41921744,
+          "sha256": "2a46a6921012930b98bec080f0133b684ef3d852cbd52241e17b1dff205f04dc"
+        }
+      ],
+      "sourceBatches": [
+        "r6-ailment-duration-formulas"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x142805120": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x142805120",
+          "endExclusive": "0x142805d56",
+          "bytes": 3126,
+          "fileOffset": 41960736,
+          "sha256": "9b1662c2a64f09c174dea93e0d990e9af50366fc5c3d9febc7188a65e489ce27"
+        }
+      ],
+      "sourceBatches": [
+        "r6-ailment-duration-formulas"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x142805d60": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x142805d60",
+          "endExclusive": "0x14280623b",
+          "bytes": 1243,
+          "fileOffset": 41963872,
+          "sha256": "25f8ee369beb46dfff9c5d1a36f50f1472603dfbdb01bbde4a92fd72ae877c85"
+        }
+      ],
+      "sourceBatches": [
+        "r6-ailment-duration-formulas"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x142807490": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x142807490",
+          "endExclusive": "0x14280805b",
+          "bytes": 3019,
+          "fileOffset": 41969808,
+          "sha256": "89551a5902340ccaa226942a4fdc352da1450415a0365dd8bb0a7fb4fae7d334"
+        }
+      ],
+      "sourceBatches": [
+        "r6-ailment-duration-formulas"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x142808060": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x142808060",
+          "endExclusive": "0x142808781",
+          "bytes": 1825,
+          "fileOffset": 41972832,
+          "sha256": "8a25cc3b74a61377c4bddd0b014881cd7fbb6a232e35668a2eceaf31fd8a978d"
+        }
+      ],
+      "sourceBatches": [
+        "r6-ailment-duration-formulas"
+      ],
+      "selectedDecompilationCompleted": null
     },
     "0x14281b8e0": {
       "boundary": "PE-unwind-root-and-chains",
@@ -22858,6 +23599,22 @@
       ],
       "selectedDecompilationCompleted": true
     },
+    "0x142856610": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x142856610",
+          "endExclusive": "0x142856bad",
+          "bytes": 1437,
+          "fileOffset": 42293776,
+          "sha256": "6b8de36414aff6a2e28429f54294183c3e472bb10e3f01e36b42f554b430a360"
+        }
+      ],
+      "sourceBatches": [
+        "r6-ailment-multiplier-inputs"
+      ],
+      "selectedDecompilationCompleted": true
+    },
     "0x142872b60": {
       "boundary": "PE-unwind-root-and-chains",
       "ranges": [
@@ -22890,6 +23647,114 @@
       ],
       "selectedDecompilationCompleted": null
     },
+    "0x14287ae20": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x14287ae20",
+          "endExclusive": "0x14287ae6c",
+          "bytes": 76,
+          "fileOffset": 42443296,
+          "sha256": "83b48548a6f25c68c7c6c23d550ea40681a8ee8d791b3447906774f0f2bcdbab"
+        }
+      ],
+      "sourceBatches": [
+        "r6-hit-defender-modifiers"
+      ],
+      "selectedDecompilationCompleted": true
+    },
+    "0x14287ae70": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x14287ae70",
+          "endExclusive": "0x14287b057",
+          "bytes": 487,
+          "fileOffset": 42443376,
+          "sha256": "81c8f8da479894414c8699cd18a721b6dfea04a683d95c46de4996c11ee89dc9"
+        },
+        {
+          "start": "0x14287b057",
+          "endExclusive": "0x14287b21f",
+          "bytes": 456,
+          "fileOffset": 42443863,
+          "sha256": "7f2b0f57fa64a02d02f9d3800ce3c2637f2f68353c831f4648d4a4e6b2cea7b9"
+        },
+        {
+          "start": "0x14287b21f",
+          "endExclusive": "0x14287b246",
+          "bytes": 39,
+          "fileOffset": 42444319,
+          "sha256": "9535625041a94adf99d5ce52575921fdae4732f769d4fdb86f8f69e1d5533078"
+        }
+      ],
+      "sourceBatches": [
+        "r6-hit-defender-modifiers"
+      ],
+      "selectedDecompilationCompleted": true
+    },
+    "0x14287b250": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x14287b250",
+          "endExclusive": "0x14287b437",
+          "bytes": 487,
+          "fileOffset": 42444368,
+          "sha256": "08d476ba3e6db5f3d1f77d7c0ae0441fdfb3f50d527c2c1ae6c3056ff95c207d"
+        },
+        {
+          "start": "0x14287b437",
+          "endExclusive": "0x14287b5ff",
+          "bytes": 456,
+          "fileOffset": 42444855,
+          "sha256": "3522a05e61a1d0107bdc695ffd3fedb27a626bbfb1c8050e42220b1c10f6ed62"
+        },
+        {
+          "start": "0x14287b5ff",
+          "endExclusive": "0x14287b626",
+          "bytes": 39,
+          "fileOffset": 42445311,
+          "sha256": "9535625041a94adf99d5ce52575921fdae4732f769d4fdb86f8f69e1d5533078"
+        }
+      ],
+      "sourceBatches": [
+        "r6-hit-defender-modifiers"
+      ],
+      "selectedDecompilationCompleted": true
+    },
+    "0x14287b630": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x14287b630",
+          "endExclusive": "0x14287b835",
+          "bytes": 517,
+          "fileOffset": 42445360,
+          "sha256": "cd87333a0c52977c259bbd547303ba5d236afba4b71e896a686f0dcac5df37f7"
+        }
+      ],
+      "sourceBatches": [
+        "r6-hit-defender-modifiers"
+      ],
+      "selectedDecompilationCompleted": true
+    },
+    "0x14287b840": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x14287b840",
+          "endExclusive": "0x14287bcf7",
+          "bytes": 1207,
+          "fileOffset": 42445888,
+          "sha256": "2fcd6ff4c897ba47f9b91a5b42798221838850fec93dd13624ca04774dbd36c7"
+        }
+      ],
+      "sourceBatches": [
+        "r6-hit-defender-modifiers"
+      ],
+      "selectedDecompilationCompleted": true
+    },
     "0x1428837b0": {
       "boundary": "PE-unwind-root-and-chains",
       "ranges": [
@@ -22903,6 +23768,54 @@
       ],
       "sourceBatches": [
         "r2-route-guards"
+      ],
+      "selectedDecompilationCompleted": true
+    },
+    "0x14288e640": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x14288e640",
+          "endExclusive": "0x14288e8a8",
+          "bytes": 616,
+          "fileOffset": 42523200,
+          "sha256": "d55449a74f7bbfd67e149226861508b65c9fc25a02b1b0bb53b00c975634df4e"
+        }
+      ],
+      "sourceBatches": [
+        "r6-hit-defender-modifiers"
+      ],
+      "selectedDecompilationCompleted": true
+    },
+    "0x14288f2f0": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x14288f2f0",
+          "endExclusive": "0x14288f6c4",
+          "bytes": 980,
+          "fileOffset": 42526448,
+          "sha256": "be7b553641208b08da2f59394c500a97bc020afe585c94d56ef1082520935b6e"
+        }
+      ],
+      "sourceBatches": [
+        "r6-ailment-multiplier-inputs"
+      ],
+      "selectedDecompilationCompleted": true
+    },
+    "0x14288f6d0": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x14288f6d0",
+          "endExclusive": "0x14288fc4f",
+          "bytes": 1407,
+          "fileOffset": 42527440,
+          "sha256": "ad7a75ec6ce73d31d81129e41d72520d9dcfae3eef9ca888f4dd27f5bb592b9b"
+        }
+      ],
+      "sourceBatches": [
+        "r6-ailment-multiplier-inputs"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -22970,6 +23883,36 @@
       ],
       "selectedDecompilationCompleted": true
     },
+    "0x1428e7330": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1428e7330",
+          "endExclusive": "0x1428e734e",
+          "bytes": 30,
+          "fileOffset": 42886960,
+          "sha256": "af35e72cfcdc52645bd0d42b797208d1ed373b2312fe51b187c71231d15e54d7"
+        },
+        {
+          "start": "0x1428e734e",
+          "endExclusive": "0x1428e737f",
+          "bytes": 49,
+          "fileOffset": 42886990,
+          "sha256": "351ee0b11d0068bbda9b17081ccea25eb56248afca83dad5e43ecc7b76f749f0"
+        },
+        {
+          "start": "0x1428e737f",
+          "endExclusive": "0x1428e7397",
+          "bytes": 24,
+          "fileOffset": 42887039,
+          "sha256": "94b0373daec0999eec57aa215d3af2f376f9e789283059144e8be43527be14da"
+        }
+      ],
+      "sourceBatches": [
+        "r6-critical-inputs"
+      ],
+      "selectedDecompilationCompleted": null
+    },
     "0x1428e73a0": {
       "boundary": "PE-unwind-root-and-chains",
       "ranges": [
@@ -22982,7 +23925,8 @@
         }
       ],
       "sourceBatches": [
-        "r5-critical-math-final"
+        "r5-critical-math-final",
+        "r6-critical-inputs"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -24067,6 +25011,26 @@
       "name": "r5-fireball-final-crosscheck",
       "auditSha256": "0952bdabf5463c0e54fd2f2258cb51ea4d2c125ee3c5bfe7140f5a36e926845d",
       "functionCount": 2
+    },
+    {
+      "name": "r6-ailment-duration-formulas",
+      "auditSha256": "1cd97875cabc79cc29386152c3cfa29464d4224dd4c372fab81523059727f9ed",
+      "functionCount": 12
+    },
+    {
+      "name": "r6-ailment-multiplier-inputs",
+      "auditSha256": "cb7186f20bbaad1c57b469d33cb869eb65b6f2c8b9bf37ef9c05b1f9bbb782cb",
+      "functionCount": 15
+    },
+    {
+      "name": "r6-critical-inputs",
+      "auditSha256": "e216446427408cff0546100e53d4626bb44189d41ccdeed45f2464088b022722",
+      "functionCount": 11
+    },
+    {
+      "name": "r6-hit-defender-modifiers",
+      "auditSha256": "5927e2fe563e76b5be6908591458e16920c9f7be1609e3f7c3768ace8ddc51cc",
+      "functionCount": 26
     },
     {
       "name": "source-and-authority",
@@ -25665,11 +26629,11 @@
     }
   ],
   "verification": {
-    "entryCount": 1170,
-    "originalByteRangeCount": 1733,
+    "entryCount": 1224,
+    "originalByteRangeCount": 1797,
     "historicalBoundedThunkEntries": 4,
     "pointerSlotCount": 189,
-    "selectedDecompilationRecords": 562,
+    "selectedDecompilationRecords": 584,
     "checkedReferenceInstructions": 13431,
     "decompilationFailures": [],
     "scope": "Original ranges/offsets, unwind ownership or explicit boundaries, stat identity, reference instructions and pointer-slot contents revalidated offline."
@@ -25826,14 +26790,221 @@
     },
     {
       "path": "Agents/docs/re/client-ailment-outgoing-formulas.md",
-      "bytes": 16581,
-      "sha256": "c2370f0b41311135328e0c3a7d0dba2bf22c67be897b342958768c0a9bba4d8b",
+      "bytes": 17102,
+      "sha256": "bb6bbc0c06571fbf5c4bd3793079fd1ee82504fe304454dc8c5abf880289cd31",
       "role": "Outgoing ailment formula original-byte/typed-export support; ignored generated evidence"
     },
     {
       "path": "Tools/re/out/client-damage-audit/r5-ailment-outgoing-verification.json",
-      "sha256": "7924bcdd8b775e64822d688d034afbd13ad63cf19559eff9337159d881bf8b8e",
+      "sha256": "f81843f89b8190ee7791a07f73f519e1b44ba385ec24ddbd34a8b14685c3574f",
       "role": "Outgoing bleed/ignite/poison rates, faster/slower and critical multiplier verification"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r6-critical-inputs-verify.json",
+      "sha256": "b2d9179b07c43507c0ebb98293ef5d23d34261c53b092c5117124246e11f7074",
+      "role": "R6 selected critical inputs, hit defender composition or ailment multiplier verification"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r6-hit-defender-modifiers/audit.json",
+      "bytes": 436732,
+      "sha256": "5927e2fe563e76b5be6908591458e16920c9f7be1609e3f7c3768ace8ddc51cc",
+      "role": "R6 formula input/condition/typed-export supporting record; ignored evidence"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r6-hit-defender-modifiers/targets.json",
+      "bytes": 13157,
+      "sha256": "f9cd3f053653da7dedc2f681f0ec7ef6d1ac1798fda33ab1257be31ff4e1708e",
+      "role": "R6 formula input/condition/typed-export supporting record; ignored evidence"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r6-hit-defender-modifiers/mapping.json",
+      "bytes": 1972,
+      "sha256": "5d59f66a7462b89f8647781c011c5d39d3ea31bb68898300ae02c8126d4c94d1",
+      "role": "R6 formula input/condition/typed-export supporting record; ignored evidence"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r6-hit-defender-modifiers/dependencies.json",
+      "bytes": 12067,
+      "sha256": "62a6736114cb574cdd182880ea9bfbccce5218b43601be5bdb9412397eeaf1f3",
+      "role": "R6 formula input/condition/typed-export supporting record; ignored evidence"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r6-hit-defender-modifiers/typed-targets.json",
+      "bytes": 31098,
+      "sha256": "e2f2a228f16e3ed65ae3c1b412ad1a7d8cf50d4bb12b8bb5c11fb7e2dea1bb26",
+      "role": "R6 formula input/condition/typed-export supporting record; ignored evidence"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r6-hit-defender-modifiers/typed-decompilations.jsonl",
+      "bytes": 68109,
+      "sha256": "630029f62eeacc423d08a41e0004f5f433af44b78fac808931a6ee358ddefd7a",
+      "role": "R6 formula input/condition/typed-export supporting record; ignored evidence"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/R6DefenderFunctions.java",
+      "bytes": 5991,
+      "sha256": "7f3e93017b6ad9f5512bd2843bb6677e869782cca85bdd5792d49f4ee50f3569",
+      "role": "R6 formula input/condition/typed-export supporting record; ignored evidence"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r5-ailment-regdeps.py",
+      "bytes": 2746,
+      "sha256": "59e289a45f5f9cca076a4caf662d6df808a93befb92ffdaee8a09d16019c9a5a",
+      "role": "R6 formula input/condition/typed-export supporting record; ignored evidence"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r6-hit-defender-modifiers-verify.py",
+      "bytes": 5358,
+      "sha256": "f74c7c67a562a38a15c202989db560f157906258493bcffec20a5bdc969b4776",
+      "role": "R6 formula input/condition/typed-export supporting record; ignored evidence"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r2-registration-discovery/mapping.json",
+      "bytes": 381538,
+      "sha256": "e1b82e325124650089e86388d3f78b2e89dee5754750b85faec0a8071dd80f1e",
+      "role": "R6 formula input/condition/typed-export supporting record; ignored evidence"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r6-hit-defender-modifiers-verification.json",
+      "sha256": "dd3aa90a6f4f20161a242b2c2755b001bbbd27652af6e476e4653283889f1084",
+      "role": "R6 selected critical inputs, hit defender composition or ailment multiplier verification"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r6-ailment-multiplier-inputs/mapping.json",
+      "bytes": 1194,
+      "sha256": "f4e3d01381e50198377a2101c0eae9958cab9991e9b31e7ed866bcecd065ef32",
+      "role": "R6 formula input/condition/typed-export supporting record; ignored evidence"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r6-ailment-multiplier-inputs/dependencies.json",
+      "bytes": 8543,
+      "sha256": "7f10751d2e222fa092d4437a9eaebc361b0d0b493d99ea6506d24212b52d0c5b",
+      "role": "R6 formula input/condition/typed-export supporting record; ignored evidence"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r6-ailment-multiplier-inputs/targets.json",
+      "bytes": 6578,
+      "sha256": "89bfbcf129705b069831eaa7749e2993354f413d1a5fbe933d46d85e1f7a6d81",
+      "role": "R6 formula input/condition/typed-export supporting record; ignored evidence"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r6-ailment-multiplier-inputs/decompilations.jsonl",
+      "bytes": 63255,
+      "sha256": "5c2a037a45dee293fea45636020005cca73b16eba15b470b0a12c35274849c6e",
+      "role": "R6 formula input/condition/typed-export supporting record; ignored evidence"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r6-ailment-multiplier-inputs/semantic-anchors.json",
+      "bytes": 1608,
+      "sha256": "5310e9993aecb141a30947a7cd40cc69c44b1b323cb4557cd3430d68946146b0",
+      "role": "R6 formula input/condition/typed-export supporting record; ignored evidence"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r6-ailment-multiplier-inputs-verification.json",
+      "sha256": "9db5466c55b0954eb6c10a5d5810b0e8839eec37bb6afbe76ecd47a0a15c5e35",
+      "role": "R6 selected critical inputs, hit defender composition or ailment multiplier verification"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r6-dot-instance-rules/wiki-ledger.json",
+      "bytes": 9337,
+      "sha256": "b28a1ae23a804a3181b52a1e944fbae57ae7c501b5e6ef0004ad62fca6f2e08b",
+      "role": "Versioned DoT-instance source ledger/primary response; static/native and external evidence distinguished"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r6-dot-instance-rules/wiki-more-ledger.json",
+      "bytes": 4098,
+      "sha256": "0bc51c6278c2e66077a24da36bf0d2176baff9c1e15042a0bd818bc863181308",
+      "role": "Versioned DoT-instance source ledger/primary response; static/native and external evidence distinguished"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r6-dot-instance-rules/wiki-full-responses.jsonl",
+      "bytes": 249586,
+      "sha256": "d275a860d9ebbb3a1d7e7fa810158968427760bf886a14dfb20d013423226740",
+      "role": "Versioned DoT-instance source ledger/primary response; static/native and external evidence distinguished"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r6-dot-instance-rules/wiki-more-responses.jsonl",
+      "bytes": 47045,
+      "sha256": "3c767839bf7a2a54ce03467bbacf4db2158f82c1602a1d024c36c18932a77f7e",
+      "role": "Versioned DoT-instance source ledger/primary response; static/native and external evidence distinguished"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r6-dot-instance-rules/r6-web-2.json",
+      "bytes": 26722,
+      "sha256": "95a2d357e9c66765ef0b4594a2ac8978b1f2c7b6f01a00c52be3c8f5c4b2bf34",
+      "role": "Versioned DoT-instance source ledger/primary response; static/native and external evidence distinguished"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r6-dot-instance-rules/r6-web-3.json",
+      "bytes": 28208,
+      "sha256": "7d0e9116d0b7b651c2ac7d5a61df645453a25289ac66536698672aaeb7fc0960",
+      "role": "Versioned DoT-instance source ledger/primary response; static/native and external evidence distinguished"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r6-dot-instance-rules/r6-web-4.json",
+      "bytes": 30145,
+      "sha256": "b77410e32749b0cc3513cbd4027f45f7deefcf7f12d4c71c7f07e201aae3f375",
+      "role": "Versioned DoT-instance source ledger/primary response; static/native and external evidence distinguished"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r6-dot-instance-rules/r6-web-5.json",
+      "bytes": 21108,
+      "sha256": "e4e948bf73d508f1e05b0639057ffe1ea60c2cae530e4759120366b0d52421f2",
+      "role": "Versioned DoT-instance source ledger/primary response; static/native and external evidence distinguished"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r6-dot-instance-rules/r6-web-6.json",
+      "bytes": 31294,
+      "sha256": "c78cd46aa40f175cbe1e00b7bdfcbc6652914865eee5de5e3bf4ccdb3604f8cc",
+      "role": "Versioned DoT-instance source ledger/primary response; static/native and external evidence distinguished"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r6-dot-instance-rules/r6-web-7.json",
+      "bytes": 11815,
+      "sha256": "0c712b08df9df6cfd67a92025de53c5d519466602a3358e10893fb2c1dfd9d2a",
+      "role": "Versioned DoT-instance source ledger/primary response; static/native and external evidence distinguished"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r6-dot-instance-rules/r6-web-8.json",
+      "bytes": 10701,
+      "sha256": "660e12d7cc5c081ac6788af94950f21d3014d406d0cd6d766864dae0fb0d4496",
+      "role": "Versioned DoT-instance source ledger/primary response; static/native and external evidence distinguished"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r6-dot-instance-rules/official-fetches.json",
+      "bytes": 783,
+      "sha256": "4eed9891caa850c4167bb0c3405aa862cf9081ecf2b8c0e5158b4a30900c7f99",
+      "role": "Versioned DoT-instance source ledger/primary response; static/native and external evidence distinguished"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r6-dot-instance-rules/evidence-manifest.json",
+      "bytes": 1148,
+      "sha256": "0aaa823826a6d26144cbe18086111a4f52c02c45703142af0042fc019c8fe0ff",
+      "role": "DoT-instance duration/formula and versioned source verification; numeric publisher remains partial"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r6-dot-instance-rules/verification.json",
+      "bytes": 6122,
+      "sha256": "21fba6cbada579f8ea7a01db5bc9d6dec94443275ccb85875eca3c4639603073",
+      "role": "DoT-instance duration/formula and versioned source verification; numeric publisher remains partial"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r6-dot-instance-rules-verify.py",
+      "bytes": 12589,
+      "sha256": "605f23687576f759594537b758883053e903fd523ade697f8cbcfd6bad84ceca",
+      "role": "R6 original-byte/source-record verification script; ignored local evidence"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r6-critical-inputs-verify.py",
+      "bytes": 13514,
+      "sha256": "1e798325bf2256f04691c76493f693c5ebde72e52576285a2e68e167185a595c",
+      "role": "R6 original-byte/source-record verification script; ignored local evidence"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r6-ailment-multiplier-inputs-verify.py",
+      "bytes": 8017,
+      "sha256": "992c5bc0bb806d127f03d611dd26915dc53a676828fe3a85ba4d9ee0755182fb",
+      "role": "R6 original-byte/source-record verification script; ignored local evidence"
     },
     {
       "path": "Tools/re/out/client-damage-audit/r3-offence-verification.json",

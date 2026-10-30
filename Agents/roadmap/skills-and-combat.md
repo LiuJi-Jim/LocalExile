@@ -118,9 +118,12 @@ The suspend/restore lifecycle is explicit LocalExile policy; see protocol/11-ski
   Network Actor/skill input freshness and the distinct native transaction/startup boundary are established.
   Typed routing, cap/overflow boundaries, mode-dependent ticks and absolute assignment have static evidence.
   Outgoing RF parameters and 14408/8198/5981 formulas are bound separately from incoming base rates.
-  Resolve source instances into base rates, their expiry/snapshot rules and actual publication eligibility.
+  Resolve source instances into base rates and actual publication eligibility.
+  Reuse versioned source-sampling/target-dynamic rules and native duration/faster compensation.
+  Existing owner-stat-to-clock subscriptions and source-rate expiry publication remain separate open edges.
   Reuse recovered outgoing ailment coefficients, faster/slower and critical-multiplier branches.
-  Complete missing typed/offhand/max ailment outputs and chance builders only where needed for the common model.
+  Reuse complete MH/OH/spell chance builders and the selected defender modifier composition.
+  Complete missing typed/offhand/max ailment outputs only where needed for the common model.
   Keep effective critical probability distinct from per-event trials, confirmation and defender critical modifiers.
   Aura source metadata and versioned stack rules constrain authority without supplying the native rate publisher.
   Concrete Fireball/Melee contact and avoidance decisions are bound separately from panel formulas and feedback.

@@ -726,7 +726,14 @@ and can require explicit recipes.
   Selected outgoing ailments independently scale base/added/history: bleed 42, ignite 54, poison 18 per minute.
   Faster/slower and critical ailment multipliers have separate rounding and Perfect Agony replacement branches.
   Effective attack critical probability includes lucky/unlucky, extreme and unexciting branches; it is not a roll.
-  Critical Link override, the 300% multiplier replacement and 100% floor are bound; chance builders remain partial.
+  Critical Link override, the 300% multiplier replacement and 100% floor are bound.
+  Complete MH/OH/spell chance builders preserve hand-specific overrides, weapon tables and float32 operation order.
+  Shared/typed hit-taken final factors, additive elemental input and resistance-ignore predicates are recovered.
+  Enemy-critical increased input has a component-only cap; actual joint hit-resolver application remains open.
+  Virtual faster and combined ailment multiplier inputs preserve attack/weapon/aura/charge qualifications.
+  Native final ailment-duration formulas reciprocate faster factors, separately from expiration-speed clocks.
+  Versioned GGG examples identify applied source rate/duration, dynamic target response and maintained-aura exceptions.
+  Official explanations use relevant events for stat/time-scale updates, with per-frame timer advancement.
   Five Aura source APIs are server-mode metadata, ineligible in ordinary client GEAL compilation.
   Versioned selection rules include aggravated bleed's independent normal/extra selection; native publisher stays open.
   Fireball client factories overwrite the base action table; inherited gates survive, clone/terminal slots differ.

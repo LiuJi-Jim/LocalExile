@@ -181,6 +181,10 @@ These are client addresses; their presence is not proof of official-server imple
 | `0x141f793f0` / `0x1416a10f0` | Fn | [Ruin count consumer](../re/client-entity-task-ruin-listener.md): four-definition quantity aggregation and count effect/audio maintenance |
 | `0x14262d7d0` / `0x142659f80` / `0x1426a0ed0` | Fn | [Outgoing ailment rates](../re/client-ailment-outgoing-formulas.md): MH physical bleed, MH fire ignite and physical-source poison |
 | `0x14275c050` / `0x14275c6a0` / `0x14276b920` | Fn | [Critical formulas](../re/client-critical-formulas.md): effective MH/OH probability and main-hand damage multiplier |
+| `0x142754c20` / `0x142756810` / `0x142758320` | Fn | [Complete critical inputs](../re/client-critical-inputs.md): MH/OH/spell base, increased/final, overrides and numeric order |
+| `0x1427d0140` / `0x1427d2480` / `0x14287ae20` | Fn | [Hit defender modifiers](../re/client-hit-defender-modifiers.md): shared/physical final and elemental-ignore predicate; not actual-hit amount calculation |
+| `0x142856610` / `0x14288f2f0` / `0x14288f6d0` | Fn | [Virtual ailment faster inputs](../re/client-ailment-multiplier-inputs.md): ignite/poison/bleed qualifications and additive inputs |
+| `0x142774170` / `0x142774bb0` / `0x142774f70` | Fn | [Combined ailment multipliers](../re/client-ailment-multiplier-inputs.md): bleed/ignite/poison integer sums and conditional scopes |
 | `0x141ed636f` / `0x141df96db` | Code | [Aura source authority](../re/client-dot-source-authority.md): mode-2 registration and metadata compiler eligibility branch |
 | `0x14128dadb` / `0x1413dfc9f` | Code | [Fireball final-factory correction](../re/client-hit-production.md#concrete-action-binding): client factory/copy overwrite the base primary table |
 | `0x141e6a190` | Fn | Life tick; conditional Life/ES/Mana continuous integration |

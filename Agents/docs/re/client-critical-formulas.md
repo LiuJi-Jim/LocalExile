@@ -34,10 +34,10 @@ registration from a nearby input read or an incidental occurrence of its key.
 
 | Native key / output | Registration | Callback | Coverage |
 |---|---|---|---|
-| 15066 `intermediary_main_hand_critical_strike_chance` | `0x1400bca40` | `0x142754c20` | Input builder partially mapped |
+| 15066 `intermediary_main_hand_critical_strike_chance` | `0x1400bca40` | `0x142754c20` | [Complete input builder](client-critical-inputs.md) |
 | 552 `main_hand_critical_strike_chance` | `0x1400bcb60` | `0x142756600` | Override wrapper closed |
-| 553 `off_hand_critical_strike_chance` | `0x1400bcbc0` | `0x142756810` | Input builder partially mapped |
-| 554 `spell_critical_strike_chance` | `0x1400bccf0` | `0x142758320` | Input builder partially mapped |
+| 553 `off_hand_critical_strike_chance` | `0x1400bcbc0` | `0x142756810` | [Complete input builder](client-critical-inputs.md) |
+| 554 `spell_critical_strike_chance` | `0x1400bccf0` | `0x142758320` | [Complete input builder](client-critical-inputs.md) |
 | 23239 `main_hand_effective_total_chance_permyriad_for_hit_to_be_critical` | `0x1400bcfe0` | `0x14275c050` | Formula closed |
 | 23240 `off_hand_effective_total_chance_permyriad_for_hit_to_be_critical` | `0x1400bd050` | `0x14275c6a0` | Formula closed |
 | 610 `main_hand_critical_strike_multiplier` | `0x1400be840` | `0x14276b920` | Formula closed |
@@ -199,15 +199,15 @@ the signedness statement is specifically about this call's input conversion.
 
 ## 6. Boundaries left for later research
 
-The large chance builders 15066, 553 and 554 have original-byte exports and registered outputs,
-but their complete conditional input algebra is not claimed closed here. Identified reads include
-weapon/base-spell chance, power charges, added base chance, combined increased/final modifiers,
-conditional added chance and maximum chance. The intermediary and spell tails call the unsigned
-percentage helper above. A list of reads is not a complete formula and must not be presented as one.
+The complete conditional algebra of chance builders 15066, 553 and 554 is now recovered in
+[the input-builder supplement](client-critical-inputs.md), including hand-specific overrides,
+weapon tables, integer divisions, signed/unsigned percent conversion and final float32 order.
+That closes the selected callbacks; it does not recursively close every input-stat producer.
 
-For server work, the immediate reusable pieces are the effective-probability transformation,
-main-hand override, multiplier override/floor, their units and rounding, and the distinction between
-calculated stats and per-event outcome. Input-builder composition, actual random trials, hit
-confirmation, enemy-side critical modifiers and downstream ailment effects remain separate work.
+For server work, reusable pieces include those input builders, effective-probability transformation,
+main-hand override, multiplier override/floor, units and rounding. Actual random trials, hit
+confirmation, concrete application of enemy-side critical modifiers and downstream ailment effects
+remain separate work. [Defender modifier composition](client-hit-defender-modifiers.md) recovers
+selected target-side stat formulas without claiming their per-event application.
 No claim here changes the established network-provider contract or makes the client authoritative
 over the server's final resource deduction.

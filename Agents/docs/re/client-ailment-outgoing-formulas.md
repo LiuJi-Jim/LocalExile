@@ -257,7 +257,8 @@ inflict a noncritical ailment under that keystone. Infliction qualification is a
 `10338/10339/10340` are the combined all-DoT multipliers for bleed/ignite/poison;
 `10333/10335` are combined MH/spell critical ailment multipliers;
 `10441/10442` are critical ignite/poison multipliers; `13844` is MH bleeding and `14121` is
-MH local poison DoT multiplier. Their further upstream construction is not closed here.
+MH local poison DoT multiplier. [Selected upstream combined multipliers and virtual faster inputs](client-ailment-multiplier-inputs.md)
+are now recovered separately; generic/typed multiplier production remains its own contract.
 
 ## 7. Consequences and remaining work
 
@@ -276,7 +277,8 @@ minute stat names alone.
 Follow-ups remain bounded and explicit:
 
 - Expand maximum/offhand, critical bleeding, and the other typed eligibility callbacks.
-- Expand combined DoT/critical multipliers and virtual faster producers when needed.
+- Reuse the [combined ailment multipliers and virtual faster producers](client-ailment-multiplier-inputs.md);
+  expand remaining generic/typed multiplier production when needed.
 - Trace lifetime, instance snapshot/update policy, duration clocks, and stack selection separately.
 - Connect outgoing rates to target mitigation, effective-rate aggregation/cap, and resource pools.
 
