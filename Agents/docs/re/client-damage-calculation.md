@@ -62,9 +62,11 @@ Detailed supplements keep the evidence reviewable without treating this summary 
 - [Stat objects, inputs, notifications and startup guards](client-stat-evaluation.md).
 - [Typed DoT formulas, resource routes and arithmetic boundaries](client-dot-routing.md).
 - [Complete incoming fire self-rate composition, signed64 percentages and state gates](client-fire-self-rate.md).
+- [Complete incoming physical/chaos self-rates, transfer gates and arithmetic order](client-physical-chaos-self-rates.md).
 - [Buff insertion clocks, network updates and dynamic-refresh boundaries](client-buff-clock-updates.md).
 - [Three concrete Buff backend Stats subscribers and their state/presentation consequences](client-buff-stats-subscriptions.md).
 - [Buff clock eligibility inputs, serialization defaults and update asymmetry](client-buff-clock-input-provenance.md).
+- [Empty-Id2 Buff backend lookup, startup catalogue and base lifecycle boundaries](client-buff-default-backend.md).
 - [Life-to-Buffs advancement guard and concrete producers](client-buff-clock-producers.md).
 - [Existing Buff network clock receiver, omitted-speed default and selected backend consequences](client-buff-network-clock-contract.md).
 - [Named RF source template and unresolved active publication](client-dot-source-publication.md).
@@ -77,6 +79,7 @@ Detailed supplements keep the evidence reviewable without treating this summary 
 - [Complete main-hand, off-hand and spell critical-chance input builders](client-critical-inputs.md).
 - [Shared/typed hit-taken modifiers, ignore predicates and enemy-critical input composition](client-hit-defender-modifiers.md).
 - [Defender-conditional damage context presence predicate and unresolved numerical consumer](client-defender-context-presence.md).
+- [ApplyDamageFunctions metadata reader and active-index maintenance, separate from hit execution](client-applydamage-stat-index.md).
 - [Virtual ailment faster inputs and combined ailment DoT multipliers](client-ailment-multiplier-inputs.md).
 - [Common, typed, ailment and non-ailment DoT multiplier input families](client-dot-multiplier-inputs.md).
 - [Selected effect-source inheritance, fields, scripts and mode distinctions](client-effect-source-catalogue.md).
@@ -155,6 +158,11 @@ flowchart TD
   CLOCKGUARD --> CLOCK[Definition-gated duration / backend tick skip]
   BUFFNET[S→C 0x1c1 existing Buff update] --> BUFFCLOCK[Copy remaining duration / speed; omitted speed = 1]
   BUFFCLOCK --> CLOCK
+  BUFFDEF[Ignited / poison definition: empty Id2] --> BUFFNULL[Selected bootstrap lookup miss: null backend]
+  BUFFNULL --> BASEEVENT[Base lifecycle still notifies observers and scripts]
+  BASEEVENT -. numerical publication unresolved .-> RAW
+  STATVALUE[Eligible native stat contribution / formula publication] --> APPLYINDEX[Flagged Stats to sorted ApplyDamageFunctions indices]
+  APPLYINDEX -. function execution not recovered .-> EFFECTS
   REFDAMAGE[Character-sheet / monster reference damage] --> DEFEST[Estimated physical reduction: armour or Ward]
   DEFEST --> CATEGORY[Bound value-to-category reader]
   EVENT -. full script and callable consequences unresolved .-> EFFECTS[Context-dependent effects]
@@ -269,6 +277,8 @@ The word "minute" describes the numeric unit, not a rolling or resettable damage
 | 2022 `fire_damage_taken_per_minute` | `0x1426cce60` | Forwards 2023 `base_fire_damage_taken_per_minute` |
 | 1864 `physical_damage_taken_per_minute` | `0x1426cc060` | Base physical rate plus a per-talisman-stack contribution |
 | 352 `chaos_damage_taken_per_minute` | `0x1426cf780` | Base chaos rate plus a per-viper-orb contribution |
+| 8179 `physical_damage_taken_per_minute_unaffected_by_level_scaling` | `0x1426cc330` | [Complete Life/ES, bleeding/Rupture and siphoning composition, with a post-saturation raw tail](client-physical-chaos-self-rates.md) |
+| 8183 `chaos_damage_taken_per_minute_unaffected_by_level_scaling` | `0x1426cfa50` | [Complete Life/frenzy, self, flask, converted bleeding/ignite and poison composition](client-physical-chaos-self-rates.md) |
 | 9563 `total_base_damage_per_minute_taken_as_physical` | `0x1426d3820` | Typed taken-as inputs, before physical mitigation |
 | 9564 `total_base_damage_per_minute_taken_as_fire` | `0x1426d40f0` | Remaining fire plus physical/cold/lightning/chaos taken as fire |
 | 3355 `total_physical_damage_taken_per_minute` | `0x1426d9550` | Physical reduction, taken modifiers, immunity/prohibition |
@@ -596,6 +606,7 @@ damage-bearing paths. Keep missing source eligibility/selection, formulas and sy
 | R1 | Absolute pool update path | Established | Preserve decoded-field vs wire-offset distinction |
 | R2 | Typed DoT formulas through mitigation | Established locally | All five types and nonlethal branches audited; [asymmetries](client-dot-routing.md) remain explicit |
 | R2 | Fire self-rate composition | Established for output 8180 | [Complete signed64 percentage, Her Embrace, Touch of Fire, ignite-transfer and difficulty branches](client-fire-self-rate.md); actual source-instance input publication stays open |
+| R2 | Physical/chaos self-rate composition | Established for outputs 8179/8183 | [Complete 11/13-input equations, complementary bleeding/ignite transfer, float32 order and signed32 boundaries](client-physical-chaos-self-rates.md); actual source-instance input publication stays open |
 | R2 | Source instance → base per-minute rate | Open | [Named RF template](client-dot-source-publication.md) declares native 2023 magnitude; active instance/target publisher and selection/aggregation remain unbound |
 | R2/R4 | Concrete Buff backend Stats subscribers | Established for three selected backends | [AvatarOfFireCycleBuff, ArchnemesisModBuff and TetheredDebuff](client-buff-stats-subscriptions.md) bind real provider notifications to backend cache/visual/Render outputs; existing-instance clock refresh remains open |
 | R2 | Outgoing RF parameter/formula chain | Established locally | Native stat-set constants and FireDot eligibility feed 14408 → 8198 → 5981; [details](client-dot-routing.md#outgoing-righteous-fire-formula-bridge); target application remains open |
@@ -608,11 +619,13 @@ damage-bearing paths. Keep missing source eligibility/selection, formulas and sy
 | R2 | Typed resource routes and cap boundaries | Established locally | Eight typed/nonlethal/darkness channels, healing/MoM, aggregates and overflow audited; input reachability remains separate |
 | R2 | Buff instance clock and native contribution-container semantics | Established locally | Insertion-time owner clocks, infinity defaults and native additive tokens bound; [existing-instance network contract](client-buff-network-clock-contract.md) directly overwrites duration/speed and defaults omitted speed to 1.0; owner-stat-driven refresh and incoming-rate publication are separate claims |
 | R2/R4 | Buff clock eligibility input provenance | Established for selected network paths | [Byte/word transport, zero additive input and constructor/partial/replacement differences](client-buff-clock-input-provenance.md) bound; semantic field names, later clock recalculation and source-rate publication remain open |
+| R2 | Empty-Id2 Buff backend selection | Established for selected startup catalogue | [137 registration sites, strict empty-key miss, null backend and lifecycle guards](client-buff-default-backend.md); independent observer/script numerical consequences remain open |
 | R2/R4 | Selected GroundEffect lifecycle and transported lifetime | Established for selected component/callable | [KillGroundEffect, owner component/config enum, five-byte lifetime state, expiry, conditional Buffs guard and cancellation/removal boundary](client-ground-effect-boundary.md); [typed ServerFill parent, cancellation-token producer and reference ownership](client-ground-effect-ownership.md) recovered; numerical target-rate publisher remains open |
 | R3 | Hit panel/offence evaluators | Established locally | Both hands, five types, base/added, conversion, average/DPS and actual network-provider numerical readers audited; [details](client-offence-estimates.md) |
 | R3 | Selected critical chance and multiplier arithmetic | Established locally | [Effective MH/OH probability and luck/unexciting, Critical Link and multiplier overrides](client-critical-formulas.md) closed; [complete chance-input builders](client-critical-inputs.md) and [selected defender modifier composition](client-hit-defender-modifiers.md) recovered; per-event rolls/confirmation and joint resolver application stay open |
 | R3 | Hit defender modifier composition | Established for selected callbacks | [Shared/typed final, additive elemental, resistance-ignore predicates and enemy-critical increased input](client-hit-defender-modifiers.md); actual hit amount/resistance/critical application stays separate |
 | R3 | Defender-conditional damage context presence | Established for predicate 9189 and typed cache ABI | [37 defender properties combine as a nonzero OR](client-defender-context-presence.md); native context constructor/getter/dispatcher bind key-indexed storage, but no actual numerical consumer or target relationship is recovered |
+| R3 | ApplyDamageFunctions metadata consumer | Established for active-index maintenance | [11 flagged Stats, native row-map lookup and sorted byte-index updates](client-applydamage-stat-index.md); ordinary startup skips this guarded updater; list execution and per-target numerical application remain open |
 | R3 | Physical-defence estimates | Established locally | [Three reference-damage formulas](client-defence-estimates.md), Ward substitution, cap/floor/rounding and category reader; concrete-hit mitigation remains separate |
 | R3 | Concrete contact → defender avoidance decision | Established locally | Inherited Fireball gates, Melee and data-bound Sand Spitter MonsterMortarAttack paths audited; [details and Fireball final-factory correction](client-hit-production.md); shared gates remain bound while base clone/terminal differ from final client slots; numerical damage remains separate |
 | R3 | Default ranged-action selection | Established locally | [Bow/Wand enum test, selected equipment-to-provider updates and startup registry winners](client-ranged-action-selection.md) bound; contact continuation consumes queued results; numerical damage remains separate |

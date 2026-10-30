@@ -3603,6 +3603,22 @@
       ],
       "selectedDecompilationCompleted": null
     },
+    "0x1400ac510": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1400ac510",
+          "endExclusive": "0x1400ac589",
+          "bytes": 121,
+          "fileOffset": 702736,
+          "sha256": "0383774f56878e273e095786376d44fd0eeb666c1ce8562c13410c1cc7b41d12"
+        }
+      ],
+      "sourceBatches": [
+        "r12-self-rates-final"
+      ],
+      "selectedDecompilationCompleted": null
+    },
     "0x1400ac590": {
       "boundary": "PE-unwind-root-and-chains",
       "ranges": [
@@ -3633,6 +3649,22 @@
       ],
       "sourceBatches": [
         "r10-fire-self-rate"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x1400ac930": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1400ac930",
+          "endExclusive": "0x1400ac9a7",
+          "bytes": 119,
+          "fileOffset": 703792,
+          "sha256": "b3db41a1a1fcfaf2d1abc8b6f40665c2881c6bb2f9fbe07fb10794e692d6b146"
+        }
+      ],
+      "sourceBatches": [
+        "r12-self-rates-final"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -7911,6 +7943,7 @@
         }
       ],
       "sourceBatches": [
+        "r12-buff-default-final",
         "r3-default-bow-startup-winner",
         "r3-loss-geal-builtins"
       ],
@@ -8091,6 +8124,22 @@
       ],
       "selectedDecompilationCompleted": null
     },
+    "0x1401304d0": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1401304d0",
+          "endExclusive": "0x140130508",
+          "bytes": 56,
+          "fileOffset": 1243344,
+          "sha256": "cbef5152bf61138b6e67a904fe1c8e0c07eea24002da349b1c9e366f57368f39"
+        }
+      ],
+      "sourceBatches": [
+        "r12-buff-default-final"
+      ],
+      "selectedDecompilationCompleted": null
+    },
     "0x140133540": {
       "boundary": "PE-unwind-root-and-chains",
       "ranges": [
@@ -8104,6 +8153,22 @@
       ],
       "sourceBatches": [
         "r3-default-bow-startup-continuations"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x1401341d0": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1401341d0",
+          "endExclusive": "0x140134231",
+          "bytes": 97,
+          "fileOffset": 1258960,
+          "sha256": "8fab3534402a7db0d76525f4d6602759d2617a46a11a4468cf70366c5281c208"
+        }
+      ],
+      "sourceBatches": [
+        "r12-buff-default-final"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -8263,6 +8328,36 @@
         "r10-buff-subscriptions-final",
         "r3-action-extensions-consequences",
         "r3-pr373-mortar-attachments"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x140143ce0": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x140143ce0",
+          "endExclusive": "0x140143d4f",
+          "bytes": 111,
+          "fileOffset": 1323232,
+          "sha256": "df52eea24051c60ef4e527e77ab2190cfdf9a9345c8688a9d2df33fdb992642c"
+        },
+        {
+          "start": "0x140143d4f",
+          "endExclusive": "0x140143d83",
+          "bytes": 52,
+          "fileOffset": 1323343,
+          "sha256": "1ad4ab6a7d88a0d457beadbac5781b4feed668cec6f11ba81650af8afa7b97c2"
+        },
+        {
+          "start": "0x140143d83",
+          "endExclusive": "0x140143dc9",
+          "bytes": 70,
+          "fileOffset": 1323395,
+          "sha256": "3264422f4c2524161d5ed079e2e837c6b63f2770996ece573081ef64ce601987"
+        }
+      ],
+      "sourceBatches": [
+        "r12-buff-default-final"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -8441,6 +8536,36 @@
       ],
       "sourceBatches": [
         "r4-buff-clock-observer-dispatch"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x1401b1cf0": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1401b1cf0",
+          "endExclusive": "0x1401b1d28",
+          "bytes": 56,
+          "fileOffset": 1773808,
+          "sha256": "71fc675862dcc3521786f90fd5e25fb6c95d4da34b182144e5d3ac74b17771d4"
+        },
+        {
+          "start": "0x1401b1d28",
+          "endExclusive": "0x1401b1d9f",
+          "bytes": 119,
+          "fileOffset": 1773864,
+          "sha256": "01df4336065716b0fce2fc42b051b96e422823c2ee101b3f87b0cb974dd72825"
+        },
+        {
+          "start": "0x1401b1d9f",
+          "endExclusive": "0x1401b1dc4",
+          "bytes": 37,
+          "fileOffset": 1773983,
+          "sha256": "9937c55788fee0817b3e1fb71e07ebf6e3baa0ebdaef8e5035ad8b6f7b6288ee"
+        }
+      ],
+      "sourceBatches": [
+        "r12-buff-default-final"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -8829,6 +8954,36 @@
         "r3-offence-typed"
       ],
       "selectedDecompilationCompleted": true
+    },
+    "0x140833e00": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x140833e00",
+          "endExclusive": "0x140833e37",
+          "bytes": 55,
+          "fileOffset": 8598016,
+          "sha256": "e22b65f817d5f3f6d129d2c5493646a02481daf52d73a19c33b522774d887ed2"
+        },
+        {
+          "start": "0x140833e37",
+          "endExclusive": "0x140833e7f",
+          "bytes": 72,
+          "fileOffset": 8598071,
+          "sha256": "d667caac8612c54100e3a773c155d5d8b463f4520088d0606c844376a45f4f98"
+        },
+        {
+          "start": "0x140833e7f",
+          "endExclusive": "0x140833f88",
+          "bytes": 265,
+          "fileOffset": 8598143,
+          "sha256": "6b56e53d6a84da569a16327e84ab84c0e2e71a8878151d929e37373010a2e620"
+        }
+      ],
+      "sourceBatches": [
+        "r12-applydamage-index-final"
+      ],
+      "selectedDecompilationCompleted": null
     },
     "0x14089cad0": {
       "boundary": "PE-unwind-root-and-chains",
@@ -10146,6 +10301,7 @@
       ],
       "sourceBatches": [
         "r10-buff-subscriptions-final",
+        "r12-buff-default-final",
         "r2-buff-registry-callers"
       ],
       "selectedDecompilationCompleted": null
@@ -10310,6 +10466,198 @@
       ],
       "selectedDecompilationCompleted": null
     },
+    "0x1415cbae0": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1415cbae0",
+          "endExclusive": "0x1415cbb94",
+          "bytes": 180,
+          "fileOffset": 22851296,
+          "sha256": "0df2174a12cefad48a1efcfbc2f253c9199e850b1cde9bd56887afc1e92daa26"
+        }
+      ],
+      "sourceBatches": [
+        "r12-buff-default-final"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x1415cbc00": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1415cbc00",
+          "endExclusive": "0x1415cbcb4",
+          "bytes": 180,
+          "fileOffset": 22851584,
+          "sha256": "38e27eb065130f8a3ffb0c9b0a2b980093f8391eda52dbb5cfd04a9fc5188ccc"
+        }
+      ],
+      "sourceBatches": [
+        "r12-buff-default-final"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x1415cbd10": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1415cbd10",
+          "endExclusive": "0x1415cbdc4",
+          "bytes": 180,
+          "fileOffset": 22851856,
+          "sha256": "3f3708ca51674c491147041173a2afbbb0a4c23891a72f229875aad7481f10fd"
+        }
+      ],
+      "sourceBatches": [
+        "r12-buff-default-final"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x1415cbe30": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1415cbe30",
+          "endExclusive": "0x1415cbee4",
+          "bytes": 180,
+          "fileOffset": 22852144,
+          "sha256": "443471352c6bf9fe43c39783db8a1157f53bdf9346dbc7687070f9eae28824c9"
+        }
+      ],
+      "sourceBatches": [
+        "r12-buff-default-final"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x1415cbf40": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1415cbf40",
+          "endExclusive": "0x1415cbff4",
+          "bytes": 180,
+          "fileOffset": 22852416,
+          "sha256": "ea768dcfddea4edae00e2298551d0b194a1762e74b2979bd2f88fe4b88283a99"
+        }
+      ],
+      "sourceBatches": [
+        "r12-buff-default-final"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x1415cc060": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1415cc060",
+          "endExclusive": "0x1415cc114",
+          "bytes": 180,
+          "fileOffset": 22852704,
+          "sha256": "96692354bc4543a57df6d4473eced4389d7e9ebc6d72457ae37c1b9e01609ca5"
+        }
+      ],
+      "sourceBatches": [
+        "r12-buff-default-final"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x1415cc180": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1415cc180",
+          "endExclusive": "0x1415cc234",
+          "bytes": 180,
+          "fileOffset": 22852992,
+          "sha256": "4265d5c5e29eb33f2f6aca8f0c9cd007e0a0ed8ee28829149701f1aab7712395"
+        }
+      ],
+      "sourceBatches": [
+        "r12-buff-default-final"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x1415cc2c0": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1415cc2c0",
+          "endExclusive": "0x1415cc374",
+          "bytes": 180,
+          "fileOffset": 22853312,
+          "sha256": "8d1526958267adfc51462d9fddcf3b852a69149a2693e28e1503099a119b744b"
+        }
+      ],
+      "sourceBatches": [
+        "r12-buff-default-final"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x1415cc3e0": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1415cc3e0",
+          "endExclusive": "0x1415cc494",
+          "bytes": 180,
+          "fileOffset": 22853600,
+          "sha256": "a506f9139f2adfe54e0374020dc77a99248573403eba1ee76487af9eb7403ea7"
+        }
+      ],
+      "sourceBatches": [
+        "r12-buff-default-final"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x1415cc500": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1415cc500",
+          "endExclusive": "0x1415cc5b4",
+          "bytes": 180,
+          "fileOffset": 22853888,
+          "sha256": "cfd409d48c27a191f888f49dccf9f19a70dea5d990be2614778fb8b41de52556"
+        }
+      ],
+      "sourceBatches": [
+        "r12-buff-default-final"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x1415cc6c0": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1415cc6c0",
+          "endExclusive": "0x1415cc774",
+          "bytes": 180,
+          "fileOffset": 22854336,
+          "sha256": "22f477a6648790c397b6694e7e4fd54a93311d588e68f02c741e7e7ad587b5d7"
+        }
+      ],
+      "sourceBatches": [
+        "r12-buff-default-final"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x1415cc800": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1415cc800",
+          "endExclusive": "0x1415cc8b4",
+          "bytes": 180,
+          "fileOffset": 22854656,
+          "sha256": "4e32c1b60dae72b77627bfe92953368b406e6942619a67e5109430aff7d0f69a"
+        }
+      ],
+      "sourceBatches": [
+        "r12-buff-default-final"
+      ],
+      "selectedDecompilationCompleted": null
+    },
     "0x1415cc8c0": {
       "boundary": "PE-unwind-root-and-chains",
       "ranges": [
@@ -10338,7 +10686,24 @@
         }
       ],
       "sourceBatches": [
-        "r10-buff-subscriptions-final"
+        "r10-buff-subscriptions-final",
+        "r12-buff-default-final"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x1415ccb30": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1415ccb30",
+          "endExclusive": "0x1415ccbe4",
+          "bytes": 180,
+          "fileOffset": 22855472,
+          "sha256": "f97dcc95393316d542286ab3f207272bdb3bb2d70fd8ec50f7eb8e7f74f8ce0a"
+        }
+      ],
+      "sourceBatches": [
+        "r12-buff-default-final"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -10355,6 +10720,262 @@
       ],
       "sourceBatches": [
         "r3-entity-task-boundaries-final"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x1415ccce0": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1415ccce0",
+          "endExclusive": "0x1415ccd94",
+          "bytes": 180,
+          "fileOffset": 22855904,
+          "sha256": "69242783a854ae5bf26637f6971c50ad8de8ffe4296c3b70b377add2c6b870e4"
+        }
+      ],
+      "sourceBatches": [
+        "r12-buff-default-final"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x1415cceb0": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1415cceb0",
+          "endExclusive": "0x1415ccf64",
+          "bytes": 180,
+          "fileOffset": 22856368,
+          "sha256": "7a5b2766bd4162afb3a56d3e81b85c218629b34f3eff6a03ed56793f5801c353"
+        }
+      ],
+      "sourceBatches": [
+        "r12-buff-default-final"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x1415cd030": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1415cd030",
+          "endExclusive": "0x1415cd0e4",
+          "bytes": 180,
+          "fileOffset": 22856752,
+          "sha256": "b1d70b1c483fcee87f7797b785127e283a2b1ec02863e960e918e7d152a17ae0"
+        }
+      ],
+      "sourceBatches": [
+        "r12-buff-default-final"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x1415cd150": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1415cd150",
+          "endExclusive": "0x1415cd204",
+          "bytes": 180,
+          "fileOffset": 22857040,
+          "sha256": "25b7f8d162bbe5c32df7c54cda56a067d58683acde407e675b490997654433fc"
+        }
+      ],
+      "sourceBatches": [
+        "r12-buff-default-final"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x1415cd310": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1415cd310",
+          "endExclusive": "0x1415cd3c4",
+          "bytes": 180,
+          "fileOffset": 22857488,
+          "sha256": "201d07cce706e610c3cef0d6f0c5e37ce475ead8beab134bb6dda76d94e87afd"
+        }
+      ],
+      "sourceBatches": [
+        "r12-buff-default-final"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x1415cd430": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1415cd430",
+          "endExclusive": "0x1415cd4e4",
+          "bytes": 180,
+          "fileOffset": 22857776,
+          "sha256": "8f5f17e03c8c93a3fddf8ca5aa92ddf68a85da1985a5cdacd1278a13fa7161fe"
+        }
+      ],
+      "sourceBatches": [
+        "r12-buff-default-final"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x1415cd5e0": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1415cd5e0",
+          "endExclusive": "0x1415cd694",
+          "bytes": 180,
+          "fileOffset": 22858208,
+          "sha256": "c4a09519e337a139de2f679fb45e7e54dd2f47ab525c96694d3621b912385b64"
+        }
+      ],
+      "sourceBatches": [
+        "r12-buff-default-final"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x1415cd700": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1415cd700",
+          "endExclusive": "0x1415cd7b4",
+          "bytes": 180,
+          "fileOffset": 22858496,
+          "sha256": "42f3fa105e0ea1b82acdfc73fb6d7dc73ff6ff1c88c940d93afc47b5b34467fd"
+        }
+      ],
+      "sourceBatches": [
+        "r12-buff-default-final"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x1415cd900": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1415cd900",
+          "endExclusive": "0x1415cd9b4",
+          "bytes": 180,
+          "fileOffset": 22859008,
+          "sha256": "8d4fbb9a18e2f5ae4aee43144cd2dc831303dd405a902847e4660e0d15c887d1"
+        }
+      ],
+      "sourceBatches": [
+        "r12-buff-default-final"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x1415cdaf0": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1415cdaf0",
+          "endExclusive": "0x1415cdba4",
+          "bytes": 180,
+          "fileOffset": 22859504,
+          "sha256": "971b366719b00a7c876ff3722c14aafbe829e8ee591737d5e534676cc043623f"
+        }
+      ],
+      "sourceBatches": [
+        "r12-buff-default-final"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x1415cdc10": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1415cdc10",
+          "endExclusive": "0x1415cdcc4",
+          "bytes": 180,
+          "fileOffset": 22859792,
+          "sha256": "9867860daa0ca44f527c462f00ef95b02bf442d93cd87401d248e616e83e8165"
+        }
+      ],
+      "sourceBatches": [
+        "r12-buff-default-final"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x1415cdd30": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1415cdd30",
+          "endExclusive": "0x1415cdde4",
+          "bytes": 180,
+          "fileOffset": 22860080,
+          "sha256": "07654fa11284046c00ba5d7f0eb2f7848d88da607be840a527ffacbd1ea6edb2"
+        }
+      ],
+      "sourceBatches": [
+        "r12-buff-default-final"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x1415cdea0": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1415cdea0",
+          "endExclusive": "0x1415cdf54",
+          "bytes": 180,
+          "fileOffset": 22860448,
+          "sha256": "cf984a7c82b806b911cde967ed3be10706b81ae57acac3de086cdd8e8af8df18"
+        }
+      ],
+      "sourceBatches": [
+        "r12-buff-default-final"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x1415ce070": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1415ce070",
+          "endExclusive": "0x1415ce124",
+          "bytes": 180,
+          "fileOffset": 22860912,
+          "sha256": "fd079f3bfcb1df37bf674c134ba47ea5f4ff1792757787233becf4094cb3fbb2"
+        }
+      ],
+      "sourceBatches": [
+        "r12-buff-default-final"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x1415ce1b0": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1415ce1b0",
+          "endExclusive": "0x1415ce264",
+          "bytes": 180,
+          "fileOffset": 22861232,
+          "sha256": "9f366a0ca050de5b6bc98da36f02dc6727d2986f30c215550a1843dc4172d961"
+        }
+      ],
+      "sourceBatches": [
+        "r12-buff-default-final"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x1415ce2c0": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1415ce2c0",
+          "endExclusive": "0x1415ce374",
+          "bytes": 180,
+          "fileOffset": 22861504,
+          "sha256": "b2b98ea254646463a2a928698fc00feb108dee2c8a845e272d9c918597870f9f"
+        }
+      ],
+      "sourceBatches": [
+        "r12-buff-default-final"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -10386,7 +11007,392 @@
         }
       ],
       "sourceBatches": [
-        "r10-buff-subscriptions-final"
+        "r10-buff-subscriptions-final",
+        "r12-buff-default-final"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x1415ce500": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1415ce500",
+          "endExclusive": "0x1415ce5b4",
+          "bytes": 180,
+          "fileOffset": 22862080,
+          "sha256": "ca14ee8cdf5075c83936a7edf562477bb4bdce521c341e6a54da0c5534c3a5b3"
+        }
+      ],
+      "sourceBatches": [
+        "r12-buff-default-final"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x1415ce620": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1415ce620",
+          "endExclusive": "0x1415ce6d4",
+          "bytes": 180,
+          "fileOffset": 22862368,
+          "sha256": "366623dabf925d5f28e4267f5b60cb329f574b3364ef598d7b6907e6977880ae"
+        }
+      ],
+      "sourceBatches": [
+        "r12-buff-default-final"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x1415ce790": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1415ce790",
+          "endExclusive": "0x1415ce844",
+          "bytes": 180,
+          "fileOffset": 22862736,
+          "sha256": "247e5762b57bf7938e646cc114f9a295e88f3e6cb9d20742f2d44e98b73e918e"
+        }
+      ],
+      "sourceBatches": [
+        "r12-buff-default-final"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x1415ce940": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1415ce940",
+          "endExclusive": "0x1415ce9f4",
+          "bytes": 180,
+          "fileOffset": 22863168,
+          "sha256": "4664fde8b9c5336f4dbeb7188c26fac4d6ba1daa9e00c0748ac3c46efc1836c6"
+        }
+      ],
+      "sourceBatches": [
+        "r12-buff-default-final"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x1415ceb30": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1415ceb30",
+          "endExclusive": "0x1415cebe4",
+          "bytes": 180,
+          "fileOffset": 22863664,
+          "sha256": "07fb097a170f15da064a81d02b3ed26965ab22d04c054bd640450450cc110c8b"
+        }
+      ],
+      "sourceBatches": [
+        "r12-buff-default-final"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x1415cec60": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1415cec60",
+          "endExclusive": "0x1415ced14",
+          "bytes": 180,
+          "fileOffset": 22863968,
+          "sha256": "aee25de20598671a3c13aa5febb7a69220baa5b25ccdd23d3b94aec6f872043d"
+        }
+      ],
+      "sourceBatches": [
+        "r12-buff-default-final"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x1415ced80": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1415ced80",
+          "endExclusive": "0x1415cee34",
+          "bytes": 180,
+          "fileOffset": 22864256,
+          "sha256": "f5a04d412a35641b7bde24bb3d7d16266f83f7b6915c2d789032930948fb3580"
+        }
+      ],
+      "sourceBatches": [
+        "r12-buff-default-final"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x1415ceea0": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1415ceea0",
+          "endExclusive": "0x1415cef54",
+          "bytes": 180,
+          "fileOffset": 22864544,
+          "sha256": "e88da3236a9f86d4bad2ef4fcacee2adef1180209b1cf3e4d0876a7a8555ae45"
+        }
+      ],
+      "sourceBatches": [
+        "r12-buff-default-final"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x1415cf010": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1415cf010",
+          "endExclusive": "0x1415cf0c4",
+          "bytes": 180,
+          "fileOffset": 22864912,
+          "sha256": "9e101a6dfd190a448b859d79ec18ed182d8e7bd94b1bfcaddecc95d917e38d08"
+        }
+      ],
+      "sourceBatches": [
+        "r12-buff-default-final"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x1415cf160": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1415cf160",
+          "endExclusive": "0x1415cf214",
+          "bytes": 180,
+          "fileOffset": 22865248,
+          "sha256": "70da55cd60392a80b7b020b10809413fa3ac95ba6c41a6133ba83bfdfc845aa0"
+        }
+      ],
+      "sourceBatches": [
+        "r12-buff-default-final"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x1415cf280": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1415cf280",
+          "endExclusive": "0x1415cf334",
+          "bytes": 180,
+          "fileOffset": 22865536,
+          "sha256": "dea64e83b3778981f9dae2fe35bd76375867308d1bb2354f62645d72b5813d3c"
+        }
+      ],
+      "sourceBatches": [
+        "r12-buff-default-final"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x1415cf3a0": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1415cf3a0",
+          "endExclusive": "0x1415cf454",
+          "bytes": 180,
+          "fileOffset": 22865824,
+          "sha256": "bd64d173b7c7f22656fa87d2bb9b383f0abef61f6cffa99c325671c322cd05f3"
+        }
+      ],
+      "sourceBatches": [
+        "r12-buff-default-final"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x1415cf520": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1415cf520",
+          "endExclusive": "0x1415cf5d4",
+          "bytes": 180,
+          "fileOffset": 22866208,
+          "sha256": "8e9bfce528fd415f90b0e8889d34dccbe1acaea11689851075a7e053d98d0247"
+        }
+      ],
+      "sourceBatches": [
+        "r12-buff-default-final"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x1415cf640": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1415cf640",
+          "endExclusive": "0x1415cf6f4",
+          "bytes": 180,
+          "fileOffset": 22866496,
+          "sha256": "ddae82ed13b331c461b44f33a720a23acd57c054403902d41ac1416f54b5c22e"
+        }
+      ],
+      "sourceBatches": [
+        "r12-buff-default-final"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x1415cf750": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1415cf750",
+          "endExclusive": "0x1415cf804",
+          "bytes": 180,
+          "fileOffset": 22866768,
+          "sha256": "30bad9ac89c03ee8c59aacbc6d304237f55ce03f67654d171f5dc9e46ff7676e"
+        }
+      ],
+      "sourceBatches": [
+        "r12-buff-default-final"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x1415cf870": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1415cf870",
+          "endExclusive": "0x1415cf924",
+          "bytes": 180,
+          "fileOffset": 22867056,
+          "sha256": "7a95651e205e031ceb1f9181e71558cbee65cf3f49731ec718cd34fda1dcfac6"
+        }
+      ],
+      "sourceBatches": [
+        "r12-buff-default-final"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x1415cf9e0": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1415cf9e0",
+          "endExclusive": "0x1415cfa94",
+          "bytes": 180,
+          "fileOffset": 22867424,
+          "sha256": "70c19e3cdab33c6a62602210b5a737dc2faeedb23227398823c52ed0568ebd29"
+        }
+      ],
+      "sourceBatches": [
+        "r12-buff-default-final"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x1415cfb00": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1415cfb00",
+          "endExclusive": "0x1415cfbc4",
+          "bytes": 196,
+          "fileOffset": 22867712,
+          "sha256": "620982f4d547de576bc611e94c00ee17f024455d4eeaf3f7e8ba0eb580e85823"
+        }
+      ],
+      "sourceBatches": [
+        "r12-buff-default-final"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x1415cfcd0": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1415cfcd0",
+          "endExclusive": "0x1415cfd84",
+          "bytes": 180,
+          "fileOffset": 22868176,
+          "sha256": "817bc1ec4a60343b778592437b1265696615177b5ec369f7ae2c33bee73be560"
+        }
+      ],
+      "sourceBatches": [
+        "r12-buff-default-final"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x1415cfde0": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1415cfde0",
+          "endExclusive": "0x1415cfe94",
+          "bytes": 180,
+          "fileOffset": 22868448,
+          "sha256": "c299cbd6c9bff8a850940257bc2c37e65e26c7bd758627c6f43c098401d73b2e"
+        }
+      ],
+      "sourceBatches": [
+        "r12-buff-default-final"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x1415cff30": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1415cff30",
+          "endExclusive": "0x1415cffe4",
+          "bytes": 180,
+          "fileOffset": 22868784,
+          "sha256": "c1fbc0762ec31f21b6c49028ea022d0fc9ccf6f47860f2aff2d8b0d6629322db"
+        }
+      ],
+      "sourceBatches": [
+        "r12-buff-default-final"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x1415d00e0": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1415d00e0",
+          "endExclusive": "0x1415d0194",
+          "bytes": 180,
+          "fileOffset": 22869216,
+          "sha256": "8ed19c04f7512d339ddcb5a855aa7224e15437d1c31f622c1cde3ec0efd79e35"
+        }
+      ],
+      "sourceBatches": [
+        "r12-buff-default-final"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x1415d0220": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1415d0220",
+          "endExclusive": "0x1415d02d4",
+          "bytes": 180,
+          "fileOffset": 22869536,
+          "sha256": "b82dd8bf4f11fbbdbbb731ea83dd9a7fbc032a7a4bb8a643063ba14512ec4f76"
+        }
+      ],
+      "sourceBatches": [
+        "r12-buff-default-final"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x1415d0360": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1415d0360",
+          "endExclusive": "0x1415d0414",
+          "bytes": 180,
+          "fileOffset": 22869856,
+          "sha256": "73712aa165d0f6b6512c80ec9cc229ffd55fbc6e233e2a4a293741a63198a7ae"
+        }
+      ],
+      "sourceBatches": [
+        "r12-buff-default-final"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -10424,6 +11430,22 @@
       ],
       "selectedDecompilationCompleted": null
     },
+    "0x1415d0610": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1415d0610",
+          "endExclusive": "0x1415d06d4",
+          "bytes": 196,
+          "fileOffset": 22870544,
+          "sha256": "daae9b54d6351030021836044205c4b97c596355fc812d5b93444a88553d590c"
+        }
+      ],
+      "sourceBatches": [
+        "r12-buff-default-final"
+      ],
+      "selectedDecompilationCompleted": null
+    },
     "0x1415d1010": {
       "boundary": "PE-unwind-root-and-chains",
       "ranges": [
@@ -10437,6 +11459,22 @@
       ],
       "sourceBatches": [
         "r2-rf-backend"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x1415d2120": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1415d2120",
+          "endExclusive": "0x1415d213d",
+          "bytes": 29,
+          "fileOffset": 22877472,
+          "sha256": "a3dfc0aae44ae8a5a4d7a06b1f7df589503b882492565cc5a63a6ad0a30abb83"
+        }
+      ],
+      "sourceBatches": [
+        "r12-buff-default-final"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -10468,6 +11506,7 @@
         }
       ],
       "sourceBatches": [
+        "r12-buff-default-final",
         "r2-rf-backend"
       ],
       "selectedDecompilationCompleted": null
@@ -15348,6 +16387,7 @@
         }
       ],
       "sourceBatches": [
+        "r12-buff-default-final",
         "r2-burning-arrow-bound",
         "r2-instance-builder-entry",
         "r2-rf-backend"
@@ -15366,6 +16406,7 @@
         }
       ],
       "sourceBatches": [
+        "r12-buff-default-final",
         "r2-buff-runtime-factory"
       ],
       "selectedDecompilationCompleted": null
@@ -15382,6 +16423,7 @@
         }
       ],
       "sourceBatches": [
+        "r12-buff-default-final",
         "r2-buff-runtime-factory"
       ],
       "selectedDecompilationCompleted": null
@@ -15399,6 +16441,7 @@
       ],
       "sourceBatches": [
         "r11-buff-clock-input-final",
+        "r12-buff-default-final",
         "r2-buff-network",
         "r2-buff-timewarp-v2"
       ],
@@ -15416,6 +16459,7 @@
         }
       ],
       "sourceBatches": [
+        "r12-buff-default-final",
         "r2-buff-destructor"
       ],
       "selectedDecompilationCompleted": null
@@ -15433,6 +16477,7 @@
       ],
       "sourceBatches": [
         "r11-buff-clock-input-final",
+        "r12-buff-default-final",
         "r2-buff-bindings-v2",
         "r2-buff-timewarp-v2"
       ],
@@ -15484,7 +16529,52 @@
         }
       ],
       "sourceBatches": [
+        "r12-buff-default-final",
         "r2-buff-registry-callers"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x141e09020": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x141e09020",
+          "endExclusive": "0x141e09037",
+          "bytes": 23,
+          "fileOffset": 31491104,
+          "sha256": "ee10e79beb11503fd32f229afb404831ffb9fafdcd31ba09f4f248f332088f35"
+        },
+        {
+          "start": "0x141e09037",
+          "endExclusive": "0x141e09053",
+          "bytes": 28,
+          "fileOffset": 31491127,
+          "sha256": "75666beeefaeffde1b62360c4c43aca95a86810eb35c5d174ee08dbdabf860d8"
+        },
+        {
+          "start": "0x141e09053",
+          "endExclusive": "0x141e090a0",
+          "bytes": 77,
+          "fileOffset": 31491155,
+          "sha256": "511000aa280a645bcafdda8ea1dbfa66db92a3bbfda4c2a082a3a19739b1bbe5"
+        },
+        {
+          "start": "0x141e090a0",
+          "endExclusive": "0x141e090aa",
+          "bytes": 10,
+          "fileOffset": 31491232,
+          "sha256": "f9ad7d0b6e81b3e4af8bf054221b6181e147514570c4ed248db8c800bf3a948a"
+        },
+        {
+          "start": "0x141e090aa",
+          "endExclusive": "0x141e090b0",
+          "bytes": 6,
+          "fileOffset": 31491242,
+          "sha256": "4eeabf8bcdc796d3a19ec782d70470e18a3a52ddfa5cfed7abe03e359a03625d"
+        }
+      ],
+      "sourceBatches": [
+        "r12-buff-default-final"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -15544,6 +16634,7 @@
         }
       ],
       "sourceBatches": [
+        "r12-buff-default-final",
         "r4-buff-clock-update-callbacks"
       ],
       "selectedDecompilationCompleted": null
@@ -15610,6 +16701,38 @@
       ],
       "selectedDecompilationCompleted": null
     },
+    "0x141e0a830": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x141e0a830",
+          "endExclusive": "0x141e0a897",
+          "bytes": 103,
+          "fileOffset": 31497264,
+          "sha256": "ed51cef34578e5bd474b756310165048d25d010082c0fc7eea8d7911528b8ced"
+        }
+      ],
+      "sourceBatches": [
+        "r12-buff-default-final"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x141e0b150": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x141e0b150",
+          "endExclusive": "0x141e0b1b7",
+          "bytes": 103,
+          "fileOffset": 31499600,
+          "sha256": "f669c00260d4df3c10fcf0cf6599430861242a2c3abbb4085caa8922ea96aa17"
+        }
+      ],
+      "sourceBatches": [
+        "r12-buff-default-final"
+      ],
+      "selectedDecompilationCompleted": null
+    },
     "0x141e0b430": {
       "boundary": "PE-unwind-root-and-chains",
       "ranges": [
@@ -15623,6 +16746,38 @@
       ],
       "sourceBatches": [
         "r2-buff-component"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x141e0b710": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x141e0b710",
+          "endExclusive": "0x141e0b77b",
+          "bytes": 107,
+          "fileOffset": 31501072,
+          "sha256": "89b2e79f6067fb173ee9d83c7e58a264a1ea2337705521c2d31525e09c925cb1"
+        }
+      ],
+      "sourceBatches": [
+        "r12-buff-default-final"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x141e0b780": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x141e0b780",
+          "endExclusive": "0x141e0b7f4",
+          "bytes": 116,
+          "fileOffset": 31501184,
+          "sha256": "c83618c253548804254faca04fb7b0d2abc1f1c9468299c60f1df1cc85f256ed"
+        }
+      ],
+      "sourceBatches": [
+        "r12-buff-default-final"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -15846,6 +17001,7 @@
       ],
       "sourceBatches": [
         "r11-buff-clock-input-final",
+        "r12-buff-default-final",
         "r2-buff-network",
         "r2-buff-timewarp-v2",
         "r4-buff-network-clock-contract"
@@ -15865,6 +17021,7 @@
       ],
       "sourceBatches": [
         "r11-buff-clock-input-final",
+        "r12-buff-default-final",
         "r2-buff-bindings-v2",
         "r2-buff-speed-owner",
         "r2-buff-speed-owner-v3",
@@ -15884,6 +17041,7 @@
         }
       ],
       "sourceBatches": [
+        "r12-buff-default-final",
         "r2-buff-removal",
         "r3-d9aa-listener-final"
       ],
@@ -16504,6 +17662,22 @@
       ],
       "sourceBatches": [
         "r3-projectile-extension-components"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x141e39110": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x141e39110",
+          "endExclusive": "0x141e391c5",
+          "bytes": 181,
+          "fileOffset": 31687952,
+          "sha256": "78e5ad8acf4264cfd2bb7b74c13452d866d20171f4ea994e601900224ac47759"
+        }
+      ],
+      "sourceBatches": [
+        "r12-buff-default-final"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -20504,6 +21678,22 @@
       ],
       "selectedDecompilationCompleted": null
     },
+    "0x142229b20": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x142229b20",
+          "endExclusive": "0x142229d7b",
+          "bytes": 603,
+          "fileOffset": 35819296,
+          "sha256": "a9707751f778a8e534e544cbcc1fb2cd684c63388d768cd721c63b810b958190"
+        }
+      ],
+      "sourceBatches": [
+        "r12-applydamage-index-final"
+      ],
+      "selectedDecompilationCompleted": null
+    },
     "0x142239940": {
       "boundary": "PE-unwind-root-and-chains",
       "ranges": [
@@ -20520,6 +21710,22 @@
       ],
       "selectedDecompilationCompleted": null
     },
+    "0x14228ffe0": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x14228ffe0",
+          "endExclusive": "0x14229008c",
+          "bytes": 172,
+          "fileOffset": 36238304,
+          "sha256": "8baf71c548af6fb82d7a9a0c2c24d0f367ca5af5972d09b110fb4b27db800b37"
+        }
+      ],
+      "sourceBatches": [
+        "r12-applydamage-index-final"
+      ],
+      "selectedDecompilationCompleted": null
+    },
     "0x142290090": {
       "boundary": "PE-unwind-root-and-chains",
       "ranges": [
@@ -20532,7 +21738,8 @@
         }
       ],
       "sourceBatches": [
-        "r1-active-context"
+        "r1-active-context",
+        "r12-applydamage-index-final"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -20707,6 +21914,86 @@
       ],
       "sourceBatches": [
         "r3-projectile-extension-entity"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x142432100": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x142432100",
+          "endExclusive": "0x142432707",
+          "bytes": 1543,
+          "fileOffset": 37950720,
+          "sha256": "aa3f138d3fb4d5548b9f14d53b1cd9a5dc499d270737cb10b2f9f2ab1f24fe68"
+        }
+      ],
+      "sourceBatches": [
+        "r12-applydamage-index-final"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x142432710": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x142432710",
+          "endExclusive": "0x142432808",
+          "bytes": 248,
+          "fileOffset": 37952272,
+          "sha256": "8cd2345ca39e12c380dd91a2bb81430c845574b141b362f2700a192d9cbbbb78"
+        }
+      ],
+      "sourceBatches": [
+        "r12-applydamage-index-final"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x142452340": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x142452340",
+          "endExclusive": "0x142452571",
+          "bytes": 561,
+          "fileOffset": 38082368,
+          "sha256": "9cfd11fb54294a63ddc7935b9addf6d8e92ea3bb868440dfe469e5bd0296968d"
+        }
+      ],
+      "sourceBatches": [
+        "r12-applydamage-index-final"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x142452b80": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x142452b80",
+          "endExclusive": "0x142452d7a",
+          "bytes": 506,
+          "fileOffset": 38084480,
+          "sha256": "83e1ada550853ed1620c23a57bc95976e997c14ad3e7977123bdf3f8d7a80aba"
+        }
+      ],
+      "sourceBatches": [
+        "r12-applydamage-index-final"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x1424534f0": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1424534f0",
+          "endExclusive": "0x14245358e",
+          "bytes": 158,
+          "fileOffset": 38086896,
+          "sha256": "60d3689666bc97c7f608945d1d1f47ac5d313865fdd6f2e6c213c43bebb50a85"
+        }
+      ],
+      "sourceBatches": [
+        "r12-applydamage-index-final"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -21126,6 +22413,7 @@
         }
       ],
       "sourceBatches": [
+        "r12-applydamage-index-final",
         "r2-native-source-tokens",
         "stat-evaluation-dispatch",
         "stat-update-evaluation"
@@ -21180,6 +22468,7 @@
       ],
       "sourceBatches": [
         "r11-defender-cache-final",
+        "r12-applydamage-index-final",
         "stat-evaluation-dispatch"
       ],
       "selectedDecompilationCompleted": true
@@ -21275,10 +22564,27 @@
         }
       ],
       "sourceBatches": [
+        "r12-applydamage-index-final",
         "stat-evaluation-dispatch",
         "stat-update-evaluation"
       ],
       "selectedDecompilationCompleted": true
+    },
+    "0x1424fdd70": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1424fdd70",
+          "endExclusive": "0x1424fdfed",
+          "bytes": 637,
+          "fileOffset": 38785392,
+          "sha256": "6a96d322a91a347a05563af00d87b635a97db154a1a5bd7e9c1940cd3ffde66f"
+        }
+      ],
+      "sourceBatches": [
+        "r12-applydamage-index-final"
+      ],
+      "selectedDecompilationCompleted": null
     },
     "0x1424ff040": {
       "boundary": "PE-unwind-root-and-chains",
@@ -27862,6 +29168,7 @@
         }
       ],
       "sourceBatches": [
+        "r12-self-rates-final",
         "r2-base-rates"
       ],
       "selectedDecompilationCompleted": true
@@ -28003,6 +29310,7 @@
         }
       ],
       "sourceBatches": [
+        "r12-self-rates-final",
         "r2-base-rates"
       ],
       "selectedDecompilationCompleted": true
@@ -33304,6 +34612,7 @@
         }
       ],
       "sourceBatches": [
+        "r12-applydamage-index-final",
         "r4-native-mask-initializer"
       ],
       "selectedDecompilationCompleted": true
@@ -33572,6 +34881,21 @@
       "name": "r11-type-stat-prefix-final",
       "auditSha256": "f8a3a20171aa68ecc57558d4d0d5c938b3f8f4323a2733cc8ba923091f418181",
       "functionCount": 2
+    },
+    {
+      "name": "r12-applydamage-index-final",
+      "auditSha256": "c7074bd5df2d7a99d14b577f29e73f2141c7062c211380e232348552da173026",
+      "functionCount": 14
+    },
+    {
+      "name": "r12-buff-default-final",
+      "auditSha256": "04a9986deabab1a42555ed1ccd9cd91b41f39c5734317757efca2c1b6ddd3153",
+      "functionCount": 81
+    },
+    {
+      "name": "r12-self-rates-final",
+      "auditSha256": "c041234e8ed9c255267ea43df60956372c5c64df78ee9068cf9e8aab89d723f3",
+      "functionCount": 4
     },
     {
       "name": "r2-base-rates",
@@ -36322,8 +37646,8 @@
     }
   ],
   "verification": {
-    "entryCount": 1670,
-    "originalByteRangeCount": 2553,
+    "entryCount": 1746,
+    "originalByteRangeCount": 2639,
     "historicalBoundedThunkEntries": 4,
     "pointerSlotCount": 213,
     "selectedDecompilationRecords": 877,
@@ -36332,6 +37656,237 @@
     "scope": "Original ranges/offsets, unwind ownership or explicit boundaries, stat identity, reference instructions and pointer-slot contents revalidated offline."
   },
   "supportingRecords": [
+    {
+      "path": "Tools/re/out/client-damage-audit/r12-self-rates-final/audit.json",
+      "bytes": 203736,
+      "sha256": "c041234e8ed9c255267ea43df60956372c5c64df78ee9068cf9e8aab89d723f3",
+      "role": "R12 selected incoming-rate, empty-key backend or active-function-index contract and independent review"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r12-self-rates-prepare.py",
+      "bytes": 2016,
+      "sha256": "5f97ca53418eafda8f58ac556cb834fcef070fdd9ca0159b45db5f7f75b230ee",
+      "role": "R12 selected incoming-rate, empty-key backend or active-function-index contract and independent review"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r12-self-rates-interpreter.py",
+      "bytes": 287,
+      "sha256": "bb03a02ba77361d2fc2dd21f484d9363a4baf64ad5366d34fce3d9b3bcab3a63",
+      "role": "R12 selected incoming-rate, empty-key backend or active-function-index contract and independent review"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r12-self-rates-paths.py",
+      "bytes": 1008,
+      "sha256": "c6e7b3f3935af62645c141ac6e72eebb63c1346e14bd71b3163757b89d0d2671",
+      "role": "R12 selected incoming-rate, empty-key backend or active-function-index contract and independent review"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r12-self-rates-regdeps.py",
+      "bytes": 525,
+      "sha256": "9c6be265e7d4d17ab286250db3534045104f9fe04b9a9ae4ec964f7c3f0102ff",
+      "role": "R12 selected incoming-rate, empty-key backend or active-function-index contract and independent review"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r12-self-rates-verify.py",
+      "bytes": 4311,
+      "sha256": "172c133e68c0fceb060f9a1cea2163e6143a79d26b2b152d138b58a0e6c3cdf7",
+      "role": "R12 selected incoming-rate, empty-key backend or active-function-index contract and independent review"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r12-self-rates/audit.json",
+      "bytes": 203541,
+      "sha256": "0e20e91243cc7691386308506cc38021660fb9d843f33e7d94ecd7961b641bef",
+      "role": "R12 selected incoming-rate, empty-key backend or active-function-index contract and independent review"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r12-self-rates/mapping.json",
+      "bytes": 344,
+      "sha256": "bbf6b2565c6ee87c88c9e8f535f1d8a2966b84f8f37eaaa1524bcfc14bc702aa",
+      "role": "R12 selected incoming-rate, empty-key backend or active-function-index contract and independent review"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r12-self-rates/dependencies.json",
+      "bytes": 3706,
+      "sha256": "b915b82341460c95b7135b4836b7220767822072f4bbaa7a74b2e236958f0808",
+      "role": "R12 selected incoming-rate, empty-key backend or active-function-index contract and independent review"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r12-self-rates/verification.json",
+      "bytes": 2863,
+      "sha256": "3ea1559f49d93352508ca860623884722a73994b6301894d04554d4d08761184",
+      "role": "R12 selected incoming-rate, empty-key backend or active-function-index contract and independent review"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r12-self-rates/cases.json",
+      "bytes": 3091542,
+      "sha256": "6d5725b7f7ad29037e6cc59c3a9a49f34af3c3279ea1c2c64aa8c045d7ac92ef",
+      "role": "R12 selected incoming-rate, empty-key backend or active-function-index contract and independent review"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r12-self-rates-review.py",
+      "bytes": 10245,
+      "sha256": "5bd2b50c9583c859146b3367c0bda3fbcb59222e83aaf40122882f397d943a6f",
+      "role": "R12 selected incoming-rate, empty-key backend or active-function-index contract and independent review"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r12-self-rates-review.json",
+      "bytes": 19843,
+      "sha256": "76287633091c08ed028ed9003d5aa93f75d4602048f4d63cbe57b532def9371f",
+      "role": "R12 selected incoming-rate, empty-key backend or active-function-index contract and independent review"
+    },
+    {
+      "path": "Agents/docs/re/client-physical-chaos-self-rates.md",
+      "bytes": 7619,
+      "sha256": "72369ff5a3e409f9ac4209d0fdf4bb2447f2a5ea114e7028b5ce692752830157",
+      "role": "R12 selected incoming-rate, empty-key backend or active-function-index contract and independent review"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r12-self-rates-seal.json",
+      "sha256": "24b7952612708e61782e834b28d027261e363a5db79393661b2d02de08ee7458",
+      "role": "R12 sealed original-byte evidence; actual source-instance and per-hit numerical application remain separate"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r12-buff-default-final/audit.json",
+      "bytes": 1392278,
+      "sha256": "04a9986deabab1a42555ed1ccd9cd91b41f39c5734317757efca2c1b6ddd3153",
+      "role": "R12 selected incoming-rate, empty-key backend or active-function-index contract and independent review"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r12-buff-default-verify.py",
+      "bytes": 8337,
+      "sha256": "c2483f94a6c8cc25df81bae1d5dd0b71ee1b593b8dcec6248cb88d2035f3b419",
+      "role": "R12 selected incoming-rate, empty-key backend or active-function-index contract and independent review"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r12-buff-default-registry.py",
+      "bytes": 2455,
+      "sha256": "df69a441332ed830a7eb0676db848d61d0e6faa9eeacacf2bb8ae93222ce87ed",
+      "role": "R12 selected incoming-rate, empty-key backend or active-function-index contract and independent review"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r12-buff-default-startup.py",
+      "bytes": 248,
+      "sha256": "e03633a3cdc39b8768c25c523fdabcae625d9006cd2bafe1a1bd51cce92f9751",
+      "role": "R12 selected incoming-rate, empty-key backend or active-function-index contract and independent review"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r12-buff-default-registry/registration-discovery.json",
+      "bytes": 27429,
+      "sha256": "e98e6a6b619a885ee3ca4bdc5bcdd6fa81fe8e294a8ed07f7c5520928131ddba",
+      "role": "R12 selected incoming-rate, empty-key backend or active-function-index contract and independent review"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r12-buff-default-backend/verification.json",
+      "bytes": 70082,
+      "sha256": "a7152781670410c9cae5888a491513377b486e7f27054dede03d7fc0223d9aa1",
+      "role": "R12 selected incoming-rate, empty-key backend or active-function-index contract and independent review"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r12-buff-default-review.py",
+      "bytes": 7592,
+      "sha256": "63011eacb0c1492dbb560b2efbf721a4f5b1bff7bb8542d552cbb3b75269b3d1",
+      "role": "R12 selected incoming-rate, empty-key backend or active-function-index contract and independent review"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r12-buff-default-review.json",
+      "bytes": 15034,
+      "sha256": "f59b03871826e71a85bbf771a4acf9ec7ad4124ff6ac1595af4898ce159b45bd",
+      "role": "R12 selected incoming-rate, empty-key backend or active-function-index contract and independent review"
+    },
+    {
+      "path": "Agents/docs/re/client-buff-default-backend.md",
+      "bytes": 8836,
+      "sha256": "abedbd37ccb7a0aa6b5464ce2a1f3ae5190935340b420325f1b9c73af3d0d68c",
+      "role": "R12 selected incoming-rate, empty-key backend or active-function-index contract and independent review"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r12-buff-default-seal.json",
+      "sha256": "425ab68eda8ba455fed0cdd1b2d31aef1634af5251aa484c8d79ad5415b76fc1",
+      "role": "R12 sealed original-byte evidence; actual source-instance and per-hit numerical application remain separate"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r12-applydamage-index-final/audit.json",
+      "bytes": 362118,
+      "sha256": "c7074bd5df2d7a99d14b577f29e73f2141c7062c211380e232348552da173026",
+      "role": "R12 selected incoming-rate, empty-key backend or active-function-index contract and independent review"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r12-applydamage-stat-prepare.py",
+      "bytes": 3156,
+      "sha256": "3c8527998da8c5b98795d477ad66a170a112aca213cb05361fce5eb3c9102a7e",
+      "role": "R12 selected incoming-rate, empty-key backend or active-function-index contract and independent review"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r12-applydamage-stat-replay.py",
+      "bytes": 2667,
+      "sha256": "7f2244314dfce7b59d0f80b2696b46d8baed940fc0f5650407db139c6ed07512",
+      "role": "R12 selected incoming-rate, empty-key backend or active-function-index contract and independent review"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r12-applydamage-stat-verify.py",
+      "bytes": 5061,
+      "sha256": "0564bdb701d672e6612ada1c04ab4d64016ba800e4332a6602f3bca998ac2f40",
+      "role": "R12 selected incoming-rate, empty-key backend or active-function-index contract and independent review"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r12-applydamage-stat-verification.json",
+      "bytes": 813,
+      "sha256": "44f614f89a0d166835f196b33134a37ee2a811bbd772ba8fbbbf0276684e615c",
+      "role": "R12 selected incoming-rate, empty-key backend or active-function-index contract and independent review"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r12-applydamage-stat-readers/audit.json",
+      "bytes": 361805,
+      "sha256": "9fd6f6b8523a053719a64d9ac4fd5dafb32ecb0455f9fe453f4b2b8fe0139a1d",
+      "role": "R12 selected incoming-rate, empty-key backend or active-function-index contract and independent review"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r12-applydamage-stat-readers/discovery.json",
+      "bytes": 64853,
+      "sha256": "c75af56bd3c8bd5b6b6ac35fa1d14611eeddd88c4cddd551593c60a60bdefe01",
+      "role": "R12 selected incoming-rate, empty-key backend or active-function-index contract and independent review"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r12-applydamage-stat-readers/true-stats.json",
+      "bytes": 7034,
+      "sha256": "c00793b7a3dedc6cb7a71af8b8378d054f88e417cbca35b3d002fc30c03e84cf",
+      "role": "R12 selected incoming-rate, empty-key backend or active-function-index contract and independent review"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r12-applydamage-stat-readers/apply-functions.json",
+      "bytes": 4456,
+      "sha256": "bc1b83e8adef762676659b6238eddfe4db57d61292cab0b270d24626114f37cd",
+      "role": "R12 selected incoming-rate, empty-key backend or active-function-index contract and independent review"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r12-applydamage-stat-readers/index-replay.json",
+      "bytes": 42657,
+      "sha256": "00a95aa44091ac4948ea9059efa9f6023fb931e54b366dbd38a6a7a98ec1c735",
+      "role": "R12 selected incoming-rate, empty-key backend or active-function-index contract and independent review"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r12-applydamage-stat-review.py",
+      "bytes": 3270,
+      "sha256": "79113efef0a84369a2ebed58260580b63528cbb692492ff745a6360e2de462e5",
+      "role": "R12 selected incoming-rate, empty-key backend or active-function-index contract and independent review"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r12-applydamage-stat-review.json",
+      "bytes": 335,
+      "sha256": "0381a5273e1afa5d5f9e8de763f28bc2fa1b1241c7bd7fbb3d94c1aa6191c373",
+      "role": "R12 selected incoming-rate, empty-key backend or active-function-index contract and independent review"
+    },
+    {
+      "path": "Agents/docs/re/client-applydamage-stat-index.md",
+      "bytes": 7613,
+      "sha256": "9a0d23b0bcced70f1acfe6a75e3b846c81f904db3ed0003c8696c011c3142c7a",
+      "role": "R12 selected incoming-rate, empty-key backend or active-function-index contract and independent review"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r12-applydamage-index-seal.json",
+      "sha256": "90e04a340ad852ada6391d8d1e923b921adccb29b960e21e52d13697d93b4189",
+      "role": "R12 sealed original-byte evidence; actual source-instance and per-hit numerical application remain separate"
+    },
     {
       "path": "Tools/re/out/client-damage-audit/r11-buff-clock-input-final/audit.json",
       "bytes": 325000,

@@ -122,13 +122,19 @@ The suspend/restore lifecycle is explicit LocalExile policy; see protocol/11-ski
   Reuse versioned source-sampling/target-dynamic rules and native duration/faster compensation.
   Existing owner-stat-to-clock subscriptions and source-rate expiry publication remain separate open edges.
   Reuse recovered clock input transport/defaults and partial/replacement asymmetry; later recalculation stays open.
+  Empty Id2 for ignited/poison selects null in the audited startup catalogue, not an implicit default backend.
+  Follow concrete numerical observer/script leads; do not repeat that closed factory/registry question.
   Reuse recovered outgoing ailment coefficients, faster/slower and critical-multiplier branches.
   Reuse complete MH/OH/spell chance builders and the selected defender modifier composition.
   Reuse all twelve named bleeding, 56 ignite and 72 poison rates with their category/critical builders.
   Preserve implicit ignite tincture inputs, poison hand gates, wrapping totals and chaos-only always-output gates.
   Reuse the complete fire self-rate 8180 equation; its primitive source publication remains a separate open edge.
+  Reuse complete physical/chaos self-rates 8179/8183, including transfer gates and the physical post-cap tail.
+  These callbacks consume supplied bleed/ignite/poison rates; primitive instance publication remains open.
   Defender-conditional presence output 9189 groups 37 inputs; bind its numerical use before treating it as a resolver.
   The native cache receiver ABI is established; do not promote untyped offset matches into actual consumers.
+  IsApplyDamageFunctionStat selects guarded active-index maintenance for eleven on-hit side effects.
+  Reuse its typed metadata consumer; actual function execution and numerical hit application remain separate.
   Three concrete Buff Stats subscribers update state/presentation; do not repeat them as clock-refresh candidates.
   Reuse typed ailment permissions, target acquisition gates and ordinary/critical-only chance inputs.
   Connect their real infliction consumers without assuming the chance sums perform a roll or create an instance.

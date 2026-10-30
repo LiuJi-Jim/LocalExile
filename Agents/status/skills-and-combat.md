@@ -724,10 +724,14 @@ and can require explicit recipes.
   Life initialization/transition can gate definition-selected Buff ticks through a retained Buffs component.
   A decoded Life assignment from nonpositive to positive clears that guard and separately resets fractional carry.
   RF backend refresh/removal has art-object outputs; its two tick slots and insertion callback are empty.
+  Ignited/poison empty Id2 misses the selected nonempty startup backend catalogue and retains a null backend.
+  Base Buff lifecycle still notifies observers/scripts; this does not close numerical contribution publication.
   Burning Arrow's named backend lifecycle slots are empty; its incoming-rate publication is still unresolved.
   A named RF template declares an incoming fire-rate magnitude; active instance/target publication stays open.
   Fire self-rate 8180 has a complete signed64/float32 equation, conditional state terms and difficulty selection.
   Separate percentage truncations, Boolean 13574, ignite transfer and the final upper saturation are preserved.
+  Physical/chaos self-rates 8179/8183 have complete 11/13-input equations and complementary bleeding transfer.
+  Rupture, ignite transfer, flask/charge gates and physical post-saturation raw addition retain native order.
   Selected outgoing ailments independently scale base/added/history: bleed 42, ignite 54, poison 18 per minute.
   Faster/slower and critical ailment multipliers have separate rounding and Perfect Agony replacement branches.
   All twelve named MH/OH min/max bleeding rates and their critical/noncritical multiplier builders are recovered.
@@ -746,6 +750,8 @@ and can require explicit recipes.
   Enemy-critical increased input has a component-only cap; actual joint hit-resolver application remains open.
   Defender-conditional presence output 9189 is a 37-input nonzero OR, distinct from numerical hit application.
   Its native cache receiver layout is bound; matching a key offset alone does not identify a numerical consumer.
+  IsApplyDamageFunctionStat has an actual reader maintaining active function indices for eleven on-hit effects.
+  Ordinary startup skips that updater; index maintenance is separate from function execution or damage amounts.
   Virtual faster and combined ailment multiplier inputs preserve attack/weapon/aura/charge qualifications.
   Twelve common DoT multiplier outputs preserve typed/ailment/non-ailment sums and signed integer order.
   Cold divides before its resistance coefficient; chaos multiplies before division, with different rounding.
