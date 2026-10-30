@@ -683,6 +683,15 @@ and can require explicit recipes.
   Ascendancy allocation remains in its separate lifecycle change.
   Code: `HitResistances.cs`, `HitMitigation.cs`, Gateway (`MonsterDamage`).
   Docs: [20](../docs/protocol/20-damage.md) §4.
+- **Client damage research (static, partial).** The client integrates per-minute continuous resource rates.
+  Incoming `0x1b1` assigns absolute pool values; network Stats honor explicit overrides, including zero.
+  Type fallback, native formula registration and conditional update-transaction publication are bound statically.
+  A fire DoT chain has audited taken-as, mitigation, immunity and multiple saturation stages.
+  Registered hit-related damage ranges, accuracy, critical chance and sheet-reference hit chance are identified.
+  Actor result signals close to Render callbacks; independent numerical hit pre-deduction remains unproven.
+  Source-instance aggregation, actor-specific freshness and remaining indirect receivers are still open.
+  This work neither changes server combat nor establishes official-server behavior.
+  See [client damage research and task ledger](../docs/re/client-damage-calculation.md).
 - **Damage model (foundation, with armour/evasion).** A hit is a per-type `DamagePacket`;
   `DamageConversion` handles the game's physical, lightning, cold, fire, chaos order, chained conversion, skill/global
   precedence, the 100% cap and gain-as-extra.

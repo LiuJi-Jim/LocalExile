@@ -128,9 +128,13 @@ held (live, first try). The Gateway sends the class's unarmed weapon (Characters
 | 0x126 | main_hand_attack_speed_+% |
 | 0x146, 0x4d3 | main_hand_base_maximum_attack_distance, main_hand_maximum_attack_distance |
 
-**The server sends final values; the client derives none of them.** Live 2026-10-17 (`dump-stats-object.js`): a skill
-holding `attack_speed_+%` 2000 still swung every ~757 ms and the character panel kept showing 1.2. What the client
-uses:
+**The Gateway sends final values; raw network inputs did not recompute these outputs in the recorded test.**
+Live 2026-10-17 (`dump-stats-object.js`): a skill holding `attack_speed_+%` 2000 still swung every ~757 ms and the
+character panel kept showing 1.2.
+This is not proof that the executable contains no derived-stat formulas.
+The [client damage investigation](../re/client-damage-calculation.md) distinguishes explicit network overrides,
+type fallback and separate native evaluation transactions; actor-specific propagation remains unresolved.
+What the client uses:
 
 - The **swing time** follows the skill's `main_hand_attack_speed_+%` (with the base 833 ms). When it is not sent the
   getter answers **10**: unarmed attacks alternate hands, i.e. count as dual wielding, worth 10% attack speed. So the
@@ -1717,7 +1721,7 @@ ring will require its actual radius rather than this marker. The skill-bar assoc
   `ManaReservationPercent` (permyriad: `5000` = 50%); `SkillCatalog.Reservation` reads them. Standard
   auras reserve 50%, Purity of Fire/Ice/Lightning and Discipline 35%, Heralds 25%; Clarity, Vitality and
   Precision reserve flat amounts at level 1 (34, 28 and 22). No separate table is needed.
-- **The server computes the reserved amount.** The client does not derive it: `PlayerObject` carries it in
+- **The server supplies the reserved amount on this path.** `PlayerObject` carries it in
   the Life component's mana pool (`current, reserved`), and every S→C 0x1b1 mana update must send it too,
   or the client clears it. The amount is PoB's `CalcPerform`: flat and percent reservations are divided by
   `1 + mana reservation efficiency / 100`, the percent is rounded to two decimals per skill, and the total
@@ -1728,7 +1732,8 @@ ring will require its actual radius rather than this marker. The skill-bar assoc
   Purity of Fire/Ice/Lightning 145/146/147, Clarity 155, Vitality 153, Precision 1293) and is sent with
   S→C 0x1c1 with the player as source and the skill id as the source skill. A second cast removes it with
   0x1c2. The buff visual is the row's `BuffVisuals` (the `player_auras/...` EPKs); the server also sends
-   the final stats, because the client derives none of them. The skill-bar indicator uses the buff's separate
+   the final stats; the buff visual alone does not establish raw-to-derived stat propagation.
+   The skill-bar indicator uses the buff's separate
    skill association (0x1c1 flags bit3): **u16 BE ActionTypes HASH16, then u16 BE server skill id**.
    The Gateway sends it for activation and when restoring auras on area entry. Removing the buff removes
    the association. The full action hash comes from GrantedEffects.ActiveSkill → ActiveSkills.ActionType

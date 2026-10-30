@@ -126,6 +126,41 @@ G = global / static data.
 | `0x142f496a0` | G | static initializer table entry (Positioned) |
 | `0x1445bb240`, `0x1445bb6f0`, `0x1445bbe50`, `0x1445bbd60`, `0x1445bb760`, `0x1445bbd10`, `0x1445ba850`, `0x1445bc610` | G | component pools (Positioned, Stats, Pathfinding, Life, Animated, Player, Inventories, Actor) |
 
+### Client damage research
+
+Static evidence, formula boundaries and open tasks are in
+[client damage calculation](../re/client-damage-calculation.md).
+These are client addresses; their presence is not proof of official-server implementation.
+
+| Address | Kind | What |
+|---|---|---|
+| `0x1421c2ad0` / `0x1421c3700` | Fn | Network Stats component / override wrapper construction |
+| `0x14363bd90` / `0x1424cfa40` | Vt / Fn | Wrapper getter table / exact pair including zero, absent-key upstream fallback |
+| `0x1424fc1e0` / `0x142513630` | Fn | Separate raw-stat lookup / derived evaluator registration |
+| `0x142182790` / `0x141e40560` / `0x141e496c0` | Fn | Network Stats type factory / type constructor / shared native stats helper |
+| `0x1424fb790` / `0x14363d3b0` | Fn / Vt | Native stat object constructor / stored-value getter table |
+| `0x1424fd240` / `0x1424fd390` | Fn | Begin/nest / end update transaction; outermost end processes affected evaluations |
+| `0x1424fcc80` / `0x1424fccf8` / `0x1424fcdb3` | Fn / Insn | Evaluation dispatcher / callback call / changed result write |
+| `0x1400ac590` / `0x1426cce60` | Fn | Register / evaluate fire rate 2022 from base rate 2023 |
+| `0x1426d40f0` | Fn | Taken-as-fire rate 9564; saturation before downstream mitigation |
+| `0x1400ad7c0` / `0x1426da000` | Fn | Register / evaluate fire DoT total 3356 |
+| `0x14271a3f0` / `0x14281bd60` | Fn | Fire DoT resistance 17170 / fire ES bypass 9609 |
+| `0x1426e53f0` / `0x1426e7410` / `0x1426e7d60` | Fn | Life bypass sum / ES total / Life total |
+| `0x1426e7670` / `0x1426e7b00` | Fn | Normal / nonlethal ES overflow share to Mana |
+| `0x141e6a190` | Fn | Life tick; conditional Life/ES/Mana continuous integration |
+| `0x141e6ae70` / `0x141e6b480` / `0x141e6cba0` | Fn | Life / ES / Mana continuous pool steps |
+| `0x141e6a6b0` | Fn | Integer/fractional loss reducer; float overflow result in XMM0 |
+| `0x141e6a8a0` / `0x141e6a780` / `0x141e6ae00` | Fn | Life floors / ES overflow routing / Mana overflow routing |
+| `0x141e69fb0` / `0x141e69fd1` | Fn / Insn | Incoming decoded resource setter / current assignment |
+| `0x1421880b7` / `0x1421880cb` / `0x1421880e6` | Insn | World `0x1b1` calls for ES / Mana / Life |
+| `0x142543a80` / `0x1425733e0` | Fn | Main-hand minimum total / physical damage evaluators |
+| `0x142594860` / `0x1425988a0` | Fn | Main-hand physical minimum base / added inputs |
+| `0x1426fb060` / `0x142756600` | Fn | Main-hand accuracy / final critical-chance evaluators |
+| `0x1427854b0` / `0x1424ff510` | Fn | Sheet-reference hit chance / numeric chance helper; not a defender roll |
+| `0x141e90f50` / `0x141e91580` | Fn | `0x1af` Actor feedback consumer / virtual result dispatcher |
+| `0x1415f5d50` | Fn | Registers Render callbacks on source/target Actor result signals |
+| `0x141600c10` / `0x141600aa0` / `0x141609f40` | Fn | Source/false-branch/target Render callbacks; no proved pool pre-deduction |
+
 ### Player Actor scale ([04](04-player-entity.md#41a-player-actor-scale-299))
 
 | Address | Kind | What |

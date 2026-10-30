@@ -32,8 +32,11 @@ The suspend/restore lifecycle is explicit LocalExile policy; see protocol/11-ski
 ### The player's real stats
 
 - **Known:** client stat key = Stats.dat row + 1 ([11](../docs/protocol/11-skills.md) §8); `/set_stat` takes names.
-  The server must send final values (the client derives none): the attack's are computed in
-  `SkillCatalog.Unarmed.Stats`.
+  The server publishes its authoritative final values; the attack's are computed in `SkillCatalog.Unarmed.Stats`.
+  The client has derived-stat evaluators, but its network getter honors explicit overrides, including zero.
+  Omitted keys read type stats; native update transactions can publish derived outputs there.
+  Actor-specific input propagation and freshness across network overrides remain unresolved.
+  See [client damage research](../docs/re/client-damage-calculation.md); do not rely on automatic raw-stat derivation.
   Mana per complete group of final Strength now has native raw-source/gear controls and automated pool coverage.
   Raw-source reservation refresh and clamping have decrypted wire coverage; recheck active auras natively.
   See [Status](../status/skills-and-combat.md) and [11](../docs/protocol/11-skills.md) section 4.
@@ -109,6 +112,15 @@ The suspend/restore lifecycle is explicit LocalExile policy; see protocol/11-ski
 - **Done when:** the timer counts down and protection ends on movement, actions or expiry.
 
 ### Damage model (foundation done, deeper defence next)
+
+- **Client damage research:** recover Hit and DoT calculations before proposing further server mechanics.
+  Continuous resource integration, absolute incoming assignment and the fire DoT formula have static evidence.
+  Resolve source instances into base rates, actor input propagation, typed routing and saturation.
+  For Hit, distinguish panel formulas and Actor feedback from a concrete defender roll and pre-deduction.
+  Trace pool virtual-call receivers; the direct-call negative scan is not an absence proof.
+  Track artifact hashes, exact anchors and evidence boundaries in the
+  [research workbench](../docs/re/client-damage-calculation.md#8-research-workbench-and-completion-criteria).
+  This is static research, not authorization for client execution or a server refactor.
 
 - **Done:** hits are per-type `DamagePacket`s; conversion follows physical, lightning, cold, fire, chaos, including
   chained conversion, the 100% cap and gain-as-extra.
