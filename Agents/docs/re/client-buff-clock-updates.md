@@ -58,8 +58,9 @@ Two other positive update paths must also be kept separate from speed:
 - `+0xc8 → 0x141e0fbc0`, exact seven-byte leaf, writes the supplied byte
   to component `+0x17a`. The duration tick checks this byte under definition
   `+0xfc` at `0x141e105a8..0x141e105b8`. This is a conditional advancement
-  guard, not recalculation of stored speed; its external caller is not bound
-  in this pass.
+  guard, not recalculation of stored speed. The follow-up
+  [Life-to-Buffs producer audit](client-buff-clock-producers.md) binds selected
+  initialization and transition callers; this still does not recalculate speed.
 
 ## A selected instance observer is reference housekeeping
 

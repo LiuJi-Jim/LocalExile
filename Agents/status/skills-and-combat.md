@@ -691,12 +691,15 @@ and can require explicit recipes.
   Typed DoT mitigation, eight resource channels, healing exclusions and multiple cap/overflow stages are audited.
   RF stat-set constants activate FireDot in permitted native objects; outgoing 14408/8198/5981 formulas are bound.
   Both-hand typed/base/added damage, conversion, average/DPS and actual numerical UI readers are statically bound.
+  Three physical-defence estimate callbacks use reference damage, Ward substitution and distinct armour inputs.
+  Their category reader is bound; they are not a concrete-hit mitigation calculation.
   Accuracy, critical chance and sheet-reference hit chance formulas remain distinct from a concrete defender roll.
   Named Fireball spatial contacts/dodge/projectile avoidance and Melee accuracy/entropy decisions are now bound.
   Sand Spitter MonsterMortarAttack has a factory/accuracy/radius-feedback binding and empty source Actor callbacks.
   Its selected effect continuation reaches attachment/render/animation; generic downstream consequences stay open.
   Bow/Wand selection, equipment-to-provider notifications and ordered startup registration winners are bound.
   The winning ranged contact callback consumes queued feedback; extension effects remain separate.
+  Winning extensions reach melee attachments/controller state and generic zero-time projectile dispatch.
   The entropy timer uses selected component simulation deltas and marks lazy re-seeding after 3.0 seconds.
   Actor result queues also drive action/control/knockback effects; numeric hit pre-deduction remains unproven.
   GEAL rejects specific server-only resource/stat/Buff APIs; native Life reads and script listeners are also bound.
@@ -709,8 +712,10 @@ and can require explicit recipes.
   Actual owner Stats initialize poison/bleeding instance clocks, including pause conditions and a general 0.25 floor.
   Initial Entity insertion also uses owner clocks; later wire speed replacement differs from owner-stat refresh.
   Selected Buff observers clear reference holders; they do not establish a Stats-to-existing-clock subscription.
+  Life initialization/transition can gate definition-selected Buff ticks through a retained Buffs component.
   RF backend refresh/removal has art-object outputs; its two tick slots and insertion callback are empty.
   Burning Arrow's named backend lifecycle slots are empty; its incoming-rate publication is still unresolved.
+  A named RF template declares an incoming fire-rate magnitude; active instance/target publication stays open.
   Source-instance aggregation, event consequences and numerical-hit resource receivers remain open.
   Official/community comparisons and PoB formulas are pinned separately from current-server claims.
   This work neither changes server combat nor establishes official-server behavior.

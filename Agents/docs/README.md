@@ -63,6 +63,10 @@ How to regenerate them: [re/tooling.md](re/tooling.md) §7.
 | [re/client-hit-production.md](re/client-hit-production.md) | concrete Fireball/Melee/Sand Spitter contacts, dodge/accuracy/entropy and action-specific continuation boundaries |
 | [re/client-ranged-action-selection.md](re/client-ranged-action-selection.md) | default Bow/Wand action selector, equipment-to-provider updates and startup registration winners |
 | [re/client-buff-clock-updates.md](re/client-buff-clock-updates.md) | insertion clocks, network replacement and ticking versus unresolved owner-stat-driven refresh |
+| [re/client-buff-clock-producers.md](re/client-buff-clock-producers.md) | concrete Life-to-Buffs advancement guard and its separate speed/rate boundaries |
+| [re/client-action-extensions.md](re/client-action-extensions.md) | startup-selected melee attachment/controller output and ranged zero-time projectile dispatch |
+| [re/client-defence-estimates.md](re/client-defence-estimates.md) | reference-damage physical-defence formulas, Ward substitution and category consumers |
+| [re/client-dot-source-publication.md](re/client-dot-source-publication.md) | named RF template magnitude, table fixups and unresolved active instance publication |
 | [re/client-hit-feedback.md](re/client-hit-feedback.md) | immediate/queued result processing, action contexts, interruption, knockback and unresolved event consequences |
 | [re/client-hit-resource-boundary.md](re/client-hit-resource-boundary.md) | component/pool receivers, numerical-hit searches, GEAL client/server eligibility and native resource listeners |
 | [re/client-damage-timing.md](re/client-damage-timing.md) | predictive/lockstep message ordering, component ticks, fractional resource integration and correction boundaries |

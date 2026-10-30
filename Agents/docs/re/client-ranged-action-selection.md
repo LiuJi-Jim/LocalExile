@@ -225,7 +225,9 @@ The winning variant-0 table retains `+0x520 → 0x141c98700`, empty
 However, it changes the follow-on record's `+0x548` from `0x141c999b0` to
 `0x14126ec80`. That wrapper may call extension helper `0x1413c07a0`, then
 applies target eligibility checks before tail-calling `0x141939f40` with its
-Entity ID. The extension helper's effects have not been closed here.
+Entity ID. The [extension follow-up](client-action-extensions.md) binds its
+art selection, target Render, attached object and controller write; the
+delegated lifecycle effects remain a separate boundary.
 Other changed valid slots are `0`, `+0x90`, `+0x458`, `+0x498`, `+0x4a8`
 and `+0x550`; their presence prevents equating the complete old and new actions.
 
@@ -242,8 +244,8 @@ The winning variant-1 table retains the concrete shared paths:
 - Feedback slots `+0x2d0/+0x2d8` remain the empty `0x1400f0f00` leaf.
 
 Its changed `+0x558 → 0x1412df070` first invokes the inherited projectile
-producer `0x141bacf60`, then passes the resulting projectile Entity to extension
-helper `0x1413789e0` with `action+0x520`.
+setup/launch helper `0x141bacf60`, then passes the retained projectile Entity to
+extension helper `0x1413789e0` with `action+0x520`.
 Changed `+0x590 → 0x1412df7c0` only calls `0x141374480` when its input flag is
 false and the resolved source Actor provider's main-hand type is `Bow` (14).
 The latter is the attachment chain bounded in [contact production](client-hit-production.md),
@@ -251,7 +253,10 @@ not a demonstrated numerical damage producer.
 Other changed valid slots are `0`, `+0x20`, `+0xf8`, `+0x140`, `+0x248`
 and `+0x450`; their complete consequences remain outside this pass.
 
-The selected equipment-to-provider setter call is now bound; these extension effects remain open.
+The selected equipment-to-provider setter call is now bound. The
+[extension follow-up](client-action-extensions.md) identifies melee attachment
+outputs and a Bow-only zero-time update of the retained projectile, whose
+concrete component/callback effects remain open.
 The startup-selected default-bow contact continuation is now bound, but its
 audited `+0x530` consumes already queued results. A local numerical hit producer
 or complete Hit-to-resource-loss chain remains Partial.

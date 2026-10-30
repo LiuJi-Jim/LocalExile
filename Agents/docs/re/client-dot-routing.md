@@ -743,7 +743,11 @@ The raw/self-rate callbacks show more local computation than forwarding alone, b
 
 - Named effect/source identity, stacking and snapshot contribution into raw base rates; the network Buff lifecycle
   and insertion-time owner-dependent clock are established separately and do not supply that numeric edge.
+  A [named RF template](client-dot-source-publication.md) declares an incoming fire-rate magnitude, but its
+  active instance/target publication is not bound by the table-reference fixups.
 - Complete owner-stat-change clock refresh and any relationship between expiration speed and damage-rate changes.
+  The [Life-to-Buffs guard](client-buff-clock-producers.md) has concrete initialization/transition producers;
+  conditional duration/callback pausing remains distinct from source-rate removal.
 - Whether those source contributions target each actual network actor's fallback object, and when eligible entries evaluate.
 - Reachable ranges of extreme inputs and whether the native conversion/ordinary-overflow boundary cases occur in play.
 - Exhaustive transitive taken-as percentage producers, every upstream maximum-resistance override, and every self-rate state term.

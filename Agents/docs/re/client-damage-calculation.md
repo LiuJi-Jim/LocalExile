@@ -55,9 +55,13 @@ Detailed supplements keep the evidence reviewable without treating this summary 
 - [Stat objects, inputs, notifications and startup guards](client-stat-evaluation.md).
 - [Typed DoT formulas, resource routes and arithmetic boundaries](client-dot-routing.md).
 - [Buff insertion clocks, network updates and dynamic-refresh boundaries](client-buff-clock-updates.md).
+- [Life-to-Buffs advancement guard and concrete producers](client-buff-clock-producers.md).
+- [Named RF source template and unresolved active publication](client-dot-source-publication.md).
 - [Both-hand offence formulas, conversion, average/DPS and numerical UI consumers](client-offence-estimates.md).
+- [Physical-defence estimates using reference damage, including Ward substitution](client-defence-estimates.md).
 - [Concrete Fireball/Melee contact production, avoidance and entropy](client-hit-production.md).
 - [Default ranged-action selector, equipment inputs and startup registry winners](client-ranged-action-selection.md).
+- [Winning action extensions: attached effects and zero-time projectile updates](client-action-extensions.md).
 - [Hit queues, action contexts and control effects](client-hit-feedback.md).
 - [Hit/resource receiver search and its precise coverage](client-hit-resource-boundary.md).
 - [Predictive/lockstep scheduling and resource correction](client-damage-timing.md).
@@ -74,6 +78,7 @@ flowchart TD
   SKILLDATA[RF stat-set constants] --> RFPARAM[Native parameters / FireDot eligibility]
   RFPARAM --> RFOUT[Conditional outgoing RF area rate]
   RFOUT -. source application / aggregation unresolved .-> RAW
+  TEMPLATE[Named RF template: declared fire-rate magnitude] -. active instance publication unresolved .-> RAW
   SOURCES[DoT sources / effect instances] -. producer unresolved .-> RAW[Base rates per minute]
   RAW --> AS[Damage taken as: typed rates]
   AS --> MIT[Per-type DoT mitigation and immunity]
@@ -103,6 +108,10 @@ flowchart TD
   ACTOR --> CONTROL[Interruption / knockback / action callbacks]
   ACTOR --> EVENT[Event interpreter]
   NOTIFY --> EVENT
+  NOTIFY --> CLOCKGUARD[Selected Life transition: Buffs advancement guard]
+  CLOCKGUARD --> CLOCK[Definition-gated duration / backend tick skip]
+  REFDAMAGE[Character-sheet / monster reference damage] --> DEFEST[Estimated physical reduction: armour or Ward]
+  DEFEST --> CATEGORY[Bound value-to-category reader]
   EVENT -. full script and callable consequences unresolved .-> EFFECTS[Context-dependent effects]
   NATIVE[Registered ClientOnlyKillSelf callable] --> ZERO[Context Life: absolute zero if positive]
   ZERO --> POOL
@@ -534,16 +543,17 @@ No client execution is authorized by this task list.
 | R1 | Network Stats, actor/skill inputs, lookup freshness and native publication | Established | Actual network provider chain, updates/notifications and guarded native boundary audited; [details](client-stat-evaluation.md); subsequent skill update identified as [0x1b4](client-damage-pr373-comparison.md#0x1b4-is-a-skill-stat-update) |
 | R1 | Absolute pool update path | Established | Preserve decoded-field vs wire-offset distinction |
 | R2 | Typed DoT formulas through mitigation | Established locally | All five types and nonlethal branches audited; [asymmetries](client-dot-routing.md) remain explicit |
-| R2 | Source instance → base per-minute rate | Open | Find actual writes/read consumers of base rates; identify source and aggregation policy |
+| R2 | Source instance → base per-minute rate | Open | [Named RF template](client-dot-source-publication.md) declares native 2023 magnitude; active instance/target publisher and selection/aggregation remain unbound |
 | R2 | Outgoing RF parameter/formula chain | Established locally | Native stat-set constants and FireDot eligibility feed 14408 → 8198 → 5981; [details](client-dot-routing.md#outgoing-righteous-fire-formula-bridge); target application remains open |
 | R2 | Typed resource routes and cap boundaries | Established locally | Eight typed/nonlethal/darkness channels, healing/MoM, aggregates and overflow audited; input reachability remains separate |
 | R2 | Buff instance clock and native contribution-container semantics | Established locally | Insertion-time owner clocks, transported speed replacement, infinity defaults and RF/Burning Arrow backend boundaries bound; [existing-instance owner-stat refresh](client-buff-clock-updates.md) and incoming-rate publication remain separate |
 | R3 | Hit panel/offence evaluators | Established locally | Both hands, five types, base/added, conversion, average/DPS and actual network-provider numerical readers audited; [details](client-offence-estimates.md) |
+| R3 | Physical-defence estimates | Established locally | [Three reference-damage formulas](client-defence-estimates.md), Ward substitution, cap/floor/rounding and category reader; concrete-hit mitigation remains separate |
 | R3 | Concrete contact → defender avoidance decision | Established locally | Fireball/Melee and data-bound Sand Spitter MonsterMortarAttack paths audited; [details](client-hit-production.md); selected source Actor callbacks are empty, attachment outputs bound; ordinary bow specialization remains separate |
 | R3 | Default ranged-action selection | Established locally | [Bow/Wand enum test, selected equipment-to-provider updates and startup registry winners](client-ranged-action-selection.md) bound; contact continuation consumes queued results; extension effects and numerical damage remain separate |
 | R3 | Accepted hit → numerical pre-deduction | Open | Connect established contact/avoidance to amount, critical, mitigation and typed pool receivers; inspected continuations consume existing feedback or have empty slots |
 | R3 | Hit packet → callbacks | Partial | Queue/control, named actions, secondary-action ID producer, GEAL and resource compiler bound; selected player/Sand Spitter files supply no custom-event handler; other configurations/consequences remain open |
-| R4 | Timing, freshness and correction policy | Partial | Scheduling, pool notifications, transition-specific carry reset and entropy expiry established; Buff ticking/removal traced separately; source-rate and event/listener effects remain open |
+| R4 | Timing, freshness and correction policy | Partial | Scheduling, pool notifications, carry reset, entropy expiry and [Life-to-Buffs advancement guard](client-buff-clock-producers.md) established; existing-instance speed refresh, source-rate expiry and event/listener effects remain open |
 | R4 | Official/community comparisons | Established comparison | [Pinned sources](client-damage-comparisons.md) distinguish historical explanations, wiki synthesis and PoB; current server equivalence is unproven |
 | R4 | PR #373 intermediate findings | Established comparison | [Pinned report and static cross-checks](client-damage-pr373-comparison.md); private capture counts/timestamps remain reported observations, not independently verified traffic |
 

@@ -122,8 +122,12 @@ The suspend/restore lifecycle is explicit LocalExile policy; see protocol/11-ski
   Concrete Fireball/Melee contact and avoidance decisions are bound separately from panel formulas and feedback.
   Bow/Wand specialization, equipment-to-setter updates and startup registry winners are bound.
   Trace winning action extensions beyond inherited contacts and queued feedback to their numerical consequences.
+  Melee attachment/controller outputs and ranged zero-time dispatch are bound; type its actual callback receivers.
   Selected Sand Spitter source Actor callbacks and attachment outputs are bound separately.
   Owner-dependent Buff clocks are bound at insertion; trace later stat-change refresh separately from damage rate.
+  Life-to-Buffs advancement guards are bound; trace the paired clear trigger and source-rate consequences.
+  A named RF template declares a rate input; connect its actual instance and target to native publication.
+  Keep reference-damage defence estimates separate from accepted-hit mitigation and resource loss.
   Connect accepted contacts to numerical damage/critical/mitigation and pool receivers; these edges remain open.
   Follow other event configurations beyond GEAL/native listeners; selected player/Sand Spitter files have no handler.
   Reuse the pinned PR #373 comparison: `0x1b4` is a skill-stat update; private capture claims need source records.

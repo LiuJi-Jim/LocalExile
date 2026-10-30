@@ -3081,6 +3081,54 @@
       ],
       "selectedDecompilationCompleted": null
     },
+    "0x1400c1c80": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1400c1c80",
+          "endExclusive": "0x1400c1cf1",
+          "bytes": 113,
+          "fileOffset": 790656,
+          "sha256": "1c96eb0d46a3f72731708fce1be34b7f245374c3d4181563a71877b15abcd5c3"
+        }
+      ],
+      "sourceBatches": [
+        "r3-defence-estimate-formulas"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x1400c1d00": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1400c1d00",
+          "endExclusive": "0x1400c1d6b",
+          "bytes": 107,
+          "fileOffset": 790784,
+          "sha256": "872c4d2d3f59ae49a4e93177fb6f0666bfaebd9513bfedc959b0c6d557ef4915"
+        }
+      ],
+      "sourceBatches": [
+        "r3-defence-estimate-formulas"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x1400c1d70": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1400c1d70",
+          "endExclusive": "0x1400c1ddb",
+          "bytes": 107,
+          "fileOffset": 790896,
+          "sha256": "02fd3161696b3998e7d3b66aad4e3440c1f080c55a568604f79720fdb4389999"
+        }
+      ],
+      "sourceBatches": [
+        "r3-defence-estimate-formulas"
+      ],
+      "selectedDecompilationCompleted": null
+    },
     "0x1400c1ea0": {
       "boundary": "PE-unwind-root-and-chains",
       "ranges": [
@@ -4206,6 +4254,22 @@
       ],
       "selectedDecompilationCompleted": null
     },
+    "0x140293f40": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x140293f40",
+          "endExclusive": "0x1402940f3",
+          "bytes": 435,
+          "fileOffset": 2700096,
+          "sha256": "d61f96bfb5fdb3017902798d54f3d60be8d9a7611e34114223e6ba993940293d"
+        }
+      ],
+      "sourceBatches": [
+        "r3-defence-estimate-formulas"
+      ],
+      "selectedDecompilationCompleted": null
+    },
     "0x1402943c0": {
       "boundary": "PE-unwind-root-and-chains",
       "ranges": [
@@ -4677,6 +4741,22 @@
       ],
       "selectedDecompilationCompleted": true
     },
+    "0x140cbf280": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x140cbf280",
+          "endExclusive": "0x140cbf2ed",
+          "bytes": 109,
+          "fileOffset": 13362816,
+          "sha256": "bc2a8f95aeae8c3b35f80c0bd65666aa4632b7e6fc8a792951de0b56cbbd680d"
+        }
+      ],
+      "sourceBatches": [
+        "r3-action-extensions-attachment"
+      ],
+      "selectedDecompilationCompleted": null
+    },
     "0x140cea0a8": {
       "boundary": "explicit-analyst-leaf-range",
       "ranges": [
@@ -4706,6 +4786,38 @@
       ],
       "sourceBatches": [
         "r3-weapon-provider-equipment-notify"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x140d1fa30": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x140d1fa30",
+          "endExclusive": "0x140d1fa9f",
+          "bytes": 111,
+          "fileOffset": 13758000,
+          "sha256": "545e340c396e1a7fd1d1a0c65a666608dfe13730b8876bb04fa062d8b5576dc7"
+        }
+      ],
+      "sourceBatches": [
+        "r3-action-extensions-attachment"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x140d235f0": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x140d235f0",
+          "endExclusive": "0x140d23707",
+          "bytes": 279,
+          "fileOffset": 13773296,
+          "sha256": "c04b7792aeb7a47073dd01b537956635803747a02ca2ca4f615c9e5ba33d8596"
+        }
+      ],
+      "sourceBatches": [
+        "r3-action-extensions-attachment"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -5791,6 +5903,22 @@
       ],
       "selectedDecompilationCompleted": null
     },
+    "0x141604040": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x141604040",
+          "endExclusive": "0x1416041c5",
+          "bytes": 389,
+          "fileOffset": 23082048,
+          "sha256": "820a67362dc8682285692cba381ad2891ec0c319f7e092640ce8a436ff16c8f9"
+        }
+      ],
+      "sourceBatches": [
+        "r3-action-extensions-attachment"
+      ],
+      "selectedDecompilationCompleted": null
+    },
     "0x141604300": {
       "boundary": "PE-unwind-root-and-chains",
       "ranges": [
@@ -6299,6 +6427,22 @@
       ],
       "selectedDecompilationCompleted": null
     },
+    "0x141818530": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x141818530",
+          "endExclusive": "0x14181856b",
+          "bytes": 59,
+          "fileOffset": 25262384,
+          "sha256": "6d4fc9c47bfcf0d30b7b98cb4cc7c520f480ddfc268f19b4a542780606997181"
+        }
+      ],
+      "sourceBatches": [
+        "r4-buff-clock-producers-reset-candidate"
+      ],
+      "selectedDecompilationCompleted": null
+    },
     "0x141819ed0": {
       "boundary": "PE-unwind-root-and-chains",
       "ranges": [
@@ -6311,7 +6455,52 @@
         }
       ],
       "sourceBatches": [
+        "r4-buff-clock-producers-life-guard",
         "r4-client-selfkill-invoke"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x141831620": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x141831620",
+          "endExclusive": "0x141831640",
+          "bytes": 32,
+          "fileOffset": 25365024,
+          "sha256": "d78f8b3fe34c994e7aafbab49860bf0b32b36f047aba6eace2f2ca419068f975"
+        },
+        {
+          "start": "0x141831640",
+          "endExclusive": "0x14183167a",
+          "bytes": 58,
+          "fileOffset": 25365056,
+          "sha256": "169cad8fea3e090bc9e3ec754dd348c6c423b6df1738e761ab17c7ce695ab912"
+        },
+        {
+          "start": "0x14183167a",
+          "endExclusive": "0x141831704",
+          "bytes": 138,
+          "fileOffset": 25365114,
+          "sha256": "47cdb37ac64b9186e34bb8b265a3c91b24fe49e7259744fb2620210ec63056bf"
+        },
+        {
+          "start": "0x141831704",
+          "endExclusive": "0x14183175a",
+          "bytes": 86,
+          "fileOffset": 25365252,
+          "sha256": "02504c6d21e299b16fa6db2df018c0647f221e20ea19b39eb069b6e7a02b8bfd"
+        },
+        {
+          "start": "0x14183175a",
+          "endExclusive": "0x14183177e",
+          "bytes": 36,
+          "fileOffset": 25365338,
+          "sha256": "d1d961f682cbc63d54fe2678a090c07e4403a9b29f2d1c5a941e64f8b8bf81f5"
+        }
+      ],
+      "sourceBatches": [
+        "r4-buff-clock-producers-reset-candidate"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -7029,6 +7218,22 @@
       ],
       "selectedDecompilationCompleted": null
     },
+    "0x141989800": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x141989800",
+          "endExclusive": "0x141989933",
+          "bytes": 307,
+          "fileOffset": 26774528,
+          "sha256": "0b4c4ba351ba4acb78bccc0a21a93f5e005830d0d530656d94675ee5f3c3b732"
+        }
+      ],
+      "sourceBatches": [
+        "r2-dot-publication-template-discovery"
+      ],
+      "selectedDecompilationCompleted": null
+    },
     "0x141991bc0": {
       "boundary": "PE-unwind-root-and-chains",
       "ranges": [
@@ -7554,6 +7759,22 @@
       ],
       "sourceBatches": [
         "r2-source-builder-bodies"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x141ad2fa0": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x141ad2fa0",
+          "endExclusive": "0x141ad32ec",
+          "bytes": 844,
+          "fileOffset": 28124064,
+          "sha256": "0a38ba10e6ad0f0d20629110079ed8de9fb3e87cb9dbc56dc1e11ade52245cd2"
+        }
+      ],
+      "sourceBatches": [
+        "r2-dot-publication-template-discovery"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -9238,6 +9459,7 @@
         }
       ],
       "sourceBatches": [
+        "r3-action-extensions-attachment",
         "r3-pr373-mortar-attachments"
       ],
       "selectedDecompilationCompleted": null
@@ -10066,6 +10288,7 @@
         }
       ],
       "sourceBatches": [
+        "r4-buff-clock-producers-life-guard",
         "r4-buff-clock-update-callbacks"
       ],
       "selectedDecompilationCompleted": null
@@ -10132,7 +10355,8 @@
       ],
       "sourceBatches": [
         "r2-buff-network",
-        "r2-buff-timewarp-v2"
+        "r2-buff-timewarp-v2",
+        "r4-buff-clock-producers-life-guard"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -10774,6 +10998,36 @@
       ],
       "selectedDecompilationCompleted": null
     },
+    "0x141e57c30": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x141e57c30",
+          "endExclusive": "0x141e57c63",
+          "bytes": 51,
+          "fileOffset": 31813680,
+          "sha256": "3c8e5336da07a12809e163d23df5566f6c2615701b66be1b7d7e7bf9fab995f1"
+        },
+        {
+          "start": "0x141e57c63",
+          "endExclusive": "0x141e57dca",
+          "bytes": 359,
+          "fileOffset": 31813731,
+          "sha256": "a76f0d6b3beef2a8199be8d1583b6a2767ad7b1576781dc57103248459a59b6c"
+        },
+        {
+          "start": "0x141e57dca",
+          "endExclusive": "0x141e57dda",
+          "bytes": 16,
+          "fileOffset": 31814090,
+          "sha256": "6017a91041747b000529e889fe074d61b9805621e539aff28a84d427a18401c3"
+        }
+      ],
+      "sourceBatches": [
+        "r4-buff-clock-producers-reset-candidate"
+      ],
+      "selectedDecompilationCompleted": null
+    },
     "0x141e61010": {
       "boundary": "PE-unwind-root-and-chains",
       "ranges": [
@@ -10860,7 +11114,8 @@
         }
       ],
       "sourceBatches": [
-        "r2-grants-global-bodies"
+        "r2-grants-global-bodies",
+        "r4-buff-clock-producers-life-guard"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -10877,9 +11132,27 @@
       ],
       "sourceBatches": [
         "life-and-stat-binding",
-        "r3-loss-receiver-boundary"
+        "r3-loss-receiver-boundary",
+        "r4-buff-clock-producers-discovery",
+        "r4-buff-clock-producers-life-guard"
       ],
       "selectedDecompilationCompleted": true
+    },
+    "0x141e67b40": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x141e67b40",
+          "endExclusive": "0x141e68238",
+          "bytes": 1784,
+          "fileOffset": 31878976,
+          "sha256": "01d5604cff8b1855b9cd56dae631009fa6c968d3e57590c589ad0752c2aa0470"
+        }
+      ],
+      "sourceBatches": [
+        "r4-buff-clock-producers-transition-search"
+      ],
+      "selectedDecompilationCompleted": null
     },
     "0x141e684b0": {
       "boundary": "explicit-analyst-leaf-range",
@@ -11156,7 +11429,8 @@
       ],
       "sourceBatches": [
         "life-and-stat-binding",
-        "r3-loss-receiver-boundary"
+        "r3-loss-receiver-boundary",
+        "r4-buff-clock-producers-transition-search"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -11320,6 +11594,8 @@
       ],
       "sourceBatches": [
         "r3-hit-target-and-life",
+        "r4-buff-clock-producers-discovery",
+        "r4-buff-clock-producers-life-guard",
         "r4-life-death-assignment"
       ],
       "selectedDecompilationCompleted": true
@@ -11337,6 +11613,8 @@
       ],
       "sourceBatches": [
         "r3-hit-target-and-life",
+        "r4-buff-clock-producers-discovery",
+        "r4-buff-clock-producers-life-guard",
         "r4-life-death-assignment"
       ],
       "selectedDecompilationCompleted": true
@@ -13791,6 +14069,22 @@
       ],
       "selectedDecompilationCompleted": null
     },
+    "0x142239940": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x142239940",
+          "endExclusive": "0x1422399db",
+          "bytes": 155,
+          "fileOffset": 35884352,
+          "sha256": "e0140120c7b8a36067706aa757bc1985f6a2848e23f6c6cb7952ddc9765a1b21"
+        }
+      ],
+      "sourceBatches": [
+        "r2-dot-publication-template-discovery"
+      ],
+      "selectedDecompilationCompleted": null
+    },
     "0x142290090": {
       "boundary": "PE-unwind-root-and-chains",
       "ranges": [
@@ -13806,6 +14100,86 @@
         "r1-active-context"
       ],
       "selectedDecompilationCompleted": true
+    },
+    "0x1422b3ab0": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1422b3ab0",
+          "endExclusive": "0x1422b4a53",
+          "bytes": 4003,
+          "fileOffset": 36384432,
+          "sha256": "c22accfcb9af829557810f570985f1da47faffd5b36c6803dce0870023d84dc9"
+        }
+      ],
+      "sourceBatches": [
+        "r2-dot-publication-template-accessors"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x1422daea0": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1422daea0",
+          "endExclusive": "0x1422db8b2",
+          "bytes": 2578,
+          "fileOffset": 36545184,
+          "sha256": "ed25b28d366fa33d038d108d9af2c65f8b29b5d2863ddbc789b7194784fa35a1"
+        }
+      ],
+      "sourceBatches": [
+        "r2-dot-publication-template-accessors"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x1423280c0": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1423280c0",
+          "endExclusive": "0x1423288ad",
+          "bytes": 2029,
+          "fileOffset": 36861120,
+          "sha256": "c12219d5fab235da91e084ce183ec618b58b0c418f38d440f7599017ae9270bf"
+        }
+      ],
+      "sourceBatches": [
+        "r2-dot-publication-template-accessors"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x142366980": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x142366980",
+          "endExclusive": "0x142366fd3",
+          "bytes": 1619,
+          "fileOffset": 37117312,
+          "sha256": "0f7026a6c3729ae29e9516fb96b97a728a842cf381997db87464076139791577"
+        }
+      ],
+      "sourceBatches": [
+        "r2-dot-publication-template-accessors"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x1423b88d0": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1423b88d0",
+          "endExclusive": "0x1423b8ad1",
+          "bytes": 513,
+          "fileOffset": 37453008,
+          "sha256": "0c6191717fcf83b2660135568b2db8159713f64bf6f2d5f28d32dd9067035aab"
+        }
+      ],
+      "sourceBatches": [
+        "r2-dot-publication-template-accessors"
+      ],
+      "selectedDecompilationCompleted": null
     },
     "0x1423f1bb0": {
       "boundary": "PE-unwind-root-and-chains",
@@ -13980,6 +14354,22 @@
       ],
       "sourceBatches": [
         "r3-event-program-resource-link"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x1424980a0": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1424980a0",
+          "endExclusive": "0x14249c9ab",
+          "bytes": 18699,
+          "fileOffset": 38368416,
+          "sha256": "dd4288b972cf0c26514183252867a692ea01d0eeaf6d5462648763f6b677a8a6"
+        }
+      ],
+      "sourceBatches": [
+        "r3-defence-estimate-formulas"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -19031,6 +19421,110 @@
       ],
       "selectedDecompilationCompleted": true
     },
+    "0x142788580": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x142788580",
+          "endExclusive": "0x142788e47",
+          "bytes": 2247,
+          "fileOffset": 41449856,
+          "sha256": "41e3015e90bfbd9b1ee6afd270d0de4e2255f96280e807076c40f610946422b5"
+        }
+      ],
+      "sourceBatches": [
+        "r3-defence-estimate-formulas"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x142788e50": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x142788e50",
+          "endExclusive": "0x142788e73",
+          "bytes": 35,
+          "fileOffset": 41452112,
+          "sha256": "c3c691760b6b0e6a7f62481d8fdc869cc6fbe0f8717f41e80151775c166e0a20"
+        },
+        {
+          "start": "0x142788e73",
+          "endExclusive": "0x142788e8e",
+          "bytes": 27,
+          "fileOffset": 41452147,
+          "sha256": "fdf5a7fe88936667ef019b7a303bddd625589ddb73aa26fb9a02d031636a8558"
+        },
+        {
+          "start": "0x142788e8e",
+          "endExclusive": "0x14278932f",
+          "bytes": 1185,
+          "fileOffset": 41452174,
+          "sha256": "05c056554955e7c9103011d1808ad416802f57b567be1225c067cbd4292ec631"
+        },
+        {
+          "start": "0x14278932f",
+          "endExclusive": "0x14278939f",
+          "bytes": 112,
+          "fileOffset": 41453359,
+          "sha256": "90f8d523fe96c23b54d434eb63704e47309b67fe5c1c688dc2e325c10f38d85c"
+        },
+        {
+          "start": "0x14278939f",
+          "endExclusive": "0x1427893cb",
+          "bytes": 44,
+          "fileOffset": 41453471,
+          "sha256": "662e51947ed0d5d858f8cfbdf628f6f18bbf0f02a11f34623f090e46c0f47090"
+        }
+      ],
+      "sourceBatches": [
+        "r3-defence-estimate-formulas"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x1427893d0": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1427893d0",
+          "endExclusive": "0x1427893f3",
+          "bytes": 35,
+          "fileOffset": 41453520,
+          "sha256": "9e0c2f83c326463ace463f4e247e0953ba78ffea12d1544fdf690b9f91f9d6ce"
+        },
+        {
+          "start": "0x1427893f3",
+          "endExclusive": "0x14278940e",
+          "bytes": 27,
+          "fileOffset": 41453555,
+          "sha256": "fdf5a7fe88936667ef019b7a303bddd625589ddb73aa26fb9a02d031636a8558"
+        },
+        {
+          "start": "0x14278940e",
+          "endExclusive": "0x1427898ae",
+          "bytes": 1184,
+          "fileOffset": 41453582,
+          "sha256": "18b44f6fb4f7a9a4304ff76db3b8bdd06e5489a0ae614ab2aae74630f60a9784"
+        },
+        {
+          "start": "0x1427898ae",
+          "endExclusive": "0x14278991e",
+          "bytes": 112,
+          "fileOffset": 41454766,
+          "sha256": "eb7af9b81ff8b9ee6880235e06695fb01cb6622d4ca7405971dd7f3c17d1d6b5"
+        },
+        {
+          "start": "0x14278991e",
+          "endExclusive": "0x14278994a",
+          "bytes": 44,
+          "fileOffset": 41454878,
+          "sha256": "e24b3cb5f2fd06319b895c51170a5a21c6dcf0db2f6d18c229fb5cbd9c6db804"
+        }
+      ],
+      "sourceBatches": [
+        "r3-defence-estimate-formulas"
+      ],
+      "selectedDecompilationCompleted": null
+    },
     "0x142789fd0": {
       "boundary": "PE-unwind-root-and-chains",
       "ranges": [
@@ -20014,6 +20508,16 @@
       "functionCount": 2
     },
     {
+      "name": "r2-dot-publication-template-accessors",
+      "auditSha256": "e261ef163353d999af061ef8cafa85f93599fe1de234d168bc5bc708847b96a0",
+      "functionCount": 5
+    },
+    {
+      "name": "r2-dot-publication-template-discovery",
+      "auditSha256": "65b979387d2e1ea00a724750ab4be634b823a7122593fbb59af5a74e08667ceb",
+      "functionCount": 3
+    },
+    {
       "name": "r2-dynamic-source-candidates",
       "auditSha256": "a3df9d793b5fc93474d2c034c70bfe423b4d1905cb1cfe7e122ce08f991a66e2",
       "functionCount": 5
@@ -20144,6 +20648,11 @@
       "functionCount": 191
     },
     {
+      "name": "r3-action-extensions-attachment",
+      "auditSha256": "4002658fef1973cfe4f131e5e6675d36c88f1190f00d78d0a08318cc81c21fe9",
+      "functionCount": 5
+    },
+    {
       "name": "r3-action-extensions-consequences",
       "auditSha256": "cb9641f1617ee56c7d458a2b8884e97c2f6d362736fbecf0eeb41e8c65ca0028",
       "functionCount": 7
@@ -20257,6 +20766,11 @@
       "name": "r3-default-bow-startup-winner",
       "auditSha256": "5064bc26ffb97702a752f7267813bad207d3fda3cb6a8b7c4396437f578a74e1",
       "functionCount": 7
+    },
+    {
+      "name": "r3-defence-estimate-formulas",
+      "auditSha256": "ba5f93019243cc0eda55e9acd0836611c74c9636a1acbb2014bb4550867f3d49",
+      "functionCount": 8
     },
     {
       "name": "r3-event-archive-loader",
@@ -20587,6 +21101,26 @@
       "name": "r4-buff-clock-observer-dispatch",
       "auditSha256": "0dfad684be45212ab65bc2e6adbac1bd59de411309878dbe1c8ddca6bed92be3",
       "functionCount": 4
+    },
+    {
+      "name": "r4-buff-clock-producers-discovery",
+      "auditSha256": "76784ea2f19f0dcb6390f7e56e3ab1e694053d4d96515c32407eb0c413b580b2",
+      "functionCount": 3
+    },
+    {
+      "name": "r4-buff-clock-producers-life-guard",
+      "auditSha256": "b0265f2a18dd476d79505bb109f643a07704986f5187e0f391dd356eacfe074d",
+      "functionCount": 7
+    },
+    {
+      "name": "r4-buff-clock-producers-reset-candidate",
+      "auditSha256": "7c0b111d01a7141a11cd3ae879a072d81e9c074150a457d64f83bf82cdae4b26",
+      "functionCount": 3
+    },
+    {
+      "name": "r4-buff-clock-producers-transition-search",
+      "auditSha256": "a84b52b200931129dc11fae4969c15372d7661e5f5e81736b68efc1760d7bc82",
+      "functionCount": 2
     },
     {
       "name": "r4-buff-clock-update-callbacks",
@@ -21777,6 +22311,14 @@
       "fileOffset": 49922440,
       "sha256": "d2a0bd1b8866a5634e06080f612d558024488daed1d5c67b3063c0e65ee266d5",
       "role": "Selected source Actor empty callback or concrete action animation getter; see contact supplement"
+    },
+    {
+      "table": "0x1435a7340",
+      "offset": "0x8",
+      "target": "0x141e67b40",
+      "fileOffset": 56256328,
+      "sha256": "8561dfea31b2c0183901fffe35c12248221b5ccc849b54ccdb5e3e0bcb73bed6",
+      "role": "Selected source Actor empty callback or concrete action animation getter; see contact supplement"
     }
   ],
   "scanCoverage": {
@@ -21811,12 +22353,12 @@
     }
   ],
   "verification": {
-    "entryCount": 1002,
-    "originalByteRangeCount": 1491,
+    "entryCount": 1026,
+    "originalByteRangeCount": 1529,
     "historicalBoundedThunkEntries": 4,
-    "pointerSlotCount": 131,
+    "pointerSlotCount": 132,
     "selectedDecompilationRecords": 514,
-    "checkedReferenceInstructions": 11255,
+    "checkedReferenceInstructions": 13283,
     "decompilationFailures": [],
     "scope": "Original ranges/offsets, unwind ownership or explicit boundaries, stat identity, reference instructions and pointer-slot contents revalidated offline."
   },
@@ -21952,6 +22494,30 @@
       "role": "Named BurningArrowDebuff registry/factory/backend lifecycle and bounded empty callbacks"
     },
     {
+      "path": "Tools/re/out/client-damage-audit/r3-action-extensions-verify.json",
+      "bytes": 8260,
+      "sha256": "7d37d028d0ccffc6733a92ef147d10f6503a015ad8f5ff87bb2348d44e6d712a",
+      "role": "Startup-selected melee art/attachment/controller chain and ranged zero-time dispatch; generic receivers remain open"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r3-defence-estimate-verify.json",
+      "bytes": 9271,
+      "sha256": "24fd4d9fb0df63509a463ef9fc5958416b6375d8ae3a90b01c34f9cae4adccd0",
+      "role": "Three physical-defence reference-damage callbacks, Ward/armour inputs and category consumer; not actual-hit mitigation"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r4-buff-clock-producers-verify.json",
+      "bytes": 7660,
+      "sha256": "9ac49fdaa03639cb675bcd47bd4f72a723bd7b1eb2aa12ba21e43555cafeb411",
+      "role": "Concrete Life configuration/transition to Buffs advancement guard; separate from speed/rate recalculation"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r2-dot-publication-template-discovery/verification.json",
+      "bytes": 2247,
+      "sha256": "1177c0bee76324af913ebe3e8c2749f9986daac286555fabb15df2fd66b54bb5",
+      "role": "Named RF template declared magnitude, native table fixups and bounded selected-resource identities; active publisher unresolved"
+    },
+    {
       "path": "Tools/re/out/client-damage-audit/r3-default-bow-type-enum.json",
       "bytes": 10646,
       "sha256": "9211a3b558098e5cfea34d41e5cf83da60c0f5f1f55318a7456c14d738bcea4f",
@@ -22040,6 +22606,24 @@
       "bytes": 817289,
       "sha256": "d1d8512e3ba6ae0b37efb400b447879621f50e15689fcd2e5b07582ddf260c06",
       "role": "Current bundle index object-type path inventory; not runtime-loaded resource identity"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r2-dot-publication-resources/metadata_monsters_leagueexpedition_olroth_objects_olrothcrackedground.ot",
+      "bytes": 570,
+      "sha256": "2120b6dea7ee13fff79546b7220aca6889fa68a15b8f953ef90b14df3f2a617b",
+      "role": "Ignored selected Olroth source member; not whole-archive identity or active damage publication"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r2-dot-publication-resources/metadata_monsters_leagueexpedition_olroth_objects_olrothrifitotem.ot",
+      "bytes": 5952,
+      "sha256": "56952f7aba1d9038b09dd84e417481ffee780b6be6da40ce768388bec5b1330a",
+      "role": "Ignored selected Olroth source member; not whole-archive identity or active damage publication"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r2-dot-publication-resources/metadata_monsters_leagueexpedition_olroth_olroth.ot",
+      "bytes": 11222,
+      "sha256": "68dce85ce8200e42fa4801c11a2e1161fe9e25b78617b73b14bcb1109a7ac189",
+      "role": "Ignored selected Olroth source member; not whole-archive identity or active damage publication"
     }
   ],
   "auxiliaryDataTables": [
@@ -22087,6 +22671,16 @@
       "path": "data/tables/MiscAnimated.json",
       "sha256": "27ac63a16834eceead97b015a74ddb36ace3a7561f222b060aa4738a1266d9b3",
       "rows": 8265
+    },
+    {
+      "path": "data/tables/BuffTemplates.json",
+      "sha256": "dfbe8d998a1384f19d69c66c092cf507a24d7d24562b385d0540b5cb1a2b6a50",
+      "rows": 811
+    },
+    {
+      "path": "data/tables/BuffDefinitions.json",
+      "sha256": "3a23c6fdf7ba29fb8508e5c9560a44e5292345e45dd2f886ef7126b8427fd659",
+      "rows": 2814
     }
   ],
   "comparisonSources": [
