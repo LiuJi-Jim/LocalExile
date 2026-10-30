@@ -134,6 +134,9 @@ These are client addresses; their presence is not proof of official-server imple
 
 | Address | Kind | What |
 |---|---|---|
+| `0x140826070` / `0x140ad5f30` | Fn | Numerical skill average/DPS readers: context-zero provider, keys 2144/2044/679, formatted text assignment |
+| `0x1425733e0` / `0x1425926c0` | Fn | First/last of the audited twenty both-hand typed min/max offence callbacks; see offence supplement |
+| `0x141d1e400` / `0x142513810` | Fn / Leaf | Percent float helper / signed half-away-from-zero conversion; verified signatures matter to decompilation |
 | `0x1421c2ad0` / `0x1421c3700` | Fn | Network Stats component / override wrapper construction |
 | `0x14363bd90` / `0x1424cfa40` | Vt / Fn | Wrapper getter table / exact pair including zero, absent-key upstream fallback |
 | `0x1424fc1e0` / `0x142513630` | Fn | Separate raw-stat lookup / derived evaluator registration |
@@ -141,10 +144,17 @@ These are client addresses; their presence is not proof of official-server imple
 | `0x1424fb790` / `0x14363d3b0` | Fn / Vt | Native stat object constructor / stored-value getter table |
 | `0x1424fd240` / `0x1424fd390` | Fn | Begin/nest / end update transaction; outermost end processes affected evaluations |
 | `0x1424fcc80` / `0x1424fccf8` / `0x1424fcdb3` | Fn / Insn | Evaluation dispatcher / callback call / changed result write |
+| `0x142196ce0` / `0x141ee73d0` / `0x141ee7e70` | Fn | Network skill record construction / retained override providers / context accessor |
+| `0x1424cfc00` / `0x1424cfd00` | Fn | Inherited-key notification masking/forwarding / listener dispatch; separate from native derived evaluation |
+| `0x141ee8ef0` / `0x141ee9043` / `0x141ee9071` | Fn / Insn | Native skill-data producer / unchanged BaseMultiplier contribution / divided DamageEffectiveness contribution |
+| `0x140101e50` / `0x1445b38cd` / `0x14193bebc` | Insn / G / Insn | Successful startup sets guard / flag / guarded native action-context builder |
 | `0x1400ac590` / `0x1426cce60` | Fn | Register / evaluate fire rate 2022 from base rate 2023 |
 | `0x1426d40f0` | Fn | Taken-as-fire rate 9564; saturation before downstream mitigation |
 | `0x1400ad7c0` / `0x1426da000` | Fn | Register / evaluate fire DoT total 3356 |
 | `0x14271a3f0` / `0x14281bd60` | Fn | Fire DoT resistance 17170 / fire ES bypass 9609 |
+| `0x1426db5c0` / `0x1426dc1b0` / `0x1426dcdb0` | Fn | Cold / lightning / chaos DoT mitigation; distinct resistance/guard rules |
+| `0x1426dea90` / `0x1426df790` / `0x1426e2c70` | Fn | Physical/fire bypass split / chaos ES split; rounding without upper float saturation |
+| `0x1426cc330` / `0x1426ccf50` / `0x1426cfa50` | Fn | Physical / fire / chaos unaffected self-rate formulas; instance producers remain separate |
 | `0x1426e53f0` / `0x1426e7410` / `0x1426e7d60` | Fn | Life bypass sum / ES total / Life total |
 | `0x1426e7670` / `0x1426e7b00` | Fn | Normal / nonlethal ES overflow share to Mana |
 | `0x141e6a190` | Fn | Life tick; conditional Life/ES/Mana continuous integration |
@@ -152,12 +162,20 @@ These are client addresses; their presence is not proof of official-server imple
 | `0x141e6a6b0` | Fn | Integer/fractional loss reducer; float overflow result in XMM0 |
 | `0x141e6a8a0` / `0x141e6a780` / `0x141e6ae00` | Fn | Life floors / ES overflow routing / Mana overflow routing |
 | `0x141e69fb0` / `0x141e69fd1` | Fn / Insn | Incoming decoded resource setter / current assignment |
+| `0x141e684b0` | Leaf | Assignment change notification: marks Life `+0x268` dirty |
+| `0x141e6a0a0` / `0x141e6a110` | Fn | Guarded full/empty ES notifications after pool changes |
+| `0x141e6bcb0` / `0x141e6bd30` / `0x141e6bd80` | Fn | Life/Mana/ES loss notifications, ES-protects-Mana routing and event boundary |
+| `0x141e6bde0` / `0x14015a670` | Fn / Leaf | Conditional recharge-delay update / positive-infinity return |
 | `0x1421880b7` / `0x1421880cb` / `0x1421880e6` | Insn | World `0x1b1` calls for ES / Mana / Life |
 | `0x142543a80` / `0x1425733e0` | Fn | Main-hand minimum total / physical damage evaluators |
 | `0x142594860` / `0x1425988a0` | Fn | Main-hand physical minimum base / added inputs |
 | `0x1426fb060` / `0x142756600` | Fn | Main-hand accuracy / final critical-chance evaluators |
 | `0x1427854b0` / `0x1424ff510` | Fn | Sheet-reference hit chance / numeric chance helper; not a defender roll |
 | `0x141e90f50` / `0x141e91580` | Fn | `0x1af` Actor feedback consumer / virtual result dispatcher |
+| `0x141939f40` / `0x14193a170` / `0x141e91330` | Fn | Retrieve queued action result / phase range processing / filter and dispatch |
+| `0x141e96630` / `0x141e95e60` / `0x141e96790` | Fn | Target control/listeners / timed interruption request / knockback displacement |
+| `0x141e95620` / `0x141ea08a0` | Fn | Actor event selection / callable forwarding to event execution; consequences not exhausted |
+| `0x1421845b0` / `0x142184680` / `0x142184870` | Fn | Predictive component ticks / lockstep message-interleaved ticks / later lockstep entity range |
 | `0x1415f5d50` | Fn | Registers Render callbacks on source/target Actor result signals |
 | `0x141600c10` / `0x141600aa0` / `0x141609f40` | Fn | Source/false-branch/target Render callbacks; no proved pool pre-deduction |
 
@@ -407,7 +425,7 @@ that does not exist with hash: ", "Area reported by instance does not exist", "U
 | `0x14215f700` | Fn | C→S use a skill: lockstep 0x018e (dx, dy) / 0x018f (object) when the network mode `+0x984` is 2, else 0x25 / 0x24 |
 | `0x14215fb10` / `0x14215fcb0` / `0x14215fe50` | Fn | C→S lockstep 0x0192 (new dx, dy) / 0x0195 (release) / 0x0196 (release a skill) |
 | `0x142183930` | Fn | world update: lockstep runs the queued server frames (deque `+0x9c0`, count `+0x9d8`), catching up × 1.01–5 |
-| `0x142183ce0` | Fn | world step (vtable `+0x360`): one server frame's messages, then the objects' ticks |
+| `0x142183ce0` | Fn | world step (`+0x360`): predictive messages-before-ticks; lockstep interleaves messages at entity/component boundaries |
 | `0x1421872b0` | Fn | world message intake: queues messages; S→C 0x2b5 ends a frame (pushes world `+0x11c` ms), 0x2b6 sets it |
 | `0x141645fa0` | Fn | S→C 0x2b6: world `+0x11c` = the frame length in ms |
 | `0x14190faf0` | Fn | config `networking_type` → network mode (0 predictive, 2 lockstep, 3 auto) |

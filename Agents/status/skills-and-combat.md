@@ -685,11 +685,17 @@ and can require explicit recipes.
   Docs: [20](../docs/protocol/20-damage.md) §4.
 - **Client damage research (static, partial).** The client integrates per-minute continuous resource rates.
   Incoming `0x1b1` assigns absolute pool values; network Stats honor explicit overrides, including zero.
-  Type fallback, native formula registration and conditional update-transaction publication are bound statically.
-  A fire DoT chain has audited taken-as, mitigation, immunity and multiple saturation stages.
-  Registered hit-related damage ranges, accuracy, critical chance and sheet-reference hit chance are identified.
-  Actor result signals close to Render callbacks; independent numerical hit pre-deduction remains unproven.
-  Source-instance aggregation, actor-specific freshness and remaining indirect receivers are still open.
+  Actual network Actor/skill providers, current fallback and same-key notification masking are bound statically.
+  Native formula transactions are separate; successful startup disables native action-context mutation.
+  Typed DoT mitigation, eight resource channels, healing exclusions and multiple cap/overflow stages are audited.
+  Both-hand typed/base/added damage, conversion, average/DPS and actual numerical UI readers are statically bound.
+  Accuracy, critical chance and sheet-reference hit chance formulas remain distinct from a concrete defender roll.
+  Actor result queues also drive action/control/knockback effects; numeric hit pre-deduction remains unproven.
+  Predictive message-before-tick and lockstep component interleaving are traced into Life/ES/Mana integration.
+  Absolute resource loss also dispatches guarded notifications and can change subsequent recharge delay.
+  Buff duration ticking and opcode-driven instance removal are separate from damage-rate publication.
+  Source-instance aggregation, event consequences and numerical-hit resource receivers remain open.
+  Official/community comparisons and PoB formulas are pinned separately from current-server claims.
   This work neither changes server combat nor establishes official-server behavior.
   See [client damage research and task ledger](../docs/re/client-damage-calculation.md).
 - **Damage model (foundation, with armour/evasion).** A hit is a per-type `DamagePacket`;

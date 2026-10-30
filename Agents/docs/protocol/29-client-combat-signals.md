@@ -10,7 +10,7 @@ No client execution or new packet capture was performed for this static audit.
 | S→C message | Established client path | Not established by that message alone |
 |---|---|---|
 | `0x1af` (decimal 431) | Actor result record, conditional source/target feedback signals | Per-hit damage amount, complete miss/block/crit taxonomy, local numerical pre-deduction |
-| `0x1b1` (decimal 433) | Assign current/reserved/flags for Life, Mana or ES | Which hit/source caused the difference, full rollback/replay, server tick cadence |
+| `0x1b1` (decimal 433) | Assign current and reservation inputs for Life, Mana or ES | Which hit/source caused the difference, full rollback/replay, server tick cadence |
 | `0x1b3` (decimal 435) | Replace explicit stat values through the network override getter | Raw-input recomputation of every omitted derived output |
 
 An incoming Life difference is a resource observation, not hit attribution or kill credit.
@@ -54,7 +54,12 @@ Actor group dispatcher `0x1421940a0`, through `0x1421952a0`, reaches `0x141e90f5
 Record `+0x48` selects immediate action-associated processing or an `0x88`-byte queued representation.
 The immediate path invokes Actor virtual slot `+0x230`.
 The audited Actor tables bind it to `0x141e91580`.
-The queued path's full lifecycle remains unresolved.
+The queued path is tied to action progress and removal, rather than an arbitrary Life tick.
+`0x141939f40` retrieves one matching result; `0x14193a170` and `0x141e930e0` select action-related ranges.
+`0x141e91330` filters/compacts those ranges and forwards extracted records through the same `+0x230` slot.
+`0x141e90c30` removes an exact keyed result and optionally processes it.
+The guard-dependent retention and removal rules are documented in
+[hit feedback](../re/client-hit-feedback.md#queued-lifecycle).
 
 The downstream consumer resolves the record's entity reference and applies relationship/stat guards.
 Its source branches use Actor signals `+0x2e8` and `+0x368`; guarded target branches use `+0x3e8`.
@@ -72,6 +77,13 @@ The MissSG cue does not identify every server miss/block outcome or prove a soun
 Other subscribers and the numerical consequences of all mask bits remain research tasks.
 No complete accuracy/critical/armour/pre-deduction chain is established by this dispatch.
 
+The consumer also invokes target Actor control and knockback methods, not only Render subscribers.
+Target `+0xc0 = 0x141e96630` uses record `+0x34 / 1000` as a duration under mask bit `0x400`.
+Its request goes to Actor `+0xe0 = 0x141e95e60`, which includes an avoid-interruption chance branch.
+Target `+0xd0 = 0x141e96790` computes Positioned displacement using knockback parameters.
+The action `+0x2d0/+0x2d8` methods and event `0x6876` still need their downstream effects resolved.
+These are concrete additional effects, but they do not establish a numerical damage roll or Life/ES/Mana deduction.
+
 ## `0x1b1`: absolute resource assignment
 
 The [existing wire description](10-chat-and-commands.md) documents the resource message under Monsters.
@@ -83,9 +95,14 @@ The world handler `0x142187480` routes it to `0x141e69fb0`:
 | 1: Mana | `+0x1c8` | `0x1421880cb` |
 | 2: ES | `+0x210` | `0x1421880b7` |
 
-The setter copies decoded current into pool `+0x30`, reserved into `+0x10`, and flags into `+0x14`.
+The setter copies decoded current into pool `+0x30`, flat reservation into `+0x10`,
+and percentage-reservation input into `+0x14`.
 The setter itself does not reset fractional carry `+0x28` or replay input history.
 Death/revive handling in the surrounding dispatcher is distinct from the pool assignment.
+The Life-only nonpositive-to-positive branch calls `+0x100` and then zeros that pool's fractional carry
+at `0x142188129`; ordinary assignments do not take this transition-specific block.
+Guarded change/full/empty/loss notifications can update recharge delay and invoke event callbacks.
+See [the concrete receiver bindings](../re/client-damage-timing.md#assignment-notifications-and-recharge-delay).
 
 Between such assignments, the native Life tick can integrate continuous recovery and loss using stat rates.
 That supports continuous extrapolation plus incoming value correction.
@@ -94,7 +111,7 @@ See [Stats update](10-chat-and-commands.md#3-sc-0x1b3-stats-update) for explicit
 
 ## Remaining protocol questions
 
-- Resolve the full queued `0x1af` consumer and remaining subscribers without assuming a numerical damage role.
+- Resolve action-specific `0x1af` virtual callbacks and event consequences beyond the established queue/control paths.
 - Establish concrete meanings of the action-related fields and mask bits, preserving version and object guards.
 - Determine whether another message or local action path supplies a real pre-deduction input.
 - Trace how rate changes, fractional state and incoming resource assignment are ordered in the client loop.

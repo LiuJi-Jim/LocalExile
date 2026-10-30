@@ -8,9 +8,11 @@ Treat those as three separate questions, for both **hits** and **damage over tim
 The goal is to recover useful calculations and their execution boundaries before choosing a server implementation.
 
 The strongest result so far is **continuous resource integration plus incoming absolute pool assignment**.
-A fire DoT formula chain is present in the executable, including taken-as, mitigation and resource routing.
-Its presence alone does not prove that an ordinary network entity evaluates that whole chain.
+Typed DoT formula chains are present, including mitigation, healing exclusions and Life/Mana/ES routing.
+Their presence alone does not prove that an ordinary network entity evaluates those whole chains.
 Network Stats can supply a final rate directly and bypass upstream calculation for that key.
+Ordinary network Actor/skill provider identities, update forwarding and lookup freshness are now established.
+The successful startup path disables the separate action-local native stat mutation mechanism.
 An independent hit roll/mitigation/pre-deduction chain has **not** been established.
 
 | Evidence class | Meaning here |
@@ -47,6 +49,16 @@ See [tooling](tooling.md#bounded-damage-audit) for invocation and selected Ghidr
 Local generated `audit.json`, `.asm` and `decompilations.jsonl` stay under ignored `Tools/re/out/`.
 They are offline evidence records, not REA Evidence IDs.
 
+Detailed supplements keep the evidence reviewable without treating this summary as an exhaustive formula list:
+
+- [Stat objects, inputs, notifications and startup guards](client-stat-evaluation.md).
+- [Typed DoT formulas, resource routes and arithmetic boundaries](client-dot-routing.md).
+- [Both-hand offence formulas, conversion, average/DPS and numerical UI consumers](client-offence-estimates.md).
+- [Hit queues, action contexts and control effects](client-hit-feedback.md).
+- [Hit/resource receiver search and its precise coverage](client-hit-resource-boundary.md).
+- [Predictive/lockstep scheduling and resource correction](client-damage-timing.md).
+- [Versioned official/community explanations and PoB comparisons](client-damage-comparisons.md).
+
 ## 2. Observed graph and missing connections
 
 Solid edges below represent verified local data/control dependencies.
@@ -59,7 +71,7 @@ flowchart TD
   AS --> MIT[Per-type DoT mitigation and immunity]
   MIT --> ROUTE[ES bypass / Mana-before-Life / healing branches]
   ROUTE --> FINAL[Final Life / Mana / ES rates]
-  FINAL -. evaluation on network entity not closed .-> TYPE[Upstream type stats]
+  FINAL -. per-actor source inputs and native eligibility unresolved .-> TYPE[Upstream type stats]
   TYPE --> GET[Network Stats getter: fallback only if key absent]
   NET[Creation pairs / S→C 0x1b3] --> OVERRIDE[Sorted explicit key-value overrides]
   OVERRIDE --> GET
@@ -67,15 +79,22 @@ flowchart TD
   TICK --> POOL[Integer current + fractional carry + resource overflow]
   CORRECTION[S→C 0x1b1 decoded resource value] --> SETTER[Absolute pool assignment]
   SETTER --> POOL
+  SETTER --> NOTIFY[Guarded pool notifications / recharge-delay changes]
   HIT[Hit input / local contact] -. numeric prediction unresolved .-> HITCALC[Roll / mitigation / routing]
   HITCALC -. pre-deduction unresolved .-> POOL
   FEEDBACK[S→C 0x1af: decimal 431] --> ACTOR[Actor result signals]
   ACTOR --> RENDER[Render / sound / effects callbacks]
+  ACTOR --> CONTROL[Interruption / knockback / action callbacks]
+  ACTOR --> EVENT[Event interpreter]
+  NOTIFY --> EVENT
+  EVENT -. full script and callable consequences unresolved .-> EFFECTS[Context-dependent effects]
 ```
 
 The DoT formula graph and the network pool integration graph are both real static findings.
 The upstream getter and separate formula publication mechanism are now identified below.
-Closing the dashed edge requires the actor-specific inputs, update eligibility and publication timing.
+The ordinary network Actor/skill provider chain is bound separately in the stat-context supplement.
+The dashed rate edge still requires source-effect inputs and eligibility on the relevant native object;
+network getters can instead read an explicit received final rate.
 It is incorrect to present this drawing as proof that the client simulates every source or hit independently.
 
 ## 3. Stats interfaces: explicit overrides and upstream calculations
@@ -134,7 +153,13 @@ A separate update transaction can evaluate formulas and publish their results in
 
 This closes **registration → transaction dispatch → result publication → getter** as a conditional static mechanism.
 The constructor `0x141e40560` itself brackets type initialization with `0x1424fd240`/`0x1424fd390`.
-The complete dependency ordering algorithm, eligibility masks and all actor/skill instance producers remain open.
+The ordinary network Actor/skill provider chain and its actual update contract are now closed in
+[stat evaluation](client-stat-evaluation.md).
+Network skills inherit the owner's network wrapper, with explicit per-skill pairs and additional-set wrappers.
+The getter reads current pairs/current upstream, while notifications mask overridden keys and forward inherited changes.
+The audited setter/forwarder/dispatcher does not enter a native dependency transaction.
+Successful client startup sets `0x1445b38cd` to one; action-local native context mutation is skipped under that guard.
+Native formula eligibility and source-effect instance production remain separate from this network lookup contract.
 Network wrapper setters and native contribution setters are different paths and different objects.
 The audited network setter stores its pairs and notifies its listeners; it does not directly enter this transaction.
 Do not infer that sending one raw network input automatically makes every omitted derived output recompute.
@@ -278,15 +303,19 @@ It is **not** a discovered incoming-hit resolution function.
 S→C `0x1b1` reaches the world handler `0x142187480`.
 Its Life/Mana/ES branches call `0x141e69fb0` at `0x1421880e6`, `0x1421880cb` and `0x1421880b7`.
 The setter copies decoded message current at `+0x20` to pool `+0x30`, reserved at `+0x24` to pool `+0x10`,
-and flags at `+0x2a` to pool `+0x14`.
+and the percentage-reservation input at `+0x2a` to pool `+0x14`.
 The current-value assignment is at `0x141e69fd1`.
 Those message offsets are **decoded in-memory fields**, not raw packet offsets.
 See [Life serialization](../protocol/04-player-entity.md#44-life-0x141e6c2f0-55-bytes).
 
 The setter assigns a total rather than applying a damage delta.
 It does not itself write fractional carry at `+0x28`, rewind a simulation or replay an input history.
+The surrounding Life-only nonpositive-to-positive branch does clear that pool's carry at `0x142188129`;
+this is distinct from an ordinary assignment.
 Calling this an authoritative-value correction describes the assignment, not an established rollback algorithm.
 No official-server correction cadence has been measured by this static work.
+The setter also dispatches guarded change/full/empty/loss notifications; loss notification can update recharge
+delay and enter the event system. See [assignment consequences](client-damage-timing.md#assignment-notifications-and-recharge-delay).
 
 Historical LocalExile recovery probes observed native pool changes between server corrections.
 Those traces support continuous resource extrapolation for the supplied rates.
@@ -314,6 +343,13 @@ This does not establish an exhaustive miss/block taxonomy or a numerical accurac
 The confirmed receiver is Render, not Life.
 No numerical pre-deduction edge from those audited feedback callbacks to a pool reducer has been established.
 The historical callback audit is distinguished from the freshly decoded function ranges in the evidence manifest.
+
+The wider result consumer also drives timed interruption, knockback and action callbacks, as detailed in
+[Hit feedback](client-hit-feedback.md). Named Fireball and Melee registrations now bind their concrete
+`+0x2d0/+0x2d8` targets; Melee has a nonempty test-effect callback in one registry mode.
+Event `0x6876` reaches a 102-opcode interpreter with descriptor-selected native callables.
+Those program/callable identities remain unresolved, so the whole result consumer cannot be classified as presentation only.
+See [concrete action and event boundaries](client-hit-resource-boundary.md#7-concrete-action-callbacks-fireball-and-melee).
 
 ### Why a direct-call negative result is insufficient
 
@@ -401,7 +437,11 @@ Three original-instruction anchors matter beyond this algebra:
 
 The actual code groups binary32 multiplications differently from this readable product.
 Integer intermediate addition, out-of-range float conversion and rounding make this **not a bit-exact port**.
-In particular, the producer and encoding of 6172 must be closed before applying this to a specific gem level.
+The native producer is now bound: `0x141ee8ef0` contributes the raw per-level `BaseMultiplier` field unchanged to 6172.
+Its separate `DamageEffectiveness` field is divided by 100 toward zero before contributing key 891.
+These producers run in audited temporary native type/skill contexts; ordinary network skill providers are different.
+See [the producer and its callers](client-stat-evaluation.md#4-a-concrete-native-skill-data-producer).
+Applying the formula to a specific network skill still requires that skill's actual received inputs.
 This callback establishes a separated base/added calculation, not a complete single-hit resolution algorithm.
 
 ### Reference hit chance and remaining consumer boundary
@@ -411,7 +451,9 @@ That is a reference-target estimate, not a lookup of the concrete defender's eva
 The helper returns a float in XMM0 even if decompilation guesses another return type.
 No RNG call, per-defender resource mutation or complete critical confirmation roll was established in these callbacks.
 They support the conclusion "client contains offence/stat calculation"; they do not close hit pre-deduction.
-The next checkpoint must connect actual consumers and distinguish panel estimation from contact resolution.
+The next checkpoint must connect actual numeric consumers and distinguish panel estimation from contact resolution.
+Some identified UI calls construct localized stat labels rather than retrieving a numeric value;
+the presence of key 670/671 in a UI constructor is not itself a numeric-consumer binding.
 
 ## 8. Research workbench and completion criteria
 
@@ -425,16 +467,16 @@ No client execution is authorized by this task list.
 | Milestone | Task | State | Next evidence / completion criterion |
 |---|---|---|---|
 | R0 | Pin artifact, table keys and instruction boundaries | Established | Re-audit when either input hash changes |
-| R1 | Network Stats, type getter and formula publication | Partial | Object bindings and transaction dispatch established; resolve actor-specific freshness |
+| R1 | Network Stats, actor/skill inputs, lookup freshness and native publication | Established | Actual network provider chain, updates/notifications and guarded native boundary audited; [details](client-stat-evaluation.md) |
 | R1 | Absolute pool update path | Established | Preserve decoded-field vs wire-offset distinction |
-| R2 | Fire DoT formula through mitigation | Established locally | Extend equivalent audits to cold/lightning/chaos; do not assume symmetry |
+| R2 | Typed DoT formulas through mitigation | Established locally | All five types and nonlethal branches audited; [asymmetries](client-dot-routing.md) remain explicit |
 | R2 | Source instance → base per-minute rate | Open | Find actual writes/read consumers of base rates; identify source and aggregation policy |
-| R2 | All resource routes and cap boundaries | Partial | Re-audit typed healing, MoM, nonlethal and overflow paths with exact arithmetic |
-| R3 | Hit panel/offence evaluators | Partial | Registered formulas audited; close consumers and additional damage/hand variants |
+| R2 | Typed resource routes and cap boundaries | Established locally | Eight typed/nonlethal/darkness channels, healing/MoM, aggregates and overflow audited; input reachability remains separate |
+| R3 | Hit panel/offence evaluators | Established locally | Both hands, five types, base/added, conversion, average/DPS and actual network-provider numerical readers audited; [details](client-offence-estimates.md) |
 | R3 | Concrete hit → numerical pre-deduction | Open | Trace input/contact, defender, RNG and resources; close indirect receiver targets |
-| R3 | Hit packet → callbacks | Partial | Preserve established Render bindings; audit remaining subscribers and queued path |
-| R4 | Timing, freshness and correction policy | Open | Static call ordering, cache invalidation and fractional-state handling; no cadence guesses |
-| R4 | Official/community comparisons | Open | Version sources separately; never substitute client formulas for server evidence |
+| R3 | Hit packet → callbacks | Partial | Queue/control and named Fireball/Melee callbacks bound; event interpreter reaches program-selected callables whose concrete identities remain open |
+| R4 | Timing, freshness and correction policy | Partial | Scheduling, pool notifications and transition-specific carry reset established; Buff ticking/removal traced separately; source-rate and event/listener effects remain open |
+| R4 | Official/community comparisons | Established comparison | [Pinned sources](client-damage-comparisons.md) distinguish historical explanations, wiki synthesis and PoB; current server equivalence is unproven |
 
 Useful starting addresses are indexed in [address-index](../protocol/address-index.md#client-damage-research).
 Each newly established edge should cite a range or instruction anchor and state its guard conditions.

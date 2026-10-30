@@ -35,7 +35,8 @@ The suspend/restore lifecycle is explicit LocalExile policy; see protocol/11-ski
   The server publishes its authoritative final values; the attack's are computed in `SkillCatalog.Unarmed.Stats`.
   The client has derived-stat evaluators, but its network getter honors explicit overrides, including zero.
   Omitted keys read type stats; native update transactions can publish derived outputs there.
-  Actor-specific input propagation and freshness across network overrides remain unresolved.
+  Ordinary network Actor/skill providers and same-key update/notification behavior are statically bound.
+  Supplying a raw network input does not establish native recomputation of omitted derived outputs.
   See [client damage research](../docs/re/client-damage-calculation.md); do not rely on automatic raw-stat derivation.
   Mana per complete group of final Strength now has native raw-source/gear controls and automated pool coverage.
   Raw-source reservation refresh and clamping have decrypted wire coverage; recheck active auras natively.
@@ -114,10 +115,11 @@ The suspend/restore lifecycle is explicit LocalExile policy; see protocol/11-ski
 ### Damage model (foundation done, deeper defence next)
 
 - **Client damage research:** recover Hit and DoT calculations before proposing further server mechanics.
-  Continuous resource integration, absolute incoming assignment and the fire DoT formula have static evidence.
-  Resolve source instances into base rates, actor input propagation, typed routing and saturation.
+  Network Actor/skill input freshness and the distinct native transaction/startup boundary are established.
+  Typed routing, cap/overflow boundaries, mode-dependent ticks and absolute assignment have static evidence.
+  Resolve source instances into base rates, their expiry/snapshot rules and actual publication eligibility.
   For Hit, distinguish panel formulas and Actor feedback from a concrete defender roll and pre-deduction.
-  Trace pool virtual-call receivers; the direct-call negative scan is not an absence proof.
+  Trace remaining action/event consequences and pool receivers; bounded negative scans are not absence proofs.
   Track artifact hashes, exact anchors and evidence boundaries in the
   [research workbench](../docs/re/client-damage-calculation.md#8-research-workbench-and-completion-criteria).
   This is static research, not authorization for client execution or a server refactor.

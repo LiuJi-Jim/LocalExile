@@ -230,7 +230,7 @@ u16 n, then n × (u16, u8, record `0x141e06bb0`) → `0x141e11dc0`. Probably ski
 
 The serialization below is separate from the component's continuous resource calculation.
 The Life tick `0x141e6a190` advances native Life/Mana/ES pools using rates from the Stats interface.
-The S→C `0x1b1` handler calls `0x141e69fb0` to assign decoded current/reserved/flag values to a pool.
+The S→C `0x1b1` handler calls `0x141e69fb0` to assign decoded current and reservation inputs to a pool.
 This establishes local continuous integration plus absolute incoming assignment, not an independent hit predictor.
 See [client damage research](../re/client-damage-calculation.md) for fractional carry, overflow and binding limits.
 
