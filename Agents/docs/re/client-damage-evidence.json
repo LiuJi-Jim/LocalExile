@@ -3682,11 +3682,29 @@
         "r2-buff-speed-owner-v3",
         "r2-burning-arrow-bound",
         "r2-grants-value-resolver",
+        "r3-entity-task-boundaries-final",
         "r3-loss-receiver-boundary",
+        "r3-projectile-extension-clone",
         "r4-buff-clock-update-callbacks",
         "r4-contact-leaf-coverage"
       ],
       "selectedDecompilationCompleted": true
+    },
+    "0x1400f22f0": {
+      "boundary": "explicit-analyst-leaf-range",
+      "ranges": [
+        {
+          "start": "0x1400f22f0",
+          "endExclusive": "0x1400f22fb",
+          "bytes": 11,
+          "fileOffset": 988912,
+          "sha256": "06333eef75398cc88d83d7f31df4f01d89cb3307fea68609abcfd715c96c083d"
+        }
+      ],
+      "sourceBatches": [
+        "r3-entity-task-boundaries-final"
+      ],
+      "selectedDecompilationCompleted": null
     },
     "0x1400f3a50": {
       "boundary": "PE-unwind-root-and-chains",
@@ -5182,6 +5200,22 @@
       ],
       "selectedDecompilationCompleted": null
     },
+    "0x1412e2970": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1412e2970",
+          "endExclusive": "0x1412e2a32",
+          "bytes": 194,
+          "fileOffset": 19799408,
+          "sha256": "098de4f5c2b83a3f1bf09513a5fd2bb186dfe7d2ffde02de367661add699efb4"
+        }
+      ],
+      "sourceBatches": [
+        "r3-projectile-extension-clone"
+      ],
+      "selectedDecompilationCompleted": null
+    },
     "0x1412e34e0": {
       "boundary": "PE-unwind-root-and-chains",
       "ranges": [
@@ -5321,7 +5355,8 @@
         }
       ],
       "sourceBatches": [
-        "r3-action-extensions-seeds"
+        "r3-action-extensions-seeds",
+        "r3-entity-task-boundaries-final"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -5698,6 +5733,22 @@
       ],
       "selectedDecompilationCompleted": null
     },
+    "0x1415ccc00": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1415ccc00",
+          "endExclusive": "0x1415cccdf",
+          "bytes": 223,
+          "fileOffset": 22855680,
+          "sha256": "8d47861f6aa869732449c4d6c19911210d930e48b6b9cc23dfbd0010ee262754"
+        }
+      ],
+      "sourceBatches": [
+        "r3-entity-task-boundaries-final"
+      ],
+      "selectedDecompilationCompleted": null
+    },
     "0x1415d04f0": {
       "boundary": "PE-unwind-root-and-chains",
       "ranges": [
@@ -5763,6 +5814,22 @@
       ],
       "selectedDecompilationCompleted": null
     },
+    "0x1415e9f80": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1415e9f80",
+          "endExclusive": "0x1415ea11b",
+          "bytes": 411,
+          "fileOffset": 22975360,
+          "sha256": "19318b9fd4c26445b54f10b118882c51e9bf17fd9b339210f4d802a1bbdcb751"
+        }
+      ],
+      "sourceBatches": [
+        "r3-projectile-extension-components"
+      ],
+      "selectedDecompilationCompleted": null
+    },
     "0x1415ef480": {
       "boundary": "PE-unwind-root-and-chains",
       "ranges": [
@@ -5775,7 +5842,8 @@
         }
       ],
       "sourceBatches": [
-        "historical-static-callback-binding"
+        "historical-static-callback-binding",
+        "r3-projectile-extension-components"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -5791,7 +5859,24 @@
         }
       ],
       "sourceBatches": [
-        "historical-static-callback-binding"
+        "historical-static-callback-binding",
+        "r3-projectile-extension-components"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x1415f3b00": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1415f3b00",
+          "endExclusive": "0x1415f3eac",
+          "bytes": 940,
+          "fileOffset": 23015168,
+          "sha256": "6c7ffc60617021e602cef2df42b082de71716601eaa6eb245cd6c6885d6dfb2e"
+        }
+      ],
+      "sourceBatches": [
+        "r3-projectile-extension-components"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -5823,7 +5908,8 @@
         }
       ],
       "sourceBatches": [
-        "historical-static-callback-binding"
+        "historical-static-callback-binding",
+        "r3-projectile-extension-components"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -5967,6 +6053,22 @@
       ],
       "selectedDecompilationCompleted": null
     },
+    "0x1416370f0": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1416370f0",
+          "endExclusive": "0x141639d0f",
+          "bytes": 11295,
+          "fileOffset": 23291120,
+          "sha256": "a986d43706942414ac2ecc1aeaca98244bbade1adfabf4f08564f270f5ca53f8"
+        }
+      ],
+      "sourceBatches": [
+        "r3-entity-task-boundaries-final"
+      ],
+      "selectedDecompilationCompleted": null
+    },
     "0x14163dbc0": {
       "boundary": "PE-unwind-root-and-chains",
       "ranges": [
@@ -5980,6 +6082,102 @@
       ],
       "sourceBatches": [
         "r3-loss-receiver-boundary"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x14163ffc0": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x14163ffc0",
+          "endExclusive": "0x1416400d2",
+          "bytes": 274,
+          "fileOffset": 23327680,
+          "sha256": "3732029807489b67a06bb8e581e0ab3d8400f88e0ee2ec62b4075e54b5b4acce"
+        }
+      ],
+      "sourceBatches": [
+        "r3-entity-task-boundaries-final"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x141640780": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x141640780",
+          "endExclusive": "0x1416407e4",
+          "bytes": 100,
+          "fileOffset": 23329664,
+          "sha256": "75aceab565ad8f598f9a91e9ed9bf2ed1a75f5f1772253382e2edafd35c75c2e"
+        }
+      ],
+      "sourceBatches": [
+        "r3-entity-task-boundaries-final"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x1416407f0": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1416407f0",
+          "endExclusive": "0x1416408d6",
+          "bytes": 230,
+          "fileOffset": 23329776,
+          "sha256": "24c930dc2a5cfcad748031947bd3e11822ac8753653e5c07d822f5119c408d1f"
+        }
+      ],
+      "sourceBatches": [
+        "r3-entity-task-boundaries-final"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x141641290": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x141641290",
+          "endExclusive": "0x1416412f0",
+          "bytes": 96,
+          "fileOffset": 23332496,
+          "sha256": "d81220f9821727d9ad68519e07c1ee34127c5d3ad202e6be791e20a1d2320d12"
+        }
+      ],
+      "sourceBatches": [
+        "r3-entity-task-boundaries-final"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x141641c10": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x141641c10",
+          "endExclusive": "0x141641c64",
+          "bytes": 84,
+          "fileOffset": 23334928,
+          "sha256": "64db10bd3bbdc7738c89037482e6a7a51641c8221e722745a92213d436af90de"
+        }
+      ],
+      "sourceBatches": [
+        "r3-entity-task-boundaries-final"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x141643780": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x141643780",
+          "endExclusive": "0x1416438fe",
+          "bytes": 382,
+          "fileOffset": 23341952,
+          "sha256": "75cdb8272fb28df0ca374cd7e772401f443ef5c0d882a5ad7fb1e15f152c1569"
+        }
+      ],
+      "sourceBatches": [
+        "r3-entity-task-boundaries-final"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -6079,6 +6277,38 @@
       ],
       "selectedDecompilationCompleted": null
     },
+    "0x1416a0690": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1416a0690",
+          "endExclusive": "0x1416a0be5",
+          "bytes": 1365,
+          "fileOffset": 23722640,
+          "sha256": "049c21c796d388346ba0bb899eb790d89ccbe8b7718210a7c7e569f94edb14c9"
+        }
+      ],
+      "sourceBatches": [
+        "r3-entity-task-boundaries-final"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x14171b6c0": {
+      "boundary": "explicit-analyst-leaf-range",
+      "ranges": [
+        {
+          "start": "0x14171b6c0",
+          "endExclusive": "0x14171b6f2",
+          "bytes": 50,
+          "fileOffset": 24226496,
+          "sha256": "328746c132038ce095af2aa006e5797799efe5e7366dcc6edfc6e642f65bef69"
+        }
+      ],
+      "sourceBatches": [
+        "r3-entity-task-boundaries-final"
+      ],
+      "selectedDecompilationCompleted": null
+    },
     "0x141769210": {
       "boundary": "PE-unwind-root-and-chains",
       "ranges": [
@@ -6162,6 +6392,84 @@
       ],
       "sourceBatches": [
         "r3-loss-receiver-boundary"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x14176a010": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x14176a010",
+          "endExclusive": "0x14176a3a7",
+          "bytes": 919,
+          "fileOffset": 24548368,
+          "sha256": "093110f2c12e4da83ca963e0f5455a0c0cdb7ec25347c5f15babba532b498b29"
+        }
+      ],
+      "sourceBatches": [
+        "r3-entity-task-boundaries-final"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x14176a3b0": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x14176a3b0",
+          "endExclusive": "0x14176a501",
+          "bytes": 337,
+          "fileOffset": 24549296,
+          "sha256": "b37fcd4e90ab6810438b2d951c4767b89eca0f04a4b41026bcf52c333b581f3a"
+        }
+      ],
+      "sourceBatches": [
+        "r3-entity-task-boundaries-final"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x14176a510": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x14176a510",
+          "endExclusive": "0x14176a58a",
+          "bytes": 122,
+          "fileOffset": 24549648,
+          "sha256": "6c3c5f612a573c11c738c994e5aa4dbd16146180e35cbcdc042303f56f597d0f"
+        }
+      ],
+      "sourceBatches": [
+        "r3-entity-task-boundaries-final"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x14176a590": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x14176a590",
+          "endExclusive": "0x14176a5ca",
+          "bytes": 58,
+          "fileOffset": 24549776,
+          "sha256": "97feee2082cceb864d070b9a0ef7519c3086c6d45af993ab85e82acf03a65f65"
+        },
+        {
+          "start": "0x14176a5ca",
+          "endExclusive": "0x14176a608",
+          "bytes": 62,
+          "fileOffset": 24549834,
+          "sha256": "90a8b9673f54bdebc00b06a1979b350e9981fa82a1856f8b4c28b8b071dd13ad"
+        },
+        {
+          "start": "0x14176a608",
+          "endExclusive": "0x14176a60e",
+          "bytes": 6,
+          "fileOffset": 24549896,
+          "sha256": "b13c2122a4910ad1c7f40207d9561e5a2d3418bf2bc40c490e3f913641fd2989"
+        }
+      ],
+      "sourceBatches": [
+        "r3-entity-task-boundaries-final"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -6519,6 +6827,22 @@
         "r2-rf-art-lookup-v2"
       ],
       "selectedDecompilationCompleted": true
+    },
+    "0x141937b70": {
+      "boundary": "explicit-analyst-leaf-range",
+      "ranges": [
+        {
+          "start": "0x141937b70",
+          "endExclusive": "0x141937b8d",
+          "bytes": 29,
+          "fileOffset": 26439536,
+          "sha256": "6746081711ec694aee320b7fd3c7bb2902e4d68d9984333f842de785d99e124f"
+        }
+      ],
+      "sourceBatches": [
+        "r3-projectile-extension-selector"
+      ],
+      "selectedDecompilationCompleted": null
     },
     "0x141937b90": {
       "boundary": "PE-unwind-root-and-chains",
@@ -6988,6 +7312,38 @@
       ],
       "selectedDecompilationCompleted": null
     },
+    "0x14193faf0": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x14193faf0",
+          "endExclusive": "0x1419401d1",
+          "bytes": 1761,
+          "fileOffset": 26472176,
+          "sha256": "750c60c06b52df7a192bb7158d131da5bc991576747b377106a2f28eaf80b055"
+        }
+      ],
+      "sourceBatches": [
+        "r3-projectile-extension-selector"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x1419401e0": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1419401e0",
+          "endExclusive": "0x1419402c7",
+          "bytes": 231,
+          "fileOffset": 26473952,
+          "sha256": "2549623f2c7f7519a47c6a5706ccd3efec4e0edd4abf8331567ae9420c5b5156"
+        }
+      ],
+      "sourceBatches": [
+        "r3-projectile-extension-selector"
+      ],
+      "selectedDecompilationCompleted": null
+    },
     "0x1419417c0": {
       "boundary": "PE-unwind-root-and-chains",
       "ranges": [
@@ -7000,7 +7356,8 @@
         }
       ],
       "sourceBatches": [
-        "r3-contact-dispatch"
+        "r3-contact-dispatch",
+        "r3-projectile-extension-selector"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -7742,7 +8099,8 @@
         }
       ],
       "sourceBatches": [
-        "r3-contact-action"
+        "r3-contact-action",
+        "r3-projectile-extension-selector"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -8553,6 +8911,22 @@
       ],
       "selectedDecompilationCompleted": null
     },
+    "0x141bab560": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x141bab560",
+          "endExclusive": "0x141bab8e6",
+          "bytes": 902,
+          "fileOffset": 29010272,
+          "sha256": "c2fc63d85ea4554c1cf4e3ddb9e6b2d110d0a4b08e97666e95312a2d417ef3ed"
+        }
+      ],
+      "sourceBatches": [
+        "r3-projectile-extension-entity"
+      ],
+      "selectedDecompilationCompleted": null
+    },
     "0x141bacf60": {
       "boundary": "PE-unwind-root-and-chains",
       "ranges": [
@@ -8762,7 +9136,8 @@
       ],
       "sourceBatches": [
         "r3-contact-update",
-        "r3-pr373-subaction-allocation"
+        "r3-pr373-subaction-allocation",
+        "r3-projectile-extension-entity"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -8794,7 +9169,8 @@
         }
       ],
       "sourceBatches": [
-        "r3-contact-spatial"
+        "r3-contact-spatial",
+        "r3-projectile-extension-selector"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -10622,6 +10998,54 @@
       ],
       "selectedDecompilationCompleted": null
     },
+    "0x141e23b00": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x141e23b00",
+          "endExclusive": "0x141e23c1d",
+          "bytes": 285,
+          "fileOffset": 31600384,
+          "sha256": "c7670ed0f20eb0570cb0b76a0c0ee8949822bb1ff72e2b2f29d5c13a0417671f"
+        }
+      ],
+      "sourceBatches": [
+        "r3-projectile-extension-components"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x141e24b70": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x141e24b70",
+          "endExclusive": "0x141e24cc1",
+          "bytes": 337,
+          "fileOffset": 31604592,
+          "sha256": "ee2855e0eb5831e3b141849ac127a10188ec91eaba588041f0ff148a39b819eb"
+        }
+      ],
+      "sourceBatches": [
+        "r3-projectile-extension-components"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x141e25e50": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x141e25e50",
+          "endExclusive": "0x141e25f90",
+          "bytes": 320,
+          "fileOffset": 31609424,
+          "sha256": "64eecdd6bd4d0df9b9270cd916fd0db48f8eab96941f6295b5798ef965629181"
+        }
+      ],
+      "sourceBatches": [
+        "r3-projectile-extension-components"
+      ],
+      "selectedDecompilationCompleted": null
+    },
     "0x141e26cb0": {
       "boundary": "PE-unwind-root-and-chains",
       "ranges": [
@@ -10700,6 +11124,82 @@
       ],
       "selectedDecompilationCompleted": null
     },
+    "0x141e2e790": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x141e2e790",
+          "endExclusive": "0x141e2e7c9",
+          "bytes": 57,
+          "fileOffset": 31644560,
+          "sha256": "3250fda489893fc3a8f40f70867981682b0161e7faa01b547852c25b99fe0d4f"
+        }
+      ],
+      "sourceBatches": [
+        "r3-projectile-extension-components"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x141e2e960": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x141e2e960",
+          "endExclusive": "0x141e2ecd3",
+          "bytes": 883,
+          "fileOffset": 31645024,
+          "sha256": "f5572ae3d7b5894a5477f32f5bb2f264361e9b6394fc3a98f77270ffd69a0064"
+        }
+      ],
+      "sourceBatches": [
+        "r3-projectile-extension-components"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x141e32710": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x141e32710",
+          "endExclusive": "0x141e32746",
+          "bytes": 54,
+          "fileOffset": 31660816,
+          "sha256": "5b2696223cb44c6ea4cd4b5d0628ef25649328383ada12b0fda789a1613b5edc"
+        },
+        {
+          "start": "0x141e32746",
+          "endExclusive": "0x141e32782",
+          "bytes": 60,
+          "fileOffset": 31660870,
+          "sha256": "1af58adde1848d41f310ec75fe6753b9e19864fb1a5e3cbac791b69239227d6c"
+        },
+        {
+          "start": "0x141e32782",
+          "endExclusive": "0x141e32da0",
+          "bytes": 1566,
+          "fileOffset": 31660930,
+          "sha256": "4fd3adaeee8f9ea839f853a7a71868a23268fd641e67055e8eb3cd92630ec7bd"
+        },
+        {
+          "start": "0x141e32da0",
+          "endExclusive": "0x141e32da5",
+          "bytes": 5,
+          "fileOffset": 31662496,
+          "sha256": "655f277ef87107f54b747e95323751e7fce4fa2df08a02ea5e47b45a2d3db382"
+        },
+        {
+          "start": "0x141e32da5",
+          "endExclusive": "0x141e32db3",
+          "bytes": 14,
+          "fileOffset": 31662501,
+          "sha256": "0844695ff9351d2d16eb39346eb1662384eb842002112cc66de5d7de1559daca"
+        }
+      ],
+      "sourceBatches": [
+        "r3-projectile-extension-components"
+      ],
+      "selectedDecompilationCompleted": null
+    },
     "0x141e35d30": {
       "boundary": "PE-unwind-root-and-chains",
       "ranges": [
@@ -10729,6 +11229,22 @@
       ],
       "sourceBatches": [
         "r2-buff-registry-callers"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x141e37850": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x141e37850",
+          "endExclusive": "0x141e37892",
+          "bytes": 66,
+          "fileOffset": 31681616,
+          "sha256": "e563e04e8b0087744b5f3063081568c117572b977fcb486f8e4ed76e281fc1cc"
+        }
+      ],
+      "sourceBatches": [
+        "r3-projectile-extension-components"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -10952,6 +11468,54 @@
       ],
       "selectedDecompilationCompleted": null
     },
+    "0x141e54b20": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x141e54b20",
+          "endExclusive": "0x141e54b59",
+          "bytes": 57,
+          "fileOffset": 31801120,
+          "sha256": "560382529cb0c7f6f624fde6305247aec603cc3eaf5faa45c71524dc8c476171"
+        }
+      ],
+      "sourceBatches": [
+        "r3-projectile-extension-components"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x141e54d10": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x141e54d10",
+          "endExclusive": "0x141e550c8",
+          "bytes": 952,
+          "fileOffset": 31801616,
+          "sha256": "3e4fa021a465792b877c5ab7714d6af6c44123c22371cd1e550ef27b7e7b9440"
+        }
+      ],
+      "sourceBatches": [
+        "r3-projectile-extension-components"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x141e55180": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x141e55180",
+          "endExclusive": "0x141e55359",
+          "bytes": 473,
+          "fileOffset": 31802752,
+          "sha256": "e9b959092035630f1737894b32eab07f1ee29106d2d341526551ba32209e7097"
+        }
+      ],
+      "sourceBatches": [
+        "r3-projectile-extension-components"
+      ],
+      "selectedDecompilationCompleted": null
+    },
     "0x141e55b80": {
       "boundary": "PE-unwind-root-and-chains",
       "ranges": [
@@ -11025,6 +11589,22 @@
       ],
       "sourceBatches": [
         "r4-buff-clock-producers-reset-candidate"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x141e5e220": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x141e5e220",
+          "endExclusive": "0x141e5e27d",
+          "bytes": 93,
+          "fileOffset": 31839776,
+          "sha256": "96eff862f8cb6b9c46d65f4260dd8e3d675fb96d960030634efde0f61578135a"
+        }
+      ],
+      "sourceBatches": [
+        "r3-projectile-extension-components"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -12078,6 +12658,22 @@
       ],
       "selectedDecompilationCompleted": null
     },
+    "0x141e9a3c0": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x141e9a3c0",
+          "endExclusive": "0x141e9babe",
+          "bytes": 5886,
+          "fileOffset": 32085952,
+          "sha256": "226f6e42f47df345177467f30eac95cda8c9e464acd80bf72195e9bd3d409278"
+        }
+      ],
+      "sourceBatches": [
+        "r3-entity-task-boundaries-final"
+      ],
+      "selectedDecompilationCompleted": null
+    },
     "0x141e9d320": {
       "boundary": "PE-unwind-root-and-chains",
       "ranges": [
@@ -12255,6 +12851,38 @@
       ],
       "selectedDecompilationCompleted": true
     },
+    "0x141eb4160": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x141eb4160",
+          "endExclusive": "0x141eb43a8",
+          "bytes": 584,
+          "fileOffset": 32191840,
+          "sha256": "1d56af3811fdf0003b1f1ae1ce247f8f4f1034d5e07369bd7ba903d30e36c70b"
+        }
+      ],
+      "sourceBatches": [
+        "r3-entity-task-boundaries-final"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x141eb43b0": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x141eb43b0",
+          "endExclusive": "0x141eb44f8",
+          "bytes": 328,
+          "fileOffset": 32192432,
+          "sha256": "3ac08002ca29fd972c41413b41c45c684f79b742e952256be27911554ca7df45"
+        }
+      ],
+      "sourceBatches": [
+        "r3-entity-task-boundaries-final"
+      ],
+      "selectedDecompilationCompleted": null
+    },
     "0x141eb5e10": {
       "boundary": "PE-unwind-root-and-chains",
       "ranges": [
@@ -12302,6 +12930,38 @@
         "hit-stat-entrypoints"
       ],
       "selectedDecompilationCompleted": true
+    },
+    "0x141eb8060": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x141eb8060",
+          "endExclusive": "0x141eb81a1",
+          "bytes": 321,
+          "fileOffset": 32207968,
+          "sha256": "019e5c0ba38fff40db86aad4cd343dc78ccaa71e4af6850b3e5ed579525cde9f"
+        }
+      ],
+      "sourceBatches": [
+        "r3-entity-task-boundaries-final"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x141eb81f0": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x141eb81f0",
+          "endExclusive": "0x141eb8245",
+          "bytes": 85,
+          "fileOffset": 32208368,
+          "sha256": "4a4a537a92fb7bb139907681b70b4a091eda204572b42b48c21cca619f446092"
+        }
+      ],
+      "sourceBatches": [
+        "r3-entity-task-boundaries-final"
+      ],
+      "selectedDecompilationCompleted": null
     },
     "0x141ebc990": {
       "boundary": "PE-unwind-root-and-chains",
@@ -12367,6 +13027,38 @@
       ],
       "selectedDecompilationCompleted": null
     },
+    "0x141ebdf30": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x141ebdf30",
+          "endExclusive": "0x141ebe18e",
+          "bytes": 606,
+          "fileOffset": 32232240,
+          "sha256": "052d357ba9fb8e8b747ff8c692600ea52e94a79a9f93a0f5e6948d113c0acf5d"
+        }
+      ],
+      "sourceBatches": [
+        "r3-projectile-extension-entity"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x141ebe420": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x141ebe420",
+          "endExclusive": "0x141ebe507",
+          "bytes": 231,
+          "fileOffset": 32233504,
+          "sha256": "dd4e3fb59bc5b9eaa0d16326c66cbe4ab6a98fe7647ea2d202f5071a1a6ab408"
+        }
+      ],
+      "sourceBatches": [
+        "r3-projectile-extension-entity"
+      ],
+      "selectedDecompilationCompleted": null
+    },
     "0x141ec1360": {
       "boundary": "PE-unwind-root-and-chains",
       "ranges": [
@@ -12399,6 +13091,23 @@
       ],
       "selectedDecompilationCompleted": null
     },
+    "0x141edf5c0": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x141edf5c0",
+          "endExclusive": "0x141edf6e3",
+          "bytes": 291,
+          "fileOffset": 32369088,
+          "sha256": "d74e26f01723d51c10bb42fe029dedecc17d646a0f6d3ee9f46d73ca9c7f9e70"
+        }
+      ],
+      "sourceBatches": [
+        "r3-entity-task-boundaries-final",
+        "r3-projectile-extension-entity"
+      ],
+      "selectedDecompilationCompleted": null
+    },
     "0x141edf940": {
       "boundary": "PE-unwind-root-and-chains",
       "ranges": [
@@ -12411,7 +13120,57 @@
         }
       ],
       "sourceBatches": [
-        "r3-action-extensions-consequences"
+        "r3-action-extensions-consequences",
+        "r3-entity-task-boundaries-final",
+        "r3-projectile-extension-entity"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x141edff60": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x141edff60",
+          "endExclusive": "0x141ee00ed",
+          "bytes": 397,
+          "fileOffset": 32371552,
+          "sha256": "90588327448394033f999de3aa0953b9e36f2128121d35db823b91f285459faf"
+        }
+      ],
+      "sourceBatches": [
+        "r3-entity-task-boundaries-final"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x141ee00f0": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x141ee00f0",
+          "endExclusive": "0x141ee0285",
+          "bytes": 405,
+          "fileOffset": 32371952,
+          "sha256": "adbf8acfc36ee789cd531523eca876eef2c5a5f7446bb4cdeeca01336f4e7d90"
+        }
+      ],
+      "sourceBatches": [
+        "r3-entity-task-boundaries-final"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x141ee0ba0": {
+      "boundary": "explicit-analyst-leaf-range",
+      "ranges": [
+        {
+          "start": "0x141ee0ba0",
+          "endExclusive": "0x141ee0c22",
+          "bytes": 130,
+          "fileOffset": 32374688,
+          "sha256": "bba4e31f38189be7c5809e33a4ac404576869fe542efb3eb2f111657f869810a"
+        }
+      ],
+      "sourceBatches": [
+        "r3-entity-task-boundaries-final"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -12706,6 +13465,22 @@
       ],
       "selectedDecompilationCompleted": null
     },
+    "0x141f67770": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x141f67770",
+          "endExclusive": "0x141f679ae",
+          "bytes": 574,
+          "fileOffset": 32926576,
+          "sha256": "dda99a380dc480ef28c1350180f36229cb61c740271650dab2af72d5ecc48d3d"
+        }
+      ],
+      "sourceBatches": [
+        "r3-projectile-extension-selector"
+      ],
+      "selectedDecompilationCompleted": null
+    },
     "0x141f70f30": {
       "boundary": "PE-unwind-root-and-chains",
       "ranges": [
@@ -12721,6 +13496,22 @@
         "r2-rf-art-lookup-v2"
       ],
       "selectedDecompilationCompleted": true
+    },
+    "0x141f73060": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x141f73060",
+          "endExclusive": "0x141f738e1",
+          "bytes": 2177,
+          "fileOffset": 32973920,
+          "sha256": "f0a993b4b2069b948e18d72cc299f1211e527dbf34d6f499c6d505969d0196ca"
+        }
+      ],
+      "sourceBatches": [
+        "r3-projectile-extension-selector"
+      ],
+      "selectedDecompilationCompleted": null
     },
     "0x141f75550": {
       "boundary": "explicit-analyst-leaf-range",
@@ -12852,6 +13643,38 @@
       ],
       "sourceBatches": [
         "r2-grants-global-bodies"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x141f8d560": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x141f8d560",
+          "endExclusive": "0x141f8d88a",
+          "bytes": 810,
+          "fileOffset": 33081696,
+          "sha256": "acbf10f299c6054b728116082e83d286cdb27c05affb80dc5ee5e2fdb6667a28"
+        }
+      ],
+      "sourceBatches": [
+        "r3-entity-task-boundaries-final"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x141f8d890": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x141f8d890",
+          "endExclusive": "0x141f8dd98",
+          "bytes": 1288,
+          "fileOffset": 33082512,
+          "sha256": "3cf33c802c3cc64064c556cc158428ff37e395039831aa767d6d8bb77a674df8"
+        }
+      ],
+      "sourceBatches": [
+        "r3-entity-task-boundaries-final"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -13041,6 +13864,22 @@
       ],
       "sourceBatches": [
         "r3-loss-receiver-boundary"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x14205cbe0": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x14205cbe0",
+          "endExclusive": "0x14205cc4d",
+          "bytes": 109,
+          "fileOffset": 33931232,
+          "sha256": "ff48a3dc6dad57454895c5b8e782ef073160cfbe995217d41ff49c36fb6107e6"
+        }
+      ],
+      "sourceBatches": [
+        "r3-entity-task-boundaries-final"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -14242,6 +15081,36 @@
       ],
       "sourceBatches": [
         "r2-grants-global-bodies"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x142427510": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x142427510",
+          "endExclusive": "0x142427530",
+          "bytes": 32,
+          "fileOffset": 37906704,
+          "sha256": "4303c18bcf08cbf37a97535ca05a1dc7d772099b162594cb9847c280891ce5ae"
+        },
+        {
+          "start": "0x142427530",
+          "endExclusive": "0x142427573",
+          "bytes": 67,
+          "fileOffset": 37906736,
+          "sha256": "912f9cf207c987940602b5e3ec2b0c06cb7c87f43172afd5033c7d5b95abf216"
+        },
+        {
+          "start": "0x142427573",
+          "endExclusive": "0x14242757e",
+          "bytes": 11,
+          "fileOffset": 37906803,
+          "sha256": "6f2d7302f65f6caf3e9609493afde3eccc6aa54b63065de5fd17f41a4885a4d6"
+        }
+      ],
+      "sourceBatches": [
+        "r3-projectile-extension-entity"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -20773,6 +21642,11 @@
       "functionCount": 8
     },
     {
+      "name": "r3-entity-task-boundaries-final",
+      "auditSha256": "46e1eecc8134c47a4e7c1f5ce3ffe8bdac5bfd0cce1ee7a32ad4b8190aae0ad0",
+      "functionCount": 30
+    },
+    {
       "name": "r3-event-archive-loader",
       "auditSha256": "c503c5dfd387609ae9f3efe82d620687f170fd78cb9d1361f8380b2277aff664",
       "functionCount": 4
@@ -21056,6 +21930,26 @@
       "name": "r3-pr373-subaction-allocation",
       "auditSha256": "53e85f58672854d716864a3cbe51098c6174df6af7776b9ba7c1f06abadf87dc",
       "functionCount": 4
+    },
+    {
+      "name": "r3-projectile-extension-clone",
+      "auditSha256": "f3f60b9d2b5c27a3d8b69b4c3c5876356ed5744b7ddf3cf5eb9f61275df46b10",
+      "functionCount": 2
+    },
+    {
+      "name": "r3-projectile-extension-components",
+      "auditSha256": "bb49da66896d3500515747c2fb0c0e7e2185fb33eff7453dcd5ac85492b53c2e",
+      "functionCount": 16
+    },
+    {
+      "name": "r3-projectile-extension-entity",
+      "auditSha256": "d846cd5114d1c73d3f844e4244a66007d13c374ca41d7646986ae999c8cea741",
+      "functionCount": 7
+    },
+    {
+      "name": "r3-projectile-extension-selector",
+      "auditSha256": "6faf3f3096ff512a76655191c4a0a6f2e4150e7a2d6aa34218e93462879983db",
+      "functionCount": 8
     },
     {
       "name": "r3-weapon-provider-equipment",
@@ -22319,6 +23213,142 @@
       "fileOffset": 56256328,
       "sha256": "8561dfea31b2c0183901fffe35c12248221b5ccc849b54ccdb5e3e0bcb73bed6",
       "role": "Selected source Actor empty callback or concrete action animation getter; see contact supplement"
+    },
+    {
+      "table": "0x14346d200",
+      "offset": "0x8",
+      "target": "0x1400f0f00",
+      "fileOffset": 54969864,
+      "sha256": "d9ef84a3fe6554ba5faec6f478a120be36e4d00d060b896c9a9387cfb67472f0",
+      "role": "Selected Actor/action, projectile component or Entity task slot; see focused supplements"
+    },
+    {
+      "table": "0x14346d200",
+      "offset": "0x18",
+      "target": "0x141eb81f0",
+      "fileOffset": 54969880,
+      "sha256": "fdfc5349f2d1e7d49d0a3bf4a70b3be7cdfd58b67c17716ee1eecf1f96c3fd72",
+      "role": "Selected Actor/action, projectile component or Entity task slot; see focused supplements"
+    },
+    {
+      "table": "0x14347e788",
+      "offset": "0x8",
+      "target": "0x14171b6c0",
+      "fileOffset": 55040912,
+      "sha256": "9049027ab2e33431f4d093a1f6047639acb7d763967b47fdc0469b50e5856916",
+      "role": "Selected Actor/action, projectile component or Entity task slot; see focused supplements"
+    },
+    {
+      "table": "0x14347e788",
+      "offset": "0x18",
+      "target": "0x1400f0f00",
+      "fileOffset": 55040928,
+      "sha256": "d9ef84a3fe6554ba5faec6f478a120be36e4d00d060b896c9a9387cfb67472f0",
+      "role": "Selected Actor/action, projectile component or Entity task slot; see focused supplements"
+    },
+    {
+      "table": "0x143472940",
+      "offset": "0x8",
+      "target": "0x1400f0f00",
+      "fileOffset": 54992200,
+      "sha256": "d9ef84a3fe6554ba5faec6f478a120be36e4d00d060b896c9a9387cfb67472f0",
+      "role": "Selected Actor/action, projectile component or Entity task slot; see focused supplements"
+    },
+    {
+      "table": "0x143483dc8",
+      "offset": "0x8",
+      "target": "0x14176a510",
+      "fileOffset": 55062992,
+      "sha256": "597bac7d19b39b6de2f38ce7bcd62d06a339df3d7105c7dbbfbb386b809538b5",
+      "role": "Selected Actor/action, projectile component or Entity task slot; see focused supplements"
+    },
+    {
+      "table": "0x143483dc8",
+      "offset": "0x18",
+      "target": "0x14176a590",
+      "fileOffset": 55063008,
+      "sha256": "11b6a002a135615470c23292124c2c3ac68d17ca906ce259831641b895a67512",
+      "role": "Selected Actor/action, projectile component or Entity task slot; see focused supplements"
+    },
+    {
+      "table": "0x14359fb88",
+      "offset": "0x8",
+      "target": "0x141e2e790",
+      "fileOffset": 56225680,
+      "sha256": "f39e4383ba41de94433529c2b335fae568d52f4a56447df5e5721916aaa0e903",
+      "role": "Selected Actor/action, projectile component or Entity task slot; see focused supplements"
+    },
+    {
+      "table": "0x1435a0f18",
+      "offset": "0x40",
+      "target": "0x141e32710",
+      "fileOffset": 56230744,
+      "sha256": "232922eafcb3362ae0c87c7a7c3320a21172f36a2995185dbc096ebcdd65e374",
+      "role": "Selected Actor/action, projectile component or Entity task slot; see focused supplements"
+    },
+    {
+      "table": "0x1435a51e8",
+      "offset": "0x8",
+      "target": "0x141e5e220",
+      "fileOffset": 56247792,
+      "sha256": "960bcb0bd0f5405c83c1d7c009fcc226581af85ac442e0c4a711c601b26f718f",
+      "role": "Selected Actor/action, projectile component or Entity task slot; see focused supplements"
+    },
+    {
+      "table": "0x1435a55e8",
+      "offset": "0x40",
+      "target": "0x1400f0f00",
+      "fileOffset": 56248872,
+      "sha256": "d9ef84a3fe6554ba5faec6f478a120be36e4d00d060b896c9a9387cfb67472f0",
+      "role": "Selected Actor/action, projectile component or Entity task slot; see focused supplements"
+    },
+    {
+      "table": "0x14359fa00",
+      "offset": "0x8",
+      "target": "0x141e54b20",
+      "fileOffset": 56225288,
+      "sha256": "cae02fcadd9592ff803e0c45b51bf13116224fdb7990cae6fa7cda8628db6a39",
+      "role": "Selected Actor/action, projectile component or Entity task slot; see focused supplements"
+    },
+    {
+      "table": "0x1435a5030",
+      "offset": "0x40",
+      "target": "0x141e54d10",
+      "fileOffset": 56247408,
+      "sha256": "31a5607dc2c9bf2945bb0ed0dd9d7fb1683f36d742400ef87e786af6e80e3687",
+      "role": "Selected Actor/action, projectile component or Entity task slot; see focused supplements"
+    },
+    {
+      "table": "0x1435a0400",
+      "offset": "0x8",
+      "target": "0x141e37850",
+      "fileOffset": 56227848,
+      "sha256": "51b638727d7eea267d499b7f2e7ed9d6533365949cf0d203258e0b37b7052166",
+      "role": "Selected Actor/action, projectile component or Entity task slot; see focused supplements"
+    },
+    {
+      "table": "0x1435a0d10",
+      "offset": "0x40",
+      "target": "0x1400f0f00",
+      "fileOffset": 56230224,
+      "sha256": "d9ef84a3fe6554ba5faec6f478a120be36e4d00d060b896c9a9387cfb67472f0",
+      "role": "Selected Actor/action, projectile component or Entity task slot; see focused supplements"
+    },
+    {
+      "table": "0x1434687d0",
+      "offset": "0x8",
+      "target": "0x1415ef480",
+      "fileOffset": 54950872,
+      "sha256": "e9f696be9c3ba5c3b8b4b5ed0ba413da4e85502c934a388d569b2873bdb252a3",
+      "role": "Selected Actor/action, projectile component or Entity task slot; see focused supplements"
+    },
+    {
+      "table": "0x143468920",
+      "offset": "0x40",
+      "target": "0x1415f3b00",
+      "fileOffset": 54951264,
+      "sha256": "7f6a514ff06a684b1bccfcd406f746df5df6057bf4d24c3529df8e299dddbc5d",
+      "role": "Selected Actor/action, projectile component or Entity task slot; see focused supplements"
     }
   ],
   "scanCoverage": {
@@ -22353,12 +23383,12 @@
     }
   ],
   "verification": {
-    "entryCount": 1026,
-    "originalByteRangeCount": 1529,
+    "entryCount": 1076,
+    "originalByteRangeCount": 1587,
     "historicalBoundedThunkEntries": 4,
-    "pointerSlotCount": 132,
+    "pointerSlotCount": 149,
     "selectedDecompilationRecords": 514,
-    "checkedReferenceInstructions": 13283,
+    "checkedReferenceInstructions": 13431,
     "decompilationFailures": [],
     "scope": "Original ranges/offsets, unwind ownership or explicit boundaries, stat identity, reference instructions and pointer-slot contents revalidated offline."
   },
@@ -22518,6 +23548,18 @@
       "role": "Named RF template declared magnitude, native table fixups and bounded selected-resource identities; active publisher unresolved"
     },
     {
+      "path": "Tools/re/out/client-damage-audit/r3-projectile-extension-verify.json",
+      "bytes": 13080,
+      "sha256": "bf609db81774094765884a1e2767622ab27a90cd60212f5a8b9e1b2f70d9eaa8",
+      "role": "Conditional default-arrow resource selection, same-table action clone, actual component factories/updates and separate Entity task-list boundary"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r3-entity-task-verify.json",
+      "bytes": 27429,
+      "sha256": "74efd40990f073f8122b11b69a90cfb0a9228dc01aa00adfe62a6d23eccb0655",
+      "role": "Bounded Entity task registry, dual creation/ownership, selected timers and secondary subscription boundaries"
+    },
+    {
       "path": "Tools/re/out/client-damage-audit/r3-default-bow-type-enum.json",
       "bytes": 10646,
       "sha256": "9211a3b558098e5cfea34d41e5cf83da60c0f5f1f55318a7456c14d738bcea4f",
@@ -22624,6 +23666,18 @@
       "bytes": 11222,
       "sha256": "68dce85ce8200e42fa4801c11a2e1161fe9e25b78617b73b14bcb1109a7ac189",
       "role": "Ignored selected Olroth source member; not whole-archive identity or active damage publication"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r3-projectile-extension-resources/Metadata_Projectiles_DefaultArrow.ot",
+      "bytes": 296,
+      "sha256": "de3ee67794efb3b6bd707ee225d5112381c004281bfea704439d9b591b4bce48",
+      "role": "Ignored selected DefaultArrow inheritance member; no whole-archive identity or runtime selection claim"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r3-projectile-extension-resources/Metadata_Projectiles_Projectile.ot",
+      "bytes": 594,
+      "sha256": "e95821f41c996ee11accee8dec8548b1d2507c9a641d0e07526793abed18b5bd",
+      "role": "Ignored selected DefaultArrow inheritance member; no whole-archive identity or runtime selection claim"
     }
   ],
   "auxiliaryDataTables": [
@@ -22681,6 +23735,16 @@
       "path": "data/tables/BuffDefinitions.json",
       "sha256": "3a23c6fdf7ba29fb8508e5c9560a44e5292345e45dd2f886ef7126b8427fd659",
       "rows": 2814
+    },
+    {
+      "path": "data/tables/ProjectilesArtVariations.json",
+      "sha256": "2054a1d24d70bf2e8a14d86e316434847fdd90a0824ca4d081ef512e1ccdc848",
+      "rows": 327
+    },
+    {
+      "path": "data/tables/Projectiles.json",
+      "sha256": "28d902b5a89dcb584250fca84ee970d24f973d72e262f542b22f2c7064e1a2ef",
+      "rows": 1410
     }
   ],
   "comparisonSources": [

@@ -700,6 +700,9 @@ and can require explicit recipes.
   Bow/Wand selection, equipment-to-provider notifications and ordered startup registration winners are bound.
   The winning ranged contact callback consumes queued feedback; extension effects remain separate.
   Winning extensions reach melee attachments/controller state and generic zero-time projectile dispatch.
+  Conditional DefaultArrow resources bind Entity creation, the action clone and five component update slots.
+  Entity-owned tasks have local/serialized factory pairs, owned dispatch, selected timers and secondary subscriptions.
+  Live projectile task installation and external/nested listener consequences remain open.
   The entropy timer uses selected component simulation deltas and marks lazy re-seeding after 3.0 seconds.
   Actor result queues also drive action/control/knockback effects; numeric hit pre-deduction remains unproven.
   GEAL rejects specific server-only resource/stat/Buff APIs; native Life reads and script listeners are also bound.

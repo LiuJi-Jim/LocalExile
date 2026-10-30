@@ -136,6 +136,7 @@ These are client addresses; their presence is not proof of official-server imple
 |---|---|---|
 | `0x140826070` / `0x140ad5f30` | Fn | Numerical skill average/DPS readers: context-zero provider, keys 2144/2044/679, formatted text assignment |
 | `0x1425733e0` / `0x1425926c0` | Fn | First/last of the audited twenty both-hand typed min/max offence callbacks; see offence supplement |
+| `0x142788580` / `0x142788e50` / `0x1427893d0` | Fn | [Reference-damage physical-defence estimates](../re/client-defence-estimates.md): generic/projectile/hit values; not actual-hit mitigation |
 | `0x141d1e400` / `0x142513810` | Fn / Leaf | Percent float helper / signed half-away-from-zero conversion; verified signatures matter to decompilation |
 | `0x1421c2ad0` / `0x1421c3700` | Fn | Network Stats component / override wrapper construction |
 | `0x14363bd90` / `0x1424cfa40` | Vt / Fn | Wrapper getter table / exact pair including zero, absent-key upstream fallback |
@@ -160,9 +161,19 @@ These are client addresses; their presence is not proof of official-server imple
 | `0x1426e53f0` / `0x1426e7410` / `0x1426e7d60` | Fn | Life bypass sum / ES total / Life total |
 | `0x1426e7670` / `0x1426e7b00` | Fn | Normal / nonlethal ES overflow share to Mana |
 | `0x141e11dc0` / `0x141f79160` | Fn | Actual owner Stats-to-Buff insertion clock; poison/bleeding expiry inputs, pause guards and general floor |
+| `0x141e66ec0` / `0x141e6c710` / `0x141e0fbc0` | Fn / Leaf | [Life-to-Buffs guard](../re/client-buff-clock-producers.md): configuration receiver, selected transition and advancement-flag setter |
+| `0x142239940` | Fn | [BuffTemplates accessor](../re/client-dot-source-publication.md); named RF template amount is declared data, active publisher remains unresolved |
 | `0x1434876c0` / `0x14179d8a0` / `0x14179d9b0` | Vt / Fn | RF backend table, art-selector/transform refresh and presentation-object removal; tick/insertion slots empty |
 | `0x141819ed0` / `0x141e698e0` | Fn | Registered ClientOnlyKillSelf invoke / absolute pool setter; positive Life goes to zero, not contact-derived damage |
 | `0x141941c90` / `0x141651830` / `0x142199200` | Fn / Leaf / Fn | Bow/Wand action-variant selector, Actor weapon-state provider getter and mutable provider setter |
+| `0x141e97190` | Fn | [Equipment-to-provider refresh](../re/client-ranged-action-selection.md#equipment-records-update-the-same-provider) with hand records and stance/morph branches |
+| `0x1400fe9f0` / `0x141941bb0` | Fn | [Ordered startup registration](../re/client-ranged-action-selection.md#startup-registration-and-replacement-order) and existing-key factory replacement |
+| `0x1432e5718` / `0x14326d930` | Vt | Startup-selected default Melee variants 0/1; second includes Bow/Wand |
+| `0x1413c07a0` / `0x1413789e0` | Fn | [Winning action extensions](../re/client-action-extensions.md): target attachment/controller output and retained projectile zero-time update |
+| `0x141bb13a0` / `0x1412e2970` / `0x141bab560` | Fn | [Conditional projectile receivers](../re/client-projectile-extension-receivers.md): Entity allocation, same-table action clone and retained projectile binding |
+| `0x141edf5c0` / `0x141edf940` | Fn | [Entity-owned task container](../re/client-projectile-extension-receivers.md#entity-owned-tasks-identified-container-open-installed-types): typed factory registration and flag-gated zero-time dispatch |
+| `0x141ee00f0` / `0x141edff60` | Fn | [Serialized tasks and ownership](../re/client-entity-task-boundaries.md): separate factory pair entry, keyed replacement and removal |
+| `0x1416370f0` / `0x141ee0ba0` | Fn | [Task registry](../re/client-entity-task-boundaries.md#registry-storage-and-bounded-registration-inventory): 98 registrations in the exact inspected initializer; global total unresolved |
 | `0x141e6a190` | Fn | Life tick; conditional Life/ES/Mana continuous integration |
 | `0x141e6ae70` / `0x141e6b480` / `0x141e6cba0` | Fn | Life / ES / Mana continuous pool steps |
 | `0x141e6a6b0` | Fn | Integer/fractional loss reducer; float overflow result in XMM0 |

@@ -62,6 +62,8 @@ Detailed supplements keep the evidence reviewable without treating this summary 
 - [Concrete Fireball/Melee contact production, avoidance and entropy](client-hit-production.md).
 - [Default ranged-action selector, equipment inputs and startup registry winners](client-ranged-action-selection.md).
 - [Winning action extensions: attached effects and zero-time projectile updates](client-action-extensions.md).
+- [Conditional DefaultArrow receivers, component updates and Entity task container](client-projectile-extension-receivers.md).
+- [Entity task factories, ownership, selected timers and external subscriptions](client-entity-task-boundaries.md).
 - [Hit queues, action contexts and control effects](client-hit-feedback.md).
 - [Hit/resource receiver search and its precise coverage](client-hit-resource-boundary.md).
 - [Predictive/lockstep scheduling and resource correction](client-damage-timing.md).
@@ -100,6 +102,13 @@ flowchart TD
   WEAPON --> SELECT[Default Bow/Wand action variant]
   STARTUP[Ordered registry replacement] --> SELECT
   SELECT --> HIT
+  SELECT --> ARROW[Conditional DefaultArrow resource / Entity / same-table action clone]
+  ARROW --> EXTEND[Retained projectile: zero-time component and task updates]
+  EXTEND --> COMPONENTS[Five concrete component update slots]
+  EXTEND --> TASKS[Typed Entity-owned task container]
+  TASKS --> TASKFACTORY[Local / serialized factory pair and owned registration]
+  TASKFACTORY --> TASKCALLBACK[Selected task countdowns / secondary subscriptions]
+  TASKCALLBACK -. live installation and listener consequences unresolved .-> EFFECTS
   AVOID --> CONTINUE[Action-specific continuation: feedback / bookkeeping / empty slots]
   AVOID -. amount and critical calculation unresolved .-> HITCALC[Numerical damage / mitigation / routing]
   HITCALC -. pre-deduction unresolved .-> POOL
@@ -550,7 +559,8 @@ No client execution is authorized by this task list.
 | R3 | Hit panel/offence evaluators | Established locally | Both hands, five types, base/added, conversion, average/DPS and actual network-provider numerical readers audited; [details](client-offence-estimates.md) |
 | R3 | Physical-defence estimates | Established locally | [Three reference-damage formulas](client-defence-estimates.md), Ward substitution, cap/floor/rounding and category reader; concrete-hit mitigation remains separate |
 | R3 | Concrete contact → defender avoidance decision | Established locally | Fireball/Melee and data-bound Sand Spitter MonsterMortarAttack paths audited; [details](client-hit-production.md); selected source Actor callbacks are empty, attachment outputs bound; ordinary bow specialization remains separate |
-| R3 | Default ranged-action selection | Established locally | [Bow/Wand enum test, selected equipment-to-provider updates and startup registry winners](client-ranged-action-selection.md) bound; contact continuation consumes queued results; extension effects and numerical damage remain separate |
+| R3 | Default ranged-action selection | Established locally | [Bow/Wand enum test, selected equipment-to-provider updates and startup registry winners](client-ranged-action-selection.md) bound; contact continuation consumes queued results; numerical damage remains separate |
+| R3 | Winning ranged extension receivers | Partial | [Conditional DefaultArrow selection, Entity creation, same-table action clone and five component update targets](client-projectile-extension-receivers.md) bound; [selected task factories/timers/subscriptions](client-entity-task-boundaries.md) bound separately from live projectile installation and external listener consequences |
 | R3 | Accepted hit → numerical pre-deduction | Open | Connect established contact/avoidance to amount, critical, mitigation and typed pool receivers; inspected continuations consume existing feedback or have empty slots |
 | R3 | Hit packet → callbacks | Partial | Queue/control, named actions, secondary-action ID producer, GEAL and resource compiler bound; selected player/Sand Spitter files supply no custom-event handler; other configurations/consequences remain open |
 | R4 | Timing, freshness and correction policy | Partial | Scheduling, pool notifications, carry reset, entropy expiry and [Life-to-Buffs advancement guard](client-buff-clock-producers.md) established; existing-instance speed refresh, source-rate expiry and event/listener effects remain open |

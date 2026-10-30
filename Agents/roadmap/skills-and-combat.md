@@ -122,7 +122,9 @@ The suspend/restore lifecycle is explicit LocalExile policy; see protocol/11-ski
   Concrete Fireball/Melee contact and avoidance decisions are bound separately from panel formulas and feedback.
   Bow/Wand specialization, equipment-to-setter updates and startup registry winners are bound.
   Trace winning action extensions beyond inherited contacts and queued feedback to their numerical consequences.
-  Melee attachment/controller outputs and ranged zero-time dispatch are bound; type its actual callback receivers.
+  Melee attachment/controller outputs and DefaultArrow's five component update targets are bound.
+  Selected Entity task factories, timers and secondary subscriptions are bound separately from component updates.
+  Trace live projectile task installation and external/nested listeners beyond those bounded identities.
   Selected Sand Spitter source Actor callbacks and attachment outputs are bound separately.
   Owner-dependent Buff clocks are bound at insertion; trace later stat-change refresh separately from damage rate.
   Life-to-Buffs advancement guards are bound; trace the paired clear trigger and source-rate consequences.

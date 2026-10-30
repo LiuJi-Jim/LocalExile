@@ -13,8 +13,10 @@ target's Render component, a hit-bone selector, an attached animated object and
 an AnimationController parameter. The ranged extension positively requests a
 zero-time update of the **produced projectile's** components and callback list.
 Neither bounded chain closes a numerical damage producer or Life/ES/Mana
-deduction. The projectile dispatch is generic: its concrete callback targets
-remain unresolved, so it cannot be classified as entirely presentation-only.
+deduction. The [projectile receiver supplement](client-projectile-extension-receivers.md)
+now binds the conditional DefaultArrow resource, allocation/action clone and five
+component update targets. Installed tasks and nested listeners remain separate;
+generic dispatch cannot be classified as entirely presentation-only.
 
 All findings are static artifact observations for the existing 3.29.3b executable,
 SHA-256 `78a0e227189c263658a7f65a02f086428b859bfc114ae8e7ce8aab721ebd48d5`,
@@ -147,9 +149,12 @@ This is a callback-update collection, not an identified DPS aggregation loop.
 The observed behavior is therefore a **zero-time component/callback update**.
 Zero delta alone cannot establish absence of effects: an update can initialize
 state, dispatch queued work or execute an operation independent of elapsed time.
-The concrete default-Bow projectile component tables and `Entity+0x58` callback
-objects have not been bound to this exact produced Entity. Fireball or mortar
-component identities cannot substitute for that missing binding.
+The [projectile receiver supplement](client-projectile-extension-receivers.md)
+binds the conditional DefaultArrow resource to Entity creation, the same-table
+action clone, `+0x710` binding and `action+0x328`. It names five concrete component
+update slots and identifies `Entity+0x58` as an Entity-owned task container.
+Installed task types and nested listener consequences still require their own
+bindings; zero-time updates and initial empty storage are not absence proofs.
 
 ## Remaining research boundary
 
@@ -159,7 +164,8 @@ component identities cannot substitute for that missing binding.
 | Target contact attachment and controller write | Bound through named component getters and concrete write address |
 | Complete effect-definition/lifecycle listener consequences | Open; registration and controller listener dispatches are not exhaustively typed |
 | Winning ranged extension's receiver and zero-delta arguments | Bound to the produced projectile, not the enemy target |
-| Concrete projectile component `+0x40` / callback `+8` consequences | Open; generic dispatch must not be labeled harmless |
+| Conditional DefaultArrow component `+0x40` identities | Bound in the projectile receiver supplement; nested listeners remain open |
+| Entity-owned task `+8` consequences | [Selected timers and secondary subscriptions](client-entity-task-boundaries.md) bound; live installation and external listener effects remain separate |
 | Numerical hit-damage production and target-resource deduction | Not closed by these extensions; remain the original R3 question |
 
 These narrower results should be combined with the ongoing
