@@ -29,6 +29,69 @@ The instruction-level forwarding matters here:
 the Actor result consumer receives the record, the shared context and, when available, the matching action.
 Decompilation without callee signatures can omit some of these arguments.
 
+### Comparing the action fields with PR #373
+
+The [ranged-action report at PR #373's reviewed head](https://github.com/evrydayjunglist/evryPath/blob/b0afa90ea5c58e9082099d887180df8299dcdaf3/Agents/docs/dev/ranged-monster-actions-port.md)
+reports official-server arrow and Sand Spitter results with the second byte after
+the action sequence set to **2**, and calls it a "skill index". Its server writer
+uses that parameter name. This pass has not inspected those private capture
+bytes; the reported count and values remain author-reported observations.
+The original executable supplies a more precise distinction between the fields:
+
+| Wire position after the common header | Decoded field | Established consumer meaning |
+|---|---|---|
+| u16 | record `+0x40` | Action sequence; compared with action `+0x11a` |
+| First u8 | record `+0x43` | Progress/phase key; queued retrieval compares it with action `+0x120` |
+| Second u8, named `skillIndex` in that writer | record `+0x42` | Primary/secondary action selector; zero selects the primary action, nonzero searches secondary actions for matching `+0x11c` and sequence |
+| u32 | record `+0x44` | Referenced target Entity and part of an exact queued-result key |
+
+The byte order is verified at reader `0x14195dde0`: the first byte is written
+to destination `+3` at `0x14195de0a`, and the second to `+2` at `0x14195de1f`.
+The immediate consumer makes the primary/secondary distinction at
+`0x141e90f7f..0x141e90ff4`; there is no skill-list-index lookup in that branch.
+The field also differs from action `+0x174`, which indexes the associated stat
+context with a `0x20`-byte stride. These three bytes should not be conflated.
+
+This distinction has a positive producer binding, rather than just a guessed
+name from a comparison:
+
+1. Action construction `0x141938020` initializes action `+0x11c` to zero at
+   `0x14193821f`.
+2. `0x14193daf0` receives an action and a byte. It writes the supplied byte to
+   action `+0x11c` at `0x14193dbbf`, then appends that same action pointer to
+   the owning Actor's secondary-action vector `+0x1e8..+0x1f0`.
+3. In the concrete Fireball-bound producer `0x141bb13a0`, the `EDX == 1` branch
+   obtains an identifier through `0x141421a10` at `0x141bb183a`. It obtains a
+   new action through Fireball slot `+0x450` and passes that identifier to
+   `0x14193daf0` at `0x141bb1aa4`.
+4. That slot is concretely `0x1433361d0 → 0x1413dfbb0`. The factory allocates
+   `0x530` bytes and calls `0x1413dfbf0`, whose store at `0x1413dfc0c` installs
+   the same Fireball table `0x143335d80`. Thus the subordinate action's concrete
+   type is bound; the factory is not merely an unresolved virtual call.
+5. `0x141421a10` lazily creates a shared two-byte counter through the pointer at action `+0x160`,
+   initializes it with u16 value **1**, and forwards to `0x14193dc60`.
+   The latter increments the low byte and returns it. On that fresh counter the
+   first identifier is **2**; its `0xff` branch resets the low byte to 1 before
+   incrementing, and increments the second byte.
+
+Consequently the report's repeated value 2 is consistent with an allocated
+secondary-action identifier. It does not establish a universal value to send
+for every projectile, or prove that the captured bow/mortar action uses this
+exact Fireball branch. Identifying the matching action matters: the immediate
+path still forwards a record when no action matches, but supplies an empty
+associated context and a null action. A mismatch therefore need not suppress
+all target feedback; it can change which action/context reaches later callbacks.
+This does not turn that context into evidence of a numerical damage calculation.
+
+The report's changing common-header u32 and u16 also have a separate established
+role. The reader stores them at message `+0x14/+0x18`; the queued-frame scheduler
+uses those fields to interleave messages with entity/component updates
+(`0x142184742`, `0x1421847db..0x142184817`). See
+[message timing](client-damage-timing.md#lockstep-order-is-interleaved).
+They are distinct from the action-result key, and the changing u32 should not
+be relabelled random hit seed on this evidence. The exact reported values and
+their live scheduling context have not been independently rechecked here.
+
 ## Queued lifecycle
 
 Queued results have concrete consumers; they do not simply wait for an arbitrary Life tick:
@@ -105,6 +168,13 @@ This resolves those selected action targets; arbitrary event programs and wrappe
 
 The retained batches are `r3-hit-consumers`, `r3-hit-target-and-life`, `r3-actor-loop`,
 `r3-feedback-queue`, and the callback/predicate entries in `r4-world-scheduler`.
+The PR #373 comparison adds `r3-pr373-action-identities`,
+`r3-pr373-subaction-allocation` and `r3-pr373-fireball-subaction-{factory,copy,base}`.
+The ignored `r3-pr373-hit-key-verify.json` independently rechecks original-byte
+range hashes, exact instruction boundaries and the Fireball factory pointer.
+The supplementary bounded `r3-pr373-key-scan.json` was a lead-finding scan of
+byte stores in one address region; unrelated objects share the same offsets,
+and its coverage is not an absence proof.
 The byte copier `0x141e9edf0` and callback thunks have explicit bounded leaf ranges;
 other listed functions use chained PE unwind ownership.
 

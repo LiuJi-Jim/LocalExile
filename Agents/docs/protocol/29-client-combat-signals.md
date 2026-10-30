@@ -12,6 +12,7 @@ No client execution or new packet capture was performed for this static audit.
 | `0x1af` (decimal 431) | Actor result record, conditional source/target feedback signals | Per-hit damage amount, complete miss/block/crit taxonomy, local numerical pre-deduction |
 | `0x1b1` (decimal 433) | Assign current and reservation inputs for Life, Mana or ES | Which hit/source caused the difference, full rollback/replay, server tick cadence |
 | `0x1b3` (decimal 435) | Replace explicit stat values through the network override getter | Raw-input recomputation of every omitted derived output |
+| `0x1b4` (decimal 436) | Update explicit keys on a selected skill/stat-set network provider | Projectile trajectory, numerical hit amount or resource deduction |
 
 An incoming Life difference is a resource observation, not hit attribution or kill credit.
 A Render or sound callback is a presentation observation, not proof of a client damage roll.
@@ -95,7 +96,8 @@ dispatch slot is empty. Neither binding establishes accepted-contact numerical d
 
 The event VM's callable boundary is also distinct from packet decoding. GEAL client-mode compilation rejects
 the recovered server-only resource/stat/Buff mutation metadata, while real native callables can read Life
-and install listeners executing supplied programs. This does not recover the actual program for event `0x6876`.
+and install listeners executing supplied programs. Fresh selected player/Sand Spitter source chains supply
+no custom-event field for `0x6876`; other configurations and dynamic registration remain separate questions.
 See [GEAL eligibility and native listeners](../re/client-hit-resource-boundary.md#10-geal-callable-construction-and-clientserver-eligibility).
 
 ## `0x1b1`: absolute resource assignment
@@ -122,6 +124,26 @@ Between such assignments, the native Life tick can integrate continuous recovery
 That supports continuous extrapolation plus incoming value correction.
 It does not establish that the client independently predicts numerical hit damage.
 See [Stats update](10-chat-and-commands.md#3-sc-0x1b3-stats-update) for explicit-zero overrides and type fallback.
+
+## `0x1b4`: update an existing skill's stat values
+
+Factory `0x1421c6150` binds opcode `0x1b4` to table `0x1435c21c0`, reader `0x141fdeb10`
+and serializer `0x141fdea50`.
+After the common world header, the reader takes a big-endian u16 skill ID, u8 stat-set selector,
+unsigned compact pair count, then unsigned compact stat keys and signed compact values.
+Decoded fields are skill ID `+0x20`, selector `+0x22` and pair vector `+0x28..+0x30`.
+
+Actor dispatcher `0x1421940a0` maps this opcode to `0x142194482`.
+It finds an existing skill by ID, selects its primary provider for selector zero or additional set
+`selector - 1`, and applies each pair through `0x1424cfaf0` at `0x14219464d`.
+Unknown skills return; an out-of-range selector reports an error and returns.
+The setter inserts/replaces supplied explicit keys and sends same-key notifications.
+Omitted keys are retained. This is separate from the native contribution/evaluation transaction.
+
+The compact pairs are **stat key/value pairs**, not spatial points.
+The packet gives a wire identity to the previously audited subsequent skill updates and supports independent
+updates of client-visible skill values. It does not establish which keys the official server sends.
+See the [reader/consumer audit and PR #373 comparison](../re/client-damage-pr373-comparison.md#0x1b4-is-a-skill-stat-update).
 
 ## Remaining protocol questions
 

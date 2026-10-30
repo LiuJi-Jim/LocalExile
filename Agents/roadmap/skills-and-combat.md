@@ -120,8 +120,10 @@ The suspend/restore lifecycle is explicit LocalExile policy; see protocol/11-ski
   Outgoing RF parameters and 14408/8198/5981 formulas are bound separately from incoming base rates.
   Resolve source instances into base rates, their expiry/snapshot rules and actual publication eligibility.
   Concrete Fireball/Melee contact and avoidance decisions are bound separately from panel formulas and feedback.
+  Resolve ordinary bow specialization and the remaining Sand Spitter target/effect callbacks from their actual tables.
   Connect accepted contacts to numerical damage/critical/mitigation and pool receivers; these edges remain open.
-  Recover selected event programs beyond the established GEAL eligibility/native-listener boundaries.
+  Follow other event configurations beyond GEAL/native listeners; selected player/Sand Spitter files have no handler.
+  Reuse the pinned PR #373 comparison: `0x1b4` is a skill-stat update; private capture claims need source records.
   Bounded negative scans are not absence proofs.
   Track artifact hashes, exact anchors and evidence boundaries in the
   [research workbench](../docs/re/client-damage-calculation.md#8-research-workbench-and-completion-criteria).

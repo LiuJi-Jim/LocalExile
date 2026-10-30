@@ -60,6 +60,7 @@ Detailed supplements keep the evidence reviewable without treating this summary 
 - [Hit/resource receiver search and its precise coverage](client-hit-resource-boundary.md).
 - [Predictive/lockstep scheduling and resource correction](client-damage-timing.md).
 - [Versioned official/community explanations and PoB comparisons](client-damage-comparisons.md).
+- [Pinned PR #373 reports, independently checked fields and skill-stat updates](client-damage-pr373-comparison.md).
 
 ## 2. Observed graph and missing connections
 
@@ -80,12 +81,14 @@ flowchart TD
   TYPE --> GET[Network Stats getter: fallback only if key absent]
   NET[Creation pairs / S→C 0x1b3] --> OVERRIDE[Sorted explicit key-value overrides]
   OVERRIDE --> GET
+  SKILLNET[S→C 0x1b4: skill / stat set / key-value pairs] --> SKILLOVERRIDE[Selected network skill overrides]
+  SKILLOVERRIDE --> PANEL[Bound numerical skill-panel readers]
   GET --> TICK[Life component: integrate rate / 60 × dt]
   TICK --> POOL[Integer current + fractional carry + resource overflow]
   CORRECTION[S→C 0x1b1 decoded resource value] --> SETTER[Absolute pool assignment]
   SETTER --> POOL
   SETTER --> NOTIFY[Guarded pool notifications / recharge-delay changes]
-  HIT[Fireball spatial contacts / Melee range and line tests] --> AVOID[Concrete target dodge / evasion / projectile avoidance]
+  HIT[Fireball / Melee / Sand Spitter contacts] --> AVOID[Concrete target dodge / evasion / projectile avoidance]
   AVOID --> CONTINUE[Action-specific continuation: feedback / bookkeeping / empty slots]
   AVOID -. amount and critical calculation unresolved .-> HITCALC[Numerical damage / mitigation / routing]
   HITCALC -. pre-deduction unresolved .-> POOL
@@ -499,9 +502,11 @@ However, concrete native entries can read current Life and register Life listene
 supplied programs through the same VM. These exact boundaries, and the remaining selected-event
 program identity, are documented in the [resource receiver supplement](client-hit-resource-boundary.md#10-geal-callable-construction-and-clientserver-eligibility).
 They do not justify classifying the whole interpreter as presentation only.
-The same supplement now binds the event tables to actual Actor configuration script-parser producers
-and their compiler. The selected `0x6876` program still needs its resolved resource block;
-a bounded cache search cannot substitute for that resource identity.
+The same supplement binds the event tables to actual Actor configuration script-parser producers
+and their compiler. Fresh bundled-resource checks find no such custom-event field in the selected
+Ranger/Witch/Sand Spitter inheritance chains. Those source files therefore supply no `0x6876`
+program to recover; other types and dynamic configuration remain separate. Neither this selected
+resource result nor the earlier bounded cache search excludes a numerical damage path elsewhere.
 
 ## 8. Research workbench and completion criteria
 
@@ -515,18 +520,20 @@ No client execution is authorized by this task list.
 | Milestone | Task | State | Next evidence / completion criterion |
 |---|---|---|---|
 | R0 | Pin artifact, table keys and instruction boundaries | Established | Re-audit when either input hash changes |
-| R1 | Network Stats, actor/skill inputs, lookup freshness and native publication | Established | Actual network provider chain, updates/notifications and guarded native boundary audited; [details](client-stat-evaluation.md) |
+| R1 | Network Stats, actor/skill inputs, lookup freshness and native publication | Established | Actual network provider chain, updates/notifications and guarded native boundary audited; [details](client-stat-evaluation.md); subsequent skill update identified as [0x1b4](client-damage-pr373-comparison.md#0x1b4-is-a-skill-stat-update) |
 | R1 | Absolute pool update path | Established | Preserve decoded-field vs wire-offset distinction |
 | R2 | Typed DoT formulas through mitigation | Established locally | All five types and nonlethal branches audited; [asymmetries](client-dot-routing.md) remain explicit |
 | R2 | Source instance → base per-minute rate | Open | Find actual writes/read consumers of base rates; identify source and aggregation policy |
 | R2 | Outgoing RF parameter/formula chain | Established locally | Native stat-set constants and FireDot eligibility feed 14408 → 8198 → 5981; [details](client-dot-routing.md#outgoing-righteous-fire-formula-bridge); target application remains open |
 | R2 | Typed resource routes and cap boundaries | Established locally | Eight typed/nonlethal/darkness channels, healing/MoM, aggregates and overflow audited; input reachability remains separate |
+| R2 | Buff instance clock and native contribution-container semantics | Established locally | Independent duration/speed refresh, infinity default and direct vector-update boundaries; additive source-token store is separate from ailment selection and incoming-rate publication |
 | R3 | Hit panel/offence evaluators | Established locally | Both hands, five types, base/added, conversion, average/DPS and actual network-provider numerical readers audited; [details](client-offence-estimates.md) |
-| R3 | Concrete contact → defender avoidance decision | Established locally | Named Fireball spatial/dodge/avoidance and Melee range/accuracy/entropy paths bound; [details](client-hit-production.md); alternative actions remain separate |
+| R3 | Concrete contact → defender avoidance decision | Established locally | Fireball/Melee and data-bound Sand Spitter MonsterMortarAttack paths audited; [details](client-hit-production.md); ordinary bow specialization and selected target/effect callbacks remain separate |
 | R3 | Accepted hit → numerical pre-deduction | Open | Connect established contact/avoidance to amount, critical, mitigation and typed pool receivers; inspected continuations consume existing feedback or have empty slots |
-| R3 | Hit packet → callbacks | Partial | Queue/control, named actions, GEAL eligibility and resource-script parser/compiler bound; selected event program/descriptors and numerical consequences remain open |
+| R3 | Hit packet → callbacks | Partial | Queue/control, named actions, secondary-action ID producer, GEAL and resource compiler bound; selected player/Sand Spitter files supply no custom-event handler; other configurations/consequences remain open |
 | R4 | Timing, freshness and correction policy | Partial | Scheduling, pool notifications, transition-specific carry reset and entropy expiry established; Buff ticking/removal traced separately; source-rate and event/listener effects remain open |
 | R4 | Official/community comparisons | Established comparison | [Pinned sources](client-damage-comparisons.md) distinguish historical explanations, wiki synthesis and PoB; current server equivalence is unproven |
+| R4 | PR #373 intermediate findings | Established comparison | [Pinned report and static cross-checks](client-damage-pr373-comparison.md); private capture counts/timestamps remain reported observations, not independently verified traffic |
 
 Useful starting addresses are indexed in [address-index](../protocol/address-index.md#client-damage-research).
 Each newly established edge should cite a range or instruction anchor and state its guard conditions.

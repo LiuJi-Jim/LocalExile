@@ -146,6 +146,27 @@ before dispatching. The vector elements should not simply be renamed raw stat ke
 that mapping. These observations establish conditional invalidation and dispatch; they do not
 prove a complete ordering or fixed-point algorithm for every callback.
 
+### Native source tokens retain additive contributions
+
+The contribution store has a concrete contract separate from any particular effect's stacking rule.
+Native add `0x1424fc480` accepts an eight-byte source token and a signed 32-bit amount.
+It adds the amount to record `+8` with ordinary integer `add` at `0x1424fc63a`, then appends a
+12-byte `(token, amount)` entry at `0x1424fc64b..0x1424fc657` or through its capacity-growth helper.
+The existing-record path does not replace an earlier amount for the same token or select a maximum.
+The zero-amount entry guard at `0x1424fc480` returns before recording a contribution.
+
+Source removal `0x1424fc770` looks up both token words (`0x1424fc7cd..0x1424fc7db`), obtains
+that source's affected-key vector, and calls per-key removal `0x1424fc9e0` at `0x1424fc8a9`.
+That helper filters matching token pairs from the per-stat list (`0x1424fcb22..0x1424fcb77`),
+then rebuilds record `+8` by ordinary 32-bit addition of the remaining entries
+at `0x1424fcbaa..0x1424fcbcf`. There is no saturation in these particular add/rebuild operations;
+derived callbacks retain their own separately documented clamps and eligibility checks.
+
+These are raw stat-source accumulation/removal operations, not an established ignite-max or poison-sum
+algorithm. A caller would still have to choose the applicable instances and publish their magnitudes.
+The network override vector is a different store, and no Buff-to-these-functions binding follows from
+the token layout. The three original-byte bodies are retained in `r2-native-source-tokens`.
+
 ### Native child inheritance is actively propagated
 
 Native child constructor `0x1424fbb80` installs the native table, copies the parent's resource/data
@@ -357,6 +378,7 @@ or original executable bytes belong in version control.
 | Batch | Scope |
 |---|---|
 | `r1-producer-refs` | Native constructor/add/begin/end callers and reverse-dependency helper |
+| `r2-native-source-tokens` | Raw additive contribution entries, token-directed removal and per-key sum rebuilding |
 | `r1-skill-producers` | Native skill producers, native action context builders, source removal and child destructor |
 | `r1-object-binding` | Skill context accessor, shared child helper and conditional action wrappers |
 | `r1-active-context` | Actor type skill producer, native child constructor and stat-set iteration/mapping |

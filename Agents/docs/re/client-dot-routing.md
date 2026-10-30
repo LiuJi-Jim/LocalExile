@@ -37,6 +37,8 @@ The local evidence batches under ignored `Tools/re/out/client-damage-audit/` are
 | `r2-context-dot-production` / `r2-rf-outgoing-narrow` | Generic fire final registration/body, RF base and generic fire intermediate registrations/bodies |
 | `r2-rf-outgoing-area-v2` / `r2-rf-outgoing-inputs-v2` | RF area intermediate/final registrations/bodies, native skill-user pool getters and exact reviewed float helper leaves |
 | `r2-rf-outgoing-labels` / `r2-rf-outgoing-key-discovery` / `r2-rf-outgoing-inline-discovery` | Bounded outgoing-key consumers, label formatter and immediate/cache-displacement discovery sidecars |
+| `r2-buff-timewarp-v2` | Packet-to-instance duration/speed transport, partial versus replacement refresh, exact positive-infinity default leaf and timer consumer |
+| `r2-rf-art-lookup-v2` | RF backend's concrete skill-art row, animated-art list callback, variation selection and table identities |
 
 Each `audit.json` retains original-file offsets, SHA256s, PE-unwind roots/chains and every decoded instruction.
 Selected `decompilations.jsonl` files come from Ghidra 12.1.4, JDK 21, `-noanalysis`, bounded bodies only.
@@ -326,10 +328,33 @@ No matching entry returns a null backend. An empty table Id2 alone does not prov
 There is a positive RF-aura backend binding: registration body `0x1415be830` sets up vtable `0x1434652b0`,
 inserts the literal `RighteousFireBuff` at `0x1415c0085..0x1415c00a1`, and stores its factory object
 in entry `+0x30` at `0x1415c00b0`. The vtable's first pointer is `0x1415d1010`, which allocates an object
-and invokes constructor `0x14179d280`. That constructor keeps the Buff pointer, checks Buff `+0x30`,
-and consumes the first value of Buff `+0x80` as an identifier for lookup `0x14179da90`.
-The lookup builds a `0xb2` query with callback `0x141937ad0` and calls `0x141f70f30`.
-Its precise resolved-object ownership remains unclassified here.
+and invokes constructor `0x14179d280`. That constructor keeps the Buff pointer and checks Buff `+0x30`.
+Lookup `0x14179da90` consumes the first value of Buff `+0x80` as an explicit **art-variation selector**,
+or `-1` when that vector is empty (`0x14179daba..0x14179dacf`). It passes a one-element list containing
+`0xb2` and callback `0x141937ad0` to `0x141f70f30`. This is an art-resource lookup, not a recovered
+source-entity identifier or RF damage producer.
+
+The distinction is positively bound: `0x141f70f30` names `Data/SkillArtVariations.dat` at
+`0x141f70f88` and `Data/MiscAnimatedArtVariations.dat` at `0x141f710f9`.
+Helper `0x141937b90` subtracts one from the input key at `0x141937ba7` and uses row stride `0xd8`
+at `0x141937bf2`; `0xb2` therefore selects zero-based SkillArtVariations row 177, `righteous_fire`.
+The exact reviewed callback `0x141937ad0..0x141937aea` returns row `+0x08/+0x10`, the AnimatedArt
+reference list. The RF caller explicitly supplies the Buff value as the variation override,
+so the selector branch `0x141f710bb..0x141f710c4` uses that value instead of reading the row's
+`skill_art_variation` stat. The subsequent lookup uses the selected art identity and variation
+at `0x141f71143..0x141f71163`.
+
+The default data chain is concrete: row 177 AnimatedArt[0] points to MiscAnimatedArtVariations
+row 1756 `righteous_fire_ring`, whose Variant is zero and Animation[0] points to MiscAnimated
+row 109 `RighteousFireRing`. That row names `Metadata/Effects/Spells/ri_fire/rifire.ao` and has
+unnamed integer `__col4 = 400`, at native row `+0x24`. These are declared resource identities;
+they do not show that a particular runtime instance selected the default variant.
+
+| Extracted table | SHA256 |
+|---|---|
+| SkillArtVariations | `c8ea3d20e7678272ec8e836a051b81a745a53e7aeb4ca0adb670df2ca0a5ce6d` |
+| MiscAnimatedArtVariations | `bad3597272f1925c268dec00e6bf1b6f6dd8cec075ec16a245ae83c520dfd52b` |
+| MiscAnimated | `27ac63a16834eceead97b015a74ddb36ace3a7561f222b060aa4738a1266d9b3` |
 
 The audited constructor then calls `0x14179d7c0` and `0x14179d4e0`.
 The first computes a scale from the resolved object's `+0x24` and Buff `+0x30`, builds a 64-byte transform
@@ -338,6 +363,10 @@ The second creates an object through `0x141da6360` and sends that object plus th
 This is evidence of a transform/object presentation path; these bodies do not publish raw2023 through
 the audited native contribution adaptor or native-add entry.
 It is not evidence that the backend locally derives RF damage magnitude.
+Local `r2-rf-art-lookup-v2/verification.json` checks the six combined lookup/backend function bodies,
+855 instructions, 27 semantic anchors, both table-name strings and the four involved table identities
+(including Stats). All three newly selected decompilations completed. This closes the previously
+unclassified lookup into art resources, while leaving source-to-damage publication unresolved.
 
 The remaining producer boundary is consequently explicit: the inspected reader/copy/instance/backend path
 does not close `ignite instance → raw8215`, `poison instance → raw8216`, or `RF aura instance → raw2023`.
@@ -441,6 +470,55 @@ an ignite/poison/RF rate from native actor stats. The generic action-contributio
 successful-startup binding is documented in [stat evaluation](client-stat-evaluation.md#5-action-local-native-mutation-is-guarded-out-by-ordinary-startup).
 Those guards apply to their identified action routes. A Buff-specific route into them has not been recovered,
 so they cannot be generalized into a proof that every Buff damage source is disabled.
+
+### Instance clock updates are separate from damage magnitudes
+
+There is a positive network-instance timing contract, even though source-to-damage publication remains open.
+The AddBuff reader `0x141fdf870` transports two independent float32 bit patterns. It byte-swaps the incoming
+32-bit words and stores them without an integer-to-float conversion or a milliseconds division:
+
+| Packet flag | Decoded field | Absent-field value | Bound consumer |
+|---|---|---|---|
+| `0x02` | Packet `+0x68`: remaining-duration input | Positive infinity, bits `0x7f800000` | Buff `+0x1c`, decremented by the timer |
+| `0x80` | Packet `+0x6c`: duration-speed input | `1.0f`, bits `0x3f800000` | Buff `+0x20`, multiplies timer delta unless row `+0x73` bypasses it |
+| `0x40` | Packet `+0x81`: replacement selector | Zero | Existing-instance handler chooses partial update or replacement-style update |
+
+The duration/speed stores are at `0x141fdfa30` and `0x141fdfa5f`; their defaults are at
+`0x141fdfa35..0x141fdfa3a` and `0x141fdfa64`. The duration default calls the exact nine-byte
+leaf `0x14015a670..0x14015a679`, which loads `0x1436a48d4 = 0x7f800000` into XMM0.
+The replacement selector is extracted by `shr 6; and 1` at `0x141fdfc89..0x141fdfc91`.
+These are actual floating-point timer inputs, not integer durations interpreted through a guessed unit scale.
+
+For a new instance, copier `0x141e07220` maps the two fields to parameters `+0x28/+0x2c`.
+Constructor `0x141e06290` copies the first into **both** Buff `+0x18` and remaining duration `+0x1c`
+at `0x141e062d3..0x141e062de`, and the second into speed `+0x20` at `0x141e062e1..0x141e062e5`.
+An omitted duration therefore has a concrete indefinite-timer representation; no finite total damage is implied.
+
+For an existing instance with the matching `+0x9c` key, handler `0x141e11720` tests packet `+0x81`
+at `0x141e1191d`. With the replacement selector clear, it overwrites remaining duration and speed directly
+at `0x141e11b86..0x141e11b8f`, along with other update fields. That branch contains no direct replacement of
+the existing granted-value vector `+0x130` or constructor-assigned duration `+0x18`; it does copy the separate counted
+vector into `+0x80`. With the selector set, it constructs a temporary instance and calls
+`0x141e067c0` at `0x141e11acf`. That updater moves the granted-value vector at `0x141e06895` and
+copies remaining duration/speed at `0x141e068e8/0x141e068ee`, but still does not directly overwrite destination
+`+0x18`. Its backend callbacks bracket the replacement; the partial update separately calls backend `+0x10`.
+Neither branch means that changing time necessarily recalculates a DoT magnitude.
+
+The tick already bound above consumes these exact instance fields:
+`remaining -= deltaTime * (row.+73 ? 1.0f : speed)` at `0x141e105cd..0x141e105ea`.
+The packet can thus change an existing instance's clock through a partial-update branch that does not directly
+replace its existing granted-value vector. Indirect backend callbacks can have additional effects;
+their complete side effects are not established here.
+This establishes transport and consumption of a refreshable clock rate, including an indefinite duration.
+It does **not** identify the server producer of that rate as Temporal Chains, prove a damage-faster/slower
+snapshot policy, or couple timer speed to outgoing/incoming DoT rate. No client-side resistance change,
+strongest-ignite selection, poison sum, source removal or shared-cap behavior follows from this timer path.
+The tick's earlier eligibility checks and message-driven removal boundary remain applicable.
+
+Local verification `r2-buff-timewarp-v2/verification.json` checks seven original-byte function ranges,
+1,225 instruction records, 27 exact semantic anchors and the positive-infinity constant.
+It uses existing selected decompilations for context and an explicit reviewed leaf boundary for the default helper;
+no runtime execution or official-server capture was used.
 
 ## Outgoing Righteous Fire formula bridge
 

@@ -145,6 +145,8 @@ These are client addresses; their presence is not proof of official-server imple
 | `0x1424fd240` / `0x1424fd390` | Fn | Begin/nest / end update transaction; outermost end processes affected evaluations |
 | `0x1424fcc80` / `0x1424fccf8` / `0x1424fcdb3` | Fn / Insn | Evaluation dispatcher / callback call / changed result write |
 | `0x142196ce0` / `0x141ee73d0` / `0x141ee7e70` | Fn | Network skill record construction / retained override providers / context accessor |
+| `0x1435c21c0` / `0x141fdeb10` / `0x141fdea50` | Vt / Fn | `0x1b4` skill/stat-set key-value update table, reader and serializer |
+| `0x142194482` / `0x14219464d` | Insn | `0x1b4` Actor branch / selected network skill-provider setter call |
 | `0x1424cfc00` / `0x1424cfd00` | Fn | Inherited-key notification masking/forwarding / listener dispatch; separate from native derived evaluation |
 | `0x141ee8ef0` / `0x141ee9043` / `0x141ee9071` | Fn / Insn | Native skill-data producer / unchanged BaseMultiplier contribution / divided DamageEffectiveness contribution |
 | `0x140101e50` / `0x1445b38cd` / `0x14193bebc` | Insn / G / Insn | Successful startup sets guard / flag / guarded native action-context builder |
@@ -177,6 +179,8 @@ These are client addresses; their presence is not proof of official-server imple
 | `0x141e95620` / `0x141ea08a0` | Fn | Actor event selection / callable forwarding to event execution; consequences not exhausted |
 | `0x141bb13a0` / `0x141ba99d0` / `0x141bb83c0` | Fn | Fireball-bound flight callback / projectile contact query / spatial grid walker |
 | `0x141bbaf70` / `0x141ba7b30` | Fn | Spatial candidate filtering / projectile contact and avoidance processing |
+| `0x141266030` / `0x1412b0260` / `0x143359808` | Fn / Vt | Named MonsterMortarAttack registration / ordinary factory / final table; Sand Spitter data binding |
+| `0x141b6a690` / `0x141b74d70` / `0x1412e9d10` | Fn / Leaf | MonsterMortarAttack radius expansion / spatial walker / per-target queued-result lookup |
 | `0x1419eee20` / `0x141ebd2f0` | Fn | Concrete Fireball defense wrapper / target spell-dodge decision |
 | `0x141c98700` / `0x141c9aa80` / `0x141ebd1a0` | Fn | Selected Melee range test / contact accuracy dispatch / target entropy update |
 | `0x141e40bd0` / `0x1435dd4e8` | Leaf / Vt | Stats entropy countdown and lazy-reset flag / actual component tick table |

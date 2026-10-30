@@ -573,12 +573,13 @@ modified and no client was executed.
 **Remaining concrete edge:** identify the source Actor's actual object type and
 resolved component resource chain, the matching action ID or granted-effect
 pointer, and any matching custom-event field whose event word is `0x6876`.
-Then recover that field's supplied token block, including inherited and
-client-specific definitions, and bind its emitted descriptors. The available
-cached resources do not supply such a block. This pass closes the producer and
-parser boundary, while the selected program's numerical/resource effects remain
-unresolved; it does not establish a generic client damage calculator or prove
-the callback harmless.
+Then recover any matching field's supplied token block, including inherited and
+client-specific definitions, and bind its emitted descriptors. Section 14 checks
+the actual bundled source chains for the player and Sand Spitter cases and finds
+no such field; a matching program must not be assumed to exist for every source.
+The parser boundary is closed, while general numerical/resource consequences of
+other possible configurations remain unresolved. This does not establish a
+generic client damage calculator or prove the whole callback harmless.
 
 ## 13. Event program source anchors
 
@@ -602,3 +603,88 @@ published spans and inventory hashes. `r3-event-program-resource-handler-invento
 retains the bounded resource matches. The incomplete `r3-event-program-config`
 attempt is not used as an audit source; its explicit leaf was subsequently
 reviewed and included in `config-bound`.
+
+## 14. Concrete bundled source chains: player and Sand Spitter
+
+PR [#373](https://github.com/LocalExile/LocalExile/pull/373), inspected at
+`b0afa90ea5c58e9082099d887180df8299dcdaf3`, supplies a concrete research lead:
+its author reports official-server captures involving a Ranger and
+`Metadata/Monsters/SandSpitters/SandSpitter12@1`. The following is a separate
+static check of locally available resources. It does not independently verify
+that capture or identify the resources actually loaded in its recorded process.
+
+A fresh read-only inventory of the available GGPK's bundle index contains
+1,214,937 paths, including **12,997 `.ot` paths and zero `.otc` paths**. Direct
+probes for the four selected player/monster `.otc` companions also fail. Thus
+the old extracted cache's missing `.otc` markers do not, by themselves, indicate
+an unexamined existing companion file in this indexed snapshot. This is an
+index-membership result, not an assertion about loose-file overrides, every
+distribution, or the pristine identity of the entire locally maintained archive.
+
+Fresh extraction recovers the following complete selected inheritance chains:
+
+| Selected source | Parent-first resource chain | Custom-event fields in either Actor event grammar |
+|---|---|---|
+| Ranger object type | `Metadata/Characters/Character.ot` → `Metadata/Characters/Dex/Dex.ot` | None |
+| Witch object type | `Metadata/Characters/Character.ot` → `Metadata/Characters/Int/Int.ot` | None |
+| Sand Spitter base object type | `Metadata/Monsters/Monster.ot` → `Metadata/Monsters/SandSpitters/SandSpitter.ot` | None |
+
+The extracted `MonsterVarieties.json` row 490 binds literal
+`Metadata/Monsters/SandSpitters/SandSpitter12` to `BaseMonsterTypeIndex =
+Metadata/Monsters/SandSpitters/SandSpitter`, with an empty
+`AddonMonsterTypeIndex` list. This closes that particular data-to-source-file
+selection. The table SHA256 is
+`4d6ccccc097599bac7a22f05921183e796a3d1ba5a9f167ea28669a62cd29db6`.
+It does not recover the author-reported capture's entity-creation bytes.
+
+All five fresh resource bodies match the existing extracted cache byte for byte:
+
+| Resource | Bytes | SHA256 |
+|---|---:|---|
+| `Metadata/Characters/Character.ot` | 8,950 | `a9fcdf168d84956e569c345b474aa2c2262efa61057046a87eb8036d36ef9f4b` |
+| `Metadata/Characters/Dex/Dex.ot` | 388 | `087176117e602d9d7c5757d6cc4ce38851b070203cf032f145fee5fad090a054` |
+| `Metadata/Characters/Int/Int.ot` | 388 | `087176117e602d9d7c5757d6cc4ce38851b070203cf032f145fee5fad090a054` |
+| `Metadata/Monsters/Monster.ot` | 6,654 | `27bc3ceddf8e4798b1a18e239b3fc5650b302d10c9b7fc67b754b70ef61c4dff` |
+| `Metadata/Monsters/SandSpitters/SandSpitter.ot` | 452 | `5cc590dd3f423b8c1bf66dd7b133c80eb99142a896201d269626581027bc63ac` |
+
+The character/monster roots already contain embedded `client` blocks: their
+contents are Render/Targetable configuration. Sand Spitter adds a client
+BaseEvents construction handler that hides a mesh segment; its ordinary Actor
+block adds `Emerge` and `Emerge2`. None supplies either custom-event grammar from
+section 12. Consequently **these source files supply no `0x6876` custom-event
+program to extract**. An empty optional source-event route is distinct from an
+unrecovered mandatory damage program. Dynamic reconfiguration and other object
+types remain outside this selected source-file result; neither the numerical
+hit path nor all possible native consequences are thereby excluded.
+
+The native loader was also checked beyond its previously cited addresses.
+`0x142474ae0` invokes `0x142474fc0` for the common pass at `0x142474b74`, stores
+the common component count at type `+0x80` at `0x142474b85`, and performs a
+separate configured extension pass at `0x142474bfd`. The inheritance routine
+`0x142476300` recognizes the literal `nothing` and invokes `0x142474fc0` for
+a nonterminal parent at `0x1424764b0`; `0x142474fc0` processes the stored
+parent list before the current-file parser path in its mode-3/4 branch
+(`0x1424751d5` before `0x142475297`). These are original instruction/control-flow
+checks, not evidence that a specific runtime instance took the path.
+
+A further bounded search freshly extracts **879 monster/character/projectile
+`.ot` paths** that are present in the current index and absent from the old
+cache. None contains either custom-event grammar. This extends the prior cache
+coverage; it is not a complete fresh extraction of all 12,997 `.ot` bodies and
+must not be reported as an archive-wide absence of hit logic.
+
+New native source anchors, with exclusive ends:
+
+| Purpose / VA span | File offset | SHA256 |
+|---|---:|---|
+| Type component passes `[0x142474ae0,0x142474ce7)` | 38223584 | `3884d14ed1a1be6e47d8e54c0d7aa5f324c0c432646c875df8e68e0b087482d4` |
+| Parent/current-file dispatch `[0x142474fc0,0x14247531a)` | 38224832 | `e95953359162b640083de53ce6ef35f78d790022a27890eedb61491ed27326fa` |
+| Extension file selection `[0x142475320,0x142475a0c)` | 38225696 | `dd790047b75b3165dddc720cf8c54e8f406e8c8d54ab8272065a213f9f4c0e08` |
+| Parent resource selection `[0x142476300,0x14247657c)` | 38229760 | `2e93b08fe855677be4afab4864c5bb7d8ab83f9cb752b3fbbb88667fcdc92d7c` |
+
+Local `r3-event-archive-loader` retains four successful selected decompilations
+and original-byte audits. `r3-event-archive-inventory.json` binds the five
+resource bodies, parent chains, index counts and monster table row;
+`r3-event-archive-additional-inventory.json` retains all 879 additional resource
+hashes and the exact bounded search result. Their scripts recheck these records
+without running the client or modifying the archive.

@@ -54,6 +54,13 @@ Ignored evidence under `Tools/re/out/client-damage-audit/` includes:
 - `r3-contact-entropy-{lifecycle/audit,verify}.json`: Stats component construction,
   its exact countdown leaf, and the predictive/queued-frame component tick sites;
   six function/range hashes and 15 instruction checks independently reverified.
+- `r3-pr373-{monster-mortar-register,ranged-factory,monster-mortar-contacts,mortar-radius-boundary}/audit.json`:
+  named action registration, ordinary factory, concrete continuations and radius
+  walker; 18 function records and 34 original-byte ranges.
+- `r3-pr373-{ranged-links,ranged-tables,mortar-verify}.json`: extracted-data
+  identity chains, concrete pointers, and an independent recheck of 31
+  instructions, nine selected slots, the false leaf, data identities and those
+  34 function ranges. These retain no new runtime observations.
 
 These are original-byte audit records, not REA Evidence IDs. Raw pointers alone
 do not establish object ownership. The factory/constructor stores and call
@@ -282,9 +289,70 @@ leaf `0x141c99a10`, which forwards to that same `+0x548` slot. These add further
 concrete feedback boundaries; they do not close every spatial callback or
 alternative table.
 
+## PR #373 follow-up: the actual Sand Spitter action
+
+The pinned [PR #373 ranged-action report](https://github.com/evrydayjunglist/evryPath/blob/b0afa90ea5c58e9082099d887180df8299dcdaf3/Agents/docs/dev/ranged-monster-actions-port.md)
+reports official-client captures involving `MMASandSpitterProjectile`, no
+server-created `0x2b9` mortar objects in that experiment, and Life/critical hit
+feedback. Those remain **author-reported captures**: the raw capture was not
+available for independent replay in this pass. Its named skill is a useful
+static entry point; the absence of a server projectile object does not itself
+prove a numerical client damage calculation.
+
+The extracted rows bind that specific skill as follows (zero-based JSON rows):
+
+| Table / row | Selected identity / edge |
+|---|---|
+| GrantedEffects / 617 | `MMASandSpitterProjectile`; ActiveSkill 537; StatSet1 624 |
+| ActiveSkills / 537 | `monster_mortar_attack`; ActionType 313 |
+| ActionTypes / 313 | `MonsterMortarAttack`; HASH16 5429 (`0x1535`) |
+| GrantedEffectStatSets / 624 | `MMASandSpitterProjectile` |
+
+The input SHA256 values are `ee02ccde977a7a7c444b3fb329867b65a931dda3ab89f204dfc96b15571a6b3b`
+(GrantedEffects), `baadc60b03734004624100d6aeab1a7b3a97728a4c625761d2b01c04b1404c75`
+(ActiveSkills), `eef7b004b13a3f32e487d5c102c41362b62131f83249f45194ece05b8518d9d6`
+(ActionTypes), and `fa258d15498c5e1910f94bf6cfdf938184a4e9d4a1f4b71212cbaace192d5c8b`
+(GrantedEffectStatSets). These are the extracted artifacts inspected here;
+the supplied schema links are not new network observations.
+
+`MonsterMortarAttack` must not be substituted with ActionTypes row 625
+`Mortar`, or with the older GrantedEffects row 606 `SandSpitterProjectile`.
+Those are different data bindings. Native registration `0x141266030` supplies
+the ASCII name at `0x14325f738` and factory `0x1412b0260` to
+`0x141941bb0`. After its mine/trap/totem wrapper tests, the ordinary factory
+allocates `0x530` bytes, invokes `0x141b69900`, and installs final table
+`0x143359808` at `0x1412b0352`. Its clone slot `+0x450 → 0x1414005b0`
+reinstalls that same table at `0x1414005e6`.
+
+| Concrete MonsterMortarAttack slot | Original-byte result |
+|---|---|
+| `+0x618 → 0x141bb13a0` | The same flight-producing function bound for Fireball, now independently bound to this actual named action. Its different final table supplies different continuations. |
+| `+0x570 → 0x141b6f950` | Calls `+0x778`, whose actual pointer is false leaf `0x1400ed4a0` (`32c0c3`). The selected branch forwards hand byte `action+0x518`, the target Entity from the supplied Positioned object `+8`, `R9b=1` and final stack boolean false to `0x14193a8c0` at `0x141b6f9f6`. It then inverts the result. This binds the existing accuracy/evasion/entropy helper chain to this concrete action; it does not produce a damage amount. |
+| `+0x530 → 0x141b6a690` | Requires a projectile Entity at `action+0x328`; obtains a radius through `0x141939880`, scales it by definition `+0x40` as a percentage, and queries the spatial object through `0x141b74d70` at `0x141b6a84b`. That walker enumerates cells, tests `distance² <= (radius + signed targetSize)²`, and passes candidates to `0x141b748b0`. The resulting target vector is then iterated. |
+| Per-target `+0x7b8 → 0x1412e9d10` | Exact leaf `[0x1412e9d10,0x1412e9d1b)` loads the target Entity ID from `+0x88` and jumps to `0x141939f40`, the existing queued-result lookup established in [hit feedback](client-hit-feedback.md). The radius handler then invokes `0x14193a170` at `0x141b6a87e`, and optionally again at `0x141b6a896`. This is a concrete contact-expansion-to-feedback boundary. |
+
+Two alternative continuations are explicitly **not closed** by that finding.
+Slot `+0x538 → 0x141b6f540` loads a virtual target callback from the supplied
+object's `+0x1f0`, invokes it with the action and skill context, then forwards
+to `0x141b6f5c0`; the concrete target callback binding remains unresolved.
+Slot `+0x590 → 0x141400640` creates/configures an effect Entity and, under
+projectile/definition/grid conditions, calls `0x141374480` at `0x141400a4b`.
+That downstream operation is not fully classified, so the whole continuation
+must not be called presentation-only. Neither unknown is evidence that it
+does perform numerical damage calculation.
+
+The ordinary bow case also remains separate. Extracted Default Attack binds
+GrantedEffects row 468 `PlayerMelee` → ActiveSkills row 108 `melee` →
+ActionTypes row 47 `Melee`. Its stat-set row 476 includes getter keys 852
+`skill_can_fire_arrows` and 853 `skill_can_fire_wand_projectiles`. This
+establishes the general skill identity, **not** the concrete ranged
+specialization selected for the report's bow shot. Neither the selected
+flag-0 Melee empty contact slot nor the MonsterMortarAttack table can stand in
+for that still-open binding.
+
 ## Remaining closure criteria
 
-This pass establishes **contact → local defense decision** and two concrete
+This pass establishes **contact → local defense decision** and selected concrete
 continuation boundaries. It leaves **accepted contact → numerical damage
 amount/critical/mitigation → typed embedded resource-pool loss** unresolved.
 The [resource receiver audit](client-hit-resource-boundary.md) identifies the
