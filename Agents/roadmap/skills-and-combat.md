@@ -125,6 +125,8 @@ The suspend/restore lifecycle is explicit LocalExile policy; see protocol/11-ski
   Empty Id2 for ignited/poison selects null in the audited startup catalogue, not an implicit default backend.
   Follow concrete numerical observer/script leads; do not repeat that closed factory/registry question.
   Reuse actual Buff observer payloads, lifecycle program storage/invocation and selected presence predicates.
+  Initial granted values share the recovery gate; reuse their byte-order and prefix-preserving storage contracts.
+  The attraction-shape observer has no-op gain/loss callbacks; do not reopen it as a numerical publisher.
   These contracts do not yet identify a numerical subscriber; do not expand unrelated presentation code.
   Reuse recovered outgoing ailment coefficients, faster/slower and critical-multiplier branches.
   Reuse complete MH/OH/spell chance builders and the selected defender modifier composition.
@@ -133,6 +135,8 @@ The suspend/restore lifecycle is explicit LocalExile policy; see protocol/11-ski
   Reuse the complete fire self-rate 8180 equation; its primitive source publication remains a separate open edge.
   Reuse complete physical/chaos self-rates 8179/8183, including transfer gates and the physical post-cap tail.
   Reuse thirty typed spell component equations and four life-cost/weapon-as-spell contributor builders.
+  Reuse twelve final spell range equations, including ordered conversion terms and both special branch families.
+  Preserve the longest chaos-path remainder exception and signed integer total wrapping in comparisons.
   Preserve wand half-splitting, hand-cast/type gates and distinct integer/float32 boundaries.
   Fire intermediate-added reads active-Buff count outside declared dependencies; grants/refresh stay separate.
   These callbacks consume supplied bleed/ignite/poison rates; primitive instance publication remains open.

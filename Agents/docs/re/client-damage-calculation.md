@@ -68,6 +68,8 @@ Detailed supplements keep the evidence reviewable without treating this summary 
 - [Buff clock eligibility inputs, serialization defaults and update asymmetry](client-buff-clock-input-provenance.md).
 - [Empty-Id2 Buff backend lookup, startup catalogue and base lifecycle boundaries](client-buff-default-backend.md).
 - [Actual Buff observer payloads, lifecycle script configuration and selected presence predicates](client-buff-lifecycle-scripts.md).
+- [Concrete Buff observer with no-op gain/loss callbacks and guarded matrix output](client-buff-observer-attraction-shape.md).
+- [Initial Entity Buff granted values, recovery qualification, endian differences and storage normalization](client-buff-initial-granted-values.md).
 - [Life-to-Buffs advancement guard and concrete producers](client-buff-clock-producers.md).
 - [Existing Buff network clock receiver, omitted-speed default and selected backend consequences](client-buff-network-clock-contract.md).
 - [Named RF source template and unresolved active publication](client-dot-source-publication.md).
@@ -75,6 +77,7 @@ Detailed supplements keep the evidence reviewable without treating this summary 
 - [Both-hand offence formulas, conversion, average/DPS and numerical UI consumers](client-offence-estimates.md).
 - [Thirty spell base, intermediate-added and selected-added component equations](client-spell-damage-components.md).
 - [Life-cost, hand-cast, Battlemage and weapon-as-spell contributor builders](client-spell-contributor-builders.md).
+- [Complete final spell min/max/total ranges, ordered equations and conversion branch asymmetries](client-spell-hit-formulas.md).
 - [Outgoing bleed/ignite/poison components, faster/slower and critical DoT multipliers](client-ailment-outgoing-formulas.md).
 - [Complete named ignite outputs, category qualifications and intermediate publication boundaries](client-ignite-output-family.md).
 - [Complete named poison outputs, wrapping integer totals and chaos-only always-output gates](client-poison-output-family.md).
@@ -114,6 +117,8 @@ flowchart TD
   SKILLDATA[RF stat-set constants] --> RFPARAM[Native parameters / FireDot eligibility]
   RFPARAM --> RFOUT[Conditional outgoing RF area rate]
   BASEADDED[Base / added components and conversion history] --> AILMENT[Separate bleed / ignite / poison outgoing rates]
+  SPELLCOMP[Spell base / selected-added components] --> SPELLFINAL[Twelve final spell min / max / total equations]
+  SPELLFINAL -. actual hit sampling remains separate .-> HITCALC
   AILMENT -. instance application / selection remains separate .-> RAW
   CRITINPUT[Chance / extra-roll / critical-multiplier stats] --> CRITSTAT[Critical probability and multiplier calculations]
   RFOUT -. source application / aggregation unresolved .-> RAW
@@ -624,9 +629,12 @@ damage-bearing paths. Keep missing source eligibility/selection, formulas and sy
 | R2/R4 | Buff clock eligibility input provenance | Established for selected network paths | [Byte/word transport, zero additive input and constructor/partial/replacement differences](client-buff-clock-input-provenance.md) bound; semantic field names, later clock recalculation and source-rate publication remain open |
 | R2 | Empty-Id2 Buff backend selection | Established for selected startup catalogue | [137 registration sites, strict empty-key miss, null backend and lifecycle guards](client-buff-default-backend.md); independent observer/script numerical consequences remain open |
 | R2/R4 | Buff lifecycle delivery and selected script predicates | Established for selected contracts | [Native observers receive the actual Buff; generic/definition-keyed scripts receive owner Entity and null second object; IfBuff/HasBuff query presence](client-buff-lifecycle-scripts.md); numerical subscriber/publication stays open |
+| R2/R4 | Initial Buff granted-value transport and storage | Established for selected readers and lifecycle | [Initial blob and AddBuff share IsRecovery eligibility but differ in byte order; construction truncates or zero-extends while retaining the prefix](client-buff-initial-granted-values.md); numerical actor-Stats publication remains separate |
+| R2/R4 | Concrete attraction-shape Buff observer | Established for installed callbacks | [Actual secondary listener gain/loss slots immediately return; parent matrix output has startup and parent guards](client-buff-observer-attraction-shape.md); no numerical publisher identified |
 | R2/R4 | Selected GroundEffect lifecycle and transported lifetime | Established for selected component/callable | [KillGroundEffect, owner component/config enum, five-byte lifetime state, expiry, conditional Buffs guard and cancellation/removal boundary](client-ground-effect-boundary.md); [typed ServerFill parent, cancellation-token producer and reference ownership](client-ground-effect-ownership.md) recovered; numerical target-rate publisher remains open |
 | R3 | Hit panel/offence evaluators | Established locally | Both hands, five types, base/added, conversion, average/DPS and actual network-provider numerical readers audited; [details](client-offence-estimates.md) |
 | R2/R3 | Spell base and added component inputs | Established for thirty component callbacks and four builders | [Typed base/added equations](client-spell-damage-components.md) and [life-cost/weapon contributors](client-spell-contributor-builders.md) preserve wrap/division/rounding, wand splitting and qualifications; source grants, actual entity evaluation and target application remain separate |
+| R3 | Final spell typed and total ranges | Established for twelve callbacks | [Ordered equations, complete monotone conversion histories, Prismatic Burst and Lightning Purist branches](client-spell-hit-formulas.md) preserve destination-remainder asymmetry and integer rounding; actual sampling, target defence and pool loss remain open |
 | R3 | Selected critical chance and multiplier arithmetic | Established locally | [Effective MH/OH probability and luck/unexciting, Critical Link and multiplier overrides](client-critical-formulas.md) closed; [complete chance-input builders](client-critical-inputs.md) and [selected defender modifier composition](client-hit-defender-modifiers.md) recovered; per-event rolls/confirmation and joint resolver application stay open |
 | R3 | Hit defender modifier composition | Established for selected callbacks | [Shared/typed final, additive elemental, resistance-ignore predicates and enemy-critical increased input](client-hit-defender-modifiers.md); actual hit amount/resistance/critical application stays separate |
 | R3 | Defender-conditional damage context presence | Established for predicate 9189 and typed cache ABI | [37 defender properties combine as a nonzero OR](client-defender-context-presence.md); native context constructor/getter/dispatcher bind key-indexed storage, but no actual numerical consumer or target relationship is recovered |

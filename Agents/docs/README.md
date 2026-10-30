@@ -62,6 +62,9 @@ How to regenerate them: [re/tooling.md](re/tooling.md) §7.
 | [re/client-offence-estimates.md](re/client-offence-estimates.md) | both-hand typed damage ranges, base/added scaling, conversion, averages/DPS and actual numerical UI readers |
 | [re/client-spell-damage-components.md](re/client-spell-damage-components.md) | thirty spell base/intermediate/selected-added equations, wand splitting, typed qualifications and arithmetic boundaries |
 | [re/client-spell-contributor-builders.md](re/client-spell-contributor-builders.md) | life-cost, hand-cast, Battlemage and weapon-as-spell contributors with native qualification tables |
+| [re/client-spell-hit-formulas.md](re/client-spell-hit-formulas.md) | twelve final spell ranges, ordered equations, conversion histories and special branch asymmetries |
+| [re/client-buff-initial-granted-values.md](re/client-buff-initial-granted-values.md) | initial Buff magnitude eligibility, byte-order distinction and prefix-preserving normalization |
+| [re/client-buff-observer-attraction-shape.md](re/client-buff-observer-attraction-shape.md) | concrete no-op Buff observer callbacks and a separately guarded presentation output |
 | [re/client-ailment-outgoing-formulas.md](re/client-ailment-outgoing-formulas.md) | outgoing bleed/ignite/poison components, per-minute rates, faster/slower and critical DoT multipliers |
 | [re/client-bleeding-output-family.md](re/client-bleeding-output-family.md) | complete named MH/OH min/max bleeding rates, critical branches and hand/final-factor asymmetries |
 | [re/client-ailment-eligibility.md](re/client-ailment-eligibility.md) | typed ignite/poison permissions, hand-local poison gates and target acquisition prohibitions |

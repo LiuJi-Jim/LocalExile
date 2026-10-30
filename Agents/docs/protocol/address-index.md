@@ -136,6 +136,10 @@ These are client addresses; their presence is not proof of official-server imple
 |---|---|---|
 | `0x140826070` / `0x140ad5f30` | Fn | Numerical skill average/DPS readers: context-zero provider, keys 2144/2044/679, formatted text assignment |
 | `0x1425733e0` / `0x1425926c0` | Fn | First/last of the audited twenty both-hand typed min/max offence callbacks; see offence supplement |
+| `0x142544d00` / `0x142551dc0` | Fn | First/last of ten [final typed spell ranges](../re/client-spell-hit-formulas.md); complete conversion paths and branch equations |
+| `0x1425428a0` / `0x142542d10` | Fn | Spell min/max totals: wrapping signed32 sum of supplied typed ranges |
+| `0x141e06bb0` / `0x141e06290` | Fn | [Initial Buff granted values](../re/client-buff-initial-granted-values.md): recovery gate, raw LE32 and prefix-preserving normalization |
+| `0x14347e968` / `0x141717820` | Vt / Fn | [Concrete Buff observer](../re/client-buff-observer-attraction-shape.md): no-op gain/loss slots; separately guarded matrix output |
 | `0x142788580` / `0x142788e50` / `0x1427893d0` | Fn | [Reference-damage physical-defence estimates](../re/client-defence-estimates.md): generic/projectile/hit values; not actual-hit mitigation |
 | `0x141d1e400` / `0x142513810` | Fn / Leaf | Percent float helper / signed half-away-from-zero conversion; verified signatures matter to decompilation |
 | `0x1421c2ad0` / `0x1421c3700` | Fn | Network Stats component / override wrapper construction |

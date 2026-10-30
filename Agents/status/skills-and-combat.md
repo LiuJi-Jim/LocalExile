@@ -726,6 +726,9 @@ and can require explicit recipes.
   RF backend refresh/removal has art-object outputs; its two tick slots and insertion callback are empty.
   Ignited/poison empty Id2 misses the selected nonempty startup backend catalogue and retains a null backend.
   Base Buff lifecycle still notifies observers/scripts; this does not close numerical contribution publication.
+  Initial Buff blobs and AddBuff share IsRecovery eligibility, with different byte order for granted values.
+  Constructor normalization preserves the existing prefix while truncating or zero-extending to definition size.
+  A concrete installed Buff observer has no-op gain/loss callbacks; its parent matrix output is startup-guarded.
   Native observers receive the actual Buff; lifecycle scripts receive owner Entity and a null second object.
   Generic/definition-keyed program storage and IfBuff/HasBuff presence predicates are bound separately.
   Burning Arrow's named backend lifecycle slots are empty; its incoming-rate publication is still unresolved.
@@ -736,6 +739,8 @@ and can require explicit recipes.
   Rupture, ignite transfer, flask/charge gates and physical post-saturation raw addition retain native order.
   Thirty spell base/intermediate/selected-added equations preserve typed integer/float32 boundaries and gates.
   Four life-cost/weapon-as-spell builders preserve hand-cast, Battlemage and native type qualifications.
+  Twelve final spell range equations retain conversion histories, Prismatic Burst and Lightning Purist branches.
+  Ordered scalar equations preserve the longest chaos-path remainder asymmetry and integer total wrapping.
   Wand percentage splitting and an undeclared active-Buff input remain explicit; actual entity evaluation is separate.
   Selected outgoing ailments independently scale base/added/history: bleed 42, ignite 54, poison 18 per minute.
   Faster/slower and critical ailment multipliers have separate rounding and Perfect Agony replacement branches.
