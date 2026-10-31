@@ -696,6 +696,9 @@ and can require explicit recipes.
     Conditional terms, Strength of Blood, small ceilings and seven undeclared physical-input reads are preserved.
   RF stat-set constants activate FireDot in permitted native objects; outgoing 14408/8198/5981 formulas are bound.
   Both-hand typed/base/added damage, conversion, average/DPS and actual numerical UI readers are statically bound.
+  [Ordered attack equations](../docs/re/client-attack-hit-formulas.md) cover twenty typed ranges and four totals.
+  Lightning Purist uses minimum 0.5/maximum 1.25; every attack chaos path retains its destination remainder.
+  The spell longest-path exception is distinct; original float parentheses can change rounded results.
   Three physical-defence estimate callbacks use reference damage, Ward substitution and distinct armour inputs.
   Their category reader is bound; they are not a concrete-hit mitigation calculation.
   Accuracy, critical chance and sheet-reference hit chance formulas remain distinct from a concrete defender roll.

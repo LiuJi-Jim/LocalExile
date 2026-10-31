@@ -136,6 +136,9 @@ The suspend/restore lifecycle is explicit LocalExile policy; see protocol/11-ski
   Reuse complete physical/chaos self-rates 8179/8183, including transfer gates and the physical post-cap tail.
   Reuse thirty typed spell component equations and four life-cost/weapon-as-spell contributor builders.
   Reuse twelve final spell range equations, including ordered conversion terms and both special branch families.
+  Reuse twenty ordered attack ranges and four hand totals; base 6172 and added 5761 have separate scaling.
+  Preserve attack Lightning Purist minimum 0.5/maximum 1.25 and every chaos-path destination remainder.
+  Hand selection stays with the projectile research; formula closure does not close actual hit-to-pool loss.
   Preserve the longest chaos-path remainder exception and signed integer total wrapping in comparisons.
   Preserve wand half-splitting, hand-cast/type gates and distinct integer/float32 boundaries.
   Fire intermediate-added reads active-Buff count outside declared dependencies; grants/refresh stay separate.

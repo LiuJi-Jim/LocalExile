@@ -81,6 +81,7 @@ Detailed supplements keep the evidence reviewable without treating this summary 
 - [Named RF source template and unresolved active publication](client-dot-source-publication.md).
 - [Source-creation authority and versioned ignite/poison/bleed selection rules](client-dot-source-authority.md).
 - [Both-hand offence formulas, conversion, average/DPS and numerical UI consumers](client-offence-estimates.md).
+- [Twenty ordered attack ranges and four totals, separate base/added factors and endpoint asymmetries](client-attack-hit-formulas.md).
 - [Thirty spell base, intermediate-added and selected-added component equations](client-spell-damage-components.md).
 - [Life-cost, hand-cast, Battlemage and weapon-as-spell contributor builders](client-spell-contributor-builders.md).
 - [Complete final spell min/max/total ranges, ordered equations and conversion branch asymmetries](client-spell-hit-formulas.md).
@@ -140,6 +141,8 @@ flowchart TD
   BASEADDED[Base / added components and conversion history] --> AILMENT[Separate bleed / ignite / poison outgoing rates]
   SPELLCOMP[Spell base / selected-added components] --> SPELLFINAL[Twelve final spell min / max / total equations]
   SPELLFINAL -. actual hit sampling remains separate .-> HITCALC
+  ATTACKCOMP[Hand base / selected-added components; separate scaling] --> ATTACKFINAL[Twenty typed attack ranges and four totals: ordered equations]
+  ATTACKFINAL -. hand selection / actual sampling remains separate .-> HITCALC
   AILMENT -. instance application / selection remains separate .-> RAW
   CRITINPUT[Chance / extra-roll / critical-multiplier stats] --> CRITSTAT[Critical probability and multiplier calculations]
   RFOUT -. source application / aggregation unresolved .-> RAW
@@ -685,6 +688,7 @@ damage-bearing paths. Keep missing source eligibility/selection, formulas and sy
 | R2/R4 | Owner stat → existing Buff remaining-duration override | Established for FirewallSecondaryDegenBuff | [Each eligible tick polls the ordinary owner network provider's 12588 and conditionally restores construction-captured remaining duration after decrement](client-firewall-clock-hold.md); generic timing-stat subscriptions/speed refresh and numerical damage publication remain open |
 | R2/R4 | Selected GroundEffect lifecycle and transported lifetime | Established for selected component/callable | [KillGroundEffect, owner component/config enum, five-byte lifetime state, expiry, conditional Buffs guard and cancellation/removal boundary](client-ground-effect-boundary.md); [typed ServerFill parent, cancellation-token producer and reference ownership](client-ground-effect-ownership.md) recovered; numerical target-rate publisher remains open |
 | R3 | Hit panel/offence evaluators | Established locally | Both hands, five types, base/added, conversion, average/DPS and actual network-provider numerical readers audited; [details](client-offence-estimates.md) |
+| R3 | Final attack typed and hand-total ranges | Established for twenty-four callbacks | [Ordered equations and separate factor census](client-attack-hit-formulas.md) preserve base/added scaling, all conversion remainders, min/max Lightning Purist factors and wrapping totals; hand selection, actual sampling, mitigation and pool loss remain separate |
 | R2/R3 | Spell base and added component inputs | Established for thirty component callbacks and four builders | [Typed base/added equations](client-spell-damage-components.md) and [life-cost/weapon contributors](client-spell-contributor-builders.md) preserve wrap/division/rounding, wand splitting and qualifications; source grants, actual entity evaluation and target application remain separate |
 | R3 | Final spell typed and total ranges | Established for twelve callbacks | [Ordered equations, complete monotone conversion histories, Prismatic Burst and Lightning Purist branches](client-spell-hit-formulas.md) preserve destination-remainder asymmetry and integer rounding; actual sampling, target defence and pool loss remain open |
 | R3 | Selected critical chance and multiplier arithmetic | Established locally | [Effective MH/OH probability and luck/unexciting, Critical Link and multiplier overrides](client-critical-formulas.md) closed; [complete chance-input builders](client-critical-inputs.md) and [selected defender modifier composition](client-hit-defender-modifiers.md) recovered; per-event rolls/confirmation and joint resolver application stay open |

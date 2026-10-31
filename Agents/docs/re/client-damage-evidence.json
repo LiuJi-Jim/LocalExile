@@ -1660,6 +1660,7 @@
       "sourceBatches": [
         "hit-registrations",
         "r19-stat-order",
+        "r20-attack-final",
         "r3-offence-formulas",
         "r3-offence-typed"
       ],
@@ -1678,6 +1679,7 @@
       ],
       "sourceBatches": [
         "r19-stat-order",
+        "r20-attack-final",
         "r3-offence-formulas",
         "r3-offence-typed"
       ],
@@ -1696,6 +1698,7 @@
       ],
       "sourceBatches": [
         "r19-stat-order",
+        "r20-attack-final",
         "r3-offence-formulas",
         "r3-offence-typed"
       ],
@@ -1714,6 +1717,7 @@
       ],
       "sourceBatches": [
         "r19-stat-order",
+        "r20-attack-final",
         "r3-offence-formulas",
         "r3-offence-typed"
       ],
@@ -2605,6 +2609,7 @@
       "sourceBatches": [
         "hit-registrations",
         "r19-stat-order",
+        "r20-attack-final",
         "r3-offence-formulas",
         "r3-offence-typed"
       ],
@@ -2623,6 +2628,7 @@
       ],
       "sourceBatches": [
         "r19-stat-order",
+        "r20-attack-final",
         "r3-offence-formulas",
         "r3-offence-typed"
       ],
@@ -2642,6 +2648,7 @@
       "sourceBatches": [
         "hit-registrations",
         "r19-stat-order",
+        "r20-attack-final",
         "r3-offence-formulas",
         "r3-offence-typed"
       ],
@@ -2660,6 +2667,7 @@
       ],
       "sourceBatches": [
         "r19-stat-order",
+        "r20-attack-final",
         "r3-offence-formulas",
         "r3-offence-typed"
       ],
@@ -2678,6 +2686,7 @@
       ],
       "sourceBatches": [
         "r19-stat-order",
+        "r20-attack-final",
         "r3-offence-formulas",
         "r3-offence-typed"
       ],
@@ -2696,6 +2705,7 @@
       ],
       "sourceBatches": [
         "r19-stat-order",
+        "r20-attack-final",
         "r3-offence-formulas",
         "r3-offence-typed"
       ],
@@ -2714,6 +2724,7 @@
       ],
       "sourceBatches": [
         "r19-stat-order",
+        "r20-attack-final",
         "r3-offence-formulas",
         "r3-offence-typed"
       ],
@@ -2732,6 +2743,7 @@
       ],
       "sourceBatches": [
         "r19-stat-order",
+        "r20-attack-final",
         "r3-offence-formulas",
         "r3-offence-typed"
       ],
@@ -2750,6 +2762,7 @@
       ],
       "sourceBatches": [
         "r19-stat-order",
+        "r20-attack-final",
         "r3-offence-formulas",
         "r3-offence-typed"
       ],
@@ -2768,6 +2781,7 @@
       ],
       "sourceBatches": [
         "r19-stat-order",
+        "r20-attack-final",
         "r3-offence-formulas",
         "r3-offence-typed"
       ],
@@ -2786,6 +2800,7 @@
       ],
       "sourceBatches": [
         "r19-stat-order",
+        "r20-attack-final",
         "r3-offence-formulas",
         "r3-offence-typed"
       ],
@@ -2804,6 +2819,7 @@
       ],
       "sourceBatches": [
         "r19-stat-order",
+        "r20-attack-final",
         "r3-offence-formulas",
         "r3-offence-typed"
       ],
@@ -2822,6 +2838,7 @@
       ],
       "sourceBatches": [
         "r19-stat-order",
+        "r20-attack-final",
         "r3-offence-formulas",
         "r3-offence-typed"
       ],
@@ -2840,6 +2857,7 @@
       ],
       "sourceBatches": [
         "r19-stat-order",
+        "r20-attack-final",
         "r3-offence-formulas",
         "r3-offence-typed"
       ],
@@ -2858,6 +2876,7 @@
       ],
       "sourceBatches": [
         "r19-stat-order",
+        "r20-attack-final",
         "r3-offence-formulas",
         "r3-offence-typed"
       ],
@@ -2876,6 +2895,7 @@
       ],
       "sourceBatches": [
         "r19-stat-order",
+        "r20-attack-final",
         "r3-offence-formulas",
         "r3-offence-typed"
       ],
@@ -2894,6 +2914,7 @@
       ],
       "sourceBatches": [
         "r19-stat-order",
+        "r20-attack-final",
         "r3-offence-formulas",
         "r3-offence-typed"
       ],
@@ -2912,6 +2933,7 @@
       ],
       "sourceBatches": [
         "r19-stat-order",
+        "r20-attack-final",
         "r3-offence-formulas",
         "r3-offence-typed"
       ],
@@ -2930,6 +2952,7 @@
       ],
       "sourceBatches": [
         "r19-stat-order",
+        "r20-attack-final",
         "r3-offence-formulas",
         "r3-offence-typed"
       ],
@@ -2948,6 +2971,7 @@
       ],
       "sourceBatches": [
         "r19-stat-order",
+        "r20-attack-final",
         "r3-offence-formulas",
         "r3-offence-typed"
       ],
@@ -57834,6 +57858,7 @@
       ],
       "sourceBatches": [
         "offence-evaluators",
+        "r20-attack-final",
         "r3-offence-formulas",
         "r3-offence-typed"
       ],
@@ -57851,6 +57876,7 @@
         }
       ],
       "sourceBatches": [
+        "r20-attack-final",
         "r3-offence-formulas",
         "r3-offence-typed"
       ],
@@ -57868,6 +57894,7 @@
         }
       ],
       "sourceBatches": [
+        "r20-attack-final",
         "r3-offence-formulas",
         "r3-offence-typed"
       ],
@@ -57885,6 +57912,7 @@
         }
       ],
       "sourceBatches": [
+        "r20-attack-final",
         "r3-offence-formulas",
         "r3-offence-typed"
       ],
@@ -58802,6 +58830,7 @@
       ],
       "sourceBatches": [
         "offence-evaluators",
+        "r20-attack-final",
         "r3-offence-formulas",
         "r3-offence-typed"
       ],
@@ -58868,6 +58897,7 @@
         }
       ],
       "sourceBatches": [
+        "r20-attack-final",
         "r3-offence-formulas",
         "r3-offence-typed"
       ],
@@ -58892,6 +58922,7 @@
         }
       ],
       "sourceBatches": [
+        "r20-attack-final",
         "r3-offence-formulas",
         "r3-offence-typed"
       ],
@@ -58916,6 +58947,7 @@
         }
       ],
       "sourceBatches": [
+        "r20-attack-final",
         "r3-offence-formulas",
         "r3-offence-typed"
       ],
@@ -58940,6 +58972,7 @@
         }
       ],
       "sourceBatches": [
+        "r20-attack-final",
         "r3-offence-formulas",
         "r3-offence-typed"
       ],
@@ -58964,6 +58997,7 @@
         }
       ],
       "sourceBatches": [
+        "r20-attack-final",
         "r3-offence-formulas",
         "r3-offence-typed"
       ],
@@ -58988,6 +59022,7 @@
         }
       ],
       "sourceBatches": [
+        "r20-attack-final",
         "r3-offence-formulas",
         "r3-offence-typed"
       ],
@@ -59012,6 +59047,7 @@
         }
       ],
       "sourceBatches": [
+        "r20-attack-final",
         "r3-offence-formulas",
         "r3-offence-typed"
       ],
@@ -59036,6 +59072,7 @@
         }
       ],
       "sourceBatches": [
+        "r20-attack-final",
         "r3-offence-formulas",
         "r3-offence-typed"
       ],
@@ -59060,6 +59097,7 @@
         }
       ],
       "sourceBatches": [
+        "r20-attack-final",
         "r3-offence-formulas",
         "r3-offence-typed"
       ],
@@ -59126,6 +59164,7 @@
         }
       ],
       "sourceBatches": [
+        "r20-attack-final",
         "r3-offence-formulas",
         "r3-offence-typed"
       ],
@@ -59192,6 +59231,7 @@
         }
       ],
       "sourceBatches": [
+        "r20-attack-final",
         "r3-offence-formulas",
         "r3-offence-typed"
       ],
@@ -59216,6 +59256,7 @@
         }
       ],
       "sourceBatches": [
+        "r20-attack-final",
         "r3-offence-formulas",
         "r3-offence-typed"
       ],
@@ -59240,6 +59281,7 @@
         }
       ],
       "sourceBatches": [
+        "r20-attack-final",
         "r3-offence-formulas",
         "r3-offence-typed"
       ],
@@ -59264,6 +59306,7 @@
         }
       ],
       "sourceBatches": [
+        "r20-attack-final",
         "r3-offence-formulas",
         "r3-offence-typed"
       ],
@@ -59288,6 +59331,7 @@
         }
       ],
       "sourceBatches": [
+        "r20-attack-final",
         "r3-offence-formulas",
         "r3-offence-typed"
       ],
@@ -59312,6 +59356,7 @@
         }
       ],
       "sourceBatches": [
+        "r20-attack-final",
         "r3-offence-formulas",
         "r3-offence-typed"
       ],
@@ -59336,6 +59381,7 @@
         }
       ],
       "sourceBatches": [
+        "r20-attack-final",
         "r3-offence-formulas",
         "r3-offence-typed"
       ],
@@ -59360,6 +59406,7 @@
         }
       ],
       "sourceBatches": [
+        "r20-attack-final",
         "r3-offence-formulas",
         "r3-offence-typed"
       ],
@@ -59384,6 +59431,7 @@
         }
       ],
       "sourceBatches": [
+        "r20-attack-final",
         "r3-offence-formulas",
         "r3-offence-typed"
       ],
@@ -72401,6 +72449,11 @@
       "name": "r19-stat-order",
       "auditSha256": "5b7bcdbebdcf6aba3dc4ab106795d7b440653a6be7c226edaeec6dd57bb1bf8f",
       "functionCount": 2546
+    },
+    {
+      "name": "r20-attack-final",
+      "auditSha256": "7f9b9390f9af9ac86eb1245bfdb96c29cca611c0fd698bc629181e614ba4ec28",
+      "functionCount": 48
     }
   ],
   "pointerSlots": [
@@ -74453,7 +74506,7 @@
     "checkedReferenceInstructions": 13431,
     "decompilationFailures": [],
     "scope": "Original ranges/offsets, unwind ownership or explicit boundaries, stat identity, reference instructions and pointer-slot contents revalidated offline.",
-    "additionalFreshValidation": "R19 rechecked every retained original range/offset/unwind owner and pointer slot, including recovered registration declarations; previous reference-instruction and decompilation audits retained unchanged."
+    "additionalFreshValidation": "R20 rechecked all retained original ranges/offsets/unwind owners and pointer slots; 48 existing attack callback/registrar bodies receive ordered equations. Previous reference-instruction and decompilation checks retained, not rerun."
   },
   "supportingRecords": [
     {
@@ -79030,6 +79083,138 @@
       "bytes": 9736736,
       "sha256": "5b7bcdbebdcf6aba3dc4ab106795d7b440653a6be7c226edaeec6dd57bb1bf8f",
       "role": "R19 native declared-dependency order and transaction queues; actual duplicate declarations; offline original-instruction fixtures, no runtime numerical damage claim"
+    },
+    {
+      "path": "Agents/docs/re/client-attack-hit-formulas.md",
+      "bytes": 10209,
+      "sha256": "e4554c7980fc0343c992a029fd5f78b526f786c61a637dd73ee82285bf4f05aa",
+      "role": "R20 ordered final attack ranges and hand totals; supplied-cache offline original-instruction equations, separate factor census and second integer/SSE engine; no actual Hit-to-pool claim"
+    },
+    {
+      "path": "Agents/docs/re/client-attack-hit-equations.json",
+      "bytes": 102767,
+      "sha256": "9bc01527891e4eba79cf55d134440658519ca8092c6e694d43fb45de66481613",
+      "role": "R20 ordered final attack ranges and hand totals; supplied-cache offline original-instruction equations, separate factor census and second integer/SSE engine; no actual Hit-to-pool claim"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r20-attack-prepare.py",
+      "bytes": 1577,
+      "sha256": "713bc8e8c92cadd0fdc8b75d779c15eb530ddbdc617eda015f6424d333b5a8d3",
+      "role": "R20 ordered final attack ranges and hand totals; supplied-cache offline original-instruction equations, separate factor census and second integer/SSE engine; no actual Hit-to-pool claim"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r20-attack-equations.py",
+      "bytes": 10908,
+      "sha256": "c920276e75b899b17b92d6a2b49b967a3bc509c5e1b0891862f618b28dc657ee",
+      "role": "R20 ordered final attack ranges and hand totals; supplied-cache offline original-instruction equations, separate factor census and second integer/SSE engine; no actual Hit-to-pool claim"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r20-attack-independent.py",
+      "bytes": 8503,
+      "sha256": "422a659171835d16bc13f94256422ab9afa4dbe28738df4bed137a1d7ba8d216",
+      "role": "R20 ordered final attack ranges and hand totals; supplied-cache offline original-instruction equations, separate factor census and second integer/SSE engine; no actual Hit-to-pool claim"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r20-attack-controls.py",
+      "bytes": 1787,
+      "sha256": "b61c77168463677d4d4947214aa0a5bfd2fffbe0411509aecfdacaf9137dbd7e",
+      "role": "R20 ordered final attack ranges and hand totals; supplied-cache offline original-instruction equations, separate factor census and second integer/SSE engine; no actual Hit-to-pool claim"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r20-attack-fresh.py",
+      "bytes": 3275,
+      "sha256": "6d970792c7a8e4f6d1153432c48803ad1b93cc2f672dce65e5ff25b2c3d631c9",
+      "role": "R20 ordered final attack ranges and hand totals; supplied-cache offline original-instruction equations, separate factor census and second integer/SSE engine; no actual Hit-to-pool claim"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r20-peer-reuse.py",
+      "bytes": 1218,
+      "sha256": "b892822a258ab31520a82fceea180663813113a31bfd23d5384310b70df022be",
+      "role": "R20 ordered final attack ranges and hand totals; supplied-cache offline original-instruction equations, separate factor census and second integer/SSE engine; no actual Hit-to-pool claim"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r20-peer-reuse.json",
+      "bytes": 549,
+      "sha256": "1400c51eb88a469f0dadbad7f035e614d779c5720987b6547b20fb7353ad8df8",
+      "role": "R20 ordered final attack ranges and hand totals; supplied-cache offline original-instruction equations, separate factor census and second integer/SSE engine; no actual Hit-to-pool claim"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r20-seal.py",
+      "bytes": 5246,
+      "sha256": "2038c3e7bba12d5d0e8835f18b3b9ea75bf39d3200e06dea57d3a518a6a16004",
+      "role": "R20 ordered final attack ranges and hand totals; supplied-cache offline original-instruction equations, separate factor census and second integer/SSE engine; no actual Hit-to-pool claim"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r20-attack-final/mapping.json",
+      "bytes": 3373,
+      "sha256": "e803ec3355041fdb4945e094215cba18e201e4ba6bce9a1da55c917d04b39a74",
+      "role": "R20 ordered final attack ranges and hand totals; supplied-cache offline original-instruction equations, separate factor census and second integer/SSE engine; no actual Hit-to-pool claim"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r20-attack-final/audit.json",
+      "bytes": 4719036,
+      "sha256": "7f9b9390f9af9ac86eb1245bfdb96c29cca611c0fd698bc629181e614ba4ec28",
+      "role": "R20 ordered final attack ranges and hand totals; supplied-cache offline original-instruction equations, separate factor census and second integer/SSE engine; no actual Hit-to-pool claim"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r20-attack-final/dependencies.json",
+      "bytes": 107403,
+      "sha256": "f68604941dd32c8f37e10655b0c4e2942fc32c897703f73a03b89340d2d71c22",
+      "role": "R20 ordered final attack ranges and hand totals; supplied-cache offline original-instruction equations, separate factor census and second integer/SSE engine; no actual Hit-to-pool claim"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r20-attack-final/exploration.json",
+      "bytes": 2580569,
+      "sha256": "55830cb3394165ce2fc826f129045d7735ea21791bf59669d4878b8c57a768ce",
+      "role": "R20 ordered final attack ranges and hand totals; supplied-cache offline original-instruction equations, separate factor census and second integer/SSE engine; no actual Hit-to-pool claim"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r20-attack-final/semantic-census.json",
+      "bytes": 2179,
+      "sha256": "8ffdb05143e86bd013f079e4b5147c4b1a95735673d5dc0b5fa93721d69b0e90",
+      "role": "R20 ordered final attack ranges and hand totals; supplied-cache offline original-instruction equations, separate factor census and second integer/SSE engine; no actual Hit-to-pool claim"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r20-attack-final/equation-verification.json",
+      "bytes": 5488,
+      "sha256": "73f0df25a18b7668afaec34b8d1bce2539273bcd02b61f8327d5296dd3a07738",
+      "role": "R20 ordered final attack ranges and hand totals; supplied-cache offline original-instruction equations, separate factor census and second integer/SSE engine; no actual Hit-to-pool claim"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r20-attack-final/equation-cases.json",
+      "bytes": 4339937,
+      "sha256": "e5a1c7a37d8921b01fc636d804d187b300a8c13c266fd86e8369df5905823dd4",
+      "role": "R20 ordered final attack ranges and hand totals; supplied-cache offline original-instruction equations, separate factor census and second integer/SSE engine; no actual Hit-to-pool claim"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r20-attack-final/independent-verification.json",
+      "bytes": 5451650,
+      "sha256": "09ebce8fb8d5ac938b47d7ead1d31e71eb7bb900724b76995d571259c74f02dc",
+      "role": "R20 ordered final attack ranges and hand totals; supplied-cache offline original-instruction equations, separate factor census and second integer/SSE engine; no actual Hit-to-pool claim"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r20-attack-final/controls.json",
+      "bytes": 2661,
+      "sha256": "8defa37543458a9ef9488ede931ae947853093bc10d72659851498576d92739b",
+      "role": "R20 ordered final attack ranges and hand totals; supplied-cache offline original-instruction equations, separate factor census and second integer/SSE engine; no actual Hit-to-pool claim"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r20-attack-final/fresh-check.json",
+      "bytes": 2531,
+      "sha256": "6f52275c7430193f45dbc31b41e61b93a82f22ad49f3acfcf797475b41875766",
+      "role": "R20 ordered final attack ranges and hand totals; supplied-cache offline original-instruction equations, separate factor census and second integer/SSE engine; no actual Hit-to-pool claim"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r20-normalize.py",
+      "bytes": 1487,
+      "sha256": "411d4d7d461152f1ed00c1c938330ac32434480525a4b9fc20007320eaa88621",
+      "role": "R20 ordered final attack ranges and hand totals; supplied-cache offline original-instruction equations, separate factor census and second integer/SSE engine; no actual Hit-to-pool claim"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r20-attack-final/line-normalization.json",
+      "bytes": 318,
+      "sha256": "21540aed2195d499cbaf8931df424a7fdf7f871143d717312d2b6064a7ca37dd",
+      "role": "R20 ordered final attack ranges and hand totals; supplied-cache offline original-instruction equations, separate factor census and second integer/SSE engine; no actual Hit-to-pool claim"
     }
   ],
   "auxiliaryDataTables": [
@@ -79161,6 +79346,16 @@
       "snapshotFiles": 54,
       "exactGitSources": 41,
       "boundary": "Pinned peer R34 action initialization and wall-cache contracts; fixed files/hashes/Git sources checked, native numerical audit not rerun in this pass"
+    },
+    {
+      "repository": "LocalExile/LocalExile",
+      "commit": "f092bc51c5840f4c9528660f9ad5bba3e1c15bcc",
+      "path": "Agents/docs/re/projectiles/hand-selection.md",
+      "url": "https://github.com/LocalExile/LocalExile/blob/f092bc51c5840f4c9528660f9ad5bba3e1c15bcc/Agents/docs/re/projectiles/hand-selection.md",
+      "snapshotManifestSha256": "55ae7e59e7f315cb072c14a241c1ebc46dcdbbc8a318642e02e9fa07b96b8930",
+      "snapshotFiles": 55,
+      "exactGitSources": 42,
+      "boundary": "Pinned peer R35 hand selection and startup action cache; snapshot hashes/Git sources/parents checked, numerical audit not rerun"
     }
   ],
   "reductionInputVerification": {
@@ -79206,5 +79401,19 @@
       "nestedEnds": 3
     },
     "limits": "Reserved-capacity vectors, explicit allocation/sort/memmove and numerical callback fixtures; recovered registration mapping is not a full live registry"
+  },
+  "attackRangeEquationVerification": {
+    "runtimeExecuted": false,
+    "outputs": 24,
+    "branchEquations": 28,
+    "dagNodes": 1618,
+    "cases": 13693,
+    "steps": 8315918,
+    "authorCases": 8072,
+    "secondEngineCases": 5612,
+    "supplementaryCases": 9,
+    "supplementarySteps": 5981,
+    "publicEquationSha256": "9bc01527891e4eba79cf55d134440658519ca8092c6e694d43fb45de66481613",
+    "limits": "Supplied fully-valid caches and scalar helper fixtures; finite intermediate scalar tests, no ordinary network recomputation, cache miss or actual hit application"
   }
 }

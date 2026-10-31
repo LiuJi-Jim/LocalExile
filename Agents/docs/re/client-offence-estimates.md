@@ -73,6 +73,8 @@ references to localized stat names.
 The equations below preserve the recovered component boundaries and rounding sites. They are an
 algebraic description, not a bit-exact port: integer additions/multiplications can overflow, SSE
 operation order affects floats, and out-of-range float-to-integer conversion is not saturation.
+The [complete ordered attack equations](client-attack-hit-formulas.md) now retain those operation
+parentheses for all twenty typed endpoints and four hand totals, with a separate factor census.
 
 ## 3. Both hands, all five types, minimum and maximum
 
@@ -142,9 +144,12 @@ of common and visited-scope increased values; these are not multiplied as separa
 
 Each output uses one destination remainder `P(100 - S(lostKey))`, with lost keys physical 1502,
 fire 1503, cold 1504, lightning 1505, chaos 1506. The converted terms do not multiply the lost
-fraction of every intermediate type. Only lightning output applies an additional factor 0.5 when
-key 23310 (`keystone_lightning_purist`) is true, otherwise 1. The fire/cold/chaos callbacks do not
-read 23310, so that output-specific half factor must not be inserted into their conversion paths.
+fraction of every intermediate type. All sixteen attack chaos paths retain this destination remainder;
+the [spell longest-path exception](client-spell-hit-formulas.md#the-longest-chaos-path-omits-the-destination-remainder)
+must not be imported here. Only lightning output applies an additional factor **0.5 for minimum
+and 1.25 for maximum** when key 23310 (`keystone_lightning_purist`) is true, otherwise 1.
+This corrects the earlier endpoint-independent 0.5 summary. The fire/cold/chaos callbacks do not
+read 23310, so those output-specific factors must not be inserted into their conversion paths.
 
 The callback returns zero immediately when its output's `deal_no_*_damage` key is nonzero: MH
 physical/fire/cold/lightning/chaos use 1733..1737; OH uses 1738..1742. It does not test all source
