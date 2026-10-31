@@ -47242,7 +47242,8 @@
       ],
       "sourceBatches": [
         "r1-skill-producers",
-        "r2-base-rates"
+        "r2-base-rates",
+        "r35-contribution-callers"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -49342,7 +49343,8 @@
         }
       ],
       "sourceBatches": [
-        "r2-source-unreviewed"
+        "r2-source-unreviewed",
+        "r35-contribution-callers"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -49358,7 +49360,8 @@
         }
       ],
       "sourceBatches": [
-        "r2-source-unreviewed"
+        "r2-source-unreviewed",
+        "r35-contribution-callers"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -49427,7 +49430,8 @@
         }
       ],
       "sourceBatches": [
-        "r3-contact-producers-verified"
+        "r3-contact-producers-verified",
+        "r35-contribution-callers"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -49523,7 +49527,8 @@
         }
       ],
       "sourceBatches": [
-        "r3-contact-dispatch"
+        "r3-contact-dispatch",
+        "r35-contribution-callers"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -52088,7 +52093,8 @@
         "hit-registrations",
         "offence-evaluators",
         "r11-type-stat-prefix-final",
-        "r2-dynamic-source-candidates"
+        "r2-dynamic-source-candidates",
+        "r35-contribution-callers"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -53418,7 +53424,8 @@
         }
       ],
       "sourceBatches": [
-        "r1-object-binding"
+        "r1-object-binding",
+        "r35-contribution-callers"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -53435,7 +53442,8 @@
       ],
       "sourceBatches": [
         "r1-object-binding",
-        "r2-dynamic-source-candidates"
+        "r2-dynamic-source-candidates",
+        "r35-contribution-callers"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -54501,7 +54509,8 @@
         }
       ],
       "sourceBatches": [
-        "r1-skill-producers"
+        "r1-skill-producers",
+        "r35-contribution-callers"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -54517,7 +54526,8 @@
         }
       ],
       "sourceBatches": [
-        "r1-skill-producers"
+        "r1-skill-producers",
+        "r35-contribution-callers"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -54565,7 +54575,8 @@
         }
       ],
       "sourceBatches": [
-        "r1-skill-producers"
+        "r1-skill-producers",
+        "r35-contribution-callers"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -54598,7 +54609,8 @@
       ],
       "sourceBatches": [
         "r1-skill-producers",
-        "r2-dynamic-source-candidates"
+        "r2-dynamic-source-candidates",
+        "r35-contribution-callers"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -54614,7 +54626,8 @@
         }
       ],
       "sourceBatches": [
-        "r1-skill-producers"
+        "r1-skill-producers",
+        "r35-contribution-callers"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -54631,7 +54644,8 @@
       ],
       "sourceBatches": [
         "r1-skill-producers",
-        "r2-dynamic-source-candidates"
+        "r2-dynamic-source-candidates",
+        "r35-contribution-callers"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -54664,7 +54678,8 @@
       ],
       "sourceBatches": [
         "r1-skill-producers",
-        "r2-dynamic-source-candidates"
+        "r2-dynamic-source-candidates",
+        "r35-contribution-callers"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -56132,7 +56147,8 @@
         }
       ],
       "sourceBatches": [
-        "r1-object-binding"
+        "r1-object-binding",
+        "r35-contribution-callers"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -57692,6 +57708,7 @@
         }
       ],
       "sourceBatches": [
+        "r35-contribution-callers",
         "stat-evaluation-dispatch",
         "stat-update-evaluation",
         "type-getter-binding"
@@ -57777,6 +57794,7 @@
       "sourceBatches": [
         "r12-applydamage-index-final",
         "r2-native-source-tokens",
+        "r35-contribution-callers",
         "stat-evaluation-dispatch",
         "stat-update-evaluation"
       ],
@@ -72719,6 +72737,100 @@
         "r34-buff-clock-authority"
       ],
       "selectedDecompilationCompleted": false
+    },
+    "0x141eee580": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x141eee580",
+          "endExclusive": "0x141eee599",
+          "bytes": 25,
+          "fileOffset": 32430464,
+          "sha256": "b3b883f6a9d71d69b6a68ea5e8c6bffcccd2b1a794af67adbc9247ad8ee7b10e"
+        },
+        {
+          "start": "0x141eee599",
+          "endExclusive": "0x141eee651",
+          "bytes": 184,
+          "fileOffset": 32430489,
+          "sha256": "a4be2fb1d0abfe59863ea9ea1c3badd8c09c9bf10968bcc1df2e95207ffaaf70"
+        },
+        {
+          "start": "0x141eee651",
+          "endExclusive": "0x141eee6a3",
+          "bytes": 82,
+          "fileOffset": 32430673,
+          "sha256": "9fef16b434b8402873277ae338119a1e70d3fd1675cbf519eefe9cadb81b283d"
+        }
+      ],
+      "sourceBatches": [
+        "r35-contribution-callers"
+      ],
+      "selectedDecompilationCompleted": false
+    },
+    "0x141eeeca0": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x141eeeca0",
+          "endExclusive": "0x141eeee9a",
+          "bytes": 506,
+          "fileOffset": 32432288,
+          "sha256": "4584548e39eb03b7fa9b1123c4e77414cd3d752d4d1c20932b5cd0e4bbc46293"
+        }
+      ],
+      "sourceBatches": [
+        "r35-contribution-callers"
+      ],
+      "selectedDecompilationCompleted": false
+    },
+    "0x141eefba0": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x141eefba0",
+          "endExclusive": "0x141eefe5c",
+          "bytes": 700,
+          "fileOffset": 32436128,
+          "sha256": "02446c1d24749f601f5d1b109d761d0b1e98231d76cb50960fe0a347f9dba111"
+        }
+      ],
+      "sourceBatches": [
+        "r35-contribution-callers"
+      ],
+      "selectedDecompilationCompleted": false
+    },
+    "0x141eefe60": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x141eefe60",
+          "endExclusive": "0x141eeffb1",
+          "bytes": 337,
+          "fileOffset": 32436832,
+          "sha256": "aeb4c46fdca94d222f6c312b0440813c42f2d1ed9ee9accb8822cf2b3532e605"
+        }
+      ],
+      "sourceBatches": [
+        "r35-contribution-callers"
+      ],
+      "selectedDecompilationCompleted": false
+    },
+    "0x1424b46b0": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1424b46b0",
+          "endExclusive": "0x1424b4792",
+          "bytes": 226,
+          "fileOffset": 38484656,
+          "sha256": "a296801d18ed4b77ef04acbe1c4393b2b8c8d4802230341cb18183d1a7446f14"
+        }
+      ],
+      "sourceBatches": [
+        "r35-contribution-callers"
+      ],
+      "selectedDecompilationCompleted": false
     }
   },
   "batches": [
@@ -74041,6 +74153,11 @@
       "name": "r34-buff-clock-authority",
       "auditSha256": "c89a9b29d8e2cf65abd384fa6e31f46c8c168a8aa3a763c6b7a802f62243723d",
       "functionCount": 63
+    },
+    {
+      "name": "r35-contribution-callers",
+      "auditSha256": "97c128f23e18cdccd822a04539fbd8aeb4428491e8d192063435f8361ea0ab47",
+      "functionCount": 23
     }
   ],
   "pointerSlots": [
@@ -76439,7 +76556,7 @@
     "checkedReferenceInstructions": 13431,
     "decompilationFailures": [],
     "scope": "Original ranges/offsets, unwind ownership or explicit boundaries, stat identity, reference instructions and pointer-slot contents revalidated offline.",
-    "additionalFreshValidation": "R34 rechecked all retained original-byte ranges/unwind boundaries/file offsets/pointer slots; original insertion, timing-stat notifications and retained-instance clock updates compose offline. Prior reference/decompilation checks retained, not rerun."
+    "additionalFreshValidation": "R35 rechecked all retained original-byte ranges/unwind boundaries/file offsets/pointer slots; 103 existing direct contribution calls and selected graph-owned receiver/source-token paths audited. No expanded reference scan, interpreted execution or target DoT publisher claimed."
   },
   "supportingRecords": [
     {
@@ -82006,6 +82123,48 @@
       "bytes": 6418,
       "sha256": "6374d2e4599aed7f1b5953d3e0c5b062d96df1adc84cf9b8f1b962969d59d815",
       "role": "R34 actual insertion, owner timing-stat notification and retained-network-clock composition; selected empty lifecycle, not generic refresh closure"
+    },
+    {
+      "path": "Agents/docs/re/client-native-contribution-callers.md",
+      "bytes": 8822,
+      "sha256": "5d21374ad000bd0bd0c847bf379bc37b23ad40a87355295619c8fbdd7bf81ec2",
+      "role": "R35 retained native direct-call inventory and static receiver/source-token provenance; not target DoT publication"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r35-contribution-callers.py",
+      "bytes": 5630,
+      "sha256": "95b1fd87fdc5d0ab020eae002c52cecdf2a1b08399484dbcede4b98ebb6a4303",
+      "role": "R35 retained native direct-call inventory and static receiver/source-token provenance; not target DoT publication"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r35-contribution-fresh.py",
+      "bytes": 2239,
+      "sha256": "08c95af78f675a82ca07c9df0c0c20848bab928069f28ee802537e20d73ce383",
+      "role": "R35 retained native direct-call inventory and static receiver/source-token provenance; not target DoT publication"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r35-seal.py",
+      "bytes": 4179,
+      "sha256": "a1ea38b3772cc9390b5b4964ea78cf159e02332941fec07f89257c78ad2168cb",
+      "role": "R35 retained native direct-call inventory and static receiver/source-token provenance; not target DoT publication"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r35-contribution-callers/audit.json",
+      "bytes": 930474,
+      "sha256": "97c128f23e18cdccd822a04539fbd8aeb4428491e8d192063435f8361ea0ab47",
+      "role": "R35 retained native direct-call inventory and static receiver/source-token provenance; not target DoT publication"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r35-contribution-callers/verification.json",
+      "bytes": 365,
+      "sha256": "c60cf3d26a1a8e9566d7b45c51d1733212a2b822a115bfd7a3592fbd55069eb0",
+      "role": "R35 retained native direct-call inventory and static receiver/source-token provenance; not target DoT publication"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r35-contribution-callers/fresh-check.json",
+      "bytes": 523,
+      "sha256": "be68a1af43d9f0c617635c7ad8d64ed3d5bb0b4d35d36cd982f02d4fc0fb76ca",
+      "role": "R35 retained native direct-call inventory and static receiver/source-token provenance; not target DoT publication"
     }
   ],
   "auxiliaryDataTables": [
@@ -82465,5 +82624,16 @@
     "steps": 378320,
     "visitedInstructions": 807,
     "limits": "Original insertion/calculator, owner getter/setter/notification and eligible tick/partial update. Reused null backend result and supplied clock eligibility/observational listener. Generic existing-Buff refresh and numerical DoT source publication remain open."
+  },
+  "nativeContributionCallersVerification": {
+    "runtimeExecuted": false,
+    "functions": 23,
+    "ranges": 27,
+    "decodedInstructions": 6721,
+    "directCallsites": 103,
+    "owners": 13,
+    "anchors": 52,
+    "strings": 2,
+    "limits": "Revalidation of a retained bounded direct-call inventory and static object/argument flow; not interpreted execution, a new scan or numerical source publication."
   }
 }

@@ -58,6 +58,7 @@ How to regenerate them: [re/tooling.md](re/tooling.md) §7.
 | [re/tooling.md](re/tooling.md) | Ghidra headless scripts, Python helpers, GGPK dump tool, Frida through REA, recipes |
 | [re/client-damage-calculation.md](re/client-damage-calculation.md) | client Hit/DoT research: Stats overrides, formulas, resource integration, incoming assignment and unresolved prediction edges |
 | [re/client-stat-evaluation.md](re/client-stat-evaluation.md) | actual network Actor/skill provider chain, update freshness, native transactions and startup guards |
+| [re/client-native-contribution-callers.md](re/client-native-contribution-callers.md) | 103 retained direct contribution callsites, receiving-object provenance, graph-owned tokens and remove-then-rebuild policy; target DoT publication remains open |
 | [re/client-stat-dependency-order.md](re/client-stat-dependency-order.md) | native declared-dependency ordering, cycle diagnostics, growing transaction queues and actual duplicate declarations |
 | [re/client-dot-routing.md](re/client-dot-routing.md) | typed DoT mitigation, healing, ES/Mana/Life routes, self-rate calculations and exact cap/overflow boundaries |
 | [re/client-offence-estimates.md](re/client-offence-estimates.md) | both-hand typed damage ranges, base/added scaling, conversion, averages/DPS and actual numerical UI readers |

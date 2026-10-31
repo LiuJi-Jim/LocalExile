@@ -711,6 +711,9 @@ and can require explicit recipes.
   [Initial Stats byte composition](../docs/re/client-initial-stats-rate.md) runs the installed component reader,
   both compact primitives and real override store through subsequent Life loss; entropy fields remain separate.
   Duplicate pairs assign sequentially; zero-count reading preserves pre-existing overrides on the tested provider.
+  [Native contribution callers](../docs/re/client-native-contribution-callers.md) separately bind the retained
+  103 direct calls in 13 owners to receiving operations, including graph-owned Stats and explicit source replacement.
+  Graph contributions and guarded action contexts are not proof of target DoT publication; indirect paths remain open.
   [Owner/instance clock composition](../docs/re/client-buff-clock-authority.md) executes insertion, actual
   owner timing-stat notifications and retained partial updates through eligible ticks. In the supplied empty
   lifecycle/observational-listener state, later owner values do not rewrite the saved speed; received zero

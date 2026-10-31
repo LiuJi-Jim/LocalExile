@@ -128,6 +128,10 @@ G = global / static data.
 
 ### Client damage research
 
+The [native contribution caller map](../re/client-native-contribution-callers.md) rechecks 103 retained direct
+calls and separates graph-owned `+0x1d0`/`+0x190` receivers from target DoT publication.
+Graph producer `0x141eef620` removes category-1 source contributions before rebuilding; it is not a Buff publisher.
+
 Static evidence, formula boundaries and open tasks are in
 [client damage calculation](../re/client-damage-calculation.md).
 These are client addresses; their presence is not proof of official-server implementation.
