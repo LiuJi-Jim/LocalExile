@@ -260,6 +260,7 @@ These are client addresses; their presence is not proof of official-server imple
 | `0x1421c2f40` | Fn | Creation Stats pairs reach the network setter |
 | `0x1424cfa40` | Fn | Network stat override getter; upstream fallback only when absent |
 | `0x1424cfaf0` | Fn | Insert/replace one raw pair, notifying only that key |
+| `0x1421881b6` / `0x141e6af61` / `0x141e6afb1` | Site | [Parsed Stats to Life loss](../re/client-network-rate-composition.md): target provider, full-step checkpoint and actual total-rate read; distinct from source-rate publication |
 | `0x1424cfd00` | Fn | Stat change notification to registered listeners |
 | `0x141fe1350` | Fn | 0x1b3 reader; world handler `0x142187480` uses the same setter |
 | `0x1400caf90` | Fn | Register final1973 evaluator `0x1427ecc30` |

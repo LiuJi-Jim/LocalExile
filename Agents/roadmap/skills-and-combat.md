@@ -199,6 +199,8 @@ The suspend/restore lifecycle is explicit LocalExile policy; see protocol/11-ski
   Reuse [recharge-control and total-rate authority](../docs/re/client-recharge-rate-authority.md): active notifications
   can cancel positive delay and suppress reset, while the pool step integrates its separately read total recovery rate.
   Local timer expiry and the installed no-op active-state publication do not supply a missing DoT/Hit source publisher.
+  [Parsed Stats-to-Life composition](../docs/re/client-network-rate-composition.md) establishes received total-rate loss,
+  not source-instance publication. Preserve its extra full-step checkpoint and raw/final override distinction.
   Preserve [resource input read order](../docs/re/client-resource-read-order.md): saved recovery rates, later pool state,
   sequential Life loss and preloaded ES loss differ. Reuse [the composed ordered resource route](../docs/re/client-resource-checkpoint-composition.md):
   peer-established World checkpoints/parsed dispatch now execute the actual setter and later recovery arithmetic.

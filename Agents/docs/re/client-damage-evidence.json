@@ -41400,6 +41400,7 @@
         "r24-recharge-rate-authority",
         "r25-resource-read-order",
         "r27-checkpoint-resources",
+        "r29-network-rate-composition",
         "r3-c944-listener-final",
         "r3-d9aa-listener-final",
         "r3-entity-task-boundaries-final",
@@ -41762,6 +41763,7 @@
         "r24-recharge-rate-authority",
         "r25-resource-read-order",
         "r27-checkpoint-resources",
+        "r29-network-rate-composition",
         "r5-ailment-outgoing-helpers",
         "r5-critical-math-final",
         "r6-critical-inputs",
@@ -42158,6 +42160,7 @@
         "r25-resource-read-order",
         "r26-buff-wire",
         "r27-checkpoint-resources",
+        "r29-network-rate-composition",
         "r4-pool-notification-leaves",
         "r8-ground-effect-boundary",
         "r9-ground-ownership"
@@ -42633,6 +42636,7 @@
         }
       ],
       "sourceBatches": [
+        "r29-network-rate-composition",
         "r3-c944-listener-final",
         "r3-weapon-provider-equipment-notify"
       ],
@@ -52475,6 +52479,7 @@
         "r24-recharge-rate-authority",
         "r25-resource-read-order",
         "r27-checkpoint-resources",
+        "r29-network-rate-composition",
         "r4-buff-guard-revive"
       ],
       "selectedDecompilationCompleted": true
@@ -52515,6 +52520,7 @@
         "r24-recharge-rate-authority",
         "r25-resource-read-order",
         "r27-checkpoint-resources",
+        "r29-network-rate-composition",
         "r3-loss-receiver-boundary",
         "r4-buff-clock-producers-discovery",
         "r4-buff-clock-producers-life-guard",
@@ -52539,6 +52545,7 @@
         "r24-recharge-rate-authority",
         "r25-resource-read-order",
         "r27-checkpoint-resources",
+        "r29-network-rate-composition",
         "r4-buff-clock-producers-transition-search"
       ],
       "selectedDecompilationCompleted": null
@@ -52559,6 +52566,7 @@
         "r24-recharge-rate-authority",
         "r25-resource-read-order",
         "r27-checkpoint-resources",
+        "r29-network-rate-composition",
         "r4-pool-assignment-effects"
       ],
       "selectedDecompilationCompleted": true
@@ -52740,6 +52748,7 @@
         "life-and-stat-binding",
         "r25-resource-read-order",
         "r27-checkpoint-resources",
+        "r29-network-rate-composition",
         "r4-buff-guard-revive"
       ],
       "selectedDecompilationCompleted": true
@@ -52807,6 +52816,7 @@
         "r24-recharge-rate-authority",
         "r25-resource-read-order",
         "r27-checkpoint-resources",
+        "r29-network-rate-composition",
         "source-and-authority"
       ],
       "selectedDecompilationCompleted": true
@@ -52856,6 +52866,7 @@
         "life-and-stat-binding",
         "r25-resource-read-order",
         "r27-checkpoint-resources",
+        "r29-network-rate-composition",
         "r3-loss-receiver-boundary"
       ],
       "selectedDecompilationCompleted": true
@@ -52889,6 +52900,7 @@
         "life-and-stat-binding",
         "r25-resource-read-order",
         "r27-checkpoint-resources",
+        "r29-network-rate-composition",
         "r3-loss-receiver-boundary"
       ],
       "selectedDecompilationCompleted": true
@@ -52923,6 +52935,7 @@
         "r16-buff-granted-final",
         "r25-resource-read-order",
         "r27-checkpoint-resources",
+        "r29-network-rate-composition",
         "r3-loss-receiver-boundary",
         "r4-buff-clock-producers-transition-search"
       ],
@@ -52943,6 +52956,7 @@
         "life-and-stat-binding",
         "r25-resource-read-order",
         "r27-checkpoint-resources",
+        "r29-network-rate-composition",
         "r3-loss-receiver-boundary"
       ],
       "selectedDecompilationCompleted": true
@@ -52964,6 +52978,7 @@
         "r24-recharge-rate-authority",
         "r25-resource-read-order",
         "r27-checkpoint-resources",
+        "r29-network-rate-composition",
         "source-and-authority"
       ],
       "selectedDecompilationCompleted": true
@@ -52983,7 +52998,8 @@
         "offence-evaluators",
         "r24-recharge-rate-authority",
         "r25-resource-read-order",
-        "r27-checkpoint-resources"
+        "r27-checkpoint-resources",
+        "r29-network-rate-composition"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -53003,6 +53019,7 @@
         "r24-recharge-rate-authority",
         "r25-resource-read-order",
         "r27-checkpoint-resources",
+        "r29-network-rate-composition",
         "source-and-authority"
       ],
       "selectedDecompilationCompleted": true
@@ -53109,6 +53126,7 @@
       "sourceBatches": [
         "r25-resource-read-order",
         "r27-checkpoint-resources",
+        "r29-network-rate-composition",
         "r4-pool-assignment-effects"
       ],
       "selectedDecompilationCompleted": true
@@ -53127,6 +53145,7 @@
       "sourceBatches": [
         "r25-resource-read-order",
         "r27-checkpoint-resources",
+        "r29-network-rate-composition",
         "r4-pool-assignment-effects"
       ],
       "selectedDecompilationCompleted": true
@@ -53146,6 +53165,7 @@
         "r24-recharge-rate-authority",
         "r25-resource-read-order",
         "r27-checkpoint-resources",
+        "r29-network-rate-composition",
         "r4-pool-assignment-effects"
       ],
       "selectedDecompilationCompleted": true
@@ -53165,6 +53185,7 @@
         "r24-recharge-rate-authority",
         "r25-resource-read-order",
         "r27-checkpoint-resources",
+        "r29-network-rate-composition",
         "r4-pool-recharge-notify"
       ],
       "selectedDecompilationCompleted": true
@@ -53241,6 +53262,7 @@
         "r24-recharge-rate-authority",
         "r25-resource-read-order",
         "r27-checkpoint-resources",
+        "r29-network-rate-composition",
         "source-and-authority"
       ],
       "selectedDecompilationCompleted": true
@@ -56211,6 +56233,7 @@
       ],
       "sourceBatches": [
         "r27-checkpoint-resources",
+        "r29-network-rate-composition",
         "r4-buff-guard-revive",
         "r4-buff-network-clock-contract",
         "source-and-authority"
@@ -57379,6 +57402,7 @@
       ],
       "sourceBatches": [
         "r15-firewall-clock-final",
+        "r29-network-rate-composition",
         "stat-and-formula-v2"
       ],
       "selectedDecompilationCompleted": true
@@ -57395,7 +57419,8 @@
         }
       ],
       "sourceBatches": [
-        "r10-buff-subscriptions-final"
+        "r10-buff-subscriptions-final",
+        "r29-network-rate-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -57412,6 +57437,7 @@
       ],
       "sourceBatches": [
         "r1-network-notifications-v2",
+        "r29-network-rate-composition",
         "stat-and-formula-v2"
       ],
       "selectedDecompilationCompleted": true
@@ -57445,7 +57471,8 @@
       ],
       "sourceBatches": [
         "network-and-sources",
-        "r1-network-notifications-v2"
+        "r1-network-notifications-v2",
+        "r29-network-rate-composition"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -71667,7 +71694,8 @@
         "r23-pool-maximum-refresh",
         "r24-recharge-rate-authority",
         "r25-resource-read-order",
-        "r27-checkpoint-resources"
+        "r27-checkpoint-resources",
+        "r29-network-rate-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -71718,7 +71746,8 @@
         "r23-pool-maximum-refresh",
         "r24-recharge-rate-authority",
         "r25-resource-read-order",
-        "r27-checkpoint-resources"
+        "r27-checkpoint-resources",
+        "r29-network-rate-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -71736,7 +71765,8 @@
       "sourceBatches": [
         "r24-recharge-rate-authority",
         "r25-resource-read-order",
-        "r27-checkpoint-resources"
+        "r27-checkpoint-resources",
+        "r29-network-rate-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -71754,7 +71784,8 @@
       "sourceBatches": [
         "r24-recharge-rate-authority",
         "r25-resource-read-order",
-        "r27-checkpoint-resources"
+        "r27-checkpoint-resources",
+        "r29-network-rate-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -71772,7 +71803,8 @@
       "sourceBatches": [
         "r24-recharge-rate-authority",
         "r25-resource-read-order",
-        "r27-checkpoint-resources"
+        "r27-checkpoint-resources",
+        "r29-network-rate-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -71804,7 +71836,8 @@
       "sourceBatches": [
         "r24-recharge-rate-authority",
         "r25-resource-read-order",
-        "r27-checkpoint-resources"
+        "r27-checkpoint-resources",
+        "r29-network-rate-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -71822,7 +71855,8 @@
       "sourceBatches": [
         "r24-recharge-rate-authority",
         "r25-resource-read-order",
-        "r27-checkpoint-resources"
+        "r27-checkpoint-resources",
+        "r29-network-rate-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -71840,7 +71874,8 @@
       "sourceBatches": [
         "r24-recharge-rate-authority",
         "r25-resource-read-order",
-        "r27-checkpoint-resources"
+        "r27-checkpoint-resources",
+        "r29-network-rate-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -71871,7 +71906,8 @@
       ],
       "sourceBatches": [
         "r25-resource-read-order",
-        "r27-checkpoint-resources"
+        "r27-checkpoint-resources",
+        "r29-network-rate-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -71887,7 +71923,8 @@
         }
       ],
       "sourceBatches": [
-        "r27-checkpoint-resources"
+        "r27-checkpoint-resources",
+        "r29-network-rate-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -73518,6 +73555,11 @@
       "name": "r28-penetration-inputs",
       "auditSha256": "dba31d4c8cf53555a0d1fff42b8d54d171cc7e16d39089d86bd6a2a4d1e28424",
       "functionCount": 42
+    },
+    {
+      "name": "r29-network-rate-composition",
+      "auditSha256": "48162cdd11a01cd58db12a64136c7aac2f573f0527fe498d752ed771274e1d52",
+      "functionCount": 37
     }
   ],
   "pointerSlots": [
@@ -75850,7 +75892,7 @@
     "checkedReferenceInstructions": 13431,
     "decompilationFailures": [],
     "scope": "Original ranges/offsets, unwind ownership or explicit boundaries, stat identity, reference instructions and pointer-slot contents revalidated offline.",
-    "additionalFreshValidation": "R28 rechecked all retained original ranges/unwind owners/offsets and pointer slots; 21 registered penetration input callbacks audited. Prior decompilation/reference checks retained, not rerun."
+    "additionalFreshValidation": "R29 rechecked all retained original ranges/unwind owners/offsets and pointer slots; parsed Stats updates composed with actual getter/setter/notification and Life integration. Prior decompilation/reference checks retained, not rerun."
   },
   "supportingRecords": [
     {
@@ -81069,6 +81111,60 @@
       "bytes": 5089,
       "sha256": "98419bc138b924361ca885578336e03954fe86cc37b3f8fe3a9cc84167da38df",
       "role": "R28 penetration input equations and original-instruction supplied-cache controls; fixed peer R43 reused without rerunning its audit"
+    },
+    {
+      "path": "Agents/docs/re/client-network-rate-composition.md",
+      "bytes": 9825,
+      "sha256": "ee3d16d39b548124a6a75364571034db65f00870da80f5f61f96e12ded6772e4",
+      "role": "R29 parsed Stats-to-Life composition and original-instruction supplied-state controls; fixed peer R44 reused without rerunning its audit"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r29-network-rate-composition.py",
+      "bytes": 9556,
+      "sha256": "5c67ba32e898b9d9d38b5d3b6573e5e350fa27770598a61fee6ca9d6c7a72d14",
+      "role": "R29 parsed Stats-to-Life composition and original-instruction supplied-state controls; fixed peer R44 reused without rerunning its audit"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r29-network-rate-fresh.py",
+      "bytes": 3922,
+      "sha256": "98f7d36ce885527035afb7546444519118a51a8702f2e83528c0a92698924af2",
+      "role": "R29 parsed Stats-to-Life composition and original-instruction supplied-state controls; fixed peer R44 reused without rerunning its audit"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r29-seal.py",
+      "bytes": 4813,
+      "sha256": "bed6b4b55bf1deae074f374f4e925ee8aca1eac2827ef8d5afc8d467a4aad52a",
+      "role": "R29 parsed Stats-to-Life composition and original-instruction supplied-state controls; fixed peer R44 reused without rerunning its audit"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/coordination-r44-reuse.py",
+      "bytes": 1892,
+      "sha256": "7c312faebc91563ada15c770c5b4b3b052e40d9738a3eb19f9e6d6dcc29c1b1e",
+      "role": "R29 parsed Stats-to-Life composition and original-instruction supplied-state controls; fixed peer R44 reused without rerunning its audit"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/coordination-r44-reuse.json",
+      "bytes": 723,
+      "sha256": "8cf8077e0ee8b47561fa9632896ce89b955214a4cdd6ac6908e87b63c0ae2787",
+      "role": "R29 parsed Stats-to-Life composition and original-instruction supplied-state controls; fixed peer R44 reused without rerunning its audit"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r29-network-rate-composition/audit.json",
+      "bytes": 528065,
+      "sha256": "48162cdd11a01cd58db12a64136c7aac2f573f0527fe498d752ed771274e1d52",
+      "role": "R29 parsed Stats-to-Life composition and original-instruction supplied-state controls; fixed peer R44 reused without rerunning its audit"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r29-network-rate-composition/verification.json",
+      "bytes": 45006,
+      "sha256": "2d6d3bfee044a69c8808b42465a5eeb01d59da93299443dde2cea60c4b41bb10",
+      "role": "R29 parsed Stats-to-Life composition and original-instruction supplied-state controls; fixed peer R44 reused without rerunning its audit"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r29-network-rate-composition/fresh-check.json",
+      "bytes": 5329,
+      "sha256": "5caf2030ed3951815d4626b90d5ac2d86f0ae24853e535d6b7869ffa78a70ec8",
+      "role": "R29 parsed Stats-to-Life composition and original-instruction supplied-state controls; fixed peer R44 reused without rerunning its audit"
     }
   ],
   "auxiliaryDataTables": [
@@ -81468,5 +81564,15 @@
     "steps": 861675,
     "visitedInstructions": 1562,
     "limits": "Same-agent original-instruction supplied-cache composition. Native cache misses, original transaction scheduling, equipment/source publication, actual hit/resistance/critical/prohibition application and pools remain separate. Peer R43 reused by immutable files."
+  },
+  "networkRateCompositionVerification": {
+    "runtimeExecuted": false,
+    "functions": 37,
+    "ranges": 53,
+    "decodedInstructions": 3810,
+    "cases": 514,
+    "steps": 1075486,
+    "visitedInstructions": 787,
+    "limits": "Same-agent original-instruction parsed queue/network overrides/Life integration. Source-instance publication, selection/cap and official sends remain separate. Fixed peer R44 reused by immutable files."
   }
 }

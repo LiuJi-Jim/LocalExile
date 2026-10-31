@@ -705,6 +705,9 @@ and can require explicit recipes.
   [Checkpoint/resource composition](../docs/re/client-resource-checkpoint-composition.md) reuses projectile R42's
   original ordered World dispatcher and runs parsed `0x1b1` through the actual setter and recovery math.
   Life's additional gain checkpoint can consume a later assignment; wire production and official arrangement stay open.
+  [Parsed Stats-to-Life composition](../docs/re/client-network-rate-composition.md) follows real network overrides,
+  notifications and integration. A separate full-step checkpoint can consume a later total-loss update before loss.
+  Updating a raw fire rate does not replace an explicit total-rate override; actual source publication remains open.
   [AddBuff magnitude transport](../docs/re/client-buff-wire-magnitudes.md) now binds the original writer to the known reader:
   non-recovery definitions omit granted words; eligible writes have no count and must match definition cardinality.
   The separate counted vector survives independently; these contracts do not publish a DoT source magnitude.
