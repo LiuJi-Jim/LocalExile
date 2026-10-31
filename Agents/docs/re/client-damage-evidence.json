@@ -42165,7 +42165,8 @@
       "sourceBatches": [
         "r4-buff-guard-revive",
         "r4-client-selfkill-invoke",
-        "r57-arakaali-heal"
+        "r57-arakaali-heal",
+        "r58-resource-sources"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -52997,7 +52998,8 @@
         "r4-buff-clock-producers-life-guard",
         "r4-buff-guard-revive",
         "r45-native-pool-composition",
-        "r57-arakaali-heal"
+        "r57-arakaali-heal",
+        "r58-resource-sources"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -53191,7 +53193,8 @@
         "r22-mana-refunds",
         "r23-pool-maximum-refresh",
         "r4-client-selfkill-invoke",
-        "r57-arakaali-heal"
+        "r57-arakaali-heal",
+        "r58-resource-sources"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -74657,6 +74660,82 @@
         "r57-arakaali-heal"
       ],
       "selectedDecompilationCompleted": null
+    },
+    "0x141c46e00": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x141c46e00",
+          "endExclusive": "0x141c46ea8",
+          "bytes": 168,
+          "fileOffset": 29647360,
+          "sha256": "d06cbaff28aa8d7912b9057bc651b6dfeea3adaeb7b8e00f583008a7f806b693"
+        },
+        {
+          "start": "0x141c46ea8",
+          "endExclusive": "0x141c46f0c",
+          "bytes": 100,
+          "fileOffset": 29647528,
+          "sha256": "5d686193e354805acdfca06521ca360b76779c8025facfb4f05c31b8633087bd"
+        },
+        {
+          "start": "0x141c46f0c",
+          "endExclusive": "0x141c470f6",
+          "bytes": 490,
+          "fileOffset": 29647628,
+          "sha256": "fc51b795b96ca715023feac5f458afff7d78f84d4c079f373bd5f1a4a0f0990b"
+        },
+        {
+          "start": "0x141c470f6",
+          "endExclusive": "0x141c470fb",
+          "bytes": 5,
+          "fileOffset": 29648118,
+          "sha256": "a056d71b592a0600fa5e3fda5b4d5bc8351e32258519416e83039dda2e22799b"
+        },
+        {
+          "start": "0x141c470fb",
+          "endExclusive": "0x141c47103",
+          "bytes": 8,
+          "fileOffset": 29648123,
+          "sha256": "47f9d18910e008f5092d013f145ce2a834df89d5b05944a29ddeb598dbe2ae28"
+        }
+      ],
+      "sourceBatches": [
+        "r58-resource-sources"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x141c496d0": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x141c496d0",
+          "endExclusive": "0x141c49878",
+          "bytes": 424,
+          "fileOffset": 29657808,
+          "sha256": "70273538743631e975caaf4448745ad916f784c4c6f6d137533194e8310de84d"
+        }
+      ],
+      "sourceBatches": [
+        "r58-resource-sources"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x141e6b280": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x141e6b280",
+          "endExclusive": "0x141e6b2fb",
+          "bytes": 123,
+          "fileOffset": 31893120,
+          "sha256": "d08c9f9de8a5e0367b46b0c128f39f06ad733f02b039e2e95efbb6a1f71d08e6"
+        }
+      ],
+      "sourceBatches": [
+        "r58-resource-sources"
+      ],
+      "selectedDecompilationCompleted": null
     }
   },
   "batches": [
@@ -76039,6 +76118,11 @@
       "name": "r57-arakaali-heal",
       "auditSha256": "11e8690b600d76d344793a04232a12cefa0ff6128d52c74b90dafed952295f94",
       "functionCount": 10
+    },
+    {
+      "name": "r58-resource-sources",
+      "auditSha256": "e06a939c8e2c37cfcb08de6a0f3fd28a21d1e7d1db8d78a0c8ef05ec07496a32",
+      "functionCount": 6
     }
   ],
   "pointerSlots": [
@@ -78416,6 +78500,14 @@
       "sha256": "378ee782fb5c23dddc2b035064f2007f73ebbdb837d52095d4540a15ee3ec12e",
       "fileOffset": 52786848,
       "role": "ArakaaliHide selected original action entry; not accepted-Hit damage"
+    },
+    {
+      "table": "0x1435a5da0",
+      "offset": "0x68",
+      "target": "0x141e6b280",
+      "fileOffset": 56250888,
+      "sha256": "cc920570b00d55f60cb1dbeaafec19173a8a7b30fe63279909c015646ee161e5",
+      "role": "Actual Life minimum-threshold callback; transitive script/event consequences not interpreted"
     }
   ],
   "scanCoverage": {
@@ -78460,15 +78552,15 @@
     }
   ],
   "verification": {
-    "entryCount": 4071,
-    "originalByteRangeCount": 5075,
+    "entryCount": 4074,
+    "originalByteRangeCount": 5082,
     "historicalBoundedThunkEntries": 4,
-    "pointerSlotCount": 297,
+    "pointerSlotCount": 298,
     "selectedDecompilationRecords": 877,
     "checkedReferenceInstructions": 13431,
     "decompilationFailures": [],
     "scope": "Original ranges/offsets, unwind ownership or explicit boundaries, stat identity, reference instructions and pointer-slot contents revalidated offline.",
-    "additionalFreshValidation": "R57 rechecked all original ranges, ownership, offsets, 297 pointer slots and 1128 prior sealed supports. Selected ArakaaliHide composition executes 462 supplied-state cases / 61732 original instructions / 274 visited sites; 10 identities / 18 ranges / 773 records, 36 anchors and two slots freshly bound. Four new entries support registrars/factories. Actual action invocation, accepted-Hit damage, source DoT publication/shared cap and generic clock refresh remain open."
+    "additionalFreshValidation": "R58 rechecked all original ranges, ownership, offsets, 298 pointer slots and 1136 prior sealed supports. The retained 24 direct setter sites in 18 owners are classified at their local value boundary; selected LegionBreakout target Life-floor composition passes 438 supplied-state cases / 63879 original instructions / 210 sites. Six identities / twelve ranges / 530 records, 31 anchors and two slots checked. Upstream invocation, callback consequences, accepted-Hit damage, source DoT publication/shared cap and generic clock refresh remain open."
   },
   "supportingRecords": [
     {
@@ -85241,6 +85333,60 @@
       "bytes": 6762,
       "sha256": "ca3581ce44fd0c47755d97cf4e69f00dc423908eeeaed2380a18c58901a355e0",
       "role": "R57 ArakaaliHide selected art-variation approximately-65% Life target through original integer wrapper/setter; exact guards, recovery restrictions and float32 boundaries in supplied states. Supporting factory/registration identity; not ordinary action invocation, accepted-Hit damage, source DoT publication/shared cap or generic clock refresh."
+    },
+    {
+      "path": "Agents/docs/re/client-resource-setter-sources.md",
+      "bytes": 7333,
+      "sha256": "11e2ebfc870edab3bc451cbaf14be6e3b689b54e44e374aa53d15d8aa6d81cb6",
+      "role": "R58 finite retained direct setter-input classification and selected Monster/other-owner/LegionBreakout/stored-value Life-floor operation, original inlined reason14 policy and absolute setter. Supplied component/provider/reservation/callback inputs; not upstream invocation, accepted-Hit amount/mitigation, DoT publication/shared cap or a complete resource-write census."
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r58-resource-sources.py",
+      "bytes": 9608,
+      "sha256": "7c06e6a8de618765fa04904e127f347694afb9d9c3f4a69b35a44beebd25a8aa",
+      "role": "R58 finite retained direct setter-input classification and selected Monster/other-owner/LegionBreakout/stored-value Life-floor operation, original inlined reason14 policy and absolute setter. Supplied component/provider/reservation/callback inputs; not upstream invocation, accepted-Hit amount/mitigation, DoT publication/shared cap or a complete resource-write census."
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r58-resource-fresh.py",
+      "bytes": 5670,
+      "sha256": "e71ac90364a9632a48abb4b38b28882abcb78e8f58ac8f15b3977102e11fb5c1",
+      "role": "R58 finite retained direct setter-input classification and selected Monster/other-owner/LegionBreakout/stored-value Life-floor operation, original inlined reason14 policy and absolute setter. Supplied component/provider/reservation/callback inputs; not upstream invocation, accepted-Hit amount/mitigation, DoT publication/shared cap or a complete resource-write census."
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r58-seal.py",
+      "bytes": 5273,
+      "sha256": "e3f2099c4a7da6a6259c5cdd271a0fb35429992a94774fab985524cfde8c6269",
+      "role": "R58 finite retained direct setter-input classification and selected Monster/other-owner/LegionBreakout/stored-value Life-floor operation, original inlined reason14 policy and absolute setter. Supplied component/provider/reservation/callback inputs; not upstream invocation, accepted-Hit amount/mitigation, DoT publication/shared cap or a complete resource-write census."
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r58-resource-sources/audit.json",
+      "bytes": 99921,
+      "sha256": "e06a939c8e2c37cfcb08de6a0f3fd28a21d1e7d1db8d78a0c8ef05ec07496a32",
+      "role": "R58 finite retained direct setter-input classification and selected Monster/other-owner/LegionBreakout/stored-value Life-floor operation, original inlined reason14 policy and absolute setter. Supplied component/provider/reservation/callback inputs; not upstream invocation, accepted-Hit amount/mitigation, DoT publication/shared cap or a complete resource-write census."
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r58-resource-sources/audit.asm",
+      "bytes": 18298,
+      "sha256": "2af48032e7fb994271644e5f82bd403b377cbc8545cf97eba6ac98d26e630b96",
+      "role": "R58 finite retained direct setter-input classification and selected Monster/other-owner/LegionBreakout/stored-value Life-floor operation, original inlined reason14 policy and absolute setter. Supplied component/provider/reservation/callback inputs; not upstream invocation, accepted-Hit amount/mitigation, DoT publication/shared cap or a complete resource-write census."
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r58-resource-sources/controls.json",
+      "bytes": 18543,
+      "sha256": "bd69a8354918272a0c777f80be739fc7a593bab244a1b1ac17bf1ba2bd974607",
+      "role": "R58 finite retained direct setter-input classification and selected Monster/other-owner/LegionBreakout/stored-value Life-floor operation, original inlined reason14 policy and absolute setter. Supplied component/provider/reservation/callback inputs; not upstream invocation, accepted-Hit amount/mitigation, DoT publication/shared cap or a complete resource-write census."
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r58-resource-sources/cases.json",
+      "bytes": 180122,
+      "sha256": "919e9e5ff20524a02efd8f7f01c9a6a053dca760156796391f6a4397ef2b1915",
+      "role": "R58 finite retained direct setter-input classification and selected Monster/other-owner/LegionBreakout/stored-value Life-floor operation, original inlined reason14 policy and absolute setter. Supplied component/provider/reservation/callback inputs; not upstream invocation, accepted-Hit amount/mitigation, DoT publication/shared cap or a complete resource-write census."
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r58-resource-sources/fresh-check.json",
+      "bytes": 6616,
+      "sha256": "fbf70abdd7620aded873f849928c5a87cda68b2202e98eb34a9a2169f90846ff",
+      "role": "R58 finite retained direct setter-input classification and selected Monster/other-owner/LegionBreakout/stored-value Life-floor operation, original inlined reason14 policy and absolute setter. Supplied component/provider/reservation/callback inputs; not upstream invocation, accepted-Hit amount/mitigation, DoT publication/shared cap or a complete resource-write census."
     }
   ],
   "auxiliaryDataTables": [
@@ -86089,5 +86235,196 @@
     "auditSha256": "11e8690b600d76d344793a04232a12cefa0ff6128d52c74b90dafed952295f94",
     "controlsSha256": "64e74207c69c6f7c1552fddba503dc5952b96fc859bafd7c0d359ea688de9fa6",
     "conclusion": "ArakaaliHide selected skill_art_variation=1 path targets approximately 65 percent Life via the original integer delta receiver/setter, with original guards, restrictions and rounding. This classifies one retained candidate; no accepted-Hit amount/mitigation or source DoT publication/shared-cap closure."
+  },
+  "directSetterSourcesVerification": {
+    "result": "PASS",
+    "runtimeExecuted": false,
+    "functions": 6,
+    "ranges": 12,
+    "decodedRecords": 530,
+    "anchors": [
+      {
+        "va": "0x141c46e23",
+        "asm": "lea rax, [rip + 0x1962086]",
+        "sha256": "ae6766b9e7c047ec7c52b17bce47f6c6446e83b4c7690f08ca0f71af2db7484f"
+      },
+      {
+        "va": "0x141c46e41",
+        "asm": "cmp qword ptr [rax], r8",
+        "sha256": "d979aacfb7e7c146c07e6b7b3fb7a4e1eb019e3941f6cc58e81549ca8b95389e"
+      },
+      {
+        "va": "0x141c46e54",
+        "asm": "cmp rdi, qword ptr [rcx + 8]",
+        "sha256": "86ad8d4a5b34af8e5143eebac94bcf28f35e164bbe346f27526f9785d9148c4d"
+      },
+      {
+        "va": "0x141c46e66",
+        "asm": "mov rcx, qword ptr [rax + 0x1b0]",
+        "sha256": "8c0170c8b4b45b59ad91a40fbafae628da3c0a7b76726e22c9ef114688247211"
+      },
+      {
+        "va": "0x141c46e76",
+        "asm": "mov eax, 0xd8fe",
+        "sha256": "72f84b6b63f36f9e54129d85f45365fd391e79cb25ea7b0856f24c777b471928"
+      },
+      {
+        "va": "0x141c46e7b",
+        "asm": "cmp word ptr [rcx + 0x118], ax",
+        "sha256": "0d69e2e565b5c36e97fd5eaadd07d1b25441ff1f77cbf145386399601be75dab"
+      },
+      {
+        "va": "0x141c46e88",
+        "asm": "mov rax, qword ptr [rcx + 0x350]",
+        "sha256": "452d5658123ddcadb79a0d7ab94721b42facba4ffd80776d144efac008debe58"
+      },
+      {
+        "va": "0x141c46e98",
+        "asm": "mov rax, qword ptr [rax + 0x20]",
+        "sha256": "7560b24462eac8d6fe660a6012466417f06865c800bbd8a2d5f9e4193f1dbe81"
+      },
+      {
+        "va": "0x141c46e9c",
+        "asm": "cmp dword ptr [rax], 1",
+        "sha256": "656182f0496393da04581e24953f4f32254187105df0f58b65c2c9c95cf5947a"
+      },
+      {
+        "va": "0x141c46e9f",
+        "asm": "ja 0x141c470fb",
+        "sha256": "035c57c2bc7e1f8f0fa81bedf22464651dad26bdea806dbccf6115b6f15db4a2"
+      },
+      {
+        "va": "0x141c46ead",
+        "asm": "call 0x14013dda0",
+        "sha256": "0714807750bc835412d80d29d5ce76fb5889eab0e91fd954a513bb5592b3c986"
+      },
+      {
+        "va": "0x141c46eb2",
+        "asm": "lea rdi, [rax + 0x178]",
+        "sha256": "78aca26cca0cab8c081bfdcc444b50b336ab54fcf8b3ff42ee30a96424dceb33"
+      },
+      {
+        "va": "0x141c46ec6",
+        "asm": "mov rax, qword ptr [rcx + 8]",
+        "sha256": "810de49edf5c9302862254e9dbda0161e90553d6d5961711804267e08e4d67cf"
+      },
+      {
+        "va": "0x141c46eca",
+        "asm": "mov ecx, dword ptr [rax + 0x88]",
+        "sha256": "44d4d043c7cc7d5abf515cb63f5d7536c9ab78eafc8e984e47a8aa790190825b"
+      },
+      {
+        "va": "0x141c46eda",
+        "asm": "call qword ptr [rax + 0x50]",
+        "sha256": "76e65c840e73736ff53074c7156f6a65b42a73f6fecf882bbc652c62f38dbede"
+      },
+      {
+        "va": "0x141c46ee5",
+        "asm": "sub esi, eax",
+        "sha256": "d82365f5401a7c7d255c9cc5be914cdaa9b73f53019a03fb8023eb094468237c"
+      },
+      {
+        "va": "0x141c46ee7",
+        "asm": "cmovs esi, r15d",
+        "sha256": "df8516d9710daf5e95a261eb97519ee6a718067cb805d6a521c5d43c99a32a38"
+      },
+      {
+        "va": "0x141c46eeb",
+        "asm": "neg esi",
+        "sha256": "e548438dfc69e94451c658a0a4023f2968b9b5d7de0ecfcbeb008021fe5387dc"
+      },
+      {
+        "va": "0x141c46eef",
+        "asm": "jle 0x141c470f6",
+        "sha256": "662de4ad0fb1ff2878a5ca6c68441bc963ccd30fa64e014f115c09285c547be1"
+      },
+      {
+        "va": "0x141c46f07",
+        "asm": "mov edx, 0xca8",
+        "sha256": "c2add101c76167b850d3606b308c5dfd9740c3b51934dfe5ddcc7886329b3135"
+      },
+      {
+        "va": "0x141c46f5b",
+        "asm": "divss xmm1, dword ptr [rip + 0x1a5cb79]",
+        "sha256": "878207fbfae3748aebb1e4ae73b5a6ff59716b0461edcb08d6e9701ec5ab84d2"
+      },
+      {
+        "va": "0x141c46f63",
+        "asm": "mulss xmm1, xmm0",
+        "sha256": "52d205aac60d5d4246df135e5f34f52009be9585363322a2fc2eaf30a7471253"
+      },
+      {
+        "va": "0x141c46f67",
+        "asm": "cvttss2si ebx, xmm1",
+        "sha256": "8322cf0c945b6b710dcf6e1155d16ec562da1e7bf419b7b7783c125a6314bb7c"
+      },
+      {
+        "va": "0x141c46f6f",
+        "asm": "sub ebx, eax",
+        "sha256": "e2be51bd30c968b6a89d0e2f303bbc00aa0b85dca2087c43eb4a4e2fee7b1216"
+      },
+      {
+        "va": "0x141c46f76",
+        "asm": "inc ebx",
+        "sha256": "6c19b79bbdc9e463cabbc0a02b3c7f1a814c141ff2f9990061b623b1faf4d90e"
+      },
+      {
+        "va": "0x141c46f94",
+        "asm": "call 0x141e698e0",
+        "sha256": "b66c2d9ad75e375e086f1c185eda0bf4ccc4863e75d50be0e151b7cc0672df87"
+      },
+      {
+        "va": "0x141c46fa6",
+        "asm": "call qword ptr [rax + 0x68]",
+        "sha256": "3b7baa0d10379d1f23992a664e50ddd163208e9b9d9017253eab1b5ab15ebf50"
+      },
+      {
+        "va": "0x141c470c3",
+        "asm": "call 0x141e698e0",
+        "sha256": "6cc62e79092f72add996b458fdb0ba8cdba2cfb2a96b2bb98d6fe2c1576ebd33"
+      },
+      {
+        "va": "0x141c49854",
+        "asm": "test al, al",
+        "sha256": "cefb6ab22ceb39e9ba061187c8ea79abd8c6dd3fb3031ce67c7cb6be1fe8b2e0"
+      },
+      {
+        "va": "0x141c4985e",
+        "asm": "call 0x141c46e00",
+        "sha256": "ce095b5a4cfc1488659039000f8f4590efb33f2be2f455948bc59de7ac64560e"
+      },
+      {
+        "va": "0x141e6b29b",
+        "asm": "jne 0x141e6b2eb",
+        "sha256": "ef2a3319810f3ae9cd5948f3229bc195d7b1558846487473b21a842f9d1b503b"
+      }
+    ],
+    "pointerSlots": [
+      {
+        "table": "0x1435a5da0",
+        "offset": "0x50",
+        "target": "0x1400ecfa0",
+        "fileOffset": 56250864,
+        "sha256": "5fff4551c49a2d1c95ad931af401e1a2cebe41579e3cad4e0a053080870fcddc"
+      },
+      {
+        "table": "0x1435a5da0",
+        "offset": "0x68",
+        "target": "0x141e6b280",
+        "fileOffset": 56250888,
+        "sha256": "cc920570b00d55f60cb1dbeaafec19173a8a7b30fe63279909c015646ee161e5"
+      }
+    ],
+    "reusedDirectCallsites": 24,
+    "reusedDirectOwners": 18,
+    "literalZeroSlices": 12,
+    "cases": 438,
+    "steps": 63879,
+    "visitedOriginalSites": 210,
+    "priorSealedSupportsPreserved": 1136,
+    "auditSha256": "e06a939c8e2c37cfcb08de6a0f3fd28a21d1e7d1db8d78a0c8ef05ec07496a32",
+    "controlsSha256": "bd69a8354918272a0c777f80be739fc7a593bab244a1b1ac17bf1ba2bd974607",
+    "casesSha256": "919e9e5ff20524a02efd8f7f01c9a6a053dca760156796391f6a4397ef2b1915",
+    "conclusion": "The finite retained direct-setter inventory has 12 literal-zero slices, four selected LegionBreakout Life-policy sites, one maximum-refresh and seven established delta/payment sites. Selected original Monster/other-source/LegionBreakout/stored-value gates lead to floor-one targeting with original minimum-Life policy. This is not accepted-Hit amount/mitigation or DoT source publication/shared-cap closure."
   }
 }

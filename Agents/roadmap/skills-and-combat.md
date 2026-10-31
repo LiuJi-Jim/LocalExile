@@ -183,6 +183,9 @@ The suspend/restore lifecycle is explicit LocalExile policy; see protocol/11-ski
   The retained Life integer candidate now belongs to [ArakaaliHide](../docs/re/client-arakaali-hide-life.md),
   with selected approximately-65% targeting and exact pool/rounding limits. Reuse that positive classification;
   do not repeat it as an unclassified Hit-damage lead or infer ordinary invocation from the supplied-state checks.
+  The finite [24 direct setter-input sites](../docs/re/client-resource-setter-sources.md) are also classified;
+  the new variable path is a guarded LegionBreakout target-Life floor operation with inlined pool policy.
+  Seek a different actual numerical producer/receiver or stronger upstream binding; this is no indirect-write census.
   Actual wire/core production stays with projectile research; pursue missing numerical damage connections here.
   Bow/Wand specialization, equipment-to-setter updates and startup registry winners are bound.
   Follow numerical consequences only where a concrete extension output requires them; do not expand all rendering.

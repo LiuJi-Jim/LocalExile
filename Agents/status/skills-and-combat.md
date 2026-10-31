@@ -691,6 +691,9 @@ and can require explicit recipes.
   The registered [ArakaaliHide action](../docs/re/client-arakaali-hide-life.md) also binds a selected art-variation
   branch to the actual Life integer wrapper/setter: approximately-65% targeting, pool recovery restrictions and
   float32 boundary cases pass 462 supplied-state controls. Ordinary invocation and accepted-Hit damage stay open.
+  All 24 retained [direct setter inputs](../docs/re/client-resource-setter-sources.md) are now classified locally.
+  A selected LegionBreakout target operation reaches 1 Life or the original minimum-percent threshold plus one;
+  438 supplied-state controls preserve guards, pool restrictions and callback boundaries without a Hit-damage claim.
   Conditional terminal Mana refunds now reach a positively typed pool/setter; FireMortar's table-bound callback
   differs from a separate reason-qualified body with unbound ingress. Percent caps, wrapping and cost layouts
   are explicit in [the refund audit](../docs/re/client-terminal-mana-refunds.md), without a target-damage claim.

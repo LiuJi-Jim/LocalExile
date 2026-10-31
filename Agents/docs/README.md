@@ -68,6 +68,7 @@ How to regenerate them: [re/tooling.md](re/tooling.md) §7.
 | [re/client-attack-hit-formulas.md](re/client-attack-hit-formulas.md) | twenty typed attack ranges and four hand totals, ordered equations, base/added scaling and endpoint differences |
 | [re/client-integer-resource-mutations.md](re/client-integer-resource-mutations.md) | integer pool deltas, arrow Life sacrifice, skill-cost preparation/check/payment and conditional caller gates |
 | [re/client-arakaali-hide-life.md](re/client-arakaali-hide-life.md) | registered ArakaaliHide action's conditional approximately-65% Life targeting, actual integer receiver/setter, recovery restrictions and float32 boundary cases |
+| [re/client-resource-setter-sources.md](re/client-resource-setter-sources.md) | classification of 24 retained direct setter calls and selected LegionBreakout target's floor-one Life operation with inlined minimum-Life policy |
 | [re/client-terminal-mana-refunds.md](re/client-terminal-mana-refunds.md) | conditional FireMortar/zero-reason Mana refund slices, cost-stat layout, percent cap and wrapped-product conversion; invocation limits remain explicit |
 | [re/client-pool-maximum-refresh.md](re/client-pool-maximum-refresh.md) | actual maximum-stat subscriber, client-mode current-value gate, Life carry reset and conditional rescaling arithmetic |
 | [re/client-recharge-rate-authority.md](re/client-recharge-rate-authority.md) | actual recharge-active notifications, delay-reset ordering, no-op client state publication and separate total recovery-rate integration |
