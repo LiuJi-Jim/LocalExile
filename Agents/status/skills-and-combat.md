@@ -685,6 +685,9 @@ and can require explicit recipes.
   Docs: [20](../docs/protocol/20-damage.md) §4.
 - **Client damage research (static, partial).** The client integrates per-minute continuous resource rates.
   Incoming `0x1b1` assigns absolute pool values; network Stats honor explicit overrides, including zero.
+  Integer pool deltas separately bind skill-cost routing/payment and extra-arrow Life sacrifice.
+  The arrow benefit precedes its skip-sacrifice check; two cost callers can bypass payment through a context gate.
+  See [conditional resource mutations](../docs/re/client-integer-resource-mutations.md); ordinary hit loss stays open.
   Actual network Actor/skill providers, current fallback and same-key notification masking are bound statically.
   Opcode `0x1b4` updates selected skill/stat-set key-value overrides; its pairs are not projectile path points.
   Native formula transactions are separate; successful startup disables native action-context mutation.

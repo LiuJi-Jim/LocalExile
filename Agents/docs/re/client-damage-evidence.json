@@ -47773,6 +47773,7 @@
         }
       ],
       "sourceBatches": [
+        "r21-integer-pools",
         "r3-pr373-monster-mortar-contacts"
       ],
       "selectedDecompilationCompleted": null
@@ -52638,6 +52639,7 @@
         }
       ],
       "sourceBatches": [
+        "r21-integer-pools",
         "r4-client-selfkill-invoke"
       ],
       "selectedDecompilationCompleted": null
@@ -71207,6 +71209,208 @@
         "r15-resource-service-final"
       ],
       "selectedDecompilationCompleted": null
+    },
+    "0x1419e3b10": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1419e3b10",
+          "endExclusive": "0x1419e3bc4",
+          "bytes": 180,
+          "fileOffset": 27143952,
+          "sha256": "7ae90753e88d2f998ca952a678954d6282ecc365d74d1a3ecbdefc5e9b525101"
+        }
+      ],
+      "sourceBatches": [
+        "r21-integer-pools"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x141941a00": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x141941a00",
+          "endExclusive": "0x141941ba1",
+          "bytes": 417,
+          "fileOffset": 26480128,
+          "sha256": "b5adcb206b3c3f402bef25740bb5c25e7b1d7bd5bc3599de30c358338c8631cd"
+        }
+      ],
+      "sourceBatches": [
+        "r21-integer-pools"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x141b79410": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x141b79410",
+          "endExclusive": "0x141b795c6",
+          "bytes": 438,
+          "fileOffset": 28805136,
+          "sha256": "4fbca8e59e51bdc617f3dc151ac72dd6280036228da74a10e6562f48b1ef8f3d"
+        }
+      ],
+      "sourceBatches": [
+        "r21-integer-pools"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x141e6c7d0": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x141e6c7d0",
+          "endExclusive": "0x141e6c949",
+          "bytes": 377,
+          "fileOffset": 31898576,
+          "sha256": "028f5a9396d7469262421dfc9f6d6b1a4c76e30c3f1783f8d9f44d65f0230123"
+        }
+      ],
+      "sourceBatches": [
+        "r21-integer-pools"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x141e6c950": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x141e6c950",
+          "endExclusive": "0x141e6ca2c",
+          "bytes": 220,
+          "fileOffset": 31898960,
+          "sha256": "fee9c75b4f458186352da950856425704c9374805af7c6907e02605703a1c0ec"
+        }
+      ],
+      "sourceBatches": [
+        "r21-integer-pools"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x141e6ca30": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x141e6ca30",
+          "endExclusive": "0x141e6cb3b",
+          "bytes": 267,
+          "fileOffset": 31899184,
+          "sha256": "392c21898fd19bc398f2d7205f85c4b76fcecba8eb9f19c28f6c3ebaa3fa64df"
+        }
+      ],
+      "sourceBatches": [
+        "r21-integer-pools"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x141e699d0": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x141e699d0",
+          "endExclusive": "0x141e69a07",
+          "bytes": 55,
+          "fileOffset": 31886800,
+          "sha256": "3fb1fb2601897ba4ab9b0d73aac0a0d15d4f6801449adc0aa377caa157a1bbea"
+        },
+        {
+          "start": "0x141e69a07",
+          "endExclusive": "0x141e69a47",
+          "bytes": 64,
+          "fileOffset": 31886855,
+          "sha256": "a9ac4792ec28c73e21c95a8f469c07c03aa21784d03f57a86e7c80d958631772"
+        },
+        {
+          "start": "0x141e69a47",
+          "endExclusive": "0x141e69b06",
+          "bytes": 191,
+          "fileOffset": 31886919,
+          "sha256": "bf322b0cacf4d499cd293d83339ca1b4d083bd0da6a92554bcce0172e5b15ba2"
+        },
+        {
+          "start": "0x141e69b06",
+          "endExclusive": "0x141e69b4b",
+          "bytes": 69,
+          "fileOffset": 31887110,
+          "sha256": "ddedd3a85d81883a277d9a197940981121c13091fa470a78e670d1ac8418c339"
+        },
+        {
+          "start": "0x141e69b4b",
+          "endExclusive": "0x141e69d09",
+          "bytes": 446,
+          "fileOffset": 31887179,
+          "sha256": "7888517682cc072c941a699e74315d78874f4db910ece3800c6394fe4079500a"
+        },
+        {
+          "start": "0x141e69d09",
+          "endExclusive": "0x141e69d13",
+          "bytes": 10,
+          "fileOffset": 31887625,
+          "sha256": "2e9ff0d52a3f22c66dea89633a3efd14632c038dd749e2939f5206e30c8a0fc2"
+        },
+        {
+          "start": "0x141e69d13",
+          "endExclusive": "0x141e69d1b",
+          "bytes": 8,
+          "fileOffset": 31887635,
+          "sha256": "47f9d18910e008f5092d013f145ce2a834df89d5b05944a29ddeb598dbe2ae28"
+        }
+      ],
+      "sourceBatches": [
+        "r21-integer-pools"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x141e6b6e0": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x141e6b6e0",
+          "endExclusive": "0x141e6b73c",
+          "bytes": 92,
+          "fileOffset": 31894240,
+          "sha256": "38d32be255016536b33a66f666e83e1e0293503d709c3554258bc25fd87e0288"
+        }
+      ],
+      "sourceBatches": [
+        "r21-integer-pools"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x141e6c0a0": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x141e6c0a0",
+          "endExclusive": "0x141e6c13d",
+          "bytes": 157,
+          "fileOffset": 31896736,
+          "sha256": "54ec4bcda16c1cc34419697aa3b3a7fdb70fbff6e76717e7e7adfc26fbfcaf2d"
+        }
+      ],
+      "sourceBatches": [
+        "r21-integer-pools"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x141e6cb40": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x141e6cb40",
+          "endExclusive": "0x141e6cb92",
+          "bytes": 82,
+          "fileOffset": 31899456,
+          "sha256": "b7665d878507780af3a609e230eb27360263b1bc8e7688d6bb94a76476e58458"
+        }
+      ],
+      "sourceBatches": [
+        "r21-integer-pools"
+      ],
+      "selectedDecompilationCompleted": null
     }
   },
   "batches": [
@@ -72454,6 +72658,11 @@
       "name": "r20-attack-final",
       "auditSha256": "7f9b9390f9af9ac86eb1245bfdb96c29cca611c0fd698bc629181e614ba4ec28",
       "functionCount": 48
+    },
+    {
+      "name": "r21-integer-pools",
+      "auditSha256": "7926095283ad2f77bdcea123aa9a909dc168964bffd5d09ca8934c20f8f5de52",
+      "functionCount": 12
     }
   ],
   "pointerSlots": [
@@ -74464,6 +74673,70 @@
       "fileOffset": 56256616,
       "sha256": "9145fc4663fb8fae3676266fe8d7ff61514fcdfcf7030b5d02dd5967c9f8bed5",
       "role": "R17 Life selected-source detail request"
+    },
+    {
+      "table": "0x1435a5da0",
+      "offset": "0x28",
+      "target": "0x141e699d0",
+      "fileOffset": 56250824,
+      "sha256": "32e0ce216659ac10b4034de8a5054fb8d0ff7513a5ebd85071131b867627b9f9",
+      "source": "r21-integer-pools concrete integer delta and floor slots"
+    },
+    {
+      "table": "0x1435a5da0",
+      "offset": "0x50",
+      "target": "0x1400ecfa0",
+      "fileOffset": 56250864,
+      "sha256": "5fff4551c49a2d1c95ad931af401e1a2cebe41579e3cad4e0a053080870fcddc",
+      "source": "r21-integer-pools concrete integer delta and floor slots"
+    },
+    {
+      "table": "0x1435a5b68",
+      "offset": "0x28",
+      "target": "0x141e6b6e0",
+      "fileOffset": 56250256,
+      "sha256": "68f65efa3d5d4949ea3813dcee333b22296d42bd8b74e2dac79252345ddad1b4",
+      "source": "r21-integer-pools concrete integer delta and floor slots"
+    },
+    {
+      "table": "0x1435a5b68",
+      "offset": "0x50",
+      "target": "0x1400ecd70",
+      "fileOffset": 56250296,
+      "sha256": "d3814e4c63560704ee112d964a66844e757e3293b3f3a38a2a14c50e74a2942a",
+      "source": "r21-integer-pools concrete integer delta and floor slots"
+    },
+    {
+      "table": "0x1435a6218",
+      "offset": "0x28",
+      "target": "0x141e6c0a0",
+      "fileOffset": 56251968,
+      "sha256": "03ce60f73992dd6a4a2966e7c5eb2cb887662bc2e4e499b6f32a3f8ce4372fb6",
+      "source": "r21-integer-pools concrete integer delta and floor slots"
+    },
+    {
+      "table": "0x1435a6218",
+      "offset": "0x50",
+      "target": "0x1400ecd70",
+      "fileOffset": 56252008,
+      "sha256": "d3814e4c63560704ee112d964a66844e757e3293b3f3a38a2a14c50e74a2942a",
+      "source": "r21-integer-pools concrete integer delta and floor slots"
+    },
+    {
+      "table": "0x1435a7340",
+      "offset": "0x170",
+      "target": "0x141e6cb40",
+      "fileOffset": 56256688,
+      "sha256": "e6deb518a8aac24893d1426522fc5f2145ccd116360cbdb1a532c705b6d55868",
+      "source": "r21-integer-pools concrete integer delta and floor slots"
+    },
+    {
+      "table": "0x1435a7340",
+      "offset": "0xb8",
+      "target": "0x141e6c7c0",
+      "fileOffset": 56256504,
+      "sha256": "acedef358174578d84d9004ba153795321469a4432ebccf9755615ebb1ace7cf",
+      "source": "r21-integer-pools concrete integer delta and floor slots"
     }
   ],
   "scanCoverage": {
@@ -74506,7 +74779,7 @@
     "checkedReferenceInstructions": 13431,
     "decompilationFailures": [],
     "scope": "Original ranges/offsets, unwind ownership or explicit boundaries, stat identity, reference instructions and pointer-slot contents revalidated offline.",
-    "additionalFreshValidation": "R20 rechecked all retained original ranges/offsets/unwind owners and pointer slots; 48 existing attack callback/registrar bodies receive ordered equations. Previous reference-instruction and decompilation checks retained, not rerun."
+    "additionalFreshValidation": "R21 rechecked all retained original ranges/offsets/unwind owners and pointer slots; conditional integer costs and Life sacrifice are distinct from accepted-Hit loss. Earlier reference-instruction and decompilation checks retained, not rerun."
   },
   "supportingRecords": [
     {
@@ -79215,6 +79488,78 @@
       "bytes": 318,
       "sha256": "21540aed2195d499cbaf8931df424a7fdf7f871143d717312d2b6064a7ca37dd",
       "role": "R20 ordered final attack ranges and hand totals; supplied-cache offline original-instruction equations, separate factor census and second integer/SSE engine; no actual Hit-to-pool claim"
+    },
+    {
+      "path": "Agents/docs/re/client-integer-resource-mutations.md",
+      "bytes": 11515,
+      "sha256": "504e150a2d87b1c11b506b31013503c4e5195089f204630d51c4f115005da20d",
+      "role": "R21 original-byte conditional integer cost and Life-sacrifice paths, same-agent instruction/scalar controls; offset navigation is not semantic coverage"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r21-integer-pools.py",
+      "bytes": 11113,
+      "sha256": "3388b662c947cb8fb1c1d5645b7e5f5149401275770191b3a7cd1ef799f63b9f",
+      "role": "R21 original-byte conditional integer cost and Life-sacrifice paths, same-agent instruction/scalar controls; offset navigation is not semantic coverage"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r21-integer-fresh.py",
+      "bytes": 3666,
+      "sha256": "5a7cec20392e5f3215e9f5f168080dd849d6f0d108b0708e6c061e3c25d40288",
+      "role": "R21 original-byte conditional integer cost and Life-sacrifice paths, same-agent instruction/scalar controls; offset navigation is not semantic coverage"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r21-peer-reuse.py",
+      "bytes": 1225,
+      "sha256": "5c187baef90711eb49953db2ada1d2195f823a46a16e5c9c4cc5df3d48b0a936",
+      "role": "R21 original-byte conditional integer cost and Life-sacrifice paths, same-agent instruction/scalar controls; offset navigation is not semantic coverage"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r21-peer-reuse.json",
+      "bytes": 556,
+      "sha256": "42b3e2c5633e4a9ab7dfe9d2b23372ccbdd12bb566924a9dc59950e349640223",
+      "role": "R21 original-byte conditional integer cost and Life-sacrifice paths, same-agent instruction/scalar controls; offset navigation is not semantic coverage"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r21-seal.py",
+      "bytes": 5581,
+      "sha256": "0ad26b2c1764f3e4c5f36645f58fcef73fe899c264f3e295533a314c56e10350",
+      "role": "R21 original-byte conditional integer cost and Life-sacrifice paths, same-agent instruction/scalar controls; offset navigation is not semantic coverage"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r21-resource-writes.py",
+      "bytes": 2294,
+      "sha256": "cfc9cec0ddfd617a477c8a89b3bc5bb2b8e490912a5764d8a00f6ee793d9392b",
+      "role": "R21 original-byte conditional integer cost and Life-sacrifice paths, same-agent instruction/scalar controls; offset navigation is not semantic coverage"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r21-integer-pools/audit.json",
+      "bytes": 166447,
+      "sha256": "7926095283ad2f77bdcea123aa9a909dc168964bffd5d09ca8934c20f8f5de52",
+      "role": "R21 original-byte conditional integer cost and Life-sacrifice paths, same-agent instruction/scalar controls; offset navigation is not semantic coverage"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r21-integer-pools/verification.json",
+      "bytes": 14704,
+      "sha256": "7abec01e31e4fb3bd8a45c970d3f9b0430322a96d7f14f20311debc523b743f1",
+      "role": "R21 original-byte conditional integer cost and Life-sacrifice paths, same-agent instruction/scalar controls; offset navigation is not semantic coverage"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r21-integer-pools/fresh-check.json",
+      "bytes": 5720,
+      "sha256": "eecbb02b798704230ed3b3c879c07c37359c8f7d129725a076b8e9a4c595a4c2",
+      "role": "R21 original-byte conditional integer cost and Life-sacrifice paths, same-agent instruction/scalar controls; offset navigation is not semantic coverage"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r21-resource-writes/candidates.json",
+      "bytes": 8434331,
+      "sha256": "70cdfa9faad45508f47285b2061bc961b985ea9d93a9bb1005fa6e2c88aeddb6",
+      "role": "R21 original-byte conditional integer cost and Life-sacrifice paths, same-agent instruction/scalar controls; offset navigation is not semantic coverage"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r21-resource-writes/direct-integer-ingress.json",
+      "bytes": 33416,
+      "sha256": "1ea80bd8c55ac8a68a575eb18bc5869a4e63d791d019b60944be3b4ebeedc544",
+      "role": "R21 original-byte conditional integer cost and Life-sacrifice paths, same-agent instruction/scalar controls; offset navigation is not semantic coverage"
     }
   ],
   "auxiliaryDataTables": [
@@ -79356,6 +79701,16 @@
       "snapshotFiles": 55,
       "exactGitSources": 42,
       "boundary": "Pinned peer R35 hand selection and startup action cache; snapshot hashes/Git sources/parents checked, numerical audit not rerun"
+    },
+    {
+      "repository": "LocalExile/LocalExile",
+      "commit": "dee19667a2bd14a92fa07d024110c4f9732f59de",
+      "path": "Agents/docs/re/projectiles/repeat-source-state.md",
+      "url": "https://github.com/LocalExile/LocalExile/blob/dee19667a2bd14a92fa07d024110c4f9732f59de/Agents/docs/re/projectiles/repeat-source-state.md",
+      "snapshotManifestSha256": "475761fc39b7d866b2e99348599c7acc8a9dba9ff98ccb42e7b525fff393b3a4",
+      "snapshotFiles": 56,
+      "exactGitSources": 43,
+      "boundary": "Pinned peer R36 repeat backend state/0x1c1 receiver; snapshot hashes/Git/parents checked, numerical audit not rerun"
     }
   ],
   "reductionInputVerification": {
@@ -79415,5 +79770,15 @@
     "supplementarySteps": 5981,
     "publicEquationSha256": "9bc01527891e4eba79cf55d134440658519ca8092c6e694d43fb45de66481613",
     "limits": "Supplied fully-valid caches and scalar helper fixtures; finite intermediate scalar tests, no ordinary network recomputation, cache miss or actual hit application"
+  },
+  "integerResourceMutationVerification": {
+    "runtimeExecuted": false,
+    "functions": 12,
+    "ranges": 28,
+    "decodedInstructions": 1225,
+    "cases": 886,
+    "steps": 270494,
+    "visitedInstructions": 614,
+    "limits": "Resolved providers, prepared RNG sample, reservation totals, threshold listeners and resource notifications are fixtures; no ordinary-client gate provenance or numerical Hit-to-pool closure"
   }
 }

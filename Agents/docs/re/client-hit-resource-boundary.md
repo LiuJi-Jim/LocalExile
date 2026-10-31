@@ -62,6 +62,13 @@ Its integer-current/fractional-carry behavior and the continuous step functions
 are described in the main report. The table installation and reducer bodies
 establish this ABI; matching an arbitrary float argument does not establish it.
 
+The pools also have a distinct integer-delta interface at `+0x28` and an absolute
+setter. [Cost and arrow-sacrifice callers](client-integer-resource-mutations.md)
+positively bind numerical changes through those interfaces. Their caller gates,
+reason codes and integer ABI remain separate from floating damage and ordinary
+accepted-Hit prediction. The earlier `+0x48` receiver search was not an inventory
+of every numerical resource-write mechanism.
+
 A raw eight-byte-pointer search finds each concrete reducer exactly once, at
 its table's `+0x48`: `0x1435a5de8`, `0x1435a5bb0`, `0x1435a6260`.
 The boundary-checked RIP-LEA search for the four tables finds the four constructor

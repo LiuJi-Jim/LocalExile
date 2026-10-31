@@ -84,6 +84,7 @@ Detailed supplements keep the evidence reviewable without treating this summary 
 - [Twenty ordered attack ranges and four totals, separate base/added factors and endpoint asymmetries](client-attack-hit-formulas.md).
 - [Thirty spell base, intermediate-added and selected-added component equations](client-spell-damage-components.md).
 - [Life-cost, hand-cast, Battlemage and weapon-as-spell contributor builders](client-spell-contributor-builders.md).
+- [Integer pool mutations, skill-cost routing/payment and extra-arrow Life sacrifice](client-integer-resource-mutations.md).
 - [Complete final spell min/max/total ranges, ordered equations and conversion branch asymmetries](client-spell-hit-formulas.md).
 - [Taken-as coefficients and ordered armour applicability overrides](client-defence-transfer-formulas.md).
 - [Complete physical/elemental reduction inputs, Strength of Blood and physical ceiling](client-reduction-inputs.md).
@@ -428,6 +429,8 @@ They read continuous loss/rate stats and multiply by the step duration; recovery
 For ES, total damage 3361 and nonlethal damage 3363 are distinct from generic ES loss 12609.
 The reason codes passed to the reducers also differ.
 Do not merge spending, generic loss and damage solely because they all change a pool.
+The separate [integer pool interface](client-integer-resource-mutations.md) binds concrete cost and arrow-sacrifice
+callers, their reasons and conditional payment gates; it does not close accepted-Hit numerical deduction.
 
 The common loss reducer `0x141e6a6b0` uses integer current at pool `+0x30` and fractional carry at `+0x28`.
 It adds the signed delta to the fraction, truncates the whole part, updates current, and retains the remainder.
@@ -663,6 +666,7 @@ damage-bearing paths. Keep missing source eligibility/selection, formulas and sy
 | R1 | Network Stats, actor/skill inputs, lookup freshness and native publication | Established | Actual network provider chain, updates/notifications and guarded native boundary audited; [details](client-stat-evaluation.md); subsequent skill update identified as [0x1b4](client-damage-pr373-comparison.md#0x1b4-is-a-skill-stat-update) |
 | R1 | Native dependency ordering and work-vector algorithm | Established for audited helpers and recovered declaration graph | [Cycle-checked traversal, rank rewriting, growing ordered dispatch, unchanged-output propagation stops and 24 actual duplicate-containing declarations](client-stat-dependency-order.md); declared edges do not guarantee all actual reads or arbitrary reentrant callbacks |
 | R1 | Absolute pool update path | Established | Preserve decoded-field vs wire-offset distinction |
+| R3/R4 | Integer resource changes and selected skill payments | Established for selected conditional paths | [Integer deltas, extra-arrow Life sacrifice, cost routing/check/payment and zero-gate bypass](client-integer-resource-mutations.md); ordinary-client gate provenance, final arrow emission and accepted-Hit loss remain separate |
 | R2 | Typed DoT formulas through mitigation | Established locally | All five types and nonlethal branches audited; [asymmetries](client-dot-routing.md) remain explicit |
 | R2 | Fire self-rate composition | Established for output 8180 | [Complete signed64 percentage, Her Embrace, Touch of Fire, ignite-transfer and difficulty branches](client-fire-self-rate.md); actual source-instance input publication stays open |
 | R2 | Physical/chaos self-rate composition | Established for outputs 8179/8183 | [Complete 11/13-input equations, complementary bleeding/ignite transfer, float32 order and signed32 boundaries](client-physical-chaos-self-rates.md); actual source-instance input publication stays open |

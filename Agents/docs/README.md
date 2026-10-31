@@ -65,6 +65,7 @@ How to regenerate them: [re/tooling.md](re/tooling.md) §7.
 | [re/client-spell-contributor-builders.md](re/client-spell-contributor-builders.md) | life-cost, hand-cast, Battlemage and weapon-as-spell contributors with native qualification tables |
 | [re/client-spell-hit-formulas.md](re/client-spell-hit-formulas.md) | twelve final spell ranges, ordered equations, conversion histories and special branch asymmetries |
 | [re/client-attack-hit-formulas.md](re/client-attack-hit-formulas.md) | twenty typed attack ranges and four hand totals, ordered equations, base/added scaling and endpoint differences |
+| [re/client-integer-resource-mutations.md](re/client-integer-resource-mutations.md) | integer pool deltas, arrow Life sacrifice, skill-cost preparation/check/payment and conditional caller gates |
 | [re/client-buff-initial-granted-values.md](re/client-buff-initial-granted-values.md) | initial Buff magnitude eligibility, byte-order distinction and prefix-preserving normalization |
 | [re/client-buff-observer-attraction-shape.md](re/client-buff-observer-attraction-shape.md) | concrete no-op Buff observer callbacks and a separately guarded presentation output |
 | [re/client-coldsnap-buff-backend.md](re/client-coldsnap-buff-backend.md) | exact Cold Snap Buff/factory joins and concrete animation/matrix backend boundary |

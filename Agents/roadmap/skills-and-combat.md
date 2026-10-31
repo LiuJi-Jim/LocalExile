@@ -186,6 +186,8 @@ The suspend/restore lifecycle is explicit LocalExile policy; see protocol/11-ski
   PreloadFromStats and the selected Cold Snap backend have concrete resource/presentation outputs; do not reclassify
   them as numerical publishers or expand their renderer without a separate numerical edge.
   Connect accepted contacts to numerical damage/critical/mitigation and pool receivers; these edges remain open.
+  Reuse integer pool cost/sacrifice paths separately; trace payment-gate provenance before claiming client prepayment.
+  Their concrete numerical writes do not close accepted-Hit damage or DoT source publication.
   Follow other event configurations beyond GEAL/native listeners; selected player/Sand Spitter files have no handler.
   Extend the selected 22-source semantic catalogue through positive data/native links to numerical publication.
   Preserve its exact inheritance, repeated fields, mode and component distinctions; six scripts are catalogued.
