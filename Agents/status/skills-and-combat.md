@@ -702,6 +702,9 @@ and can require explicit recipes.
   [Resource read order](../docs/re/client-resource-read-order.md) distinguishes saved recovery rates from later pool state.
   Life reads loss channels sequentially; ES saves three rates before loss processing.
   Actual threshold/loss callback boundaries retain conditional numerical consequences; script mutations are fixtures.
+  [AddBuff magnitude transport](../docs/re/client-buff-wire-magnitudes.md) now binds the original writer to the known reader:
+  non-recovery definitions omit granted words; eligible writes have no count and must match definition cardinality.
+  The separate counted vector survives independently; these contracts do not publish a DoT source magnitude.
   Actual network Actor/skill providers, current fallback and same-key notification masking are bound statically.
   Opcode `0x1b4` updates selected skill/stat-set key-value overrides; its pairs are not projectile path points.
   Native formula transactions are separate; successful startup disables native action-context mutation.

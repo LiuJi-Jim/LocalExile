@@ -329,7 +329,7 @@ These are client addresses; their presence is not proof of official-server imple
 | `0x141efb140` | Fn | a passive's gold respec cost: VillageBalancePerLevelShared GoldRespecCost × multiplier |
 | `0x1409d03bb`, `0x1409da517` | Fn | "Refund All" → C→S 0x37 (id only) |
 | `0x141eed000` | Fn | Atlas passive tree check |
-| `0x1435ddb78` (read `0x141fdf870`), `0x1435dd918` (read `0x141fdfdd0`) | Cls | S→C 0x1c1 add buff, 0x1c2 remove buff |
+| `0x1435ddb78` (write `0x141fdf430`, read `0x141fdf870`), `0x1435dd918` (read `0x141fdfdd0`) | Cls | S→C 0x1c1 add buff, 0x1c2 remove buff; [granted-value gate and cardinality](../re/client-buff-wire-magnitudes.md) |
 | `0x141e11720` | Fn | Buffs component: 0x1c1/0x1c2 handler (world handler cases 0x1c1, 0x1c2) |
 | `0x142087910` | Fn | effect script: plays a MiscAnimated as a `Metadata/Effects/*Effect` object |
 | `0x1400bac70` | Fn | registers the derived stat active_skill_area_of_effect_radius (from the base radius and area %) |

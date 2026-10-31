@@ -42133,6 +42133,7 @@
         "r2-buff-timewarp-v2",
         "r24-recharge-rate-authority",
         "r25-resource-read-order",
+        "r26-buff-wire",
         "r4-pool-notification-leaves",
         "r8-ground-effect-boundary",
         "r9-ground-ownership"
@@ -54957,7 +54958,8 @@
         }
       ],
       "sourceBatches": [
-        "r11-buff-clock-input-final"
+        "r11-buff-clock-input-final",
+        "r26-buff-wire"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -54977,6 +54979,7 @@
         "r14-buff-initial-values-final",
         "r2-buff-network",
         "r2-buff-timewarp-v2",
+        "r26-buff-wire",
         "r4-buff-network-clock-contract"
       ],
       "selectedDecompilationCompleted": true
@@ -73096,6 +73099,11 @@
       "name": "r25-resource-read-order",
       "auditSha256": "19384d4b90a8a8141ca6b51717abbdef682fad7a983028d6da2d111f48d8da72",
       "functionCount": 30
+    },
+    {
+      "name": "r26-buff-wire",
+      "auditSha256": "127249f357349c90f0897085b116009e86c065bdb94add7751960fdf985d9004",
+      "functionCount": 3
     }
   ],
   "pointerSlots": [
@@ -75370,6 +75378,22 @@
       "fileOffset": 54973784,
       "sha256": "dd8551cfc4ffad7a15153daca7fdbea39e9f3c62ed3a5f17b8577a792c6fd7c7",
       "source": "r25 resource-side capture and later-state reads; World slot binding does not claim dispatch semantics"
+    },
+    {
+      "table": "0x1435ddb78",
+      "offset": "0x8",
+      "target": "0x141fdf430",
+      "fileOffset": 56479616,
+      "sha256": "57c684b26a52753ec369c9e65e85a253efbbd634423a86c3a910e7f4fe1da886",
+      "source": "r26 AddBuff original writer/reader slot binding"
+    },
+    {
+      "table": "0x1435ddb78",
+      "offset": "0x10",
+      "target": "0x141fdf870",
+      "fileOffset": 56479624,
+      "sha256": "b7a596510798d9087b3b6ca8aa3e2b28c456093f15a0d4ffc38f4977aa7dc558",
+      "source": "r26 AddBuff original writer/reader slot binding"
     }
   ],
   "scanCoverage": {
@@ -75412,7 +75436,7 @@
     "checkedReferenceInstructions": 13431,
     "decompilationFailures": [],
     "scope": "Original ranges/offsets, unwind ownership or explicit boundaries, stat identity, reference instructions and pointer-slot contents revalidated offline.",
-    "additionalFreshValidation": "R25 rechecked all retained original ranges/unwind owners/offsets and pointer slots; selected resource capture/read order bound. Prior decompilation/reference checks retained, not rerun."
+    "additionalFreshValidation": "R26 rechecked all retained original ranges/unwind owners/offsets and pointer slots; selected AddBuff magnitude transport bound. Prior decompilation/reference checks retained, not rerun."
   },
   "supportingRecords": [
     {
@@ -80439,6 +80463,60 @@
       "bytes": 7403,
       "sha256": "07111fcb497de3736f43956afa86603e01e101699e50f1e64e67091db5a2ef38",
       "role": "R25 original resource rate capture, later state reads, sequential Life/preloaded ES rates and explicit World/script mutation fixtures"
+    },
+    {
+      "path": "Agents/docs/re/client-buff-wire-magnitudes.md",
+      "bytes": 7307,
+      "sha256": "96dc2d89056ed5183f6fb93f57d9e3a92aee88c54fb3cd56c630efd4f16975c4",
+      "role": "R26 original AddBuff writer/reader magnitude gate, independent bytes and cardinality mismatch fixtures; fixed peer R41 reuse"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r26-buff-wire.py",
+      "bytes": 9846,
+      "sha256": "0a9b827fab9449ae40afa8ba5e6758690a71ceb9df1552a0594685871a895d2b",
+      "role": "R26 original AddBuff writer/reader magnitude gate, independent bytes and cardinality mismatch fixtures; fixed peer R41 reuse"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r26-wire-fresh.py",
+      "bytes": 5779,
+      "sha256": "72be7dfb3121503927cd09787fd18ad8bf9319432c0a4cba312ddf6de167d488",
+      "role": "R26 original AddBuff writer/reader magnitude gate, independent bytes and cardinality mismatch fixtures; fixed peer R41 reuse"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r26-seal.py",
+      "bytes": 4830,
+      "sha256": "72174fc3eecf7540e6333520d804cd438cab52a9d6c1009c16c0deafbfea6102",
+      "role": "R26 original AddBuff writer/reader magnitude gate, independent bytes and cardinality mismatch fixtures; fixed peer R41 reuse"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/coordination-r41-reuse.py",
+      "bytes": 1845,
+      "sha256": "ac0d00cbe09b31a04a321441d87a62a9086471e25f16622a1d335430d1dcb01d",
+      "role": "R26 original AddBuff writer/reader magnitude gate, independent bytes and cardinality mismatch fixtures; fixed peer R41 reuse"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/coordination-r41-reuse.json",
+      "bytes": 677,
+      "sha256": "2e92667414ea5a09b37ad34497d9e09a97ae3dbc0d70647230127bb96f421e91",
+      "role": "R26 original AddBuff writer/reader magnitude gate, independent bytes and cardinality mismatch fixtures; fixed peer R41 reuse"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r26-buff-wire/audit.json",
+      "bytes": 83718,
+      "sha256": "127249f357349c90f0897085b116009e86c065bdb94add7751960fdf985d9004",
+      "role": "R26 original AddBuff writer/reader magnitude gate, independent bytes and cardinality mismatch fixtures; fixed peer R41 reuse"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r26-buff-wire/verification.json",
+      "bytes": 16351,
+      "sha256": "4ef6862eff286c4d81882bc2a42311944e3e2efb6963f507c2854fb05eed8e9f",
+      "role": "R26 original AddBuff writer/reader magnitude gate, independent bytes and cardinality mismatch fixtures; fixed peer R41 reuse"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r26-buff-wire/fresh-check.json",
+      "bytes": 6369,
+      "sha256": "b2c6bf17d7b8667da1ac5f433c3fd31264e419b3e4ba1a6ada760187fa66137d",
+      "role": "R26 original AddBuff writer/reader magnitude gate, independent bytes and cardinality mismatch fixtures; fixed peer R41 reuse"
     }
   ],
   "auxiliaryDataTables": [
@@ -80807,5 +80885,15 @@
     "steps": 103463,
     "visitedInstructions": 891,
     "limits": "Same-agent interpretation; World and script mutations, providers/reservations/policy/absent protection/listener dispatch are fixtures. Original setter, block listener, threshold walker and loss notification interpreted. No source publication or queued-message execution claim."
+  },
+  "buffMagnitudeWireVerification": {
+    "runtimeExecuted": false,
+    "functions": 3,
+    "ranges": 3,
+    "decodedInstructions": 587,
+    "cases": 648,
+    "steps": 133624,
+    "visitedInstructions": 494,
+    "limits": "Same-agent original writer/reader interpretation. Common headers, stream I/O, conversion imports, table resolution and allocation are fixtures. No visual-override flag 0x10, NaNs, malformed-stream error handling, actual wire execution or source publisher claim."
   }
 }

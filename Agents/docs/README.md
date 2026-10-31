@@ -71,6 +71,7 @@ How to regenerate them: [re/tooling.md](re/tooling.md) §7.
 | [re/client-recharge-rate-authority.md](re/client-recharge-rate-authority.md) | actual recharge-active notifications, delay-reset ordering, no-op client state publication and separate total recovery-rate integration |
 | [re/client-resource-read-order.md](re/client-resource-read-order.md) | captured recovery rates versus later pool state, sequential Life rates, preloaded ES rates and actual callback boundaries |
 | [re/client-buff-initial-granted-values.md](re/client-buff-initial-granted-values.md) | initial Buff magnitude eligibility, byte-order distinction and prefix-preserving normalization |
+| [re/client-buff-wire-magnitudes.md](re/client-buff-wire-magnitudes.md) | AddBuff writer/reader magnitude gate, uncounted definition slots and wire-cardinality agreement |
 | [re/client-buff-observer-attraction-shape.md](re/client-buff-observer-attraction-shape.md) | concrete no-op Buff observer callbacks and a separately guarded presentation output |
 | [re/client-coldsnap-buff-backend.md](re/client-coldsnap-buff-backend.md) | exact Cold Snap Buff/factory joins and concrete animation/matrix backend boundary |
 | [re/client-firewall-clock-hold.md](re/client-firewall-clock-hold.md) | current owner network stat sampled after duration decrement to restore a captured Buff clock value |

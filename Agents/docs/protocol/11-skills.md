@@ -1518,6 +1518,9 @@ A foreign-source packet non-removal control establishes no party aura executor o
   [13](13-items.md) §8). The client reads the BuffDefinitions row in memory as the
   .dat row (BuffVisualsKey at +0x55). **S→C 0x1c2** (class `0x1435dd918`): object header, u16 buff instance: removes it.
   The Buffs component has no 0x2ba update reader; its creation blob holds the same entries ([04](04-player-entity.md)).
+  The original writer uses the actual granted-vector length without a count; the reader uses the definition's
+  GrantedStats count. These must agree. A later constructor resize cannot repair a shifted wire cursor;
+  [the magnitude audit](../re/client-buff-wire-magnitudes.md) checks both directions and non-recovery omission.
 - **Righteous Fire** (`ActivateRighteousFire`, `RunPlayerTick`, `BurnAround`): cast on the player itself (§9), it puts
   two buffs on the player: `righteous_fire` (row 12, BuffVisuals 15: `ri_fire/bottom.epk`, the ring at the feet) and
   `righteous_fire_aura` (row 13, BuffVisuals 19: the ignite flames, and for a player model EPKFiles2

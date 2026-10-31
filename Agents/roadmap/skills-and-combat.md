@@ -198,6 +198,9 @@ The suspend/restore lifecycle is explicit LocalExile policy; see protocol/11-ski
   Local timer expiry and the installed no-op active-state publication do not supply a missing DoT/Hit source publisher.
   Preserve [resource input read order](../docs/re/client-resource-read-order.md): saved recovery rates, later pool state,
   sequential Life loss and preloaded ES loss differ; real queued-message execution at the World boundary remains separate.
+  Reuse [AddBuff magnitude transport](../docs/re/client-buff-wire-magnitudes.md): the writer and reader share a recovery
+  gate but use different length sources. Keep their cardinalities aligned; do not place non-recovery DoT magnitude
+  in this omitted vector or confuse the separate counted vector with a proven DPS carrier.
   Follow other event configurations beyond GEAL/native listeners; selected player/Sand Spitter files have no handler.
   Extend the selected 22-source semantic catalogue through positive data/native links to numerical publication.
   Preserve its exact inheritance, repeated fields, mode and component distinctions; six scripts are catalogued.

@@ -74,6 +74,7 @@ Detailed supplements keep the evidence reviewable without treating this summary 
 - [Flame Wall secondary Buff samples current owner Stats and restores captured remaining duration](client-firewall-clock-hold.md).
 - [PreloadFromStats row provenance and installed .epk resource collector](client-stat-preload-epk-collector.md).
 - [Initial Entity Buff granted values, recovery qualification, endian differences and storage normalization](client-buff-initial-granted-values.md).
+- [AddBuff writer/reader magnitude eligibility, uncounted granted slots and wire-cardinality agreement](client-buff-wire-magnitudes.md).
 - [Actual Buff granted capacity consumed by reason-4 Life loss and exhausted-instance duration writes](client-buff-totem-degen-capacity.md).
 - [Actual Buff numerical resource forecasts and first-eligible Life-callback source context](client-dot-source-consumers.md).
 - [Life-to-Buffs advancement guard and concrete producers](client-buff-clock-producers.md).
@@ -132,6 +133,12 @@ This is reuse of the other investigation's result, not a new discovery or closur
 Projectile action/RNG/contact/World/result ingress stays with that owner; this investigation follows the
 post-result numerical/resource boundary, Buff/DoT sources and calculation formulas.
 That snapshot leaves full accuracy/evasion composition and its native power helper open with that owner.
+
+The later fixed [object-type binding report](https://github.com/LocalExile/LocalExile/blob/fbb751a0caed81c6b43b1331884a1917a833098b/Agents/docs/re/projectiles/object-type-binding.md)
+connects selected projectile rows, generated/source metadata and ordered component construction.
+Its 63-file snapshot, including 48 exact Git sources and parent-manifest hashes, was checked before reuse;
+its numerical audit was not rerun. World dispatch remains with that owner, while resource-side saved-rate
+and later-state reads remain in this investigation. Neither boundary closes numerical Hit or DoT application.
 
 ## 2. Observed graph and missing connections
 
@@ -212,6 +219,9 @@ flowchart TD
   LIFETRANS --> CLOCKGUARD[Selected sign transitions: set / clear Buffs advancement guard]
   CLOCKGUARD --> CLOCK[Definition-gated duration / backend tick skip]
   BUFFNET[S→C 0x1c1 existing Buff update] --> BUFFCLOCK[Copy remaining duration / speed; omitted speed = 1]
+  BUFFWIRE[0x1c1 writer: actual granted-vector length; no count] -->|only definition IsRecovery nonzero| BUFFDECODE[Reader: definition GrantedStats count / network-order words]
+  BUFFWIRE -->|IsRecovery zero: no granted words| BUFFZERO[Definition-sized zero values: ignite / poison / RF witnesses]
+  BUFFDECODE --> BUFFVALUES
   BUFFCLOCK --> CLOCK
   FWCAPTURE[Flame Wall backend construction: capture remaining duration] --> FWHOLD[Selected callback: nonzero 12588 restores captured duration]
   CLOCK -->|eligible Flame Wall tick after decrement| FWHOLD
