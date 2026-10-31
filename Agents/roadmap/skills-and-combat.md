@@ -175,6 +175,9 @@ The suspend/restore lifecycle is explicit LocalExile policy; see protocol/11-ski
   A named RF template declares a rate input; connect its actual instance and target to native publication.
   Keep reference-damage defence estimates separate from accepted-hit mitigation and resource loss.
   Reuse taken-as coefficients and armour applicability formulas; preserve their declared/actual dependency differences.
+    Reuse complete additional physical/elemental reduction and physical-ceiling input equations.
+    Preserve conditional qualifications, small ceilings and Strength of Blood's integer per-minute conversion.
+    Seven physical reads are absent from its declared vector; do not assume that vector is exhaustive.
   PreloadFromStats and the selected Cold Snap backend have concrete resource/presentation outputs; do not reclassify
   them as numerical publishers or expand their renderer without a separate numerical edge.
   Connect accepted contacts to numerical damage/critical/mitigation and pool receivers; these edges remain open.

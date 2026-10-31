@@ -689,6 +689,8 @@ and can require explicit recipes.
   Opcode `0x1b4` updates selected skill/stat-set key-value overrides; its pairs are not projectile path points.
   Native formula transactions are separate; successful startup disables native action-context mutation.
   Typed DoT mitigation, eight resource channels, healing exclusions and multiple cap/overflow stages are audited.
+    Additional physical/elemental reduction and the physical ceiling have complete native input equations.
+    Conditional terms, Strength of Blood, small ceilings and seven undeclared physical-input reads are preserved.
   RF stat-set constants activate FireDot in permitted native objects; outgoing 14408/8198/5981 formulas are bound.
   Both-hand typed/base/added damage, conversion, average/DPS and actual numerical UI readers are statically bound.
   Three physical-defence estimate callbacks use reference damage, Ward substitution and distinct armour inputs.

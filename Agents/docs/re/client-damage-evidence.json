@@ -6422,6 +6422,7 @@
         }
       ],
       "sourceBatches": [
+        "r18-reduction-final",
         "r2-routing-support"
       ],
       "selectedDecompilationCompleted": null
@@ -6438,6 +6439,7 @@
         }
       ],
       "sourceBatches": [
+        "r18-reduction-final",
         "r2-routing-support"
       ],
       "selectedDecompilationCompleted": null
@@ -8830,6 +8832,7 @@
         }
       ],
       "sourceBatches": [
+        "r18-reduction-final",
         "r2-routing-support"
       ],
       "selectedDecompilationCompleted": null
@@ -35583,6 +35586,7 @@
         }
       ],
       "sourceBatches": [
+        "r18-reduction-final",
         "r2-routing-support"
       ],
       "selectedDecompilationCompleted": true
@@ -35599,6 +35603,7 @@
         }
       ],
       "sourceBatches": [
+        "r18-reduction-final",
         "r2-routing-support"
       ],
       "selectedDecompilationCompleted": true
@@ -38469,6 +38474,7 @@
         }
       ],
       "sourceBatches": [
+        "r18-reduction-final",
         "r2-routing-support"
       ],
       "selectedDecompilationCompleted": true
@@ -39959,6 +39965,11 @@
       "name": "world-message-header",
       "auditSha256": "59b8e66bf8f96b76d4811a936e930a1321afe942375961d1855137fe4aae5277",
       "functionCount": 1
+    },
+    {
+      "name": "r18-reduction-final",
+      "auditSha256": "72d7b12a84cef02d9f8624053b75c4e5c1d09e03a7f635a2c979b47de33140e0",
+      "functionCount": 6
     }
   ],
   "pointerSlots": [
@@ -42010,7 +42021,8 @@
     "selectedDecompilationRecords": 877,
     "checkedReferenceInstructions": 13431,
     "decompilationFailures": [],
-    "scope": "Original ranges/offsets, unwind ownership or explicit boundaries, stat identity, reference instructions and pointer-slot contents revalidated offline."
+    "scope": "Original ranges/offsets, unwind ownership or explicit boundaries, stat identity, reference instructions and pointer-slot contents revalidated offline.",
+    "additionalFreshValidation": "R18 rechecked every retained original range/offset/unwind owner and pointer slot; previous reference-instruction and decompilation audits retained unchanged."
   },
   "supportingRecords": [
     {
@@ -46419,6 +46431,72 @@
       "bytes": 594,
       "sha256": "e95821f41c996ee11accee8dec8548b1d2507c9a641d0e07526793abed18b5bd",
       "role": "Ignored selected DefaultArrow inheritance member; no whole-archive identity or runtime selection claim"
+    },
+    {
+      "path": "Agents/docs/re/client-reduction-inputs.md",
+      "bytes": 9840,
+      "sha256": "2bbf287141da63d15e46f6d464154c95292c8ad12726ec0526d0fa7142813975",
+      "role": "R18 complete reduction inputs and fixed peer snapshot reuse; original instructions interpreted offline, no actual hit/source publication"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r18-reduction-prepare.py",
+      "bytes": 2472,
+      "sha256": "f87cdbb637d4572d83fa65dc8f2af0d1acba9948284cbf0a1ec3a6cca0ddb2e3",
+      "role": "R18 complete reduction inputs and fixed peer snapshot reuse; original instructions interpreted offline, no actual hit/source publication"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r18-reduction-interpreter.py",
+      "bytes": 7485,
+      "sha256": "14ab070eb0d1e841407133de1c61677955324d983fe13b2ba4ba268b49e4e770",
+      "role": "R18 complete reduction inputs and fixed peer snapshot reuse; original instructions interpreted offline, no actual hit/source publication"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r18-reduction-verify.py",
+      "bytes": 5743,
+      "sha256": "46c59ae41e05aac9fbe2d330e0791cd126448397b34551508860c25e25f50a44",
+      "role": "R18 complete reduction inputs and fixed peer snapshot reuse; original instructions interpreted offline, no actual hit/source publication"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r18-reduction-inputs/verification.json",
+      "bytes": 297346,
+      "sha256": "1eeeb939005b2beacf3726f300a6b0546037874f361c8d713629ece03172ecce",
+      "role": "R18 complete reduction inputs and fixed peer snapshot reuse; original instructions interpreted offline, no actual hit/source publication"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r18-reduction-inputs/dependencies.json",
+      "bytes": 9088,
+      "sha256": "ad40fab506922ae21ed2f22d90338740c3a3dbea83606d82528c40d7e4e16e25",
+      "role": "R18 complete reduction inputs and fixed peer snapshot reuse; original instructions interpreted offline, no actual hit/source publication"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r18-reduction-final/audit.json",
+      "bytes": 286162,
+      "sha256": "72d7b12a84cef02d9f8624053b75c4e5c1d09e03a7f635a2c979b47de33140e0",
+      "role": "R18 complete reduction inputs and fixed peer snapshot reuse; original instructions interpreted offline, no actual hit/source publication"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r18-peer-reuse.py",
+      "bytes": 1206,
+      "sha256": "5f2079c150ca17b09e166a98b802dbf6123190c1ae6a3ddafec6ad61cddf81b8",
+      "role": "R18 complete reduction inputs and fixed peer snapshot reuse; original instructions interpreted offline, no actual hit/source publication"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r18-peer-reuse.json",
+      "bytes": 547,
+      "sha256": "faa641a5afaff98ad69023ee0eca8e0e7a01c70254260a8b029d49e744db093a",
+      "role": "R18 complete reduction inputs and fixed peer snapshot reuse; original instructions interpreted offline, no actual hit/source publication"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r18-seal.py",
+      "bytes": 6034,
+      "sha256": "b3d258169a8439dbf42ea292b7fb84c5c6414d991665fa7b5ff375ff46b77a22",
+      "role": "R18 complete reduction inputs and fixed peer snapshot reuse; original instructions interpreted offline, no actual hit/source publication"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r18-reduction-dependencies.py",
+      "bytes": 179,
+      "sha256": "de8dbd9ab32324e65d414684836495fcd5f12ba79c9da82f36593d2f8f3386fc",
+      "role": "R18 complete reduction inputs and fixed peer snapshot reuse; original instructions interpreted offline, no actual hit/source publication"
     }
   ],
   "auxiliaryDataTables": [
@@ -46530,6 +46608,40 @@
         "anchors": 17
       },
       "boundary": "Reused peer contact-prediction state/transport; not numerical Hit resolution or a new discovery"
+    },
+    {
+      "repository": "LocalExile/LocalExile",
+      "commit": "37edd4e26f2f7c2d8f3f4f763ff9edf9a58d9af8",
+      "path": "Agents/docs/re/projectiles/local-hit-prediction.md",
+      "url": "https://github.com/LocalExile/LocalExile/blob/37edd4e26f2f7c2d8f3f4f763ff9edf9a58d9af8/Agents/docs/re/projectiles/local-hit-prediction.md",
+      "snapshotManifestSha256": "51d498e75ca002f2228df248dcd42f5e8246aca6932074321cb2ee433296a083",
+      "snapshotFiles": 55,
+      "exactGitSources": 40,
+      "boundary": "Pinned peer R33 target-provider and property-header contracts; fixed files/hashes/Git sources checked, native numerical audit not rerun in this pass"
     }
-  ]
+  ],
+  "reductionInputVerification": {
+    "controls": {
+      "448": 2027,
+      "20993": 1838,
+      "12270": 1837
+    },
+    "steps": 1016752,
+    "runtimeExecuted": false,
+    "actualReadKeys": {
+      "448": 66,
+      "20993": 6,
+      "12270": 2
+    },
+    "undeclaredPhysicalReadKeys": [
+      5,
+      6,
+      7,
+      2083,
+      6305,
+      7751,
+      20408
+    ],
+    "sourceBatch": "r18-reduction-final"
+  }
 }

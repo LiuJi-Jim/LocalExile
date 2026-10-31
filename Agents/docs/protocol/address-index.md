@@ -160,6 +160,7 @@ These are client addresses; their presence is not proof of official-server imple
 | `0x1400ad7c0` / `0x1426da000` | Fn | Register / evaluate fire DoT total 3356 |
 | `0x14271a3f0` / `0x14281bd60` | Fn | Fire DoT resistance 17170 / fire ES bypass 9609 |
 | `0x1426db5c0` / `0x1426dc1b0` / `0x1426dcdb0` | Fn | Cold / lightning / chaos DoT mitigation; distinct resistance/guard rules |
+| `0x14274b370` / `0x14274d840` / `0x1428b0c50` | Fn | [Physical/elemental reduction inputs and physical ceiling](../re/client-reduction-inputs.md): conditional terms, small ceilings, Strength of Blood and dependency differences |
 | `0x1426dea90` / `0x1426df790` / `0x1426e2c70` | Fn | Physical/fire bypass split / chaos ES split; rounding without upper float saturation |
 | `0x1426cc330` / `0x1426ccf50` / `0x1426cfa50` | Fn | Physical / fire / chaos unaffected self-rate formulas; instance producers remain separate |
 | `0x1426e53f0` / `0x1426e7410` / `0x1426e7d60` | Fn | Life bypass sum / ES total / Life total |

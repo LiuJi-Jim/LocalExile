@@ -80,6 +80,7 @@ How to regenerate them: [re/tooling.md](re/tooling.md) §7.
 | [re/client-critical-inputs.md](re/client-critical-inputs.md) | complete MH/OH/spell chance input algebra, overrides, weapon classification and arithmetic order |
 | [re/client-hit-defender-modifiers.md](re/client-hit-defender-modifiers.md) | shared/typed hit-taken factors, ignore-resistance predicates and defender enemy-critical inputs |
 | [re/client-defence-transfer-formulas.md](re/client-defence-transfer-formulas.md) | seventeen taken-as coefficients, five armour applicability outputs, override order and dependency differences |
+| [re/client-reduction-inputs.md](re/client-reduction-inputs.md) | complete physical/elemental reduction inputs, conditional terms, small ceilings, Strength of Blood and dependency-vector differences |
 | [re/client-defender-context-presence.md](re/client-defender-context-presence.md) | 37-input defender-conditional presence predicate, short circuits and unresolved numerical use |
 | [re/client-ailment-multiplier-inputs.md](re/client-ailment-multiplier-inputs.md) | virtual faster inputs, combined damaging-ailment multipliers and qualification branches |
 | [re/client-dot-multiplier-inputs.md](re/client-dot-multiplier-inputs.md) | generic, typed, ailment and non-ailment DoT multiplier inputs, exact qualifications and integer order |
