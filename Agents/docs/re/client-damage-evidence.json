@@ -9326,6 +9326,7 @@
       ],
       "sourceBatches": [
         "historical-static-callback-binding",
+        "r16-hit-listeners-final",
         "r3-pr373-mortar-source-continuations"
       ],
       "selectedDecompilationCompleted": null
@@ -9544,6 +9545,22 @@
       ],
       "selectedDecompilationCompleted": null
     },
+    "0x1401459c0": {
+      "boundary": "explicit-analyst-leaf-range",
+      "ranges": [
+        {
+          "start": "0x1401459c0",
+          "endExclusive": "0x1401459dd",
+          "bytes": 29,
+          "fileOffset": 1330624,
+          "sha256": "d8729e5d41f7311402d6a98478d2b53560c81b975aacc280e94e4f1edeb1a865"
+        }
+      ],
+      "sourceBatches": [
+        "r16-hit-listeners-final"
+      ],
+      "selectedDecompilationCompleted": null
+    },
     "0x1401459d9": {
       "boundary": "bounded-linear-through-first-terminator",
       "ranges": [
@@ -9697,7 +9714,8 @@
         }
       ],
       "sourceBatches": [
-        "historical-static-callback-binding"
+        "historical-static-callback-binding",
+        "r16-hit-listeners-final"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -9828,6 +9846,22 @@
       ],
       "sourceBatches": [
         "historical-static-callback-binding"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x140211550": {
+      "boundary": "explicit-analyst-leaf-range",
+      "ranges": [
+        {
+          "start": "0x140211550",
+          "endExclusive": "0x14021156d",
+          "bytes": 29,
+          "fileOffset": 2165072,
+          "sha256": "b94f60f51e98de5c766d655c945f565dbc7b7a700e597c9adaa0655c7b86a1ca"
+        }
+      ],
+      "sourceBatches": [
+        "r16-hit-listeners-final"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -18144,6 +18178,7 @@
         }
       ],
       "sourceBatches": [
+        "r16-buff-granted-final",
         "r4-buff-clock-update-callbacks"
       ],
       "selectedDecompilationCompleted": null
@@ -18160,6 +18195,7 @@
         }
       ],
       "sourceBatches": [
+        "r16-buff-granted-final",
         "r2-grants-consumers"
       ],
       "selectedDecompilationCompleted": null
@@ -18603,6 +18639,7 @@
         "r12-buff-default-final",
         "r13-buff-lifecycle-final",
         "r15-firewall-clock-final",
+        "r16-buff-granted-final",
         "r2-buff-bindings-v2",
         "r2-buff-speed-owner",
         "r2-buff-speed-owner-v3",
@@ -19808,6 +19845,7 @@
       ],
       "sourceBatches": [
         "network-and-sources",
+        "r16-buff-granted-final",
         "r4-buff-guard-revive"
       ],
       "selectedDecompilationCompleted": true
@@ -19842,6 +19880,7 @@
       ],
       "sourceBatches": [
         "life-and-stat-binding",
+        "r16-buff-granted-final",
         "r3-loss-receiver-boundary",
         "r4-buff-clock-producers-discovery",
         "r4-buff-clock-producers-life-guard",
@@ -20141,6 +20180,7 @@
       ],
       "sourceBatches": [
         "life-and-stat-binding",
+        "r16-buff-granted-final",
         "r3-loss-receiver-boundary",
         "r4-buff-clock-producers-transition-search"
       ],
@@ -20176,6 +20216,7 @@
       ],
       "sourceBatches": [
         "life-and-stat-binding",
+        "r16-buff-granted-final",
         "source-and-authority"
       ],
       "selectedDecompilationCompleted": true
@@ -20659,6 +20700,7 @@
       "sourceBatches": [
         "historical-static-callback-binding",
         "hit-wire-and-feedback",
+        "r16-hit-listeners-final",
         "r3-hit-consumers",
         "r9-hit-result-qualification"
       ],
@@ -20856,7 +20898,8 @@
         }
       ],
       "sourceBatches": [
-        "historical-static-callback-binding"
+        "historical-static-callback-binding",
+        "r16-hit-listeners-final"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -21963,6 +22006,38 @@
       ],
       "selectedDecompilationCompleted": true
     },
+    "0x141fd9cd0": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x141fd9cd0",
+          "endExclusive": "0x141fd9d57",
+          "bytes": 135,
+          "fileOffset": 33394896,
+          "sha256": "22397c32f71c83ae2746aa911cfa41da4723ef49827dc111875eb7c25eb77aaa"
+        }
+      ],
+      "sourceBatches": [
+        "r16-hit-listeners-final"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x141fd9de0": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x141fd9de0",
+          "endExclusive": "0x141fd9e65",
+          "bytes": 133,
+          "fileOffset": 33395168,
+          "sha256": "6e69ac48cc4a1d4fcc17304f0f82878f26fbbafcca18ed88a1c75c9994c4e603"
+        }
+      ],
+      "sourceBatches": [
+        "r16-hit-listeners-final"
+      ],
+      "selectedDecompilationCompleted": null
+    },
     "0x141fdc2d0": {
       "boundary": "PE-unwind-root-and-chains",
       "ranges": [
@@ -21975,6 +22050,7 @@
         }
       ],
       "sourceBatches": [
+        "r16-hit-listeners-final",
         "r3-loss-life-death-evaluate"
       ],
       "selectedDecompilationCompleted": null
@@ -22202,6 +22278,7 @@
         }
       ],
       "sourceBatches": [
+        "r16-hit-listeners-final",
         "r3-loss-life-death-program"
       ],
       "selectedDecompilationCompleted": null
@@ -22266,7 +22343,120 @@
         }
       ],
       "sourceBatches": [
+        "r16-hit-listeners-final",
         "r3-loss-geal-native-examples"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x14207bb90": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x14207bb90",
+          "endExclusive": "0x14207bdab",
+          "bytes": 539,
+          "fileOffset": 34058128,
+          "sha256": "7a2c2eafc6d34f92886d79bae4565db9133dbff95ca457afd5d7e3283d1904ad"
+        }
+      ],
+      "sourceBatches": [
+        "r16-hit-listeners-final"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x14207be80": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x14207be80",
+          "endExclusive": "0x14207c0c8",
+          "bytes": 584,
+          "fileOffset": 34058880,
+          "sha256": "fd102695d358b8e5ecc3b30d9532b3d6d3668c65d9ca7b7a7d785d32d83251c7"
+        }
+      ],
+      "sourceBatches": [
+        "r16-hit-listeners-final"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x14207c0d0": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x14207c0d0",
+          "endExclusive": "0x14207c276",
+          "bytes": 422,
+          "fileOffset": 34059472,
+          "sha256": "0557a071b8994ff6caf76466efb726a9e96a5bdda223b30dbeaca80ce94a307c"
+        }
+      ],
+      "sourceBatches": [
+        "r16-hit-listeners-final"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x14207c370": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x14207c370",
+          "endExclusive": "0x14207c4e3",
+          "bytes": 371,
+          "fileOffset": 34060144,
+          "sha256": "2e2bc6b556cdd87053211b53c815e3b8a8a95e6604f906b196bc8ba79051f49d"
+        }
+      ],
+      "sourceBatches": [
+        "r16-hit-listeners-final"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x14207c4f0": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x14207c4f0",
+          "endExclusive": "0x14207c747",
+          "bytes": 599,
+          "fileOffset": 34060528,
+          "sha256": "4cd215d4620b0cff7acf9d039145e0d5c531a6db237ea9435b18f5a4d3cda703"
+        }
+      ],
+      "sourceBatches": [
+        "r16-hit-listeners-final"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x14207c820": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x14207c820",
+          "endExclusive": "0x14207ca68",
+          "bytes": 584,
+          "fileOffset": 34061344,
+          "sha256": "acfc19bdb5b0abd0322aec40c2b2611cd8f1fe603e5030b7d96f2badd40d8d87"
+        }
+      ],
+      "sourceBatches": [
+        "r16-hit-listeners-final"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x14207ca70": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x14207ca70",
+          "endExclusive": "0x14207cccb",
+          "bytes": 603,
+          "fileOffset": 34061936,
+          "sha256": "c376238335bb52d7a0d3566d2fa3478228d534bd4ada08542e6e7fce7c040f13"
+        }
+      ],
+      "sourceBatches": [
+        "r16-hit-listeners-final"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -22351,6 +22541,22 @@
       ],
       "selectedDecompilationCompleted": null
     },
+    "0x1420b3500": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1420b3500",
+          "endExclusive": "0x1420b35b0",
+          "bytes": 176,
+          "fileOffset": 34285824,
+          "sha256": "a0382cbeb71d0e4c900d655781f9a4b4f0ecdc01c5a39269bc555982b32e809e"
+        }
+      ],
+      "sourceBatches": [
+        "r16-hit-listeners-final"
+      ],
+      "selectedDecompilationCompleted": null
+    },
     "0x1420b35b0": {
       "boundary": "PE-unwind-root-and-chains",
       "ranges": [
@@ -22363,6 +22569,7 @@
         }
       ],
       "sourceBatches": [
+        "r16-hit-listeners-final",
         "r3-loss-geal-native-consequences"
       ],
       "selectedDecompilationCompleted": null
@@ -22379,7 +22586,120 @@
         }
       ],
       "sourceBatches": [
+        "r16-hit-listeners-final",
         "r3-loss-geal-native-consequences"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x1420b38f0": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1420b38f0",
+          "endExclusive": "0x1420b3a8d",
+          "bytes": 413,
+          "fileOffset": 34286832,
+          "sha256": "4be23a6e8b86108fb2ce170712cf291acd21dbb810a759da4e6ea23c3d5746f2"
+        }
+      ],
+      "sourceBatches": [
+        "r16-hit-listeners-final"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x1420b3a90": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1420b3a90",
+          "endExclusive": "0x1420b3c12",
+          "bytes": 386,
+          "fileOffset": 34287248,
+          "sha256": "c3b7cf85fbfac5c53745c42753bb1a58ee5bea65d231de21caa52cfd61179b44"
+        }
+      ],
+      "sourceBatches": [
+        "r16-hit-listeners-final"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x1420b3c20": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1420b3c20",
+          "endExclusive": "0x1420b3cd0",
+          "bytes": 176,
+          "fileOffset": 34287648,
+          "sha256": "90490ec9c267efb51a1bd7674cef89aa3c3ed0ac31a410f3b4f33f3c4914c7d4"
+        }
+      ],
+      "sourceBatches": [
+        "r16-hit-listeners-final"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x1420b3cd0": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1420b3cd0",
+          "endExclusive": "0x1420b3e75",
+          "bytes": 421,
+          "fileOffset": 34287824,
+          "sha256": "b93c3615a7c686e2d980cd08f3ec957dcf7e3a06f9016192fe0b24e0f385e48b"
+        }
+      ],
+      "sourceBatches": [
+        "r16-hit-listeners-final"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x1420b3e80": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1420b3e80",
+          "endExclusive": "0x1420b400e",
+          "bytes": 398,
+          "fileOffset": 34288256,
+          "sha256": "af93d79499cf71f209cd2febffa710f969108b0b0ac2b8aceab255ca5a864d9f"
+        }
+      ],
+      "sourceBatches": [
+        "r16-hit-listeners-final"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x1420b4010": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1420b4010",
+          "endExclusive": "0x1420b41ad",
+          "bytes": 413,
+          "fileOffset": 34288656,
+          "sha256": "f33f8425dc7f0aabc8bf6f175fea0afe052f2735a1e9ec95e04d253c91da2684"
+        }
+      ],
+      "sourceBatches": [
+        "r16-hit-listeners-final"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x1420b41b0": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1420b41b0",
+          "endExclusive": "0x1420b4332",
+          "bytes": 386,
+          "fileOffset": 34289072,
+          "sha256": "08f8a6fe4d9a362db2e514573b2e27538906754eeb8a5e52af43629e0161f8ca"
+        }
+      ],
+      "sourceBatches": [
+        "r16-hit-listeners-final"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -22560,6 +22880,54 @@
       ],
       "selectedDecompilationCompleted": null
     },
+    "0x1420dccc0": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1420dccc0",
+          "endExclusive": "0x1420dcdaf",
+          "bytes": 239,
+          "fileOffset": 34455744,
+          "sha256": "71baf2ecdae1c327a027cc09d8b2db03f9354cb6e6b89129b543c79c49276878"
+        }
+      ],
+      "sourceBatches": [
+        "r16-hit-listeners-final"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x1420dce80": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1420dce80",
+          "endExclusive": "0x1420dcf42",
+          "bytes": 194,
+          "fileOffset": 34456192,
+          "sha256": "a9b744feb44e82a88dfa5003c4fe73cf00c2938755e72388281a0b33182293cb"
+        }
+      ],
+      "sourceBatches": [
+        "r16-hit-listeners-final"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x1420dcfe0": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1420dcfe0",
+          "endExclusive": "0x1420dd0cf",
+          "bytes": 239,
+          "fileOffset": 34456544,
+          "sha256": "27c71734484c22d727052652b50a90c0406d56309e7f38500257fb54ac8a71d4"
+        }
+      ],
+      "sourceBatches": [
+        "r16-hit-listeners-final"
+      ],
+      "selectedDecompilationCompleted": null
+    },
     "0x1420dd1a0": {
       "boundary": "PE-unwind-root-and-chains",
       "ranges": [
@@ -22572,6 +22940,7 @@
         }
       ],
       "sourceBatches": [
+        "r16-hit-listeners-final",
         "r3-loss-geal-native-invokes"
       ],
       "selectedDecompilationCompleted": null
@@ -38158,6 +38527,16 @@
       "functionCount": 10
     },
     {
+      "name": "r16-buff-granted-final",
+      "auditSha256": "384260e0297b38523364eac96f96db315fbb6f7e80729c8b468c1c6384241d20",
+      "functionCount": 7
+    },
+    {
+      "name": "r16-hit-listeners-final",
+      "auditSha256": "05e760bc8a953f308d8eb2417632aaf8dd0c0f99fb5ec16b6c25dbd9d2ec0348",
+      "functionCount": 32
+    },
+    {
       "name": "r2-base-rates",
       "auditSha256": "3d8a1be28320475810dbb6304e98c0d2e0e4496d49f471dbb16d178889d35ac5",
       "functionCount": 11
@@ -41096,6 +41475,62 @@
       "fileOffset": 56353320,
       "sha256": "d9ef84a3fe6554ba5faec6f478a120be36e4d00d060b896c9a9387cfb67472f0",
       "role": "R15 concrete Flame Wall clock factory/backend or owner-provider slot"
+    },
+    {
+      "table": "0x1435d5000",
+      "offset": "0x10",
+      "target": "0x1420dd1a0",
+      "fileOffset": 56443920,
+      "sha256": "a5dd06b11b3c93bc7a76db96e43153d0ada7d56891b70905cb66b2af13ed87b7",
+      "role": "R16 captured Hit script callable invoke"
+    },
+    {
+      "table": "0x1435d5830",
+      "offset": "0x10",
+      "target": "0x1420dcfe0",
+      "fileOffset": 56446016,
+      "sha256": "825ba873972ddae8571cf757157f682810a5ed6991736c3c936a5d9ba0050b08",
+      "role": "R16 captured Hit script callable invoke"
+    },
+    {
+      "table": "0x1435d17d0",
+      "offset": "0x10",
+      "target": "0x1420dce80",
+      "fileOffset": 56429536,
+      "sha256": "5e4211b6170942f7ac179c3eed6dfadbcb778f2a68efeb1fb95742bd9641516d",
+      "role": "R16 captured Hit script callable invoke"
+    },
+    {
+      "table": "0x1435d0860",
+      "offset": "0x10",
+      "target": "0x1420dccc0",
+      "fileOffset": 56425584,
+      "sha256": "f6a869f0f873589ee3b318117b9793470c82038b9b9705a35a7bc9de8926343d",
+      "role": "R16 captured Hit script callable invoke"
+    },
+    {
+      "table": "0x1435cd880",
+      "offset": "0x18",
+      "target": "0x1401459c0",
+      "fileOffset": 56413336,
+      "sha256": "353bc9848c0dffa3fd2ff61d809d8bf120c9207419f2136d909415bd524238e7",
+      "role": "R16 actual Hit signal subscription invoke thunk"
+    },
+    {
+      "table": "0x1435cda10",
+      "offset": "0x18",
+      "target": "0x140211550",
+      "fileOffset": 56413736,
+      "sha256": "613c0f6a215d0b031424aeafc4b2f0940464cb4108d47a6e374c3890f6eb05f3",
+      "role": "R16 actual Hit signal subscription invoke thunk"
+    },
+    {
+      "table": "0x14359be80",
+      "offset": "0x0",
+      "target": "0x141e09d90",
+      "fileOffset": 56210048,
+      "sha256": "00eefb2ad5da2b6ff1cdf5511797f0cc41fbfc1457c7bbf09d0324da5006b6d7",
+      "role": "R16 actual Buff capacity factory"
     }
   ],
   "scanCoverage": {
@@ -41130,16 +41565,122 @@
     }
   ],
   "verification": {
-    "entryCount": 1917,
-    "originalByteRangeCount": 2873,
+    "entryCount": 1939,
+    "originalByteRangeCount": 2895,
     "historicalBoundedThunkEntries": 4,
-    "pointerSlotCount": 241,
+    "pointerSlotCount": 248,
     "selectedDecompilationRecords": 877,
     "checkedReferenceInstructions": 13431,
     "decompilationFailures": [],
     "scope": "Original ranges/offsets, unwind ownership or explicit boundaries, stat identity, reference instructions and pointer-slot contents revalidated offline."
   },
   "supportingRecords": [
+    {
+      "path": "Tools/re/out/client-damage-audit/r16-buff-granted-final/audit.json",
+      "bytes": 105562,
+      "sha256": "384260e0297b38523364eac96f96db315fbb6f7e80729c8b468c1c6384241d20",
+      "role": "R16 reviewed actual Buff capacity/resource contract or captured Hit script input contract"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r16-buff-granted-verify.py",
+      "bytes": 9080,
+      "sha256": "c61a880b6481be74b275d8d4f66206406513d178002ac85b95d711fe101e8fe7",
+      "role": "R16 reviewed actual Buff capacity/resource contract or captured Hit script input contract"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r16-buff-granted/verification.json",
+      "bytes": 113172,
+      "sha256": "a05e4f0ce006b1de45d3acded88c4778cdf06ceecef9c86154040f840ee95297",
+      "role": "R16 reviewed actual Buff capacity/resource contract or captured Hit script input contract"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r16-buff-granted-review.py",
+      "bytes": 13856,
+      "sha256": "0e6077a0b114c85fad8cb8c84c38f735a2fa44f274a2336b204d4d12a5702410",
+      "role": "R16 reviewed actual Buff capacity/resource contract or captured Hit script input contract"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r16-buff-granted-review.json",
+      "bytes": 67798,
+      "sha256": "de2ee50b1c099b6dbaf5d3ca27e214c6340c641bb832719898bfdb43649d7829",
+      "role": "R16 reviewed actual Buff capacity/resource contract or captured Hit script input contract"
+    },
+    {
+      "path": "Agents/docs/re/client-buff-totem-degen-capacity.md",
+      "bytes": 8398,
+      "sha256": "fd0819066a8bce596ef0fb942ca891b57e6e53d0d945117f6c42eded15de3d37",
+      "role": "R16 reviewed actual Buff capacity/resource contract or captured Hit script input contract"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r16-buff-granted-seal.json",
+      "sha256": "21c867e80a787cb6d18f3fddd38356ddf0e8baa91bc40c1ac3badf73af0c58ff",
+      "role": "R16 sealed evidence; source-rate publication and actual numerical hit resolution remain open"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r16-hit-listeners-final/audit.json",
+      "bytes": 477992,
+      "sha256": "05e760bc8a953f308d8eb2417632aaf8dd0c0f99fb5ec16b6c25dbd9d2ec0348",
+      "role": "R16 reviewed actual Buff capacity/resource contract or captured Hit script input contract"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r16-hit-listeners-verify.py",
+      "bytes": 5996,
+      "sha256": "ee0fd2263b03e6365bf505bca27aad1134d751ba083f02818bb5426ac910619c",
+      "role": "R16 reviewed actual Buff capacity/resource contract or captured Hit script input contract"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r16-hit-listeners/selected-audit.json",
+      "bytes": 477992,
+      "sha256": "05e760bc8a953f308d8eb2417632aaf8dd0c0f99fb5ec16b6c25dbd9d2ec0348",
+      "role": "R16 reviewed actual Buff capacity/resource contract or captured Hit script input contract"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r16-hit-listeners/verification.json",
+      "bytes": 3153,
+      "sha256": "5778763cc55a9ba5909e85c5214da7c64e847ad81d94624c62b43babb22268b5",
+      "role": "R16 reviewed actual Buff capacity/resource contract or captured Hit script input contract"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r16-hit-listeners-probe.py",
+      "bytes": 6915,
+      "sha256": "a3f102dc6dddec5636700c23ca75e71eeecda3581729ebbb2f89a01fee912a97",
+      "role": "R16 reviewed actual Buff capacity/resource contract or captured Hit script input contract"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r16-hit-listeners-probe.json",
+      "bytes": 639,
+      "sha256": "6e7c7f167c6c1db7c9a770486a09cb323801e9cb2c4e41e45ef4def08bf2b487",
+      "role": "R16 reviewed actual Buff capacity/resource contract or captured Hit script input contract"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r16-hit-listeners-review.py",
+      "bytes": 15441,
+      "sha256": "acce82f2465580638f9f0e5687e3e058154653b183fbcee3c0bf2733ef45d613",
+      "role": "R16 reviewed actual Buff capacity/resource contract or captured Hit script input contract"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r16-hit-listeners-review.json",
+      "bytes": 2547,
+      "sha256": "b266b0227752a1f73b4869332e04d779f8e40512076b0c957fb13db31dc718b2",
+      "role": "R16 reviewed actual Buff capacity/resource contract or captured Hit script input contract"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r16-hit-listeners-review/selected-audit.json",
+      "bytes": 477874,
+      "sha256": "07924c6792be5f526698e1c9fdd492e9cde4775f36683d47268089917bf00206",
+      "role": "R16 reviewed actual Buff capacity/resource contract or captured Hit script input contract"
+    },
+    {
+      "path": "Agents/docs/re/client-hit-script-listeners.md",
+      "bytes": 10597,
+      "sha256": "5ef6c199a846972ad040643c628240b0c4d90f0900eb4ff256f3dab06ab73da1",
+      "role": "R16 reviewed actual Buff capacity/resource contract or captured Hit script input contract"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r16-hit-listeners-seal.json",
+      "sha256": "e61c02d563aa879e2c9861dc496b9cc38bcd4e38681742e50e1c10b3b73096b7",
+      "role": "R16 sealed evidence; source-rate publication and actual numerical hit resolution remain open"
+    },
     {
       "path": "Tools/re/out/client-damage-audit/r15-resource-service-final/audit.json",
       "bytes": 235048,

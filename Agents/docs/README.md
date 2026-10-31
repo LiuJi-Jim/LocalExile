@@ -67,6 +67,8 @@ How to regenerate them: [re/tooling.md](re/tooling.md) §7.
 | [re/client-buff-observer-attraction-shape.md](re/client-buff-observer-attraction-shape.md) | concrete no-op Buff observer callbacks and a separately guarded presentation output |
 | [re/client-coldsnap-buff-backend.md](re/client-coldsnap-buff-backend.md) | exact Cold Snap Buff/factory joins and concrete animation/matrix backend boundary |
 | [re/client-firewall-clock-hold.md](re/client-firewall-clock-hold.md) | current owner network stat sampled after duration decrement to restore a captured Buff clock value |
+| [re/client-buff-totem-degen-capacity.md](re/client-buff-totem-degen-capacity.md) | actual Buff granted capacity consumed by reason-4 Life loss, including exhaustion and original-delta overflow |
+| [re/client-hit-script-listeners.md](re/client-hit-script-listeners.md) | four concrete Actor Hit signal subscriptions and asymmetric captured-program context inputs |
 | [re/client-stat-preload-epk-collector.md](re/client-stat-preload-epk-collector.md) | PreloadFromStats row provenance and installed callable collecting .epk resource handles |
 | [re/client-ailment-outgoing-formulas.md](re/client-ailment-outgoing-formulas.md) | outgoing bleed/ignite/poison components, per-minute rates, faster/slower and critical DoT multipliers |
 | [re/client-bleeding-output-family.md](re/client-bleeding-output-family.md) | complete named MH/OH min/max bleeding rates, critical branches and hand/final-factor asymmetries |

@@ -73,6 +73,7 @@ Detailed supplements keep the evidence reviewable without treating this summary 
 - [Flame Wall secondary Buff samples current owner Stats and restores captured remaining duration](client-firewall-clock-hold.md).
 - [PreloadFromStats row provenance and installed .epk resource collector](client-stat-preload-epk-collector.md).
 - [Initial Entity Buff granted values, recovery qualification, endian differences and storage normalization](client-buff-initial-granted-values.md).
+- [Actual Buff granted capacity consumed by reason-4 Life loss and exhausted-instance duration writes](client-buff-totem-degen-capacity.md).
 - [Life-to-Buffs advancement guard and concrete producers](client-buff-clock-producers.md).
 - [Existing Buff network clock receiver, omitted-speed default and selected backend consequences](client-buff-network-clock-contract.md).
 - [Named RF source template and unresolved active publication](client-dot-source-publication.md).
@@ -105,6 +106,7 @@ Detailed supplements keep the evidence reviewable without treating this summary 
 - [Selected action-start task: AnimationController publication and slot-zero listener](client-entity-task-listener.md).
 - [Buff lifecycle/quantity listener: concrete Ruin count effect/audio responsibility](client-entity-task-ruin-listener.md).
 - [Hit queues, action contexts and control effects](client-hit-feedback.md).
+- [Four captured-program Hit listeners, Actor subscriptions and asymmetric script-context inputs](client-hit-script-listeners.md).
 - [Received-result critical feedback, direction and current-target control admission](client-hit-result-qualifiers.md).
 - [Hit/resource receiver search and its precise coverage](client-hit-resource-boundary.md).
 - [Predictive/lockstep scheduling and resource correction](client-damage-timing.md).
@@ -140,6 +142,11 @@ flowchart TD
   SKILLOVERRIDE --> PANEL[Bound numerical skill-panel readers]
   GET --> TICK[Life component: integrate rate / 60 × dt]
   TICK --> POOL[Integer current + fractional carry + resource overflow]
+  TICK -->|selected Life degen channels| LIFELOSS[Reason-4 Life-loss operation]
+  BUFFVALUES[Eligible actual Buff first granted value] --> ABSORBCAP[AncestralTrialTotemAbsorbDegen backend capacity]
+  ABSORBCAP -->|consume capacity / can skip loss| LIFELOSS
+  LIFELOSS -->|fall-through uses original delta and later policies| POOL
+  ABSORBCAP -->|exhaustion| ABSORBEND[Clear capacity and actual Buff remaining duration]
   CORRECTION[S→C 0x1b1 decoded resource value] --> SETTER[Absolute pool assignment]
   SETTER --> POOL
   SETTER --> NOTIFY[Guarded pool notifications / recharge-delay changes]
@@ -161,6 +168,8 @@ flowchart TD
   HITCALC -. pre-deduction unresolved .-> POOL
   FEEDBACK[S→C 0x1af: decimal 431] --> ACTOR[Actor result signals]
   ACTOR --> RENDER[Render / sound / effects callbacks]
+  ACTOR --> HITPROGRAM[Four captured-program tasks: Entity / particle-label / mask-bit context]
+  HITPROGRAM --> EVENT
   ACTOR --> QUALIFY[Current target admission: mutable control mask / duration]
   QUALIFY --> CONTROL[Interruption / knockback / action callbacks]
   ACTOR --> EVENT[Event interpreter]
@@ -639,6 +648,7 @@ damage-bearing paths. Keep missing source eligibility/selection, formulas and sy
 | R2 | Empty-Id2 Buff backend selection | Established for selected startup catalogue | [137 registration sites, strict empty-key miss, null backend and lifecycle guards](client-buff-default-backend.md); independent observer/script numerical consequences remain open |
 | R2/R4 | Buff lifecycle delivery and selected script predicates | Established for selected contracts | [Native observers receive the actual Buff; generic/definition-keyed scripts receive owner Entity and null second object; IfBuff/HasBuff query presence](client-buff-lifecycle-scripts.md); numerical subscriber/publication stays open |
 | R2/R4 | Initial Buff granted-value transport and storage | Established for selected readers and lifecycle | [Initial blob and AddBuff share IsRecovery eligibility but differ in byte order; construction truncates or zero-extends while retaining the prefix](client-buff-initial-granted-values.md); numerical actor-Stats publication remains separate |
+| R2/R4 | Actual Buff value → continuous Life-loss capacity | Established for AncestralTrialTotemAbsorbDegen | [First granted value initializes capacity consumed by reason-4 Life loss; sufficient capacity skips loss, exhaustion zeros capacity/duration, substantial overflow preserves original delta](client-buff-totem-degen-capacity.md); this is not generic Buff-to-Stats or source-rate publication |
 | R2/R4 | Concrete attraction-shape Buff observer | Established for installed callbacks | [Actual secondary listener gain/loss slots immediately return; parent matrix output has startup and parent guards](client-buff-observer-attraction-shape.md); no numerical publisher identified |
 | R2/R4 | Concrete Cold Snap backend | Established for selected factories and slots | [Three exact Buff joins, retained instance, no-op lifecycle slots and animation/matrix tick](client-coldsnap-buff-backend.md); numerical rate publication and gameplay expiry remain open |
 | R2/R4 | Owner stat → existing Buff remaining-duration override | Established for FirewallSecondaryDegenBuff | [Each eligible tick polls the ordinary owner network provider's 12588 and conditionally restores construction-captured remaining duration after decrement](client-firewall-clock-hold.md); generic timing-stat subscriptions/speed refresh and numerical damage publication remain open |
@@ -654,10 +664,11 @@ damage-bearing paths. Keep missing source eligibility/selection, formulas and sy
 | R3 | Stat-driven resource preload candidate | Established for selected installed callable | [PreloadFromStats mode provenance and .epk handle collection](client-stat-preload-epk-collector.md) positively classify this boundary as resource dependency collection; numerical Hit application remains open |
 | R3 | Physical-defence estimates | Established locally | [Three reference-damage formulas](client-defence-estimates.md), Ward substitution, cap/floor/rounding and category reader; concrete-hit mitigation remains separate |
 | R3 | Concrete contact → defender avoidance decision | Established locally | Inherited Fireball gates, Melee and data-bound Sand Spitter MonsterMortarAttack paths audited; [details and Fireball final-factory correction](client-hit-production.md); shared gates remain bound while base clone/terminal differ from final client slots; numerical damage remains separate |
-| R3 | Default ranged-action selection | Established locally | [Bow/Wand enum test, selected equipment-to-provider updates and startup registry winners](client-ranged-action-selection.md) bound; contact continuation consumes queued results; numerical damage remains separate |
+| R3 | Default ranged-action selection | Established locally | [Bow/Wand enum test, selected equipment-to-provider updates and startup registry winners](client-ranged-action-selection.md) bound; selected continuation reaches mode/kind-filtered result processing, without guaranteeing ordinary queued-record consumption; numerical damage remains separate |
 | R3 | Winning ranged extension receivers (supporting boundary) | Established for selected contracts | [Conditional DefaultArrow Entity/action/component path](client-projectile-extension-receivers.md), [task ownership/timers](client-entity-task-boundaries.md), [animation listener](client-entity-task-listener.md) and [Ruin count listener](client-entity-task-ruin-listener.md) bound; this is not numerical hit damage or a claim about every task |
 | R3 | Accepted hit → numerical pre-deduction | Open | Connect established contact/avoidance to amount, critical, mitigation and typed pool receivers; inspected continuations consume existing feedback or have empty slots |
 | R3 | Hit packet → callbacks | Partial | Queue/control, named actions, secondary-action ID producer, GEAL and resource compiler bound; selected player/Sand Spitter files supply no custom-event handler; other configurations/consequences remain open |
+| R3/R4 | Programmable Hit signal subscribers | Established for four native APIs | [WhenHit/DealHit and their Other variants install actual Actor signal tasks and asymmetric Entity/particle-label/mask-bit contexts](client-hit-script-listeners.md); captured resource programs, numerical consequences and damage-to-pool relationship remain open |
 | R3 | Received-result qualifiers and local control admission | Established for selected consumers | [Mutable mask/duration, current-target stun/leech guards, frozen-time differences, quantized direction and selected critical-feedback bit](client-hit-result-qualifiers.md); supplied qualifiers are not local damage/critical rolls or a numerical pool receiver |
 | R4 | Timing, freshness and correction policy | Partial | Scheduling, pool notifications, carry reset, entropy expiry, [Life-to-Buffs guards](client-buff-clock-producers.md) and [existing-instance duration/speed replacement](client-buff-network-clock-contract.md) established; source-rate expiry/publication and required numerical consequences remain open; full rendering is outside scope |
 | R4 | Official/community comparisons | Established comparison | [Pinned sources](client-damage-comparisons.md) distinguish historical explanations, wiki synthesis and PoB; current server equivalence is unproven |
