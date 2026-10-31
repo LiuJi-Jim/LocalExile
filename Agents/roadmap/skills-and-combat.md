@@ -196,6 +196,8 @@ The suspend/restore lifecycle is explicit LocalExile policy; see protocol/11-ski
   Reuse [recharge-control and total-rate authority](../docs/re/client-recharge-rate-authority.md): active notifications
   can cancel positive delay and suppress reset, while the pool step integrates its separately read total recovery rate.
   Local timer expiry and the installed no-op active-state publication do not supply a missing DoT/Hit source publisher.
+  Preserve [resource input read order](../docs/re/client-resource-read-order.md): saved recovery rates, later pool state,
+  sequential Life loss and preloaded ES loss differ; real queued-message execution at the World boundary remains separate.
   Follow other event configurations beyond GEAL/native listeners; selected player/Sand Spitter files have no handler.
   Extend the selected 22-source semantic catalogue through positive data/native links to numerical publication.
   Preserve its exact inheritance, repeated fields, mode and component distinctions; six scripts are catalogued.

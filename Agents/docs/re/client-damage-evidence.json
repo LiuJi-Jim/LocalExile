@@ -41377,6 +41377,7 @@
         "r2-burning-arrow-bound",
         "r2-grants-value-resolver",
         "r24-recharge-rate-authority",
+        "r25-resource-read-order",
         "r3-c944-listener-final",
         "r3-d9aa-listener-final",
         "r3-entity-task-boundaries-final",
@@ -41737,6 +41738,7 @@
         "r2-buff-speed-owner-v3",
         "r2-rf-outgoing-area-v2",
         "r24-recharge-rate-authority",
+        "r25-resource-read-order",
         "r5-ailment-outgoing-helpers",
         "r5-critical-math-final",
         "r6-critical-inputs",
@@ -42130,6 +42132,7 @@
       "sourceBatches": [
         "r2-buff-timewarp-v2",
         "r24-recharge-rate-authority",
+        "r25-resource-read-order",
         "r4-pool-notification-leaves",
         "r8-ground-effect-boundary",
         "r9-ground-ownership"
@@ -52445,6 +52448,7 @@
         "r16-buff-granted-final",
         "r23-pool-maximum-refresh",
         "r24-recharge-rate-authority",
+        "r25-resource-read-order",
         "r4-buff-guard-revive"
       ],
       "selectedDecompilationCompleted": true
@@ -52483,6 +52487,7 @@
         "r16-buff-granted-final",
         "r23-pool-maximum-refresh",
         "r24-recharge-rate-authority",
+        "r25-resource-read-order",
         "r3-loss-receiver-boundary",
         "r4-buff-clock-producers-discovery",
         "r4-buff-clock-producers-life-guard",
@@ -52505,6 +52510,7 @@
         "r17-dot-consumers-final",
         "r23-pool-maximum-refresh",
         "r24-recharge-rate-authority",
+        "r25-resource-read-order",
         "r4-buff-clock-producers-transition-search"
       ],
       "selectedDecompilationCompleted": null
@@ -52523,6 +52529,7 @@
       "sourceBatches": [
         "r23-pool-maximum-refresh",
         "r24-recharge-rate-authority",
+        "r25-resource-read-order",
         "r4-pool-assignment-effects"
       ],
       "selectedDecompilationCompleted": true
@@ -52702,6 +52709,7 @@
       ],
       "sourceBatches": [
         "life-and-stat-binding",
+        "r25-resource-read-order",
         "r4-buff-guard-revive"
       ],
       "selectedDecompilationCompleted": true
@@ -52767,6 +52775,7 @@
       "sourceBatches": [
         "life-and-stat-binding",
         "r24-recharge-rate-authority",
+        "r25-resource-read-order",
         "source-and-authority"
       ],
       "selectedDecompilationCompleted": true
@@ -52814,6 +52823,7 @@
       ],
       "sourceBatches": [
         "life-and-stat-binding",
+        "r25-resource-read-order",
         "r3-loss-receiver-boundary"
       ],
       "selectedDecompilationCompleted": true
@@ -52845,6 +52855,7 @@
       ],
       "sourceBatches": [
         "life-and-stat-binding",
+        "r25-resource-read-order",
         "r3-loss-receiver-boundary"
       ],
       "selectedDecompilationCompleted": true
@@ -52877,6 +52888,7 @@
       "sourceBatches": [
         "life-and-stat-binding",
         "r16-buff-granted-final",
+        "r25-resource-read-order",
         "r3-loss-receiver-boundary",
         "r4-buff-clock-producers-transition-search"
       ],
@@ -52895,6 +52907,7 @@
       ],
       "sourceBatches": [
         "life-and-stat-binding",
+        "r25-resource-read-order",
         "r3-loss-receiver-boundary"
       ],
       "selectedDecompilationCompleted": true
@@ -52914,6 +52927,7 @@
         "life-and-stat-binding",
         "r16-buff-granted-final",
         "r24-recharge-rate-authority",
+        "r25-resource-read-order",
         "source-and-authority"
       ],
       "selectedDecompilationCompleted": true
@@ -52931,7 +52945,8 @@
       ],
       "sourceBatches": [
         "offence-evaluators",
-        "r24-recharge-rate-authority"
+        "r24-recharge-rate-authority",
+        "r25-resource-read-order"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -52949,6 +52964,7 @@
       "sourceBatches": [
         "life-and-stat-binding",
         "r24-recharge-rate-authority",
+        "r25-resource-read-order",
         "source-and-authority"
       ],
       "selectedDecompilationCompleted": true
@@ -53053,6 +53069,7 @@
         }
       ],
       "sourceBatches": [
+        "r25-resource-read-order",
         "r4-pool-assignment-effects"
       ],
       "selectedDecompilationCompleted": true
@@ -53069,6 +53086,7 @@
         }
       ],
       "sourceBatches": [
+        "r25-resource-read-order",
         "r4-pool-assignment-effects"
       ],
       "selectedDecompilationCompleted": true
@@ -53086,6 +53104,7 @@
       ],
       "sourceBatches": [
         "r24-recharge-rate-authority",
+        "r25-resource-read-order",
         "r4-pool-assignment-effects"
       ],
       "selectedDecompilationCompleted": true
@@ -53103,6 +53122,7 @@
       ],
       "sourceBatches": [
         "r24-recharge-rate-authority",
+        "r25-resource-read-order",
         "r4-pool-recharge-notify"
       ],
       "selectedDecompilationCompleted": true
@@ -53177,6 +53197,7 @@
       "sourceBatches": [
         "life-and-stat-binding",
         "r24-recharge-rate-authority",
+        "r25-resource-read-order",
         "source-and-authority"
       ],
       "selectedDecompilationCompleted": true
@@ -71598,7 +71619,8 @@
       ],
       "sourceBatches": [
         "r23-pool-maximum-refresh",
-        "r24-recharge-rate-authority"
+        "r24-recharge-rate-authority",
+        "r25-resource-read-order"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -71647,7 +71669,8 @@
       ],
       "sourceBatches": [
         "r23-pool-maximum-refresh",
-        "r24-recharge-rate-authority"
+        "r24-recharge-rate-authority",
+        "r25-resource-read-order"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -71663,7 +71686,8 @@
         }
       ],
       "sourceBatches": [
-        "r24-recharge-rate-authority"
+        "r24-recharge-rate-authority",
+        "r25-resource-read-order"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -71679,7 +71703,8 @@
         }
       ],
       "sourceBatches": [
-        "r24-recharge-rate-authority"
+        "r24-recharge-rate-authority",
+        "r25-resource-read-order"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -71695,7 +71720,8 @@
         }
       ],
       "sourceBatches": [
-        "r24-recharge-rate-authority"
+        "r24-recharge-rate-authority",
+        "r25-resource-read-order"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -71725,7 +71751,8 @@
         }
       ],
       "sourceBatches": [
-        "r24-recharge-rate-authority"
+        "r24-recharge-rate-authority",
+        "r25-resource-read-order"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -71741,7 +71768,8 @@
         }
       ],
       "sourceBatches": [
-        "r24-recharge-rate-authority"
+        "r24-recharge-rate-authority",
+        "r25-resource-read-order"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -71757,7 +71785,38 @@
         }
       ],
       "sourceBatches": [
-        "r24-recharge-rate-authority"
+        "r24-recharge-rate-authority",
+        "r25-resource-read-order"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x141e6acc0": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x141e6acc0",
+          "endExclusive": "0x141e6ad06",
+          "bytes": 70,
+          "fileOffset": 31891648,
+          "sha256": "a2b663d8e9fca0a499003ee09c0ac3d58e8e774de112ba1874c64cd654f1fbf3"
+        },
+        {
+          "start": "0x141e6ad06",
+          "endExclusive": "0x141e6ade5",
+          "bytes": 223,
+          "fileOffset": 31891718,
+          "sha256": "018707228d28b58e2c397a108ea8a0ef364cb84754788ff0bc0d56ccc676a6b9"
+        },
+        {
+          "start": "0x141e6ade5",
+          "endExclusive": "0x141e6adf5",
+          "bytes": 16,
+          "fileOffset": 31891941,
+          "sha256": "e727e796b6a9742e5edc467f1e79b05b7fb4158c8fae8d5b1ecadbe00a5b1766"
+        }
+      ],
+      "sourceBatches": [
+        "r25-resource-read-order"
       ],
       "selectedDecompilationCompleted": null
     }
@@ -73032,6 +73091,11 @@
       "name": "r24-recharge-rate-authority",
       "auditSha256": "5fb418c0e3bc65af801004b82651837c729c1950370e5721e637343827e8b12c",
       "functionCount": 22
+    },
+    {
+      "name": "r25-resource-read-order",
+      "auditSha256": "19384d4b90a8a8141ca6b51717abbdef682fad7a983028d6da2d111f48d8da72",
+      "functionCount": 30
     }
   ],
   "pointerSlots": [
@@ -75274,6 +75338,38 @@
       "fileOffset": 56251992,
       "sha256": "40cd24445bb98325a84a66e0d128786baaebf0efcf64f151ecd0660ee75f396b",
       "source": "r24 actual recharge-active/recovery-block listener, typed pool recovery and installed client no-op active publication"
+    },
+    {
+      "table": "0x1435a7340",
+      "offset": "0x148",
+      "target": "0x1400f0f00",
+      "fileOffset": 56256648,
+      "sha256": "d9ef84a3fe6554ba5faec6f478a120be36e4d00d060b896c9a9387cfb67472f0",
+      "source": "r25 resource-side capture and later-state reads; World slot binding does not claim dispatch semantics"
+    },
+    {
+      "table": "0x1435a7340",
+      "offset": "0x168",
+      "target": "0x1400f0f00",
+      "fileOffset": 56256680,
+      "sha256": "d9ef84a3fe6554ba5faec6f478a120be36e4d00d060b896c9a9387cfb67472f0",
+      "source": "r25 resource-side capture and later-state reads; World slot binding does not claim dispatch semantics"
+    },
+    {
+      "table": "0x1435da318",
+      "offset": "0x90",
+      "target": "0x142183840",
+      "fileOffset": 56465320,
+      "sha256": "dd8551cfc4ffad7a15153daca7fdbea39e9f3c62ed3a5f17b8577a792c6fd7c7",
+      "source": "r25 resource-side capture and later-state reads; World slot binding does not claim dispatch semantics"
+    },
+    {
+      "table": "0x14346e0c8",
+      "offset": "0x90",
+      "target": "0x142183840",
+      "fileOffset": 54973784,
+      "sha256": "dd8551cfc4ffad7a15153daca7fdbea39e9f3c62ed3a5f17b8577a792c6fd7c7",
+      "source": "r25 resource-side capture and later-state reads; World slot binding does not claim dispatch semantics"
     }
   ],
   "scanCoverage": {
@@ -75316,7 +75412,7 @@
     "checkedReferenceInstructions": 13431,
     "decompilationFailures": [],
     "scope": "Original ranges/offsets, unwind ownership or explicit boundaries, stat identity, reference instructions and pointer-slot contents revalidated offline.",
-    "additionalFreshValidation": "R24 rechecked all retained original ranges/unwind owners/offsets and pointer slots; actual recharge/block subscriber, local control and independent aggregate recovery rate bound. Prior decompilation/reference checks retained, not rerun."
+    "additionalFreshValidation": "R25 rechecked all retained original ranges/unwind owners/offsets and pointer slots; selected resource capture/read order bound. Prior decompilation/reference checks retained, not rerun."
   },
   "supportingRecords": [
     {
@@ -80301,6 +80397,48 @@
       "bytes": 164,
       "sha256": "da1c3b27f0d2ec072e415b455c3e681ef1dc0e317e2bc8cb39ea8ecf6c8521af",
       "role": "R24 actual recharge/block Stats notifications, delay/loss ordering, no-op client active publisher and independent total recovery-rate integration; memory dispatch inventory repeats R3 with zero new sites"
+    },
+    {
+      "path": "Agents/docs/re/client-resource-read-order.md",
+      "bytes": 9498,
+      "sha256": "15db344957134783f089a6e4019d0281b0f8416f74b05e42830664413395cd9a",
+      "role": "R25 original resource rate capture, later state reads, sequential Life/preloaded ES rates and explicit World/script mutation fixtures"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r25-resource-read-order.py",
+      "bytes": 9621,
+      "sha256": "596e0b3ca2f8aaf22f1df1b846ce2bffeb53157c055a0ea13b5e12fadf1a5958",
+      "role": "R25 original resource rate capture, later state reads, sequential Life/preloaded ES rates and explicit World/script mutation fixtures"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r25-resource-fresh.py",
+      "bytes": 4900,
+      "sha256": "5377aa280fe2bba543e23fb7c659c01dd750f85921b4beb6b3f94ddd93f7b64e",
+      "role": "R25 original resource rate capture, later state reads, sequential Life/preloaded ES rates and explicit World/script mutation fixtures"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r25-seal.py",
+      "bytes": 4845,
+      "sha256": "75257605e3355d548f83f2948149341b6f1ac1bd46c73ddf1b84700802efc206",
+      "role": "R25 original resource rate capture, later state reads, sequential Life/preloaded ES rates and explicit World/script mutation fixtures"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r25-resource-read-order/audit.json",
+      "bytes": 307325,
+      "sha256": "19384d4b90a8a8141ca6b51717abbdef682fad7a983028d6da2d111f48d8da72",
+      "role": "R25 original resource rate capture, later state reads, sequential Life/preloaded ES rates and explicit World/script mutation fixtures"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r25-resource-read-order/verification.json",
+      "bytes": 27850,
+      "sha256": "b9ba69b387540782af9d9766d3a01313e496ed93678210c136992f113a9c71a6",
+      "role": "R25 original resource rate capture, later state reads, sequential Life/preloaded ES rates and explicit World/script mutation fixtures"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r25-resource-read-order/fresh-check.json",
+      "bytes": 7403,
+      "sha256": "07111fcb497de3736f43956afa86603e01e101699e50f1e64e67091db5a2ef38",
+      "role": "R25 original resource rate capture, later state reads, sequential Life/preloaded ES rates and explicit World/script mutation fixtures"
     }
   ],
   "auxiliaryDataTables": [
@@ -80659,5 +80797,15 @@
       },
       "limits": "Fresh repetition of R3 navigation; zero new dispatch sites, offset co-occurrence untyped, no global absence or additional semantic discoveries."
     }
+  },
+  "resourceReadOrderVerification": {
+    "runtimeExecuted": false,
+    "functions": 30,
+    "ranges": 46,
+    "decodedInstructions": 2171,
+    "cases": 509,
+    "steps": 103463,
+    "visitedInstructions": 891,
+    "limits": "Same-agent interpretation; World and script mutations, providers/reservations/policy/absent protection/listener dispatch are fixtures. Original setter, block listener, threshold walker and loss notification interpreted. No source publication or queued-message execution claim."
   }
 }

@@ -118,6 +118,12 @@ The pool reducers separately implement nonlethal limits and overflow.
 This permits small changes to accumulate across updates; it is not a minute-reset allowance.
 It also does not imply arbitrary sub-frame event splitting or integration of a continuously varying rate.
 
+The [resource read-order audit](client-resource-read-order.md) identifies separate capture points inside a step.
+Recovery saves the total rate before a World boundary and reads pool state later; Life reads later loss channels
+after earlier loss processing, while ES saves three loss rates before its first loss operation.
+Actual threshold/loss callback boundaries demonstrate conditional numerical consequences with disclosed script fixtures.
+This does not establish real queued-message execution at those boundaries or a single snapshot for all step inputs.
+
 ## Absolute assignment and fractional state
 
 Incoming `0x1b1` is routed to pool setter `0x141e69fb0` by `0x142187480`.

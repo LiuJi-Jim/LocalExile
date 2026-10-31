@@ -214,6 +214,7 @@ These are client addresses; their presence is not proof of official-server imple
 | `0x14128dadb` / `0x1413dfc9f` | Code | [Fireball final-factory correction](../re/client-hit-production.md#concrete-action-binding): client factory/copy overwrite the base primary table |
 | `0x141e6a190` | Fn | Life tick; conditional Life/ES/Mana continuous integration |
 | `0x141e6ae70` / `0x141e6b480` / `0x141e6cba0` | Fn | Life / ES / Mana continuous pool steps |
+| `0x141e6acc0` | Fn | [Life-loss threshold walker](../re/client-resource-read-order.md): proposed-state comparison, script/listener boundary and threshold cursor advance before common loss |
 | `0x141e6a6b0` | Fn | Integer/fractional loss reducer; float overflow result in XMM0 |
 | `0x141e6a8a0` / `0x141e6a780` / `0x141e6ae00` | Fn | Life floors / ES overflow routing / Mana overflow routing |
 | `0x141e69fb0` / `0x141e69fd1` | Fn / Insn | Incoming decoded resource setter / current assignment |

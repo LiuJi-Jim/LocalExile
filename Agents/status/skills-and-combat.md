@@ -699,6 +699,9 @@ and can require explicit recipes.
   Local delay processing has a no-op active-state publisher on the installed client Life table;
   resource integration independently consumes the total recovery rate.
   [The recharge audit](../docs/re/client-recharge-rate-authority.md) retains reset-suppression ordering and event limits.
+  [Resource read order](../docs/re/client-resource-read-order.md) distinguishes saved recovery rates from later pool state.
+  Life reads loss channels sequentially; ES saves three rates before loss processing.
+  Actual threshold/loss callback boundaries retain conditional numerical consequences; script mutations are fixtures.
   Actual network Actor/skill providers, current fallback and same-key notification masking are bound statically.
   Opcode `0x1b4` updates selected skill/stat-set key-value overrides; its pairs are not projectile path points.
   Native formula transactions are separate; successful startup disables native action-context mutation.

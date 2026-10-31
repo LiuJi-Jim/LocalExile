@@ -87,6 +87,7 @@ Detailed supplements keep the evidence reviewable without treating this summary 
 - [Integer pool mutations, skill-cost routing/payment and extra-arrow Life sacrifice](client-integer-resource-mutations.md).
 - [Actual maximum-stat subscriber, client-mode current-value gate and Life-only fractional-carry reset](client-pool-maximum-refresh.md).
 - [Actual recharge-active notifications, delay-reset ordering and separate total recovery-rate authority](client-recharge-rate-authority.md).
+- [Captured recovery rates, later pool state and distinct Life/ES loss-rate read order](client-resource-read-order.md).
 - [Complete final spell min/max/total ranges, ordered equations and conversion branch asymmetries](client-spell-hit-formulas.md).
 - [Taken-as coefficients and ordered armour applicability overrides](client-defence-transfer-formulas.md).
 - [Complete physical/elemental reduction inputs, Strength of Blood and physical ceiling](client-reduction-inputs.md).
@@ -166,6 +167,7 @@ flowchart TD
   RECHARGESTATE --> RECHARGECTRL[Pool recovery controller: local delay / active proposal]
   RECHARGECTRL --> ACTIVEPUBLISH[Installed client active-state publisher: exact no-op]
   RECHARGECTRL -->|reads separate total recovery rate| TICK
+  TICK --> READORDER[Captured rate versus later state; Life sequential / ES preloaded loss rates]
   TICK --> POOL[Integer current + fractional carry + resource overflow]
   TICK -->|selected Life degen channels| LIFELOSS[Reason-4 Life-loss operation]
   BUFFVALUES[Eligible actual Buff first granted value] --> ABSORBCAP[AncestralTrialTotemAbsorbDegen backend capacity]
