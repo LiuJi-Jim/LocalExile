@@ -119,6 +119,10 @@ The suspend/restore lifecycle is explicit LocalExile policy; see protocol/11-ski
   Typed routing, cap/overflow boundaries, mode-dependent ticks and absolute assignment have static evidence.
   Outgoing RF parameters and 14408/8198/5981 formulas are bound separately from incoming base rates.
   Resolve source instances into base rates and actual publication eligibility.
+  Reuse [bleeding policy inputs](../docs/re/client-bleeding-policy-inputs.md): conditional Crimson Dance,
+  replacement stack limit, minion-suppressed movement override and exerted aggravation chance are numerical inputs.
+  Find an actual instance-selection/application consumer; the finite registration graph has no declared downstream
+  consumer for the three policy outputs and does not cover indirect/inlined reads.
   Reuse [native DoT queue composition](../docs/re/client-dot-native-composition.md): 105 outputs now compose through
   original rank/dirty/dispatch instructions. Supplied eligibility/cache and local caps do not close instance publication
   or prove an official global cap; continue from actual source/target records rather than restaging these formulas.

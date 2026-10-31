@@ -4628,6 +4628,7 @@
       "sourceBatches": [
         "r19-stat-order",
         "r5-ailment-outgoing-expansion",
+        "r51-bleeding-policy",
         "r7-bleeding-family"
       ],
       "selectedDecompilationCompleted": null
@@ -31071,7 +31072,8 @@
         }
       ],
       "sourceBatches": [
-        "r19-stat-order"
+        "r19-stat-order",
+        "r51-bleeding-policy"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -32048,7 +32050,8 @@
         }
       ],
       "sourceBatches": [
-        "r19-stat-order"
+        "r19-stat-order",
+        "r51-bleeding-policy"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -40055,7 +40058,8 @@
         }
       ],
       "sourceBatches": [
-        "r19-stat-order"
+        "r19-stat-order",
+        "r51-bleeding-policy"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -41449,7 +41453,8 @@
         }
       ],
       "sourceBatches": [
-        "r19-stat-order"
+        "r19-stat-order",
+        "r51-bleeding-policy"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -42118,6 +42123,7 @@
         "r5-ailment-outgoing-helpers",
         "r5-critical-math-final",
         "r50-wire-source-composition",
+        "r51-bleeding-policy",
         "r6-critical-inputs",
         "r9-ground-ownership",
         "r9-poison-family",
@@ -58145,7 +58151,8 @@
         "r19-stat-order",
         "r42-dot-native-composition",
         "r43-dot-original-old-value",
-        "r45-native-pool-composition"
+        "r45-native-pool-composition",
+        "r51-bleeding-policy"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -58215,6 +58222,7 @@
         "r1-skill-native-link-v2",
         "r43-dot-original-old-value",
         "r45-native-pool-composition",
+        "r51-bleeding-policy",
         "stat-and-formula-v2"
       ],
       "selectedDecompilationCompleted": true
@@ -58308,6 +58316,7 @@
         "r42-dot-native-composition",
         "r43-dot-original-old-value",
         "r45-native-pool-composition",
+        "r51-bleeding-policy",
         "stat-evaluation-dispatch"
       ],
       "selectedDecompilationCompleted": true
@@ -58328,6 +58337,7 @@
         "r42-dot-native-composition",
         "r43-dot-original-old-value",
         "r45-native-pool-composition",
+        "r51-bleeding-policy",
         "stat-evaluation-dispatch"
       ],
       "selectedDecompilationCompleted": true
@@ -58412,6 +58422,7 @@
         "r42-dot-native-composition",
         "r43-dot-original-old-value",
         "r45-native-pool-composition",
+        "r51-bleeding-policy",
         "stat-evaluation-dispatch",
         "stat-update-evaluation"
       ],
@@ -58510,6 +58521,7 @@
         "r42-dot-native-composition",
         "r43-dot-original-old-value",
         "r45-native-pool-composition",
+        "r51-bleeding-policy",
         "r7-ailment-chance",
         "r9-poison-family",
         "stat-and-formula-v2"
@@ -61218,6 +61230,7 @@
       ],
       "sourceBatches": [
         "r5-ailment-outgoing-expansion",
+        "r51-bleeding-policy",
         "r7-bleeding-family"
       ],
       "selectedDecompilationCompleted": true
@@ -72128,7 +72141,8 @@
         "r19-stat-order",
         "r42-dot-native-composition",
         "r43-dot-original-old-value",
-        "r45-native-pool-composition"
+        "r45-native-pool-composition",
+        "r51-bleeding-policy"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -72149,7 +72163,8 @@
         "r4-native-mask-initializer",
         "r42-dot-native-composition",
         "r43-dot-original-old-value",
-        "r45-native-pool-composition"
+        "r45-native-pool-composition",
+        "r51-bleeding-policy"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -74465,6 +74480,70 @@
         "r50-wire-source-composition"
       ],
       "selectedDecompilationCompleted": false
+    },
+    "0x14286cea0": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x14286cea0",
+          "endExclusive": "0x14286d359",
+          "bytes": 1209,
+          "fileOffset": 42386080,
+          "sha256": "4aa0330ccae4a242ba63242eb42aa97814ef5800d2814799900a35cbba020b41"
+        }
+      ],
+      "sourceBatches": [
+        "r51-bleeding-policy"
+      ],
+      "selectedDecompilationCompleted": false
+    },
+    "0x14287ac10": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x14287ac10",
+          "endExclusive": "0x14287ae1d",
+          "bytes": 525,
+          "fileOffset": 42442768,
+          "sha256": "32d0d0ba8ef5ed178adcce16e88ee0ecc1baa40770a06a799a4a6b58b8213728"
+        }
+      ],
+      "sourceBatches": [
+        "r51-bleeding-policy"
+      ],
+      "selectedDecompilationCompleted": false
+    },
+    "0x1428d2ea0": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1428d2ea0",
+          "endExclusive": "0x1428d2fab",
+          "bytes": 267,
+          "fileOffset": 42803872,
+          "sha256": "d100e16498a63fa2bfd9fe34769b2a6f6fc71d249b6cbc5d7d53e24a04e2c36e"
+        }
+      ],
+      "sourceBatches": [
+        "r51-bleeding-policy"
+      ],
+      "selectedDecompilationCompleted": false
+    },
+    "0x1428e4280": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1428e4280",
+          "endExclusive": "0x1428e4497",
+          "bytes": 535,
+          "fileOffset": 42874496,
+          "sha256": "12a7a3298e515d5b8c8516a01373a7aa295295a733859bc432b32448f8145ac0"
+        }
+      ],
+      "sourceBatches": [
+        "r51-bleeding-policy"
+      ],
+      "selectedDecompilationCompleted": false
     }
   },
   "batches": [
@@ -75832,6 +75911,11 @@
       "name": "r50-wire-source-composition",
       "auditSha256": "f6f79219abc81856712247721868618c7695f1c615c391d15ad80e4db3f3e1d7",
       "functionCount": 55
+    },
+    {
+      "name": "r51-bleeding-policy",
+      "auditSha256": "bd3f8c96697bdcfecfaa99a81087d33277159759d36516074e9490106d45febb",
+      "functionCount": 19
     }
   ],
   "pointerSlots": [
@@ -78246,7 +78330,7 @@
     "checkedReferenceInstructions": 13431,
     "decompilationFailures": [],
     "scope": "Original ranges/offsets, unwind ownership or explicit boundaries, stat identity, reference instructions and pointer-slot contents revalidated offline.",
-    "additionalFreshValidation": "R50 rechecked all original ranges, ownership, offsets, pointer slots and 997 prior sealed supports. 384 body-to-retained-Buff compositions distinguish source overwrite, optional-field destinations, partial/full applicability transfer and callback context; actual Life loss remains rate-independent and the source callback prefix is separately invoked. Numerical Hit-to-pool, DoT publication/shared cap and generic clock refresh stay open."
+    "additionalFreshValidation": "R51 rechecked all original ranges, ownership, offsets, pointer slots and 1004 prior sealed supports. 224 cases and 14 dynamic changes recover four bleeding policy callbacks and selected final-output propagation through original native dependency dispatch and record getters. Actual instance selection, aggravation trial, Hit-to-pool, target-rate publication/shared cap and generic clock refresh remain open."
   },
   "supportingRecords": [
     {
@@ -84227,6 +84311,48 @@
       "bytes": 569125,
       "sha256": "f6f79219abc81856712247721868618c7695f1c615c391d15ad80e4db3f3e1d7",
       "role": "R50 actual AddBuff body reader through retained partial/replacement source transfer, subsequent independent Life integration, complete attribution selector and separately invoked callback prefix. Explicit header/stream/endian/loaded-resource/vector/provider/backend/event/support fixtures; not numerical source publication, final attribution or a natural loss-to-callback transition."
+    },
+    {
+      "path": "Agents/docs/re/client-bleeding-policy-inputs.md",
+      "bytes": 8050,
+      "sha256": "2869d944d2ba16eed08c7a937ed06460bc21fbb59009b4d81f8c52624a7ca812",
+      "role": "R51 effective Crimson Dance, replacement bleeding stack limit, minion-suppressed movement override and exerted aggravation chance. Original numerical callbacks/dependency dispatch/native records with supplied cache/eligibility and observational metadata updater; not actual instance selection, aggravation trial or target publication/shared cap."
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r51-bleeding-policy.py",
+      "bytes": 6401,
+      "sha256": "08348db9bbc520705873be9f9efa82c3f8f70dba70bec56970061cc5604db30d",
+      "role": "R51 effective Crimson Dance, replacement bleeding stack limit, minion-suppressed movement override and exerted aggravation chance. Original numerical callbacks/dependency dispatch/native records with supplied cache/eligibility and observational metadata updater; not actual instance selection, aggravation trial or target publication/shared cap."
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r51-bleeding-fresh.py",
+      "bytes": 6676,
+      "sha256": "7f1fbf2e9b2bd445fd3aa6e9b30cb5ca773153b8b7974f064cbf5290f37bcd07",
+      "role": "R51 effective Crimson Dance, replacement bleeding stack limit, minion-suppressed movement override and exerted aggravation chance. Original numerical callbacks/dependency dispatch/native records with supplied cache/eligibility and observational metadata updater; not actual instance selection, aggravation trial or target publication/shared cap."
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r51-seal.py",
+      "bytes": 5218,
+      "sha256": "eefa3b30d218262bc8aa9466c30d42c2b9f28687105f025ea581aefcabccebcf",
+      "role": "R51 effective Crimson Dance, replacement bleeding stack limit, minion-suppressed movement override and exerted aggravation chance. Original numerical callbacks/dependency dispatch/native records with supplied cache/eligibility and observational metadata updater; not actual instance selection, aggravation trial or target publication/shared cap."
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r51-bleeding-policy/verification.json",
+      "bytes": 5745800,
+      "sha256": "444abb86c5bad2e594392f2d0f2dd232e3dfbabc6472b1e3399be8c8320c9a51",
+      "role": "R51 effective Crimson Dance, replacement bleeding stack limit, minion-suppressed movement override and exerted aggravation chance. Original numerical callbacks/dependency dispatch/native records with supplied cache/eligibility and observational metadata updater; not actual instance selection, aggravation trial or target publication/shared cap."
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r51-bleeding-policy/fresh-check.json",
+      "bytes": 995,
+      "sha256": "776b98dcd99f0aec0230e77239b35918668c054f42797dd12026d44e36e8eb9b",
+      "role": "R51 effective Crimson Dance, replacement bleeding stack limit, minion-suppressed movement override and exerted aggravation chance. Original numerical callbacks/dependency dispatch/native records with supplied cache/eligibility and observational metadata updater; not actual instance selection, aggravation trial or target publication/shared cap."
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r51-bleeding-policy/audit.json",
+      "bytes": 424545,
+      "sha256": "bd3f8c96697bdcfecfaa99a81087d33277159759d36516074e9490106d45febb",
+      "role": "R51 effective Crimson Dance, replacement bleeding stack limit, minion-suppressed movement override and exerted aggravation chance. Original numerical callbacks/dependency dispatch/native records with supplied cache/eligibility and observational metadata updater; not actual instance selection, aggravation trial or target publication/shared cap."
     }
   ],
   "auxiliaryDataTables": [
@@ -84836,5 +84962,23 @@
     "invokedHookTargets": 14,
     "auditSha256": "f6f79219abc81856712247721868618c7695f1c615c391d15ad80e4db3f3e1d7",
     "limits": "Same-agent original-byte and independent body/result checks; declared loaded-resource/provider/backend/event and stream/support fixtures. A manually invoked Life callback prefix is not final kill attribution, actual source publication or a loss-triggered full callback."
+  },
+  "bleedingPolicyInputsVerification": {
+    "result": "PASS",
+    "runtimeExecuted": false,
+    "cases": 224,
+    "registrations": 5,
+    "steps": 1023880,
+    "visitedOriginalSites": 953,
+    "functions": 19,
+    "ranges": 21,
+    "decodedRecords": 3116,
+    "anchors": 29,
+    "statNames": 16,
+    "dynamicChanges": 14,
+    "pointerSlots": 0,
+    "invokedHookTargets": 1,
+    "auditSha256": "bd3f8c96697bdcfecfaa99a81087d33277159759d36516074e9490106d45febb",
+    "limits": "External cache values, native eligibility and source/target binding are supplied. Original selected registrars, rank/dirty/dispatch, callback arithmetic and native record getter execute. ApplyDamageFunctions updater is observational, not numerical. Native queue drain stops at the inherited bounded exit. No actual bleed instances, stack arbitration, moving-target application, aggravation random trial, incoming-rate publisher or shared cap is claimed. Declared-consumer inventory covers only the 2539 recovered registrars, not computed/inline or indirect consumers."
   }
 }

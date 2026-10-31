@@ -727,6 +727,10 @@ and can require explicit recipes.
   Both paths overwrite source including zero; optional fields differ from extra callback context and the raw
   eligibility transfer differs. 384 supplied-state compositions retain independent aggregate-rate Life loss.
   No loss-triggered full callback, final attribution or numerical source publication is established.
+  [Bleeding policy inputs](../docs/re/client-bleeding-policy-inputs.md) recover effective Crimson Dance,
+  direct eight-stack replacement, player-minion suppression of moving override and unclamped exerted aggravation chance.
+  224 supplied-state cases compose original dependency dispatch and native records, including 14 dynamic changes;
+  actual bleed selection, movement application, aggravation trial and target-rate publication remain open.
   [Buff lifecycle/rate composition](../docs/re/client-buff-rate-independence.md) executes parsed removal,
   empty lifecycle/destruction and eligible timers through subsequent Life loss with real network overrides.
   Expiration/removal leaves the supplied aggregate independent; a separate Stats update can stop loss.

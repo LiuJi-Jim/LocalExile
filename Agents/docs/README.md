@@ -91,6 +91,7 @@ How to regenerate them: [re/tooling.md](re/tooling.md) §7.
 | [re/client-hit-resource-programs.md](re/client-hit-resource-programs.md) | one packaged Ferrofluid Hit-listener program, typed capture arguments and named-task detach cleanup |
 | [re/client-stat-preload-epk-collector.md](re/client-stat-preload-epk-collector.md) | PreloadFromStats row provenance and installed callable collecting .epk resource handles |
 | [re/client-ailment-outgoing-formulas.md](re/client-ailment-outgoing-formulas.md) | outgoing bleed/ignite/poison components, per-minute rates, faster/slower and critical DoT multipliers |
+| [re/client-bleeding-policy-inputs.md](re/client-bleeding-policy-inputs.md) | effective Crimson Dance, stack-limit replacement, moving override and exerted aggravation chance through original native dependency propagation; actual instance selection remains open |
 | [re/client-bleeding-output-family.md](re/client-bleeding-output-family.md) | complete named MH/OH min/max bleeding rates, critical branches and hand/final-factor asymmetries |
 | [re/client-ailment-eligibility.md](re/client-ailment-eligibility.md) | typed ignite/poison permissions, hand-local poison gates and target acquisition prohibitions |
 | [re/client-ailment-chance-inputs.md](re/client-ailment-chance-inputs.md) | ordinary and critical-only bleeding/ignite/poison chance inputs, qualifiers and integer arithmetic |
