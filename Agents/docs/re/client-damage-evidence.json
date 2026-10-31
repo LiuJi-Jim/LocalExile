@@ -9550,6 +9550,7 @@
       "sourceBatches": [
         "network-and-sources",
         "r19-stat-order",
+        "r42-dot-native-composition",
         "virtual-loss-and-base"
       ],
       "selectedDecompilationCompleted": true
@@ -9599,7 +9600,8 @@
         }
       ],
       "sourceBatches": [
-        "r19-stat-order"
+        "r19-stat-order",
+        "r42-dot-native-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -9631,7 +9633,8 @@
         }
       ],
       "sourceBatches": [
-        "r19-stat-order"
+        "r19-stat-order",
+        "r42-dot-native-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -9762,7 +9765,8 @@
       ],
       "sourceBatches": [
         "r19-stat-order",
-        "r2-typed-routes"
+        "r2-typed-routes",
+        "r42-dot-native-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -9827,7 +9831,8 @@
       ],
       "sourceBatches": [
         "r19-stat-order",
-        "r2-typed-routes"
+        "r2-typed-routes",
+        "r42-dot-native-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -9844,7 +9849,8 @@
       ],
       "sourceBatches": [
         "r19-stat-order",
-        "r2-typed-routes"
+        "r2-typed-routes",
+        "r42-dot-native-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -9877,7 +9883,8 @@
       ],
       "sourceBatches": [
         "r19-stat-order",
-        "r2-typed-routes"
+        "r2-typed-routes",
+        "r42-dot-native-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -9894,7 +9901,8 @@
       ],
       "sourceBatches": [
         "r19-stat-order",
-        "r2-typed-routes"
+        "r2-typed-routes",
+        "r42-dot-native-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -9927,7 +9935,8 @@
       ],
       "sourceBatches": [
         "r19-stat-order",
-        "r2-typed-routes"
+        "r2-typed-routes",
+        "r42-dot-native-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -9944,7 +9953,8 @@
       ],
       "sourceBatches": [
         "r19-stat-order",
-        "r2-typed-routes"
+        "r2-typed-routes",
+        "r42-dot-native-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -9993,7 +10003,8 @@
       ],
       "sourceBatches": [
         "r19-stat-order",
-        "r2-typed-routes"
+        "r2-typed-routes",
+        "r42-dot-native-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -10010,7 +10021,8 @@
       ],
       "sourceBatches": [
         "r19-stat-order",
-        "r2-typed-routes"
+        "r2-typed-routes",
+        "r42-dot-native-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -10027,7 +10039,8 @@
       ],
       "sourceBatches": [
         "r19-stat-order",
-        "r2-typed-routes"
+        "r2-typed-routes",
+        "r42-dot-native-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -10044,7 +10057,8 @@
       ],
       "sourceBatches": [
         "r19-stat-order",
-        "r2-typed-routes"
+        "r2-typed-routes",
+        "r42-dot-native-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -10061,7 +10075,8 @@
       ],
       "sourceBatches": [
         "r19-stat-order",
-        "r2-typed-routes"
+        "r2-typed-routes",
+        "r42-dot-native-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -10078,7 +10093,8 @@
       ],
       "sourceBatches": [
         "r19-stat-order",
-        "r2-typed-routes"
+        "r2-typed-routes",
+        "r42-dot-native-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -10095,7 +10111,8 @@
       ],
       "sourceBatches": [
         "r19-stat-order",
-        "r2-typed-routes"
+        "r2-typed-routes",
+        "r42-dot-native-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -10114,6 +10131,7 @@
         "network-and-sources",
         "r19-stat-order",
         "r2-typed-routes",
+        "r42-dot-native-composition",
         "virtual-loss-and-base"
       ],
       "selectedDecompilationCompleted": true
@@ -10131,7 +10149,8 @@
       ],
       "sourceBatches": [
         "r19-stat-order",
-        "r2-typed-routes"
+        "r2-typed-routes",
+        "r42-dot-native-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -10148,7 +10167,8 @@
       ],
       "sourceBatches": [
         "r19-stat-order",
-        "r2-typed-routes"
+        "r2-typed-routes",
+        "r42-dot-native-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -10165,7 +10185,8 @@
       ],
       "sourceBatches": [
         "r19-stat-order",
-        "r2-typed-routes"
+        "r2-typed-routes",
+        "r42-dot-native-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -10182,7 +10203,8 @@
       ],
       "sourceBatches": [
         "r19-stat-order",
-        "r2-typed-routes"
+        "r2-typed-routes",
+        "r42-dot-native-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -10199,7 +10221,8 @@
       ],
       "sourceBatches": [
         "r19-stat-order",
-        "r2-typed-routes"
+        "r2-typed-routes",
+        "r42-dot-native-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -10216,7 +10239,8 @@
       ],
       "sourceBatches": [
         "r19-stat-order",
-        "r2-typed-routes"
+        "r2-typed-routes",
+        "r42-dot-native-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -10233,7 +10257,8 @@
       ],
       "sourceBatches": [
         "r19-stat-order",
-        "r2-typed-routes"
+        "r2-typed-routes",
+        "r42-dot-native-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -10250,7 +10275,8 @@
       ],
       "sourceBatches": [
         "r19-stat-order",
-        "r2-typed-routes"
+        "r2-typed-routes",
+        "r42-dot-native-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -10267,7 +10293,8 @@
       ],
       "sourceBatches": [
         "r19-stat-order",
-        "r2-typed-routes"
+        "r2-typed-routes",
+        "r42-dot-native-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -10285,6 +10312,7 @@
       "sourceBatches": [
         "r19-stat-order",
         "r2-typed-routes",
+        "r42-dot-native-composition",
         "virtual-loss-and-base"
       ],
       "selectedDecompilationCompleted": true
@@ -10305,6 +10333,7 @@
         "r19-stat-order",
         "r2-registration-discovery",
         "r2-typed-routes",
+        "r42-dot-native-composition",
         "virtual-loss-and-base"
       ],
       "selectedDecompilationCompleted": true
@@ -10322,7 +10351,8 @@
       ],
       "sourceBatches": [
         "r19-stat-order",
-        "r2-typed-routes"
+        "r2-typed-routes",
+        "r42-dot-native-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -10339,7 +10369,8 @@
       ],
       "sourceBatches": [
         "r19-stat-order",
-        "r2-typed-routes"
+        "r2-typed-routes",
+        "r42-dot-native-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -10356,7 +10387,8 @@
       ],
       "sourceBatches": [
         "r19-stat-order",
-        "r2-typed-routes"
+        "r2-typed-routes",
+        "r42-dot-native-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -10373,7 +10405,8 @@
       ],
       "sourceBatches": [
         "r19-stat-order",
-        "r2-typed-routes"
+        "r2-typed-routes",
+        "r42-dot-native-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -10390,7 +10423,8 @@
       ],
       "sourceBatches": [
         "r19-stat-order",
-        "r2-typed-routes"
+        "r2-typed-routes",
+        "r42-dot-native-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -10424,7 +10458,8 @@
       ],
       "sourceBatches": [
         "r19-stat-order",
-        "r2-typed-routes"
+        "r2-typed-routes",
+        "r42-dot-native-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -10441,7 +10476,8 @@
       ],
       "sourceBatches": [
         "r19-stat-order",
-        "r2-typed-routes"
+        "r2-typed-routes",
+        "r42-dot-native-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -10458,7 +10494,8 @@
       ],
       "sourceBatches": [
         "r19-stat-order",
-        "r2-typed-routes"
+        "r2-typed-routes",
+        "r42-dot-native-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -10475,7 +10512,8 @@
       ],
       "sourceBatches": [
         "r19-stat-order",
-        "r2-typed-routes"
+        "r2-typed-routes",
+        "r42-dot-native-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -10492,7 +10530,8 @@
       ],
       "sourceBatches": [
         "r19-stat-order",
-        "r2-typed-routes"
+        "r2-typed-routes",
+        "r42-dot-native-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -10509,7 +10548,8 @@
       ],
       "sourceBatches": [
         "r19-stat-order",
-        "r2-typed-routes"
+        "r2-typed-routes",
+        "r42-dot-native-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -10526,7 +10566,8 @@
       ],
       "sourceBatches": [
         "r19-stat-order",
-        "r2-typed-routes"
+        "r2-typed-routes",
+        "r42-dot-native-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -10543,7 +10584,8 @@
       ],
       "sourceBatches": [
         "r19-stat-order",
-        "r2-typed-routes"
+        "r2-typed-routes",
+        "r42-dot-native-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -10560,7 +10602,8 @@
       ],
       "sourceBatches": [
         "r19-stat-order",
-        "r2-typed-routes"
+        "r2-typed-routes",
+        "r42-dot-native-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -10577,7 +10620,8 @@
       ],
       "sourceBatches": [
         "r19-stat-order",
-        "r2-typed-routes"
+        "r2-typed-routes",
+        "r42-dot-native-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -10594,7 +10638,8 @@
       ],
       "sourceBatches": [
         "r19-stat-order",
-        "r2-typed-routes"
+        "r2-typed-routes",
+        "r42-dot-native-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -10611,7 +10656,8 @@
       ],
       "sourceBatches": [
         "r19-stat-order",
-        "r2-typed-routes"
+        "r2-typed-routes",
+        "r42-dot-native-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -10628,7 +10674,8 @@
       ],
       "sourceBatches": [
         "r19-stat-order",
-        "r2-typed-routes"
+        "r2-typed-routes",
+        "r42-dot-native-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -10645,7 +10692,8 @@
       ],
       "sourceBatches": [
         "r19-stat-order",
-        "r2-typed-routes"
+        "r2-typed-routes",
+        "r42-dot-native-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -10662,7 +10710,8 @@
       ],
       "sourceBatches": [
         "r19-stat-order",
-        "r2-typed-routes"
+        "r2-typed-routes",
+        "r42-dot-native-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -10679,7 +10728,8 @@
       ],
       "sourceBatches": [
         "r19-stat-order",
-        "r2-typed-routes"
+        "r2-typed-routes",
+        "r42-dot-native-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -10696,7 +10746,8 @@
       ],
       "sourceBatches": [
         "r19-stat-order",
-        "r2-typed-routes"
+        "r2-typed-routes",
+        "r42-dot-native-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -10713,7 +10764,8 @@
       ],
       "sourceBatches": [
         "r19-stat-order",
-        "r2-typed-routes"
+        "r2-typed-routes",
+        "r42-dot-native-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -10730,7 +10782,8 @@
       ],
       "sourceBatches": [
         "r19-stat-order",
-        "r2-typed-routes"
+        "r2-typed-routes",
+        "r42-dot-native-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -10747,7 +10800,8 @@
       ],
       "sourceBatches": [
         "r19-stat-order",
-        "r2-typed-routes"
+        "r2-typed-routes",
+        "r42-dot-native-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -10764,7 +10818,8 @@
       ],
       "sourceBatches": [
         "r19-stat-order",
-        "r2-typed-routes"
+        "r2-typed-routes",
+        "r42-dot-native-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -10781,7 +10836,8 @@
       ],
       "sourceBatches": [
         "r19-stat-order",
-        "r2-typed-routes"
+        "r2-typed-routes",
+        "r42-dot-native-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -10798,7 +10854,8 @@
       ],
       "sourceBatches": [
         "r19-stat-order",
-        "r2-typed-routes"
+        "r2-typed-routes",
+        "r42-dot-native-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -10815,7 +10872,8 @@
       ],
       "sourceBatches": [
         "r19-stat-order",
-        "r2-typed-routes"
+        "r2-typed-routes",
+        "r42-dot-native-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -10832,7 +10890,8 @@
       ],
       "sourceBatches": [
         "r19-stat-order",
-        "r2-typed-routes"
+        "r2-typed-routes",
+        "r42-dot-native-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -10849,7 +10908,8 @@
       ],
       "sourceBatches": [
         "r19-stat-order",
-        "r2-typed-routes"
+        "r2-typed-routes",
+        "r42-dot-native-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -10866,7 +10926,8 @@
       ],
       "sourceBatches": [
         "r19-stat-order",
-        "r2-typed-routes"
+        "r2-typed-routes",
+        "r42-dot-native-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -10883,7 +10944,8 @@
       ],
       "sourceBatches": [
         "r19-stat-order",
-        "r2-typed-routes"
+        "r2-typed-routes",
+        "r42-dot-native-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -10900,7 +10962,8 @@
       ],
       "sourceBatches": [
         "r19-stat-order",
-        "r2-typed-routes"
+        "r2-typed-routes",
+        "r42-dot-native-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -10917,7 +10980,8 @@
       ],
       "sourceBatches": [
         "r19-stat-order",
-        "r2-typed-routes"
+        "r2-typed-routes",
+        "r42-dot-native-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -10934,7 +10998,8 @@
       ],
       "sourceBatches": [
         "r19-stat-order",
-        "r2-typed-routes"
+        "r2-typed-routes",
+        "r42-dot-native-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -10951,7 +11016,8 @@
       ],
       "sourceBatches": [
         "r19-stat-order",
-        "r2-typed-routes"
+        "r2-typed-routes",
+        "r42-dot-native-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -10968,7 +11034,8 @@
       ],
       "sourceBatches": [
         "r19-stat-order",
-        "r2-typed-routes"
+        "r2-typed-routes",
+        "r42-dot-native-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -10985,7 +11052,8 @@
       ],
       "sourceBatches": [
         "r19-stat-order",
-        "r2-typed-routes"
+        "r2-typed-routes",
+        "r42-dot-native-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -11002,7 +11070,8 @@
       ],
       "sourceBatches": [
         "r19-stat-order",
-        "r2-typed-routes"
+        "r2-typed-routes",
+        "r42-dot-native-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -11019,7 +11088,8 @@
       ],
       "sourceBatches": [
         "r19-stat-order",
-        "r2-typed-routes"
+        "r2-typed-routes",
+        "r42-dot-native-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -11036,7 +11106,8 @@
       ],
       "sourceBatches": [
         "r19-stat-order",
-        "r2-typed-routes"
+        "r2-typed-routes",
+        "r42-dot-native-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -11053,7 +11124,8 @@
       ],
       "sourceBatches": [
         "r19-stat-order",
-        "r2-typed-routes"
+        "r2-typed-routes",
+        "r42-dot-native-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -11070,7 +11142,8 @@
       ],
       "sourceBatches": [
         "r19-stat-order",
-        "r2-typed-routes"
+        "r2-typed-routes",
+        "r42-dot-native-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -11087,7 +11160,8 @@
       ],
       "sourceBatches": [
         "r19-stat-order",
-        "r2-typed-routes"
+        "r2-typed-routes",
+        "r42-dot-native-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -11104,7 +11178,8 @@
       ],
       "sourceBatches": [
         "r19-stat-order",
-        "r2-typed-routes"
+        "r2-typed-routes",
+        "r42-dot-native-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -11121,7 +11196,8 @@
       ],
       "sourceBatches": [
         "r19-stat-order",
-        "r2-typed-routes"
+        "r2-typed-routes",
+        "r42-dot-native-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -11240,7 +11316,8 @@
       ],
       "sourceBatches": [
         "r19-stat-order",
-        "r2-typed-routes"
+        "r2-typed-routes",
+        "r42-dot-native-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -11257,7 +11334,8 @@
       ],
       "sourceBatches": [
         "r19-stat-order",
-        "r2-typed-routes"
+        "r2-typed-routes",
+        "r42-dot-native-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -11274,7 +11352,8 @@
       ],
       "sourceBatches": [
         "r19-stat-order",
-        "r2-typed-routes"
+        "r2-typed-routes",
+        "r42-dot-native-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -11291,7 +11370,8 @@
       ],
       "sourceBatches": [
         "r19-stat-order",
-        "r2-typed-routes"
+        "r2-typed-routes",
+        "r42-dot-native-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -11308,7 +11388,8 @@
       ],
       "sourceBatches": [
         "r19-stat-order",
-        "r2-typed-routes"
+        "r2-typed-routes",
+        "r42-dot-native-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -11325,7 +11406,8 @@
       ],
       "sourceBatches": [
         "r19-stat-order",
-        "r2-typed-routes"
+        "r2-typed-routes",
+        "r42-dot-native-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -11342,7 +11424,8 @@
       ],
       "sourceBatches": [
         "r19-stat-order",
-        "r2-typed-routes"
+        "r2-typed-routes",
+        "r42-dot-native-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -11359,7 +11442,8 @@
       ],
       "sourceBatches": [
         "r19-stat-order",
-        "r2-typed-routes"
+        "r2-typed-routes",
+        "r42-dot-native-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -11376,7 +11460,8 @@
       ],
       "sourceBatches": [
         "r19-stat-order",
-        "r2-typed-routes"
+        "r2-typed-routes",
+        "r42-dot-native-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -11393,7 +11478,8 @@
       ],
       "sourceBatches": [
         "r19-stat-order",
-        "r2-typed-routes"
+        "r2-typed-routes",
+        "r42-dot-native-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -11410,7 +11496,8 @@
       ],
       "sourceBatches": [
         "r19-stat-order",
-        "r2-typed-routes"
+        "r2-typed-routes",
+        "r42-dot-native-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -11427,7 +11514,8 @@
       ],
       "sourceBatches": [
         "r19-stat-order",
-        "r2-typed-routes"
+        "r2-typed-routes",
+        "r42-dot-native-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -11444,7 +11532,8 @@
       ],
       "sourceBatches": [
         "r19-stat-order",
-        "r2-typed-routes"
+        "r2-typed-routes",
+        "r42-dot-native-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -11461,7 +11550,8 @@
       ],
       "sourceBatches": [
         "r19-stat-order",
-        "r2-typed-routes"
+        "r2-typed-routes",
+        "r42-dot-native-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -11478,7 +11568,8 @@
       ],
       "sourceBatches": [
         "r19-stat-order",
-        "r2-routing-support"
+        "r2-routing-support",
+        "r42-dot-native-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -11495,7 +11586,8 @@
       ],
       "sourceBatches": [
         "r19-stat-order",
-        "r2-typed-routes"
+        "r2-typed-routes",
+        "r42-dot-native-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -11512,7 +11604,8 @@
       ],
       "sourceBatches": [
         "r19-stat-order",
-        "r2-typed-routes"
+        "r2-typed-routes",
+        "r42-dot-native-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -14497,7 +14590,8 @@
       ],
       "sourceBatches": [
         "r19-stat-order",
-        "r2-typed-routes"
+        "r2-typed-routes",
+        "r42-dot-native-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -14611,7 +14705,8 @@
       ],
       "sourceBatches": [
         "r19-stat-order",
-        "r2-route-guards"
+        "r2-route-guards",
+        "r42-dot-native-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -14725,7 +14820,8 @@
       ],
       "sourceBatches": [
         "r19-stat-order",
-        "r2-route-guards"
+        "r2-route-guards",
+        "r42-dot-native-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -14839,7 +14935,8 @@
       ],
       "sourceBatches": [
         "r19-stat-order",
-        "r2-route-guards"
+        "r2-route-guards",
+        "r42-dot-native-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -23975,7 +24072,8 @@
       ],
       "sourceBatches": [
         "r19-stat-order",
-        "r2-typed-routes"
+        "r2-typed-routes",
+        "r42-dot-native-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -23992,7 +24090,8 @@
       ],
       "sourceBatches": [
         "r19-stat-order",
-        "r2-typed-routes"
+        "r2-typed-routes",
+        "r42-dot-native-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -24009,7 +24108,8 @@
       ],
       "sourceBatches": [
         "r19-stat-order",
-        "r2-typed-routes"
+        "r2-typed-routes",
+        "r42-dot-native-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -24026,7 +24126,8 @@
       ],
       "sourceBatches": [
         "r19-stat-order",
-        "r2-typed-routes"
+        "r2-typed-routes",
+        "r42-dot-native-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -24043,7 +24144,8 @@
       ],
       "sourceBatches": [
         "r19-stat-order",
-        "r2-typed-routes"
+        "r2-typed-routes",
+        "r42-dot-native-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -26579,7 +26681,8 @@
       ],
       "sourceBatches": [
         "r19-stat-order",
-        "r2-typed-routes"
+        "r2-typed-routes",
+        "r42-dot-native-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -26596,7 +26699,8 @@
       ],
       "sourceBatches": [
         "r19-stat-order",
-        "r2-typed-routes"
+        "r2-typed-routes",
+        "r42-dot-native-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -26613,7 +26717,8 @@
       ],
       "sourceBatches": [
         "r19-stat-order",
-        "r2-typed-routes"
+        "r2-typed-routes",
+        "r42-dot-native-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -41787,6 +41892,7 @@
         "r34-buff-clock-authority",
         "r36-duration-formulas",
         "r37-skill-duration",
+        "r42-dot-native-composition",
         "r5-ailment-outgoing-helpers",
         "r5-critical-math-final",
         "r6-critical-inputs",
@@ -57707,7 +57813,8 @@
       "sourceBatches": [
         "r1-producer-refs",
         "r1-skill-producers",
-        "r19-stat-order"
+        "r19-stat-order",
+        "r42-dot-native-composition"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -57865,6 +57972,7 @@
         "r11-defender-cache-final",
         "r12-applydamage-index-final",
         "r19-stat-order",
+        "r42-dot-native-composition",
         "stat-evaluation-dispatch"
       ],
       "selectedDecompilationCompleted": true
@@ -57882,6 +57990,7 @@
       ],
       "sourceBatches": [
         "r19-stat-order",
+        "r42-dot-native-composition",
         "stat-evaluation-dispatch"
       ],
       "selectedDecompilationCompleted": true
@@ -57963,6 +58072,7 @@
       "sourceBatches": [
         "r12-applydamage-index-final",
         "r19-stat-order",
+        "r42-dot-native-composition",
         "stat-evaluation-dispatch",
         "stat-update-evaluation"
       ],
@@ -58033,6 +58143,7 @@
         "r11-defender-cache-final",
         "r3-offence-scalar-helpers",
         "r3-offence-typed",
+        "r42-dot-native-composition",
         "r5-ailment-outgoing-helpers",
         "r7-ailment-chance",
         "r7-bleeding-family",
@@ -58055,6 +58166,7 @@
       ],
       "sourceBatches": [
         "r10-fire-self-rate",
+        "r42-dot-native-composition",
         "r7-ailment-chance",
         "r9-poison-family",
         "stat-and-formula-v2"
@@ -58074,6 +58186,7 @@
       ],
       "sourceBatches": [
         "r19-stat-order",
+        "r42-dot-native-composition",
         "stat-and-formula-v2"
       ],
       "selectedDecompilationCompleted": true
@@ -58093,6 +58206,7 @@
         "r2-rf-outgoing-inputs-v2",
         "r3-offence-scalar-helpers",
         "r3-offence-typed",
+        "r42-dot-native-composition",
         "r5-ailment-outgoing-helpers",
         "r6-critical-inputs",
         "r7-bleeding-family",
@@ -58114,6 +58228,7 @@
         }
       ],
       "sourceBatches": [
+        "r42-dot-native-composition",
         "r5-ailment-outgoing-saturating-v2",
         "r7-bleeding-family",
         "r8-dot-multiplier-family",
@@ -65491,6 +65606,7 @@
       ],
       "sourceBatches": [
         "r2-base-rates",
+        "r42-dot-native-composition",
         "stat-and-formula-v2"
       ],
       "selectedDecompilationCompleted": true
@@ -65552,7 +65668,8 @@
         }
       ],
       "sourceBatches": [
-        "r2-base-rates"
+        "r2-base-rates",
+        "r42-dot-native-composition"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -65568,7 +65685,8 @@
         }
       ],
       "sourceBatches": [
-        "r2-base-rates"
+        "r2-base-rates",
+        "r42-dot-native-composition"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -65648,7 +65766,8 @@
         }
       ],
       "sourceBatches": [
-        "r2-typed-routes"
+        "r2-typed-routes",
+        "r42-dot-native-composition"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -65664,7 +65783,8 @@
         }
       ],
       "sourceBatches": [
-        "r2-typed-routes"
+        "r2-typed-routes",
+        "r42-dot-native-composition"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -65680,7 +65800,8 @@
         }
       ],
       "sourceBatches": [
-        "r2-typed-routes"
+        "r2-typed-routes",
+        "r42-dot-native-composition"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -65696,7 +65817,8 @@
         }
       ],
       "sourceBatches": [
-        "r2-typed-routes"
+        "r2-typed-routes",
+        "r42-dot-native-composition"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -65712,7 +65834,8 @@
         }
       ],
       "sourceBatches": [
-        "r2-typed-routes"
+        "r2-typed-routes",
+        "r42-dot-native-composition"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -65760,7 +65883,8 @@
         }
       ],
       "sourceBatches": [
-        "r2-typed-routes"
+        "r2-typed-routes",
+        "r42-dot-native-composition"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -65776,7 +65900,8 @@
         }
       ],
       "sourceBatches": [
-        "r2-typed-routes"
+        "r2-typed-routes",
+        "r42-dot-native-composition"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -65792,7 +65917,8 @@
         }
       ],
       "sourceBatches": [
-        "r2-typed-routes"
+        "r2-typed-routes",
+        "r42-dot-native-composition"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -65808,7 +65934,8 @@
         }
       ],
       "sourceBatches": [
-        "r2-typed-routes"
+        "r2-typed-routes",
+        "r42-dot-native-composition"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -65824,7 +65951,8 @@
         }
       ],
       "sourceBatches": [
-        "r2-typed-routes"
+        "r2-typed-routes",
+        "r42-dot-native-composition"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -65841,7 +65969,8 @@
       ],
       "sourceBatches": [
         "network-and-sources",
-        "r2-typed-routes"
+        "r2-typed-routes",
+        "r42-dot-native-composition"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -65857,7 +65986,8 @@
         }
       ],
       "sourceBatches": [
-        "r2-typed-routes"
+        "r2-typed-routes",
+        "r42-dot-native-composition"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -65874,6 +66004,7 @@
       ],
       "sourceBatches": [
         "r2-typed-routes",
+        "r42-dot-native-composition",
         "stat-and-formula-v2"
       ],
       "selectedDecompilationCompleted": true
@@ -65890,7 +66021,8 @@
         }
       ],
       "sourceBatches": [
-        "r2-typed-routes"
+        "r2-typed-routes",
+        "r42-dot-native-composition"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -65906,7 +66038,8 @@
         }
       ],
       "sourceBatches": [
-        "r2-typed-routes"
+        "r2-typed-routes",
+        "r42-dot-native-composition"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -65922,7 +66055,8 @@
         }
       ],
       "sourceBatches": [
-        "r2-typed-routes"
+        "r2-typed-routes",
+        "r42-dot-native-composition"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -65938,7 +66072,8 @@
         }
       ],
       "sourceBatches": [
-        "r2-typed-routes"
+        "r2-typed-routes",
+        "r42-dot-native-composition"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -65954,7 +66089,8 @@
         }
       ],
       "sourceBatches": [
-        "r2-typed-routes"
+        "r2-typed-routes",
+        "r42-dot-native-composition"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -65970,7 +66106,8 @@
         }
       ],
       "sourceBatches": [
-        "r2-typed-routes"
+        "r2-typed-routes",
+        "r42-dot-native-composition"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -65986,7 +66123,8 @@
         }
       ],
       "sourceBatches": [
-        "r2-typed-routes"
+        "r2-typed-routes",
+        "r42-dot-native-composition"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -66002,7 +66140,8 @@
         }
       ],
       "sourceBatches": [
-        "r2-typed-routes"
+        "r2-typed-routes",
+        "r42-dot-native-composition"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -66018,7 +66157,8 @@
         }
       ],
       "sourceBatches": [
-        "r2-typed-routes"
+        "r2-typed-routes",
+        "r42-dot-native-composition"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -66077,7 +66217,8 @@
       ],
       "sourceBatches": [
         "network-and-sources",
-        "r2-typed-routes"
+        "r2-typed-routes",
+        "r42-dot-native-composition"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -66143,6 +66284,7 @@
       ],
       "sourceBatches": [
         "r2-typed-routes",
+        "r42-dot-native-composition",
         "stat-and-formula-v2"
       ],
       "selectedDecompilationCompleted": true
@@ -66187,7 +66329,8 @@
         }
       ],
       "sourceBatches": [
-        "r2-typed-routes"
+        "r2-typed-routes",
+        "r42-dot-native-composition"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -66252,7 +66395,8 @@
         }
       ],
       "sourceBatches": [
-        "r2-typed-routes"
+        "r2-typed-routes",
+        "r42-dot-native-composition"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -66317,7 +66461,8 @@
         }
       ],
       "sourceBatches": [
-        "r2-typed-routes"
+        "r2-typed-routes",
+        "r42-dot-native-composition"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -66375,7 +66520,8 @@
         }
       ],
       "sourceBatches": [
-        "r2-typed-routes"
+        "r2-typed-routes",
+        "r42-dot-native-composition"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -66419,7 +66565,8 @@
         }
       ],
       "sourceBatches": [
-        "r2-typed-routes"
+        "r2-typed-routes",
+        "r42-dot-native-composition"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -66493,7 +66640,8 @@
         }
       ],
       "sourceBatches": [
-        "r2-typed-routes"
+        "r2-typed-routes",
+        "r42-dot-native-composition"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -66509,7 +66657,8 @@
         }
       ],
       "sourceBatches": [
-        "r2-typed-routes"
+        "r2-typed-routes",
+        "r42-dot-native-composition"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -66525,7 +66674,8 @@
         }
       ],
       "sourceBatches": [
-        "r2-typed-routes"
+        "r2-typed-routes",
+        "r42-dot-native-composition"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -66541,7 +66691,8 @@
         }
       ],
       "sourceBatches": [
-        "r2-typed-routes"
+        "r2-typed-routes",
+        "r42-dot-native-composition"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -66557,7 +66708,8 @@
         }
       ],
       "sourceBatches": [
-        "r2-typed-routes"
+        "r2-typed-routes",
+        "r42-dot-native-composition"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -66573,7 +66725,8 @@
         }
       ],
       "sourceBatches": [
-        "r2-typed-routes"
+        "r2-typed-routes",
+        "r42-dot-native-composition"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -66603,7 +66756,8 @@
         }
       ],
       "sourceBatches": [
-        "r2-typed-routes"
+        "r2-typed-routes",
+        "r42-dot-native-composition"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -66619,7 +66773,8 @@
         }
       ],
       "sourceBatches": [
-        "r2-typed-routes"
+        "r2-typed-routes",
+        "r42-dot-native-composition"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -66635,7 +66790,8 @@
         }
       ],
       "sourceBatches": [
-        "r2-typed-routes"
+        "r2-typed-routes",
+        "r42-dot-native-composition"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -66651,7 +66807,8 @@
         }
       ],
       "sourceBatches": [
-        "r2-typed-routes"
+        "r2-typed-routes",
+        "r42-dot-native-composition"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -66667,7 +66824,8 @@
         }
       ],
       "sourceBatches": [
-        "r2-typed-routes"
+        "r2-typed-routes",
+        "r42-dot-native-composition"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -66683,7 +66841,8 @@
         }
       ],
       "sourceBatches": [
-        "r2-typed-routes"
+        "r2-typed-routes",
+        "r42-dot-native-composition"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -66713,7 +66872,8 @@
         }
       ],
       "sourceBatches": [
-        "r2-typed-routes"
+        "r2-typed-routes",
+        "r42-dot-native-composition"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -66729,7 +66889,8 @@
         }
       ],
       "sourceBatches": [
-        "r2-typed-routes"
+        "r2-typed-routes",
+        "r42-dot-native-composition"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -66745,7 +66906,8 @@
         }
       ],
       "sourceBatches": [
-        "r2-typed-routes"
+        "r2-typed-routes",
+        "r42-dot-native-composition"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -66761,7 +66923,8 @@
         }
       ],
       "sourceBatches": [
-        "r2-typed-routes"
+        "r2-typed-routes",
+        "r42-dot-native-composition"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -66777,7 +66940,8 @@
         }
       ],
       "sourceBatches": [
-        "r2-typed-routes"
+        "r2-typed-routes",
+        "r42-dot-native-composition"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -66793,7 +66957,8 @@
         }
       ],
       "sourceBatches": [
-        "r2-typed-routes"
+        "r2-typed-routes",
+        "r42-dot-native-composition"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -66823,7 +66988,8 @@
         }
       ],
       "sourceBatches": [
-        "r2-typed-routes"
+        "r2-typed-routes",
+        "r42-dot-native-composition"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -66839,7 +67005,8 @@
         }
       ],
       "sourceBatches": [
-        "r2-typed-routes"
+        "r2-typed-routes",
+        "r42-dot-native-composition"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -66855,7 +67022,8 @@
         }
       ],
       "sourceBatches": [
-        "r2-typed-routes"
+        "r2-typed-routes",
+        "r42-dot-native-composition"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -66871,7 +67039,8 @@
         }
       ],
       "sourceBatches": [
-        "r2-typed-routes"
+        "r2-typed-routes",
+        "r42-dot-native-composition"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -66887,7 +67056,8 @@
         }
       ],
       "sourceBatches": [
-        "r2-typed-routes"
+        "r2-typed-routes",
+        "r42-dot-native-composition"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -66903,7 +67073,8 @@
         }
       ],
       "sourceBatches": [
-        "r2-typed-routes"
+        "r2-typed-routes",
+        "r42-dot-native-composition"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -66933,7 +67104,8 @@
         }
       ],
       "sourceBatches": [
-        "r2-typed-routes"
+        "r2-typed-routes",
+        "r42-dot-native-composition"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -66949,7 +67121,8 @@
         }
       ],
       "sourceBatches": [
-        "r2-typed-routes"
+        "r2-typed-routes",
+        "r42-dot-native-composition"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -66965,7 +67138,8 @@
         }
       ],
       "sourceBatches": [
-        "r2-typed-routes"
+        "r2-typed-routes",
+        "r42-dot-native-composition"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -66981,7 +67155,8 @@
         }
       ],
       "sourceBatches": [
-        "r2-typed-routes"
+        "r2-typed-routes",
+        "r42-dot-native-composition"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -66997,7 +67172,8 @@
         }
       ],
       "sourceBatches": [
-        "r2-typed-routes"
+        "r2-typed-routes",
+        "r42-dot-native-composition"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -67013,7 +67189,8 @@
         }
       ],
       "sourceBatches": [
-        "r2-typed-routes"
+        "r2-typed-routes",
+        "r42-dot-native-composition"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -67043,7 +67220,8 @@
         }
       ],
       "sourceBatches": [
-        "r2-typed-routes"
+        "r2-typed-routes",
+        "r42-dot-native-composition"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -67059,7 +67237,8 @@
         }
       ],
       "sourceBatches": [
-        "r2-typed-routes"
+        "r2-typed-routes",
+        "r42-dot-native-composition"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -67075,7 +67254,8 @@
         }
       ],
       "sourceBatches": [
-        "r2-typed-routes"
+        "r2-typed-routes",
+        "r42-dot-native-composition"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -67091,7 +67271,8 @@
         }
       ],
       "sourceBatches": [
-        "r2-typed-routes"
+        "r2-typed-routes",
+        "r42-dot-native-composition"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -67107,7 +67288,8 @@
         }
       ],
       "sourceBatches": [
-        "r2-typed-routes"
+        "r2-typed-routes",
+        "r42-dot-native-composition"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -67123,7 +67305,8 @@
         }
       ],
       "sourceBatches": [
-        "r2-typed-routes"
+        "r2-typed-routes",
+        "r42-dot-native-composition"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -67153,7 +67336,8 @@
         }
       ],
       "sourceBatches": [
-        "r2-typed-routes"
+        "r2-typed-routes",
+        "r42-dot-native-composition"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -67169,7 +67353,8 @@
         }
       ],
       "sourceBatches": [
-        "r2-typed-routes"
+        "r2-typed-routes",
+        "r42-dot-native-composition"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -67185,7 +67370,8 @@
         }
       ],
       "sourceBatches": [
-        "r2-typed-routes"
+        "r2-typed-routes",
+        "r42-dot-native-composition"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -67201,7 +67387,8 @@
         }
       ],
       "sourceBatches": [
-        "r2-typed-routes"
+        "r2-typed-routes",
+        "r42-dot-native-composition"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -67217,7 +67404,8 @@
         }
       ],
       "sourceBatches": [
-        "r2-typed-routes"
+        "r2-typed-routes",
+        "r42-dot-native-composition"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -67233,7 +67421,8 @@
         }
       ],
       "sourceBatches": [
-        "r2-typed-routes"
+        "r2-typed-routes",
+        "r42-dot-native-composition"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -67346,6 +67535,7 @@
       ],
       "sourceBatches": [
         "r2-typed-routes",
+        "r42-dot-native-composition",
         "stat-and-formula-v2"
       ],
       "selectedDecompilationCompleted": true
@@ -67362,7 +67552,8 @@
         }
       ],
       "sourceBatches": [
-        "r2-typed-routes"
+        "r2-typed-routes",
+        "r42-dot-native-composition"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -67378,7 +67569,8 @@
         }
       ],
       "sourceBatches": [
-        "r2-typed-routes"
+        "r2-typed-routes",
+        "r42-dot-native-composition"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -67394,7 +67586,8 @@
         }
       ],
       "sourceBatches": [
-        "r2-typed-routes"
+        "r2-typed-routes",
+        "r42-dot-native-composition"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -67410,7 +67603,8 @@
         }
       ],
       "sourceBatches": [
-        "r2-typed-routes"
+        "r2-typed-routes",
+        "r42-dot-native-composition"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -67426,7 +67620,8 @@
         }
       ],
       "sourceBatches": [
-        "r2-typed-routes"
+        "r2-typed-routes",
+        "r42-dot-native-composition"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -67442,7 +67637,8 @@
         }
       ],
       "sourceBatches": [
-        "r2-typed-routes"
+        "r2-typed-routes",
+        "r42-dot-native-composition"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -67458,7 +67654,8 @@
         }
       ],
       "sourceBatches": [
-        "r2-typed-routes"
+        "r2-typed-routes",
+        "r42-dot-native-composition"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -67475,7 +67672,8 @@
       ],
       "sourceBatches": [
         "life-and-stat-binding",
-        "r2-typed-routes"
+        "r2-typed-routes",
+        "r42-dot-native-composition"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -67507,6 +67705,7 @@
       "sourceBatches": [
         "life-and-stat-binding",
         "r2-typed-routes",
+        "r42-dot-native-composition",
         "source-and-authority"
       ],
       "selectedDecompilationCompleted": true
@@ -67523,7 +67722,8 @@
         }
       ],
       "sourceBatches": [
-        "r2-typed-routes"
+        "r2-typed-routes",
+        "r42-dot-native-composition"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -67554,7 +67754,8 @@
       ],
       "sourceBatches": [
         "network-and-sources",
-        "r2-typed-routes"
+        "r2-typed-routes",
+        "r42-dot-native-composition"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -67571,6 +67772,7 @@
       ],
       "sourceBatches": [
         "r2-typed-routes",
+        "r42-dot-native-composition",
         "stat-and-formula-v2"
       ],
       "selectedDecompilationCompleted": true
@@ -67588,7 +67790,8 @@
       ],
       "sourceBatches": [
         "network-and-sources",
-        "r2-typed-routes"
+        "r2-typed-routes",
+        "r42-dot-native-composition"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -67604,7 +67807,8 @@
         }
       ],
       "sourceBatches": [
-        "r2-routing-support"
+        "r2-routing-support",
+        "r42-dot-native-composition"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -67620,7 +67824,8 @@
         }
       ],
       "sourceBatches": [
-        "r2-typed-routes"
+        "r2-typed-routes",
+        "r42-dot-native-composition"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -67636,7 +67841,8 @@
         }
       ],
       "sourceBatches": [
-        "r2-typed-routes"
+        "r2-typed-routes",
+        "r42-dot-native-composition"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -68149,6 +68355,7 @@
       ],
       "sourceBatches": [
         "r2-typed-routes",
+        "r42-dot-native-composition",
         "stat-and-formula-v2"
       ],
       "selectedDecompilationCompleted": true
@@ -68216,7 +68423,8 @@
         }
       ],
       "sourceBatches": [
-        "r2-route-guards"
+        "r2-route-guards",
+        "r42-dot-native-composition"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -68290,7 +68498,8 @@
         }
       ],
       "sourceBatches": [
-        "r2-route-guards"
+        "r2-route-guards",
+        "r42-dot-native-composition"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -68322,7 +68531,8 @@
         }
       ],
       "sourceBatches": [
-        "r2-route-guards"
+        "r2-route-guards",
+        "r42-dot-native-composition"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -70154,7 +70364,8 @@
         }
       ],
       "sourceBatches": [
-        "r2-typed-routes"
+        "r2-typed-routes",
+        "r42-dot-native-composition"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -70170,7 +70381,8 @@
         }
       ],
       "sourceBatches": [
-        "r2-typed-routes"
+        "r2-typed-routes",
+        "r42-dot-native-composition"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -70186,7 +70398,8 @@
         }
       ],
       "sourceBatches": [
-        "r2-typed-routes"
+        "r2-typed-routes",
+        "r42-dot-native-composition"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -70202,7 +70415,8 @@
         }
       ],
       "sourceBatches": [
-        "r2-typed-routes"
+        "r2-typed-routes",
+        "r42-dot-native-composition"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -70416,6 +70630,7 @@
       "sourceBatches": [
         "r2-route-guards",
         "r2-typed-routes",
+        "r42-dot-native-composition",
         "stat-and-formula-v2"
       ],
       "selectedDecompilationCompleted": true
@@ -71361,7 +71576,8 @@
         }
       ],
       "sourceBatches": [
-        "r19-stat-order"
+        "r19-stat-order",
+        "r42-dot-native-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -71379,7 +71595,8 @@
       "sourceBatches": [
         "r12-applydamage-index-final",
         "r19-stat-order",
-        "r4-native-mask-initializer"
+        "r4-native-mask-initializer",
+        "r42-dot-native-composition"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -72106,7 +72323,8 @@
         "r30-initial-stats-rate",
         "r32-buff-rate-independence",
         "r33-result-resource-composition",
-        "r34-buff-clock-authority"
+        "r34-buff-clock-authority",
+        "r42-dot-native-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -74305,6 +74523,11 @@
       "name": "r37-skill-duration",
       "auditSha256": "4fef78fc9ff17a8e81ac4ec0d69e180ca906c9a1436708e28a8b767305f521b0",
       "functionCount": 19
+    },
+    {
+      "name": "r42-dot-native-composition",
+      "auditSha256": "360555c06c951e1f45e5354174a8349477ed855c3b0b477d2c9f30efd9c36a49",
+      "functionCount": 218
     }
   ],
   "pointerSlots": [
@@ -76703,7 +76926,7 @@
     "checkedReferenceInstructions": 13431,
     "decompilationFailures": [],
     "scope": "Original ranges/offsets, unwind ownership or explicit boundaries, stat identity, reference instructions and pointer-slot contents revalidated offline.",
-    "additionalFreshValidation": "R37 rechecked all retained original-byte ranges/unwind boundaries/file offsets/pointer slots; six additional skill-duration callbacks have exact charge/factor/base equations and staged supplied-cache controls; two candidate literals are ClientStrings labels, not numeric Stats reads. Actual instance assignment, target rate publication/shared cap and numerical Hit-to-pool remain open."
+    "additionalFreshValidation": "R42 rechecked all retained ranges, unwind ownership, offsets, pointer slots and prior sealed supports; 105 selected original DoT registrars and actual rank/dirty/queue/callback composition pass eight supplied-state cases. Source publication, ordinary actor eligibility, shared-cap reachability, numerical Hit-to-pool and generic clock refresh remain open."
   },
   "supportingRecords": [
     {
@@ -82420,6 +82643,54 @@
       "bytes": 34816,
       "sha256": "6323b2e9113bc16b23f07e68524af2e15e036feb947d203ab1fba1a314dee88e",
       "role": "R37 six additional skill-duration equations, original-instruction/staged controls, bounded consumer navigation and original ClientStrings label classification; not instance assignment or target rate publication"
+    },
+    {
+      "path": "Agents/docs/re/client-dot-native-composition.md",
+      "bytes": 9443,
+      "sha256": "b17823616fbf914908f22dd5ee563e2737608ed347b8f96b175b568f8354afa0",
+      "role": "R42 native DoT rank/dirty/queue/callback composition, fresh original registrar/byte checks and instruction controls; explicit eligible/cache-ready inputs, not source-instance publication or official global-cap proof"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r42-dot-native-composition.py",
+      "bytes": 8783,
+      "sha256": "80bda452c547f55be64413e45504e54cdabeb3600c6beba4182f7ca4407c0f8b",
+      "role": "R42 native DoT rank/dirty/queue/callback composition, fresh original registrar/byte checks and instruction controls; explicit eligible/cache-ready inputs, not source-instance publication or official global-cap proof"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r42-dot-native-fresh.py",
+      "bytes": 4470,
+      "sha256": "6d76167645f7909b79fcc23836027468774ea74360c4f5fb349b999fab2a7b1e",
+      "role": "R42 native DoT rank/dirty/queue/callback composition, fresh original registrar/byte checks and instruction controls; explicit eligible/cache-ready inputs, not source-instance publication or official global-cap proof"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r42-seal.py",
+      "bytes": 4040,
+      "sha256": "ead7b2e6f9a06314621f3a56f83d1c29a5ffcd132e9df6847c92b32a495b6591",
+      "role": "R42 native DoT rank/dirty/queue/callback composition, fresh original registrar/byte checks and instruction controls; explicit eligible/cache-ready inputs, not source-instance publication or official global-cap proof"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r42-dot-native-composition/audit.json",
+      "bytes": 3595159,
+      "sha256": "360555c06c951e1f45e5354174a8349477ed855c3b0b477d2c9f30efd9c36a49",
+      "role": "R42 native DoT rank/dirty/queue/callback composition, fresh original registrar/byte checks and instruction controls; explicit eligible/cache-ready inputs, not source-instance publication or official global-cap proof"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r42-dot-native-composition/verification.json",
+      "bytes": 180053,
+      "sha256": "b48cdd0786673a1243c1c3cdd09e5a2806a1c5fa04c40b8a9316f852915aeb99",
+      "role": "R42 native DoT rank/dirty/queue/callback composition, fresh original registrar/byte checks and instruction controls; explicit eligible/cache-ready inputs, not source-instance publication or official global-cap proof"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r42-dot-native-composition/instruction-controls.json",
+      "bytes": 2521,
+      "sha256": "f676f6886dff3af7a27d23efd02e291e5810e741cc25706ee0f891756c89aa54",
+      "role": "R42 native DoT rank/dirty/queue/callback composition, fresh original registrar/byte checks and instruction controls; explicit eligible/cache-ready inputs, not source-instance publication or official global-cap proof"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r42-dot-native-composition/fresh-check.json",
+      "bytes": 1248,
+      "sha256": "08456adba6ec7350801d3658b67a6f13d432a133219329aad29289f2008bb930",
+      "role": "R42 native DoT rank/dirty/queue/callback composition, fresh original registrar/byte checks and instruction controls; explicit eligible/cache-ready inputs, not source-instance publication or official global-cap proof"
     }
   ],
   "auxiliaryDataTables": [
@@ -82924,5 +83195,30 @@
     "candidateOwners": 985,
     "clientStringLabelCollisions": 2,
     "limits": "Supplied valid ready-cache values and explicit staged composition, not native dependency dispatch or ailment-instance construction. Outputs retain base input units; no Buff seconds conversion, target publication/shared cap or expiry withdrawal. Numeric-looking UI literals resolve ClientStrings, not Stats. Bounded navigation excludes dynamic/data-driven/unwindless consumers."
+  },
+  "dotNativeCompositionVerification": {
+    "result": "PASS",
+    "runtimeExecuted": false,
+    "functions": 218,
+    "ranges": 282,
+    "decodedInstructions": 26296,
+    "registrations": 105,
+    "declarationSteps": 1556,
+    "declarationVisitedSites": 1556,
+    "declarationEdges": 388,
+    "numericalCallbacks": 105,
+    "externalInputs": 85,
+    "compositionCases": 8,
+    "interpretedInstructions": 446297,
+    "visitedSites": 6127,
+    "instructionSemanticControls": 23,
+    "limits": [
+      "Ready external input cache and validity bits; no cache-miss fallback evaluation.",
+      "Selected recovered declaration graph; all omitted dependencies are external inputs, not missing live registrations.",
+      "Native masks are supplied eligible; no ordinary startup/native actor-context eligibility claim.",
+      "Previous-output getter reads supplied native cache; existing materialized records, reserved vector capacity and host memory/allocation/sort support.",
+      "Function-index updater is observational; transaction queue is explicitly reset between drains; original final observer/child/cleanup exit not executed.",
+      "Not an actual Entity/skill/Buff instance or network provider; no source infliction, selection, publication, cap reachability or official scheduling assertion."
+    ]
   }
 }

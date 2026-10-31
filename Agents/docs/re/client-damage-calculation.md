@@ -170,6 +170,8 @@ flowchart TD
   RFOUT -. source application / aggregation unresolved .-> RAW
   TEMPLATE[Named RF template: declared fire-rate magnitude] -. active instance publication unresolved .-> RAW
   SOURCES[DoT sources / effect instances] -. producer unresolved .-> RAW[Base rates per minute]
+  NATIVEREADY[Supplied eligible native context / ready inputs] --> NATIVEQUEUE[Original dependency queue: 105 DoT outputs]
+  NATIVEQUEUE --> AS
   RAW --> AS[Damage taken as: typed rates]
   AS --> MIT[Per-type DoT mitigation and immunity]
   MIT --> ROUTE[ES bypass / Mana-before-Life / healing branches]
@@ -369,6 +371,9 @@ The word "minute" describes the numeric unit, not a rolling or resettable damage
 
 The forwarding callback for fire does not contain an ignite list, RF radius or a duration/snapshot model.
 The producer of base rate 2023 is still unresolved.
+[Native queue composition](client-dot-native-composition.md) now executes 105 selected registered outputs together,
+including live resistance/prohibition input changes, taken-as saturation and resource routing.
+It supplies eligibility and ready inputs; it does not create a source instance or bind ordinary actor publication.
 Separately, an outgoing RF chain is now established: stat-set constants 883/1947/3399 feed
 14408, then area-skill intermediate 8198 and final outgoing area rate 5981. It uses skill-user
 Life/ES and mana providers, distinct modifier stages and rounding boundaries. Generic outgoing
@@ -696,6 +701,7 @@ damage-bearing paths. Keep missing source eligibility/selection, formulas and sy
 | R0 | Pin artifact, table keys and instruction boundaries | Established | Re-audit when either input hash changes |
 | R1 | Network Stats, actor/skill inputs, lookup freshness and native publication | Established | Actual network provider chain, updates/notifications and guarded native boundary audited; [details](client-stat-evaluation.md); subsequent skill update identified as [0x1b4](client-damage-pr373-comparison.md#0x1b4-is-a-skill-stat-update) |
 | R1 | Native dependency ordering and work-vector algorithm | Established for audited helpers and recovered declaration graph | [Cycle-checked traversal, rank rewriting, growing ordered dispatch, unchanged-output propagation stops and 24 actual duplicate-containing declarations](client-stat-dependency-order.md); declared edges do not guarantee all actual reads or arbitrary reentrant callbacks |
+| R1/R2 | Selected native DoT numerical composition | Established for supplied eligible/cache-ready states | [105 original registrations and actual dependency queue/callbacks](client-dot-native-composition.md); eight dynamic/cap/routing cases. Actual source publication, ordinary native eligibility and shared-cap reachability remain open. |
 | R1 | Absolute pool update path | Established | Preserve decoded-field vs wire-offset distinction |
 | R1/R2 | Native contribution caller provenance | Established for the retained 103 direct calls in 13 owners | [Receiving-object map and graph-owned source tokens](client-native-contribution-callers.md); source replacement can remove before rebuilding. This finite inventory does not close target DoT publication or cover indirect/inlined mutation. |
 | R1/R4 | Maximum-stat notification and current-resource authority | Established for three pool keys and two client World tables | [Actual Life subscriber and pool refresh](client-pool-maximum-refresh.md) update maxima without proportional current changes on the two nonzero client getters; Life alone clears carry; conditional rescaling code and notification limits remain explicit |

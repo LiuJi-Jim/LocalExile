@@ -111,6 +111,7 @@ How to regenerate them: [re/tooling.md](re/tooling.md) §7.
 | [re/client-hit-result-qualifiers.md](re/client-hit-result-qualifiers.md) | received-result control admission, mutable mask/duration, quantized direction and selected critical-feedback qualifier |
 | [re/client-dot-instance-rules.md](re/client-dot-instance-rules.md) | versioned source sampling, target dynamics, duration/expiration rules and their native boundaries |
 | [re/client-ailment-duration-inputs.md](re/client-ailment-duration-inputs.md) | complete ignite/bleed/poison additive and final duration modifiers, conditional gates, integer boundaries and ordered binary32 arithmetic; actual instance assignment remains open |
+| [re/client-dot-native-composition.md](re/client-dot-native-composition.md) | 105 DoT outputs through original dependency ranks, dirty queue and numerical callbacks; dynamic inputs, intermediate caps and resource routing under explicit eligibility/input fixtures |
 | [re/client-ailment-skill-duration.md](re/client-ailment-skill-duration.md) | six bleeding/poison skill-duration equations, distinct capped/uncapped charge terms, staged arithmetic and ClientStrings literal collisions; instance assignment remains open |
 | [re/client-hit-production.md](re/client-hit-production.md) | concrete Fireball/Melee/Sand Spitter contacts, dodge/accuracy/entropy and action-specific continuation boundaries |
 | [re/client-ranged-action-selection.md](re/client-ranged-action-selection.md) | default Bow/Wand action selector, equipment-to-provider updates and startup registration winners |

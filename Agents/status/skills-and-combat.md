@@ -827,6 +827,10 @@ and can require explicit recipes.
   Virtual faster and combined ailment multiplier inputs preserve attack/weapon/aura/charge qualifications.
   Twelve common DoT multiplier outputs preserve typed/ailment/non-ailment sums and signed integer order.
   Cold divides before its resistance coefficient; chaos multiplies before division, with different rounding.
+  [Native DoT dependency-queue composition](../docs/re/client-dot-native-composition.md) runs 105 registered outputs
+  through actual rank/dirty/dispatch instructions with supplied eligible/cache-ready states.
+  Eight cases verify resistance/prohibition propagation, intermediate saturation and resource-rate routing.
+  Actual instance publication, ordinary actor eligibility and shared-cap reachability remain open.
   Native final ailment-duration formulas reciprocate faster factors, separately from expiration-speed clocks.
   [Six complete duration modifier equations](../docs/re/client-ailment-duration-inputs.md) preserve shared bow/focus/retaliation/recency gates,
   ignite bearer/tincture terms, bleed divide-before-multiply, poison's inclusive 150-Int test and upper-only bonus cap.
