@@ -139,6 +139,8 @@ These are client addresses; their presence is not proof of official-server imple
 | Address | Kind | What |
 |---|---|---|
 | `0x140826070` / `0x140ad5f30` | Fn | Numerical skill average/DPS readers: context-zero provider, keys 2144/2044/679, formatted text assignment |
+| `0x1427fac60` / `0x1427fb8d0` / `0x142805120` / `0x142805d60` / `0x142807490` / `0x142808060` | Fn | [Complete source ailment-duration modifiers](../re/client-ailment-duration-inputs.md): ignite/bleed/poison additive/final equations, conditional gates and ordered binary32 factors; not actual instance assignment |
+| `0x142805d18..0x142805d28` / `0x14280782c..0x142807832` / `0x142807f40..0x142807f4d` | Code | [Duration arithmetic boundaries](../re/client-ailment-duration-inputs.md#3-complete-additive-equations): divide intelligence by 12 before bleed multiplication, poison Int >=150 and signed upper-only duration-bonus cap |
 | `0x1425733e0` / `0x1425926c0` | Fn | First/last of twenty [ordered both-hand typed attack ranges](../re/client-attack-hit-formulas.md); separate base/added factors, conversion remainders and Lightning Purist min/max differences |
 | `0x142543a80` / `0x142544860` | Fn | First/last of four attack hand totals: wrapping signed32 typed sums, no saturation/clamp |
 | `0x1419e3530` | Fn | [Extra-arrow Life sacrifice](../re/client-integer-resource-mutations.md): wrapping percentage, floor-one capacity, arrow benefit before skip check and reason-7 integer payment |

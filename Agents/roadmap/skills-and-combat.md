@@ -120,6 +120,8 @@ The suspend/restore lifecycle is explicit LocalExile policy; see protocol/11-ski
   Outgoing RF parameters and 14408/8198/5981 formulas are bound separately from incoming base rates.
   Resolve source instances into base rates and actual publication eligibility.
   Reuse versioned source-sampling/target-dynamic rules and native duration/faster compensation.
+  Reuse the complete six source-duration modifier equations, including conditional sums and ordered binary32 arithmetic;
+  do not rescan them as instance construction. Base-duration application and actual instance assignment remain open.
   Existing owner-stat-to-clock subscriptions and source-rate expiry publication remain separate open edges.
   Reuse recovered clock input transport/defaults and partial/replacement asymmetry; later recalculation stays open.
   Empty Id2 for ignited/poison selects null in the audited startup catalogue, not an implicit default backend.

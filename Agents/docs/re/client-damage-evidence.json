@@ -24911,6 +24911,7 @@
       ],
       "sourceBatches": [
         "r19-stat-order",
+        "r36-duration-formulas",
         "r6-ailment-duration-formulas"
       ],
       "selectedDecompilationCompleted": null
@@ -24928,6 +24929,7 @@
       ],
       "sourceBatches": [
         "r19-stat-order",
+        "r36-duration-formulas",
         "r6-ailment-duration-formulas"
       ],
       "selectedDecompilationCompleted": null
@@ -25313,6 +25315,7 @@
       ],
       "sourceBatches": [
         "r19-stat-order",
+        "r36-duration-formulas",
         "r6-ailment-duration-formulas"
       ],
       "selectedDecompilationCompleted": null
@@ -25330,6 +25333,7 @@
       ],
       "sourceBatches": [
         "r19-stat-order",
+        "r36-duration-formulas",
         "r6-ailment-duration-formulas"
       ],
       "selectedDecompilationCompleted": null
@@ -25411,6 +25415,7 @@
       ],
       "sourceBatches": [
         "r19-stat-order",
+        "r36-duration-formulas",
         "r6-ailment-duration-formulas"
       ],
       "selectedDecompilationCompleted": null
@@ -25428,6 +25433,7 @@
       ],
       "sourceBatches": [
         "r19-stat-order",
+        "r36-duration-formulas",
         "r6-ailment-duration-formulas"
       ],
       "selectedDecompilationCompleted": null
@@ -41773,6 +41779,7 @@
         "r32-buff-rate-independence",
         "r33-result-resource-composition",
         "r34-buff-clock-authority",
+        "r36-duration-formulas",
         "r5-ailment-outgoing-helpers",
         "r5-critical-math-final",
         "r6-critical-inputs",
@@ -70219,6 +70226,7 @@
         }
       ],
       "sourceBatches": [
+        "r36-duration-formulas",
         "r6-ailment-duration-formulas"
       ],
       "selectedDecompilationCompleted": null
@@ -70235,6 +70243,7 @@
         }
       ],
       "sourceBatches": [
+        "r36-duration-formulas",
         "r6-ailment-duration-formulas"
       ],
       "selectedDecompilationCompleted": null
@@ -70251,6 +70260,7 @@
         }
       ],
       "sourceBatches": [
+        "r36-duration-formulas",
         "r6-ailment-duration-formulas"
       ],
       "selectedDecompilationCompleted": null
@@ -70267,6 +70277,7 @@
         }
       ],
       "sourceBatches": [
+        "r36-duration-formulas",
         "r6-ailment-duration-formulas"
       ],
       "selectedDecompilationCompleted": null
@@ -70283,6 +70294,7 @@
         }
       ],
       "sourceBatches": [
+        "r36-duration-formulas",
         "r6-ailment-duration-formulas"
       ],
       "selectedDecompilationCompleted": null
@@ -70299,6 +70311,7 @@
         }
       ],
       "sourceBatches": [
+        "r36-duration-formulas",
         "r6-ailment-duration-formulas"
       ],
       "selectedDecompilationCompleted": null
@@ -74158,6 +74171,11 @@
       "name": "r35-contribution-callers",
       "auditSha256": "97c128f23e18cdccd822a04539fbd8aeb4428491e8d192063435f8361ea0ab47",
       "functionCount": 23
+    },
+    {
+      "name": "r36-duration-formulas",
+      "auditSha256": "ea644fe7ef8f99edd908d4d46f7a244b65b88f20899811eefb033dbc5c3d3989",
+      "functionCount": 13
     }
   ],
   "pointerSlots": [
@@ -76556,7 +76574,7 @@
     "checkedReferenceInstructions": 13431,
     "decompilationFailures": [],
     "scope": "Original ranges/offsets, unwind ownership or explicit boundaries, stat identity, reference instructions and pointer-slot contents revalidated offline.",
-    "additionalFreshValidation": "R35 rechecked all retained original-byte ranges/unwind boundaries/file offsets/pointer slots; 103 existing direct contribution calls and selected graph-owned receiver/source-token paths audited. No expanded reference scan, interpreted execution or target DoT publisher claimed."
+    "additionalFreshValidation": "R36 rechecked all retained original-byte ranges/unwind boundaries/file offsets/pointer slots; six source-duration modifier callbacks have complete conditional equations and ordered binary32 supplied-cache controls. Actual instance assignment, target rate publication/shared cap and numerical Hit-to-pool remain open."
   },
   "supportingRecords": [
     {
@@ -82165,6 +82183,54 @@
       "bytes": 523,
       "sha256": "be68a1af43d9f0c617635c7ad8d64ed3d5bb0b4d35d36cd982f02d4fc0fb76ca",
       "role": "R35 retained native direct-call inventory and static receiver/source-token provenance; not target DoT publication"
+    },
+    {
+      "path": "Agents/docs/re/client-ailment-duration-inputs.md",
+      "bytes": 11601,
+      "sha256": "efb91ac8913866ae476d55fbb1e02999ddedbee9e07d251405ac67d713b91ed2",
+      "role": "R36 complete six source ailment-duration modifier equations, original-instruction ready-cache controls and fresh byte/registrar/declaration checks; not instance assignment or target rate publication"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r36-duration-formulas.py",
+      "bytes": 10497,
+      "sha256": "d52675b060badbd9d7913774c21c6a1f8c1a26d7e38b0d038883b223519ab03b",
+      "role": "R36 complete six source ailment-duration modifier equations, original-instruction ready-cache controls and fresh byte/registrar/declaration checks; not instance assignment or target rate publication"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r36-duration-fresh.py",
+      "bytes": 5232,
+      "sha256": "964c5244674b86173ca01384d1d333fb2dcdf87d076d40e0fbce7fa8f2182b0d",
+      "role": "R36 complete six source ailment-duration modifier equations, original-instruction ready-cache controls and fresh byte/registrar/declaration checks; not instance assignment or target rate publication"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r36-seal.py",
+      "bytes": 4128,
+      "sha256": "4df43b36c992e885f96a58c53f34f90717f0c131e62d74eba809d5a958f22434",
+      "role": "R36 complete six source ailment-duration modifier equations, original-instruction ready-cache controls and fresh byte/registrar/declaration checks; not instance assignment or target rate publication"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r36-duration-formulas/audit.json",
+      "bytes": 495725,
+      "sha256": "ea644fe7ef8f99edd908d4d46f7a244b65b88f20899811eefb033dbc5c3d3989",
+      "role": "R36 complete six source ailment-duration modifier equations, original-instruction ready-cache controls and fresh byte/registrar/declaration checks; not instance assignment or target rate publication"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r36-duration-formulas/controls.json",
+      "bytes": 1168134,
+      "sha256": "b0cd4df16bd6915676aa6358c9124e09a99399f31dc6c96d0bc997b81450cdaa",
+      "role": "R36 complete six source ailment-duration modifier equations, original-instruction ready-cache controls and fresh byte/registrar/declaration checks; not instance assignment or target rate publication"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r36-duration-formulas/verification.json",
+      "bytes": 820,
+      "sha256": "5861a3cf579d141ccfd552d447ae4ab4150aeb5e8c9e2770d629560183849c06",
+      "role": "R36 complete six source ailment-duration modifier equations, original-instruction ready-cache controls and fresh byte/registrar/declaration checks; not instance assignment or target rate publication"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r36-duration-formulas/fresh-check.json",
+      "bytes": 797,
+      "sha256": "91983ea4a33fd1a52f62b8e6b9cb8faeba7106000c5096f5f21235ed0b04a8bd",
+      "role": "R36 complete six source ailment-duration modifier equations, original-instruction ready-cache controls and fresh byte/registrar/declaration checks; not instance assignment or target rate publication"
     }
   ],
   "auxiliaryDataTables": [
@@ -82635,5 +82701,21 @@
     "anchors": 52,
     "strings": 2,
     "limits": "Revalidation of a retained bounded direct-call inventory and static object/argument flow; not interpreted execution, a new scan or numerical source publication."
+  },
+  "ailmentDurationInputsVerification": {
+    "runtimeExecuted": false,
+    "functions": 13,
+    "ranges": 13,
+    "decodedInstructions": 3689,
+    "registrations": 6,
+    "declaredInputs": 65,
+    "namedInputs": 40,
+    "anchors": 32,
+    "constants": 4,
+    "controls": 2074,
+    "interpretedInstructions": 298239,
+    "visitedSites": 847,
+    "newManifestEntries": 0,
+    "limits": "Supplied valid ready-cache context; no native entity execution, dependency invalidation, instance lifetime assignment, source-to-target publication or shared cap. Finite float32 controls exclude faster=-100 and overflow to nonfinite values."
   }
 }

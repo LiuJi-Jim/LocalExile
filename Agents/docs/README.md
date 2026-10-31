@@ -110,6 +110,7 @@ How to regenerate them: [re/tooling.md](re/tooling.md) §7.
 | [re/client-ground-effect-ownership.md](re/client-ground-effect-ownership.md) | typed ServerFill parent route, shared cancellation-flag producer, reference ownership and infinite-lifetime expiry |
 | [re/client-hit-result-qualifiers.md](re/client-hit-result-qualifiers.md) | received-result control admission, mutable mask/duration, quantized direction and selected critical-feedback qualifier |
 | [re/client-dot-instance-rules.md](re/client-dot-instance-rules.md) | versioned source sampling, target dynamics, duration/expiration rules and their native boundaries |
+| [re/client-ailment-duration-inputs.md](re/client-ailment-duration-inputs.md) | complete ignite/bleed/poison additive and final duration modifiers, conditional gates, integer boundaries and ordered binary32 arithmetic; actual instance assignment remains open |
 | [re/client-hit-production.md](re/client-hit-production.md) | concrete Fireball/Melee/Sand Spitter contacts, dodge/accuracy/entropy and action-specific continuation boundaries |
 | [re/client-ranged-action-selection.md](re/client-ranged-action-selection.md) | default Bow/Wand action selector, equipment-to-provider updates and startup registration winners |
 | [re/client-buff-clock-updates.md](re/client-buff-clock-updates.md) | insertion clocks, network replacement and ticking versus unresolved owner-stat-driven refresh |
