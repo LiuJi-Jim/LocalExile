@@ -223,6 +223,7 @@ These are client addresses; their presence is not proof of official-server imple
 | `0x141e6bcb0` / `0x141e6bd30` / `0x141e6bd80` | Fn | Life/Mana/ES loss notifications, ES-protects-Mana routing and event boundary |
 | `0x141e6bde0` / `0x14015a670` | Fn / Leaf | Conditional recharge-delay update / positive-infinity return |
 | `0x1421880b7` / `0x1421880cb` / `0x1421880e6` | Insn | World `0x1b1` calls for ES / Mana / Life |
+| `0x142183840` | Fn | World `+0x90` component checkpoint; [peer-owned ordering reused through parsed assignment and resource arithmetic](../re/client-resource-checkpoint-composition.md) |
 | `0x142543a80` / `0x1425733e0` | Fn | Main-hand minimum total / physical damage evaluators |
 | `0x142594860` / `0x1425988a0` | Fn | Main-hand physical minimum base / added inputs |
 | `0x1426fb060` / `0x142756600` | Fn | Main-hand accuracy / final critical-chance evaluators |

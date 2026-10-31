@@ -197,7 +197,9 @@ The suspend/restore lifecycle is explicit LocalExile policy; see protocol/11-ski
   can cancel positive delay and suppress reset, while the pool step integrates its separately read total recovery rate.
   Local timer expiry and the installed no-op active-state publication do not supply a missing DoT/Hit source publisher.
   Preserve [resource input read order](../docs/re/client-resource-read-order.md): saved recovery rates, later pool state,
-  sequential Life loss and preloaded ES loss differ; real queued-message execution at the World boundary remains separate.
+  sequential Life loss and preloaded ES loss differ. Reuse [the composed ordered resource route](../docs/re/client-resource-checkpoint-composition.md):
+  peer-established World checkpoints/parsed dispatch now execute the actual setter and later recovery arithmetic.
+  Wire parsing, queue production and official checkpoint choices remain separate; do not repeat the peer's World audit.
   Reuse [AddBuff magnitude transport](../docs/re/client-buff-wire-magnitudes.md): the writer and reader share a recovery
   gate but use different length sources. Keep their cardinalities aligned; do not place non-recovery DoT magnitude
   in this omitted vector or confuse the separate counted vector with a proven DPS carrier.

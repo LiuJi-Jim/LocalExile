@@ -41378,6 +41378,7 @@
         "r2-grants-value-resolver",
         "r24-recharge-rate-authority",
         "r25-resource-read-order",
+        "r27-checkpoint-resources",
         "r3-c944-listener-final",
         "r3-d9aa-listener-final",
         "r3-entity-task-boundaries-final",
@@ -41739,6 +41740,7 @@
         "r2-rf-outgoing-area-v2",
         "r24-recharge-rate-authority",
         "r25-resource-read-order",
+        "r27-checkpoint-resources",
         "r5-ailment-outgoing-helpers",
         "r5-critical-math-final",
         "r6-critical-inputs",
@@ -42134,6 +42136,7 @@
         "r24-recharge-rate-authority",
         "r25-resource-read-order",
         "r26-buff-wire",
+        "r27-checkpoint-resources",
         "r4-pool-notification-leaves",
         "r8-ground-effect-boundary",
         "r9-ground-ownership"
@@ -52450,6 +52453,7 @@
         "r23-pool-maximum-refresh",
         "r24-recharge-rate-authority",
         "r25-resource-read-order",
+        "r27-checkpoint-resources",
         "r4-buff-guard-revive"
       ],
       "selectedDecompilationCompleted": true
@@ -52489,6 +52493,7 @@
         "r23-pool-maximum-refresh",
         "r24-recharge-rate-authority",
         "r25-resource-read-order",
+        "r27-checkpoint-resources",
         "r3-loss-receiver-boundary",
         "r4-buff-clock-producers-discovery",
         "r4-buff-clock-producers-life-guard",
@@ -52512,6 +52517,7 @@
         "r23-pool-maximum-refresh",
         "r24-recharge-rate-authority",
         "r25-resource-read-order",
+        "r27-checkpoint-resources",
         "r4-buff-clock-producers-transition-search"
       ],
       "selectedDecompilationCompleted": null
@@ -52531,6 +52537,7 @@
         "r23-pool-maximum-refresh",
         "r24-recharge-rate-authority",
         "r25-resource-read-order",
+        "r27-checkpoint-resources",
         "r4-pool-assignment-effects"
       ],
       "selectedDecompilationCompleted": true
@@ -52711,6 +52718,7 @@
       "sourceBatches": [
         "life-and-stat-binding",
         "r25-resource-read-order",
+        "r27-checkpoint-resources",
         "r4-buff-guard-revive"
       ],
       "selectedDecompilationCompleted": true
@@ -52777,6 +52785,7 @@
         "life-and-stat-binding",
         "r24-recharge-rate-authority",
         "r25-resource-read-order",
+        "r27-checkpoint-resources",
         "source-and-authority"
       ],
       "selectedDecompilationCompleted": true
@@ -52825,6 +52834,7 @@
       "sourceBatches": [
         "life-and-stat-binding",
         "r25-resource-read-order",
+        "r27-checkpoint-resources",
         "r3-loss-receiver-boundary"
       ],
       "selectedDecompilationCompleted": true
@@ -52857,6 +52867,7 @@
       "sourceBatches": [
         "life-and-stat-binding",
         "r25-resource-read-order",
+        "r27-checkpoint-resources",
         "r3-loss-receiver-boundary"
       ],
       "selectedDecompilationCompleted": true
@@ -52890,6 +52901,7 @@
         "life-and-stat-binding",
         "r16-buff-granted-final",
         "r25-resource-read-order",
+        "r27-checkpoint-resources",
         "r3-loss-receiver-boundary",
         "r4-buff-clock-producers-transition-search"
       ],
@@ -52909,6 +52921,7 @@
       "sourceBatches": [
         "life-and-stat-binding",
         "r25-resource-read-order",
+        "r27-checkpoint-resources",
         "r3-loss-receiver-boundary"
       ],
       "selectedDecompilationCompleted": true
@@ -52929,6 +52942,7 @@
         "r16-buff-granted-final",
         "r24-recharge-rate-authority",
         "r25-resource-read-order",
+        "r27-checkpoint-resources",
         "source-and-authority"
       ],
       "selectedDecompilationCompleted": true
@@ -52947,7 +52961,8 @@
       "sourceBatches": [
         "offence-evaluators",
         "r24-recharge-rate-authority",
-        "r25-resource-read-order"
+        "r25-resource-read-order",
+        "r27-checkpoint-resources"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -52966,6 +52981,7 @@
         "life-and-stat-binding",
         "r24-recharge-rate-authority",
         "r25-resource-read-order",
+        "r27-checkpoint-resources",
         "source-and-authority"
       ],
       "selectedDecompilationCompleted": true
@@ -53071,6 +53087,7 @@
       ],
       "sourceBatches": [
         "r25-resource-read-order",
+        "r27-checkpoint-resources",
         "r4-pool-assignment-effects"
       ],
       "selectedDecompilationCompleted": true
@@ -53088,6 +53105,7 @@
       ],
       "sourceBatches": [
         "r25-resource-read-order",
+        "r27-checkpoint-resources",
         "r4-pool-assignment-effects"
       ],
       "selectedDecompilationCompleted": true
@@ -53106,6 +53124,7 @@
       "sourceBatches": [
         "r24-recharge-rate-authority",
         "r25-resource-read-order",
+        "r27-checkpoint-resources",
         "r4-pool-assignment-effects"
       ],
       "selectedDecompilationCompleted": true
@@ -53124,6 +53143,7 @@
       "sourceBatches": [
         "r24-recharge-rate-authority",
         "r25-resource-read-order",
+        "r27-checkpoint-resources",
         "r4-pool-recharge-notify"
       ],
       "selectedDecompilationCompleted": true
@@ -53199,6 +53219,7 @@
         "life-and-stat-binding",
         "r24-recharge-rate-authority",
         "r25-resource-read-order",
+        "r27-checkpoint-resources",
         "source-and-authority"
       ],
       "selectedDecompilationCompleted": true
@@ -56168,6 +56189,7 @@
         }
       ],
       "sourceBatches": [
+        "r27-checkpoint-resources",
         "r4-buff-guard-revive",
         "r4-buff-network-clock-contract",
         "source-and-authority"
@@ -71623,7 +71645,8 @@
       "sourceBatches": [
         "r23-pool-maximum-refresh",
         "r24-recharge-rate-authority",
-        "r25-resource-read-order"
+        "r25-resource-read-order",
+        "r27-checkpoint-resources"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -71673,7 +71696,8 @@
       "sourceBatches": [
         "r23-pool-maximum-refresh",
         "r24-recharge-rate-authority",
-        "r25-resource-read-order"
+        "r25-resource-read-order",
+        "r27-checkpoint-resources"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -71690,7 +71714,8 @@
       ],
       "sourceBatches": [
         "r24-recharge-rate-authority",
-        "r25-resource-read-order"
+        "r25-resource-read-order",
+        "r27-checkpoint-resources"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -71707,7 +71732,8 @@
       ],
       "sourceBatches": [
         "r24-recharge-rate-authority",
-        "r25-resource-read-order"
+        "r25-resource-read-order",
+        "r27-checkpoint-resources"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -71724,7 +71750,8 @@
       ],
       "sourceBatches": [
         "r24-recharge-rate-authority",
-        "r25-resource-read-order"
+        "r25-resource-read-order",
+        "r27-checkpoint-resources"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -71755,7 +71782,8 @@
       ],
       "sourceBatches": [
         "r24-recharge-rate-authority",
-        "r25-resource-read-order"
+        "r25-resource-read-order",
+        "r27-checkpoint-resources"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -71772,7 +71800,8 @@
       ],
       "sourceBatches": [
         "r24-recharge-rate-authority",
-        "r25-resource-read-order"
+        "r25-resource-read-order",
+        "r27-checkpoint-resources"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -71789,7 +71818,8 @@
       ],
       "sourceBatches": [
         "r24-recharge-rate-authority",
-        "r25-resource-read-order"
+        "r25-resource-read-order",
+        "r27-checkpoint-resources"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -71819,7 +71849,24 @@
         }
       ],
       "sourceBatches": [
-        "r25-resource-read-order"
+        "r25-resource-read-order",
+        "r27-checkpoint-resources"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x142183840": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x142183840",
+          "endExclusive": "0x142183928",
+          "bytes": 232,
+          "fileOffset": 35138624,
+          "sha256": "155f31731abd74c4c74a4e4d7d5246dd53234ac1e24e9cd3249d9e7d02c632b8"
+        }
+      ],
+      "sourceBatches": [
+        "r27-checkpoint-resources"
       ],
       "selectedDecompilationCompleted": null
     }
@@ -73104,6 +73151,11 @@
       "name": "r26-buff-wire",
       "auditSha256": "127249f357349c90f0897085b116009e86c065bdb94add7751960fdf985d9004",
       "functionCount": 3
+    },
+    {
+      "name": "r27-checkpoint-resources",
+      "auditSha256": "691d00484507f7e3952ab4318078148f1c0963e407be92aee71193decca2acc1",
+      "functionCount": 32
     }
   ],
   "pointerSlots": [
@@ -75436,7 +75488,7 @@
     "checkedReferenceInstructions": 13431,
     "decompilationFailures": [],
     "scope": "Original ranges/offsets, unwind ownership or explicit boundaries, stat identity, reference instructions and pointer-slot contents revalidated offline.",
-    "additionalFreshValidation": "R26 rechecked all retained original ranges/unwind owners/offsets and pointer slots; selected AddBuff magnitude transport bound. Prior decompilation/reference checks retained, not rerun."
+    "additionalFreshValidation": "R27 rechecked all retained original ranges/unwind owners/offsets and pointer slots; selected ordered parsed resource assignment and recovery bound. Prior decompilation/reference checks retained, not rerun."
   },
   "supportingRecords": [
     {
@@ -80517,6 +80569,60 @@
       "bytes": 6369,
       "sha256": "b2c6bf17d7b8667da1ac5f433c3fd31264e419b3e4ba1a6ada760187fa66137d",
       "role": "R26 original AddBuff writer/reader magnitude gate, independent bytes and cardinality mismatch fixtures; fixed peer R41 reuse"
+    },
+    {
+      "path": "Agents/docs/re/client-resource-checkpoint-composition.md",
+      "bytes": 6847,
+      "sha256": "306666c5e9b8aa45ca0c0f28c15a9d734286800c0438179746f257c5243a58c7",
+      "role": "R27 original checkpoint/parsed-resource dispatcher/actual setter/recovery composition; fixed peer R42 reused without rerunning standalone audit"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r27-checkpoint-resources.py",
+      "bytes": 7522,
+      "sha256": "86bf2ceb7b3b5d49f5bf20b73e7c44aeec0cb0a9869b0283788c59ab924da0be",
+      "role": "R27 original checkpoint/parsed-resource dispatcher/actual setter/recovery composition; fixed peer R42 reused without rerunning standalone audit"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r27-resources-fresh.py",
+      "bytes": 4873,
+      "sha256": "0f614f0305bcbf4675c363ee3d0d9e6d130e8392144a21ba4702e41cb7f79044",
+      "role": "R27 original checkpoint/parsed-resource dispatcher/actual setter/recovery composition; fixed peer R42 reused without rerunning standalone audit"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r27-seal.py",
+      "bytes": 5076,
+      "sha256": "6c352d10ac63442a58a2769c8ace81b226fd02af44816193a5c328db0785e982",
+      "role": "R27 original checkpoint/parsed-resource dispatcher/actual setter/recovery composition; fixed peer R42 reused without rerunning standalone audit"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/coordination-r42-reuse.py",
+      "bytes": 1899,
+      "sha256": "3b670aa72bc3b313102eec6d512c3271ce7a794a22788de112eee1a6afaef286",
+      "role": "R27 original checkpoint/parsed-resource dispatcher/actual setter/recovery composition; fixed peer R42 reused without rerunning standalone audit"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/coordination-r42-reuse.json",
+      "bytes": 730,
+      "sha256": "293987a751c31cf3f56f7b9a73ee8dfa36e57ae887daadfd3874e1f47092815e",
+      "role": "R27 original checkpoint/parsed-resource dispatcher/actual setter/recovery composition; fixed peer R42 reused without rerunning standalone audit"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r27-checkpoint-resources/audit.json",
+      "bytes": 501554,
+      "sha256": "691d00484507f7e3952ab4318078148f1c0963e407be92aee71193decca2acc1",
+      "role": "R27 original checkpoint/parsed-resource dispatcher/actual setter/recovery composition; fixed peer R42 reused without rerunning standalone audit"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r27-checkpoint-resources/verification.json",
+      "bytes": 18579,
+      "sha256": "542418748c4c817e47dee9c48a425ccfc58019ef652cc1f6e8c4bde3e3161058",
+      "role": "R27 original checkpoint/parsed-resource dispatcher/actual setter/recovery composition; fixed peer R42 reused without rerunning standalone audit"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r27-checkpoint-resources/fresh-check.json",
+      "bytes": 3699,
+      "sha256": "f788a0b9d8fe9f99c4d8b411c89159568c7076347012139ac2d57361c9f8b2b3",
+      "role": "R27 original checkpoint/parsed-resource dispatcher/actual setter/recovery composition; fixed peer R42 reused without rerunning standalone audit"
     }
   ],
   "auxiliaryDataTables": [
@@ -80895,5 +81001,15 @@
     "steps": 133624,
     "visitedInstructions": 494,
     "limits": "Same-agent original writer/reader interpretation. Common headers, stream I/O, conversion imports, table resolution and allocation are fixtures. No visual-override flag 0x10, NaNs, malformed-stream error handling, actual wire execution or source publisher claim."
+  },
+  "resourceCheckpointCompositionVerification": {
+    "runtimeExecuted": false,
+    "functions": 32,
+    "ranges": 48,
+    "decodedInstructions": 3618,
+    "cases": 165,
+    "steps": 41214,
+    "visitedInstructions": 427,
+    "limits": "Same-agent original checkpoint/parsed dispatch/setter/recovery composition. Parsed queue, TLS, object/provider/policy inputs are fixtures. Positive bit-4 assignments only; no header/queue producer, official scheduling, source DoT or accepted-Hit claim. World semantics reused from fixed peer R42."
   }
 }

@@ -122,7 +122,12 @@ The [resource read-order audit](client-resource-read-order.md) identifies separa
 Recovery saves the total rate before a World boundary and reads pool state later; Life reads later loss channels
 after earlier loss processing, while ES saves three loss rates before its first loss operation.
 Actual threshold/loss callback boundaries demonstrate conditional numerical consequences with disclosed script fixtures.
-This does not establish real queued-message execution at those boundaries or a single snapshot for all step inputs.
+The later [checkpoint/resource composition](client-resource-checkpoint-composition.md) reuses the projectile
+investigation's fixed World contract and runs an already-parsed `0x1b1` through the original checkpoint,
+dispatcher, setter and subsequent recovery arithmetic. A second-checkpoint assignment affects Life gain
+in this invocation while remaining pending in the selected Mana/ES controller paths. The checkpoint is a
+component-local counter, not elapsed time. Wire parsing, queue production and official checkpoint choices
+remain separate, as does any assumption of a single snapshot for all step inputs.
 
 ## Absolute assignment and fractional state
 

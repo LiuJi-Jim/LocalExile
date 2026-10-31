@@ -70,6 +70,7 @@ How to regenerate them: [re/tooling.md](re/tooling.md) §7.
 | [re/client-pool-maximum-refresh.md](re/client-pool-maximum-refresh.md) | actual maximum-stat subscriber, client-mode current-value gate, Life carry reset and conditional rescaling arithmetic |
 | [re/client-recharge-rate-authority.md](re/client-recharge-rate-authority.md) | actual recharge-active notifications, delay-reset ordering, no-op client state publication and separate total recovery-rate integration |
 | [re/client-resource-read-order.md](re/client-resource-read-order.md) | captured recovery rates versus later pool state, sequential Life rates, preloaded ES rates and actual callback boundaries |
+| [re/client-resource-checkpoint-composition.md](re/client-resource-checkpoint-composition.md) | peer-established World checkpoint and parsed resource dispatch composed with actual setter/recovery arithmetic |
 | [re/client-buff-initial-granted-values.md](re/client-buff-initial-granted-values.md) | initial Buff magnitude eligibility, byte-order distinction and prefix-preserving normalization |
 | [re/client-buff-wire-magnitudes.md](re/client-buff-wire-magnitudes.md) | AddBuff writer/reader magnitude gate, uncounted definition slots and wire-cardinality agreement |
 | [re/client-buff-observer-attraction-shape.md](re/client-buff-observer-attraction-shape.md) | concrete no-op Buff observer callbacks and a separately guarded presentation output |

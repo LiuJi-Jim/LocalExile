@@ -89,6 +89,7 @@ Detailed supplements keep the evidence reviewable without treating this summary 
 - [Actual maximum-stat subscriber, client-mode current-value gate and Life-only fractional-carry reset](client-pool-maximum-refresh.md).
 - [Actual recharge-active notifications, delay-reset ordering and separate total recovery-rate authority](client-recharge-rate-authority.md).
 - [Captured recovery rates, later pool state and distinct Life/ES loss-rate read order](client-resource-read-order.md).
+- [Peer-established ordered World checkpoint composed through parsed resource assignment and recovery arithmetic](client-resource-checkpoint-composition.md).
 - [Complete final spell min/max/total ranges, ordered equations and conversion branch asymmetries](client-spell-hit-formulas.md).
 - [Taken-as coefficients and ordered armour applicability overrides](client-defence-transfer-formulas.md).
 - [Complete physical/elemental reduction inputs, Strength of Blood and physical ceiling](client-reduction-inputs.md).
@@ -134,7 +135,8 @@ Projectile action/RNG/contact/World/result ingress stays with that owner; this i
 post-result numerical/resource boundary, Buff/DoT sources and calculation formulas.
 That snapshot leaves full accuracy/evasion composition and its native power helper open with that owner.
 
-The later fixed [object-type binding report](https://github.com/LocalExile/LocalExile/blob/fbb751a0caed81c6b43b1331884a1917a833098b/Agents/docs/re/projectiles/object-type-binding.md)
+The later fixed object-type binding report (`Agents/docs/re/projectiles/object-type-binding.md`,
+peer revision `fbb751a0caed81c6b43b1331884a1917a833098b`, locally retained and not yet available on GitHub)
 connects selected projectile rows, generated/source metadata and ordered component construction.
 Its 63-file snapshot, including 48 exact Git sources and parent-manifest hashes, was checked before reuse;
 its numerical audit was not rerun. World dispatch remains with that owner, while resource-side saved-rate
@@ -175,6 +177,8 @@ flowchart TD
   RECHARGECTRL --> ACTIVEPUBLISH[Installed client active-state publisher: exact no-op]
   RECHARGECTRL -->|reads separate total recovery rate| TICK
   TICK --> READORDER[Captured rate versus later state; Life sequential / ES preloaded loss rates]
+  READORDER --> CHECKPOINT[Peer-established World component checkpoint / eligible parsed record]
+  CHECKPOINT -->|0x1b1: actual dispatch and numerical composition| SETTER
   TICK --> POOL[Integer current + fractional carry + resource overflow]
   TICK -->|selected Life degen channels| LIFELOSS[Reason-4 Life-loss operation]
   BUFFVALUES[Eligible actual Buff first granted value] --> ABSORBCAP[AncestralTrialTotemAbsorbDegen backend capacity]
@@ -686,6 +690,7 @@ damage-bearing paths. Keep missing source eligibility/selection, formulas and sy
 | R1 | Absolute pool update path | Established | Preserve decoded-field vs wire-offset distinction |
 | R1/R4 | Maximum-stat notification and current-resource authority | Established for three pool keys and two client World tables | [Actual Life subscriber and pool refresh](client-pool-maximum-refresh.md) update maxima without proportional current changes on the two nonzero client getters; Life alone clears carry; conditional rescaling code and notification limits remain explicit |
 | R1/R4 | Recharge notifications, local delay and integrated-rate authority | Established for selected three-pool paths | [Actual active/block subscribers and recovery controller](client-recharge-rate-authority.md): positive-delay cancellation, reset suppression and ordered loss; installed active-state publication is a no-op, while recovery independently reads total rate; external event listeners remain separate |
+| R1/R4 | Ordered parsed resource assignment inside recovery | Established for selected composition | [Peer-owned World checkpoint and 0x1b1 dispatch run through actual setter and subsequent recovery](client-resource-checkpoint-composition.md); Life's additional checkpoint changes when a pending assignment can affect this gain; parsed queue/lookup/provider inputs are fixtures and wire/official scheduling remain separate |
 | R3/R4 | Integer resource changes and selected skill payments | Established for selected conditional paths | [Integer deltas, extra-arrow Life sacrifice, cost routing/check/payment and zero-gate bypass](client-integer-resource-mutations.md); ordinary-client gate provenance, final arrow emission and accepted-Hit loss remain separate |
 | R3/R4 | Conditional terminal Mana refunds | Established for selected numerical slices | [FireMortar table-bound refund and separate reason-qualified slice](client-terminal-mana-refunds.md), actual cost-stat layout, signed percent cap, wrapped product/unsigned widening and typed Mana setter; preceding geometry and the second body's actual incoming caller remain separate |
 | R2 | Typed DoT formulas through mitigation | Established locally | All five types and nonlethal branches audited; [asymmetries](client-dot-routing.md) remain explicit |
