@@ -201,6 +201,9 @@ The suspend/restore lifecycle is explicit LocalExile policy; see protocol/11-ski
   Local timer expiry and the installed no-op active-state publication do not supply a missing DoT/Hit source publisher.
   [Parsed Stats-to-Life composition](../docs/re/client-network-rate-composition.md) establishes received total-rate loss,
   not source-instance publication. Preserve its extra full-step checkpoint and raw/final override distinction.
+  Reuse [initial Stats byte composition](../docs/re/client-initial-stats-rate.md): the original component reader,
+  compact primitives and subsequent Life loss are bound. Do not count duplicate pairs as additive DoT sources,
+  or treat this selected component body as a whole creation packet or an observed official rate publisher.
   Preserve [resource input read order](../docs/re/client-resource-read-order.md): saved recovery rates, later pool state,
   sequential Life loss and preloaded ES loss differ. Reuse [the composed ordered resource route](../docs/re/client-resource-checkpoint-composition.md):
   peer-established World checkpoints/parsed dispatch now execute the actual setter and later recovery arithmetic.

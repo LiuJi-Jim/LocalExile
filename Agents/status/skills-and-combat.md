@@ -708,6 +708,9 @@ and can require explicit recipes.
   [Parsed Stats-to-Life composition](../docs/re/client-network-rate-composition.md) follows real network overrides,
   notifications and integration. A separate full-step checkpoint can consume a later total-loss update before loss.
   Updating a raw fire rate does not replace an explicit total-rate override; actual source publication remains open.
+  [Initial Stats byte composition](../docs/re/client-initial-stats-rate.md) runs the installed component reader,
+  both compact primitives and real override store through subsequent Life loss; entropy fields remain separate.
+  Duplicate pairs assign sequentially; zero-count reading preserves pre-existing overrides on the tested provider.
   [AddBuff magnitude transport](../docs/re/client-buff-wire-magnitudes.md) now binds the original writer to the known reader:
   non-recovery definitions omit granted words; eligible writes have no count and must match definition cardinality.
   The separate counted vector survives independently; these contracts do not publish a DoT source magnitude.

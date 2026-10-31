@@ -41406,6 +41406,7 @@
         "r3-entity-task-boundaries-final",
         "r3-loss-receiver-boundary",
         "r3-projectile-extension-clone",
+        "r30-initial-stats-rate",
         "r4-buff-clock-update-callbacks",
         "r4-buff-network-clock-contract",
         "r4-contact-leaf-coverage",
@@ -41764,6 +41765,7 @@
         "r25-resource-read-order",
         "r27-checkpoint-resources",
         "r29-network-rate-composition",
+        "r30-initial-stats-rate",
         "r5-ailment-outgoing-helpers",
         "r5-critical-math-final",
         "r6-critical-inputs",
@@ -42161,6 +42163,7 @@
         "r26-buff-wire",
         "r27-checkpoint-resources",
         "r29-network-rate-composition",
+        "r30-initial-stats-rate",
         "r4-pool-notification-leaves",
         "r8-ground-effect-boundary",
         "r9-ground-ownership"
@@ -42638,7 +42641,8 @@
       "sourceBatches": [
         "r29-network-rate-composition",
         "r3-c944-listener-final",
-        "r3-weapon-provider-equipment-notify"
+        "r3-weapon-provider-equipment-notify",
+        "r30-initial-stats-rate"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -52129,7 +52133,8 @@
         }
       ],
       "sourceBatches": [
-        "r1-skill-final-binding"
+        "r1-skill-final-binding",
+        "r30-initial-stats-rate"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -52441,7 +52446,8 @@
         }
       ],
       "sourceBatches": [
-        "r1-skill-final-binding"
+        "r1-skill-final-binding",
+        "r30-initial-stats-rate"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -52480,6 +52486,7 @@
         "r25-resource-read-order",
         "r27-checkpoint-resources",
         "r29-network-rate-composition",
+        "r30-initial-stats-rate",
         "r4-buff-guard-revive"
       ],
       "selectedDecompilationCompleted": true
@@ -52522,6 +52529,7 @@
         "r27-checkpoint-resources",
         "r29-network-rate-composition",
         "r3-loss-receiver-boundary",
+        "r30-initial-stats-rate",
         "r4-buff-clock-producers-discovery",
         "r4-buff-clock-producers-life-guard",
         "r4-buff-guard-revive"
@@ -52546,6 +52554,7 @@
         "r25-resource-read-order",
         "r27-checkpoint-resources",
         "r29-network-rate-composition",
+        "r30-initial-stats-rate",
         "r4-buff-clock-producers-transition-search"
       ],
       "selectedDecompilationCompleted": null
@@ -52567,6 +52576,7 @@
         "r25-resource-read-order",
         "r27-checkpoint-resources",
         "r29-network-rate-composition",
+        "r30-initial-stats-rate",
         "r4-pool-assignment-effects"
       ],
       "selectedDecompilationCompleted": true
@@ -52749,6 +52759,7 @@
         "r25-resource-read-order",
         "r27-checkpoint-resources",
         "r29-network-rate-composition",
+        "r30-initial-stats-rate",
         "r4-buff-guard-revive"
       ],
       "selectedDecompilationCompleted": true
@@ -52817,6 +52828,7 @@
         "r25-resource-read-order",
         "r27-checkpoint-resources",
         "r29-network-rate-composition",
+        "r30-initial-stats-rate",
         "source-and-authority"
       ],
       "selectedDecompilationCompleted": true
@@ -52867,7 +52879,8 @@
         "r25-resource-read-order",
         "r27-checkpoint-resources",
         "r29-network-rate-composition",
-        "r3-loss-receiver-boundary"
+        "r3-loss-receiver-boundary",
+        "r30-initial-stats-rate"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -52901,7 +52914,8 @@
         "r25-resource-read-order",
         "r27-checkpoint-resources",
         "r29-network-rate-composition",
-        "r3-loss-receiver-boundary"
+        "r3-loss-receiver-boundary",
+        "r30-initial-stats-rate"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -52937,6 +52951,7 @@
         "r27-checkpoint-resources",
         "r29-network-rate-composition",
         "r3-loss-receiver-boundary",
+        "r30-initial-stats-rate",
         "r4-buff-clock-producers-transition-search"
       ],
       "selectedDecompilationCompleted": true
@@ -52957,7 +52972,8 @@
         "r25-resource-read-order",
         "r27-checkpoint-resources",
         "r29-network-rate-composition",
-        "r3-loss-receiver-boundary"
+        "r3-loss-receiver-boundary",
+        "r30-initial-stats-rate"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -52979,6 +52995,7 @@
         "r25-resource-read-order",
         "r27-checkpoint-resources",
         "r29-network-rate-composition",
+        "r30-initial-stats-rate",
         "source-and-authority"
       ],
       "selectedDecompilationCompleted": true
@@ -52999,7 +53016,8 @@
         "r24-recharge-rate-authority",
         "r25-resource-read-order",
         "r27-checkpoint-resources",
-        "r29-network-rate-composition"
+        "r29-network-rate-composition",
+        "r30-initial-stats-rate"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -53020,6 +53038,7 @@
         "r25-resource-read-order",
         "r27-checkpoint-resources",
         "r29-network-rate-composition",
+        "r30-initial-stats-rate",
         "source-and-authority"
       ],
       "selectedDecompilationCompleted": true
@@ -53127,6 +53146,7 @@
         "r25-resource-read-order",
         "r27-checkpoint-resources",
         "r29-network-rate-composition",
+        "r30-initial-stats-rate",
         "r4-pool-assignment-effects"
       ],
       "selectedDecompilationCompleted": true
@@ -53146,6 +53166,7 @@
         "r25-resource-read-order",
         "r27-checkpoint-resources",
         "r29-network-rate-composition",
+        "r30-initial-stats-rate",
         "r4-pool-assignment-effects"
       ],
       "selectedDecompilationCompleted": true
@@ -53166,6 +53187,7 @@
         "r25-resource-read-order",
         "r27-checkpoint-resources",
         "r29-network-rate-composition",
+        "r30-initial-stats-rate",
         "r4-pool-assignment-effects"
       ],
       "selectedDecompilationCompleted": true
@@ -53186,6 +53208,7 @@
         "r25-resource-read-order",
         "r27-checkpoint-resources",
         "r29-network-rate-composition",
+        "r30-initial-stats-rate",
         "r4-pool-recharge-notify"
       ],
       "selectedDecompilationCompleted": true
@@ -53263,6 +53286,7 @@
         "r25-resource-read-order",
         "r27-checkpoint-resources",
         "r29-network-rate-composition",
+        "r30-initial-stats-rate",
         "source-and-authority"
       ],
       "selectedDecompilationCompleted": true
@@ -56234,6 +56258,7 @@
       "sourceBatches": [
         "r27-checkpoint-resources",
         "r29-network-rate-composition",
+        "r30-initial-stats-rate",
         "r4-buff-guard-revive",
         "r4-buff-network-clock-contract",
         "source-and-authority"
@@ -56607,6 +56632,7 @@
         "r10-buff-subscriptions-final",
         "r15-firewall-clock-final",
         "r3-contact-entropy-lifecycle",
+        "r30-initial-stats-rate",
         "source-and-authority"
       ],
       "selectedDecompilationCompleted": true
@@ -56651,7 +56677,8 @@
         }
       ],
       "sourceBatches": [
-        "network-and-sources"
+        "network-and-sources",
+        "r30-initial-stats-rate"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -56713,6 +56740,7 @@
       "sourceBatches": [
         "network-and-sources",
         "r15-firewall-clock-final",
+        "r30-initial-stats-rate",
         "source-and-authority"
       ],
       "selectedDecompilationCompleted": true
@@ -57403,6 +57431,7 @@
       "sourceBatches": [
         "r15-firewall-clock-final",
         "r29-network-rate-composition",
+        "r30-initial-stats-rate",
         "stat-and-formula-v2"
       ],
       "selectedDecompilationCompleted": true
@@ -57420,7 +57449,8 @@
       ],
       "sourceBatches": [
         "r10-buff-subscriptions-final",
-        "r29-network-rate-composition"
+        "r29-network-rate-composition",
+        "r30-initial-stats-rate"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -57438,6 +57468,7 @@
       "sourceBatches": [
         "r1-network-notifications-v2",
         "r29-network-rate-composition",
+        "r30-initial-stats-rate",
         "stat-and-formula-v2"
       ],
       "selectedDecompilationCompleted": true
@@ -57472,7 +57503,8 @@
       "sourceBatches": [
         "network-and-sources",
         "r1-network-notifications-v2",
-        "r29-network-rate-composition"
+        "r29-network-rate-composition",
+        "r30-initial-stats-rate"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -71695,7 +71727,8 @@
         "r24-recharge-rate-authority",
         "r25-resource-read-order",
         "r27-checkpoint-resources",
-        "r29-network-rate-composition"
+        "r29-network-rate-composition",
+        "r30-initial-stats-rate"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -71747,7 +71780,8 @@
         "r24-recharge-rate-authority",
         "r25-resource-read-order",
         "r27-checkpoint-resources",
-        "r29-network-rate-composition"
+        "r29-network-rate-composition",
+        "r30-initial-stats-rate"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -71766,7 +71800,8 @@
         "r24-recharge-rate-authority",
         "r25-resource-read-order",
         "r27-checkpoint-resources",
-        "r29-network-rate-composition"
+        "r29-network-rate-composition",
+        "r30-initial-stats-rate"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -71785,7 +71820,8 @@
         "r24-recharge-rate-authority",
         "r25-resource-read-order",
         "r27-checkpoint-resources",
-        "r29-network-rate-composition"
+        "r29-network-rate-composition",
+        "r30-initial-stats-rate"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -71804,7 +71840,8 @@
         "r24-recharge-rate-authority",
         "r25-resource-read-order",
         "r27-checkpoint-resources",
-        "r29-network-rate-composition"
+        "r29-network-rate-composition",
+        "r30-initial-stats-rate"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -71837,7 +71874,8 @@
         "r24-recharge-rate-authority",
         "r25-resource-read-order",
         "r27-checkpoint-resources",
-        "r29-network-rate-composition"
+        "r29-network-rate-composition",
+        "r30-initial-stats-rate"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -71856,7 +71894,8 @@
         "r24-recharge-rate-authority",
         "r25-resource-read-order",
         "r27-checkpoint-resources",
-        "r29-network-rate-composition"
+        "r29-network-rate-composition",
+        "r30-initial-stats-rate"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -71875,7 +71914,8 @@
         "r24-recharge-rate-authority",
         "r25-resource-read-order",
         "r27-checkpoint-resources",
-        "r29-network-rate-composition"
+        "r29-network-rate-composition",
+        "r30-initial-stats-rate"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -71907,7 +71947,8 @@
       "sourceBatches": [
         "r25-resource-read-order",
         "r27-checkpoint-resources",
-        "r29-network-rate-composition"
+        "r29-network-rate-composition",
+        "r30-initial-stats-rate"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -71924,7 +71965,8 @@
       ],
       "sourceBatches": [
         "r27-checkpoint-resources",
-        "r29-network-rate-composition"
+        "r29-network-rate-composition",
+        "r30-initial-stats-rate"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -73560,6 +73602,11 @@
       "name": "r29-network-rate-composition",
       "auditSha256": "48162cdd11a01cd58db12a64136c7aac2f573f0527fe498d752ed771274e1d52",
       "functionCount": 37
+    },
+    {
+      "name": "r30-initial-stats-rate",
+      "auditSha256": "8ee435fa90871f82e159b46307f8dc13acdff2ebd8ad14abdc2d46f2df72ebb4",
+      "functionCount": 42
     }
   ],
   "pointerSlots": [
@@ -75892,7 +75939,7 @@
     "checkedReferenceInstructions": 13431,
     "decompilationFailures": [],
     "scope": "Original ranges/offsets, unwind ownership or explicit boundaries, stat identity, reference instructions and pointer-slot contents revalidated offline.",
-    "additionalFreshValidation": "R29 rechecked all retained original ranges/unwind owners/offsets and pointer slots; parsed Stats updates composed with actual getter/setter/notification and Life integration. Prior decompilation/reference checks retained, not rerun."
+    "additionalFreshValidation": "R30 rechecked all retained range bytes/unwind group boundaries/offsets and pointer slots; initial Stats compact readers composed with actual override store and Life. Prior selected decompilation and reference checks retained, not rerun."
   },
   "supportingRecords": [
     {
@@ -81165,6 +81212,48 @@
       "bytes": 5329,
       "sha256": "5caf2030ed3951815d4626b90d5ac2d86f0ae24853e535d6b7869ffa78a70ec8",
       "role": "R29 parsed Stats-to-Life composition and original-instruction supplied-state controls; fixed peer R44 reused without rerunning its audit"
+    },
+    {
+      "path": "Agents/docs/re/client-initial-stats-rate.md",
+      "bytes": 8989,
+      "sha256": "e0b59ebff71b50742b2b45f96b081d2b0f8acd04ac3f59cdf5ae6e1cc1b95dfb",
+      "role": "R30 original initial Stats component bytes through actual network overrides and Life integration; bounded direct-setter provenance; offline supplied-state controls"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r30-initial-stats-rate.py",
+      "bytes": 7045,
+      "sha256": "bd5d4e1e13194177422064f708fba0cd1b9f3f7b385f0f9b50f8ef26ccc8e17e",
+      "role": "R30 original initial Stats component bytes through actual network overrides and Life integration; bounded direct-setter provenance; offline supplied-state controls"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r30-initial-stats-fresh.py",
+      "bytes": 4639,
+      "sha256": "2dd4a9bf68181f24fca2764eae17cbff5e55d2d76c20b5c5bb1c41719e6de114",
+      "role": "R30 original initial Stats component bytes through actual network overrides and Life integration; bounded direct-setter provenance; offline supplied-state controls"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r30-seal.py",
+      "bytes": 4049,
+      "sha256": "6dd706f1f1c10665bb7e7d5cdba808dc0c411325bf44f68ec87645bef531c3a1",
+      "role": "R30 original initial Stats component bytes through actual network overrides and Life integration; bounded direct-setter provenance; offline supplied-state controls"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r30-initial-stats-rate/audit.json",
+      "bytes": 626538,
+      "sha256": "8ee435fa90871f82e159b46307f8dc13acdff2ebd8ad14abdc2d46f2df72ebb4",
+      "role": "R30 original initial Stats component bytes through actual network overrides and Life integration; bounded direct-setter provenance; offline supplied-state controls"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r30-initial-stats-rate/verification.json",
+      "bytes": 23181,
+      "sha256": "e4fb7b28bb9d0089290b44a3b518bf3816636fd099c08350ef803697a35cdec7",
+      "role": "R30 original initial Stats component bytes through actual network overrides and Life integration; bounded direct-setter provenance; offline supplied-state controls"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r30-initial-stats-rate/fresh-check.json",
+      "bytes": 6102,
+      "sha256": "3196e07cb5164c7905f66653405130031b7ba9feb4f47589de862862a4ad05fe",
+      "role": "R30 original initial Stats component bytes through actual network overrides and Life integration; bounded direct-setter provenance; offline supplied-state controls"
     }
   ],
   "auxiliaryDataTables": [
@@ -81574,5 +81663,15 @@
     "steps": 1075486,
     "visitedInstructions": 787,
     "limits": "Same-agent original-instruction parsed queue/network overrides/Life integration. Source-instance publication, selection/cap and official sends remain separate. Fixed peer R44 reused by immutable files."
+  },
+  "initialStatsRateCompositionVerification": {
+    "runtimeExecuted": false,
+    "functions": 42,
+    "ranges": 78,
+    "decodedInstructions": 4479,
+    "cases": 243,
+    "steps": 279450,
+    "visitedInstructions": 981,
+    "limits": "Synthetic valid initial component body, existing updated keys and supplied provider/resources; no whole Entity packet, official sends, DoT source publisher/selection/cap or accepted-Hit closure."
   }
 }

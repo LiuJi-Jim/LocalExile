@@ -72,6 +72,7 @@ How to regenerate them: [re/tooling.md](re/tooling.md) §7.
 | [re/client-resource-read-order.md](re/client-resource-read-order.md) | captured recovery rates versus later pool state, sequential Life rates, preloaded ES rates and actual callback boundaries |
 | [re/client-resource-checkpoint-composition.md](re/client-resource-checkpoint-composition.md) | peer-established World checkpoint and parsed resource dispatch composed with actual setter/recovery arithmetic |
 | [re/client-network-rate-composition.md](re/client-network-rate-composition.md) | parsed owner Stats updates through real overrides, notifications and Life loss; full-step checkpoint and raw/final-rate distinction |
+| [re/client-initial-stats-rate.md](re/client-initial-stats-rate.md) | original initial Stats bytes through real overrides and Life loss; compact signed/unsigned decoding, entropy transport and bounded setter provenance |
 | [re/client-buff-initial-granted-values.md](re/client-buff-initial-granted-values.md) | initial Buff magnitude eligibility, byte-order distinction and prefix-preserving normalization |
 | [re/client-buff-wire-magnitudes.md](re/client-buff-wire-magnitudes.md) | AddBuff writer/reader magnitude gate, uncounted definition slots and wire-cardinality agreement |
 | [re/client-buff-observer-attraction-shape.md](re/client-buff-observer-attraction-shape.md) | concrete no-op Buff observer callbacks and a separately guarded presentation output |

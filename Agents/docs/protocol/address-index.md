@@ -257,7 +257,7 @@ These are client addresses; their presence is not proof of official-server imple
 
 | Address | Kind | What |
 |---|---|---|
-| `0x1421c2f40` | Fn | Creation Stats pairs reach the network setter |
+| `0x1421c2f40` | Fn | [Initial Stats bytes to Life loss](../re/client-initial-stats-rate.md): compact pair decoding, real overrides, entropy transport and later numerical Life integration |
 | `0x1424cfa40` | Fn | Network stat override getter; upstream fallback only when absent |
 | `0x1424cfaf0` | Fn | Insert/replace one raw pair, notifying only that key |
 | `0x1421881b6` / `0x141e6af61` / `0x141e6afb1` | Site | [Parsed Stats to Life loss](../re/client-network-rate-composition.md): target provider, full-step checkpoint and actual total-rate read; distinct from source-rate publication |
