@@ -156,11 +156,15 @@ The dispatcher writes the cache value and valid bit; an unchanged value returns 
 publication/notifications. A changed output is written to record `+8` at `0x1424fcdb3`.
 
 `0x1424fb5f0(context, key)` walks the reverse-dependency vector at registry entry `+8..+0x10`
-and inserts unsigned identifiers into a sorted, duplicate-free dirty vector at context
-`+0x10..+0x18`. Transaction completion maps these identifiers through global `0x1445c6ee0`
-before dispatching. The vector elements should not simply be renamed raw stat keys without
-that mapping. These observations establish conditional invalidation and dispatch; they do not
-prove a complete ordering or fixed-point algorithm for every callback.
+and inserts unsigned evaluation ranks into the sorted work vector at context `+0x10..+0x18`.
+Startup builds these ranks by cycle-checked, dependency-first traversal of declared inputs;
+transaction completion maps ranks through global `0x1445c6ee0` before dispatching. Its loop
+reloads the vector after callbacks and processes newly queued later ranks. Unchanged formula
+outputs stop propagation; this is not a general repeated-sweep fixed-point solver.
+The earlier unconditional duplicate-free description is corrected: 24 of the 2,539 recovered
+declarations contain repeated inputs, and the helper can retain repeated ranks from one reverse
+vector. This does not establish duplicate damage. See [dependency order and transaction queues](client-stat-dependency-order.md)
+for exact algorithm, actual duplicate examples, bounded controls and callback/reentrancy limits.
 
 ### Native source tokens retain additive contributions
 

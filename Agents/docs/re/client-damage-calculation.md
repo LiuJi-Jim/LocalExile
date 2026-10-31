@@ -60,6 +60,7 @@ They are offline evidence records, not REA Evidence IDs.
 Detailed supplements keep the evidence reviewable without treating this summary as an exhaustive formula list:
 
 - [Stat objects, inputs, notifications and startup guards](client-stat-evaluation.md).
+- [Native declared-dependency order, transaction queues and actual duplicate declarations](client-stat-dependency-order.md).
 - [Typed DoT formulas, resource routes and arithmetic boundaries](client-dot-routing.md).
 - [Complete incoming fire self-rate composition, signed64 percentages and state gates](client-fire-self-rate.md).
 - [Complete incoming physical/chaos self-rates, transfer gates and arithmetic order](client-physical-chaos-self-rates.md).
@@ -657,6 +658,7 @@ damage-bearing paths. Keep missing source eligibility/selection, formulas and sy
 |---|---|---|---|
 | R0 | Pin artifact, table keys and instruction boundaries | Established | Re-audit when either input hash changes |
 | R1 | Network Stats, actor/skill inputs, lookup freshness and native publication | Established | Actual network provider chain, updates/notifications and guarded native boundary audited; [details](client-stat-evaluation.md); subsequent skill update identified as [0x1b4](client-damage-pr373-comparison.md#0x1b4-is-a-skill-stat-update) |
+| R1 | Native dependency ordering and work-vector algorithm | Established for audited helpers and recovered declaration graph | [Cycle-checked traversal, rank rewriting, growing ordered dispatch, unchanged-output propagation stops and 24 actual duplicate-containing declarations](client-stat-dependency-order.md); declared edges do not guarantee all actual reads or arbitrary reentrant callbacks |
 | R1 | Absolute pool update path | Established | Preserve decoded-field vs wire-offset distinction |
 | R2 | Typed DoT formulas through mitigation | Established locally | All five types and nonlethal branches audited; [asymmetries](client-dot-routing.md) remain explicit |
 | R2 | Fire self-rate composition | Established for output 8180 | [Complete signed64 percentage, Her Embrace, Touch of Fire, ignite-transfer and difficulty branches](client-fire-self-rate.md); actual source-instance input publication stays open |

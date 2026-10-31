@@ -688,6 +688,9 @@ and can require explicit recipes.
   Actual network Actor/skill providers, current fallback and same-key notification masking are bound statically.
   Opcode `0x1b4` updates selected skill/stat-set key-value overrides; its pairs are not projectile path points.
   Native formula transactions are separate; successful startup disables native action-context mutation.
+  Native declared dependencies establish cycle-checked ranks and a growing ordered transaction work vector.
+  Unchanged outputs stop propagation; 24 recovered declarations repeat inputs and can retain duplicate ranks.
+  See [ordering and queue limits](../docs/re/client-stat-dependency-order.md); this does not imply duplicate damage.
   Typed DoT mitigation, eight resource channels, healing exclusions and multiple cap/overflow stages are audited.
     Additional physical/elemental reduction and the physical ceiling have complete native input equations.
     Conditional terms, Strength of Blood, small ceilings and seven undeclared physical-input reads are preserved.

@@ -142,6 +142,8 @@ The suspend/restore lifecycle is explicit LocalExile policy; see protocol/11-ski
   These callbacks consume supplied bleed/ignite/poison rates; primitive instance publication remains open.
   Defender-conditional presence output 9189 groups 37 inputs; bind its numerical use before treating it as a resolver.
   The native cache receiver ABI is established; do not promote untyped offset matches into actual consumers.
+  Reuse [native dependency ordering](../docs/re/client-stat-dependency-order.md) and changed-output propagation.
+  Preserve actual duplicate declarations; neither the ordered queue nor declared edges guarantee every runtime read.
   IsApplyDamageFunctionStat selects guarded active-index maintenance for eleven on-hit side effects.
   Reuse its typed metadata consumer; actual function execution and numerical hit application remain separate.
   Three concrete Buff Stats subscribers update state/presentation; do not repeat them as clock-refresh candidates.

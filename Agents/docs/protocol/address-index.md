@@ -148,6 +148,7 @@ These are client addresses; their presence is not proof of official-server imple
 | `0x142182790` / `0x141e40560` / `0x141e496c0` | Fn | Network Stats type factory / type constructor / shared native stats helper |
 | `0x1424fb790` / `0x14363d3b0` | Fn / Vt | Native stat object constructor / stored-value getter table |
 | `0x1424fd240` / `0x1424fd390` | Fn | Begin/nest / end update transaction; outermost end processes affected evaluations |
+| `0x1428e6720` / `0x1428e68b0` / `0x1424fb5f0` | Fn | [Cycle-checked dependency traversal / rank-map initialization / sorted reverse-dependency enqueue](../re/client-stat-dependency-order.md); duplicate declaration ranks can survive insertion |
 | `0x1424fcc80` / `0x1424fccf8` / `0x1424fcdb3` | Fn / Insn | Evaluation dispatcher / callback call / changed result write |
 | `0x142196ce0` / `0x141ee73d0` / `0x141ee7e70` | Fn | Network skill record construction / retained override providers / context accessor |
 | `0x1435c21c0` / `0x141fdeb10` / `0x141fdea50` | Vt / Fn | `0x1b4` skill/stat-set key-value update table, reader and serializer |
