@@ -711,6 +711,10 @@ and can require explicit recipes.
   [Initial Stats byte composition](../docs/re/client-initial-stats-rate.md) runs the installed component reader,
   both compact primitives and real override store through subsequent Life loss; entropy fields remain separate.
   Duplicate pairs assign sequentially; zero-count reading preserves pre-existing overrides on the tested provider.
+  [Owner/instance clock composition](../docs/re/client-buff-clock-authority.md) executes insertion, actual
+  owner timing-stat notifications and retained partial updates through eligible ticks. In the supplied empty
+  lifecycle/observational-listener state, later owner values do not rewrite the saved speed; received zero
+  pauses it without reapplying the initializer floor. Definition force-one remains separate; generic refresh is open.
   [Buff lifecycle/rate composition](../docs/re/client-buff-rate-independence.md) executes parsed removal,
   empty lifecycle/destruction and eligible timers through subsequent Life loss with real network overrides.
   Expiration/removal leaves the supplied aggregate independent; a separate Stats update can stop loss.

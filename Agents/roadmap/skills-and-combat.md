@@ -209,6 +209,10 @@ The suspend/restore lifecycle is explicit LocalExile policy; see protocol/11-ski
   Reuse [initial Stats byte composition](../docs/re/client-initial-stats-rate.md): the original component reader,
   compact primitives and subsequent Life loss are bound. Do not count duplicate pairs as additive DoT sources,
   or treat this selected component body as a whole creation packet or an observed official rate publisher.
+  Reuse [owner/instance clock composition](../docs/re/client-buff-clock-authority.md): actual insertion and
+  selected owner notifications do not replace a received-instance refresh policy. Network speed zero bypasses
+  the initializer floor; definition force-one still governs ticks. Find the generic actual refresh publisher
+  without repeating these supplied-state controls or interpreting timer speed as DPS.
   Reuse [Buff lifecycle/rate composition](../docs/re/client-buff-rate-independence.md): parsed removal and
   eligible timer expiry do not clear the supplied explicit aggregate in the selected empty-lifecycle state.
   Separate instance synchronization from rate withdrawal; recover the source publisher and its actual ordering,
