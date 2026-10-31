@@ -185,6 +185,9 @@ The suspend/restore lifecycle is explicit LocalExile policy; see protocol/11-ski
     Seven physical reads are absent from its declared vector; do not assume that vector is exhaustive.
   PreloadFromStats and the selected Cold Snap backend have concrete resource/presentation outputs; do not reclassify
   them as numerical publishers or expand their renderer without a separate numerical edge.
+  Reuse [penetration input equations](../docs/re/client-penetration-inputs.md); typed and hand totals already include
+  generic/highest-uncapped contributions. Preserve separate event-qualified inputs and undeclared condition reads.
+  Bind actual resistance selection, ignore/prohibition/penetration application instead of adding these totals twice.
   Connect accepted contacts to numerical damage/critical/mitigation and pool receivers; these edges remain open.
   Reuse integer pool cost/sacrifice paths separately; trace payment-gate provenance before claiming client prepayment.
   Their concrete numerical writes do not close accepted-Hit damage or DoT source publication.

@@ -202,6 +202,7 @@ These are client addresses; their presence is not proof of official-server imple
 | `0x1427e9270` / `0x142825210` / `0x142866b80` | Fn | [Ailment chance inputs](../re/client-ailment-chance-inputs.md): generic ignite/poison and main-hand bleed chance composition |
 | `0x14275c050` / `0x14275c6a0` / `0x14276b920` | Fn | [Critical formulas](../re/client-critical-formulas.md): effective MH/OH probability and main-hand damage multiplier |
 | `0x142754c20` / `0x142756810` / `0x142758320` | Fn | [Complete critical inputs](../re/client-critical-inputs.md): MH/OH/spell base, increased/final, overrides and numeric order |
+| `0x142762810` / `0x142764010` / `0x142842fb0` / `0x14284a360` | Fn | [Penetration inputs](../re/client-penetration-inputs.md): generic/typed/hand composition and highest-uncapped ties; actual hit application remains separate |
 | `0x1427d0140` / `0x1427d2480` / `0x14287ae20` | Fn | [Hit defender modifiers](../re/client-hit-defender-modifiers.md): shared/physical final and elemental-ignore predicate; not actual-hit amount calculation |
 | `0x142856610` / `0x14288f2f0` / `0x14288f6d0` | Fn | [Virtual ailment faster inputs](../re/client-ailment-multiplier-inputs.md): ignite/poison/bleed qualifications and additive inputs |
 | `0x142774170` / `0x142774bb0` / `0x142774f70` | Fn | [Combined ailment multipliers](../re/client-ailment-multiplier-inputs.md): bleed/ignite/poison integer sums and conditional scopes |

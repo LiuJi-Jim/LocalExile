@@ -87,6 +87,7 @@ How to regenerate them: [re/tooling.md](re/tooling.md) §7.
 | [re/client-ailment-chance-inputs.md](re/client-ailment-chance-inputs.md) | ordinary and critical-only bleeding/ignite/poison chance inputs, qualifiers and integer arithmetic |
 | [re/client-critical-formulas.md](re/client-critical-formulas.md) | critical probability/luck/unexciting transforms, overrides, multipliers and math-helper contracts |
 | [re/client-critical-inputs.md](re/client-critical-inputs.md) | complete MH/OH/spell chance input algebra, overrides, weapon classification and arithmetic order |
+| [re/client-penetration-inputs.md](re/client-penetration-inputs.md) | twenty-one registered penetration equations, typed/hand composition, highest-uncapped ties and event-specific input boundaries |
 | [re/client-hit-defender-modifiers.md](re/client-hit-defender-modifiers.md) | shared/typed hit-taken factors, ignore-resistance predicates and defender enemy-critical inputs |
 | [re/client-defence-transfer-formulas.md](re/client-defence-transfer-formulas.md) | seventeen taken-as coefficients, five armour applicability outputs, override order and dependency differences |
 | [re/client-reduction-inputs.md](re/client-reduction-inputs.md) | complete physical/elemental reduction inputs, conditional terms, small ceilings, Strength of Blood and dependency-vector differences |

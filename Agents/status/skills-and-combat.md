@@ -724,6 +724,9 @@ and can require explicit recipes.
   The spell longest-path exception is distinct; original float parentheses can change rounded results.
   Three physical-defence estimate callbacks use reference damage, Ward substitution and distinct armour inputs.
   Their category reader is bound; they are not a concrete-hit mitigation calculation.
+  [Penetration inputs](../docs/re/client-penetration-inputs.md) bind generic elemental, typed and both-hand composition.
+  Highest-uncapped ties, independent 200 ceilings and undeclared state reads retain their exact scope.
+  Critical-only inputs and resistance prohibitions still require an actual event consumer.
   Accuracy, critical chance and sheet-reference hit chance formulas remain distinct from a concrete defender roll.
   Named Fireball spatial contacts/dodge/projectile avoidance and Melee accuracy/entropy decisions are now bound.
   Sand Spitter MonsterMortarAttack has a factory/accuracy/radius-feedback binding and empty source Actor callbacks.

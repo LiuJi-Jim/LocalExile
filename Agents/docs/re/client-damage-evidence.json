@@ -17001,7 +17001,8 @@
         }
       ],
       "sourceBatches": [
-        "r19-stat-order"
+        "r19-stat-order",
+        "r28-penetration-inputs"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -17017,7 +17018,8 @@
         }
       ],
       "sourceBatches": [
-        "r19-stat-order"
+        "r19-stat-order",
+        "r28-penetration-inputs"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -17033,7 +17035,8 @@
         }
       ],
       "sourceBatches": [
-        "r19-stat-order"
+        "r19-stat-order",
+        "r28-penetration-inputs"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -17049,7 +17052,8 @@
         }
       ],
       "sourceBatches": [
-        "r19-stat-order"
+        "r19-stat-order",
+        "r28-penetration-inputs"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -17065,7 +17069,8 @@
         }
       ],
       "sourceBatches": [
-        "r19-stat-order"
+        "r19-stat-order",
+        "r28-penetration-inputs"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -29031,7 +29036,8 @@
         }
       ],
       "sourceBatches": [
-        "r19-stat-order"
+        "r19-stat-order",
+        "r28-penetration-inputs"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -29047,7 +29053,8 @@
         }
       ],
       "sourceBatches": [
-        "r19-stat-order"
+        "r19-stat-order",
+        "r28-penetration-inputs"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -29063,7 +29070,8 @@
         }
       ],
       "sourceBatches": [
-        "r19-stat-order"
+        "r19-stat-order",
+        "r28-penetration-inputs"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -29079,7 +29087,8 @@
         }
       ],
       "sourceBatches": [
-        "r19-stat-order"
+        "r19-stat-order",
+        "r28-penetration-inputs"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -29095,7 +29104,8 @@
         }
       ],
       "sourceBatches": [
-        "r19-stat-order"
+        "r19-stat-order",
+        "r28-penetration-inputs"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -29111,7 +29121,8 @@
         }
       ],
       "sourceBatches": [
-        "r19-stat-order"
+        "r19-stat-order",
+        "r28-penetration-inputs"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -29127,7 +29138,8 @@
         }
       ],
       "sourceBatches": [
-        "r19-stat-order"
+        "r19-stat-order",
+        "r28-penetration-inputs"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -29143,7 +29155,8 @@
         }
       ],
       "sourceBatches": [
-        "r19-stat-order"
+        "r19-stat-order",
+        "r28-penetration-inputs"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -29159,7 +29172,8 @@
         }
       ],
       "sourceBatches": [
-        "r19-stat-order"
+        "r19-stat-order",
+        "r28-penetration-inputs"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -29175,7 +29189,8 @@
         }
       ],
       "sourceBatches": [
-        "r19-stat-order"
+        "r19-stat-order",
+        "r28-penetration-inputs"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -29191,7 +29206,8 @@
         }
       ],
       "sourceBatches": [
-        "r19-stat-order"
+        "r19-stat-order",
+        "r28-penetration-inputs"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -29497,7 +29513,8 @@
         }
       ],
       "sourceBatches": [
-        "r19-stat-order"
+        "r19-stat-order",
+        "r28-penetration-inputs"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -29513,7 +29530,8 @@
         }
       ],
       "sourceBatches": [
-        "r19-stat-order"
+        "r19-stat-order",
+        "r28-penetration-inputs"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -29529,7 +29547,8 @@
         }
       ],
       "sourceBatches": [
-        "r19-stat-order"
+        "r19-stat-order",
+        "r28-penetration-inputs"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -33101,7 +33120,8 @@
         }
       ],
       "sourceBatches": [
-        "r19-stat-order"
+        "r19-stat-order",
+        "r28-penetration-inputs"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -40092,7 +40112,8 @@
         }
       ],
       "sourceBatches": [
-        "r19-stat-order"
+        "r19-stat-order",
+        "r28-penetration-inputs"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -71869,6 +71890,342 @@
         "r27-checkpoint-resources"
       ],
       "selectedDecompilationCompleted": null
+    },
+    "0x142762810": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x142762810",
+          "endExclusive": "0x142763e0e",
+          "bytes": 5630,
+          "fileOffset": 41294864,
+          "sha256": "97b4068ed215673dda42a7b5365d9d87745e6e69ac9fab999017496df450d696"
+        }
+      ],
+      "sourceBatches": [
+        "r28-penetration-inputs"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x142763e10": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x142763e10",
+          "endExclusive": "0x14276400c",
+          "bytes": 508,
+          "fileOffset": 41300496,
+          "sha256": "9bae5ff034e7010aa604847cd3a710ece84992532be2a9399561b652f212b97c"
+        }
+      ],
+      "sourceBatches": [
+        "r28-penetration-inputs"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x142764010": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x142764010",
+          "endExclusive": "0x142764d22",
+          "bytes": 3346,
+          "fileOffset": 41301008,
+          "sha256": "70d88dea582fdd44882e48dd06f94bd4c9ecde641d287b31adfeda71cc15e557"
+        }
+      ],
+      "sourceBatches": [
+        "r28-penetration-inputs"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x142764d30": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x142764d30",
+          "endExclusive": "0x142765588",
+          "bytes": 2136,
+          "fileOffset": 41304368,
+          "sha256": "6cbe2eacc4539801172ce947e22ffecea79405cd268d89134595c9810eb2eb29"
+        }
+      ],
+      "sourceBatches": [
+        "r28-penetration-inputs"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x142765590": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x142765590",
+          "endExclusive": "0x142765df8",
+          "bytes": 2152,
+          "fileOffset": 41306512,
+          "sha256": "4f00904893c6702a9a349d9458b6200708f5828f98d65b058a6dc5344db0b8fd"
+        }
+      ],
+      "sourceBatches": [
+        "r28-penetration-inputs"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x142842440": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x142842440",
+          "endExclusive": "0x142842801",
+          "bytes": 961,
+          "fileOffset": 42211392,
+          "sha256": "0ffa7d8ad423dc3be3bc3fe1b00cf2961513fcb9df01af53cea6b5c7167815cf"
+        }
+      ],
+      "sourceBatches": [
+        "r28-penetration-inputs"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x142842810": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x142842810",
+          "endExclusive": "0x142842bd1",
+          "bytes": 961,
+          "fileOffset": 42212368,
+          "sha256": "493e63d84c7f00e9cd76b81521c9cfdcc24d371fde69bc561805baa04fb50a2d"
+        }
+      ],
+      "sourceBatches": [
+        "r28-penetration-inputs"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x142842be0": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x142842be0",
+          "endExclusive": "0x142842fa1",
+          "bytes": 961,
+          "fileOffset": 42213344,
+          "sha256": "7af641aa6bd3e2b4160f8dcafa299af542255baa39464e1a04ba77eb7f12d841"
+        }
+      ],
+      "sourceBatches": [
+        "r28-penetration-inputs"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x142842fb0": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x142842fb0",
+          "endExclusive": "0x14284361e",
+          "bytes": 1646,
+          "fileOffset": 42214320,
+          "sha256": "3ef5421ef25e37e76f934104307a4a588147cd6205fb6962cfccb63fed4e80d3"
+        }
+      ],
+      "sourceBatches": [
+        "r28-penetration-inputs"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x142843620": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x142843620",
+          "endExclusive": "0x142843c8e",
+          "bytes": 1646,
+          "fileOffset": 42215968,
+          "sha256": "fb197a7cc8dc774f8fb5b90c412e9ad6b65bb3453cb8359f21b19cad9367b8de"
+        }
+      ],
+      "sourceBatches": [
+        "r28-penetration-inputs"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x142843c90": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x142843c90",
+          "endExclusive": "0x1428442fe",
+          "bytes": 1646,
+          "fileOffset": 42217616,
+          "sha256": "37ff6b8c6f9fd63d29c3c672440515101e6c96f70d5f6f898e0eb59cde379ddb"
+        }
+      ],
+      "sourceBatches": [
+        "r28-penetration-inputs"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x142844300": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x142844300",
+          "endExclusive": "0x14284496e",
+          "bytes": 1646,
+          "fileOffset": 42219264,
+          "sha256": "5c72202e096202f00542029049921daf5291f4b8d4295b63ca9b58e02c4dfb77"
+        }
+      ],
+      "sourceBatches": [
+        "r28-penetration-inputs"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x142844970": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x142844970",
+          "endExclusive": "0x142844fde",
+          "bytes": 1646,
+          "fileOffset": 42220912,
+          "sha256": "cd8bad314761e99091ad6c249614b12cc923cadce6671881800ffc056d065b16"
+        }
+      ],
+      "sourceBatches": [
+        "r28-penetration-inputs"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x142844fe0": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x142844fe0",
+          "endExclusive": "0x14284564e",
+          "bytes": 1646,
+          "fileOffset": 42222560,
+          "sha256": "ca0bd82bf6860590086905c83c4606291e51a24b43eb779de73e80c6f32c3209"
+        }
+      ],
+      "sourceBatches": [
+        "r28-penetration-inputs"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x142845650": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x142845650",
+          "endExclusive": "0x142845cb1",
+          "bytes": 1633,
+          "fileOffset": 42224208,
+          "sha256": "e929d6446c828b4a92fe58eee7136fd08c30ca3429a96c899d608b1a535dead8"
+        }
+      ],
+      "sourceBatches": [
+        "r28-penetration-inputs"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x142845cc0": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x142845cc0",
+          "endExclusive": "0x142846321",
+          "bytes": 1633,
+          "fileOffset": 42225856,
+          "sha256": "ae03b47e34e155fefd90da248dfc3228711946e0c0799c828a46aafd4711c66f"
+        }
+      ],
+      "sourceBatches": [
+        "r28-penetration-inputs"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x14284a360": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x14284a360",
+          "endExclusive": "0x14284a74a",
+          "bytes": 1002,
+          "fileOffset": 42243936,
+          "sha256": "e66bcead8285bda259e9e5d0710246e5be5236269de188027c6712cbde132b5d"
+        }
+      ],
+      "sourceBatches": [
+        "r28-penetration-inputs"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x14284a750": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x14284a750",
+          "endExclusive": "0x14284ab3a",
+          "bytes": 1002,
+          "fileOffset": 42244944,
+          "sha256": "d081d749106a00214343375dac16fc3feb01e0fa2693d6ff1e7d12d9eadbde65"
+        }
+      ],
+      "sourceBatches": [
+        "r28-penetration-inputs"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x14284ab40": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x14284ab40",
+          "endExclusive": "0x14284af2a",
+          "bytes": 1002,
+          "fileOffset": 42245952,
+          "sha256": "6b29b3ffc58ce578494b1fe5a94c12869239ec45b583e02228142ca31ab1299e"
+        }
+      ],
+      "sourceBatches": [
+        "r28-penetration-inputs"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x14288f0f0": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x14288f0f0",
+          "endExclusive": "0x14288f2ed",
+          "bytes": 509,
+          "fileOffset": 42525936,
+          "sha256": "4de284e16cecf744dd64497158704521b647e7ee9f98e7696b3a51a800342c77"
+        }
+      ],
+      "sourceBatches": [
+        "r28-penetration-inputs"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x1428d7120": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1428d7120",
+          "endExclusive": "0x1428d7413",
+          "bytes": 755,
+          "fileOffset": 42820896,
+          "sha256": "591354cd51e730b6e1021c7a4e55b126d39ae9028e4e0c5e03a37f9e557c8b2f"
+        }
+      ],
+      "sourceBatches": [
+        "r28-penetration-inputs"
+      ],
+      "selectedDecompilationCompleted": null
     }
   },
   "batches": [
@@ -73156,6 +73513,11 @@
       "name": "r27-checkpoint-resources",
       "auditSha256": "691d00484507f7e3952ab4318078148f1c0963e407be92aee71193decca2acc1",
       "functionCount": 32
+    },
+    {
+      "name": "r28-penetration-inputs",
+      "auditSha256": "dba31d4c8cf53555a0d1fff42b8d54d171cc7e16d39089d86bd6a2a4d1e28424",
+      "functionCount": 42
     }
   ],
   "pointerSlots": [
@@ -75488,7 +75850,7 @@
     "checkedReferenceInstructions": 13431,
     "decompilationFailures": [],
     "scope": "Original ranges/offsets, unwind ownership or explicit boundaries, stat identity, reference instructions and pointer-slot contents revalidated offline.",
-    "additionalFreshValidation": "R27 rechecked all retained original ranges/unwind owners/offsets and pointer slots; selected ordered parsed resource assignment and recovery bound. Prior decompilation/reference checks retained, not rerun."
+    "additionalFreshValidation": "R28 rechecked all retained original ranges/unwind owners/offsets and pointer slots; 21 registered penetration input callbacks audited. Prior decompilation/reference checks retained, not rerun."
   },
   "supportingRecords": [
     {
@@ -80623,6 +80985,90 @@
       "bytes": 3699,
       "sha256": "f788a0b9d8fe9f99c4d8b411c89159568c7076347012139ac2d57361c9f8b2b3",
       "role": "R27 original checkpoint/parsed-resource dispatcher/actual setter/recovery composition; fixed peer R42 reused without rerunning standalone audit"
+    },
+    {
+      "path": "Agents/docs/re/client-penetration-inputs.md",
+      "bytes": 14484,
+      "sha256": "b50baf181f48c0001c47548c80fe7a769b588db372be7dacf9b3d2b0f5b043ff",
+      "role": "R28 penetration input equations and original-instruction supplied-cache controls; fixed peer R43 reused without rerunning its audit"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r28-penetration-prepare.py",
+      "bytes": 2009,
+      "sha256": "ab98a6df207edb037c8dbe9e1396921e7fefba97bd0b62719e036bcb4c764608",
+      "role": "R28 penetration input equations and original-instruction supplied-cache controls; fixed peer R43 reused without rerunning its audit"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r28-penetration-vm.py",
+      "bytes": 7487,
+      "sha256": "6098f65f44d192fc2c1f90e4fb2b51a21c1216b0fba30aa1917903f264ac2632",
+      "role": "R28 penetration input equations and original-instruction supplied-cache controls; fixed peer R43 reused without rerunning its audit"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r28-penetration-deps.py",
+      "bytes": 2822,
+      "sha256": "5cf4b642c01f1daf88e052dbd9e8b423970566c7846168dbe5f089fe0fe5e249",
+      "role": "R28 penetration input equations and original-instruction supplied-cache controls; fixed peer R43 reused without rerunning its audit"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r28-penetration-verify.py",
+      "bytes": 8321,
+      "sha256": "ad1e487f2d6e7b4dd741541e23645bee31981ac8dddfa39e3c63576bf8d7c31e",
+      "role": "R28 penetration input equations and original-instruction supplied-cache controls; fixed peer R43 reused without rerunning its audit"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r28-penetration-fresh.py",
+      "bytes": 4520,
+      "sha256": "64ca52252ce90e7e57666a73d2993e066867d350703b61e31d7b4317f321adbe",
+      "role": "R28 penetration input equations and original-instruction supplied-cache controls; fixed peer R43 reused without rerunning its audit"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r28-seal.py",
+      "bytes": 4790,
+      "sha256": "5ab46e3b54d04671b749bda5b96e9a9882ae48ecf4d4a29e89da38df7a0945ea",
+      "role": "R28 penetration input equations and original-instruction supplied-cache controls; fixed peer R43 reused without rerunning its audit"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/coordination-r43-reuse.py",
+      "bytes": 1873,
+      "sha256": "263d3a7755a54c7baac9c872ad24440532d8ee1e5970d9d7bccac90415d709ae",
+      "role": "R28 penetration input equations and original-instruction supplied-cache controls; fixed peer R43 reused without rerunning its audit"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/coordination-r43-reuse.json",
+      "bytes": 704,
+      "sha256": "b9d9dfd43e417c54c2c809dcec3113dd2ad896452a13c675f1ae4c9a3986c9e3",
+      "role": "R28 penetration input equations and original-instruction supplied-cache controls; fixed peer R43 reused without rerunning its audit"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r28-penetration-inputs/audit.json",
+      "bytes": 1181532,
+      "sha256": "dba31d4c8cf53555a0d1fff42b8d54d171cc7e16d39089d86bd6a2a4d1e28424",
+      "role": "R28 penetration input equations and original-instruction supplied-cache controls; fixed peer R43 reused without rerunning its audit"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r28-penetration-inputs/mapping.json",
+      "bytes": 3357,
+      "sha256": "8312a88674d6e0209dcecc014a01a238bff811918f3916a906ee2754c2104691",
+      "role": "R28 penetration input equations and original-instruction supplied-cache controls; fixed peer R43 reused without rerunning its audit"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r28-penetration-inputs/dependencies.json",
+      "bytes": 26528,
+      "sha256": "d33f7ce5f67e6cf937a208143f046aaa1aa3ce737fc97660314e1dfc619892ee",
+      "role": "R28 penetration input equations and original-instruction supplied-cache controls; fixed peer R43 reused without rerunning its audit"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r28-penetration-inputs/verification.json",
+      "bytes": 33325,
+      "sha256": "48c4e162e7a05bee0815ca16be6f617c7306d1d5ccce163b3d4d4d96807497e3",
+      "role": "R28 penetration input equations and original-instruction supplied-cache controls; fixed peer R43 reused without rerunning its audit"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r28-penetration-inputs/fresh-check.json",
+      "bytes": 5089,
+      "sha256": "98419bc138b924361ca885578336e03954fe86cc37b3f8fe3a9cc84167da38df",
+      "role": "R28 penetration input equations and original-instruction supplied-cache controls; fixed peer R43 reused without rerunning its audit"
     }
   ],
   "auxiliaryDataTables": [
@@ -81011,5 +81457,16 @@
     "steps": 41214,
     "visitedInstructions": 427,
     "limits": "Same-agent original checkpoint/parsed dispatch/setter/recovery composition. Parsed queue, TLS, object/provider/policy inputs are fixtures. Positive bit-4 assignments only; no header/queue producer, official scheduling, source DoT or accepted-Hit claim. World semantics reused from fixed peer R42."
+  },
+  "penetrationInputVerification": {
+    "runtimeExecuted": false,
+    "functions": 42,
+    "ranges": 42,
+    "decodedInstructions": 8881,
+    "registrationCalls": 21,
+    "cases": 12020,
+    "steps": 861675,
+    "visitedInstructions": 1562,
+    "limits": "Same-agent original-instruction supplied-cache composition. Native cache misses, original transaction scheduling, equipment/source publication, actual hit/resistance/critical/prohibition application and pools remain separate. Peer R43 reused by immutable files."
   }
 }
