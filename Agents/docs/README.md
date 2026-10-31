@@ -121,6 +121,7 @@ How to regenerate them: [re/tooling.md](re/tooling.md) §7.
 | [re/client-buff-clock-updates.md](re/client-buff-clock-updates.md) | insertion clocks, network replacement and ticking versus unresolved owner-stat-driven refresh |
 | [re/client-buff-stats-subscriptions.md](re/client-buff-stats-subscriptions.md) | three concrete owner-Stats subscribers, backend/instance field identities and non-clock callback consequences |
 | [re/client-buff-clock-input-provenance.md](re/client-buff-clock-input-provenance.md) | clock eligibility byte/word transport, zero additive defaults and partial/replacement assignment asymmetry |
+| [re/client-buff-wire-source-composition.md](re/client-buff-wire-source-composition.md) | original body decoding through retained source updates, complete attribution selector and selected Life-callback prefix; explicit damage rate stays separate |
 | [re/client-buff-default-backend.md](re/client-buff-default-backend.md) | strict empty-Id2 backend lookup, startup registration catalogue, null lifecycle guards and remaining numerical boundaries |
 | [re/client-buff-lifecycle-scripts.md](re/client-buff-lifecycle-scripts.md) | actual observer payloads, lifecycle program configuration and invocation, selected Buff-presence predicates |
 | [re/client-applydamage-stat-index.md](re/client-applydamage-stat-index.md) | actual IsApplyDamageFunctionStat reader, metadata map and guarded active function-index vectors; distinct from numerical damage execution |

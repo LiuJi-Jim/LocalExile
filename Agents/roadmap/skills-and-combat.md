@@ -135,6 +135,9 @@ The suspend/restore lifecycle is explicit LocalExile policy; see protocol/11-ski
   Reuse [the retained replacement composition](../docs/re/client-buff-replacement-composition.md): actual temporary
   construction and field transfer preserve identity and some initialization inputs. Do not model it as reinsertion,
   reapply the local speed floor, or assume clock changes withdraw the independent explicit loss-rate override.
+  Reuse [body-to-source attribution composition](../docs/re/client-buff-wire-source-composition.md): both retained
+  paths overwrite the transported source, including zero; partial/replacement eligibility and extra context differ.
+  Do not repeat this body/selector prefix or interpret it as strongest-instance selection, rate publication or final attribution.
   Empty Id2 for ignited/poison selects null in the audited startup catalogue, not an implicit default backend.
   Follow concrete numerical observer/script leads; do not repeat that closed factory/registry question.
   Reuse actual Buff observer payloads, lifecycle program storage/invocation and selected presence predicates.
