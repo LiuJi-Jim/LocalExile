@@ -25366,7 +25366,8 @@
         }
       ],
       "sourceBatches": [
-        "r19-stat-order"
+        "r19-stat-order",
+        "r37-skill-duration"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -25382,7 +25383,8 @@
         }
       ],
       "sourceBatches": [
-        "r19-stat-order"
+        "r19-stat-order",
+        "r37-skill-duration"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -25398,7 +25400,8 @@
         }
       ],
       "sourceBatches": [
-        "r19-stat-order"
+        "r19-stat-order",
+        "r37-skill-duration"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -25482,7 +25485,8 @@
         }
       ],
       "sourceBatches": [
-        "r19-stat-order"
+        "r19-stat-order",
+        "r37-skill-duration"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -25498,7 +25502,8 @@
         }
       ],
       "sourceBatches": [
-        "r19-stat-order"
+        "r19-stat-order",
+        "r37-skill-duration"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -25514,7 +25519,8 @@
         }
       ],
       "sourceBatches": [
-        "r19-stat-order"
+        "r19-stat-order",
+        "r37-skill-duration"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -41780,6 +41786,7 @@
         "r33-result-resource-composition",
         "r34-buff-clock-authority",
         "r36-duration-formulas",
+        "r37-skill-duration",
         "r5-ailment-outgoing-helpers",
         "r5-critical-math-final",
         "r6-critical-inputs",
@@ -57033,7 +57040,8 @@
       ],
       "sourceBatches": [
         "r2-rf-outgoing-labels",
-        "r3-offence-panel-bind"
+        "r3-offence-panel-bind",
+        "r37-skill-duration"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -70261,6 +70269,7 @@
       ],
       "sourceBatches": [
         "r36-duration-formulas",
+        "r37-skill-duration",
         "r6-ailment-duration-formulas"
       ],
       "selectedDecompilationCompleted": null
@@ -70278,6 +70287,7 @@
       ],
       "sourceBatches": [
         "r36-duration-formulas",
+        "r37-skill-duration",
         "r6-ailment-duration-formulas"
       ],
       "selectedDecompilationCompleted": null
@@ -70295,6 +70305,7 @@
       ],
       "sourceBatches": [
         "r36-duration-formulas",
+        "r37-skill-duration",
         "r6-ailment-duration-formulas"
       ],
       "selectedDecompilationCompleted": null
@@ -70312,6 +70323,7 @@
       ],
       "sourceBatches": [
         "r36-duration-formulas",
+        "r37-skill-duration",
         "r6-ailment-duration-formulas"
       ],
       "selectedDecompilationCompleted": null
@@ -72844,6 +72856,118 @@
         "r35-contribution-callers"
       ],
       "selectedDecompilationCompleted": false
+    },
+    "0x140b2dbf0": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x140b2dbf0",
+          "endExclusive": "0x140b2e8cf",
+          "bytes": 3295,
+          "fileOffset": 11718640,
+          "sha256": "9fa1fbf6bd8bbc50c769ed2dcb16b34c32f21a06c02e7bee770bfc8ed4fc8e46"
+        }
+      ],
+      "sourceBatches": [
+        "r37-skill-duration"
+      ],
+      "selectedDecompilationCompleted": false
+    },
+    "0x1428068d0": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1428068d0",
+          "endExclusive": "0x142806e76",
+          "bytes": 1446,
+          "fileOffset": 41966800,
+          "sha256": "be2626176abfec5ce862b724919c2c3d21f64426199de29d6705d5bfa833ddd0"
+        }
+      ],
+      "sourceBatches": [
+        "r37-skill-duration"
+      ],
+      "selectedDecompilationCompleted": false
+    },
+    "0x142806e80": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x142806e80",
+          "endExclusive": "0x142807113",
+          "bytes": 659,
+          "fileOffset": 41968256,
+          "sha256": "951ee37680e85728247af2bd755f634c056f9e70698a34fad57d95a9ffbbdb37"
+        }
+      ],
+      "sourceBatches": [
+        "r37-skill-duration"
+      ],
+      "selectedDecompilationCompleted": false
+    },
+    "0x142807120": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x142807120",
+          "endExclusive": "0x142807485",
+          "bytes": 869,
+          "fileOffset": 41968928,
+          "sha256": "ed98415a41d3346636eec0b95f9324ba517a48dc13c69d37d8224bf1cd2cba7e"
+        }
+      ],
+      "sourceBatches": [
+        "r37-skill-duration"
+      ],
+      "selectedDecompilationCompleted": false
+    },
+    "0x142809200": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x142809200",
+          "endExclusive": "0x14280979e",
+          "bytes": 1438,
+          "fileOffset": 41977344,
+          "sha256": "e89dcb8cfbe6bd32d452249132bc366b0f8d77ecd01ebd03b97bc6ca31a6a233"
+        }
+      ],
+      "sourceBatches": [
+        "r37-skill-duration"
+      ],
+      "selectedDecompilationCompleted": false
+    },
+    "0x1428097a0": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1428097a0",
+          "endExclusive": "0x142809a33",
+          "bytes": 659,
+          "fileOffset": 41978784,
+          "sha256": "f2bfd6fbd1204629e867d6512724430beda28723c4a2f79f4592cc6ed54b824a"
+        }
+      ],
+      "sourceBatches": [
+        "r37-skill-duration"
+      ],
+      "selectedDecompilationCompleted": false
+    },
+    "0x142809a40": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x142809a40",
+          "endExclusive": "0x142809da5",
+          "bytes": 869,
+          "fileOffset": 41979456,
+          "sha256": "f4afc33550f15bcd13ca90454ff0c98d42881a2f73c18f6c8e65fe502e104030"
+        }
+      ],
+      "sourceBatches": [
+        "r37-skill-duration"
+      ],
+      "selectedDecompilationCompleted": false
     }
   },
   "batches": [
@@ -74176,6 +74300,11 @@
       "name": "r36-duration-formulas",
       "auditSha256": "ea644fe7ef8f99edd908d4d46f7a244b65b88f20899811eefb033dbc5c3d3989",
       "functionCount": 13
+    },
+    {
+      "name": "r37-skill-duration",
+      "auditSha256": "4fef78fc9ff17a8e81ac4ec0d69e180ca906c9a1436708e28a8b767305f521b0",
+      "functionCount": 19
     }
   ],
   "pointerSlots": [
@@ -76574,7 +76703,7 @@
     "checkedReferenceInstructions": 13431,
     "decompilationFailures": [],
     "scope": "Original ranges/offsets, unwind ownership or explicit boundaries, stat identity, reference instructions and pointer-slot contents revalidated offline.",
-    "additionalFreshValidation": "R36 rechecked all retained original-byte ranges/unwind boundaries/file offsets/pointer slots; six source-duration modifier callbacks have complete conditional equations and ordered binary32 supplied-cache controls. Actual instance assignment, target rate publication/shared cap and numerical Hit-to-pool remain open."
+    "additionalFreshValidation": "R37 rechecked all retained original-byte ranges/unwind boundaries/file offsets/pointer slots; six additional skill-duration callbacks have exact charge/factor/base equations and staged supplied-cache controls; two candidate literals are ClientStrings labels, not numeric Stats reads. Actual instance assignment, target rate publication/shared cap and numerical Hit-to-pool remain open."
   },
   "supportingRecords": [
     {
@@ -82231,6 +82360,66 @@
       "bytes": 797,
       "sha256": "91983ea4a33fd1a52f62b8e6b9cb8faeba7106000c5096f5f21235ed0b04a8bd",
       "role": "R36 complete six source ailment-duration modifier equations, original-instruction ready-cache controls and fresh byte/registrar/declaration checks; not instance assignment or target rate publication"
+    },
+    {
+      "path": "Agents/docs/re/client-ailment-skill-duration.md",
+      "bytes": 9657,
+      "sha256": "1ca723b6c189e0f13173c8476eb2f68bc417a4aee128f677980b7b724333b327",
+      "role": "R37 six additional skill-duration equations, original-instruction/staged controls, bounded consumer navigation and original ClientStrings label classification; not instance assignment or target rate publication"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r37-duration-consumers.py",
+      "bytes": 3234,
+      "sha256": "e77c6f1975d508489eabdcbecc6ba13e704aa58051ff989021dd96d82b68cbfb",
+      "role": "R37 six additional skill-duration equations, original-instruction/staged controls, bounded consumer navigation and original ClientStrings label classification; not instance assignment or target rate publication"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r37-skill-duration-formulas.py",
+      "bytes": 7933,
+      "sha256": "abe3229fbe970fb4337edd6efc8279ee78557369841b797e15c95acf965b8d52",
+      "role": "R37 six additional skill-duration equations, original-instruction/staged controls, bounded consumer navigation and original ClientStrings label classification; not instance assignment or target rate publication"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r37-skill-duration-fresh.py",
+      "bytes": 5316,
+      "sha256": "569f8b1adfc967a3c0291f78859ebdea43cafef4987b059d88f958378b64f34a",
+      "role": "R37 six additional skill-duration equations, original-instruction/staged controls, bounded consumer navigation and original ClientStrings label classification; not instance assignment or target rate publication"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r37-seal.py",
+      "bytes": 4667,
+      "sha256": "ada4382df0f183a8ec6eebee48c8f87d11912ccd9ffde6ccb367bcd7391499e1",
+      "role": "R37 six additional skill-duration equations, original-instruction/staged controls, bounded consumer navigation and original ClientStrings label classification; not instance assignment or target rate publication"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r37-skill-duration/audit.json",
+      "bytes": 619224,
+      "sha256": "4fef78fc9ff17a8e81ac4ec0d69e180ca906c9a1436708e28a8b767305f521b0",
+      "role": "R37 six additional skill-duration equations, original-instruction/staged controls, bounded consumer navigation and original ClientStrings label classification; not instance assignment or target rate publication"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r37-skill-duration/controls.json",
+      "bytes": 519577,
+      "sha256": "b4c428713fdcffdc69e5d825b0252cacd75bf9fd37ac5058354d1a59014e6cd3",
+      "role": "R37 six additional skill-duration equations, original-instruction/staged controls, bounded consumer navigation and original ClientStrings label classification; not instance assignment or target rate publication"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r37-skill-duration/verification.json",
+      "bytes": 1208,
+      "sha256": "d2818c95f7b04662b8430911880f1e4973e4b2d91f54a4e54a34c18d059b082b",
+      "role": "R37 six additional skill-duration equations, original-instruction/staged controls, bounded consumer navigation and original ClientStrings label classification; not instance assignment or target rate publication"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r37-skill-duration/fresh-check.json",
+      "bytes": 1025,
+      "sha256": "a401356e9e9da436b14b3ac4aa9f00386de2a7bc2a5fc5f2b2dc2f766150e3c5",
+      "role": "R37 six additional skill-duration equations, original-instruction/staged controls, bounded consumer navigation and original ClientStrings label classification; not instance assignment or target rate publication"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r37-duration-consumers/candidates.json",
+      "bytes": 34816,
+      "sha256": "6323b2e9113bc16b23f07e68524af2e15e036feb947d203ab1fba1a314dee88e",
+      "role": "R37 six additional skill-duration equations, original-instruction/staged controls, bounded consumer navigation and original ClientStrings label classification; not instance assignment or target rate publication"
     }
   ],
   "auxiliaryDataTables": [
@@ -82717,5 +82906,23 @@
     "visitedSites": 847,
     "newManifestEntries": 0,
     "limits": "Supplied valid ready-cache context; no native entity execution, dependency invalidation, instance lifetime assignment, source-to-target publication or shared cap. Finite float32 controls exclude faster=-100 and overflow to nonfinite values."
+  },
+  "ailmentSkillDurationVerification": {
+    "runtimeExecuted": false,
+    "functions": 19,
+    "ranges": 19,
+    "decodedInstructions": 4591,
+    "registrations": 6,
+    "declaredInputs": 22,
+    "namedInputs": 15,
+    "anchors": 35,
+    "navigationHits": 121,
+    "controls": 1266,
+    "interpretedInstructions": 100709,
+    "visitedSites": 877,
+    "stagedCompositions": 72,
+    "candidateOwners": 985,
+    "clientStringLabelCollisions": 2,
+    "limits": "Supplied valid ready-cache values and explicit staged composition, not native dependency dispatch or ailment-instance construction. Outputs retain base input units; no Buff seconds conversion, target publication/shared cap or expiry withdrawal. Numeric-looking UI literals resolve ClientStrings, not Stats. Bounded navigation excludes dynamic/data-driven/unwindless consumers."
   }
 }

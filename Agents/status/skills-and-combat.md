@@ -831,6 +831,9 @@ and can require explicit recipes.
   [Six complete duration modifier equations](../docs/re/client-ailment-duration-inputs.md) preserve shared bow/focus/retaliation/recency gates,
   ignite bearer/tincture terms, bleed divide-before-multiply, poison's inclusive 150-Int test and upper-only bonus cap.
   2,074 supplied-cache controls verify integer boundaries and ordered binary32 factors; actual instance assignment stays open.
+  [Six skill-duration stages](../docs/re/client-ailment-skill-duration.md) combine base 359 with bleed/poison and skill factors,
+  preserving separate full-count/five-charge terms and intermediate rounding. 1,266 controls include 72 staged compositions.
+  Duration override selection/instance assignment remain open; two candidate literals resolve Atlas/League ClientStrings labels.
   Versioned GGG examples identify applied source rate/duration, dynamic target response and maintained-aura exceptions.
   Official explanations use relevant events for stat/time-scale updates, with per-frame timer advancement.
   Flame Wall's secondary Buff polls current owner network stat 12588 after its eligible duration decrement.

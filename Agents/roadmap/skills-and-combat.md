@@ -122,6 +122,8 @@ The suspend/restore lifecycle is explicit LocalExile policy; see protocol/11-ski
   Reuse versioned source-sampling/target-dynamic rules and native duration/faster compensation.
   Reuse the complete six source-duration modifier equations, including conditional sums and ordered binary32 arithmetic;
   do not rescan them as instance construction. Base-duration application and actual instance assignment remain open.
+  Reuse the six additional skill-duration numeric stages and their source input units; do not flatten their intermediate rounding.
+  Resolve actual 1192/3745/6188 override selection and instance assignment separately; the 6187/6188 UI literals are ClientStrings labels.
   Existing owner-stat-to-clock subscriptions and source-rate expiry publication remain separate open edges.
   Reuse recovered clock input transport/defaults and partial/replacement asymmetry; later recalculation stays open.
   Empty Id2 for ignited/poison selects null in the audited startup catalogue, not an implicit default backend.
