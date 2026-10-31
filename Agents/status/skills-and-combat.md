@@ -711,6 +711,10 @@ and can require explicit recipes.
   [Initial Stats byte composition](../docs/re/client-initial-stats-rate.md) runs the installed component reader,
   both compact primitives and real override store through subsequent Life loss; entropy fields remain separate.
   Duplicate pairs assign sequentially; zero-count reading preserves pre-existing overrides on the tested provider.
+  [Buff lifecycle/rate composition](../docs/re/client-buff-rate-independence.md) executes parsed removal,
+  empty lifecycle/destruction and eligible timers through subsequent Life loss with real network overrides.
+  Expiration/removal leaves the supplied aggregate independent; a separate Stats update can stop loss.
+  Empty listeners/scripts and clock eligibility are supplied inputs, not universal client behavior.
     [Critical Link's numerical collector](../docs/re/client-critical-link-export.md) binds three raw Stats appends
     and exact final action slots; its two non-recovery Buff definitions omit granted magnitudes on AddBuff.
     Actual collector invocation, grant application and refresh remain open; this is separate from Hit damage.
