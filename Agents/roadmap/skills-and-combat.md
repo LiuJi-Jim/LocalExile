@@ -165,7 +165,9 @@ The suspend/restore lifecycle is explicit LocalExile policy; see protocol/11-ski
   Reuse that selected path; general owner timing-stat subscriptions and existing-instance speed refresh remain open.
   Reuse the actual Buff capacity and exhausted-duration contract for reason-4 Life loss.
   Generic Buff contribution and source-rate publication remain open.
+  Reuse the separate Buff resource forecasts and first-eligible Life-callback source context; neither publishes rate.
   Four Hit script subscribers have exact asymmetric contexts; trace their actual program consequences.
+  Reuse the selected Ferrofluid source/capture/named-task cleanup; its render-pack block is not numerical damage.
   Life-to-Buffs guards and the decoded nonpositive-to-positive Life clear trigger are bound.
   Trace other guard producers and source-rate consequences separately from that assignment branch.
   GroundEffect kill/expiry now reaches the owner's conditional Buffs guard and a concrete lifecycle boundary.

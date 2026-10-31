@@ -775,8 +775,12 @@ and can require explicit recipes.
   A nonzero value restores construction-captured remaining duration; this does not recalculate stored speed.
   AncestralTrialTotemAbsorbDegen uses an actual Buff granted value as reason-4 Life-loss capacity.
   Exhaustion clears capacity/duration; substantial overflow preserves the original delta for later loss policies.
+  Actual Buff values and remaining duration also feed recovery/deferred-loss forecasts for resource indicators.
+  A separate first-eligible Buff selector supplies fallback Life-callback source context, not strongest-DPS selection.
   Four Hit script APIs bind Actor signals to captured programs with distinct Entity/label/mask-bit inputs.
-  Their program consequences and general source-rate publication remain separate from these closed contracts.
+  A packaged Ferrofluid client attachment supplies one real captured Hit program and named-task detach cleanup.
+  Its block requests render EffectPack removal/addition; this does not supply a numerical Hit amount.
+  Other program consequences and general source-rate publication remain separate from these closed contracts.
   Five Aura source APIs are server-mode metadata, ineligible in ordinary client GEAL compilation.
   Versioned selection rules include aggravated bleed's independent normal/extra selection; native publisher stays open.
   Fireball client factories overwrite the base action table; inherited gates survive, clone/terminal slots differ.

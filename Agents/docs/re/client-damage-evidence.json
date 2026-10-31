@@ -9913,6 +9913,96 @@
       ],
       "selectedDecompilationCompleted": null
     },
+    "0x140232840": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x140232840",
+          "endExclusive": "0x140232886",
+          "bytes": 70,
+          "fileOffset": 2300992,
+          "sha256": "064d25fa8edd24f14b69dae76373c57c4a440997e14521e8ed61b557b80d2d12"
+        },
+        {
+          "start": "0x140232886",
+          "endExclusive": "0x1402329c4",
+          "bytes": 318,
+          "fileOffset": 2301062,
+          "sha256": "6dccbe4b7f2b181ffc3736bb8c63221d6e35e5ecb49268eeb7ac606ff5941cbf"
+        },
+        {
+          "start": "0x1402329c4",
+          "endExclusive": "0x140232bcf",
+          "bytes": 523,
+          "fileOffset": 2301380,
+          "sha256": "3a1b5915f97cafb9f1baa49565ff5e4c6afc7618d8d7b21378f8463f7f6d123e"
+        },
+        {
+          "start": "0x140232bcf",
+          "endExclusive": "0x140232bdf",
+          "bytes": 16,
+          "fileOffset": 2301903,
+          "sha256": "36522ee9a4675d5404b8cdd5218b12e52495f8793488cade2fefd159f0112709"
+        },
+        {
+          "start": "0x140232bdf",
+          "endExclusive": "0x140232bf3",
+          "bytes": 20,
+          "fileOffset": 2301919,
+          "sha256": "54b504697ac7658754d27a798f274f56329700e6190b36845edba7c0b3824230"
+        }
+      ],
+      "sourceBatches": [
+        "r17-dot-consumers-final"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x140235100": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x140235100",
+          "endExclusive": "0x14023512b",
+          "bytes": 43,
+          "fileOffset": 2311424,
+          "sha256": "e0097499f71917202a27510df8477e301f8426c625319034102d66bc0067d805"
+        },
+        {
+          "start": "0x14023512b",
+          "endExclusive": "0x140235372",
+          "bytes": 583,
+          "fileOffset": 2311467,
+          "sha256": "0d5574bd47d1f7efc765655a89ccd52447b699f080832641f2d0edf0bd4381fd"
+        },
+        {
+          "start": "0x140235372",
+          "endExclusive": "0x140235384",
+          "bytes": 18,
+          "fileOffset": 2312050,
+          "sha256": "5e20e195c464a28644fbc1b86e4bd83b5ec18e75a25b61296ce093e200930269"
+        }
+      ],
+      "sourceBatches": [
+        "r17-dot-consumers-final"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x140235390": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x140235390",
+          "endExclusive": "0x140235922",
+          "bytes": 1426,
+          "fileOffset": 2312080,
+          "sha256": "1c85a3641b0ef1658117f1ddadf8d11b184b2d8f6ffd72f423539579b6c6c5a8"
+        }
+      ],
+      "sourceBatches": [
+        "r17-dot-consumers-final"
+      ],
+      "selectedDecompilationCompleted": null
+    },
     "0x1402727e0": {
       "boundary": "PE-unwind-root-and-chains",
       "ranges": [
@@ -14130,6 +14220,54 @@
       ],
       "selectedDecompilationCompleted": null
     },
+    "0x1417f9570": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1417f9570",
+          "endExclusive": "0x1417f9abd",
+          "bytes": 1357,
+          "fileOffset": 25135472,
+          "sha256": "fdc4e17bb3c46416c584fdb12ace0653ffbe23eb59ae9adea708f29c421ba4bf"
+        }
+      ],
+      "sourceBatches": [
+        "r17-hit-program-final"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x1417fbd50": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1417fbd50",
+          "endExclusive": "0x1417fc273",
+          "bytes": 1315,
+          "fileOffset": 25145680,
+          "sha256": "6c874c9f88a27d88f1dffd549899b9ba1ded7d7955f5cd48deb4232cbb12f314"
+        }
+      ],
+      "sourceBatches": [
+        "r17-hit-program-final"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x1418034a0": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1418034a0",
+          "endExclusive": "0x1418035cf",
+          "bytes": 303,
+          "fileOffset": 25176224,
+          "sha256": "a31de07a387d64f786db20c8e76e867bdff2fff94c97f0e393024f175f386e58"
+        }
+      ],
+      "sourceBatches": [
+        "r17-hit-program-final"
+      ],
+      "selectedDecompilationCompleted": null
+    },
     "0x141818530": {
       "boundary": "PE-unwind-root-and-chains",
       "ranges": [
@@ -17413,6 +17551,7 @@
         }
       ],
       "sourceBatches": [
+        "r17-hit-program-final",
         "r3-event-program-parser"
       ],
       "selectedDecompilationCompleted": null
@@ -17558,6 +17697,7 @@
         }
       ],
       "sourceBatches": [
+        "r17-hit-program-final",
         "r3-loss-geal-emission"
       ],
       "selectedDecompilationCompleted": null
@@ -17700,6 +17840,7 @@
         }
       ],
       "sourceBatches": [
+        "r17-hit-program-final",
         "r3-loss-geal-descriptor"
       ],
       "selectedDecompilationCompleted": null
@@ -17716,6 +17857,7 @@
         }
       ],
       "sourceBatches": [
+        "r17-hit-program-final",
         "r3-loss-geal-emission"
       ],
       "selectedDecompilationCompleted": null
@@ -17749,6 +17891,22 @@
       ],
       "sourceBatches": [
         "r3-loss-script-descriptors-bound"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x141dfbba0": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x141dfbba0",
+          "endExclusive": "0x141dfbcad",
+          "bytes": 269,
+          "fileOffset": 31436704,
+          "sha256": "1a422087c9b2710f47d043af1df89644fd508a941a8d4245531ce51692b8fe54"
+        }
+      ],
+      "sourceBatches": [
+        "r17-hit-program-final"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -19862,6 +20020,7 @@
         }
       ],
       "sourceBatches": [
+        "r17-dot-consumers-final",
         "r2-grants-global-bodies",
         "r4-buff-clock-producers-life-guard"
       ],
@@ -19900,6 +20059,7 @@
         }
       ],
       "sourceBatches": [
+        "r17-dot-consumers-final",
         "r4-buff-clock-producers-transition-search"
       ],
       "selectedDecompilationCompleted": null
@@ -19919,6 +20079,91 @@
         "r4-pool-assignment-effects"
       ],
       "selectedDecompilationCompleted": true
+    },
+    "0x141e684c0": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x141e684c0",
+          "endExclusive": "0x141e68f6b",
+          "bytes": 2731,
+          "fileOffset": 31881408,
+          "sha256": "ea3c08ce31d8a26da2e8843d6c24baa372080fba0c871ead8f9b823e4008dc80"
+        }
+      ],
+      "sourceBatches": [
+        "r17-dot-consumers-final"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x141e68f70": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x141e68f70",
+          "endExclusive": "0x141e691e2",
+          "bytes": 626,
+          "fileOffset": 31884144,
+          "sha256": "e39217a9058aa4ecbe2b6b6661a53047603ff3b02c5ec36fd94a0f725923c949"
+        }
+      ],
+      "sourceBatches": [
+        "r17-dot-consumers-final"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x141e692e0": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x141e692e0",
+          "endExclusive": "0x141e69522",
+          "bytes": 578,
+          "fileOffset": 31885024,
+          "sha256": "9a01816d20c8a8d666aaee1cd604739a330bc47ac4574d0a723ec8ac906bda91"
+        }
+      ],
+      "sourceBatches": [
+        "r17-dot-consumers-final"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x141e69530": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x141e69530",
+          "endExclusive": "0x141e69561",
+          "bytes": 49,
+          "fileOffset": 31885616,
+          "sha256": "6a71058b2d34498dbd311f6b6c2e28b986d72c1ca9b24c7dd235bc41c3f71b81"
+        },
+        {
+          "start": "0x141e69561",
+          "endExclusive": "0x141e69604",
+          "bytes": 163,
+          "fileOffset": 31885665,
+          "sha256": "c340ec8c0a918340b4e56ffafca2e8ce2f3ae36c1844c80a88ab6b8390877d60"
+        },
+        {
+          "start": "0x141e69604",
+          "endExclusive": "0x141e697a9",
+          "bytes": 421,
+          "fileOffset": 31885828,
+          "sha256": "69d6438ce20dbc6a856af68bd7af387617201900ce440addf1120b0b4cd98539"
+        },
+        {
+          "start": "0x141e697a9",
+          "endExclusive": "0x141e697ad",
+          "bytes": 4,
+          "fileOffset": 31886249,
+          "sha256": "3e0c2ad5b845a4f55aa6e975eac49175290b83ae9aea2d1ebd7d2cfd4e2e8159"
+        }
+      ],
+      "sourceBatches": [
+        "r17-dot-consumers-final"
+      ],
+      "selectedDecompilationCompleted": null
     },
     "0x141e697b0": {
       "boundary": "PE-unwind-root-and-chains",
@@ -20254,6 +20499,94 @@
       ],
       "selectedDecompilationCompleted": true
     },
+    "0x141e6b9c0": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x141e6b9c0",
+          "endExclusive": "0x141e6b9e0",
+          "bytes": 32,
+          "fileOffset": 31894976,
+          "sha256": "cbaf10909cc114123a4680723bdd336d691d65186147be043532dee006983e32"
+        },
+        {
+          "start": "0x141e6b9e0",
+          "endExclusive": "0x141e6ba7a",
+          "bytes": 154,
+          "fileOffset": 31895008,
+          "sha256": "660a5510dc20c07ba31d89bff67271880bfe40685d0d0c8d0fcdad810a7b0ce7"
+        },
+        {
+          "start": "0x141e6ba7a",
+          "endExclusive": "0x141e6bb0c",
+          "bytes": 146,
+          "fileOffset": 31895162,
+          "sha256": "20c9a4b187e1fff3376a271e77d50ae0a2399d44ee6c2348376d292638e99b81"
+        },
+        {
+          "start": "0x141e6bb0c",
+          "endExclusive": "0x141e6bb31",
+          "bytes": 37,
+          "fileOffset": 31895308,
+          "sha256": "28e14e5782902b9ed01b3442df28de6afd9b1b6e50a20cfad427b25e37797eb6"
+        },
+        {
+          "start": "0x141e6bb31",
+          "endExclusive": "0x141e6bb75",
+          "bytes": 68,
+          "fileOffset": 31895345,
+          "sha256": "a4adbf8ae1b3d6184e1da681aca1f5cf344f67a63290839226a2f702fd7a9e3c"
+        }
+      ],
+      "sourceBatches": [
+        "r17-dot-consumers-final"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x141e6bb80": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x141e6bb80",
+          "endExclusive": "0x141e6bba7",
+          "bytes": 39,
+          "fileOffset": 31895424,
+          "sha256": "ecbbc4a4f932d1badd42e12ac985cd0f6f55d40bf1c5584ddf9f40f4c421551c"
+        },
+        {
+          "start": "0x141e6bba7",
+          "endExclusive": "0x141e6bbda",
+          "bytes": 51,
+          "fileOffset": 31895463,
+          "sha256": "c8c36826e5594c63239a2f0ae7a6e5db425402294fd809b8ab67dc517e5c3aed"
+        },
+        {
+          "start": "0x141e6bbda",
+          "endExclusive": "0x141e6bc46",
+          "bytes": 108,
+          "fileOffset": 31895514,
+          "sha256": "fb8d83ed69ae39e6535cc268fbdf185c7150cff66af4ccf31a2be2d347e526c9"
+        },
+        {
+          "start": "0x141e6bc46",
+          "endExclusive": "0x141e6bc5d",
+          "bytes": 23,
+          "fileOffset": 31895622,
+          "sha256": "04c5cb3f524ff9ad81e8cc12cb9267fd1d40f92cb939b510a76f32bc54780b09"
+        },
+        {
+          "start": "0x141e6bc5d",
+          "endExclusive": "0x141e6bcae",
+          "bytes": 81,
+          "fileOffset": 31895645,
+          "sha256": "c34118ee4cc6a9487e7ddc35f21df602970c552b1736967627ec5b2515a9da16"
+        }
+      ],
+      "sourceBatches": [
+        "r17-dot-consumers-final"
+      ],
+      "selectedDecompilationCompleted": null
+    },
     "0x141e6bcb0": {
       "boundary": "PE-unwind-root-and-chains",
       "ranges": [
@@ -20346,6 +20679,7 @@
         }
       ],
       "sourceBatches": [
+        "r17-dot-consumers-final",
         "r3-hit-target-and-life",
         "r4-buff-clock-producers-discovery",
         "r4-buff-clock-producers-life-guard",
@@ -21304,6 +21638,22 @@
       "sourceBatches": [
         "r3-entity-task-boundaries-final",
         "r3-projectile-extension-entity"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x141edf7e0": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x141edf7e0",
+          "endExclusive": "0x141edf937",
+          "bytes": 343,
+          "fileOffset": 32369632,
+          "sha256": "651644414ff72887a5302dd518ee985b1226cb59034a95e640d31b8468226450"
+        }
+      ],
+      "sourceBatches": [
+        "r17-hit-program-final"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -22344,6 +22694,7 @@
       ],
       "sourceBatches": [
         "r16-hit-listeners-final",
+        "r17-hit-program-final",
         "r3-loss-geal-native-examples"
       ],
       "selectedDecompilationCompleted": null
@@ -22376,7 +22727,8 @@
         }
       ],
       "sourceBatches": [
-        "r16-hit-listeners-final"
+        "r16-hit-listeners-final",
+        "r17-hit-program-final"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -22408,7 +22760,8 @@
         }
       ],
       "sourceBatches": [
-        "r16-hit-listeners-final"
+        "r16-hit-listeners-final",
+        "r17-hit-program-final"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -22440,7 +22793,8 @@
         }
       ],
       "sourceBatches": [
-        "r16-hit-listeners-final"
+        "r16-hit-listeners-final",
+        "r17-hit-program-final"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -22525,6 +22879,22 @@
       ],
       "selectedDecompilationCompleted": null
     },
+    "0x14209b000": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x14209b000",
+          "endExclusive": "0x14209b08d",
+          "bytes": 141,
+          "fileOffset": 34186240,
+          "sha256": "46a8ce00f3623eaf0a3f79e9bd46183558ace3033a7bc9c100663f1c875cb172"
+        }
+      ],
+      "sourceBatches": [
+        "r17-hit-program-final"
+      ],
+      "selectedDecompilationCompleted": null
+    },
     "0x14209e390": {
       "boundary": "PE-unwind-root-and-chains",
       "ranges": [
@@ -22570,6 +22940,7 @@
       ],
       "sourceBatches": [
         "r16-hit-listeners-final",
+        "r17-hit-program-final",
         "r3-loss-geal-native-consequences"
       ],
       "selectedDecompilationCompleted": null
@@ -22752,6 +23123,22 @@
       ],
       "selectedDecompilationCompleted": null
     },
+    "0x1420b7940": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1420b7940",
+          "endExclusive": "0x1420b7ccd",
+          "bytes": 909,
+          "fileOffset": 34303296,
+          "sha256": "52d19d60f30ae9943c3ec0b7691b29148c685799e0624a1ec8b311f6153dcb10"
+        }
+      ],
+      "sourceBatches": [
+        "r17-hit-program-final"
+      ],
+      "selectedDecompilationCompleted": null
+    },
     "0x1420b9f00": {
       "boundary": "PE-unwind-root-and-chains",
       "ranges": [
@@ -22848,6 +23235,22 @@
       ],
       "selectedDecompilationCompleted": null
     },
+    "0x1420d94c0": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1420d94c0",
+          "endExclusive": "0x1420d94e3",
+          "bytes": 35,
+          "fileOffset": 34441408,
+          "sha256": "8cce0e62610ebc64bf0a371e0e8f5c0eaaa35320b813a945d5ae72a118b141ab"
+        }
+      ],
+      "sourceBatches": [
+        "r17-hit-program-final"
+      ],
+      "selectedDecompilationCompleted": null
+    },
     "0x1420db7d0": {
       "boundary": "explicit-analyst-leaf-range",
       "ranges": [
@@ -22941,6 +23344,7 @@
       ],
       "sourceBatches": [
         "r16-hit-listeners-final",
+        "r17-hit-program-final",
         "r3-loss-geal-native-invokes"
       ],
       "selectedDecompilationCompleted": null
@@ -38537,6 +38941,16 @@
       "functionCount": 32
     },
     {
+      "name": "r17-dot-consumers-final",
+      "auditSha256": "dae1362bd78779e101b195fa4165955925dc97a7f4f6bb6d61b48f59d95ba4a9",
+      "functionCount": 12
+    },
+    {
+      "name": "r17-hit-program-final",
+      "auditSha256": "180e61bb47e78cee45a58c16413351a41f179dbb69c0d352a219b2f3a4c060e9",
+      "functionCount": 18
+    },
+    {
       "name": "r2-base-rates",
       "auditSha256": "3d8a1be28320475810dbb6304e98c0d2e0e4496d49f471dbb16d178889d35ac5",
       "functionCount": 11
@@ -41531,6 +41945,30 @@
       "fileOffset": 56210048,
       "sha256": "00eefb2ad5da2b6ff1cdf5511797f0cc41fbfc1457c7bbf09d0324da5006b6d7",
       "role": "R16 actual Buff capacity factory"
+    },
+    {
+      "table": "0x1435d1d90",
+      "offset": "0x10",
+      "target": "0x1420d94c0",
+      "fileOffset": 56431008,
+      "sha256": "def32a0ea7f02403c0badde350b4d2c953fe447b02c8b280c2f49fc3ef4bc660",
+      "role": "R17 named-task cleanup callable"
+    },
+    {
+      "table": "0x1435a7340",
+      "offset": "0x120",
+      "target": "0x141e684c0",
+      "fileOffset": 56256608,
+      "sha256": "30b0af14af004c3fd2c634b0094b1cc12a384bd1f80a3271295559c0d768611c",
+      "role": "R17 Life current-source entity request"
+    },
+    {
+      "table": "0x1435a7340",
+      "offset": "0x128",
+      "target": "0x141e68f70",
+      "fileOffset": 56256616,
+      "sha256": "9145fc4663fb8fae3676266fe8d7ff61514fcdfcf7030b5d02dd5967c9f8bed5",
+      "role": "R17 Life selected-source detail request"
     }
   ],
   "scanCoverage": {
@@ -41565,16 +42003,152 @@
     }
   ],
   "verification": {
-    "entryCount": 1939,
-    "originalByteRangeCount": 2895,
+    "entryCount": 1956,
+    "originalByteRangeCount": 2929,
     "historicalBoundedThunkEntries": 4,
-    "pointerSlotCount": 248,
+    "pointerSlotCount": 251,
     "selectedDecompilationRecords": 877,
     "checkedReferenceInstructions": 13431,
     "decompilationFailures": [],
     "scope": "Original ranges/offsets, unwind ownership or explicit boundaries, stat identity, reference instructions and pointer-slot contents revalidated offline."
   },
   "supportingRecords": [
+    {
+      "path": "Tools/re/out/client-damage-audit/r17-hit-program-final/audit.json",
+      "bytes": 347338,
+      "sha256": "180e61bb47e78cee45a58c16413351a41f179dbb69c0d352a219b2f3a4c060e9",
+      "role": "R17 selected packaged Hit program or Buff numerical forecast/source attribution; independently reviewed"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r17-hit-program-verify.py",
+      "bytes": 9044,
+      "sha256": "4c11a8e8117af596bad524543730329e1505faf8fe13cce55bcbdc5781ead433",
+      "role": "R17 selected packaged Hit program or Buff numerical forecast/source attribution; independently reviewed"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r17-hit-program-verification.json",
+      "bytes": 12767,
+      "sha256": "2c06f7a4a62921238e37e91e1ce0c1834f28c1946de97317d15c903597c8726c",
+      "role": "R17 selected packaged Hit program or Buff numerical forecast/source attribution; independently reviewed"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r17-hit-program-selected-audit.json",
+      "bytes": 324084,
+      "sha256": "5b14da4d3d232872028132dbd5c75eb26c3798937f9be750049ff6242f5f5001",
+      "role": "R17 selected packaged Hit program or Buff numerical forecast/source attribution; independently reviewed"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r17-hit-program-review.py",
+      "bytes": 19188,
+      "sha256": "4fe83e2f1d8e7308fe38d6d4a04559fb46336c8956f7266c843ec16e8027acbb",
+      "role": "R17 selected packaged Hit program or Buff numerical forecast/source attribution; independently reviewed"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r17-hit-program-review.json",
+      "bytes": 36914,
+      "sha256": "b4472c06a1c9d0bddd7e1f930b5ddfe2e7593312bcb5c322505c2ec69f6b402f",
+      "role": "R17 selected packaged Hit program or Buff numerical forecast/source attribution; independently reviewed"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r8-effect-source-catalogue.py",
+      "bytes": 8697,
+      "sha256": "49e5bacdd9d3b409ad4a06e43a6d4ee00d4503ec1469d941542cfd4263e16a50",
+      "role": "R17 selected packaged Hit program or Buff numerical forecast/source attribution; independently reviewed"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r17-hit-program-resources/metadata_items_armours_bodyarmours_ferrofluidarmour_controllers_ferrofluidarmourint.ao",
+      "bytes": 1386,
+      "sha256": "a5c261142d9aabb174428047150418070e8b3d775a78ce8872ebeff093e75fb7",
+      "role": "R17 selected packaged Hit program or Buff numerical forecast/source attribution; independently reviewed"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r17-hit-program-resources/metadata_items_armours_bodyarmours_ferrofluidarmour_ferrofluidarmourint.ao",
+      "bytes": 2408,
+      "sha256": "a1a01b4775eb9d457ddea75ff168d12525168d4a3d01671ddb2a89ed0e106aab",
+      "role": "R17 selected packaged Hit program or Buff numerical forecast/source attribution; independently reviewed"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r17-hit-program-resources/metadata_items_armours_bodyarmours_ferrofluidarmour_fx_armour_fx.epk",
+      "bytes": 188,
+      "sha256": "3d7de1fefa6e175cdd4126959240b65958f579e19fe6c9ad6830b5d41281f508",
+      "role": "R17 selected packaged Hit program or Buff numerical forecast/source attribution; independently reviewed"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r17-hit-program-resources/Metadata_Items_Armours_BodyArmours_FerrofluidArmour_fx_hit_armour_int.epk",
+      "bytes": 462,
+      "sha256": "233f5e0ff33c3691a612d597c64c8d2232befa279ff9d21d0b1317609b87a8e3",
+      "role": "R17 selected packaged Hit program or Buff numerical forecast/source attribution; independently reviewed"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r17-hit-program-resources/Metadata_Skin.ao",
+      "bytes": 282,
+      "sha256": "f3451168114fe38fe74bdfbc00ee04d22996904bb302079ab6d61bf62670f6b1",
+      "role": "R17 selected packaged Hit program or Buff numerical forecast/source attribution; independently reviewed"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r17-hit-program-resources/Metadata_SkinBodyArmour.ao",
+      "bytes": 494,
+      "sha256": "550f705f9aaa14c985b9d86c5b7beb6b0372bbd6c2ebc5ba98c172b3ea6e21fc",
+      "role": "R17 selected packaged Hit program or Buff numerical forecast/source attribution; independently reviewed"
+    },
+    {
+      "path": "Agents/docs/re/client-hit-resource-programs.md",
+      "bytes": 9081,
+      "sha256": "eabeaa8fd9ba0abab85d0196904d1d07f0fa8fc0fd5fa28c9403ba044d89303d",
+      "role": "R17 selected packaged Hit program or Buff numerical forecast/source attribution; independently reviewed"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r17-hit-program-seal.json",
+      "sha256": "2d39ae95320c2e35ad483eaea324cd0bc6888c62ce78a4a3b93d67383633d5ec",
+      "role": "R17 sealed bounded evidence; actual numerical hit and source-rate publisher remain separate"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r17-dot-consumers-final/audit.json",
+      "bytes": 365293,
+      "sha256": "dae1362bd78779e101b195fa4165955925dc97a7f4f6bb6d61b48f59d95ba4a9",
+      "role": "R17 selected packaged Hit program or Buff numerical forecast/source attribution; independently reviewed"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r17-dot-source-consumers.py",
+      "bytes": 14634,
+      "sha256": "744fb4c0dff830d1e838f3e242724e1091d01cf3eb17be68acd60b449bdf198f",
+      "role": "R17 selected packaged Hit program or Buff numerical forecast/source attribution; independently reviewed"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r17-dot-source-consumers/verification.json",
+      "bytes": 2612701,
+      "sha256": "894104bfab3af050d9f483935e982727315e99e7cba1edd3ad42ec41e8fea6aa",
+      "role": "R17 selected packaged Hit program or Buff numerical forecast/source attribution; independently reviewed"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r17-dot-source-review.py",
+      "bytes": 20035,
+      "sha256": "386e672eb5e304cb15b8f19073d115f48e651e7d0d3c3256bebe18907ce7d9ac",
+      "role": "R17 selected packaged Hit program or Buff numerical forecast/source attribution; independently reviewed"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r17-dot-source-review.json",
+      "bytes": 2924,
+      "sha256": "3d85c9591dbba6ae933c7084a063985192b2b30ce0fcca306eb9e4ea8ce66f61",
+      "role": "R17 selected packaged Hit program or Buff numerical forecast/source attribution; independently reviewed"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r17-dot-source-review/selected-audit.json",
+      "bytes": 365175,
+      "sha256": "dbeed8b094490259664d644fe2ff060da14ec33f1e3ab4d4cae98c876427b9ca",
+      "role": "R17 selected packaged Hit program or Buff numerical forecast/source attribution; independently reviewed"
+    },
+    {
+      "path": "Agents/docs/re/client-dot-source-consumers.md",
+      "bytes": 13522,
+      "sha256": "934f53fdc73acf70b1d7cf92691ab5fa22d7fdcfe4d05a6ed2b4134c697820f1",
+      "role": "R17 selected packaged Hit program or Buff numerical forecast/source attribution; independently reviewed"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r17-dot-consumers-seal.json",
+      "sha256": "fbf26d95301711937ce54a7720fce044bca5a7055b111720cd61471931685daf",
+      "role": "R17 sealed bounded evidence; actual numerical hit and source-rate publisher remain separate"
+    },
     {
       "path": "Tools/re/out/client-damage-audit/r16-buff-granted-final/audit.json",
       "bytes": 105562,
@@ -45934,6 +46508,28 @@
       "commit": "b0afa90ea5c58e9082099d887180df8299dcdaf3",
       "path": "Agents/docs/protocol/11-skills.md",
       "sha256": "ecb2da3bb404a1fc1450c16296d3de14e169e5e4d80a299b3ed36f2c9100c954"
+    }
+  ],
+  "parallelResearchSources": [
+    {
+      "repository": "LocalExile/LocalExile",
+      "commit": "37a764b0a72a64aad721e770366f6936dff9ffa9",
+      "path": "Agents/docs/re/projectiles/local-hit-prediction.md",
+      "url": "https://github.com/LocalExile/LocalExile/blob/37a764b0a72a64aad721e770366f6936dff9ffa9/Agents/docs/re/projectiles/local-hit-prediction.md",
+      "sha256": "ef28a554df927f5b4d843f26a8d31328241249a675b7cb898b7e7cb0cb8d1fa8",
+      "snapshotManifestSha256": "9bef057cd028ab2f23c21b991612a7e7d8a3e5f38baaf9ab9cd614163f422bbd",
+      "snapshotFiles": 51,
+      "exactGitSources": 38,
+      "independentOriginalByteReuse": {
+        "binarySha256": "78a0e227189c263658a7f65a02f086428b859bfc114ae8e7ce8aab721ebd48d5",
+        "functions": 14,
+        "spans": 20,
+        "instructions": 1195,
+        "slots": 14,
+        "constants": 4,
+        "anchors": 17
+      },
+      "boundary": "Reused peer contact-prediction state/transport; not numerical Hit resolution or a new discovery"
     }
   ]
 }
