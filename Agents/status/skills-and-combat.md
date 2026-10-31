@@ -688,6 +688,9 @@ and can require explicit recipes.
   Integer pool deltas separately bind skill-cost routing/payment and extra-arrow Life sacrifice.
   The arrow benefit precedes its skip-sacrifice check; two cost callers can bypass payment through a context gate.
   See [conditional resource mutations](../docs/re/client-integer-resource-mutations.md); ordinary hit loss stays open.
+  The registered [ArakaaliHide action](../docs/re/client-arakaali-hide-life.md) also binds a selected art-variation
+  branch to the actual Life integer wrapper/setter: approximately-65% targeting, pool recovery restrictions and
+  float32 boundary cases pass 462 supplied-state controls. Ordinary invocation and accepted-Hit damage stay open.
   Conditional terminal Mana refunds now reach a positively typed pool/setter; FireMortar's table-bound callback
   differs from a separate reason-qualified body with unbound ingress. Percent caps, wrapping and cost layouts
   are explicit in [the refund audit](../docs/re/client-terminal-mana-refunds.md), without a target-damage claim.

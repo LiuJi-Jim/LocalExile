@@ -42164,7 +42164,8 @@
       ],
       "sourceBatches": [
         "r4-buff-guard-revive",
-        "r4-client-selfkill-invoke"
+        "r4-client-selfkill-invoke",
+        "r57-arakaali-heal"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -48254,7 +48255,8 @@
       ],
       "sourceBatches": [
         "network-and-sources",
-        "r2-source-writers"
+        "r2-source-writers",
+        "r57-arakaali-heal"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -52994,7 +52996,8 @@
         "r4-buff-clock-producers-discovery",
         "r4-buff-clock-producers-life-guard",
         "r4-buff-guard-revive",
-        "r45-native-pool-composition"
+        "r45-native-pool-composition",
+        "r57-arakaali-heal"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -53187,7 +53190,8 @@
         "r21-integer-pools",
         "r22-mana-refunds",
         "r23-pool-maximum-refresh",
-        "r4-client-selfkill-invoke"
+        "r4-client-selfkill-invoke",
+        "r57-arakaali-heal"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -72473,7 +72477,8 @@
       ],
       "sourceBatches": [
         "r21-integer-pools",
-        "r23-pool-maximum-refresh"
+        "r23-pool-maximum-refresh",
+        "r57-arakaali-heal"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -72653,7 +72658,8 @@
         }
       ],
       "sourceBatches": [
-        "r22-integer-ingress-navigation"
+        "r22-integer-ingress-navigation",
+        "r57-arakaali-heal"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -74587,6 +74593,70 @@
         "r51-bleeding-policy"
       ],
       "selectedDecompilationCompleted": false
+    },
+    "0x14126a530": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x14126a530",
+          "endExclusive": "0x14126a55d",
+          "bytes": 45,
+          "fileOffset": 19306800,
+          "sha256": "ae15a3a179c24ff6dc38bcf7925c9e93562a61008a9b6317f0644839112e84c9"
+        }
+      ],
+      "sourceBatches": [
+        "r57-arakaali-heal"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x14128e740": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x14128e740",
+          "endExclusive": "0x14128e866",
+          "bytes": 294,
+          "fileOffset": 19454784,
+          "sha256": "8d9ac34c2690b91262cdeee8e8e940649081f4a3613a367c7067ac0b3b62b232"
+        }
+      ],
+      "sourceBatches": [
+        "r57-arakaali-heal"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x141973880": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x141973880",
+          "endExclusive": "0x1419738ad",
+          "bytes": 45,
+          "fileOffset": 26684544,
+          "sha256": "23d0eb9a1f6861f3ed45a355b1818db5c9eadde396221c7069226afa2de70b30"
+        }
+      ],
+      "sourceBatches": [
+        "r57-arakaali-heal"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x14198a2d0": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x14198a2d0",
+          "endExclusive": "0x14198a3f6",
+          "bytes": 294,
+          "fileOffset": 26777296,
+          "sha256": "1dee5a1b5f158278f891bc98333253fd6dbafb9d650a3627c86cc9cd8558e4de"
+        }
+      ],
+      "sourceBatches": [
+        "r57-arakaali-heal"
+      ],
+      "selectedDecompilationCompleted": null
     }
   },
   "batches": [
@@ -75964,6 +76034,11 @@
       "name": "r53-result-join",
       "auditSha256": "e5f604ced173c0f80b0e8095e8405f770e6087c7ba09366746b2ea87bb028902",
       "functionCount": 43
+    },
+    {
+      "name": "r57-arakaali-heal",
+      "auditSha256": "11e8690b600d76d344793a04232a12cefa0ff6128d52c74b90dafed952295f94",
+      "functionCount": 10
     }
   ],
   "pointerSlots": [
@@ -78333,6 +78408,14 @@
       "target": "0x14164dc50",
       "fileOffset": 54974040,
       "sha256": "4b375b58bf1a9448253a2f9f8b88921385f804ee40474250849fc395914434fc"
+    },
+    {
+      "table": "0x143258158",
+      "offset": "0x148",
+      "target": "0x141afe5a0",
+      "sha256": "378ee782fb5c23dddc2b035064f2007f73ebbdb837d52095d4540a15ee3ec12e",
+      "fileOffset": 52786848,
+      "role": "ArakaaliHide selected original action entry; not accepted-Hit damage"
     }
   ],
   "scanCoverage": {
@@ -78377,15 +78460,15 @@
     }
   ],
   "verification": {
-    "entryCount": 3948,
-    "originalByteRangeCount": 4921,
+    "entryCount": 4071,
+    "originalByteRangeCount": 5075,
     "historicalBoundedThunkEntries": 4,
-    "pointerSlotCount": 251,
+    "pointerSlotCount": 297,
     "selectedDecompilationRecords": 877,
     "checkedReferenceInstructions": 13431,
     "decompilationFailures": [],
     "scope": "Original ranges/offsets, unwind ownership or explicit boundaries, stat identity, reference instructions and pointer-slot contents revalidated offline.",
-    "additionalFreshValidation": "R53 rechecked all original ranges, ownership, offsets, pointer slots and 1011 prior sealed supports. Forty-two supplied-state cases join actual release/checkpoint/result processing with three nested World checkpoints and independent Life/Mana/ES assignment, checking 4742 visited original sites. All 43 numerical function identities reuse prior evidence; one World lookup pointer slot is added. Numerical Hit damage, target DoT publication/shared cap and generic clock refresh remain open."
+    "additionalFreshValidation": "R57 rechecked all original ranges, ownership, offsets, 297 pointer slots and 1128 prior sealed supports. Selected ArakaaliHide composition executes 462 supplied-state cases / 61732 original instructions / 274 visited sites; 10 identities / 18 ranges / 773 records, 36 anchors and two slots freshly bound. Four new entries support registrars/factories. Actual action invocation, accepted-Hit damage, source DoT publication/shared cap and generic clock refresh remain open."
   },
   "supportingRecords": [
     {
@@ -85110,6 +85193,54 @@
       "bytes": 2649,
       "sha256": "d35bd8faa37fee8320cb9a1becff785781bf5511de921df9b617e07faef217b7",
       "role": "R53 actual upstream release/World/Actor result consumer joined to original ProcessResult and nested independent pool assignment. Exact peer R60 snapshot/replay dependencies retained; supplied parsed queue/core/TLS/provider/action/events/geometry/storage/ABI bridge. Not numerical accepted-Hit damage, DoT publication/shared cap or generic clock refresh."
+    },
+    {
+      "path": "Agents/docs/re/client-arakaali-hide-life.md",
+      "bytes": 6234,
+      "sha256": "ac70c7ad6b26e8f5551f7653a0e987d9fd362b2e68adfe94d90127f36829a51c",
+      "role": "R57 ArakaaliHide selected art-variation approximately-65% Life target through original integer wrapper/setter; exact guards, recovery restrictions and float32 boundaries in supplied states. Supporting factory/registration identity; not ordinary action invocation, accepted-Hit damage, source DoT publication/shared cap or generic clock refresh."
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r57-arakaali-heal.py",
+      "bytes": 7998,
+      "sha256": "a2e7726319f062973dbeb793eb917c5d30dc399017052dcb1341d0381dabdadb",
+      "role": "R57 ArakaaliHide selected art-variation approximately-65% Life target through original integer wrapper/setter; exact guards, recovery restrictions and float32 boundaries in supplied states. Supporting factory/registration identity; not ordinary action invocation, accepted-Hit damage, source DoT publication/shared cap or generic clock refresh."
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r57-arakaali-fresh.py",
+      "bytes": 5083,
+      "sha256": "7b7f4148d05e4025884ca03058639c1cdbb0305fb0a66c43d44cac7d8d799fc5",
+      "role": "R57 ArakaaliHide selected art-variation approximately-65% Life target through original integer wrapper/setter; exact guards, recovery restrictions and float32 boundaries in supplied states. Supporting factory/registration identity; not ordinary action invocation, accepted-Hit damage, source DoT publication/shared cap or generic clock refresh."
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r57-seal.py",
+      "bytes": 5344,
+      "sha256": "aa2188186c983e83e007959052bc226b4c22e514b4d95cb03c0c0c943823e961",
+      "role": "R57 ArakaaliHide selected art-variation approximately-65% Life target through original integer wrapper/setter; exact guards, recovery restrictions and float32 boundaries in supplied states. Supporting factory/registration identity; not ordinary action invocation, accepted-Hit damage, source DoT publication/shared cap or generic clock refresh."
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r57-arakaali-heal/audit.json",
+      "bytes": 112014,
+      "sha256": "11e8690b600d76d344793a04232a12cefa0ff6128d52c74b90dafed952295f94",
+      "role": "R57 ArakaaliHide selected art-variation approximately-65% Life target through original integer wrapper/setter; exact guards, recovery restrictions and float32 boundaries in supplied states. Supporting factory/registration identity; not ordinary action invocation, accepted-Hit damage, source DoT publication/shared cap or generic clock refresh."
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r57-arakaali-heal/audit.asm",
+      "bytes": 25798,
+      "sha256": "81d944b300982bf87b9934b5a2be7cfdb6b006cbae2a2d458c0cf8968e3cb8dd",
+      "role": "R57 ArakaaliHide selected art-variation approximately-65% Life target through original integer wrapper/setter; exact guards, recovery restrictions and float32 boundaries in supplied states. Supporting factory/registration identity; not ordinary action invocation, accepted-Hit damage, source DoT publication/shared cap or generic clock refresh."
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r57-arakaali-heal/controls.json",
+      "bytes": 12469,
+      "sha256": "64e74207c69c6f7c1552fddba503dc5952b96fc859bafd7c0d359ea688de9fa6",
+      "role": "R57 ArakaaliHide selected art-variation approximately-65% Life target through original integer wrapper/setter; exact guards, recovery restrictions and float32 boundaries in supplied states. Supporting factory/registration identity; not ordinary action invocation, accepted-Hit damage, source DoT publication/shared cap or generic clock refresh."
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r57-arakaali-heal/fresh-check.json",
+      "bytes": 6762,
+      "sha256": "ca3581ce44fd0c47755d97cf4e69f00dc423908eeeaed2380a18c58901a355e0",
+      "role": "R57 ArakaaliHide selected art-variation approximately-65% Life target through original integer wrapper/setter; exact guards, recovery restrictions and float32 boundaries in supplied states. Supporting factory/registration identity; not ordinary action invocation, accepted-Hit damage, source DoT publication/shared cap or generic clock refresh."
     }
   ],
   "auxiliaryDataTables": [
@@ -85761,5 +85892,202 @@
     "switchEntries": 5,
     "auditSha256": "e5f604ced173c0f80b0e8095e8405f770e6087c7ba09366746b2ea87bb028902",
     "limits": "Two original-instruction interpreters share byte memory. A mechanical call/return ABI adapter replaces the R60 ProcessResult outcome fixture; no decoded-result/value adapter. Parsed messages, order/stamp/core/TLS, provider/component/type lookups, empty native/script events, action/arena state and inherited emission/storage/geometry fixtures remain supplied. Ordinary wire ingress/construction, official ordering, numerical accepted-Hit damage, source DoT publication/shared cap and generic clock refresh remain open."
+  },
+  "arakaaliHideLifeVerification": {
+    "result": "PASS",
+    "runtimeExecuted": false,
+    "functions": 10,
+    "ranges": 18,
+    "decodedRecords": 773,
+    "anchors": [
+      {
+        "va": "0x14126a53e",
+        "asm": "lea rdx, [rip + 0x241fb]",
+        "sha256": "6cbdb89131bc4e744b69df87dd9093b4cf8fa960295aff58871af113ba5aff46"
+      },
+      {
+        "va": "0x14126a545",
+        "asm": "lea rcx, [rip + 0x1ff335c]",
+        "sha256": "739b98a489f0f0938efce4204f7da751546458a4bfc89f4dbc7f2b48c12cbd97"
+      },
+      {
+        "va": "0x14126a54c",
+        "asm": "call 0x141941bb0",
+        "sha256": "ef3a5390e25602681dcdf97992e2df50466fb0b3d22c9a94da0209f14982641f"
+      },
+      {
+        "va": "0x14197388e",
+        "asm": "lea rdx, [rip + 0x16a3b]",
+        "sha256": "d610e1a17faba7ffb6ba2daffe1238add17015da5e9bb5bf976698fe3854630b"
+      },
+      {
+        "va": "0x141973895",
+        "asm": "lea rcx, [rip + 0x18ea00c]",
+        "sha256": "b5c1c640f3303da1c81fc050e7c1f7d4371521f9b4c106895f2acb38e34bcd33"
+      },
+      {
+        "va": "0x14197389c",
+        "asm": "call 0x141941bb0",
+        "sha256": "ea91c1cff1d8f87dfb8e2dff6873fdded373e7c3d1a745faabe298534f2079fc"
+      },
+      {
+        "va": "0x14128e837",
+        "asm": "lea rax, [rip + 0x1fc991a]",
+        "sha256": "866b2a6449b5a8c56f40696eed289f9ed38cce26e9605ce8db29376368eabe35"
+      },
+      {
+        "va": "0x14128e83e",
+        "asm": "mov qword ptr [rbx], rax",
+        "sha256": "89f223a0d6d3da3d37952264d496e3470ac52513b96f31dbb1a5821e39a78479"
+      },
+      {
+        "va": "0x14198a3c0",
+        "asm": "lea rax, [rip + 0x18cdd91]",
+        "sha256": "458be9234d292c42d5c17b3b07ee4492b6d10bd7b25919266e05c6897fcd1cb1"
+      },
+      {
+        "va": "0x14198a3c7",
+        "asm": "mov qword ptr [rbx], rax",
+        "sha256": "89f223a0d6d3da3d37952264d496e3470ac52513b96f31dbb1a5821e39a78479"
+      },
+      {
+        "va": "0x141afe5bf",
+        "asm": "cmp byte ptr [rcx + 0x318], 0",
+        "sha256": "c6b16d8a26b10063f9a92666873386bcb72a815b69d2364d714c2e93e6be0710"
+      },
+      {
+        "va": "0x141afe5fa",
+        "asm": "mov edx, 0x15d",
+        "sha256": "4226edcfcbc605abd6da3280dbed2f335f1ebf76f84e98c649db86f0b3f6cf03"
+      },
+      {
+        "va": "0x141afe60e",
+        "asm": "cmp eax, 1",
+        "sha256": "1ea67153973d48b650d9c8abeb82a1d9cf4bfc1d811e7deb4a616f48e09d569b"
+      },
+      {
+        "va": "0x141afe605",
+        "asm": "lea rdx, [rip + 0x19c56bc]",
+        "sha256": "bdec09740206c8230713aeb9e2afc7fb1eb9bcfc668ee9bf8b29ae7d29c7e702"
+      },
+      {
+        "va": "0x141afe6a6",
+        "asm": "call 0x14013dda0",
+        "sha256": "41a5d585fa1e99538e410ff6a4b6e6eed964929d31d87c7b09ee86440e1c3b8b"
+      },
+      {
+        "va": "0x141afe6ae",
+        "asm": "movsxd r8, dword ptr [rax + 0x1a4]",
+        "sha256": "03831639869d66f605cf53d1c011f42924b27fd083c068ba29bc757d87dff176"
+      },
+      {
+        "va": "0x141afe6b5",
+        "asm": "movsxd r11, dword ptr [rax + 0x1a8]",
+        "sha256": "a55d44a8b690ee70c53da31eddad833a4f02f2109086ee8bdd83c6b78df79be9"
+      },
+      {
+        "va": "0x141afe6bf",
+        "asm": "jg 0x141afe70a",
+        "sha256": "62011568c3f74af6529ce6d42541b1533ca922eca230f453b5a9df0fa0bfaa55"
+      },
+      {
+        "va": "0x141afe6c6",
+        "asm": "imul rax, r11, 0x64",
+        "sha256": "b56bda986f8de23e82974f02c94b348c9b24b4ea21646ae8260d8cdae9fda74a"
+      },
+      {
+        "va": "0x141afe6cc",
+        "asm": "div r8",
+        "sha256": "c9e6abebc62137da324903d1dacc55974e4f07bb4ce118315fce13309013ef68"
+      },
+      {
+        "va": "0x141afe6d4",
+        "asm": "cmp eax, 0x41",
+        "sha256": "9751df4a31ea78fa896280958c55c069a89e1a4aff0b65466b7d1322fc44b2cc"
+      },
+      {
+        "va": "0x141afe6d7",
+        "asm": "jge 0x141afe70a",
+        "sha256": "6af21cac391363a8505d778994ea8726dde405ea752c1b8261aadecdb903e6be"
+      },
+      {
+        "va": "0x141afe6d9",
+        "asm": "lea rcx, [r9 + 0x178]",
+        "sha256": "1b905f8b9d20b0198e3ec93124ac49d66e6fe7875f3de920f46a39b7a4c0c79a"
+      },
+      {
+        "va": "0x141afe6e8",
+        "asm": "cvtdq2ps xmm0, xmm0",
+        "sha256": "e520c2cff4611f758b0101b721e80e00491555f711b7f5b3a5f3a87399d76e44"
+      },
+      {
+        "va": "0x141afe6eb",
+        "asm": "mulss xmm0, dword ptr [rip + 0x1ba62c5]",
+        "sha256": "965e0841f5cda4246e3a1be0644d1459830a3251f0e4e6d1e0ae1c0def57fdc0"
+      },
+      {
+        "va": "0x141afe6f3",
+        "asm": "cvttss2si eax, xmm0",
+        "sha256": "15481589e580208906c9e798f78f27ce5cc32b7afd45d264cae1c62479583878"
+      },
+      {
+        "va": "0x141afe6f7",
+        "asm": "neg r11d",
+        "sha256": "c5a4f3e47a150eb12fc05534539d46acb58edc489fd300c150747f656120eb5c"
+      },
+      {
+        "va": "0x141afe6fa",
+        "asm": "sub r11d, eax",
+        "sha256": "e28bda5fc10410654c9ec3fc2e4f39e9adbf19c0acaedce5bc43f592c3185aa2"
+      },
+      {
+        "va": "0x141afe6fd",
+        "asm": "mov r9b, 0xe",
+        "sha256": "27efc27f45537393514911445e9f2bf8ad7f54f1bce64e6b020a5e59500ce320"
+      },
+      {
+        "va": "0x141afe700",
+        "asm": "xor r8d, r8d",
+        "sha256": "02f503f7679e5aae1c0dd02847b1fccddfd8dd3637fe5fc8840a6411bd3c3316"
+      },
+      {
+        "va": "0x141afe706",
+        "asm": "call qword ptr [r10 + 0x28]",
+        "sha256": "61fbc0302f82bbaf303ad4334804d9207f1ea3d54b31b5f3b79126fd7cad8521"
+      },
+      {
+        "va": "0x141afe70e",
+        "asm": "mov qword ptr [rbp - 0x49], 0x2b",
+        "sha256": "6272464cf6b98ca60ca0b6dba370878d80d02d1433111ae4dcbaf42d52c6000b"
+      },
+      {
+        "va": "0x141afe782",
+        "asm": "call 0x141e9a3c0",
+        "sha256": "dcad1a42346793de563b7c41b067770d547c06ad21735345944a8a7bd33206ab"
+      },
+      {
+        "va": "0x141afe787",
+        "asm": "mov byte ptr [rbx + 0x318], 1",
+        "sha256": "1c4ecad423a2f72eca59b012d991fe6b1338c997145e55475c5e026f8373cf79"
+      },
+      {
+        "va": "0x141e679c1",
+        "asm": "mov qword ptr [rsi + 0x178], rax",
+        "sha256": "8eeab69c245981f8ef00a950b791d9e1ee2cee995982cdbc1026cf1f893cf0e1"
+      },
+      {
+        "va": "0x141e69939",
+        "asm": "mov dword ptr [rsi + 0x30], edi",
+        "sha256": "c950d1f0ffb110807f41580b12792a8b0c9a4bd70f097a26ff218a68e4db74e2"
+      }
+    ],
+    "pointerSlots": 2,
+    "cases": 462,
+    "steps": 61732,
+    "visitedOriginalSites": 274,
+    "priorSealedSupportsPreserved": 1128,
+    "auditSha256": "11e8690b600d76d344793a04232a12cefa0ff6128d52c74b90dafed952295f94",
+    "controlsSha256": "64e74207c69c6f7c1552fddba503dc5952b96fc859bafd7c0d359ea688de9fa6",
+    "conclusion": "ArakaaliHide selected skill_art_variation=1 path targets approximately 65 percent Life via the original integer delta receiver/setter, with original guards, restrictions and rounding. This classifies one retained candidate; no accepted-Hit amount/mitigation or source DoT publication/shared-cap closure."
   }
 }

@@ -180,6 +180,9 @@ The suspend/restore lifecycle is explicit LocalExile policy; see protocol/11-ski
   Reuse [release/result/checkpoint composition](../docs/re/client-hit-checkpoint-resource-composition.md):
   actual ProcessResult can consume independent resource assignments at its three nested checkpoints.
   Preserve supplied ordered-mode/core/TLS boundaries; do not count checkpoints as frames or infer a hit amount.
+  The retained Life integer candidate now belongs to [ArakaaliHide](../docs/re/client-arakaali-hide-life.md),
+  with selected approximately-65% targeting and exact pool/rounding limits. Reuse that positive classification;
+  do not repeat it as an unclassified Hit-damage lead or infer ordinary invocation from the supplied-state checks.
   Actual wire/core production stays with projectile research; pursue missing numerical damage connections here.
   Bow/Wand specialization, equipment-to-setter updates and startup registry winners are bound.
   Follow numerical consequences only where a concrete extension output requires them; do not expand all rendering.
