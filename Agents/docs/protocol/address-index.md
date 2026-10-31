@@ -186,6 +186,7 @@ These are client addresses; their presence is not proof of official-server imple
 | `0x1426e53f0` / `0x1426e7410` / `0x1426e7d60` | Fn | Life bypass sum / ES total / Life total |
 | `0x1426e7670` / `0x1426e7b00` | Fn | Normal / nonlethal ES overflow share to Mana |
 | `0x141e11dc0` / `0x141f79160` | Fn | [Owner/instance clock composition](../re/client-buff-clock-authority.md): insertion writes current-owner speed; selected later notifications preserve it while partial updates replace it; floor is not reapplied to received speed |
+| `0x141e07220` / `0x141e06290` / `0x141e067c0` | Fn | [Retained Buff replacement](../re/client-buff-replacement-composition.md): actual decoded-input conversion, temporary construction and selected field transfer; original identity and some initialization fields survive |
 | `0x141e66ec0` / `0x141e6c710` / `0x141e0fbc0` | Fn / Leaf | [Life-to-Buffs guard](../re/client-buff-clock-producers.md): configuration receiver, selected transition and advancement-flag setter |
 | `0x142239940` | Fn | [BuffTemplates accessor](../re/client-dot-source-publication.md); named RF template amount is declared data, active publisher remains unresolved |
 | `0x1434876c0` / `0x14179d8a0` / `0x14179d9b0` | Vt / Fn | RF backend table, art-selector/transform refresh and presentation-object removal; tick/insertion slots empty |

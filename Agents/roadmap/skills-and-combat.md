@@ -132,6 +132,9 @@ The suspend/restore lifecycle is explicit LocalExile policy; see protocol/11-ski
   Resolve actual 1192/3745/6188 override selection and instance assignment separately; the 6187/6188 UI literals are ClientStrings labels.
   Existing owner-stat-to-clock subscriptions and source-rate expiry publication remain separate open edges.
   Reuse recovered clock input transport/defaults and partial/replacement asymmetry; later recalculation stays open.
+  Reuse [the retained replacement composition](../docs/re/client-buff-replacement-composition.md): actual temporary
+  construction and field transfer preserve identity and some initialization inputs. Do not model it as reinsertion,
+  reapply the local speed floor, or assume clock changes withdraw the independent explicit loss-rate override.
   Empty Id2 for ignited/poison selects null in the audited startup catalogue, not an implicit default backend.
   Follow concrete numerical observer/script leads; do not repeat that closed factory/registry question.
   Reuse actual Buff observer payloads, lifecycle program storage/invocation and selected presence predicates.

@@ -94,6 +94,7 @@ Detailed supplements keep the evidence reviewable without treating this summary 
 - [Parsed Stats rate updates through actual overrides, notifications and Life integration](client-network-rate-composition.md).
 - [Buff expiration/removal composed with independent explicit rates and Life loss](client-buff-rate-independence.md).
 - [Actual Buff insertion, owner timing notifications and retained network clock precedence](client-buff-clock-authority.md).
+- [Retained Buff replacement through actual construction, field transfer and subsequent clock/resource integration](client-buff-replacement-composition.md).
 - [Complete final spell min/max/total ranges, ordered equations and conversion branch asymmetries](client-spell-hit-formulas.md).
 - [Taken-as coefficients and ordered armour applicability overrides](client-defence-transfer-formulas.md).
 - [Complete physical/elemental reduction inputs, Strength of Blood and physical ceiling](client-reduction-inputs.md).
@@ -245,6 +246,9 @@ flowchart TD
   BUFFWIRE -->|IsRecovery zero: no granted words| BUFFZERO[Definition-sized zero values: ignite / poison / RF witnesses]
   BUFFDECODE --> BUFFVALUES
   BUFFCLOCK --> CLOCK
+  BUFFNET -->|replacement selector| BUFFREPLACE[Actual temporary Buff construction and selected field transfer]
+  BUFFREPLACE --> BUFFRETAIN[Retain object identity and selected initialization fields]
+  BUFFREPLACE --> BUFFCLOCK
   FWCAPTURE[Flame Wall backend construction: capture remaining duration] --> FWHOLD[Selected callback: nonzero 12588 restores captured duration]
   CLOCK -->|eligible Flame Wall tick after decrement| FWHOLD
   GET -->|current owner value 12588| FWHOLD
@@ -726,7 +730,7 @@ damage-bearing paths. Keep missing source eligibility/selection, formulas and sy
 | R2 | Fire self-rate composition | Established for output 8180 | [Complete signed64 percentage, Her Embrace, Touch of Fire, ignite-transfer and difficulty branches](client-fire-self-rate.md); actual source-instance input publication stays open |
 | R2 | Physical/chaos self-rate composition | Established for outputs 8179/8183 | [Complete 11/13-input equations, complementary bleeding/ignite transfer, float32 order and signed32 boundaries](client-physical-chaos-self-rates.md); actual source-instance input publication stays open |
 | R2 | Source instance → base per-minute rate | Open | [Named RF template](client-dot-source-publication.md) declares native 2023 magnitude; active instance/target publisher and selection/aggregation remain unbound |
-| R2/R4 | Insertion, owner notification and retained clock precedence | Established for selected supplied-state compositions | [Actual insertion, original owner getter/setter/notification and eligible ticks](client-buff-clock-authority.md): supplied later timing-stat changes preserve saved speed; partial updates replace it without the initialization floor. Definition force-one remains separate; generic refresh, source publication and ordinary eligibility stay open |
+| R2/R4 | Insertion, owner notification and retained clock precedence | Established for selected supplied-state compositions | [Actual insertion, original owner getter/setter/notification and eligible ticks](client-buff-clock-authority.md): supplied later timing-stat changes preserve saved speed; partial updates replace it without the initialization floor. [Full replacement](client-buff-replacement-composition.md) constructs a temporary and transfers selected fields while retaining identity and construction-duration/applicability inputs; 33 clock/resource compositions. Definition force-one remains separate; generic refresh, source publication and ordinary eligibility stay open |
 | R2/R4 | Concrete Buff backend Stats subscribers | Established for three selected backends | [AvatarOfFireCycleBuff, ArchnemesisModBuff and TetheredDebuff](client-buff-stats-subscriptions.md) bind real provider notifications to backend cache/visual/Render outputs; existing-instance clock refresh remains open |
 | R2 | Outgoing RF parameter/formula chain | Established locally | Native stat-set constants and FireDot eligibility feed 14408 → 8198 → 5981; [details](client-dot-routing.md#outgoing-righteous-fire-formula-bridge); target application remains open |
 | R2 | Outgoing ailment rate arithmetic | Established for complete named rate families | [Bleeding](client-bleeding-output-family.md), [56 ignite outputs](client-ignite-output-family.md) and [72 poison outputs](client-poison-output-family.md): both hands/spell/secondary, typed min/max, critical/noncritical and poison always variants; category qualification, conversion history, multiplier builders and distinct rounding/overflow recovered; actual infliction and source-to-target publication stay separate |

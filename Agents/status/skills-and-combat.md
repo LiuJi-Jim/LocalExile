@@ -718,6 +718,10 @@ and can require explicit recipes.
   owner timing-stat notifications and retained partial updates through eligible ticks. In the supplied empty
   lifecycle/observational-listener state, later owner values do not rewrite the saved speed; received zero
   pauses it without reapplying the initializer floor. Definition force-one remains separate; generic refresh is open.
+  [Retained Buff replacement](../docs/re/client-buff-replacement-composition.md) now executes decoded-input conversion,
+  temporary construction, real holder notification/renewal, field transfer and cleanup before tick/resource loss.
+  Identity and construction-duration/applicability inputs survive while remaining time/speed and additive input transfer.
+  Thirty-three supplied-state compositions preserve explicit aggregate-rate independence; generic refresh/publication stay open.
   [Buff lifecycle/rate composition](../docs/re/client-buff-rate-independence.md) executes parsed removal,
   empty lifecycle/destruction and eligible timers through subsequent Life loss with real network overrides.
   Expiration/removal leaves the supplied aggregate independent; a separate Stats update can stop loss.

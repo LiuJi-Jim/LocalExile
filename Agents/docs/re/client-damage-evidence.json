@@ -41742,6 +41742,7 @@
         "r4-contact-leaf-coverage",
         "r45-native-pool-composition",
         "r47-action-present-result",
+        "r49-buff-replacement",
         "r9-ground-ownership"
       ],
       "selectedDecompilationCompleted": true
@@ -41967,7 +41968,8 @@
       "sourceBatches": [
         "r34-buff-clock-authority",
         "r4-buff-clock-observer-dispatch",
-        "r47-action-present-result"
+        "r47-action-present-result",
+        "r49-buff-replacement"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -42031,7 +42033,8 @@
         }
       ],
       "sourceBatches": [
-        "r3-default-bow-startup-continuations"
+        "r3-default-bow-startup-continuations",
+        "r49-buff-replacement"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -42108,6 +42111,7 @@
         "r42-dot-native-composition",
         "r43-dot-original-old-value",
         "r45-native-pool-composition",
+        "r49-buff-replacement",
         "r5-ailment-outgoing-helpers",
         "r5-critical-math-final",
         "r6-critical-inputs",
@@ -42345,7 +42349,8 @@
         }
       ],
       "sourceBatches": [
-        "r4-buff-clock-observer-dispatch"
+        "r4-buff-clock-observer-dispatch",
+        "r49-buff-replacement"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -42512,6 +42517,7 @@
         "r34-buff-clock-authority",
         "r4-pool-notification-leaves",
         "r45-native-pool-composition",
+        "r49-buff-replacement",
         "r8-ground-effect-boundary",
         "r9-ground-ownership"
       ],
@@ -42550,7 +42556,8 @@
       "sourceBatches": [
         "r32-buff-rate-independence",
         "r34-buff-clock-authority",
-        "r4-buff-clock-observer-dispatch"
+        "r4-buff-clock-observer-dispatch",
+        "r49-buff-replacement"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -42996,7 +43003,8 @@
         "r30-initial-stats-rate",
         "r32-buff-rate-independence",
         "r33-result-resource-composition",
-        "r34-buff-clock-authority"
+        "r34-buff-clock-authority",
+        "r49-buff-replacement"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -43049,7 +43057,8 @@
         }
       ],
       "sourceBatches": [
-        "r14-buff-initial-values-final"
+        "r14-buff-initial-values-final",
+        "r49-buff-replacement"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -46290,7 +46299,8 @@
         "r2-buff-component",
         "r3-d9aa-listener-final",
         "r32-buff-rate-independence",
-        "r34-buff-clock-authority"
+        "r34-buff-clock-authority",
+        "r49-buff-replacement"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -47185,7 +47195,8 @@
       ],
       "sourceBatches": [
         "r14-buff-initial-values-final",
-        "r34-buff-clock-authority"
+        "r34-buff-clock-authority",
+        "r49-buff-replacement"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -50182,7 +50193,8 @@
         }
       ],
       "sourceBatches": [
-        "r3-d9aa-listener-final"
+        "r3-d9aa-listener-final",
+        "r49-buff-replacement"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -50493,7 +50505,8 @@
         "r13-buff-lifecycle-final",
         "r32-buff-rate-independence",
         "r34-buff-clock-authority",
-        "r4-pool-recharge-notify"
+        "r4-pool-recharge-notify",
+        "r49-buff-replacement"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -50877,7 +50890,8 @@
         }
       ],
       "sourceBatches": [
-        "r4-buff-clock-observer-dispatch"
+        "r4-buff-clock-observer-dispatch",
+        "r49-buff-replacement"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -50952,7 +50966,8 @@
         "r14-buff-initial-values-final",
         "r15-firewall-clock-final",
         "r2-buff-network",
-        "r2-buff-timewarp-v2"
+        "r2-buff-timewarp-v2",
+        "r49-buff-replacement"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -50971,7 +50986,8 @@
         "r12-buff-default-final",
         "r2-buff-destructor",
         "r32-buff-rate-independence",
-        "r34-buff-clock-authority"
+        "r34-buff-clock-authority",
+        "r49-buff-replacement"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -50991,7 +51007,8 @@
         "r12-buff-default-final",
         "r14-buff-initial-values-final",
         "r2-buff-bindings-v2",
-        "r2-buff-timewarp-v2"
+        "r2-buff-timewarp-v2",
+        "r49-buff-replacement"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -51027,7 +51044,8 @@
         "r11-buff-clock-input-final",
         "r14-buff-initial-values-final",
         "r2-buff-network",
-        "r2-buff-timewarp-v2"
+        "r2-buff-timewarp-v2",
+        "r49-buff-replacement"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -51105,7 +51123,8 @@
         }
       ],
       "sourceBatches": [
-        "r4-buff-clock-update-discovery"
+        "r4-buff-clock-update-discovery",
+        "r49-buff-replacement"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -51151,7 +51170,8 @@
       "sourceBatches": [
         "r12-buff-default-final",
         "r34-buff-clock-authority",
-        "r4-buff-clock-update-callbacks"
+        "r4-buff-clock-update-callbacks",
+        "r49-buff-replacement"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -51183,7 +51203,8 @@
       "sourceBatches": [
         "r16-buff-granted-final",
         "r34-buff-clock-authority",
-        "r4-buff-clock-update-callbacks"
+        "r4-buff-clock-update-callbacks",
+        "r49-buff-replacement"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -51266,7 +51287,8 @@
       "sourceBatches": [
         "r12-buff-default-final",
         "r32-buff-rate-independence",
-        "r34-buff-clock-authority"
+        "r34-buff-clock-authority",
+        "r49-buff-replacement"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -51314,7 +51336,8 @@
       "sourceBatches": [
         "r12-buff-default-final",
         "r32-buff-rate-independence",
-        "r34-buff-clock-authority"
+        "r34-buff-clock-authority",
+        "r49-buff-replacement"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -51489,7 +51512,8 @@
         "r32-buff-rate-independence",
         "r34-buff-clock-authority",
         "r4-buff-clock-producers-life-guard",
-        "r4-buff-network-clock-contract"
+        "r4-buff-network-clock-contract",
+        "r49-buff-replacement"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -51510,7 +51534,8 @@
         "r32-buff-rate-independence",
         "r34-buff-clock-authority",
         "r4-buff-clock-update-discovery",
-        "r4-buff-network-clock-contract"
+        "r4-buff-network-clock-contract",
+        "r49-buff-replacement"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -51637,7 +51662,8 @@
         "r2-buff-timewarp-v2",
         "r32-buff-rate-independence",
         "r34-buff-clock-authority",
-        "r4-buff-network-clock-contract"
+        "r4-buff-network-clock-contract",
+        "r49-buff-replacement"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -51662,7 +51688,8 @@
         "r2-buff-speed-owner",
         "r2-buff-speed-owner-v3",
         "r3-d9aa-listener-final",
-        "r34-buff-clock-authority"
+        "r34-buff-clock-authority",
+        "r49-buff-replacement"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -52352,7 +52379,8 @@
       "sourceBatches": [
         "r12-buff-default-final",
         "r32-buff-rate-independence",
-        "r34-buff-clock-authority"
+        "r34-buff-clock-authority",
+        "r49-buff-replacement"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -52984,7 +53012,8 @@
         "r33-result-resource-composition",
         "r34-buff-clock-authority",
         "r4-pool-assignment-effects",
-        "r45-native-pool-composition"
+        "r45-native-pool-composition",
+        "r49-buff-replacement"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -53299,7 +53328,8 @@
         "r32-buff-rate-independence",
         "r33-result-resource-composition",
         "r34-buff-clock-authority",
-        "r45-native-pool-composition"
+        "r45-native-pool-composition",
+        "r49-buff-replacement"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -53379,7 +53409,8 @@
         "r33-result-resource-composition",
         "r34-buff-clock-authority",
         "r4-buff-clock-producers-transition-search",
-        "r45-native-pool-composition"
+        "r45-native-pool-composition",
+        "r49-buff-replacement"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -53431,6 +53462,7 @@
         "r33-result-resource-composition",
         "r34-buff-clock-authority",
         "r45-native-pool-composition",
+        "r49-buff-replacement",
         "source-and-authority"
       ],
       "selectedDecompilationCompleted": true
@@ -53456,7 +53488,8 @@
         "r32-buff-rate-independence",
         "r33-result-resource-composition",
         "r34-buff-clock-authority",
-        "r45-native-pool-composition"
+        "r45-native-pool-composition",
+        "r49-buff-replacement"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -53594,7 +53627,8 @@
         "r33-result-resource-composition",
         "r34-buff-clock-authority",
         "r4-pool-assignment-effects",
-        "r45-native-pool-composition"
+        "r45-native-pool-composition",
+        "r49-buff-replacement"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -53643,7 +53677,8 @@
         "r33-result-resource-composition",
         "r34-buff-clock-authority",
         "r4-pool-assignment-effects",
-        "r45-native-pool-composition"
+        "r45-native-pool-composition",
+        "r49-buff-replacement"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -53668,7 +53703,8 @@
         "r33-result-resource-composition",
         "r34-buff-clock-authority",
         "r4-pool-recharge-notify",
-        "r45-native-pool-composition"
+        "r45-native-pool-composition",
+        "r49-buff-replacement"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -55147,7 +55183,8 @@
         "r2-buff-runtime-factory",
         "r2-buff-speed-owner",
         "r2-buff-speed-owner-v3",
-        "r34-buff-clock-authority"
+        "r34-buff-clock-authority",
+        "r49-buff-replacement"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -57726,7 +57763,8 @@
         "r13-buff-lifecycle-final",
         "r3-d9aa-listener-final",
         "r32-buff-rate-independence",
-        "r34-buff-clock-authority"
+        "r34-buff-clock-authority",
+        "r49-buff-replacement"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -57926,6 +57964,7 @@
         "r33-result-resource-composition",
         "r34-buff-clock-authority",
         "r47-action-present-result",
+        "r49-buff-replacement",
         "stat-and-formula-v2"
       ],
       "selectedDecompilationCompleted": true
@@ -57947,7 +57986,8 @@
         "r30-initial-stats-rate",
         "r32-buff-rate-independence",
         "r33-result-resource-composition",
-        "r34-buff-clock-authority"
+        "r34-buff-clock-authority",
+        "r49-buff-replacement"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -57969,6 +58009,7 @@
         "r32-buff-rate-independence",
         "r33-result-resource-composition",
         "r34-buff-clock-authority",
+        "r49-buff-replacement",
         "stat-and-formula-v2"
       ],
       "selectedDecompilationCompleted": true
@@ -58007,7 +58048,8 @@
         "r30-initial-stats-rate",
         "r32-buff-rate-independence",
         "r33-result-resource-composition",
-        "r34-buff-clock-authority"
+        "r34-buff-clock-authority",
+        "r49-buff-replacement"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -72837,7 +72879,8 @@
         "r32-buff-rate-independence",
         "r33-result-resource-composition",
         "r34-buff-clock-authority",
-        "r45-native-pool-composition"
+        "r45-native-pool-composition",
+        "r49-buff-replacement"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -72859,7 +72902,8 @@
         "r32-buff-rate-independence",
         "r33-result-resource-composition",
         "r34-buff-clock-authority",
-        "r47-action-present-result"
+        "r47-action-present-result",
+        "r49-buff-replacement"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -73340,7 +73384,8 @@
       ],
       "sourceBatches": [
         "r32-buff-rate-independence",
-        "r34-buff-clock-authority"
+        "r34-buff-clock-authority",
+        "r49-buff-replacement"
       ],
       "selectedDecompilationCompleted": false
     },
@@ -73357,7 +73402,8 @@
       ],
       "sourceBatches": [
         "r32-buff-rate-independence",
-        "r34-buff-clock-authority"
+        "r34-buff-clock-authority",
+        "r49-buff-replacement"
       ],
       "selectedDecompilationCompleted": false
     },
@@ -73374,7 +73420,8 @@
       ],
       "sourceBatches": [
         "r32-buff-rate-independence",
-        "r34-buff-clock-authority"
+        "r34-buff-clock-authority",
+        "r49-buff-replacement"
       ],
       "selectedDecompilationCompleted": false
     },
@@ -73391,7 +73438,8 @@
       ],
       "sourceBatches": [
         "r32-buff-rate-independence",
-        "r34-buff-clock-authority"
+        "r34-buff-clock-authority",
+        "r49-buff-replacement"
       ],
       "selectedDecompilationCompleted": false
     },
@@ -73441,7 +73489,8 @@
         }
       ],
       "sourceBatches": [
-        "r34-buff-clock-authority"
+        "r34-buff-clock-authority",
+        "r49-buff-replacement"
       ],
       "selectedDecompilationCompleted": false
     },
@@ -73458,7 +73507,8 @@
       ],
       "sourceBatches": [
         "r34-buff-clock-authority",
-        "r47-action-present-result"
+        "r47-action-present-result",
+        "r49-buff-replacement"
       ],
       "selectedDecompilationCompleted": false
     },
@@ -74326,6 +74376,38 @@
       ],
       "sourceBatches": [
         "r47-action-present-result"
+      ],
+      "selectedDecompilationCompleted": false
+    },
+    "0x141e390a0": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x141e390a0",
+          "endExclusive": "0x141e39103",
+          "bytes": 99,
+          "fileOffset": 31687840,
+          "sha256": "0af1fd6f601d90aafc7eb5e4cfea0fc836050d038659ea0a644dea86d20fa096"
+        }
+      ],
+      "sourceBatches": [
+        "r49-buff-replacement"
+      ],
+      "selectedDecompilationCompleted": false
+    },
+    "0x140144b00": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x140144b00",
+          "endExclusive": "0x140144b58",
+          "bytes": 88,
+          "fileOffset": 1326848,
+          "sha256": "ccb0fb7e312ae47b9475cc5481891d10faf9faac066aa5d948974efd771fd296"
+        }
+      ],
+      "sourceBatches": [
+        "r49-buff-replacement"
       ],
       "selectedDecompilationCompleted": false
     }
@@ -75685,6 +75767,11 @@
       "name": "r47-action-present-result",
       "auditSha256": "8d9b902add4cda4b0d008ee47364012e9b19deea3389a9521533a61d0f852b52",
       "functionCount": 47
+    },
+    {
+      "name": "r49-buff-replacement",
+      "auditSha256": "c7ef465984d72031676096c7434d6227ea90948c0a6fba99f2db33cefe14d227",
+      "functionCount": 52
     }
   ],
   "pointerSlots": [
@@ -78099,7 +78186,7 @@
     "checkedReferenceInstructions": 13431,
     "decompilationFailures": [],
     "scope": "Original ranges/offsets, unwind ownership or explicit boundaries, stat identity, reference instructions and pointer-slot contents revalidated offline.",
-    "additionalFreshValidation": "R47 rechecked all retained original ranges, ownership, offsets, pointer slots and 980 prior sealed supports. Eight supplied current-Fireball-Action compositions execute original sequence lookup, final callbacks and typed event cleanup, preserving resources. Numerical Hit-to-pool, DoT instance publication/shared-cap reachability and generic clock refresh remain open."
+    "additionalFreshValidation": "R49 rechecked all original ranges, ownership, offsets, pointer slots and 990 prior sealed supports. Thirty-three supplied retained-Buff replacement compositions execute original temporary construction, observer/holder lifecycle, selected field transfer and clock/resource integration. Numerical Hit-to-pool, DoT instance publication/shared-cap reachability and generic clock refresh remain open."
   },
   "supportingRecords": [
     {
@@ -83996,6 +84083,48 @@
       "bytes": 529234,
       "sha256": "8d9b902add4cda4b0d008ee47364012e9b19deea3389a9521533a61d0f852b52",
       "role": "R47 supplied current Fireball Action sequence lookup, original callbacks and event argument cleanup; empty events/listeners and constructor/provider/TLS fixtures, not numerical Hit damage or ordinary ingress"
+    },
+    {
+      "path": "Agents/docs/re/client-buff-replacement-composition.md",
+      "bytes": 7457,
+      "sha256": "a3d79457bddab7e33481b2cc208b5ce50ad862fc95b09933c191a7c311bad76b",
+      "role": "R49 retained Buff replacement through actual decoded-input conversion, temporary construction, observer housekeeping, selected field transfer, cleanup and subsequent clock/resource integration; explicit definition/provider/backend/event/allocator/policy fixtures, not generic refresh or source-rate publication"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r49-buff-replacement.py",
+      "bytes": 7753,
+      "sha256": "f699f09a5f3c1dd5f8257afc65023fec05222e541a2589c39acd450589a250f2",
+      "role": "R49 retained Buff replacement through actual decoded-input conversion, temporary construction, observer housekeeping, selected field transfer, cleanup and subsequent clock/resource integration; explicit definition/provider/backend/event/allocator/policy fixtures, not generic refresh or source-rate publication"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r49-buff-replacement-fresh.py",
+      "bytes": 5733,
+      "sha256": "556dc8b7c8c8ae8c815aa3ba56bbed89fbe2161b4b92921dc536ca8a7ea077c1",
+      "role": "R49 retained Buff replacement through actual decoded-input conversion, temporary construction, observer housekeeping, selected field transfer, cleanup and subsequent clock/resource integration; explicit definition/provider/backend/event/allocator/policy fixtures, not generic refresh or source-rate publication"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r49-seal.py",
+      "bytes": 5442,
+      "sha256": "0ca0c8e765e1fcc9d9dd6c273c665acb272bb7513223879c964ac292255c71a3",
+      "role": "R49 retained Buff replacement through actual decoded-input conversion, temporary construction, observer housekeeping, selected field transfer, cleanup and subsequent clock/resource integration; explicit definition/provider/backend/event/allocator/policy fixtures, not generic refresh or source-rate publication"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r49-buff-replacement/frontier.json",
+      "bytes": 3108314,
+      "sha256": "0bab14d928bc0a4d1816f78c38ddafbc683ab9772ef1cb200fe41292ad45d92f",
+      "role": "R49 retained Buff replacement through actual decoded-input conversion, temporary construction, observer housekeeping, selected field transfer, cleanup and subsequent clock/resource integration; explicit definition/provider/backend/event/allocator/policy fixtures, not generic refresh or source-rate publication"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r49-buff-replacement/fresh-check.json",
+      "bytes": 641,
+      "sha256": "bb517bcf67ae9890ea0f1b35647fb6ef89230646607d9cc9c9986bcb4b85bc58",
+      "role": "R49 retained Buff replacement through actual decoded-input conversion, temporary construction, observer housekeeping, selected field transfer, cleanup and subsequent clock/resource integration; explicit definition/provider/backend/event/allocator/policy fixtures, not generic refresh or source-rate publication"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r49-buff-replacement/audit.json",
+      "bytes": 467811,
+      "sha256": "c7ef465984d72031676096c7434d6227ea90948c0a6fba99f2db33cefe14d227",
+      "role": "R49 retained Buff replacement through actual decoded-input conversion, temporary construction, observer housekeeping, selected field transfer, cleanup and subsequent clock/resource integration; explicit definition/provider/backend/event/allocator/policy fixtures, not generic refresh or source-rate publication"
     }
   ],
   "auxiliaryDataTables": [
@@ -84574,5 +84703,20 @@
     "savedCompositions": 8,
     "allocatorControls": 42,
     "limits": "Saved compositions, source actor/action/config/provider and normalized TLS remain supplied. Only selected constructor arena slice executes. Empty events/listeners are not all skills; no accepted-Hit numerical-damage or global absence claim."
+  },
+  "retainedBuffReplacementCompositionVerification": {
+    "result": "PASS",
+    "runtimeExecuted": false,
+    "cases": 33,
+    "steps": 133864,
+    "visitedOriginalSites": 1989,
+    "functions": 52,
+    "ranges": 68,
+    "decodedRecords": 3370,
+    "anchors": 13,
+    "pointerSlots": 2,
+    "auditSha256": "c7ef465984d72031676096c7434d6227ea90948c0a6fba99f2db33cefe14d227",
+    "priorManifestCommit": "0c25901f00a683abfd73f7f53e57ca80f3f83348",
+    "limits": "Same-agent original-byte and scalar checks; native definition/resource/provider, empty backend/events, lookup/allocator/policy fixtures remain explicit. Neither generic owner-stat refresh nor numerical DoT source publication is established."
   }
 }
