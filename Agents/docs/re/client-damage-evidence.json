@@ -42164,6 +42164,7 @@
         "r27-checkpoint-resources",
         "r29-network-rate-composition",
         "r30-initial-stats-rate",
+        "r31-critical-link-inputs",
         "r4-pool-notification-leaves",
         "r8-ground-effect-boundary",
         "r9-ground-ownership"
@@ -55047,7 +55048,8 @@
       ],
       "sourceBatches": [
         "r11-buff-clock-input-final",
-        "r26-buff-wire"
+        "r26-buff-wire",
+        "r31-critical-link-inputs"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -55068,6 +55070,7 @@
         "r2-buff-network",
         "r2-buff-timewarp-v2",
         "r26-buff-wire",
+        "r31-critical-link-inputs",
         "r4-buff-network-clock-contract"
       ],
       "selectedDecompilationCompleted": true
@@ -57432,6 +57435,7 @@
         "r15-firewall-clock-final",
         "r29-network-rate-composition",
         "r30-initial-stats-rate",
+        "r31-critical-link-inputs",
         "stat-and-formula-v2"
       ],
       "selectedDecompilationCompleted": true
@@ -72305,6 +72309,134 @@
         "r28-penetration-inputs"
       ],
       "selectedDecompilationCompleted": null
+    },
+    "0x1412cb660": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1412cb660",
+          "endExclusive": "0x1412cb74a",
+          "bytes": 234,
+          "fileOffset": 19704416,
+          "sha256": "554f791110ae898a29493dd6f217c55bc1dfe8977425c5cb46fcd052d2bf6875"
+        }
+      ],
+      "sourceBatches": [
+        "r31-critical-link-inputs"
+      ],
+      "selectedDecompilationCompleted": false
+    },
+    "0x14126da40": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x14126da40",
+          "endExclusive": "0x14126da6d",
+          "bytes": 45,
+          "fileOffset": 19320384,
+          "sha256": "640ee969fec8a2790da39a6da9841a19dd2b2e67120f6f292239d5b1e3f037f1"
+        }
+      ],
+      "sourceBatches": [
+        "r31-critical-link-inputs"
+      ],
+      "selectedDecompilationCompleted": false
+    },
+    "0x141275470": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x141275470",
+          "endExclusive": "0x14127558f",
+          "bytes": 287,
+          "fileOffset": 19351664,
+          "sha256": "0b501eb79e7ff1670485ce80718a476446c2e1b0b9f2979ee4ec492c67f816e0"
+        }
+      ],
+      "sourceBatches": [
+        "r31-critical-link-inputs"
+      ],
+      "selectedDecompilationCompleted": false
+    },
+    "0x1412cb750": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1412cb750",
+          "endExclusive": "0x1412cb7b2",
+          "bytes": 98,
+          "fileOffset": 19704656,
+          "sha256": "195db744f8c7e3fba8291a2d8a0b7a013c7f35c90256742aadd3bbaf68f15730"
+        }
+      ],
+      "sourceBatches": [
+        "r31-critical-link-inputs"
+      ],
+      "selectedDecompilationCompleted": false
+    },
+    "0x1412cc4e0": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1412cc4e0",
+          "endExclusive": "0x1412cc640",
+          "bytes": 352,
+          "fileOffset": 19708128,
+          "sha256": "bd58d5016f2b0ee9c26f643b1eef9ee9f7150e09739c4dd424f4479c06076771"
+        }
+      ],
+      "sourceBatches": [
+        "r31-critical-link-inputs"
+      ],
+      "selectedDecompilationCompleted": false
+    },
+    "0x1412cb630": {
+      "boundary": "explicit-analyst-leaf-range",
+      "ranges": [
+        {
+          "start": "0x1412cb630",
+          "endExclusive": "0x1412cb636",
+          "bytes": 6,
+          "fileOffset": 19704368,
+          "sha256": "3ddc90b31a8deec63b20863d920c3dac864ca0526da582fc537e7619ca3ed9a4"
+        }
+      ],
+      "sourceBatches": [
+        "r31-critical-link-inputs"
+      ],
+      "selectedDecompilationCompleted": false
+    },
+    "0x1412cb640": {
+      "boundary": "explicit-analyst-leaf-range",
+      "ranges": [
+        {
+          "start": "0x1412cb640",
+          "endExclusive": "0x1412cb646",
+          "bytes": 6,
+          "fileOffset": 19704384,
+          "sha256": "a252fa7071bb6eb5dd439f4e6f72f84964d111b9fd0d6211dc8ff5cca8b07a73"
+        }
+      ],
+      "sourceBatches": [
+        "r31-critical-link-inputs"
+      ],
+      "selectedDecompilationCompleted": false
+    },
+    "0x1412cb650": {
+      "boundary": "explicit-analyst-leaf-range",
+      "ranges": [
+        {
+          "start": "0x1412cb650",
+          "endExclusive": "0x1412cb65a",
+          "bytes": 10,
+          "fileOffset": 19704400,
+          "sha256": "7da363f0dfbf1ce72c485d66e809449d2d8cc5bc6cdbe39dac35effaa51cc8b4"
+        }
+      ],
+      "sourceBatches": [
+        "r31-critical-link-inputs"
+      ],
+      "selectedDecompilationCompleted": false
     }
   },
   "batches": [
@@ -73607,6 +73739,11 @@
       "name": "r30-initial-stats-rate",
       "auditSha256": "8ee435fa90871f82e159b46307f8dc13acdff2ebd8ad14abdc2d46f2df72ebb4",
       "functionCount": 42
+    },
+    {
+      "name": "r31-critical-link-inputs",
+      "auditSha256": "c23e01dbafdd53b07658090e2ba86342d10a182b1ba4a469bf0c60b8b0fee5e5",
+      "functionCount": 12
     }
   ],
   "pointerSlots": [
@@ -75897,6 +76034,38 @@
       "fileOffset": 56479624,
       "sha256": "b7a596510798d9087b3b6ca8aa3e2b28c456093f15a0d4ffc38f4977aa7dc558",
       "source": "r26 AddBuff original writer/reader slot binding"
+    },
+    {
+      "table": "0x143254eb0",
+      "offset": "0x4e8",
+      "target": "0x1412cb660",
+      "sha256": "72dca0e72feb31359630a53c3f3a8fbda30879e5a19d84c73740432b643b7a5e",
+      "fileOffset": 52774808,
+      "source": "R31 CriticalLink final-table numerical collector, predicate and definition-number leaves"
+    },
+    {
+      "table": "0x143254eb0",
+      "offset": "0x4f8",
+      "target": "0x1412cb650",
+      "sha256": "62a4eb1cecf3fcbb1edce21beb70d93a29d7932051118d326fe5da8216bf6add",
+      "fileOffset": 52774824,
+      "source": "R31 CriticalLink final-table numerical collector, predicate and definition-number leaves"
+    },
+    {
+      "table": "0x143254eb0",
+      "offset": "0x500",
+      "target": "0x1412cb640",
+      "sha256": "8af23f59029af3b753866459dba6b4a0b36850d0e6c59fe11dca560fad8ce29a",
+      "fileOffset": 52774832,
+      "source": "R31 CriticalLink final-table numerical collector, predicate and definition-number leaves"
+    },
+    {
+      "table": "0x143254eb0",
+      "offset": "0x508",
+      "target": "0x1412cb630",
+      "sha256": "4878a1ca7c7cb07f0c576222b70edcf087172fff96d00bb0f91169d4a0bb54f5",
+      "fileOffset": 52774840,
+      "source": "R31 CriticalLink final-table numerical collector, predicate and definition-number leaves"
     }
   ],
   "scanCoverage": {
@@ -75907,6 +76076,16 @@
       "candidateOwners": 448,
       "unownedBytePositions": 21,
       "resolvedPoolReceivers": null
+    },
+    "offenceConsumerNavigation": {
+      "selectedKeys": 32,
+      "candidateUnwindOwners": 16767,
+      "instructionMatches": 4311,
+      "matchingOwners": 2198,
+      "knownRegistrarMatches": 111,
+      "knownFormulaCallbackMatches": 265,
+      "otherUntypedMatches": 3935,
+      "limits": "Exact imm32 and selected high-key disp32, unwind-owned code only. Data-table navigation is separately bounded; no global absence claim."
     }
   },
   "limitations": [
@@ -75939,7 +76118,7 @@
     "checkedReferenceInstructions": 13431,
     "decompilationFailures": [],
     "scope": "Original ranges/offsets, unwind ownership or explicit boundaries, stat identity, reference instructions and pointer-slot contents revalidated offline.",
-    "additionalFreshValidation": "R30 rechecked all retained range bytes/unwind group boundaries/offsets and pointer slots; initial Stats compact readers composed with actual override store and Life. Prior selected decompilation and reference checks retained, not rerun."
+    "additionalFreshValidation": "R31 rechecked every retained byte range/unwind boundary/offset and pointer slot; original CriticalLink export and two actual non-recovery wire definitions verified offline. Prior selected decompilation/reference checks retained, not rerun."
   },
   "supportingRecords": [
     {
@@ -81254,6 +81433,108 @@
       "bytes": 6102,
       "sha256": "3196e07cb5164c7905f66653405130031b7ba9feb4f47589de862862a4ad05fe",
       "role": "R30 original initial Stats component bytes through actual network overrides and Life integration; bounded direct-setter provenance; offline supplied-state controls"
+    },
+    {
+      "path": "Agents/docs/re/client-critical-link-export.md",
+      "bytes": 9763,
+      "sha256": "85c65e0f7a847f8dcb5b01a077cf6eda5299c23896b05193da29c41456cff7a0",
+      "role": "R31 original CriticalLink collector/getter and non-recovery Buff wire controls; bounded navigation is not a resolver or absence proof"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r31-critical-link-inputs.py",
+      "bytes": 5953,
+      "sha256": "ec175fb903aedb217b597ed1f6101bb15e8806eda5ad004243865cd1a2c5d381",
+      "role": "R31 original CriticalLink collector/getter and non-recovery Buff wire controls; bounded navigation is not a resolver or absence proof"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r31-critical-link-fresh.py",
+      "bytes": 5424,
+      "sha256": "ee7f6752501b03340685ddf2773e23457abd05ea3276863cefc5d6e017b6e77e",
+      "role": "R31 original CriticalLink collector/getter and non-recovery Buff wire controls; bounded navigation is not a resolver or absence proof"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r31-seal.py",
+      "bytes": 5273,
+      "sha256": "8c333212a0084d32e5bf391b6259da81ddf1cf3b8c6b742f4a868a4830d41b71",
+      "role": "R31 original CriticalLink collector/getter and non-recovery Buff wire controls; bounded navigation is not a resolver or absence proof"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r31-critical-navigation.py",
+      "bytes": 1991,
+      "sha256": "ea6445461f805d0308cd427869f9e365b902833d4a28d60a815b9adf23920bd1",
+      "role": "R31 original CriticalLink collector/getter and non-recovery Buff wire controls; bounded navigation is not a resolver or absence proof"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r31-data-key-tables.py",
+      "bytes": 1972,
+      "sha256": "a8cd35aa4e4329aa7e01dccda706709c7288878fc9da98f370bbf249babc7450",
+      "role": "R31 original CriticalLink collector/getter and non-recovery Buff wire controls; bounded navigation is not a resolver or absence proof"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r31-offence-consumer-resume.py",
+      "bytes": 3323,
+      "sha256": "52bfc100e1b70a1f76f003bab910e3d2b689bf4f8c0f0812f8c464c3bd5c83f0",
+      "role": "R31 original CriticalLink collector/getter and non-recovery Buff wire controls; bounded navigation is not a resolver or absence proof"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r30-offence-consumer-discovery.py",
+      "bytes": 3590,
+      "sha256": "38d5c7d48d19ff92d2eaa1844ab804f0faec9f8edc96ed57928dab54a4eb8aff",
+      "role": "R31 original CriticalLink collector/getter and non-recovery Buff wire controls; bounded navigation is not a resolver or absence proof"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r31-critical-link-inputs/audit.json",
+      "bytes": 128067,
+      "sha256": "c23e01dbafdd53b07658090e2ba86342d10a182b1ba4a469bf0c60b8b0fee5e5",
+      "role": "R31 original CriticalLink collector/getter and non-recovery Buff wire controls; bounded navigation is not a resolver or absence proof"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r31-critical-link-inputs/verification.json",
+      "bytes": 12511,
+      "sha256": "4567abd233191dd75be772622ca38295911017dac34bc9407f35052621b4e9ed",
+      "role": "R31 original CriticalLink collector/getter and non-recovery Buff wire controls; bounded navigation is not a resolver or absence proof"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r31-critical-link-inputs/fresh-check.json",
+      "bytes": 1606,
+      "sha256": "94284595b647e7840d6d0849b6583bf0d72a82d1e64c55387fa122ecd40e5aa4",
+      "role": "R31 original CriticalLink collector/getter and non-recovery Buff wire controls; bounded navigation is not a resolver or absence proof"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r31-critical-navigation/1412cb660.json",
+      "bytes": 376,
+      "sha256": "163529ef71289892dcf398cf62ff83bf32e10afc437e1b7c28e435d9d238a60e",
+      "role": "R31 original CriticalLink collector/getter and non-recovery Buff wire controls; bounded navigation is not a resolver or absence proof"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r31-critical-navigation/141275470-143254eb0.json",
+      "bytes": 868,
+      "sha256": "a428ccce0ddd84d97a58a119e43767f66b9076cea935062ef17c64ce5c8a8349",
+      "role": "R31 original CriticalLink collector/getter and non-recovery Buff wire controls; bounded navigation is not a resolver or absence proof"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r31-critical-navigation/table-installers.json",
+      "bytes": 1649,
+      "sha256": "2283646fa24be502589ef45ff194e4df771d1d43bd302d6b62c7d68e567f68cf",
+      "role": "R31 original CriticalLink collector/getter and non-recovery Buff wire controls; bounded navigation is not a resolver or absence proof"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r31-critical-navigation/data-key-tables.json",
+      "bytes": 14039,
+      "sha256": "3bd28f112f4d0bec2479a919b1eb27181f98a7e46f0cde8b34ad481446e555da",
+      "role": "R31 original CriticalLink collector/getter and non-recovery Buff wire controls; bounded navigation is not a resolver or absence proof"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r31-critical-navigation/data-table-readers.json",
+      "bytes": 12704,
+      "sha256": "316fa0fc856c1596d691669793059338987b35be0a261614002b49103c8c71c4",
+      "role": "R31 original CriticalLink collector/getter and non-recovery Buff wire controls; bounded navigation is not a resolver or absence proof"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r30-offence-consumers/candidates.json",
+      "bytes": 1000148,
+      "sha256": "43915e299af57fbee5cd82f89a46559f1b0eabe08c018da90378276c41154456",
+      "role": "R31 original CriticalLink collector/getter and non-recovery Buff wire controls; bounded navigation is not a resolver or absence proof"
     }
   ],
   "auxiliaryDataTables": [
@@ -81673,5 +81954,15 @@
     "steps": 279450,
     "visitedInstructions": 981,
     "limits": "Synthetic valid initial component body, existing updated keys and supplied provider/resources; no whole Entity packet, official sends, DoT source publisher/selection/cap or accepted-Hit closure."
+  },
+  "criticalLinkExportVerification": {
+    "runtimeExecuted": false,
+    "functions": 12,
+    "ranges": 12,
+    "decodedInstructions": 879,
+    "cases": 190,
+    "steps": 28000,
+    "visitedInstructions": 422,
+    "limits": "Selected factory/table and supplied-provider raw-value export; actual invocation, grant publication, refresh and accepted-Hit/DoT source closure remain open."
   }
 }

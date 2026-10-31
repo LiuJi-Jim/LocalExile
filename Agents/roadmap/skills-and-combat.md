@@ -204,6 +204,9 @@ The suspend/restore lifecycle is explicit LocalExile policy; see protocol/11-ski
   Reuse [initial Stats byte composition](../docs/re/client-initial-stats-rate.md): the original component reader,
   compact primitives and subsequent Life loss are bound. Do not count duplicate pairs as additive DoT sources,
   or treat this selected component body as a whole creation packet or an observed official rate publisher.
+    [Critical Link export](../docs/re/client-critical-link-export.md) positively classifies one critical-input
+    consumer as three raw-value appends. Reuse its action/definition bindings; actual grant publication remains open.
+    The completed bounded immediate-key navigation is not a whole-program absence proof or Hit numerical closure.
   Preserve [resource input read order](../docs/re/client-resource-read-order.md): saved recovery rates, later pool state,
   sequential Life loss and preloaded ES loss differ. Reuse [the composed ordered resource route](../docs/re/client-resource-checkpoint-composition.md):
   peer-established World checkpoints/parsed dispatch now execute the actual setter and later recovery arithmetic.

@@ -711,6 +711,9 @@ and can require explicit recipes.
   [Initial Stats byte composition](../docs/re/client-initial-stats-rate.md) runs the installed component reader,
   both compact primitives and real override store through subsequent Life loss; entropy fields remain separate.
   Duplicate pairs assign sequentially; zero-count reading preserves pre-existing overrides on the tested provider.
+    [Critical Link's numerical collector](../docs/re/client-critical-link-export.md) binds three raw Stats appends
+    and exact final action slots; its two non-recovery Buff definitions omit granted magnitudes on AddBuff.
+    Actual collector invocation, grant application and refresh remain open; this is separate from Hit damage.
   [AddBuff magnitude transport](../docs/re/client-buff-wire-magnitudes.md) now binds the original writer to the known reader:
   non-recovery definitions omit granted words; eligible writes have no count and must match definition cardinality.
   The separate counted vector survives independently; these contracts do not publish a DoT source magnitude.
