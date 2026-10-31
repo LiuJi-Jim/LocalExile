@@ -41408,6 +41408,7 @@
         "r3-projectile-extension-clone",
         "r30-initial-stats-rate",
         "r32-buff-rate-independence",
+        "r33-result-resource-composition",
         "r4-buff-clock-update-callbacks",
         "r4-buff-network-clock-contract",
         "r4-contact-leaf-coverage",
@@ -41768,6 +41769,7 @@
         "r29-network-rate-composition",
         "r30-initial-stats-rate",
         "r32-buff-rate-independence",
+        "r33-result-resource-composition",
         "r5-ailment-outgoing-helpers",
         "r5-critical-math-final",
         "r6-critical-inputs",
@@ -42168,6 +42170,7 @@
         "r30-initial-stats-rate",
         "r31-critical-link-inputs",
         "r32-buff-rate-independence",
+        "r33-result-resource-composition",
         "r4-pool-notification-leaves",
         "r8-ground-effect-boundary",
         "r9-ground-ownership"
@@ -42187,7 +42190,8 @@
       ],
       "sourceBatches": [
         "historical-static-callback-binding",
-        "r16-hit-listeners-final"
+        "r16-hit-listeners-final",
+        "r33-result-resource-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -42648,7 +42652,8 @@
         "r3-c944-listener-final",
         "r3-weapon-provider-equipment-notify",
         "r30-initial-stats-rate",
-        "r32-buff-rate-independence"
+        "r32-buff-rate-independence",
+        "r33-result-resource-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -52506,6 +52511,7 @@
         "r29-network-rate-composition",
         "r30-initial-stats-rate",
         "r32-buff-rate-independence",
+        "r33-result-resource-composition",
         "r4-buff-guard-revive"
       ],
       "selectedDecompilationCompleted": true
@@ -52550,6 +52556,7 @@
         "r3-loss-receiver-boundary",
         "r30-initial-stats-rate",
         "r32-buff-rate-independence",
+        "r33-result-resource-composition",
         "r4-buff-clock-producers-discovery",
         "r4-buff-clock-producers-life-guard",
         "r4-buff-guard-revive"
@@ -52576,6 +52583,7 @@
         "r29-network-rate-composition",
         "r30-initial-stats-rate",
         "r32-buff-rate-independence",
+        "r33-result-resource-composition",
         "r4-buff-clock-producers-transition-search"
       ],
       "selectedDecompilationCompleted": null
@@ -52599,6 +52607,7 @@
         "r29-network-rate-composition",
         "r30-initial-stats-rate",
         "r32-buff-rate-independence",
+        "r33-result-resource-composition",
         "r4-pool-assignment-effects"
       ],
       "selectedDecompilationCompleted": true
@@ -52783,6 +52792,7 @@
         "r29-network-rate-composition",
         "r30-initial-stats-rate",
         "r32-buff-rate-independence",
+        "r33-result-resource-composition",
         "r4-buff-guard-revive"
       ],
       "selectedDecompilationCompleted": true
@@ -52853,6 +52863,7 @@
         "r29-network-rate-composition",
         "r30-initial-stats-rate",
         "r32-buff-rate-independence",
+        "r33-result-resource-composition",
         "source-and-authority"
       ],
       "selectedDecompilationCompleted": true
@@ -52905,7 +52916,8 @@
         "r29-network-rate-composition",
         "r3-loss-receiver-boundary",
         "r30-initial-stats-rate",
-        "r32-buff-rate-independence"
+        "r32-buff-rate-independence",
+        "r33-result-resource-composition"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -52941,7 +52953,8 @@
         "r29-network-rate-composition",
         "r3-loss-receiver-boundary",
         "r30-initial-stats-rate",
-        "r32-buff-rate-independence"
+        "r32-buff-rate-independence",
+        "r33-result-resource-composition"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -52979,6 +52992,7 @@
         "r3-loss-receiver-boundary",
         "r30-initial-stats-rate",
         "r32-buff-rate-independence",
+        "r33-result-resource-composition",
         "r4-buff-clock-producers-transition-search"
       ],
       "selectedDecompilationCompleted": true
@@ -53001,7 +53015,8 @@
         "r29-network-rate-composition",
         "r3-loss-receiver-boundary",
         "r30-initial-stats-rate",
-        "r32-buff-rate-independence"
+        "r32-buff-rate-independence",
+        "r33-result-resource-composition"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -53025,6 +53040,7 @@
         "r29-network-rate-composition",
         "r30-initial-stats-rate",
         "r32-buff-rate-independence",
+        "r33-result-resource-composition",
         "source-and-authority"
       ],
       "selectedDecompilationCompleted": true
@@ -53047,7 +53063,8 @@
         "r27-checkpoint-resources",
         "r29-network-rate-composition",
         "r30-initial-stats-rate",
-        "r32-buff-rate-independence"
+        "r32-buff-rate-independence",
+        "r33-result-resource-composition"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -53070,6 +53087,7 @@
         "r29-network-rate-composition",
         "r30-initial-stats-rate",
         "r32-buff-rate-independence",
+        "r33-result-resource-composition",
         "source-and-authority"
       ],
       "selectedDecompilationCompleted": true
@@ -53179,6 +53197,7 @@
         "r29-network-rate-composition",
         "r30-initial-stats-rate",
         "r32-buff-rate-independence",
+        "r33-result-resource-composition",
         "r4-pool-assignment-effects"
       ],
       "selectedDecompilationCompleted": true
@@ -53200,6 +53219,7 @@
         "r29-network-rate-composition",
         "r30-initial-stats-rate",
         "r32-buff-rate-independence",
+        "r33-result-resource-composition",
         "r4-pool-assignment-effects"
       ],
       "selectedDecompilationCompleted": true
@@ -53222,6 +53242,7 @@
         "r29-network-rate-composition",
         "r30-initial-stats-rate",
         "r32-buff-rate-independence",
+        "r33-result-resource-composition",
         "r4-pool-assignment-effects"
       ],
       "selectedDecompilationCompleted": true
@@ -53244,6 +53265,7 @@
         "r29-network-rate-composition",
         "r30-initial-stats-rate",
         "r32-buff-rate-independence",
+        "r33-result-resource-composition",
         "r4-pool-recharge-notify"
       ],
       "selectedDecompilationCompleted": true
@@ -53323,6 +53345,7 @@
         "r29-network-rate-composition",
         "r30-initial-stats-rate",
         "r32-buff-rate-independence",
+        "r33-result-resource-composition",
         "source-and-authority"
       ],
       "selectedDecompilationCompleted": true
@@ -53587,7 +53610,8 @@
         "historical-static-callback-binding",
         "hit-wire-and-feedback",
         "r3-hit-consumers",
-        "r3-pr373-action-identities"
+        "r3-pr373-action-identities",
+        "r33-result-resource-composition"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -53639,6 +53663,7 @@
         "hit-wire-and-feedback",
         "r16-hit-listeners-final",
         "r3-hit-consumers",
+        "r33-result-resource-composition",
         "r9-hit-result-qualification"
       ],
       "selectedDecompilationCompleted": true
@@ -53706,6 +53731,7 @@
       ],
       "sourceBatches": [
         "r3-hit-target-and-life",
+        "r33-result-resource-composition",
         "r9-hit-result-qualification"
       ],
       "selectedDecompilationCompleted": true
@@ -53836,7 +53862,8 @@
       ],
       "sourceBatches": [
         "historical-static-callback-binding",
-        "r16-hit-listeners-final"
+        "r16-hit-listeners-final",
+        "r33-result-resource-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -56298,6 +56325,7 @@
         "r29-network-rate-composition",
         "r30-initial-stats-rate",
         "r32-buff-rate-independence",
+        "r33-result-resource-composition",
         "r4-buff-guard-revive",
         "r4-buff-network-clock-contract",
         "source-and-authority"
@@ -57474,6 +57502,7 @@
         "r30-initial-stats-rate",
         "r31-critical-link-inputs",
         "r32-buff-rate-independence",
+        "r33-result-resource-composition",
         "stat-and-formula-v2"
       ],
       "selectedDecompilationCompleted": true
@@ -57493,7 +57522,8 @@
         "r10-buff-subscriptions-final",
         "r29-network-rate-composition",
         "r30-initial-stats-rate",
-        "r32-buff-rate-independence"
+        "r32-buff-rate-independence",
+        "r33-result-resource-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -57513,6 +57543,7 @@
         "r29-network-rate-composition",
         "r30-initial-stats-rate",
         "r32-buff-rate-independence",
+        "r33-result-resource-composition",
         "stat-and-formula-v2"
       ],
       "selectedDecompilationCompleted": true
@@ -57549,7 +57580,8 @@
         "r1-network-notifications-v2",
         "r29-network-rate-composition",
         "r30-initial-stats-rate",
-        "r32-buff-rate-independence"
+        "r32-buff-rate-independence",
+        "r33-result-resource-composition"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -71774,7 +71806,8 @@
         "r27-checkpoint-resources",
         "r29-network-rate-composition",
         "r30-initial-stats-rate",
-        "r32-buff-rate-independence"
+        "r32-buff-rate-independence",
+        "r33-result-resource-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -71828,7 +71861,8 @@
         "r27-checkpoint-resources",
         "r29-network-rate-composition",
         "r30-initial-stats-rate",
-        "r32-buff-rate-independence"
+        "r32-buff-rate-independence",
+        "r33-result-resource-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -71849,7 +71883,8 @@
         "r27-checkpoint-resources",
         "r29-network-rate-composition",
         "r30-initial-stats-rate",
-        "r32-buff-rate-independence"
+        "r32-buff-rate-independence",
+        "r33-result-resource-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -71870,7 +71905,8 @@
         "r27-checkpoint-resources",
         "r29-network-rate-composition",
         "r30-initial-stats-rate",
-        "r32-buff-rate-independence"
+        "r32-buff-rate-independence",
+        "r33-result-resource-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -71891,7 +71927,8 @@
         "r27-checkpoint-resources",
         "r29-network-rate-composition",
         "r30-initial-stats-rate",
-        "r32-buff-rate-independence"
+        "r32-buff-rate-independence",
+        "r33-result-resource-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -71926,7 +71963,8 @@
         "r27-checkpoint-resources",
         "r29-network-rate-composition",
         "r30-initial-stats-rate",
-        "r32-buff-rate-independence"
+        "r32-buff-rate-independence",
+        "r33-result-resource-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -71947,7 +71985,8 @@
         "r27-checkpoint-resources",
         "r29-network-rate-composition",
         "r30-initial-stats-rate",
-        "r32-buff-rate-independence"
+        "r32-buff-rate-independence",
+        "r33-result-resource-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -71968,7 +72007,8 @@
         "r27-checkpoint-resources",
         "r29-network-rate-composition",
         "r30-initial-stats-rate",
-        "r32-buff-rate-independence"
+        "r32-buff-rate-independence",
+        "r33-result-resource-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -72002,7 +72042,8 @@
         "r27-checkpoint-resources",
         "r29-network-rate-composition",
         "r30-initial-stats-rate",
-        "r32-buff-rate-independence"
+        "r32-buff-rate-independence",
+        "r33-result-resource-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -72021,7 +72062,8 @@
         "r27-checkpoint-resources",
         "r29-network-rate-composition",
         "r30-initial-stats-rate",
-        "r32-buff-rate-independence"
+        "r32-buff-rate-independence",
+        "r33-result-resource-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -72550,6 +72592,38 @@
       ],
       "sourceBatches": [
         "r32-buff-rate-independence"
+      ],
+      "selectedDecompilationCompleted": false
+    },
+    "0x14164dc50": {
+      "boundary": "explicit-analyst-leaf-range",
+      "ranges": [
+        {
+          "start": "0x14164dc50",
+          "endExclusive": "0x14164dc58",
+          "bytes": 8,
+          "fileOffset": 23384144,
+          "sha256": "4f74a7b434b371005f47d8dc026dc09c38161930bfbd6529b87e76282566234f"
+        }
+      ],
+      "sourceBatches": [
+        "r33-result-resource-composition"
+      ],
+      "selectedDecompilationCompleted": false
+    },
+    "0x14020eb20": {
+      "boundary": "explicit-analyst-leaf-range",
+      "ranges": [
+        {
+          "start": "0x14020eb20",
+          "endExclusive": "0x14020eb2c",
+          "bytes": 12,
+          "fileOffset": 2154272,
+          "sha256": "e1f2717149d33166f64328c6fabe786e5af2999b7ad5dd19af63b5b4bb45cf09"
+        }
+      ],
+      "sourceBatches": [
+        "r33-result-resource-composition"
       ],
       "selectedDecompilationCompleted": false
     }
@@ -73864,6 +73938,11 @@
       "name": "r32-buff-rate-independence",
       "auditSha256": "f4ccf46b591d34844216099919ea27172f94aebd92a486bd523e0ae6d7081be0",
       "functionCount": 55
+    },
+    {
+      "name": "r33-result-resource-composition",
+      "auditSha256": "2cdec1d74e5972c5861bf58c0bea2f90a06bc8f530f902fb354840b4decde54c",
+      "functionCount": 44
     }
   ],
   "pointerSlots": [
@@ -76186,6 +76265,14 @@
       "sha256": "4878a1ca7c7cb07f0c576222b70edcf087172fff96d00bb0f91169d4a0bb54f5",
       "fileOffset": 52774840,
       "source": "R31 CriticalLink final-table numerical collector, predicate and definition-number leaves"
+    },
+    {
+      "table": "0x1435da318",
+      "offset": "0x190",
+      "target": "0x14164dc50",
+      "fileOffset": 56465576,
+      "sha256": "4b375b58bf1a9448253a2f9f8b88921385f804ee40474250849fc395914434fc",
+      "source": "R33 actual World lookup-container getter used by downstream Actor result processing"
     }
   ],
   "scanCoverage": {
@@ -76238,7 +76325,7 @@
     "checkedReferenceInstructions": 13431,
     "decompilationFailures": [],
     "scope": "Original ranges/offsets, unwind ownership or explicit boundaries, stat identity, reference instructions and pointer-slot contents revalidated offline.",
-    "additionalFreshValidation": "R32 rechecked every retained byte range/unwind boundary/offset and pointer slot; original Buff removal/empty lifecycle and eligible clock paths composed with real explicit overrides and Life offline. Prior selected decompilation/reference checks retained, not rerun."
+    "additionalFreshValidation": "R33 rechecked every retained byte range/unwind boundary/file offset/pointer slot; actual ProcessResult and immediate missing-action handler composed with ES-dependent control admission and independent resource assignments offline. Prior decompilation/reference checks retained, not rerun."
   },
   "supportingRecords": [
     {
@@ -81709,6 +81796,60 @@
       "bytes": 8499,
       "sha256": "f5f907ba95e68f8393857db8f0b7849c15ccfa8ac7c6689b9b487894b5fe1b4b",
       "role": "R32 original Buff removal/empty lifecycle/eligible clock composed with independent explicit rates and Life; source publisher remains open"
+    },
+    {
+      "path": "Agents/docs/re/client-hit-result-resource-composition.md",
+      "bytes": 9815,
+      "sha256": "f5103531a35efcebbb2a85d721c43f2c7f4cb82f46c1e34f899e2b3f41e14ca7",
+      "role": "R33 actual missing-action result processing, current-ES sequence-derived stun trial and independent decoded resource assignment; numerical Hit closure remains open"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r33-result-resource-composition.py",
+      "bytes": 10310,
+      "sha256": "4cb8e21c71e49e63cb981915f13a8394cd3ad7f2bdc92436ea80414d700612a0",
+      "role": "R33 actual missing-action result processing, current-ES sequence-derived stun trial and independent decoded resource assignment; numerical Hit closure remains open"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r33-result-resource-fresh.py",
+      "bytes": 5038,
+      "sha256": "13abca7562511c80cb4666e37fd9432df56f034386ee620adc800ad9470fe76a",
+      "role": "R33 actual missing-action result processing, current-ES sequence-derived stun trial and independent decoded resource assignment; numerical Hit closure remains open"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r33-seal.py",
+      "bytes": 4834,
+      "sha256": "a6cef4246c89b69216eb21daea1a4a8078c1cfa74f1940486e58fdb3e7bd324c",
+      "role": "R33 actual missing-action result processing, current-ES sequence-derived stun trial and independent decoded resource assignment; numerical Hit closure remains open"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/coordination-r47-reuse.py",
+      "bytes": 1897,
+      "sha256": "3cd7f674aae8895615d739d14dfb9051c95a1009af4bd719e85177c0076448cf",
+      "role": "R33 actual missing-action result processing, current-ES sequence-derived stun trial and independent decoded resource assignment; numerical Hit closure remains open"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/coordination-r47-reuse.json",
+      "bytes": 729,
+      "sha256": "098203af3de76b8c0e0be4eb2c04bc43b21dd56e47695d4243ea9f7b5b8c086a",
+      "role": "R33 actual missing-action result processing, current-ES sequence-derived stun trial and independent decoded resource assignment; numerical Hit closure remains open"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r33-result-resource-composition/audit.json",
+      "bytes": 693473,
+      "sha256": "2cdec1d74e5972c5861bf58c0bea2f90a06bc8f530f902fb354840b4decde54c",
+      "role": "R33 actual missing-action result processing, current-ES sequence-derived stun trial and independent decoded resource assignment; numerical Hit closure remains open"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r33-result-resource-composition/verification.json",
+      "bytes": 17154,
+      "sha256": "b558545d8e0a41276219d420d1c79a04c2dfcd85669a5bc2d4f119da2e6488ea",
+      "role": "R33 actual missing-action result processing, current-ES sequence-derived stun trial and independent decoded resource assignment; numerical Hit closure remains open"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r33-result-resource-composition/fresh-check.json",
+      "bytes": 8604,
+      "sha256": "bc870d9c405835f34ba7f7cd65a76edc8396522828fe7d6ef94413299c5b08f6",
+      "role": "R33 actual missing-action result processing, current-ES sequence-derived stun trial and independent decoded resource assignment; numerical Hit closure remains open"
     }
   ],
   "auxiliaryDataTables": [
@@ -82148,5 +82289,15 @@
     "steps": 725468,
     "visitedInstructions": 1222,
     "limits": "Parsed/queued 1c2 removal, eligible timer and Life compositions with supplied empty listeners/scripts, explicit aggregate and R29 external fixtures; no source selection/publication/shared cap or official scheduling closure."
+  },
+  "resultResourceCompositionVerification": {
+    "runtimeExecuted": false,
+    "functions": 44,
+    "ranges": 60,
+    "decodedInstructions": 5066,
+    "cases": 65830,
+    "steps": 1552391,
+    "visitedInstructions": 595,
+    "limits": "Actual immediate missing-action handler and direct ProcessResult with supplied empty listeners; frozen target bounds later directional receiver. All u16 inline-trial inputs verified. No ordinary Fireball callback execution, numerical Hit damage, DoT publisher or global absence proof."
   }
 }

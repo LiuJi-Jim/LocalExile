@@ -189,6 +189,11 @@ The suspend/restore lifecycle is explicit LocalExile policy; see protocol/11-ski
   generic/highest-uncapped contributions. Preserve separate event-qualified inputs and undeclared condition reads.
   Bind actual resistance selection, ignore/prohibition/penetration application instead of adding these totals twice.
   Connect accepted contacts to numerical damage/critical/mitigation and pool receivers; these edges remain open.
+  Reuse [actual received-result/resource compositions](../docs/re/client-hit-result-resource-composition.md):
+  missing-action ProcessResult can succeed with no current/carry/reservation change in the supplied empty signals.
+  Current target ES and protects-Mana gate a sequence-derived control trial; resource assignment order matters.
+  Do not repeat the exhaustive u16 trial or treat its duration rewrite as numerical damage; nonempty subscribers,
+  concrete action consequences and the accepted-Hit numerical publisher remain separate next boundaries.
   Reuse integer pool cost/sacrifice paths separately; trace payment-gate provenance before claiming client prepayment.
   Their concrete numerical writes do not close accepted-Hit damage or DoT source publication.
   Reuse [terminal Mana-refund arithmetic](../docs/re/client-terminal-mana-refunds.md), preserving FireMortar scope,

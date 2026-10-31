@@ -715,6 +715,11 @@ and can require explicit recipes.
   empty lifecycle/destruction and eligible timers through subsequent Life loss with real network overrides.
   Expiration/removal leaves the supplied aggregate independent; a separate Stats update can stop loss.
   Empty listeners/scripts and clock eligibility are supplied inputs, not universal client behavior.
+  [Received-result/resource composition](../docs/re/client-hit-result-resource-composition.md) executes the actual
+  immediate missing-action handler through ProcessResult, real network getters and selected empty signals.
+  These paths preserve currents/carry/reservations; independent decoded resource assignment changes the pool.
+  Positive target ES and zero protects-Mana stat enable a sequence-derived stun-suppression trial, odd over u16;
+  ES assignment order changes its duration rewrite. Nonempty listeners and numerical Hit damage remain open.
     [Critical Link's numerical collector](../docs/re/client-critical-link-export.md) binds three raw Stats appends
     and exact final action slots; its two non-recovery Buff definitions omit granted magnitudes on AddBuff.
     Actual collector invocation, grant application and refresh remain open; this is separate from Hit damage.
