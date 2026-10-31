@@ -177,6 +177,10 @@ The suspend/restore lifecycle is explicit LocalExile policy; see protocol/11-ski
   Concrete Fireball/Melee contact and avoidance decisions are bound separately from panel formulas and feedback.
   Preserve Fireball base-versus-client factory scope and mode/kind filters; reuse parallel projectile research.
   Reuse received-result control admission and mask/duration rewrites; selected critical feedback is not a roll.
+  Reuse [release/result/checkpoint composition](../docs/re/client-hit-checkpoint-resource-composition.md):
+  actual ProcessResult can consume independent resource assignments at its three nested checkpoints.
+  Preserve supplied ordered-mode/core/TLS boundaries; do not count checkpoints as frames or infer a hit amount.
+  Actual wire/core production stays with projectile research; pursue missing numerical damage connections here.
   Bow/Wand specialization, equipment-to-setter updates and startup registry winners are bound.
   Follow numerical consequences only where a concrete extension output requires them; do not expand all rendering.
   Melee attachment/controller outputs and DefaultArrow's five component update targets are bound.

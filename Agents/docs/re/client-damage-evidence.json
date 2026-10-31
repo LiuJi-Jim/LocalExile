@@ -41749,6 +41749,7 @@
         "r47-action-present-result",
         "r49-buff-replacement",
         "r50-wire-source-composition",
+        "r53-result-join",
         "r9-ground-ownership"
       ],
       "selectedDecompilationCompleted": true
@@ -41976,7 +41977,8 @@
         "r4-buff-clock-observer-dispatch",
         "r47-action-present-result",
         "r49-buff-replacement",
-        "r50-wire-source-composition"
+        "r50-wire-source-composition",
+        "r53-result-join"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -42550,7 +42552,8 @@
         "historical-static-callback-binding",
         "r16-hit-listeners-final",
         "r33-result-resource-composition",
-        "r47-action-present-result"
+        "r47-action-present-result",
+        "r53-result-join"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -53046,7 +53049,8 @@
         "r4-pool-assignment-effects",
         "r45-native-pool-composition",
         "r49-buff-replacement",
-        "r50-wire-source-composition"
+        "r50-wire-source-composition",
+        "r53-result-join"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -53236,7 +53240,8 @@
         "r33-result-resource-composition",
         "r34-buff-clock-authority",
         "r4-buff-guard-revive",
-        "r45-native-pool-composition"
+        "r45-native-pool-composition",
+        "r53-result-join"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -54150,6 +54155,7 @@
         "r3-hit-consumers",
         "r33-result-resource-composition",
         "r47-action-present-result",
+        "r53-result-join",
         "r9-hit-result-qualification"
       ],
       "selectedDecompilationCompleted": true
@@ -54184,7 +54190,8 @@
       "sourceBatches": [
         "r3-hit-target-and-life",
         "r3-loss-descriptor-producer",
-        "r47-action-present-result"
+        "r47-action-present-result",
+        "r53-result-join"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -54351,7 +54358,8 @@
         "historical-static-callback-binding",
         "r16-hit-listeners-final",
         "r33-result-resource-composition",
-        "r47-action-present-result"
+        "r47-action-present-result",
+        "r53-result-join"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -56829,6 +56837,7 @@
         "r34-buff-clock-authority",
         "r4-buff-guard-revive",
         "r4-buff-network-clock-contract",
+        "r53-result-join",
         "source-and-authority"
       ],
       "selectedDecompilationCompleted": true
@@ -58013,6 +58022,7 @@
         "r47-action-present-result",
         "r49-buff-replacement",
         "r50-wire-source-composition",
+        "r53-result-join",
         "stat-and-formula-v2"
       ],
       "selectedDecompilationCompleted": true
@@ -72742,7 +72752,8 @@
         "r33-result-resource-composition",
         "r34-buff-clock-authority",
         "r45-native-pool-composition",
-        "r47-action-present-result"
+        "r47-action-present-result",
+        "r53-result-join"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -72965,7 +72976,8 @@
         "r34-buff-clock-authority",
         "r47-action-present-result",
         "r49-buff-replacement",
-        "r50-wire-source-composition"
+        "r50-wire-source-composition",
+        "r53-result-join"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -73522,7 +73534,8 @@
       ],
       "sourceBatches": [
         "r33-result-resource-composition",
-        "r47-action-present-result"
+        "r47-action-present-result",
+        "r53-result-join"
       ],
       "selectedDecompilationCompleted": false
     },
@@ -73539,7 +73552,8 @@
       ],
       "sourceBatches": [
         "r33-result-resource-composition",
-        "r47-action-present-result"
+        "r47-action-present-result",
+        "r53-result-join"
       ],
       "selectedDecompilationCompleted": false
     },
@@ -73576,7 +73590,8 @@
         "r34-buff-clock-authority",
         "r47-action-present-result",
         "r49-buff-replacement",
-        "r50-wire-source-composition"
+        "r50-wire-source-composition",
+        "r53-result-join"
       ],
       "selectedDecompilationCompleted": false
     },
@@ -73814,7 +73829,8 @@
         }
       ],
       "sourceBatches": [
-        "r47-action-present-result"
+        "r47-action-present-result",
+        "r53-result-join"
       ],
       "selectedDecompilationCompleted": false
     },
@@ -73844,7 +73860,8 @@
         }
       ],
       "sourceBatches": [
-        "r47-action-present-result"
+        "r47-action-present-result",
+        "r53-result-join"
       ],
       "selectedDecompilationCompleted": false
     },
@@ -73860,7 +73877,8 @@
         }
       ],
       "sourceBatches": [
-        "r47-action-present-result"
+        "r47-action-present-result",
+        "r53-result-join"
       ],
       "selectedDecompilationCompleted": false
     },
@@ -73890,7 +73908,8 @@
         }
       ],
       "sourceBatches": [
-        "r47-action-present-result"
+        "r47-action-present-result",
+        "r53-result-join"
       ],
       "selectedDecompilationCompleted": false
     },
@@ -73906,7 +73925,8 @@
         }
       ],
       "sourceBatches": [
-        "r47-action-present-result"
+        "r47-action-present-result",
+        "r53-result-join"
       ],
       "selectedDecompilationCompleted": false
     },
@@ -73922,7 +73942,8 @@
         }
       ],
       "sourceBatches": [
-        "r47-action-present-result"
+        "r47-action-present-result",
+        "r53-result-join"
       ],
       "selectedDecompilationCompleted": false
     },
@@ -73938,7 +73959,8 @@
         }
       ],
       "sourceBatches": [
-        "r47-action-present-result"
+        "r47-action-present-result",
+        "r53-result-join"
       ],
       "selectedDecompilationCompleted": false
     },
@@ -73954,7 +73976,8 @@
         }
       ],
       "sourceBatches": [
-        "r47-action-present-result"
+        "r47-action-present-result",
+        "r53-result-join"
       ],
       "selectedDecompilationCompleted": false
     },
@@ -73970,7 +73993,8 @@
         }
       ],
       "sourceBatches": [
-        "r47-action-present-result"
+        "r47-action-present-result",
+        "r53-result-join"
       ],
       "selectedDecompilationCompleted": false
     },
@@ -73986,7 +74010,8 @@
         }
       ],
       "sourceBatches": [
-        "r47-action-present-result"
+        "r47-action-present-result",
+        "r53-result-join"
       ],
       "selectedDecompilationCompleted": false
     },
@@ -74002,7 +74027,8 @@
         }
       ],
       "sourceBatches": [
-        "r47-action-present-result"
+        "r47-action-present-result",
+        "r53-result-join"
       ],
       "selectedDecompilationCompleted": false
     },
@@ -74064,7 +74090,8 @@
         }
       ],
       "sourceBatches": [
-        "r47-action-present-result"
+        "r47-action-present-result",
+        "r53-result-join"
       ],
       "selectedDecompilationCompleted": false
     },
@@ -74080,7 +74107,8 @@
         }
       ],
       "sourceBatches": [
-        "r47-action-present-result"
+        "r47-action-present-result",
+        "r53-result-join"
       ],
       "selectedDecompilationCompleted": false
     },
@@ -74096,7 +74124,8 @@
         }
       ],
       "sourceBatches": [
-        "r47-action-present-result"
+        "r47-action-present-result",
+        "r53-result-join"
       ],
       "selectedDecompilationCompleted": false
     },
@@ -74112,7 +74141,8 @@
         }
       ],
       "sourceBatches": [
-        "r47-action-present-result"
+        "r47-action-present-result",
+        "r53-result-join"
       ],
       "selectedDecompilationCompleted": false
     },
@@ -74128,7 +74158,8 @@
         }
       ],
       "sourceBatches": [
-        "r47-action-present-result"
+        "r47-action-present-result",
+        "r53-result-join"
       ],
       "selectedDecompilationCompleted": false
     },
@@ -74144,7 +74175,8 @@
         }
       ],
       "sourceBatches": [
-        "r47-action-present-result"
+        "r47-action-present-result",
+        "r53-result-join"
       ],
       "selectedDecompilationCompleted": false
     },
@@ -74160,7 +74192,8 @@
         }
       ],
       "sourceBatches": [
-        "r47-action-present-result"
+        "r47-action-present-result",
+        "r53-result-join"
       ],
       "selectedDecompilationCompleted": false
     },
@@ -74176,7 +74209,8 @@
         }
       ],
       "sourceBatches": [
-        "r47-action-present-result"
+        "r47-action-present-result",
+        "r53-result-join"
       ],
       "selectedDecompilationCompleted": false
     },
@@ -74220,7 +74254,8 @@
         }
       ],
       "sourceBatches": [
-        "r47-action-present-result"
+        "r47-action-present-result",
+        "r53-result-join"
       ],
       "selectedDecompilationCompleted": false
     },
@@ -74236,7 +74271,8 @@
         }
       ],
       "sourceBatches": [
-        "r47-action-present-result"
+        "r47-action-present-result",
+        "r53-result-join"
       ],
       "selectedDecompilationCompleted": false
     },
@@ -74266,7 +74302,8 @@
         }
       ],
       "sourceBatches": [
-        "r47-action-present-result"
+        "r47-action-present-result",
+        "r53-result-join"
       ],
       "selectedDecompilationCompleted": false
     },
@@ -74296,7 +74333,8 @@
         }
       ],
       "sourceBatches": [
-        "r47-action-present-result"
+        "r47-action-present-result",
+        "r53-result-join"
       ],
       "selectedDecompilationCompleted": false
     },
@@ -74312,7 +74350,8 @@
         }
       ],
       "sourceBatches": [
-        "r47-action-present-result"
+        "r47-action-present-result",
+        "r53-result-join"
       ],
       "selectedDecompilationCompleted": false
     },
@@ -74349,7 +74388,8 @@
         }
       ],
       "sourceBatches": [
-        "r47-action-present-result"
+        "r47-action-present-result",
+        "r53-result-join"
       ],
       "selectedDecompilationCompleted": false
     },
@@ -74365,7 +74405,8 @@
         }
       ],
       "sourceBatches": [
-        "r47-action-present-result"
+        "r47-action-present-result",
+        "r53-result-join"
       ],
       "selectedDecompilationCompleted": false
     },
@@ -74381,7 +74422,8 @@
         }
       ],
       "sourceBatches": [
-        "r47-action-present-result"
+        "r47-action-present-result",
+        "r53-result-join"
       ],
       "selectedDecompilationCompleted": false
     },
@@ -74411,7 +74453,8 @@
         }
       ],
       "sourceBatches": [
-        "r47-action-present-result"
+        "r47-action-present-result",
+        "r53-result-join"
       ],
       "selectedDecompilationCompleted": false
     },
@@ -75916,6 +75959,11 @@
       "name": "r51-bleeding-policy",
       "auditSha256": "bd3f8c96697bdcfecfaa99a81087d33277159759d36516074e9490106d45febb",
       "functionCount": 19
+    },
+    {
+      "name": "r53-result-join",
+      "auditSha256": "e5f604ced173c0f80b0e8095e8405f770e6087c7ba09366746b2ea87bb028902",
+      "functionCount": 43
     }
   ],
   "pointerSlots": [
@@ -78278,6 +78326,13 @@
       "fileOffset": 52638056,
       "sha256": "a82f259a4f163c54b29da370975bceb43a7844a0be28ab69d3d12a0f59337f84",
       "sourceBatch": "r47-action-present-result"
+    },
+    {
+      "table": "0x14346e0c8",
+      "offset": "0x190",
+      "target": "0x14164dc50",
+      "fileOffset": 54974040,
+      "sha256": "4b375b58bf1a9448253a2f9f8b88921385f804ee40474250849fc395914434fc"
     }
   ],
   "scanCoverage": {
@@ -78330,7 +78385,7 @@
     "checkedReferenceInstructions": 13431,
     "decompilationFailures": [],
     "scope": "Original ranges/offsets, unwind ownership or explicit boundaries, stat identity, reference instructions and pointer-slot contents revalidated offline.",
-    "additionalFreshValidation": "R51 rechecked all original ranges, ownership, offsets, pointer slots and 1004 prior sealed supports. 224 cases and 14 dynamic changes recover four bleeding policy callbacks and selected final-output propagation through original native dependency dispatch and record getters. Actual instance selection, aggravation trial, Hit-to-pool, target-rate publication/shared cap and generic clock refresh remain open."
+    "additionalFreshValidation": "R53 rechecked all original ranges, ownership, offsets, pointer slots and 1011 prior sealed supports. Forty-two supplied-state cases join actual release/checkpoint/result processing with three nested World checkpoints and independent Life/Mana/ES assignment, checking 4742 visited original sites. All 43 numerical function identities reuse prior evidence; one World lookup pointer slot is added. Numerical Hit damage, target DoT publication/shared cap and generic clock refresh remain open."
   },
   "supportingRecords": [
     {
@@ -84353,6 +84408,708 @@
       "bytes": 424545,
       "sha256": "bd3f8c96697bdcfecfaa99a81087d33277159759d36516074e9490106d45febb",
       "role": "R51 effective Crimson Dance, replacement bleeding stack limit, minion-suppressed movement override and exerted aggravation chance. Original numerical callbacks/dependency dispatch/native records with supplied cache/eligibility and observational metadata updater; not actual instance selection, aggravation trial or target publication/shared cap."
+    },
+    {
+      "path": "Agents/docs/re/client-hit-checkpoint-resource-composition.md",
+      "bytes": 9388,
+      "sha256": "cd740280f52d5d8d2e6b9167602ef9f34caa50ce69b2efde7780b9f5fdd25ed1",
+      "role": "R53 actual upstream release/World/Actor result consumer joined to original ProcessResult and nested independent pool assignment. Exact peer R60 snapshot/replay dependencies retained; supplied parsed queue/core/TLS/provider/action/events/geometry/storage/ABI bridge. Not numerical accepted-Hit damage, DoT publication/shared cap or generic clock refresh."
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r53-result-join.py",
+      "bytes": 11792,
+      "sha256": "8368bf212a986ebff62974700d3fe884c0ef5aa10418507f1283a5247becf45b",
+      "role": "R53 actual upstream release/World/Actor result consumer joined to original ProcessResult and nested independent pool assignment. Exact peer R60 snapshot/replay dependencies retained; supplied parsed queue/core/TLS/provider/action/events/geometry/storage/ABI bridge. Not numerical accepted-Hit damage, DoT publication/shared cap or generic clock refresh."
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r53-result-fresh.py",
+      "bytes": 11278,
+      "sha256": "064262c71bbe1f2af9a08201a07f0255f6b4f452cfc10f3629a0631e67f62a64",
+      "role": "R53 actual upstream release/World/Actor result consumer joined to original ProcessResult and nested independent pool assignment. Exact peer R60 snapshot/replay dependencies retained; supplied parsed queue/core/TLS/provider/action/events/geometry/storage/ABI bridge. Not numerical accepted-Hit damage, DoT publication/shared cap or generic clock refresh."
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r53-seal.py",
+      "bytes": 5539,
+      "sha256": "0fbe6b7f80f73c50d80d9ff31bb37c88aa09a80a51df9aaf3449986d18008508",
+      "role": "R53 actual upstream release/World/Actor result consumer joined to original ProcessResult and nested independent pool assignment. Exact peer R60 snapshot/replay dependencies retained; supplied parsed queue/core/TLS/provider/action/events/geometry/storage/ABI bridge. Not numerical accepted-Hit damage, DoT publication/shared cap or generic clock refresh."
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/coordination-r60-reuse.json",
+      "bytes": 696,
+      "sha256": "430019dbcad05e2f3051edad745204574fab998435acd5bba2095b9711e71be6",
+      "role": "R53 actual upstream release/World/Actor result consumer joined to original ProcessResult and nested independent pool assignment. Exact peer R60 snapshot/replay dependencies retained; supplied parsed queue/core/TLS/provider/action/events/geometry/storage/ABI bridge. Not numerical accepted-Hit damage, DoT publication/shared cap or generic clock refresh."
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r53-result-join/verification.json",
+      "bytes": 4921443,
+      "sha256": "deee77db08f59ac4ad5987d29147531406e54176ba013319657d80ae858b867a",
+      "role": "R53 actual upstream release/World/Actor result consumer joined to original ProcessResult and nested independent pool assignment. Exact peer R60 snapshot/replay dependencies retained; supplied parsed queue/core/TLS/provider/action/events/geometry/storage/ABI bridge. Not numerical accepted-Hit damage, DoT publication/shared cap or generic clock refresh."
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r53-result-join/frontier.json",
+      "bytes": 193,
+      "sha256": "4a702372d8db71cd0f15a1bf5d6ca36dadd9ed2532cfed9784f437f82ba07d6f",
+      "role": "R53 actual upstream release/World/Actor result consumer joined to original ProcessResult and nested independent pool assignment. Exact peer R60 snapshot/replay dependencies retained; supplied parsed queue/core/TLS/provider/action/events/geometry/storage/ABI bridge. Not numerical accepted-Hit damage, DoT publication/shared cap or generic clock refresh."
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r53-result-join/fresh-check.json",
+      "bytes": 1115,
+      "sha256": "018f3bc9179302e3332fbd33abc835e3c6901691d96a12172af13c7e3f5a572b",
+      "role": "R53 actual upstream release/World/Actor result consumer joined to original ProcessResult and nested independent pool assignment. Exact peer R60 snapshot/replay dependencies retained; supplied parsed queue/core/TLS/provider/action/events/geometry/storage/ABI bridge. Not numerical accepted-Hit damage, DoT publication/shared cap or generic clock refresh."
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r53-result-join/audit.json",
+      "bytes": 703414,
+      "sha256": "e5f604ced173c0f80b0e8095e8405f770e6087c7ba09366746b2ea87bb028902",
+      "role": "R53 actual upstream release/World/Actor result consumer joined to original ProcessResult and nested independent pool assignment. Exact peer R60 snapshot/replay dependencies retained; supplied parsed queue/core/TLS/provider/action/events/geometry/storage/ABI bridge. Not numerical accepted-Hit damage, DoT publication/shared cap or generic clock refresh."
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r53-peer-r60/manifest.json",
+      "bytes": 29668,
+      "sha256": "0e79559abb7c02b71e7bdbb32c537d4ff342244b25b67d6209f6000cfd9618b5",
+      "role": "R53 actual upstream release/World/Actor result consumer joined to original ProcessResult and nested independent pool assignment. Exact peer R60 snapshot/replay dependencies retained; supplied parsed queue/core/TLS/provider/action/events/geometry/storage/ABI bridge. Not numerical accepted-Hit damage, DoT publication/shared cap or generic clock refresh."
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r53-peer-r60/Agents/docs/re/012-projectile-execution.md",
+      "bytes": 18921,
+      "sha256": "bccc19e73d175a76967b9e64cf6843d6c23096bfdbe44e0a6242c3e4f4ec1770",
+      "role": "R53 actual upstream release/World/Actor result consumer joined to original ProcessResult and nested independent pool assignment. Exact peer R60 snapshot/replay dependencies retained; supplied parsed queue/core/TLS/provider/action/events/geometry/storage/ABI bridge. Not numerical accepted-Hit damage, DoT publication/shared cap or generic clock refresh."
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r53-peer-r60/Agents/docs/re/projectiles/action-initialization.md",
+      "bytes": 10924,
+      "sha256": "0a50db6c653286c817483d91414bc910ae47d06756cbde73d8bb0edad10f51c4",
+      "role": "R53 actual upstream release/World/Actor result consumer joined to original ProcessResult and nested independent pool assignment. Exact peer R60 snapshot/replay dependencies retained; supplied parsed queue/core/TLS/provider/action/events/geometry/storage/ABI bridge. Not numerical accepted-Hit damage, DoT publication/shared cap or generic clock refresh."
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r53-peer-r60/Agents/docs/re/projectiles/actions-and-emission.md",
+      "bytes": 45668,
+      "sha256": "17d35157e53cac0c98cf1da17890d7fd884112410aba28b3d708bf0430426db7",
+      "role": "R53 actual upstream release/World/Actor result consumer joined to original ProcessResult and nested independent pool assignment. Exact peer R60 snapshot/replay dependencies retained; supplied parsed queue/core/TLS/provider/action/events/geometry/storage/ABI bridge. Not numerical accepted-Hit damage, DoT publication/shared cap or generic clock refresh."
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r53-peer-r60/Agents/docs/re/projectiles/animation-and-release.md",
+      "bytes": 14734,
+      "sha256": "3631d491f95fb115086fc5b336a5bbb492249d1ad5246ef41f495e705ece9357",
+      "role": "R53 actual upstream release/World/Actor result consumer joined to original ProcessResult and nested independent pool assignment. Exact peer R60 snapshot/replay dependencies retained; supplied parsed queue/core/TLS/provider/action/events/geometry/storage/ABI bridge. Not numerical accepted-Hit damage, DoT publication/shared cap or generic clock refresh."
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r53-peer-r60/Agents/docs/re/projectiles/area-increased-terms.md",
+      "bytes": 9161,
+      "sha256": "67bffada5b91ade3befc73c233b7250dc76369703890e1d5ac698911d8c82379",
+      "role": "R53 actual upstream release/World/Actor result consumer joined to original ProcessResult and nested independent pool assignment. Exact peer R60 snapshot/replay dependencies retained; supplied parsed queue/core/TLS/provider/action/events/geometry/storage/ABI bridge. Not numerical accepted-Hit damage, DoT publication/shared cap or generic clock refresh."
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r53-peer-r60/Agents/docs/re/projectiles/area-more-factors.md",
+      "bytes": 8009,
+      "sha256": "6d387567c1411e00473d593b186ca393c2186048d1f45800b0f7432d12edb92e",
+      "role": "R53 actual upstream release/World/Actor result consumer joined to original ProcessResult and nested independent pool assignment. Exact peer R60 snapshot/replay dependencies retained; supplied parsed queue/core/TLS/provider/action/events/geometry/storage/ABI bridge. Not numerical accepted-Hit damage, DoT publication/shared cap or generic clock refresh."
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r53-peer-r60/Agents/docs/re/projectiles/area-radius.md",
+      "bytes": 20458,
+      "sha256": "06325dd2317ce0ec389b1ab041cc1c45b6acb68e0e778142444dc718551af928",
+      "role": "R53 actual upstream release/World/Actor result consumer joined to original ProcessResult and nested independent pool assignment. Exact peer R60 snapshot/replay dependencies retained; supplied parsed queue/core/TLS/provider/action/events/geometry/storage/ABI bridge. Not numerical accepted-Hit damage, DoT publication/shared cap or generic clock refresh."
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r53-peer-r60/Agents/docs/re/projectiles/attack-hit-chance.md",
+      "bytes": 10869,
+      "sha256": "b69f5dcf961615d601c41e7ba1b3ebbe075034941e8447d225f52a275b53c6ba",
+      "role": "R53 actual upstream release/World/Actor result consumer joined to original ProcessResult and nested independent pool assignment. Exact peer R60 snapshot/replay dependencies retained; supplied parsed queue/core/TLS/provider/action/events/geometry/storage/ABI bridge. Not numerical accepted-Hit damage, DoT publication/shared cap or generic clock refresh."
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r53-peer-r60/Agents/docs/re/projectiles/bow-wand-and-burning-arrow.md",
+      "bytes": 9062,
+      "sha256": "2e515d885ffc358c9641e963ebe12c3f1fa87f228ea9d54f71d8c5dd8228f35e",
+      "role": "R53 actual upstream release/World/Actor result consumer joined to original ProcessResult and nested independent pool assignment. Exact peer R60 snapshot/replay dependencies retained; supplied parsed queue/core/TLS/provider/action/events/geometry/storage/ABI bridge. Not numerical accepted-Hit damage, DoT publication/shared cap or generic clock refresh."
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r53-peer-r60/Agents/docs/re/projectiles/capture-contract.md",
+      "bytes": 21859,
+      "sha256": "cbf0be998b6c6c1a008177014f99b051c68d2aaf8705d39c81fdf9d63b9a4798",
+      "role": "R53 actual upstream release/World/Actor result consumer joined to original ProcessResult and nested independent pool assignment. Exact peer R60 snapshot/replay dependencies retained; supplied parsed queue/core/TLS/provider/action/events/geometry/storage/ABI bridge. Not numerical accepted-Hit damage, DoT publication/shared cap or generic clock refresh."
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r53-peer-r60/Agents/docs/re/projectiles/chain-candidate-admission.md",
+      "bytes": 10576,
+      "sha256": "26b6075b3f48856a50160a06f1b1a42db27dd28e91371c71c0426600b43cb44d",
+      "role": "R53 actual upstream release/World/Actor result consumer joined to original ProcessResult and nested independent pool assignment. Exact peer R60 snapshot/replay dependencies retained; supplied parsed queue/core/TLS/provider/action/events/geometry/storage/ABI bridge. Not numerical accepted-Hit damage, DoT publication/shared cap or generic clock refresh."
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r53-peer-r60/Agents/docs/re/projectiles/continuation-and-memory.md",
+      "bytes": 48844,
+      "sha256": "78ce11e27fd82417b0c7d95121e118034accaff208df14ddff8f6b7e37ca5e0b",
+      "role": "R53 actual upstream release/World/Actor result consumer joined to original ProcessResult and nested independent pool assignment. Exact peer R60 snapshot/replay dependencies retained; supplied parsed queue/core/TLS/provider/action/events/geometry/storage/ABI bridge. Not numerical accepted-Hit damage, DoT publication/shared cap or generic clock refresh."
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r53-peer-r60/Agents/docs/re/projectiles/continuation-stat-inputs.md",
+      "bytes": 16549,
+      "sha256": "3d1644fd3f75e02ad823a6c70e3ce1fb49731b5331fd75797d459babc23f6bc7",
+      "role": "R53 actual upstream release/World/Actor result consumer joined to original ProcessResult and nested independent pool assignment. Exact peer R60 snapshot/replay dependencies retained; supplied parsed queue/core/TLS/provider/action/events/geometry/storage/ABI bridge. Not numerical accepted-Hit damage, DoT publication/shared cap or generic clock refresh."
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r53-peer-r60/Agents/docs/re/projectiles/count-stat-inputs.md",
+      "bytes": 10705,
+      "sha256": "ebfdaa9f6e9d62058901adb2ffe3a93d018c6a66117dfdabd990e2d6e5b3fdb2",
+      "role": "R53 actual upstream release/World/Actor result consumer joined to original ProcessResult and nested independent pool assignment. Exact peer R60 snapshot/replay dependencies retained; supplied parsed queue/core/TLS/provider/action/events/geometry/storage/ABI bridge. Not numerical accepted-Hit damage, DoT publication/shared cap or generic clock refresh."
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r53-peer-r60/Agents/docs/re/projectiles/evidence-and-open-questions.md",
+      "bytes": 131896,
+      "sha256": "469b4e3641a96d35c0c97216f6c14b18e33e53ba26031dadb29a5e33f80b5469",
+      "role": "R53 actual upstream release/World/Actor result consumer joined to original ProcessResult and nested independent pool assignment. Exact peer R60 snapshot/replay dependencies retained; supplied parsed queue/core/TLS/provider/action/events/geometry/storage/ABI bridge. Not numerical accepted-Hit damage, DoT publication/shared cap or generic clock refresh."
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r53-peer-r60/Agents/docs/re/projectiles/external-ranged-evidence.md",
+      "bytes": 13793,
+      "sha256": "4932de9957dd732a1f0c0ffd0995df15dbfc89f02594c3292c34d2ddc2c815b9",
+      "role": "R53 actual upstream release/World/Actor result consumer joined to original ProcessResult and nested independent pool assignment. Exact peer R60 snapshot/replay dependencies retained; supplied parsed queue/core/TLS/provider/action/events/geometry/storage/ABI bridge. Not numerical accepted-Hit damage, DoT publication/shared cap or generic clock refresh."
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r53-peer-r60/Agents/docs/re/projectiles/fireball-and-kinetic-blast.md",
+      "bytes": 37642,
+      "sha256": "62ffb4520162e40a72ddc3281ac40bbb645b5e0d6886a4688ad4f37b48b93777",
+      "role": "R53 actual upstream release/World/Actor result consumer joined to original ProcessResult and nested independent pool assignment. Exact peer R60 snapshot/replay dependencies retained; supplied parsed queue/core/TLS/provider/action/events/geometry/storage/ABI bridge. Not numerical accepted-Hit damage, DoT publication/shared cap or generic clock refresh."
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r53-peer-r60/Agents/docs/re/projectiles/hand-selection.md",
+      "bytes": 8773,
+      "sha256": "abb948fe1ca543ffaecd7852434ba7d00dd9405b6aefbebdf68c8644e50b0cbc",
+      "role": "R53 actual upstream release/World/Actor result consumer joined to original ProcessResult and nested independent pool assignment. Exact peer R60 snapshot/replay dependencies retained; supplied parsed queue/core/TLS/provider/action/events/geometry/storage/ABI bridge. Not numerical accepted-Hit damage, DoT publication/shared cap or generic clock refresh."
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r53-peer-r60/Agents/docs/re/projectiles/kinetic-wall-contact.md",
+      "bytes": 8395,
+      "sha256": "107b96275154408f61fd5e0f0c7b69d971f44f88f3eeb75225c5600a7fcb5640",
+      "role": "R53 actual upstream release/World/Actor result consumer joined to original ProcessResult and nested independent pool assignment. Exact peer R60 snapshot/replay dependencies retained; supplied parsed queue/core/TLS/provider/action/events/geometry/storage/ABI bridge. Not numerical accepted-Hit damage, DoT publication/shared cap or generic clock refresh."
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r53-peer-r60/Agents/docs/re/projectiles/local-hit-prediction.md",
+      "bytes": 16985,
+      "sha256": "31b09de4451fc2dcdb16c757a1da26ef813b6390ee6c56dd2c1399ada3bc12ba",
+      "role": "R53 actual upstream release/World/Actor result consumer joined to original ProcessResult and nested independent pool assignment. Exact peer R60 snapshot/replay dependencies retained; supplied parsed queue/core/TLS/provider/action/events/geometry/storage/ABI bridge. Not numerical accepted-Hit damage, DoT publication/shared cap or generic clock refresh."
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r53-peer-r60/Agents/docs/re/projectiles/motion-admission-inputs.md",
+      "bytes": 9661,
+      "sha256": "dec8d9bf5dc97d040aa6b8beeef3640f89b51360d2e52ed4e71d2ccff2537e6f",
+      "role": "R53 actual upstream release/World/Actor result consumer joined to original ProcessResult and nested independent pool assignment. Exact peer R60 snapshot/replay dependencies retained; supplied parsed queue/core/TLS/provider/action/events/geometry/storage/ABI bridge. Not numerical accepted-Hit damage, DoT publication/shared cap or generic clock refresh."
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r53-peer-r60/Agents/docs/re/projectiles/motion-and-contact.md",
+      "bytes": 41062,
+      "sha256": "539436019fac44c2103f992a3c4d7e367e91f523d60d5c21f2cef6f5e7445b82",
+      "role": "R53 actual upstream release/World/Actor result consumer joined to original ProcessResult and nested independent pool assignment. Exact peer R60 snapshot/replay dependencies retained; supplied parsed queue/core/TLS/provider/action/events/geometry/storage/ABI bridge. Not numerical accepted-Hit damage, DoT publication/shared cap or generic clock refresh."
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r53-peer-r60/Agents/docs/re/projectiles/motion-configuration-inputs.md",
+      "bytes": 10825,
+      "sha256": "8abc3f0ba0ab763551888439d34349d67c42365c1de2ec67c953773c59c28cd4",
+      "role": "R53 actual upstream release/World/Actor result consumer joined to original ProcessResult and nested independent pool assignment. Exact peer R60 snapshot/replay dependencies retained; supplied parsed queue/core/TLS/provider/action/events/geometry/storage/ABI bridge. Not numerical accepted-Hit damage, DoT publication/shared cap or generic clock refresh."
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r53-peer-r60/Agents/docs/re/projectiles/motion-speed-and-time.md",
+      "bytes": 19939,
+      "sha256": "49c620b73c02f3227bf1c311e16f942751a13a139b71d189623b2bb48f792012",
+      "role": "R53 actual upstream release/World/Actor result consumer joined to original ProcessResult and nested independent pool assignment. Exact peer R60 snapshot/replay dependencies retained; supplied parsed queue/core/TLS/provider/action/events/geometry/storage/ABI bridge. Not numerical accepted-Hit damage, DoT publication/shared cap or generic clock refresh."
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r53-peer-r60/Agents/docs/re/projectiles/object-type-binding.md",
+      "bytes": 10573,
+      "sha256": "24caf1801b1ef7207ca9f90402217abdc7589606a0dfe07d6ed316c14a2cb304",
+      "role": "R53 actual upstream release/World/Actor result consumer joined to original ProcessResult and nested independent pool assignment. Exact peer R60 snapshot/replay dependencies retained; supplied parsed queue/core/TLS/provider/action/events/geometry/storage/ABI bridge. Not numerical accepted-Hit damage, DoT publication/shared cap or generic clock refresh."
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r53-peer-r60/Agents/docs/re/projectiles/random-inputs.md",
+      "bytes": 57980,
+      "sha256": "5dfe46838b6923f593165b909a65c0489c4f6031711f1d25b62d02849fb78c95",
+      "role": "R53 actual upstream release/World/Actor result consumer joined to original ProcessResult and nested independent pool assignment. Exact peer R60 snapshot/replay dependencies retained; supplied parsed queue/core/TLS/provider/action/events/geometry/storage/ABI bridge. Not numerical accepted-Hit damage, DoT publication/shared cap or generic clock refresh."
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r53-peer-r60/Agents/docs/re/projectiles/release-and-repeat.md",
+      "bytes": 15220,
+      "sha256": "475cb93461c007f37913fae882242b8b124d56aa567c9076314683ba4c1021ba",
+      "role": "R53 actual upstream release/World/Actor result consumer joined to original ProcessResult and nested independent pool assignment. Exact peer R60 snapshot/replay dependencies retained; supplied parsed queue/core/TLS/provider/action/events/geometry/storage/ABI bridge. Not numerical accepted-Hit damage, DoT publication/shared cap or generic clock refresh."
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r53-peer-r60/Agents/docs/re/projectiles/repeat-source-state.md",
+      "bytes": 9469,
+      "sha256": "27019eb9e9e01c958972a81ba36c8e20c40af0a21d6e1adea80b25aba091c96d",
+      "role": "R53 actual upstream release/World/Actor result consumer joined to original ProcessResult and nested independent pool assignment. Exact peer R60 snapshot/replay dependencies retained; supplied parsed queue/core/TLS/provider/action/events/geometry/storage/ABI bridge. Not numerical accepted-Hit damage, DoT publication/shared cap or generic clock refresh."
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r53-peer-r60/Agents/docs/re/projectiles/resource-selection.md",
+      "bytes": 15468,
+      "sha256": "bfa26417b968085b07f9b2e49b12050a9f84a4dc69665625f322571b5dd92750",
+      "role": "R53 actual upstream release/World/Actor result consumer joined to original ProcessResult and nested independent pool assignment. Exact peer R60 snapshot/replay dependencies retained; supplied parsed queue/core/TLS/provider/action/events/geometry/storage/ABI bridge. Not numerical accepted-Hit damage, DoT publication/shared cap or generic clock refresh."
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r53-peer-r60/Agents/docs/re/projectiles/results-and-protocol.md",
+      "bytes": 40123,
+      "sha256": "e1efd6ac129e1777a1c1fd2ae14439c1f42fdec9c86b6d54a2edd31a81b6d5bb",
+      "role": "R53 actual upstream release/World/Actor result consumer joined to original ProcessResult and nested independent pool assignment. Exact peer R60 snapshot/replay dependencies retained; supplied parsed queue/core/TLS/provider/action/events/geometry/storage/ABI bridge. Not numerical accepted-Hit damage, DoT publication/shared cap or generic clock refresh."
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r53-peer-r60/Agents/docs/re/projectiles/skill-witnesses.md",
+      "bytes": 17337,
+      "sha256": "8761ce64120cc8de64523fb286ec33fe4f0e727d7ddf1e469aeb8b7a028817ef",
+      "role": "R53 actual upstream release/World/Actor result consumer joined to original ProcessResult and nested independent pool assignment. Exact peer R60 snapshot/replay dependencies retained; supplied parsed queue/core/TLS/provider/action/events/geometry/storage/ABI bridge. Not numerical accepted-Hit damage, DoT publication/shared cap or generic clock refresh."
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r53-peer-r60/Agents/docs/re/projectiles/split-target-order.md",
+      "bytes": 9334,
+      "sha256": "4b13c7be566cda44778351dd2d9cdc6a53bc9f9dcf4355ee6b12835e0a7542e3",
+      "role": "R53 actual upstream release/World/Actor result consumer joined to original ProcessResult and nested independent pool assignment. Exact peer R60 snapshot/replay dependencies retained; supplied parsed queue/core/TLS/provider/action/events/geometry/storage/ABI bridge. Not numerical accepted-Hit damage, DoT publication/shared cap or generic clock refresh."
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r53-peer-r60/Agents/docs/re/projectiles/synthetic-start-and-server-commands.md",
+      "bytes": 21191,
+      "sha256": "657b1cb2f8740b4b0cb1c8025c4031c50f728bae878156d668a7b171cd83fc72",
+      "role": "R53 actual upstream release/World/Actor result consumer joined to original ProcessResult and nested independent pool assignment. Exact peer R60 snapshot/replay dependencies retained; supplied parsed queue/core/TLS/provider/action/events/geometry/storage/ABI bridge. Not numerical accepted-Hit damage, DoT publication/shared cap or generic clock refresh."
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r53-peer-r60/Agents/docs/re/projectiles/tornado-shot.md",
+      "bytes": 17937,
+      "sha256": "44265acb941c3e7c0522877fcea637f318ba9026606f9d10fcfe055976111ffd",
+      "role": "R53 actual upstream release/World/Actor result consumer joined to original ProcessResult and nested independent pool assignment. Exact peer R60 snapshot/replay dependencies retained; supplied parsed queue/core/TLS/provider/action/events/geometry/storage/ABI bridge. Not numerical accepted-Hit damage, DoT publication/shared cap or generic clock refresh."
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r53-peer-r60/Agents/docs/re/projectiles/world-scheduling.md",
+      "bytes": 31965,
+      "sha256": "f440c69ac2ab79b5321a76ce023dca15a5cc6275f2db9c917469ed8f945fc39a",
+      "role": "R53 actual upstream release/World/Actor result consumer joined to original ProcessResult and nested independent pool assignment. Exact peer R60 snapshot/replay dependencies retained; supplied parsed queue/core/TLS/provider/action/events/geometry/storage/ABI bridge. Not numerical accepted-Hit damage, DoT publication/shared cap or generic clock refresh."
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r53-peer-r60/Agents/docs/protocol/04-player-entity.md",
+      "bytes": 27161,
+      "sha256": "3d911216a4dabd05a165bca9dfbe7dabe79f2e3984fbe5871983bb3d77a835a8",
+      "role": "R53 actual upstream release/World/Actor result consumer joined to original ProcessResult and nested independent pool assignment. Exact peer R60 snapshot/replay dependencies retained; supplied parsed queue/core/TLS/provider/action/events/geometry/storage/ABI bridge. Not numerical accepted-Hit damage, DoT publication/shared cap or generic clock refresh."
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r53-peer-r60/Agents/docs/protocol/10-chat-and-commands.md",
+      "bytes": 36530,
+      "sha256": "eb927ebddb1d8d5d61ac058741fdc39fd15b63e875fde68a39226b9bc5ef7ce4",
+      "role": "R53 actual upstream release/World/Actor result consumer joined to original ProcessResult and nested independent pool assignment. Exact peer R60 snapshot/replay dependencies retained; supplied parsed queue/core/TLS/provider/action/events/geometry/storage/ABI bridge. Not numerical accepted-Hit damage, DoT publication/shared cap or generic clock refresh."
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r53-peer-r60/Agents/docs/protocol/11-skills.md",
+      "bytes": 202066,
+      "sha256": "dec6e1af660736309927d42c9ad00e5f34b444af1dcaed852aa9b1c190e881a2",
+      "role": "R53 actual upstream release/World/Actor result consumer joined to original ProcessResult and nested independent pool assignment. Exact peer R60 snapshot/replay dependencies retained; supplied parsed queue/core/TLS/provider/action/events/geometry/storage/ABI bridge. Not numerical accepted-Hit damage, DoT publication/shared cap or generic clock refresh."
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r53-peer-r60/Agents/docs/protocol/address-index.md",
+      "bytes": 44072,
+      "sha256": "99fbc7341cce307de26bcfda180137f7c2708892b419cd1dcd0bda7cf604da4b",
+      "role": "R53 actual upstream release/World/Actor result consumer joined to original ProcessResult and nested independent pool assignment. Exact peer R60 snapshot/replay dependencies retained; supplied parsed queue/core/TLS/provider/action/events/geometry/storage/ABI bridge. Not numerical accepted-Hit damage, DoT publication/shared cap or generic clock refresh."
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r53-peer-r60/Agents/status/skills-and-combat.md",
+      "bytes": 101688,
+      "sha256": "604cb4613ec2fda2d3b134423e1a4b3995066faf510f339334a160b9f7292235",
+      "role": "R53 actual upstream release/World/Actor result consumer joined to original ProcessResult and nested independent pool assignment. Exact peer R60 snapshot/replay dependencies retained; supplied parsed queue/core/TLS/provider/action/events/geometry/storage/ABI bridge. Not numerical accepted-Hit damage, DoT publication/shared cap or generic clock refresh."
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r53-peer-r60/Agents/roadmap/skills-and-combat.md",
+      "bytes": 43143,
+      "sha256": "704adef4679963e31cd747d4d5414147f4e15b0840711b78e1188a85fb81c163",
+      "role": "R53 actual upstream release/World/Actor result consumer joined to original ProcessResult and nested independent pool assignment. Exact peer R60 snapshot/replay dependencies retained; supplied parsed queue/core/TLS/provider/action/events/geometry/storage/ABI bridge. Not numerical accepted-Hit damage, DoT publication/shared cap or generic clock refresh."
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r53-peer-r60/scripts/re/projectiles/native_projectile_raster.py",
+      "bytes": 5303,
+      "sha256": "958a9ec4f0aa1f9444b3c790c2843293783ca3575307c3a921f9f5782ec3a6bb",
+      "role": "R53 actual upstream release/World/Actor result consumer joined to original ProcessResult and nested independent pool assignment. Exact peer R60 snapshot/replay dependencies retained; supplied parsed queue/core/TLS/provider/action/events/geometry/storage/ABI bridge. Not numerical accepted-Hit damage, DoT publication/shared cap or generic clock refresh."
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r53-peer-r60/scripts/re/projectiles/native_projectile_rng.py",
+      "bytes": 21451,
+      "sha256": "107f6dbc2d83dbf848457234837234e338a1ab6404081fdb9e6ed3e0558f111a",
+      "role": "R53 actual upstream release/World/Actor result consumer joined to original ProcessResult and nested independent pool assignment. Exact peer R60 snapshot/replay dependencies retained; supplied parsed queue/core/TLS/provider/action/events/geometry/storage/ABI bridge. Not numerical accepted-Hit damage, DoT publication/shared cap or generic clock refresh."
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r53-peer-r60/scripts/re/projectiles/native_tornado_rng.py",
+      "bytes": 9988,
+      "sha256": "3a5dd7551bb424822eee50362529ab41e50f70c4339555ac542d49b46107df0f",
+      "role": "R53 actual upstream release/World/Actor result consumer joined to original ProcessResult and nested independent pool assignment. Exact peer R60 snapshot/replay dependencies retained; supplied parsed queue/core/TLS/provider/action/events/geometry/storage/ABI bridge. Not numerical accepted-Hit damage, DoT publication/shared cap or generic clock refresh."
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r53-peer-r60/scripts/re/frida/trace-projectile-execution.js",
+      "bytes": 24143,
+      "sha256": "1491f5d1fe88deadd86b21938de9a980dabbe718bac422169894068cc6d07e74",
+      "role": "R53 actual upstream release/World/Actor result consumer joined to original ProcessResult and nested independent pool assignment. Exact peer R60 snapshot/replay dependencies retained; supplied parsed queue/core/TLS/provider/action/events/geometry/storage/ABI bridge. Not numerical accepted-Hit damage, DoT publication/shared cap or generic clock refresh."
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r53-peer-r60/scripts/re/projectiles/analyze_execution_capture.py",
+      "bytes": 32230,
+      "sha256": "0bd3916cc0e3daee2aeecbfd5c7e9448e4579978547df70668868825f51af1ff",
+      "role": "R53 actual upstream release/World/Actor result consumer joined to original ProcessResult and nested independent pool assignment. Exact peer R60 snapshot/replay dependencies retained; supplied parsed queue/core/TLS/provider/action/events/geometry/storage/ABI bridge. Not numerical accepted-Hit damage, DoT publication/shared cap or generic clock refresh."
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r53-peer-r60/scripts/re/projectiles/test_execution_capture.py",
+      "bytes": 30789,
+      "sha256": "06e7b95865d272909f2ed708d2afb41234c7d4a06d910dac54b3aec2c378debe",
+      "role": "R53 actual upstream release/World/Actor result consumer joined to original ProcessResult and nested independent pool assignment. Exact peer R60 snapshot/replay dependencies retained; supplied parsed queue/core/TLS/provider/action/events/geometry/storage/ABI bridge. Not numerical accepted-Hit damage, DoT publication/shared cap or generic clock refresh."
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r53-peer-r60/scripts/re/projectiles/test_execution_probe.js",
+      "bytes": 10680,
+      "sha256": "34ca929cfad0709c35b88fbe30db073a8cfcec6dca88c23f49917e06c5072853",
+      "role": "R53 actual upstream release/World/Actor result consumer joined to original ProcessResult and nested independent pool assignment. Exact peer R60 snapshot/replay dependencies retained; supplied parsed queue/core/TLS/provider/action/events/geometry/storage/ABI bridge. Not numerical accepted-Hit damage, DoT publication/shared cap or generic clock refresh."
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r53-peer-r60/Agents/docs/re/projectiles/world-message-inputs.md",
+      "bytes": 15180,
+      "sha256": "d4c43f2ad9afe8c088206b02ac19220d9ccdf4a0138fe3f4afc4cdc745d9117b",
+      "role": "R53 actual upstream release/World/Actor result consumer joined to original ProcessResult and nested independent pool assignment. Exact peer R60 snapshot/replay dependencies retained; supplied parsed queue/core/TLS/provider/action/events/geometry/storage/ABI bridge. Not numerical accepted-Hit damage, DoT publication/shared cap or generic clock refresh."
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r53-peer-r60/Agents/docs/protocol/03-area-and-world.md",
+      "bytes": 8298,
+      "sha256": "05c6b67299ede5d8f2c94726dc39806837a42c4ae86f3e0b9c45e98fe1a41a4e",
+      "role": "R53 actual upstream release/World/Actor result consumer joined to original ProcessResult and nested independent pool assignment. Exact peer R60 snapshot/replay dependencies retained; supplied parsed queue/core/TLS/provider/action/events/geometry/storage/ABI bridge. Not numerical accepted-Hit damage, DoT publication/shared cap or generic clock refresh."
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r53-peer-r60/Agents/docs/protocol/07-latency-visibility-movement.md",
+      "bytes": 28926,
+      "sha256": "c601a17f59c99de0e904139e1aceef24f64825cda853003ecfb47a767c051489",
+      "role": "R53 actual upstream release/World/Actor result consumer joined to original ProcessResult and nested independent pool assignment. Exact peer R60 snapshot/replay dependencies retained; supplied parsed queue/core/TLS/provider/action/events/geometry/storage/ABI bridge. Not numerical accepted-Hit damage, DoT publication/shared cap or generic clock refresh."
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r53-peer-r60/Agents/docs/protocol/02-instance-connection.md",
+      "bytes": 11869,
+      "sha256": "0a90a59fc790ce52d973e99edb0e3e55f4fdd4b84f73053765c922ebb5c8b85f",
+      "role": "R53 actual upstream release/World/Actor result consumer joined to original ProcessResult and nested independent pool assignment. Exact peer R60 snapshot/replay dependencies retained; supplied parsed queue/core/TLS/provider/action/events/geometry/storage/ABI bridge. Not numerical accepted-Hit damage, DoT publication/shared cap or generic clock refresh."
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r53-peer-r60/Agents/docs/re/projectiles/instance-frame-inputs.md",
+      "bytes": 10300,
+      "sha256": "d088a0459358bbcfe903f75d5e1433c678c4341195e13c1f51eedf26b67a7453",
+      "role": "R53 actual upstream release/World/Actor result consumer joined to original ProcessResult and nested independent pool assignment. Exact peer R60 snapshot/replay dependencies retained; supplied parsed queue/core/TLS/provider/action/events/geometry/storage/ABI bridge. Not numerical accepted-Hit damage, DoT publication/shared cap or generic clock refresh."
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r53-peer-r60/Agents/docs/protocol/09-area-change.md",
+      "bytes": 12720,
+      "sha256": "2513f7b622764e3e1749787189972c6edb71c17cb8c4cca12323d08931d30e78",
+      "role": "R53 actual upstream release/World/Actor result consumer joined to original ProcessResult and nested independent pool assignment. Exact peer R60 snapshot/replay dependencies retained; supplied parsed queue/core/TLS/provider/action/events/geometry/storage/ABI bridge. Not numerical accepted-Hit damage, DoT publication/shared cap or generic clock refresh."
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r53-peer-r60/Agents/docs/re/projectiles/layout-stat-inputs.md",
+      "bytes": 12368,
+      "sha256": "97f6f317594b014bb2dd33ce0c2df39067ebc0d298cdedc84d3cfbd43b0710e0",
+      "role": "R53 actual upstream release/World/Actor result consumer joined to original ProcessResult and nested independent pool assignment. Exact peer R60 snapshot/replay dependencies retained; supplied parsed queue/core/TLS/provider/action/events/geometry/storage/ABI bridge. Not numerical accepted-Hit damage, DoT publication/shared cap or generic clock refresh."
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r53-peer-r60/Agents/docs/re/projectiles/emission-admission.md",
+      "bytes": 19275,
+      "sha256": "1ae1d184b7c2e964612e4823ef661e6e6386f12cea5370562ac10d707e78e6ed",
+      "role": "R53 actual upstream release/World/Actor result consumer joined to original ProcessResult and nested independent pool assignment. Exact peer R60 snapshot/replay dependencies retained; supplied parsed queue/core/TLS/provider/action/events/geometry/storage/ABI bridge. Not numerical accepted-Hit damage, DoT publication/shared cap or generic clock refresh."
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r53-peer-r60/logs/projectile-execution-model/round60/audit_release_checkpoints.py",
+      "bytes": 4080,
+      "sha256": "77b668e8cdda55059af2993a67c0c1ca30f992e3533ce78b0cc2e0ffc2ce2428",
+      "role": "R53 actual upstream release/World/Actor result consumer joined to original ProcessResult and nested independent pool assignment. Exact peer R60 snapshot/replay dependencies retained; supplied parsed queue/core/TLS/provider/action/events/geometry/storage/ABI bridge. Not numerical accepted-Hit damage, DoT publication/shared cap or generic clock refresh."
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r53-peer-r60/logs/projectile-execution-model/round60/release-checkpoint-audit.asm",
+      "bytes": 496842,
+      "sha256": "28bb4fcdd3896987bb3d93de070b221851cf807060eccd4f29e2a4557b16a371",
+      "role": "R53 actual upstream release/World/Actor result consumer joined to original ProcessResult and nested independent pool assignment. Exact peer R60 snapshot/replay dependencies retained; supplied parsed queue/core/TLS/provider/action/events/geometry/storage/ABI bridge. Not numerical accepted-Hit damage, DoT publication/shared cap or generic clock refresh."
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r53-peer-r60/logs/projectile-execution-model/round60/release-checkpoint-audit.json",
+      "bytes": 37466,
+      "sha256": "d97bd61425cf9139170a9ab48cb17b7fbed09bdaa2c775f5846be0553ece2733",
+      "role": "R53 actual upstream release/World/Actor result consumer joined to original ProcessResult and nested independent pool assignment. Exact peer R60 snapshot/replay dependencies retained; supplied parsed queue/core/TLS/provider/action/events/geometry/storage/ABI bridge. Not numerical accepted-Hit damage, DoT publication/shared cap or generic clock refresh."
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r53-peer-r60/logs/projectile-execution-model/round60/check_release_checkpoints.py",
+      "bytes": 13032,
+      "sha256": "298a41e91b120f14fe8a76c95482929b70d5f232b1620d62cc91dd0dcc219efe",
+      "role": "R53 actual upstream release/World/Actor result consumer joined to original ProcessResult and nested independent pool assignment. Exact peer R60 snapshot/replay dependencies retained; supplied parsed queue/core/TLS/provider/action/events/geometry/storage/ABI bridge. Not numerical accepted-Hit damage, DoT publication/shared cap or generic clock refresh."
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r53-peer-r60/logs/projectile-execution-model/round60/release-checkpoint-controls.json",
+      "bytes": 572752,
+      "sha256": "bab2e04b83ea76d4afc077c3c5ab5169557460eb38f4d6280df2664c1a4cfb5d",
+      "role": "R53 actual upstream release/World/Actor result consumer joined to original ProcessResult and nested independent pool assignment. Exact peer R60 snapshot/replay dependencies retained; supplied parsed queue/core/TLS/provider/action/events/geometry/storage/ABI bridge. Not numerical accepted-Hit damage, DoT publication/shared cap or generic clock refresh."
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r53-peer-r60/logs/projectile-execution-model/round60/findings.zh-CN.md",
+      "bytes": 4477,
+      "sha256": "d745e536f01e8f5f53a26f457ae248ba50317ae59563e5a85b37b0bf428dc28a",
+      "role": "R53 actual upstream release/World/Actor result consumer joined to original ProcessResult and nested independent pool assignment. Exact peer R60 snapshot/replay dependencies retained; supplied parsed queue/core/TLS/provider/action/events/geometry/storage/ABI bridge. Not numerical accepted-Hit damage, DoT publication/shared cap or generic clock refresh."
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r53-peer-r60/logs/projectile-execution-model/round60/verify_round60.py",
+      "bytes": 8534,
+      "sha256": "18e655e90c4c0b3d2d2524f572bd1accbed1827e4f16b6b5330579428dd0a0b2",
+      "role": "R53 actual upstream release/World/Actor result consumer joined to original ProcessResult and nested independent pool assignment. Exact peer R60 snapshot/replay dependencies retained; supplied parsed queue/core/TLS/provider/action/events/geometry/storage/ABI bridge. Not numerical accepted-Hit damage, DoT publication/shared cap or generic clock refresh."
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r53-peer-r60/logs/projectile-execution-model/round60/publish_round60.py",
+      "bytes": 6934,
+      "sha256": "530721bbf65290de18076ade6c8aadf7969d1c8416c3a9b25878fa136f0be6df",
+      "role": "R53 actual upstream release/World/Actor result consumer joined to original ProcessResult and nested independent pool assignment. Exact peer R60 snapshot/replay dependencies retained; supplied parsed queue/core/TLS/provider/action/events/geometry/storage/ABI bridge. Not numerical accepted-Hit damage, DoT publication/shared cap or generic clock refresh."
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r53-peer-r60/logs/projectile-execution-model/round60/verify_publication.py",
+      "bytes": 2478,
+      "sha256": "8a918d2e7f76b97af35b7e30f0a153690076fbba7e76e9ae19520b722e29318d",
+      "role": "R53 actual upstream release/World/Actor result consumer joined to original ProcessResult and nested independent pool assignment. Exact peer R60 snapshot/replay dependencies retained; supplied parsed queue/core/TLS/provider/action/events/geometry/storage/ABI bridge. Not numerical accepted-Hit damage, DoT publication/shared cap or generic clock refresh."
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r53-peer-r60/logs/projectile-execution-model/round60/validation-summary.json",
+      "bytes": 7141,
+      "sha256": "2c9e3c6e755a459af3ef8bfbbaeeade3a19ce71c836fa91cff757a3b78b27e45",
+      "role": "R53 actual upstream release/World/Actor result consumer joined to original ProcessResult and nested independent pool assignment. Exact peer R60 snapshot/replay dependencies retained; supplied parsed queue/core/TLS/provider/action/events/geometry/storage/ABI bridge. Not numerical accepted-Hit damage, DoT publication/shared cap or generic clock refresh."
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r53-peer-r60/logs/projectile-execution-model/round28/check_ingress_paths.py",
+      "bytes": 12889,
+      "sha256": "e19b93393051bf39fa42592da6e5fa232be5ccad0d0a4c3aa7925d87200110c5",
+      "role": "R53 actual upstream release/World/Actor result consumer joined to original ProcessResult and nested independent pool assignment. Exact peer R60 snapshot/replay dependencies retained; supplied parsed queue/core/TLS/provider/action/events/geometry/storage/ABI bridge. Not numerical accepted-Hit damage, DoT publication/shared cap or generic clock refresh."
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r53-peer-r60/logs/projectile-execution-model/round48/check_layout.py",
+      "bytes": 17982,
+      "sha256": "a47ca39afbf47500064728a83176e0431d7af0c395bb7ac3afbc454331287c2a",
+      "role": "R53 actual upstream release/World/Actor result consumer joined to original ProcessResult and nested independent pool assignment. Exact peer R60 snapshot/replay dependencies retained; supplied parsed queue/core/TLS/provider/action/events/geometry/storage/ABI bridge. Not numerical accepted-Hit damage, DoT publication/shared cap or generic clock refresh."
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r53-peer-r60/logs/projectile-execution-model/round39/discover_identity.py",
+      "bytes": 2649,
+      "sha256": "d35bd8faa37fee8320cb9a1becff785781bf5511de921df9b617e07faef217b7",
+      "role": "R53 actual upstream release/World/Actor result consumer joined to original ProcessResult and nested independent pool assignment. Exact peer R60 snapshot/replay dependencies retained; supplied parsed queue/core/TLS/provider/action/events/geometry/storage/ABI bridge. Not numerical accepted-Hit damage, DoT publication/shared cap or generic clock refresh."
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r53-peer-r60/logs/projectile-execution-model/round41/read_native.py",
+      "bytes": 681,
+      "sha256": "f99d4a341cf79dce8657122df5bec340e7445613f77ae14c643975cd6605ff83",
+      "role": "R53 actual upstream release/World/Actor result consumer joined to original ProcessResult and nested independent pool assignment. Exact peer R60 snapshot/replay dependencies retained; supplied parsed queue/core/TLS/provider/action/events/geometry/storage/ABI bridge. Not numerical accepted-Hit damage, DoT publication/shared cap or generic clock refresh."
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r53-peer-r60/logs/projectile-execution-model/round46/audit_fan.py",
+      "bytes": 3388,
+      "sha256": "4917143e800fa0794e289d43152d46bd5ec9ba00fc082236393984d61bf12c46",
+      "role": "R53 actual upstream release/World/Actor result consumer joined to original ProcessResult and nested independent pool assignment. Exact peer R60 snapshot/replay dependencies retained; supplied parsed queue/core/TLS/provider/action/events/geometry/storage/ABI bridge. Not numerical accepted-Hit damage, DoT publication/shared cap or generic clock refresh."
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r53-peer-r60/logs/projectile-execution-model/round46/check_fan.py",
+      "bytes": 11578,
+      "sha256": "ae6e1d2a753235ab94084d156796a4b95d06b1099714c87a7bdd03195d26b70a",
+      "role": "R53 actual upstream release/World/Actor result consumer joined to original ProcessResult and nested independent pool assignment. Exact peer R60 snapshot/replay dependencies retained; supplied parsed queue/core/TLS/provider/action/events/geometry/storage/ABI bridge. Not numerical accepted-Hit damage, DoT publication/shared cap or generic clock refresh."
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r53-peer-r60/logs/projectile-execution-model/round12/check_fan_atan.py",
+      "bytes": 8824,
+      "sha256": "0050fe6e486c74d66ed4931d8bfa89c234ac01d40efbb1c9b5f05a39e3406902",
+      "role": "R53 actual upstream release/World/Actor result consumer joined to original ProcessResult and nested independent pool assignment. Exact peer R60 snapshot/replay dependencies retained; supplied parsed queue/core/TLS/provider/action/events/geometry/storage/ABI bridge. Not numerical accepted-Hit damage, DoT publication/shared cap or generic clock refresh."
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r53-peer-r60/logs/projectile-execution-model/round12/fan-atan-provenance.asm",
+      "bytes": 23964,
+      "sha256": "07e4da7c3ac3de88eefc8ddfbb74d239481a45dc7f85622e349cd6365338f1cb",
+      "role": "R53 actual upstream release/World/Actor result consumer joined to original ProcessResult and nested independent pool assignment. Exact peer R60 snapshot/replay dependencies retained; supplied parsed queue/core/TLS/provider/action/events/geometry/storage/ABI bridge. Not numerical accepted-Hit damage, DoT publication/shared cap or generic clock refresh."
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r53-peer-r60/logs/projectile-execution-model/round12/fan-atan-manifest.json",
+      "bytes": 7715,
+      "sha256": "c31d9b9146cb78b594a674b35758dd839591a357634e1af58fdfe640d83155c7",
+      "role": "R53 actual upstream release/World/Actor result consumer joined to original ProcessResult and nested independent pool assignment. Exact peer R60 snapshot/replay dependencies retained; supplied parsed queue/core/TLS/provider/action/events/geometry/storage/ABI bridge. Not numerical accepted-Hit damage, DoT publication/shared cap or generic clock refresh."
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r53-peer-r60/logs/projectile-execution-model/round12/check_variance_sincos.py",
+      "bytes": 12889,
+      "sha256": "34a3800ce47e079819b918bca3b6cd28628adfbac69a4ccaaaaeeae9cc4759c2",
+      "role": "R53 actual upstream release/World/Actor result consumer joined to original ProcessResult and nested independent pool assignment. Exact peer R60 snapshot/replay dependencies retained; supplied parsed queue/core/TLS/provider/action/events/geometry/storage/ABI bridge. Not numerical accepted-Hit damage, DoT publication/shared cap or generic clock refresh."
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r53-peer-r60/logs/projectile-execution-model/round11/check_terminal_trig.py",
+      "bytes": 17096,
+      "sha256": "fe06768334a48e7fe84a4bf77a28f56c56530fd34d89a71364ca4f68fe1072f3",
+      "role": "R53 actual upstream release/World/Actor result consumer joined to original ProcessResult and nested independent pool assignment. Exact peer R60 snapshot/replay dependencies retained; supplied parsed queue/core/TLS/provider/action/events/geometry/storage/ABI bridge. Not numerical accepted-Hit damage, DoT publication/shared cap or generic clock refresh."
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r53-peer-r60/logs/projectile-execution-model/round11/trig-focused-complete.asm",
+      "bytes": 66757,
+      "sha256": "bbcda11884179af88134962928bcf0dfdfb2571142efd245a96be9b5f8fc30b5",
+      "role": "R53 actual upstream release/World/Actor result consumer joined to original ProcessResult and nested independent pool assignment. Exact peer R60 snapshot/replay dependencies retained; supplied parsed queue/core/TLS/provider/action/events/geometry/storage/ABI bridge. Not numerical accepted-Hit damage, DoT publication/shared cap or generic clock refresh."
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r53-peer-r60/logs/projectile-execution-model/round11/trig-read-manifest.json",
+      "bytes": 10857,
+      "sha256": "b3f205946b8b74e76f1fe2bdce3dc3d6173fb06dce156c393bf97e297752ad23",
+      "role": "R53 actual upstream release/World/Actor result consumer joined to original ProcessResult and nested independent pool assignment. Exact peer R60 snapshot/replay dependencies retained; supplied parsed queue/core/TLS/provider/action/events/geometry/storage/ABI bridge. Not numerical accepted-Hit damage, DoT publication/shared cap or generic clock refresh."
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r53-peer-r60/logs/projectile-execution-model/round12/fan-trig-caller.asm",
+      "bytes": 32093,
+      "sha256": "aa1e3f47a317fd3d59e5e2dd19ac578b96a3c9d3cc7c8fed9e1d25fb32e9a17b",
+      "role": "R53 actual upstream release/World/Actor result consumer joined to original ProcessResult and nested independent pool assignment. Exact peer R60 snapshot/replay dependencies retained; supplied parsed queue/core/TLS/provider/action/events/geometry/storage/ABI bridge. Not numerical accepted-Hit damage, DoT publication/shared cap or generic clock refresh."
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r53-peer-r60/logs/projectile-execution-model/round13/check_fan_rotation.py",
+      "bytes": 18938,
+      "sha256": "ec618fd9cf1a2d2e1b3a856189cb9c8592d40f9456addfc176985d32f583c80c",
+      "role": "R53 actual upstream release/World/Actor result consumer joined to original ProcessResult and nested independent pool assignment. Exact peer R60 snapshot/replay dependencies retained; supplied parsed queue/core/TLS/provider/action/events/geometry/storage/ABI bridge. Not numerical accepted-Hit damage, DoT publication/shared cap or generic clock refresh."
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r53-peer-r60/logs/projectile-execution-model/round13/fan-geometry-retained.asm",
+      "bytes": 10034,
+      "sha256": "f71b50b8213ff85484193ec041836f809b10f8afdbd71bbbd7b9dd5bba776a33",
+      "role": "R53 actual upstream release/World/Actor result consumer joined to original ProcessResult and nested independent pool assignment. Exact peer R60 snapshot/replay dependencies retained; supplied parsed queue/core/TLS/provider/action/events/geometry/storage/ABI bridge. Not numerical accepted-Hit damage, DoT publication/shared cap or generic clock refresh."
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r53-peer-r60/logs/projectile-execution-model/round13/fan-geometry-manifest.json",
+      "bytes": 1434,
+      "sha256": "9bf466e51528161b524946bd6ec0d1e0411dd7b340f95fb838d9e9d82d678728",
+      "role": "R53 actual upstream release/World/Actor result consumer joined to original ProcessResult and nested independent pool assignment. Exact peer R60 snapshot/replay dependencies retained; supplied parsed queue/core/TLS/provider/action/events/geometry/storage/ABI bridge. Not numerical accepted-Hit damage, DoT publication/shared cap or generic clock refresh."
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r53-peer-r60/logs/projectile-execution-model/round49/audit_emitter.py",
+      "bytes": 4107,
+      "sha256": "6efa063627ae2a9c80b84b17e28e489368a07aab75cefcb522647dcd0647702a",
+      "role": "R53 actual upstream release/World/Actor result consumer joined to original ProcessResult and nested independent pool assignment. Exact peer R60 snapshot/replay dependencies retained; supplied parsed queue/core/TLS/provider/action/events/geometry/storage/ABI bridge. Not numerical accepted-Hit damage, DoT publication/shared cap or generic clock refresh."
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r53-peer-r60/logs/projectile-execution-model/round49/check_emitter.py",
+      "bytes": 16114,
+      "sha256": "dec2c6d28571e78c51b01072fb5319de8a0d4fabf10bd012aba6576d665ca398",
+      "role": "R53 actual upstream release/World/Actor result consumer joined to original ProcessResult and nested independent pool assignment. Exact peer R60 snapshot/replay dependencies retained; supplied parsed queue/core/TLS/provider/action/events/geometry/storage/ABI bridge. Not numerical accepted-Hit damage, DoT publication/shared cap or generic clock refresh."
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r53-peer-r60/logs/projectile-execution-model/round50/audit_join.py",
+      "bytes": 4514,
+      "sha256": "98b0050ba410ee58c7c3a0521413e78ba37d58a0df353ab6f416868510364596",
+      "role": "R53 actual upstream release/World/Actor result consumer joined to original ProcessResult and nested independent pool assignment. Exact peer R60 snapshot/replay dependencies retained; supplied parsed queue/core/TLS/provider/action/events/geometry/storage/ABI bridge. Not numerical accepted-Hit damage, DoT publication/shared cap or generic clock refresh."
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r53-peer-r60/logs/projectile-execution-model/round50/check_join.py",
+      "bytes": 15481,
+      "sha256": "43035cbed5eb4b684cb226c6abfe845b25f852a432f758fb6188323886e258f7",
+      "role": "R53 actual upstream release/World/Actor result consumer joined to original ProcessResult and nested independent pool assignment. Exact peer R60 snapshot/replay dependencies retained; supplied parsed queue/core/TLS/provider/action/events/geometry/storage/ABI bridge. Not numerical accepted-Hit damage, DoT publication/shared cap or generic clock refresh."
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r53-peer-r60/logs/projectile-execution-model/round51/audit_motion_join.py",
+      "bytes": 4371,
+      "sha256": "5c776acc283520bc9cad6bd5e525419ac1ecea111dfd4e9b195f11fb324f8b46",
+      "role": "R53 actual upstream release/World/Actor result consumer joined to original ProcessResult and nested independent pool assignment. Exact peer R60 snapshot/replay dependencies retained; supplied parsed queue/core/TLS/provider/action/events/geometry/storage/ABI bridge. Not numerical accepted-Hit damage, DoT publication/shared cap or generic clock refresh."
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r53-peer-r60/logs/projectile-execution-model/round51/check_motion_join.py",
+      "bytes": 13037,
+      "sha256": "a35b6cceb7f3316ff949034f2e37660116b2745c66259b2d008573f132e35f6b",
+      "role": "R53 actual upstream release/World/Actor result consumer joined to original ProcessResult and nested independent pool assignment. Exact peer R60 snapshot/replay dependencies retained; supplied parsed queue/core/TLS/provider/action/events/geometry/storage/ABI bridge. Not numerical accepted-Hit damage, DoT publication/shared cap or generic clock refresh."
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r53-peer-r60/logs/projectile-execution-model/round52/audit_query_join.py",
+      "bytes": 4229,
+      "sha256": "50bc1542b09a041f9735355f5ec680faf98742d2bcd8c2c6656e7f04e536581c",
+      "role": "R53 actual upstream release/World/Actor result consumer joined to original ProcessResult and nested independent pool assignment. Exact peer R60 snapshot/replay dependencies retained; supplied parsed queue/core/TLS/provider/action/events/geometry/storage/ABI bridge. Not numerical accepted-Hit damage, DoT publication/shared cap or generic clock refresh."
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r53-peer-r60/logs/projectile-execution-model/round52/check_query_join.py",
+      "bytes": 17570,
+      "sha256": "846a4fd428223fef4831a7d2161094bc4454486f3279b7a690091f0f987c3ba7",
+      "role": "R53 actual upstream release/World/Actor result consumer joined to original ProcessResult and nested independent pool assignment. Exact peer R60 snapshot/replay dependencies retained; supplied parsed queue/core/TLS/provider/action/events/geometry/storage/ABI bridge. Not numerical accepted-Hit damage, DoT publication/shared cap or generic clock refresh."
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r53-peer-r60/logs/projectile-execution-model/round53/audit_notifications.py",
+      "bytes": 4723,
+      "sha256": "199fbaa5b4a95642f5b6058deecbe91efafa4149abcbcf3d34939a4b56175d9d",
+      "role": "R53 actual upstream release/World/Actor result consumer joined to original ProcessResult and nested independent pool assignment. Exact peer R60 snapshot/replay dependencies retained; supplied parsed queue/core/TLS/provider/action/events/geometry/storage/ABI bridge. Not numerical accepted-Hit damage, DoT publication/shared cap or generic clock refresh."
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r53-peer-r60/logs/projectile-execution-model/round53/check_notifications.py",
+      "bytes": 11229,
+      "sha256": "ac6d6786d2c2f5335a4ee0825159143ac49daa24445e5def84ea2d685bdb31d5",
+      "role": "R53 actual upstream release/World/Actor result consumer joined to original ProcessResult and nested independent pool assignment. Exact peer R60 snapshot/replay dependencies retained; supplied parsed queue/core/TLS/provider/action/events/geometry/storage/ABI bridge. Not numerical accepted-Hit damage, DoT publication/shared cap or generic clock refresh."
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r53-peer-r60/logs/projectile-execution-model/round54/audit_stages.py",
+      "bytes": 3533,
+      "sha256": "85c549d5e6db2399a73c8b46c65c7e13da4ae730bda4224378bd0ab92111cc0b",
+      "role": "R53 actual upstream release/World/Actor result consumer joined to original ProcessResult and nested independent pool assignment. Exact peer R60 snapshot/replay dependencies retained; supplied parsed queue/core/TLS/provider/action/events/geometry/storage/ABI bridge. Not numerical accepted-Hit damage, DoT publication/shared cap or generic clock refresh."
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r53-peer-r60/logs/projectile-execution-model/round54/check_stages.py",
+      "bytes": 15607,
+      "sha256": "c17ba176fa5d4db1a7715452e7b0278a4b56273995cb7e6ce9b121d5b555f4e0",
+      "role": "R53 actual upstream release/World/Actor result consumer joined to original ProcessResult and nested independent pool assignment. Exact peer R60 snapshot/replay dependencies retained; supplied parsed queue/core/TLS/provider/action/events/geometry/storage/ABI bridge. Not numerical accepted-Hit damage, DoT publication/shared cap or generic clock refresh."
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r53-peer-r60/logs/projectile-execution-model/round55/audit_kb_lifecycle.py",
+      "bytes": 2758,
+      "sha256": "3ed776db8da70706a31af7c5e34648efa78c88d43804f472783bfc073211a460",
+      "role": "R53 actual upstream release/World/Actor result consumer joined to original ProcessResult and nested independent pool assignment. Exact peer R60 snapshot/replay dependencies retained; supplied parsed queue/core/TLS/provider/action/events/geometry/storage/ABI bridge. Not numerical accepted-Hit damage, DoT publication/shared cap or generic clock refresh."
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r53-peer-r60/logs/projectile-execution-model/round55/check_kb_lifecycle.py",
+      "bytes": 15629,
+      "sha256": "dbe0fd1b7785b8ebc962feab1c9916a48a7c20ce81fe12c7a5a351814f416813",
+      "role": "R53 actual upstream release/World/Actor result consumer joined to original ProcessResult and nested independent pool assignment. Exact peer R60 snapshot/replay dependencies retained; supplied parsed queue/core/TLS/provider/action/events/geometry/storage/ABI bridge. Not numerical accepted-Hit damage, DoT publication/shared cap or generic clock refresh."
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r53-peer-r60/logs/projectile-execution-model/round56/audit_actor_group.py",
+      "bytes": 2822,
+      "sha256": "16dcd50a2732c1db730494cb6d04ccc74550d099531d3377fc35476becba6943",
+      "role": "R53 actual upstream release/World/Actor result consumer joined to original ProcessResult and nested independent pool assignment. Exact peer R60 snapshot/replay dependencies retained; supplied parsed queue/core/TLS/provider/action/events/geometry/storage/ABI bridge. Not numerical accepted-Hit damage, DoT publication/shared cap or generic clock refresh."
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r53-peer-r60/logs/projectile-execution-model/round56/check_actor_group.py",
+      "bytes": 11898,
+      "sha256": "dfd16892cc2cb74894608c28548e1fd8d39f80ad20da9cd744968c21e0d8ec15",
+      "role": "R53 actual upstream release/World/Actor result consumer joined to original ProcessResult and nested independent pool assignment. Exact peer R60 snapshot/replay dependencies retained; supplied parsed queue/core/TLS/provider/action/events/geometry/storage/ABI bridge. Not numerical accepted-Hit damage, DoT publication/shared cap or generic clock refresh."
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r53-peer-r60/logs/projectile-execution-model/round57/audit_lifetime.py",
+      "bytes": 3409,
+      "sha256": "28b4ec50cfb028dc4dbd189f7fe907abbbb7e2c88297ceee917d339ad8fd7d8e",
+      "role": "R53 actual upstream release/World/Actor result consumer joined to original ProcessResult and nested independent pool assignment. Exact peer R60 snapshot/replay dependencies retained; supplied parsed queue/core/TLS/provider/action/events/geometry/storage/ABI bridge. Not numerical accepted-Hit damage, DoT publication/shared cap or generic clock refresh."
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r53-peer-r60/logs/projectile-execution-model/round57/check_lifetime.py",
+      "bytes": 12056,
+      "sha256": "f93a92a604f83db29f0259e6849457efd6ec7827c30f9dad411ea0ba0a1843f0",
+      "role": "R53 actual upstream release/World/Actor result consumer joined to original ProcessResult and nested independent pool assignment. Exact peer R60 snapshot/replay dependencies retained; supplied parsed queue/core/TLS/provider/action/events/geometry/storage/ABI bridge. Not numerical accepted-Hit damage, DoT publication/shared cap or generic clock refresh."
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r53-peer-r60/logs/projectile-execution-model/round58/audit_release.py",
+      "bytes": 5568,
+      "sha256": "05f3a10562e48f2a1b297be9a4de1af475b732c7e8b6df09672eb64f15d1b7bc",
+      "role": "R53 actual upstream release/World/Actor result consumer joined to original ProcessResult and nested independent pool assignment. Exact peer R60 snapshot/replay dependencies retained; supplied parsed queue/core/TLS/provider/action/events/geometry/storage/ABI bridge. Not numerical accepted-Hit damage, DoT publication/shared cap or generic clock refresh."
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r53-peer-r60/logs/projectile-execution-model/round58/check_release.py",
+      "bytes": 19147,
+      "sha256": "cd0d07a6198f9872da1c4df40e68bf50fa75129e82b0a2daeaa5cf37e7bf0dd9",
+      "role": "R53 actual upstream release/World/Actor result consumer joined to original ProcessResult and nested independent pool assignment. Exact peer R60 snapshot/replay dependencies retained; supplied parsed queue/core/TLS/provider/action/events/geometry/storage/ABI bridge. Not numerical accepted-Hit damage, DoT publication/shared cap or generic clock refresh."
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r53-peer-r60/logs/projectile-execution-model/round59/audit_actor_dispatch.py",
+      "bytes": 4301,
+      "sha256": "9ea2f147126262dddedf237ebbc3b780cd83ad72856397e6abca27198e330429",
+      "role": "R53 actual upstream release/World/Actor result consumer joined to original ProcessResult and nested independent pool assignment. Exact peer R60 snapshot/replay dependencies retained; supplied parsed queue/core/TLS/provider/action/events/geometry/storage/ABI bridge. Not numerical accepted-Hit damage, DoT publication/shared cap or generic clock refresh."
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r53-peer-r60/logs/projectile-execution-model/round59/check_actor_dispatch.py",
+      "bytes": 15361,
+      "sha256": "763c4097f98a0a48d1c4c576074fa437346ee41f9850c48ba570caeb983c4ed3",
+      "role": "R53 actual upstream release/World/Actor result consumer joined to original ProcessResult and nested independent pool assignment. Exact peer R60 snapshot/replay dependencies retained; supplied parsed queue/core/TLS/provider/action/events/geometry/storage/ABI bridge. Not numerical accepted-Hit damage, DoT publication/shared cap or generic clock refresh."
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r53-peer-r60/dependencies/client-damage/scripts/re/damage_audit.py",
+      "bytes": 17242,
+      "sha256": "48086a57e5c4899d0e5d77b7179368b0b1fe772c7204cb8ff8025647e2a8b1fe",
+      "role": "R53 actual upstream release/World/Actor result consumer joined to original ProcessResult and nested independent pool assignment. Exact peer R60 snapshot/replay dependencies retained; supplied parsed queue/core/TLS/provider/action/events/geometry/storage/ABI bridge. Not numerical accepted-Hit damage, DoT publication/shared cap or generic clock refresh."
+    },
+    {
+      "path": "logs/projectile-execution-model/round39/discover_identity.py",
+      "bytes": 2649,
+      "sha256": "d35bd8faa37fee8320cb9a1becff785781bf5511de921df9b617e07faef217b7",
+      "role": "R53 actual upstream release/World/Actor result consumer joined to original ProcessResult and nested independent pool assignment. Exact peer R60 snapshot/replay dependencies retained; supplied parsed queue/core/TLS/provider/action/events/geometry/storage/ABI bridge. Not numerical accepted-Hit damage, DoT publication/shared cap or generic clock refresh."
     }
   ],
   "auxiliaryDataTables": [
@@ -84980,5 +85737,29 @@
     "invokedHookTargets": 1,
     "auditSha256": "bd3f8c96697bdcfecfaa99a81087d33277159759d36516074e9490106d45febb",
     "limits": "External cache values, native eligibility and source/target binding are supplied. Original selected registrars, rank/dirty/dispatch, callback arithmetic and native record getter execute. ApplyDamageFunctions updater is observational, not numerical. Native queue drain stops at the inherited bounded exit. No actual bleed instances, stack arbitration, moving-target application, aggravation random trial, incoming-rate publisher or shared cap is claimed. Declared-consumer inventory covers only the 2539 recovered registrars, not computed/inline or indirect consumers."
+  },
+  "resultCheckpointResourceVerification": {
+    "result": "PASS",
+    "runtimeExecuted": false,
+    "cases": 42,
+    "baselineCases": 16,
+    "assignmentCases": 24,
+    "zeroEmissionCases": 2,
+    "appliedResourceAssignments": 18,
+    "hitCallbackCases": 32,
+    "peerSteps": 423264,
+    "numericalSteps": 62420,
+    "peerSites": 3411,
+    "numericalSites": 1542,
+    "allSites": 4742,
+    "functions": 43,
+    "ranges": 64,
+    "decodedRecords": 4896,
+    "peerExecutableRanges": 155,
+    "anchors": 16,
+    "pointerSlots": 10,
+    "switchEntries": 5,
+    "auditSha256": "e5f604ced173c0f80b0e8095e8405f770e6087c7ba09366746b2ea87bb028902",
+    "limits": "Two original-instruction interpreters share byte memory. A mechanical call/return ABI adapter replaces the R60 ProcessResult outcome fixture; no decoded-result/value adapter. Parsed messages, order/stamp/core/TLS, provider/component/type lookups, empty native/script events, action/arena state and inherited emission/storage/geometry fixtures remain supplied. Ordinary wire ingress/construction, official ordering, numerical accepted-Hit damage, source DoT publication/shared cap and generic clock refresh remain open."
   }
 }

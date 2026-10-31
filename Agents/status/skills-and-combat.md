@@ -744,6 +744,11 @@ and can require explicit recipes.
   sequence lookup, actual final-table no-op callbacks and typed event argument cleanup in eight supplied states.
   The original arena initialization slice replaces invalid zero-filled arena state; full construction/ingress,
   nonempty events and numerical Hit damage remain separate. All three pools preserve current/carry/reservation.
+  [Release/result/checkpoint composition](../docs/re/client-hit-checkpoint-resource-composition.md) joins the
+  original controller/release/World/Actor path with actual ProcessResult and three nested checkpoints.
+  Independent Life/Mana/ES assignments stamped 3/4/5 can apply before result return; stamp 6 stays pending.
+  Forty-two supplied-state controls preserve result-versus-resource separation. Parsed queue/core/TLS,
+  nonempty listeners and numerical Hit damage remain separate; checkpoint increments are not extra frames.
     [Critical Link's numerical collector](../docs/re/client-critical-link-export.md) binds three raw Stats appends
     and exact final action slots; its two non-recovery Buff definitions omit granted magnitudes on AddBuff.
     Actual collector invocation, grant application and refresh remain open; this is separate from Hit damage.
