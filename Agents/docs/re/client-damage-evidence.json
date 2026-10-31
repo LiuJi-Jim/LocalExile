@@ -41376,6 +41376,7 @@
         "r2-buff-speed-owner-v3",
         "r2-burning-arrow-bound",
         "r2-grants-value-resolver",
+        "r24-recharge-rate-authority",
         "r3-c944-listener-final",
         "r3-d9aa-listener-final",
         "r3-entity-task-boundaries-final",
@@ -41735,6 +41736,7 @@
       "sourceBatches": [
         "r2-buff-speed-owner-v3",
         "r2-rf-outgoing-area-v2",
+        "r24-recharge-rate-authority",
         "r5-ailment-outgoing-helpers",
         "r5-critical-math-final",
         "r6-critical-inputs",
@@ -42127,6 +42129,7 @@
       ],
       "sourceBatches": [
         "r2-buff-timewarp-v2",
+        "r24-recharge-rate-authority",
         "r4-pool-notification-leaves",
         "r8-ground-effect-boundary",
         "r9-ground-ownership"
@@ -52441,6 +52444,7 @@
         "network-and-sources",
         "r16-buff-granted-final",
         "r23-pool-maximum-refresh",
+        "r24-recharge-rate-authority",
         "r4-buff-guard-revive"
       ],
       "selectedDecompilationCompleted": true
@@ -52478,6 +52482,7 @@
         "life-and-stat-binding",
         "r16-buff-granted-final",
         "r23-pool-maximum-refresh",
+        "r24-recharge-rate-authority",
         "r3-loss-receiver-boundary",
         "r4-buff-clock-producers-discovery",
         "r4-buff-clock-producers-life-guard",
@@ -52499,6 +52504,7 @@
       "sourceBatches": [
         "r17-dot-consumers-final",
         "r23-pool-maximum-refresh",
+        "r24-recharge-rate-authority",
         "r4-buff-clock-producers-transition-search"
       ],
       "selectedDecompilationCompleted": null
@@ -52516,6 +52522,7 @@
       ],
       "sourceBatches": [
         "r23-pool-maximum-refresh",
+        "r24-recharge-rate-authority",
         "r4-pool-assignment-effects"
       ],
       "selectedDecompilationCompleted": true
@@ -52759,6 +52766,7 @@
       ],
       "sourceBatches": [
         "life-and-stat-binding",
+        "r24-recharge-rate-authority",
         "source-and-authority"
       ],
       "selectedDecompilationCompleted": true
@@ -52905,6 +52913,7 @@
       "sourceBatches": [
         "life-and-stat-binding",
         "r16-buff-granted-final",
+        "r24-recharge-rate-authority",
         "source-and-authority"
       ],
       "selectedDecompilationCompleted": true
@@ -52921,7 +52930,8 @@
         }
       ],
       "sourceBatches": [
-        "offence-evaluators"
+        "offence-evaluators",
+        "r24-recharge-rate-authority"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -52938,6 +52948,7 @@
       ],
       "sourceBatches": [
         "life-and-stat-binding",
+        "r24-recharge-rate-authority",
         "source-and-authority"
       ],
       "selectedDecompilationCompleted": true
@@ -53074,6 +53085,7 @@
         }
       ],
       "sourceBatches": [
+        "r24-recharge-rate-authority",
         "r4-pool-assignment-effects"
       ],
       "selectedDecompilationCompleted": true
@@ -53090,6 +53102,7 @@
         }
       ],
       "sourceBatches": [
+        "r24-recharge-rate-authority",
         "r4-pool-recharge-notify"
       ],
       "selectedDecompilationCompleted": true
@@ -53163,6 +53176,7 @@
       ],
       "sourceBatches": [
         "life-and-stat-binding",
+        "r24-recharge-rate-authority",
         "source-and-authority"
       ],
       "selectedDecompilationCompleted": true
@@ -71583,7 +71597,8 @@
         }
       ],
       "sourceBatches": [
-        "r23-pool-maximum-refresh"
+        "r23-pool-maximum-refresh",
+        "r24-recharge-rate-authority"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -71631,7 +71646,118 @@
         }
       ],
       "sourceBatches": [
-        "r23-pool-maximum-refresh"
+        "r23-pool-maximum-refresh",
+        "r24-recharge-rate-authority"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x141e6c1c0": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x141e6c1c0",
+          "endExclusive": "0x141e6c1f9",
+          "bytes": 57,
+          "fileOffset": 31897024,
+          "sha256": "bdeae017a390de67adcb7f72e3c7590f4081eea19d77907751bd1aba2bd6c83e"
+        }
+      ],
+      "sourceBatches": [
+        "r24-recharge-rate-authority"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x141e6c200": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x141e6c200",
+          "endExclusive": "0x141e6c26f",
+          "bytes": 111,
+          "fileOffset": 31897088,
+          "sha256": "4153c75a28d26b8d84683b1f533f2ac3e4ecdac3c255e704a000cbc3b219361f"
+        }
+      ],
+      "sourceBatches": [
+        "r24-recharge-rate-authority"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x141e69e50": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x141e69e50",
+          "endExclusive": "0x141e69ef3",
+          "bytes": 163,
+          "fileOffset": 31887952,
+          "sha256": "8bc8216789e7bcef327a814ce9c590ed9dbc205e2f3d815ffc9f6b5ffe02a51b"
+        }
+      ],
+      "sourceBatches": [
+        "r24-recharge-rate-authority"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x141e6a600": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x141e6a600",
+          "endExclusive": "0x141e6a618",
+          "bytes": 24,
+          "fileOffset": 31889920,
+          "sha256": "fd5106a708b2b28a5ae639f41ab7f613d6dec40d59e085d7ece3380ec27ad4bc"
+        },
+        {
+          "start": "0x141e6a618",
+          "endExclusive": "0x141e6a6a9",
+          "bytes": 145,
+          "fileOffset": 31889944,
+          "sha256": "918d65058e14d86f0e7df472de572ae4a95bcf443805ee91d9eaf4e739001834"
+        },
+        {
+          "start": "0x141e6a6a9",
+          "endExclusive": "0x141e6a6af",
+          "bytes": 6,
+          "fileOffset": 31890089,
+          "sha256": "b13c2122a4910ad1c7f40207d9561e5a2d3418bf2bc40c490e3f913641fd2989"
+        }
+      ],
+      "sourceBatches": [
+        "r24-recharge-rate-authority"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x141e6c140": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x141e6c140",
+          "endExclusive": "0x141e6c1bb",
+          "bytes": 123,
+          "fileOffset": 31896896,
+          "sha256": "b9c04bcfd7a4d999819561dc5d4e4bc70ab53caf576373c06b6aa40147f62546"
+        }
+      ],
+      "sourceBatches": [
+        "r24-recharge-rate-authority"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x14013c610": {
+      "boundary": "explicit-analyst-leaf-range",
+      "ranges": [
+        {
+          "start": "0x14013c610",
+          "endExclusive": "0x14013c61f",
+          "bytes": 15,
+          "fileOffset": 1292816,
+          "sha256": "7a9eeb4f03c7bfbc113efab7226ea9829e35746f81f3810c94ea014b2e412b50"
+        }
+      ],
+      "sourceBatches": [
+        "r24-recharge-rate-authority"
       ],
       "selectedDecompilationCompleted": null
     }
@@ -72901,6 +73027,11 @@
       "name": "r23-pool-maximum-refresh",
       "auditSha256": "cf1caf7c312345ab647962f0bfb15d753fdf303da4a0799cad01e6ee4b1d1a54",
       "functionCount": 12
+    },
+    {
+      "name": "r24-recharge-rate-authority",
+      "auditSha256": "5fb418c0e3bc65af801004b82651837c729c1950370e5721e637343827e8b12c",
+      "functionCount": 22
     }
   ],
   "pointerSlots": [
@@ -75079,6 +75210,70 @@
       "fileOffset": 56251984,
       "sha256": "b2f642cb1620495f95923e0b2ad0e0290f63f7a51269684514f9aeec659e542e",
       "source": "r23-pool-maximum-refresh actual Life listener, pool maximum/current interfaces and two client World mode getters"
+    },
+    {
+      "table": "0x1435a7340",
+      "offset": "0xc0",
+      "target": "0x1400f0f00",
+      "fileOffset": 56256512,
+      "sha256": "d9ef84a3fe6554ba5faec6f478a120be36e4d00d060b896c9a9387cfb67472f0",
+      "source": "r24 actual recharge-active/recovery-block listener, typed pool recovery and installed client no-op active publication"
+    },
+    {
+      "table": "0x1435a7340",
+      "offset": "0xb0",
+      "target": "0x1400f0f00",
+      "fileOffset": 56256496,
+      "sha256": "d9ef84a3fe6554ba5faec6f478a120be36e4d00d060b896c9a9387cfb67472f0",
+      "source": "r24 actual recharge-active/recovery-block listener, typed pool recovery and installed client no-op active publication"
+    },
+    {
+      "table": "0x1435a5da0",
+      "offset": "0x60",
+      "target": "0x141e6c1c0",
+      "fileOffset": 56250880,
+      "sha256": "f3939df408e72bda4d614988a01e255b04fe8ce9e4853e4a727993c3df2adee9",
+      "source": "r24 actual recharge-active/recovery-block listener, typed pool recovery and installed client no-op active publication"
+    },
+    {
+      "table": "0x1435a5b68",
+      "offset": "0x60",
+      "target": "0x141e6c1c0",
+      "fileOffset": 56250312,
+      "sha256": "f3939df408e72bda4d614988a01e255b04fe8ce9e4853e4a727993c3df2adee9",
+      "source": "r24 actual recharge-active/recovery-block listener, typed pool recovery and installed client no-op active publication"
+    },
+    {
+      "table": "0x1435a6218",
+      "offset": "0x60",
+      "target": "0x141e6c200",
+      "fileOffset": 56252024,
+      "sha256": "cdb2f0e31f96cc8e98f4883d251913829854318a017a91e96bbee78d4d01ac0b",
+      "source": "r24 actual recharge-active/recovery-block listener, typed pool recovery and installed client no-op active publication"
+    },
+    {
+      "table": "0x1435a5da0",
+      "offset": "0x40",
+      "target": "0x141e69e50",
+      "fileOffset": 56250848,
+      "sha256": "66af3071adcccc033b887162ab6184f747a3d6b75083e2147407550cc3239ce5",
+      "source": "r24 actual recharge-active/recovery-block listener, typed pool recovery and installed client no-op active publication"
+    },
+    {
+      "table": "0x1435a5b68",
+      "offset": "0x40",
+      "target": "0x141e6a600",
+      "fileOffset": 56250280,
+      "sha256": "b3ba1a2cd3d6511c7f999953d8136e8bb82fb3ddb3d9fce6fb6cc6d0b1a74151",
+      "source": "r24 actual recharge-active/recovery-block listener, typed pool recovery and installed client no-op active publication"
+    },
+    {
+      "table": "0x1435a6218",
+      "offset": "0x40",
+      "target": "0x141e6c140",
+      "fileOffset": 56251992,
+      "sha256": "40cd24445bb98325a84a66e0d128786baaebf0efcf64f151ecd0660ee75f396b",
+      "source": "r24 actual recharge-active/recovery-block listener, typed pool recovery and installed client no-op active publication"
     }
   ],
   "scanCoverage": {
@@ -75121,7 +75316,7 @@
     "checkedReferenceInstructions": 13431,
     "decompilationFailures": [],
     "scope": "Original ranges/offsets, unwind ownership or explicit boundaries, stat identity, reference instructions and pointer-slot contents revalidated offline.",
-    "additionalFreshValidation": "R23 rechecked all retained original ranges/unwind owners/offsets and pointer slots; actual maximum-stat callback reaches typed pool refresh behind two nonzero client-mode getters. Prior decompilation/reference checks retained, not rerun."
+    "additionalFreshValidation": "R24 rechecked all retained original ranges/unwind owners/offsets and pointer slots; actual recharge/block subscriber, local control and independent aggregate recovery rate bound. Prior decompilation/reference checks retained, not rerun."
   },
   "supportingRecords": [
     {
@@ -80040,6 +80235,72 @@
       "bytes": 165,
       "sha256": "22495a27da5e74828bdc4dce530574519f5db969eb263ddb5c5713db9d962cfa",
       "role": "R23 actual maximum-stat subscriber, client-mode current-value boundary and conditional rescaling; independent slot navigation remains navigation only"
+    },
+    {
+      "path": "Agents/docs/re/client-recharge-rate-authority.md",
+      "bytes": 11090,
+      "sha256": "793f46363b00391eeca9c0ffc1cd6bff9fc64599d66d755537a1a95f0f49274c",
+      "role": "R24 actual recharge/block Stats notifications, delay/loss ordering, no-op client active publisher and independent total recovery-rate integration; memory dispatch inventory repeats R3 with zero new sites"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r24-recharge-boundary.py",
+      "bytes": 10817,
+      "sha256": "6f11c52b938275420e8e19dfec7b960bffdd3ce71d609d19846b6563401db4e2",
+      "role": "R24 actual recharge/block Stats notifications, delay/loss ordering, no-op client active publisher and independent total recovery-rate integration; memory dispatch inventory repeats R3 with zero new sites"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r24-recharge-fresh.py",
+      "bytes": 5797,
+      "sha256": "1658ade02db5a474b57ffda52de94ca7fe4c41f7c3c54fb0c103e869069602af",
+      "role": "R24 actual recharge/block Stats notifications, delay/loss ordering, no-op client active publisher and independent total recovery-rate integration; memory dispatch inventory repeats R3 with zero new sites"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r24-float-loss-ingress.py",
+      "bytes": 3442,
+      "sha256": "7d8b833ef95a1aecf9313322cee090b22971eb84819c185649ff10ab6614d8d4",
+      "role": "R24 actual recharge/block Stats notifications, delay/loss ordering, no-op client active publisher and independent total recovery-rate integration; memory dispatch inventory repeats R3 with zero new sites"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r24-seal.py",
+      "bytes": 5631,
+      "sha256": "9a76dd0f36a2ebc7df09eccefc3f5dd03a1718953a3400c78afffa52fe6e8b0f",
+      "role": "R24 actual recharge/block Stats notifications, delay/loss ordering, no-op client active publisher and independent total recovery-rate integration; memory dispatch inventory repeats R3 with zero new sites"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r3-loss-candidates.json",
+      "bytes": 1736388,
+      "sha256": "4109b8692d5a52485a4054b01ffa8de18b554f30886d078c41af75a7854db378",
+      "role": "R24 actual recharge/block Stats notifications, delay/loss ordering, no-op client active publisher and independent total recovery-rate integration; memory dispatch inventory repeats R3 with zero new sites"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r24-recharge-boundary/audit.json",
+      "bytes": 219156,
+      "sha256": "5fb418c0e3bc65af801004b82651837c729c1950370e5721e637343827e8b12c",
+      "role": "R24 actual recharge/block Stats notifications, delay/loss ordering, no-op client active publisher and independent total recovery-rate integration; memory dispatch inventory repeats R3 with zero new sites"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r24-recharge-boundary/verification.json",
+      "bytes": 14915,
+      "sha256": "2d86354e9ead72eed461c455cd33b6b8221d4df7586cb9fd16d2ca888c2c4846",
+      "role": "R24 actual recharge/block Stats notifications, delay/loss ordering, no-op client active publisher and independent total recovery-rate integration; memory dispatch inventory repeats R3 with zero new sites"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r24-recharge-boundary/fresh-check.json",
+      "bytes": 10858,
+      "sha256": "291c8dd53eabb34df71df34b95ba182e6dcbe06a8d02a41e93f3ce16d94951c3",
+      "role": "R24 actual recharge/block Stats notifications, delay/loss ordering, no-op client active publisher and independent total recovery-rate integration; memory dispatch inventory repeats R3 with zero new sites"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r24-float-loss-ingress/audit.json",
+      "bytes": 14477093,
+      "sha256": "c327d85c30aef072f67c6b5949bd253a1154d4e7819a025a619165be539b1c24",
+      "role": "R24 actual recharge/block Stats notifications, delay/loss ordering, no-op client active publisher and independent total recovery-rate integration; memory dispatch inventory repeats R3 with zero new sites"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r24-float-loss-ingress/summary.json",
+      "bytes": 164,
+      "sha256": "da1c3b27f0d2ec072e415b455c3e681ef1dc0e317e2bc8cb39ea8ecf6c8521af",
+      "role": "R24 actual recharge/block Stats notifications, delay/loss ordering, no-op client active publisher and independent total recovery-rate integration; memory dispatch inventory repeats R3 with zero new sites"
     }
   ],
   "auxiliaryDataTables": [
@@ -80323,6 +80584,80 @@
       "withFields": 71,
       "withoutLifeGetter": 67,
       "limits": "Four selected memory dispatch encodings; proximity is not typed receiver proof or global absence; 71 navigation bodies are not added as semantic manifest discoveries"
+    }
+  },
+  "rechargeRateAuthorityVerification": {
+    "runtimeExecuted": false,
+    "functions": 22,
+    "ranges": 26,
+    "decodedInstructions": 1552,
+    "constructorKeys": [
+      {
+        "va": "0x141e67987",
+        "key": 15464,
+        "id": "life_recharge_active"
+      },
+      {
+        "va": "0x141e6798f",
+        "key": 9542,
+        "id": "life_recharge_rate_per_minute"
+      },
+      {
+        "va": "0x141e67997",
+        "key": 1937,
+        "id": "cannot_recover_life"
+      },
+      {
+        "va": "0x141e679d1",
+        "key": 21325,
+        "id": "mana_recharge_active"
+      },
+      {
+        "va": "0x141e679d9",
+        "key": 21324,
+        "id": "mana_recharge_rate_per_minute"
+      },
+      {
+        "va": "0x141e679e1",
+        "key": 7945,
+        "id": "virtual_no_mana_recovery"
+      },
+      {
+        "va": "0x141e67a12",
+        "key": 15466,
+        "id": "energy_shield_recharge_active"
+      },
+      {
+        "va": "0x141e67a1a",
+        "key": 252,
+        "id": "energy_shield_recharge_rate_per_minute"
+      },
+      {
+        "va": "0x141e67a22",
+        "key": 7959,
+        "id": "no_energy_shield_recovery"
+      }
+    ],
+    "cases": 1862,
+    "steps": 146135,
+    "visitedInstructions": 443,
+    "limits": "Provider, reservation/policy maximum, World+90, ES event and script fixtures; original no-op, World getter, scalar leaves and selected arithmetic interpreted. No accepted-Hit loss or DoT publisher closure.",
+    "navigation": {
+      "raw": 848,
+      "owners": 553,
+      "decoded": 323178,
+      "failed": 0,
+      "calls": 667,
+      "callOwners": 448,
+      "withFields": 70,
+      "withoutLifeGetter": 68,
+      "priorInventory": {
+        "path": "Tools/re/out/client-damage-audit/r3-loss-candidates.json",
+        "sha256": "4109b8692d5a52485a4054b01ffa8de18b554f30886d078c41af75a7854db378",
+        "exactCallsiteSetMatched": true,
+        "newDispatchSites": 0
+      },
+      "limits": "Fresh repetition of R3 navigation; zero new dispatch sites, offset co-occurrence untyped, no global absence or additional semantic discoveries."
     }
   }
 }

@@ -142,6 +142,7 @@ These are client addresses; their presence is not proof of official-server imple
 | `0x141ee7320` | Fn | [Cost-stat result layout](../re/client-terminal-mana-refunds.md): first dword is `mana_cost`; distinct from the adjusted payment record's leading kind |
 | `0x141e6c350` | Fn | [Life Stats subscriber](../re/client-pool-maximum-refresh.md): maximum-key selection and World-mode gate to typed pool refresh |
 | `0x141e6b0a0` / `0x141e697e0` | Fn | Life / Mana-ES maximum refresh: selected client modes preserve current; Life clears carry; conditional rescaling differs |
+| `0x141e6b320` | Fn | [Common pool recovery controller](../re/client-recharge-rate-authority.md): local recharge state and independently read total recovery rate; installed Life active-state publisher is a no-op |
 | `0x141e6c7d0` / `0x141e6c950` / `0x141e6ca30` | Fn | Cost preparation, affordability and conditional payment; ES-before-Mana, insufficient-resource clamps and distinct reason-6 pool writes |
 | `0x141e699d0` / `0x141e6b6e0` / `0x141e6c0a0` | Fn | Life/Mana/ES integer-delta slot `+0x28`; distinct from floating loss slot `+0x48` |
 | `0x142544d00` / `0x142551dc0` | Fn | First/last of ten [final typed spell ranges](../re/client-spell-hit-formulas.md); complete conversion paths and branch equations |

@@ -178,6 +178,13 @@ the ordinary branch stores `2 / (1 + value / 100)`, while `value <= -100` calls 
 That reviewed leaf returns the binary32 positive-infinity constant at `0x1436a48d4` (bits `0x7f800000`).
 Incoming resource loss can therefore influence later recharge timing even though it arrives as an absolute total.
 
+The [recharge-control audit](client-recharge-rate-authority.md) binds the reverse notification:
+a nonzero recharge-active stat clears a strictly positive delay and sets pool `+0x44` to suppress loss-driven reset.
+The common recovery step clears that byte and processes its timer, then independently reads the total recovery rate.
+The installed Life active-state publication slot is an exact no-op; timer expiry does not itself add recharge
+to that total.
+This is an ordered control/rate boundary, without inferring arbitrary sub-frame splitting or packet timing.
+
 The Life/ES loss-notification bodies also use a one-time byte guard at Life `+0x26e` and may call
 `0x141de6000`, which constructs an event context and enters `0x141de5ec0`.
 That is the event interpreter boundary also encountered in Hit feedback; its complete callable/script consequences

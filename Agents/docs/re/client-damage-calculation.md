@@ -86,6 +86,7 @@ Detailed supplements keep the evidence reviewable without treating this summary 
 - [Life-cost, hand-cast, Battlemage and weapon-as-spell contributor builders](client-spell-contributor-builders.md).
 - [Integer pool mutations, skill-cost routing/payment and extra-arrow Life sacrifice](client-integer-resource-mutations.md).
 - [Actual maximum-stat subscriber, client-mode current-value gate and Life-only fractional-carry reset](client-pool-maximum-refresh.md).
+- [Actual recharge-active notifications, delay-reset ordering and separate total recovery-rate authority](client-recharge-rate-authority.md).
 - [Complete final spell min/max/total ranges, ordered equations and conversion branch asymmetries](client-spell-hit-formulas.md).
 - [Taken-as coefficients and ordered armour applicability overrides](client-defence-transfer-formulas.md).
 - [Complete physical/elemental reduction inputs, Strength of Blood and physical ceiling](client-reduction-inputs.md).
@@ -161,6 +162,10 @@ flowchart TD
   SKILLNET[S→C 0x1b4: skill / stat set / key-value pairs] --> SKILLOVERRIDE[Selected network skill overrides]
   SKILLOVERRIDE --> PANEL[Bound numerical skill-panel readers]
   GET --> TICK[Life component: integrate rate / 60 × dt]
+  OVERRIDE -->|selected recharge-active notification| RECHARGESTATE[Clear positive recharge delay and suppress reset]
+  RECHARGESTATE --> RECHARGECTRL[Pool recovery controller: local delay / active proposal]
+  RECHARGECTRL --> ACTIVEPUBLISH[Installed client active-state publisher: exact no-op]
+  RECHARGECTRL -->|reads separate total recovery rate| TICK
   TICK --> POOL[Integer current + fractional carry + resource overflow]
   TICK -->|selected Life degen channels| LIFELOSS[Reason-4 Life-loss operation]
   BUFFVALUES[Eligible actual Buff first granted value] --> ABSORBCAP[AncestralTrialTotemAbsorbDegen backend capacity]
@@ -668,6 +673,7 @@ damage-bearing paths. Keep missing source eligibility/selection, formulas and sy
 | R1 | Native dependency ordering and work-vector algorithm | Established for audited helpers and recovered declaration graph | [Cycle-checked traversal, rank rewriting, growing ordered dispatch, unchanged-output propagation stops and 24 actual duplicate-containing declarations](client-stat-dependency-order.md); declared edges do not guarantee all actual reads or arbitrary reentrant callbacks |
 | R1 | Absolute pool update path | Established | Preserve decoded-field vs wire-offset distinction |
 | R1/R4 | Maximum-stat notification and current-resource authority | Established for three pool keys and two client World tables | [Actual Life subscriber and pool refresh](client-pool-maximum-refresh.md) update maxima without proportional current changes on the two nonzero client getters; Life alone clears carry; conditional rescaling code and notification limits remain explicit |
+| R1/R4 | Recharge notifications, local delay and integrated-rate authority | Established for selected three-pool paths | [Actual active/block subscribers and recovery controller](client-recharge-rate-authority.md): positive-delay cancellation, reset suppression and ordered loss; installed active-state publication is a no-op, while recovery independently reads total rate; external event listeners remain separate |
 | R3/R4 | Integer resource changes and selected skill payments | Established for selected conditional paths | [Integer deltas, extra-arrow Life sacrifice, cost routing/check/payment and zero-gate bypass](client-integer-resource-mutations.md); ordinary-client gate provenance, final arrow emission and accepted-Hit loss remain separate |
 | R3/R4 | Conditional terminal Mana refunds | Established for selected numerical slices | [FireMortar table-bound refund and separate reason-qualified slice](client-terminal-mana-refunds.md), actual cost-stat layout, signed percent cap, wrapped product/unsigned widening and typed Mana setter; preceding geometry and the second body's actual incoming caller remain separate |
 | R2 | Typed DoT formulas through mitigation | Established locally | All five types and nonlethal branches audited; [asymmetries](client-dot-routing.md) remain explicit |

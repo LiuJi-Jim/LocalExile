@@ -695,6 +695,10 @@ and can require explicit recipes.
   The two verified client getters update maxima without proportional current changes; Life clears carry,
   while Mana/ES preserve it. Conditional rescaling and its numerical asymmetries are retained separately in
   [the maximum-refresh audit](../docs/re/client-pool-maximum-refresh.md); Hit/DoT application stays open.
+  Actual recharge-active and recovery-block notifications now reach typed pool control state.
+  Local delay processing has a no-op active-state publisher on the installed client Life table;
+  resource integration independently consumes the total recovery rate.
+  [The recharge audit](../docs/re/client-recharge-rate-authority.md) retains reset-suppression ordering and event limits.
   Actual network Actor/skill providers, current fallback and same-key notification masking are bound statically.
   Opcode `0x1b4` updates selected skill/stat-set key-value overrides; its pairs are not projectile path points.
   Native formula transactions are separate; successful startup disables native action-context mutation.

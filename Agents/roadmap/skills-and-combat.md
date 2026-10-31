@@ -193,6 +193,9 @@ The suspend/restore lifecycle is explicit LocalExile policy; see protocol/11-ski
   Reuse the [maximum-stat subscriber and mode gate](../docs/re/client-pool-maximum-refresh.md): the two bound
   client World implementations suppress proportional current adjustment, while Life alone clears carry.
   Do not replace that contract with unconditional rescaling or confuse it with accepted-Hit resource loss.
+  Reuse [recharge-control and total-rate authority](../docs/re/client-recharge-rate-authority.md): active notifications
+  can cancel positive delay and suppress reset, while the pool step integrates its separately read total recovery rate.
+  Local timer expiry and the installed no-op active-state publication do not supply a missing DoT/Hit source publisher.
   Follow other event configurations beyond GEAL/native listeners; selected player/Sand Spitter files have no handler.
   Extend the selected 22-source semantic catalogue through positive data/native links to numerical publication.
   Preserve its exact inheritance, repeated fields, mode and component distinctions; six scripts are catalogued.
