@@ -69,6 +69,9 @@ Detailed supplements keep the evidence reviewable without treating this summary 
 - [Empty-Id2 Buff backend lookup, startup catalogue and base lifecycle boundaries](client-buff-default-backend.md).
 - [Actual Buff observer payloads, lifecycle script configuration and selected presence predicates](client-buff-lifecycle-scripts.md).
 - [Concrete Buff observer with no-op gain/loss callbacks and guarded matrix output](client-buff-observer-attraction-shape.md).
+- [Exact Cold Snap Buff factories and concrete animation/matrix backend boundary](client-coldsnap-buff-backend.md).
+- [Flame Wall secondary Buff samples current owner Stats and restores captured remaining duration](client-firewall-clock-hold.md).
+- [PreloadFromStats row provenance and installed .epk resource collector](client-stat-preload-epk-collector.md).
 - [Initial Entity Buff granted values, recovery qualification, endian differences and storage normalization](client-buff-initial-granted-values.md).
 - [Life-to-Buffs advancement guard and concrete producers](client-buff-clock-producers.md).
 - [Existing Buff network clock receiver, omitted-speed default and selected backend consequences](client-buff-network-clock-contract.md).
@@ -78,6 +81,7 @@ Detailed supplements keep the evidence reviewable without treating this summary 
 - [Thirty spell base, intermediate-added and selected-added component equations](client-spell-damage-components.md).
 - [Life-cost, hand-cast, Battlemage and weapon-as-spell contributor builders](client-spell-contributor-builders.md).
 - [Complete final spell min/max/total ranges, ordered equations and conversion branch asymmetries](client-spell-hit-formulas.md).
+- [Taken-as coefficients and ordered armour applicability overrides](client-defence-transfer-formulas.md).
 - [Outgoing bleed/ignite/poison components, faster/slower and critical DoT multipliers](client-ailment-outgoing-formulas.md).
 - [Complete named ignite outputs, category qualifications and intermediate publication boundaries](client-ignite-output-family.md).
 - [Complete named poison outputs, wrapping integer totals and chaos-only always-output gates](client-poison-output-family.md).
@@ -166,6 +170,10 @@ flowchart TD
   CLOCKGUARD --> CLOCK[Definition-gated duration / backend tick skip]
   BUFFNET[S→C 0x1c1 existing Buff update] --> BUFFCLOCK[Copy remaining duration / speed; omitted speed = 1]
   BUFFCLOCK --> CLOCK
+  FWCAPTURE[Flame Wall backend construction: capture remaining duration] --> FWHOLD[Selected callback: nonzero 12588 restores captured duration]
+  CLOCK -->|eligible Flame Wall tick after decrement| FWHOLD
+  GET -->|current owner value 12588| FWHOLD
+  FWHOLD --> FWREMAIN[Same Buff remaining duration; stored speed untouched]
   BUFFDEF[Ignited / poison definition: empty Id2] --> BUFFNULL[Selected bootstrap lookup miss: null backend]
   BUFFNULL --> BASEEVENT[Base lifecycle still notifies observers and scripts]
   BASEEVENT -. numerical publication unresolved .-> RAW
@@ -173,6 +181,7 @@ flowchart TD
   APPLYINDEX -. function execution not recovered .-> EFFECTS
   REFDAMAGE[Character-sheet / monster reference damage] --> DEFEST[Estimated physical reduction: armour or Ward]
   DEFEST --> CATEGORY[Bound value-to-category reader]
+  DEFCOEFF[Taken-as coefficients / armour applicability formulas] -. actual hit consumer remains separate .-> HITCALC
   EVENT -. full script and callable consequences unresolved .-> EFFECTS[Context-dependent effects]
   NATIVE[Registered ClientOnlyKillSelf callable] --> ZERO[Context Life: absolute zero if positive]
   ZERO --> POOL
@@ -631,14 +640,18 @@ damage-bearing paths. Keep missing source eligibility/selection, formulas and sy
 | R2/R4 | Buff lifecycle delivery and selected script predicates | Established for selected contracts | [Native observers receive the actual Buff; generic/definition-keyed scripts receive owner Entity and null second object; IfBuff/HasBuff query presence](client-buff-lifecycle-scripts.md); numerical subscriber/publication stays open |
 | R2/R4 | Initial Buff granted-value transport and storage | Established for selected readers and lifecycle | [Initial blob and AddBuff share IsRecovery eligibility but differ in byte order; construction truncates or zero-extends while retaining the prefix](client-buff-initial-granted-values.md); numerical actor-Stats publication remains separate |
 | R2/R4 | Concrete attraction-shape Buff observer | Established for installed callbacks | [Actual secondary listener gain/loss slots immediately return; parent matrix output has startup and parent guards](client-buff-observer-attraction-shape.md); no numerical publisher identified |
+| R2/R4 | Concrete Cold Snap backend | Established for selected factories and slots | [Three exact Buff joins, retained instance, no-op lifecycle slots and animation/matrix tick](client-coldsnap-buff-backend.md); numerical rate publication and gameplay expiry remain open |
+| R2/R4 | Owner stat → existing Buff remaining-duration override | Established for FirewallSecondaryDegenBuff | [Each eligible tick polls the ordinary owner network provider's 12588 and conditionally restores construction-captured remaining duration after decrement](client-firewall-clock-hold.md); generic timing-stat subscriptions/speed refresh and numerical damage publication remain open |
 | R2/R4 | Selected GroundEffect lifecycle and transported lifetime | Established for selected component/callable | [KillGroundEffect, owner component/config enum, five-byte lifetime state, expiry, conditional Buffs guard and cancellation/removal boundary](client-ground-effect-boundary.md); [typed ServerFill parent, cancellation-token producer and reference ownership](client-ground-effect-ownership.md) recovered; numerical target-rate publisher remains open |
 | R3 | Hit panel/offence evaluators | Established locally | Both hands, five types, base/added, conversion, average/DPS and actual network-provider numerical readers audited; [details](client-offence-estimates.md) |
 | R2/R3 | Spell base and added component inputs | Established for thirty component callbacks and four builders | [Typed base/added equations](client-spell-damage-components.md) and [life-cost/weapon contributors](client-spell-contributor-builders.md) preserve wrap/division/rounding, wand splitting and qualifications; source grants, actual entity evaluation and target application remain separate |
 | R3 | Final spell typed and total ranges | Established for twelve callbacks | [Ordered equations, complete monotone conversion histories, Prismatic Burst and Lightning Purist branches](client-spell-hit-formulas.md) preserve destination-remainder asymmetry and integer rounding; actual sampling, target defence and pool loss remain open |
 | R3 | Selected critical chance and multiplier arithmetic | Established locally | [Effective MH/OH probability and luck/unexciting, Critical Link and multiplier overrides](client-critical-formulas.md) closed; [complete chance-input builders](client-critical-inputs.md) and [selected defender modifier composition](client-hit-defender-modifiers.md) recovered; per-event rolls/confirmation and joint resolver application stay open |
 | R3 | Hit defender modifier composition | Established for selected callbacks | [Shared/typed final, additive elemental, resistance-ignore predicates and enemy-critical increased input](client-hit-defender-modifiers.md); actual hit amount/resistance/critical application stays separate |
+| R2/R3 | Taken-as coefficients and armour applicability | Established for 22 callbacks | [Signed coefficient sums, Ward/armour shortcut priority and two declared/actual dependency differences](client-defence-transfer-formulas.md); concrete damage redistribution and mitigation remain separate |
 | R3 | Defender-conditional damage context presence | Established for predicate 9189 and typed cache ABI | [37 defender properties combine as a nonzero OR](client-defender-context-presence.md); native context constructor/getter/dispatcher bind key-indexed storage, but no actual numerical consumer or target relationship is recovered |
 | R3 | ApplyDamageFunctions metadata consumer | Established for active-index maintenance | [11 flagged Stats, native row-map lookup and sorted byte-index updates](client-applydamage-stat-index.md); ordinary startup skips this guarded updater; list execution and per-target numerical application remain open |
+| R3 | Stat-driven resource preload candidate | Established for selected installed callable | [PreloadFromStats mode provenance and .epk handle collection](client-stat-preload-epk-collector.md) positively classify this boundary as resource dependency collection; numerical Hit application remains open |
 | R3 | Physical-defence estimates | Established locally | [Three reference-damage formulas](client-defence-estimates.md), Ward substitution, cap/floor/rounding and category reader; concrete-hit mitigation remains separate |
 | R3 | Concrete contact → defender avoidance decision | Established locally | Inherited Fireball gates, Melee and data-bound Sand Spitter MonsterMortarAttack paths audited; [details and Fireball final-factory correction](client-hit-production.md); shared gates remain bound while base clone/terminal differ from final client slots; numerical damage remains separate |
 | R3 | Default ranged-action selection | Established locally | [Bow/Wand enum test, selected equipment-to-provider updates and startup registry winners](client-ranged-action-selection.md) bound; contact continuation consumes queued results; numerical damage remains separate |

@@ -161,12 +161,17 @@ The suspend/restore lifecycle is explicit LocalExile policy; see protocol/11-ski
   Selected Sand Spitter source Actor callbacks and attachment outputs are bound separately.
   Owner clocks initialize at insertion; existing-instance network updates overwrite duration/speed (default 1.0).
   Separate any local owner-stat refresh claim from that established synchronization contract and damage rate.
+  Flame Wall secondary Buff has a concrete polling override restoring captured duration from owner stat 12588.
+  Reuse that selected path; general owner timing-stat subscriptions and existing-instance speed refresh remain open.
   Life-to-Buffs guards and the decoded nonpositive-to-positive Life clear trigger are bound.
   Trace other guard producers and source-rate consequences separately from that assignment branch.
   GroundEffect kill/expiry now reaches the owner's conditional Buffs guard and a concrete lifecycle boundary.
   Reuse its typed parent/token ownership; numerical source-to-target publication remains a separate open edge.
   A named RF template declares a rate input; connect its actual instance and target to native publication.
   Keep reference-damage defence estimates separate from accepted-hit mitigation and resource loss.
+  Reuse taken-as coefficients and armour applicability formulas; preserve their declared/actual dependency differences.
+  PreloadFromStats and the selected Cold Snap backend have concrete resource/presentation outputs; do not reclassify
+  them as numerical publishers or expand their renderer without a separate numerical edge.
   Connect accepted contacts to numerical damage/critical/mitigation and pool receivers; these edges remain open.
   Follow other event configurations beyond GEAL/native listeners; selected player/Sand Spitter files have no handler.
   Extend the selected 22-source semantic catalogue through positive data/native links to numerical publication.

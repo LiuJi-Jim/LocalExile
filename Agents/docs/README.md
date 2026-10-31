@@ -65,6 +65,9 @@ How to regenerate them: [re/tooling.md](re/tooling.md) §7.
 | [re/client-spell-hit-formulas.md](re/client-spell-hit-formulas.md) | twelve final spell ranges, ordered equations, conversion histories and special branch asymmetries |
 | [re/client-buff-initial-granted-values.md](re/client-buff-initial-granted-values.md) | initial Buff magnitude eligibility, byte-order distinction and prefix-preserving normalization |
 | [re/client-buff-observer-attraction-shape.md](re/client-buff-observer-attraction-shape.md) | concrete no-op Buff observer callbacks and a separately guarded presentation output |
+| [re/client-coldsnap-buff-backend.md](re/client-coldsnap-buff-backend.md) | exact Cold Snap Buff/factory joins and concrete animation/matrix backend boundary |
+| [re/client-firewall-clock-hold.md](re/client-firewall-clock-hold.md) | current owner network stat sampled after duration decrement to restore a captured Buff clock value |
+| [re/client-stat-preload-epk-collector.md](re/client-stat-preload-epk-collector.md) | PreloadFromStats row provenance and installed callable collecting .epk resource handles |
 | [re/client-ailment-outgoing-formulas.md](re/client-ailment-outgoing-formulas.md) | outgoing bleed/ignite/poison components, per-minute rates, faster/slower and critical DoT multipliers |
 | [re/client-bleeding-output-family.md](re/client-bleeding-output-family.md) | complete named MH/OH min/max bleeding rates, critical branches and hand/final-factor asymmetries |
 | [re/client-ailment-eligibility.md](re/client-ailment-eligibility.md) | typed ignite/poison permissions, hand-local poison gates and target acquisition prohibitions |
@@ -72,6 +75,7 @@ How to regenerate them: [re/tooling.md](re/tooling.md) §7.
 | [re/client-critical-formulas.md](re/client-critical-formulas.md) | critical probability/luck/unexciting transforms, overrides, multipliers and math-helper contracts |
 | [re/client-critical-inputs.md](re/client-critical-inputs.md) | complete MH/OH/spell chance input algebra, overrides, weapon classification and arithmetic order |
 | [re/client-hit-defender-modifiers.md](re/client-hit-defender-modifiers.md) | shared/typed hit-taken factors, ignore-resistance predicates and defender enemy-critical inputs |
+| [re/client-defence-transfer-formulas.md](re/client-defence-transfer-formulas.md) | seventeen taken-as coefficients, five armour applicability outputs, override order and dependency differences |
 | [re/client-defender-context-presence.md](re/client-defender-context-presence.md) | 37-input defender-conditional presence predicate, short circuits and unresolved numerical use |
 | [re/client-ailment-multiplier-inputs.md](re/client-ailment-multiplier-inputs.md) | virtual faster inputs, combined damaging-ailment multipliers and qualification branches |
 | [re/client-dot-multiplier-inputs.md](re/client-dot-multiplier-inputs.md) | generic, typed, ailment and non-ailment DoT multiplier inputs, exact qualifications and integer order |

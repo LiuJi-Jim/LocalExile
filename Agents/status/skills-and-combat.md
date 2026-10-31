@@ -758,6 +758,9 @@ and can require explicit recipes.
   Complete MH/OH/spell chance builders preserve hand-specific overrides, weapon tables and float32 operation order.
   Shared/typed hit-taken final factors, additive elemental input and resistance-ignore predicates are recovered.
   Enemy-critical increased input has a component-only cap; actual joint hit-resolver application remains open.
+  Seventeen taken-as coefficients and five armour applicability outputs preserve signed sums and override order.
+  Ward applicability reads an undeclared input; one taken-as registrar declares an unused dependency.
+  These formulas remain separate from actual hit redistribution and mitigation.
   Defender-conditional presence output 9189 is a 37-input nonzero OR, distinct from numerical hit application.
   Its native cache receiver layout is bound; matching a key offset alone does not identify a numerical consumer.
   IsApplyDamageFunctionStat has an actual reader maintaining active function indices for eleven on-hit effects.
@@ -768,6 +771,8 @@ and can require explicit recipes.
   Native final ailment-duration formulas reciprocate faster factors, separately from expiration-speed clocks.
   Versioned GGG examples identify applied source rate/duration, dynamic target response and maintained-aura exceptions.
   Official explanations use relevant events for stat/time-scale updates, with per-frame timer advancement.
+  Flame Wall's secondary Buff polls current owner network stat 12588 after its eligible duration decrement.
+  A nonzero value restores construction-captured remaining duration; this does not recalculate stored speed.
   Five Aura source APIs are server-mode metadata, ineligible in ordinary client GEAL compilation.
   Versioned selection rules include aggravated bleed's independent normal/extra selection; native publisher stays open.
   Fireball client factories overwrite the base action table; inherited gates survive, clone/terminal slots differ.
@@ -782,6 +787,9 @@ and can require explicit recipes.
   Its typed ServerFill parent creates and retains shared cancellation flags; release can expire infinite children.
   Its conditional guard pauses the owner's Buff clocks; it does not establish nearby target-rate publication.
   Source-instance aggregation, required numerical-event consequences and hit resource receivers remain open.
+  A concrete Cold Snap Buff backend binds actual instances to animation/matrix outputs and no-op lifecycle slots.
+  A stat-driven metadata candidate is now bound to PreloadFromStats and an installed .epk resource collector.
+  These presentation/resource contracts do not close numerical damage-source publication.
   Official/community comparisons and PoB formulas are pinned separately from current-server claims.
   Closed static contracts support implementation research without a live replay; full rendering is outside scope.
   This work neither changes server combat nor claims current official-server numerical parity.
