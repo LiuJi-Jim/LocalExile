@@ -41741,6 +41741,7 @@
         "r4-buff-network-clock-contract",
         "r4-contact-leaf-coverage",
         "r45-native-pool-composition",
+        "r47-action-present-result",
         "r9-ground-ownership"
       ],
       "selectedDecompilationCompleted": true
@@ -41965,7 +41966,8 @@
       ],
       "sourceBatches": [
         "r34-buff-clock-authority",
-        "r4-buff-clock-observer-dispatch"
+        "r4-buff-clock-observer-dispatch",
+        "r47-action-present-result"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -42529,7 +42531,8 @@
       "sourceBatches": [
         "historical-static-callback-binding",
         "r16-hit-listeners-final",
-        "r33-result-resource-composition"
+        "r33-result-resource-composition",
+        "r47-action-present-result"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -47247,6 +47250,7 @@
       ],
       "sourceBatches": [
         "r2-base-rates",
+        "r47-action-present-result",
         "virtual-loss-and-base"
       ],
       "selectedDecompilationCompleted": true
@@ -48079,6 +48083,7 @@
       ],
       "sourceBatches": [
         "r2-source-builder-refs",
+        "r47-action-present-result",
         "source-and-authority"
       ],
       "selectedDecompilationCompleted": true
@@ -48365,7 +48370,8 @@
       ],
       "sourceBatches": [
         "r3-contact-update",
-        "r3-loss-action-ctors"
+        "r3-loss-action-ctors",
+        "r47-action-present-result"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -54064,6 +54070,7 @@
         "r16-hit-listeners-final",
         "r3-hit-consumers",
         "r33-result-resource-composition",
+        "r47-action-present-result",
         "r9-hit-result-qualification"
       ],
       "selectedDecompilationCompleted": true
@@ -54097,7 +54104,8 @@
       ],
       "sourceBatches": [
         "r3-hit-target-and-life",
-        "r3-loss-descriptor-producer"
+        "r3-loss-descriptor-producer",
+        "r47-action-present-result"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -54263,7 +54271,8 @@
       "sourceBatches": [
         "historical-static-callback-binding",
         "r16-hit-listeners-final",
-        "r33-result-resource-composition"
+        "r33-result-resource-composition",
+        "r47-action-present-result"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -57916,6 +57925,7 @@
         "r32-buff-rate-independence",
         "r33-result-resource-composition",
         "r34-buff-clock-authority",
+        "r47-action-present-result",
         "stat-and-formula-v2"
       ],
       "selectedDecompilationCompleted": true
@@ -72629,7 +72639,8 @@
         "r32-buff-rate-independence",
         "r33-result-resource-composition",
         "r34-buff-clock-authority",
-        "r45-native-pool-composition"
+        "r45-native-pool-composition",
+        "r47-action-present-result"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -72847,7 +72858,8 @@
         "r30-initial-stats-rate",
         "r32-buff-rate-independence",
         "r33-result-resource-composition",
-        "r34-buff-clock-authority"
+        "r34-buff-clock-authority",
+        "r47-action-present-result"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -73395,7 +73407,8 @@
         }
       ],
       "sourceBatches": [
-        "r33-result-resource-composition"
+        "r33-result-resource-composition",
+        "r47-action-present-result"
       ],
       "selectedDecompilationCompleted": false
     },
@@ -73411,7 +73424,8 @@
         }
       ],
       "sourceBatches": [
-        "r33-result-resource-composition"
+        "r33-result-resource-composition",
+        "r47-action-present-result"
       ],
       "selectedDecompilationCompleted": false
     },
@@ -73443,7 +73457,8 @@
         }
       ],
       "sourceBatches": [
-        "r34-buff-clock-authority"
+        "r34-buff-clock-authority",
+        "r47-action-present-result"
       ],
       "selectedDecompilationCompleted": false
     },
@@ -73666,6 +73681,651 @@
       ],
       "sourceBatches": [
         "r45-native-pool-composition"
+      ],
+      "selectedDecompilationCompleted": false
+    },
+    "0x141de8600": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x141de8600",
+          "endExclusive": "0x141de8c69",
+          "bytes": 1641,
+          "fileOffset": 31357440,
+          "sha256": "87e1aa935ea070811474f5ab32fc30a1ac5b51dae1778e0dbe4f639cd7b0e774"
+        }
+      ],
+      "sourceBatches": [
+        "r47-action-present-result"
+      ],
+      "selectedDecompilationCompleted": false
+    },
+    "0x141deae80": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x141deae80",
+          "endExclusive": "0x141deae9e",
+          "bytes": 30,
+          "fileOffset": 31367808,
+          "sha256": "ec2841f26089f839d50aa431792a9182c326b7262b5a21f2fdf021fe253dcf2a"
+        },
+        {
+          "start": "0x141deae9e",
+          "endExclusive": "0x141deaeef",
+          "bytes": 81,
+          "fileOffset": 31367838,
+          "sha256": "b7ffbb746a16e05a7132a800a99c79daea40cfbdd53c664dfe0147b8171fa82d"
+        },
+        {
+          "start": "0x141deaeef",
+          "endExclusive": "0x141deaeff",
+          "bytes": 16,
+          "fileOffset": 31367919,
+          "sha256": "11fe265990048bf2126297092cc95ae9e14df2c0c842fd2c2f8d5406c7038b1f"
+        }
+      ],
+      "sourceBatches": [
+        "r47-action-present-result"
+      ],
+      "selectedDecompilationCompleted": false
+    },
+    "0x1401334e0": {
+      "boundary": "explicit-analyst-leaf-range",
+      "ranges": [
+        {
+          "start": "0x1401334e0",
+          "endExclusive": "0x1401334fe",
+          "bytes": 30,
+          "fileOffset": 1255648,
+          "sha256": "0973de2404800188aab42ce6bf6bc6c4d3becd2ea6a1afde52a5888ecde97411"
+        }
+      ],
+      "sourceBatches": [
+        "r47-action-present-result"
+      ],
+      "selectedDecompilationCompleted": false
+    },
+    "0x140d201d0": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x140d201d0",
+          "endExclusive": "0x140d201e5",
+          "bytes": 21,
+          "fileOffset": 13759952,
+          "sha256": "6ccaa8a474e8772f957f16677ad8ed676a8b3c4b5b180654cbdadc9303d7fcc8"
+        },
+        {
+          "start": "0x140d201e5",
+          "endExclusive": "0x140d20212",
+          "bytes": 45,
+          "fileOffset": 13759973,
+          "sha256": "5156713027b2065cd1da401552f2b640826f899f09cfcad615eb60f7aed9aef1"
+        },
+        {
+          "start": "0x140d20212",
+          "endExclusive": "0x140d20258",
+          "bytes": 70,
+          "fileOffset": 13760018,
+          "sha256": "109881d193364d8866f3a3a3dfb2238f1a4488d739de172d763b9e820afb9e16"
+        }
+      ],
+      "sourceBatches": [
+        "r47-action-present-result"
+      ],
+      "selectedDecompilationCompleted": false
+    },
+    "0x14012beb0": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x14012beb0",
+          "endExclusive": "0x14012bf30",
+          "bytes": 128,
+          "fileOffset": 1225392,
+          "sha256": "9234a9163f76e00889ce44fefcfdab9af8faeec66482d5abe58f08da268e72bc"
+        }
+      ],
+      "sourceBatches": [
+        "r47-action-present-result"
+      ],
+      "selectedDecompilationCompleted": false
+    },
+    "0x1416ccbd0": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1416ccbd0",
+          "endExclusive": "0x1416ccd73",
+          "bytes": 419,
+          "fileOffset": 23904208,
+          "sha256": "e971aa1a38f7a0d04952a0cafc9c9ec7d4a4b72a269ccc1f272893b3b9cc40bf"
+        }
+      ],
+      "sourceBatches": [
+        "r47-action-present-result"
+      ],
+      "selectedDecompilationCompleted": false
+    },
+    "0x141de8320": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x141de8320",
+          "endExclusive": "0x141de84ac",
+          "bytes": 396,
+          "fileOffset": 31356704,
+          "sha256": "68eff492477de752f7e2546525dcaa80a5f95e8b46f3eda95691d679a2bc433e"
+        }
+      ],
+      "sourceBatches": [
+        "r47-action-present-result"
+      ],
+      "selectedDecompilationCompleted": false
+    },
+    "0x141de84b0": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x141de84b0",
+          "endExclusive": "0x141de856c",
+          "bytes": 188,
+          "fileOffset": 31357104,
+          "sha256": "3c2dd45715e55335d4b83de738f3d984800cf6b7289a13e7395f98e987da0c6b"
+        }
+      ],
+      "sourceBatches": [
+        "r47-action-present-result"
+      ],
+      "selectedDecompilationCompleted": false
+    },
+    "0x14123d5f0": {
+      "boundary": "explicit-analyst-leaf-range",
+      "ranges": [
+        {
+          "start": "0x14123d5f0",
+          "endExclusive": "0x14123d5f5",
+          "bytes": 5,
+          "fileOffset": 19122672,
+          "sha256": "5d00d6d53807e797dbe8653a6d33f4b2a0646c2c6863783bf21060e6c15cdc71"
+        }
+      ],
+      "sourceBatches": [
+        "r47-action-present-result"
+      ],
+      "selectedDecompilationCompleted": false
+    },
+    "0x141deadc0": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x141deadc0",
+          "endExclusive": "0x141deae78",
+          "bytes": 184,
+          "fileOffset": 31367616,
+          "sha256": "a87baa6fc863071bff467563e67aa751a20bdbf5482bd95af7b95ce9e9b30c6e"
+        }
+      ],
+      "sourceBatches": [
+        "r47-action-present-result"
+      ],
+      "selectedDecompilationCompleted": false
+    },
+    "0x141dfd560": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x141dfd560",
+          "endExclusive": "0x141dfd603",
+          "bytes": 163,
+          "fileOffset": 31443296,
+          "sha256": "8cc6b0b788915e8ff1907a0b03b42abb9d402f867e36c94596cfb9d5298add2b"
+        }
+      ],
+      "sourceBatches": [
+        "r47-action-present-result"
+      ],
+      "selectedDecompilationCompleted": false
+    },
+    "0x141e003a0": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x141e003a0",
+          "endExclusive": "0x141e003ae",
+          "bytes": 14,
+          "fileOffset": 31455136,
+          "sha256": "ca301c37290d5103221b23b279aae7c23e01e2cd67723496b944c0db97aa970f"
+        },
+        {
+          "start": "0x141e003ae",
+          "endExclusive": "0x141e004d0",
+          "bytes": 290,
+          "fileOffset": 31455150,
+          "sha256": "d14155e3bd28c69105c4bf7f8e4a69f26d5a14dc99f9d0220714fbc94212d4f0"
+        },
+        {
+          "start": "0x141e004d0",
+          "endExclusive": "0x141e004eb",
+          "bytes": 27,
+          "fileOffset": 31455440,
+          "sha256": "7bd032b4197ee6c4166e4170397a86d83f1e6470172e1bb368e8a519521c9f8a"
+        }
+      ],
+      "sourceBatches": [
+        "r47-action-present-result"
+      ],
+      "selectedDecompilationCompleted": false
+    },
+    "0x140e34570": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x140e34570",
+          "endExclusive": "0x140e345f3",
+          "bytes": 131,
+          "fileOffset": 14891376,
+          "sha256": "251d49ff06a94af17d5e737ab56f9f4617a3297e828b156f886f7b74aead73a6"
+        }
+      ],
+      "sourceBatches": [
+        "r47-action-present-result"
+      ],
+      "selectedDecompilationCompleted": false
+    },
+    "0x1406ae820": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1406ae820",
+          "endExclusive": "0x1406ae948",
+          "bytes": 296,
+          "fileOffset": 7003168,
+          "sha256": "4e2475891d1a7a6ac84d1648e17cd2eaf0f520ca7b3cdc1f5eeff80bd7220ad0"
+        }
+      ],
+      "sourceBatches": [
+        "r47-action-present-result"
+      ],
+      "selectedDecompilationCompleted": false
+    },
+    "0x1413656d0": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1413656d0",
+          "endExclusive": "0x14136572c",
+          "bytes": 92,
+          "fileOffset": 20335312,
+          "sha256": "c236f10b3f73d733c58ef58d38607d7e7b453d49764af523407c9b65a9bd2713"
+        }
+      ],
+      "sourceBatches": [
+        "r47-action-present-result"
+      ],
+      "selectedDecompilationCompleted": false
+    },
+    "0x1413657a0": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1413657a0",
+          "endExclusive": "0x14136585a",
+          "bytes": 186,
+          "fileOffset": 20335520,
+          "sha256": "34b1e81c83b27d52005be64bd951c9104a9afeb1105595b4f1f961b80f9cd70b"
+        }
+      ],
+      "sourceBatches": [
+        "r47-action-present-result"
+      ],
+      "selectedDecompilationCompleted": false
+    },
+    "0x141dfaa30": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x141dfaa30",
+          "endExclusive": "0x141dfab50",
+          "bytes": 288,
+          "fileOffset": 31432240,
+          "sha256": "cd9bc7943507b441fb1f5fbdac807d4278aed9ce1e0e36822d23207a5ea7cb45"
+        }
+      ],
+      "sourceBatches": [
+        "r47-action-present-result"
+      ],
+      "selectedDecompilationCompleted": false
+    },
+    "0x142c81850": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x142c81850",
+          "endExclusive": "0x142c818bb",
+          "bytes": 107,
+          "fileOffset": 46664784,
+          "sha256": "7d289ad3e8958bb01d4050110042e6f2a0cc7940bbc0f9495de998a043da1986"
+        }
+      ],
+      "sourceBatches": [
+        "r47-action-present-result"
+      ],
+      "selectedDecompilationCompleted": false
+    },
+    "0x141365a30": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x141365a30",
+          "endExclusive": "0x141365a8d",
+          "bytes": 93,
+          "fileOffset": 20336176,
+          "sha256": "3109619efd30badb123e15ad96b6a6b9324e7dfc685ab9f198ec1976555ec025"
+        }
+      ],
+      "sourceBatches": [
+        "r47-action-present-result"
+      ],
+      "selectedDecompilationCompleted": false
+    },
+    "0x142d7d370": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x142d7d370",
+          "endExclusive": "0x142d7d372",
+          "bytes": 2,
+          "fileOffset": 47695728,
+          "sha256": "b5916d40205265465cce91e2cd0704bf6e1e36263acfe53c729a06f296e9f353"
+        }
+      ],
+      "sourceBatches": [
+        "r47-action-present-result"
+      ],
+      "selectedDecompilationCompleted": false
+    },
+    "0x1400f2050": {
+      "boundary": "explicit-analyst-leaf-range",
+      "ranges": [
+        {
+          "start": "0x1400f2050",
+          "endExclusive": "0x1400f2055",
+          "bytes": 5,
+          "fileOffset": 988240,
+          "sha256": "495301d778c4d0d1b9a45293f81ff9302b57ec060bc55633a67d528380f1d667"
+        }
+      ],
+      "sourceBatches": [
+        "r47-action-present-result"
+      ],
+      "selectedDecompilationCompleted": false
+    },
+    "0x1415d2230": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1415d2230",
+          "endExclusive": "0x1415d2247",
+          "bytes": 23,
+          "fileOffset": 22877744,
+          "sha256": "50bb06895a11c13ed66ef40a50a3669234a69b85e29a7c73efde6fef7a31f685"
+        },
+        {
+          "start": "0x1415d2247",
+          "endExclusive": "0x1415d22fc",
+          "bytes": 181,
+          "fileOffset": 22877767,
+          "sha256": "35c5b0adcbc7a874a47d98b8815348d03b6997935a763fa067052e4a72e6bc0e"
+        },
+        {
+          "start": "0x1415d22fc",
+          "endExclusive": "0x1415d24c7",
+          "bytes": 459,
+          "fileOffset": 22877948,
+          "sha256": "171b5d17939bbbc6885f58af7e5bc2010c77e29bdc08043a545c6c368f04ca04"
+        },
+        {
+          "start": "0x1415d24c7",
+          "endExclusive": "0x1415d24d6",
+          "bytes": 15,
+          "fileOffset": 22878407,
+          "sha256": "3f73b603d5558b8d710b6b966638bb679bf34a4739ed5458182766cecd4cdc5a"
+        },
+        {
+          "start": "0x1415d24d6",
+          "endExclusive": "0x1415d24e2",
+          "bytes": 12,
+          "fileOffset": 22878422,
+          "sha256": "5a4ce630f8f26b8cdc6ad4a5707db553ca00ec5ff49f8ab16ae205f87ac2a190"
+        }
+      ],
+      "sourceBatches": [
+        "r47-action-present-result"
+      ],
+      "selectedDecompilationCompleted": false
+    },
+    "0x141365ad0": {
+      "boundary": "explicit-analyst-leaf-range",
+      "ranges": [
+        {
+          "start": "0x141365ad0",
+          "endExclusive": "0x141365b1f",
+          "bytes": 79,
+          "fileOffset": 20336336,
+          "sha256": "01706578945b4bad4bc3d2822c8f88b937f6c1e13f39539e3493e45a1cbe47c6"
+        }
+      ],
+      "sourceBatches": [
+        "r47-action-present-result"
+      ],
+      "selectedDecompilationCompleted": false
+    },
+    "0x141dfc290": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x141dfc290",
+          "endExclusive": "0x141dfc336",
+          "bytes": 166,
+          "fileOffset": 31438480,
+          "sha256": "9924d794d2ed1d0c61467fe1fb94d03ffbcfeccfa4ccedcc2e739d404932582a"
+        },
+        {
+          "start": "0x141dfc336",
+          "endExclusive": "0x141dfc3f9",
+          "bytes": 195,
+          "fileOffset": 31438646,
+          "sha256": "5b334dd7a8d808056ac984b79956048c947b95bcb7f9144ea6d025b726def73b"
+        },
+        {
+          "start": "0x141dfc3f9",
+          "endExclusive": "0x141dfc424",
+          "bytes": 43,
+          "fileOffset": 31438841,
+          "sha256": "e05353ddc7f3f7212020b37bd1b0022f4ec3715267b9499f5d036f8449038b10"
+        }
+      ],
+      "sourceBatches": [
+        "r47-action-present-result"
+      ],
+      "selectedDecompilationCompleted": false
+    },
+    "0x141dfe5f0": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x141dfe5f0",
+          "endExclusive": "0x141dfe666",
+          "bytes": 118,
+          "fileOffset": 31447536,
+          "sha256": "95eaf0a2c0d949d7a3b3b826556751419f3ce6cc7d3e654f7d3d03c5543accab"
+        },
+        {
+          "start": "0x141dfe666",
+          "endExclusive": "0x141dfe825",
+          "bytes": 447,
+          "fileOffset": 31447654,
+          "sha256": "93ea263db29127b4114d8cfa4ca2070911ecab8e274e0f792e39ad1986ac1c6c"
+        },
+        {
+          "start": "0x141dfe825",
+          "endExclusive": "0x141dfe82b",
+          "bytes": 6,
+          "fileOffset": 31448101,
+          "sha256": "144552a20e536b9ff285dff03ec76f05d45c564b99b0cfc95d7c2ee3d6947e45"
+        }
+      ],
+      "sourceBatches": [
+        "r47-action-present-result"
+      ],
+      "selectedDecompilationCompleted": false
+    },
+    "0x141e00240": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x141e00240",
+          "endExclusive": "0x141e002b4",
+          "bytes": 116,
+          "fileOffset": 31454784,
+          "sha256": "ded8bad40c032ed8a1a8b3f23c19db09810b411336533338e4a0595d7d82a864"
+        }
+      ],
+      "sourceBatches": [
+        "r47-action-present-result"
+      ],
+      "selectedDecompilationCompleted": false
+    },
+    "0x1402ba210": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1402ba210",
+          "endExclusive": "0x1402ba229",
+          "bytes": 25,
+          "fileOffset": 2856464,
+          "sha256": "ec01572273d72cab5fe4f3cf41f2370854b1eb600e1e78652a7110ebf6d07b74"
+        },
+        {
+          "start": "0x1402ba229",
+          "endExclusive": "0x1402ba2c6",
+          "bytes": 157,
+          "fileOffset": 2856489,
+          "sha256": "8757d9d3e3e4731e53681b7b0e487b46ad450a5d45808c18a707364a3935c0e3"
+        },
+        {
+          "start": "0x1402ba2c6",
+          "endExclusive": "0x1402ba2cc",
+          "bytes": 6,
+          "fileOffset": 2856646,
+          "sha256": "b13c2122a4910ad1c7f40207d9561e5a2d3418bf2bc40c490e3f913641fd2989"
+        },
+        {
+          "start": "0x1402ba2cc",
+          "endExclusive": "0x1402ba2d2",
+          "bytes": 6,
+          "fileOffset": 2856652,
+          "sha256": "f2e64f97d4895a779f0f8a147fa6cdf6f97ce23d770db985b6d7e5c144a80537"
+        }
+      ],
+      "sourceBatches": [
+        "r47-action-present-result"
+      ],
+      "selectedDecompilationCompleted": false
+    },
+    "0x140150f40": {
+      "boundary": "explicit-analyst-leaf-range",
+      "ranges": [
+        {
+          "start": "0x140150f40",
+          "endExclusive": "0x140150f4f",
+          "bytes": 15,
+          "fileOffset": 1377088,
+          "sha256": "2b0aed3ffc1c02149390f8ab00f80fb43e8ca3fce5042b1ce237177749013512"
+        }
+      ],
+      "sourceBatches": [
+        "r47-action-present-result"
+      ],
+      "selectedDecompilationCompleted": false
+    },
+    "0x141dffe00": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x141dffe00",
+          "endExclusive": "0x141e00030",
+          "bytes": 560,
+          "fileOffset": 31453696,
+          "sha256": "19e48fe94fdb4f0d5c0fe8dceaac763bdf6195907281f9eea6c16603218311da"
+        }
+      ],
+      "sourceBatches": [
+        "r47-action-present-result"
+      ],
+      "selectedDecompilationCompleted": false
+    },
+    "0x141dfd7e0": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x141dfd7e0",
+          "endExclusive": "0x141dfd805",
+          "bytes": 37,
+          "fileOffset": 31443936,
+          "sha256": "9b75a620f050dc09e67951cf0c9ad53acf4ed3385d4b565c0c64b550dfb69a2a"
+        },
+        {
+          "start": "0x141dfd805",
+          "endExclusive": "0x141dfd8a6",
+          "bytes": 161,
+          "fileOffset": 31443973,
+          "sha256": "61bc68fdad78ce8ea1826f8dbae88ac486bf56d6c0e0e2262e5704289ab3761f"
+        },
+        {
+          "start": "0x141dfd8a6",
+          "endExclusive": "0x141dfd8b6",
+          "bytes": 16,
+          "fileOffset": 31444134,
+          "sha256": "6017a91041747b000529e889fe074d61b9805621e539aff28a84d427a18401c3"
+        }
+      ],
+      "sourceBatches": [
+        "r47-action-present-result"
+      ],
+      "selectedDecompilationCompleted": false
+    },
+    "0x1419ee9a0": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1419ee9a0",
+          "endExclusive": "0x1419eea51",
+          "bytes": 177,
+          "fileOffset": 27188640,
+          "sha256": "d6032ca820e468b14673bc3e3a287d1e7b7bd7df16205f0d6a8020802106a843"
+        }
+      ],
+      "sourceBatches": [
+        "r47-action-present-result"
+      ],
+      "selectedDecompilationCompleted": false
+    },
+    "0x141ba2160": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x141ba2160",
+          "endExclusive": "0x141ba23b3",
+          "bytes": 595,
+          "fileOffset": 28972384,
+          "sha256": "7e7fa4175ce6371b894372197e9b52b6afdf8d3f15b511ed4717e0bd0514c8df"
+        }
+      ],
+      "sourceBatches": [
+        "r47-action-present-result"
       ],
       "selectedDecompilationCompleted": false
     }
@@ -75020,6 +75680,11 @@
       "name": "r45-native-pool-composition",
       "auditSha256": "810e0c23c47bf782e3fe8866f60f36d8b2877df2fd00aec7361ac54af6c91f2e",
       "functionCount": 248
+    },
+    {
+      "name": "r47-action-present-result",
+      "auditSha256": "8d9b902add4cda4b0d008ee47364012e9b19deea3389a9521533a61d0f852b52",
+      "functionCount": 47
     }
   ],
   "pointerSlots": [
@@ -77374,6 +78039,14 @@
       "fileOffset": 56870840,
       "sha256": "87bd43a8013f6dd304a68d3698dde6960030041a7a038e76dbd2387bf665cdae",
       "sourceBatch": "r45-native-pool-composition"
+    },
+    {
+      "table": "0x143233d38",
+      "offset": "0x30",
+      "target": "0x14123d5f0",
+      "fileOffset": 52638056,
+      "sha256": "a82f259a4f163c54b29da370975bceb43a7844a0be28ab69d3d12a0f59337f84",
+      "sourceBatch": "r47-action-present-result"
     }
   ],
   "scanCoverage": {
@@ -77426,7 +78099,7 @@
     "checkedReferenceInstructions": 13431,
     "decompilationFailures": [],
     "scope": "Original ranges/offsets, unwind ownership or explicit boundaries, stat identity, reference instructions and pointer-slot contents revalidated offline.",
-    "additionalFreshValidation": "R43/R45 rechecked all retained ranges, ownership, offsets, pointer slots and prior sealed supports; actual native previous-value/boolean getters preserve eight witnesses and compose into 24 Life/ES numerical loss steps. Actual source publication, ordinary provider selection/eligibility, shared-cap reachability, numerical Hit-to-pool and generic clock refresh remain open."
+    "additionalFreshValidation": "R47 rechecked all retained original ranges, ownership, offsets, pointer slots and 980 prior sealed supports. Eight supplied current-Fireball-Action compositions execute original sequence lookup, final callbacks and typed event cleanup, preserving resources. Numerical Hit-to-pool, DoT instance publication/shared-cap reachability and generic clock refresh remain open."
   },
   "supportingRecords": [
     {
@@ -83263,6 +83936,66 @@
       "bytes": 696,
       "sha256": "1dcf0d86d983a9ee3006919e4fe9803475c086d9daab106a269fae2c89dcca46",
       "role": "R43 original native previous-value getter and R45 native records/getter-to-Life/ES numerical loss composition; explicit eligibility/provider/resource fixtures, not source-instance publication or ordinary actor authority"
+    },
+    {
+      "path": "Agents/docs/re/client-hit-action-present-composition.md",
+      "bytes": 6072,
+      "sha256": "75df17aae7cefc8b6fa8fa581fa65ca1d238acb885a857e0101fc04d97c6dc73",
+      "role": "R47 supplied current Fireball Action sequence lookup, original callbacks and event argument cleanup; empty events/listeners and constructor/provider/TLS fixtures, not numerical Hit damage or ordinary ingress"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r47-action-present-frontier.py",
+      "bytes": 11317,
+      "sha256": "41e7e85a38f283e09776ad857db50471a1a96d28af2bd88dd10d532761ca662d",
+      "role": "R47 supplied current Fireball Action sequence lookup, original callbacks and event argument cleanup; empty events/listeners and constructor/provider/TLS fixtures, not numerical Hit damage or ordinary ingress"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r47-action-present-fresh.py",
+      "bytes": 3867,
+      "sha256": "9aea99b827a838690b9785e3757d4c9bc084efc31bb9e0892da61273766e9eec",
+      "role": "R47 supplied current Fireball Action sequence lookup, original callbacks and event argument cleanup; empty events/listeners and constructor/provider/TLS fixtures, not numerical Hit damage or ordinary ingress"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r47-action-present-audit.py",
+      "bytes": 3534,
+      "sha256": "7054d087b3efbd97e130ffe87613a6a36a8da2e7171942c10e8c043f9df866cf",
+      "role": "R47 supplied current Fireball Action sequence lookup, original callbacks and event argument cleanup; empty events/listeners and constructor/provider/TLS fixtures, not numerical Hit damage or ordinary ingress"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r47-seal.py",
+      "bytes": 5452,
+      "sha256": "b4884788d1f77f6d19930f1fbbaf3d526bfb88351b8dd3a7e6f9b06fe8365a75",
+      "role": "R47 supplied current Fireball Action sequence lookup, original callbacks and event argument cleanup; empty events/listeners and constructor/provider/TLS fixtures, not numerical Hit damage or ordinary ingress"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r47-action-present-result/frontier.json",
+      "bytes": 133597,
+      "sha256": "91db4e0c1db315c4690c6638cd6dc62891c7695a69a0360c61f79821fbd663ed",
+      "role": "R47 supplied current Fireball Action sequence lookup, original callbacks and event argument cleanup; empty events/listeners and constructor/provider/TLS fixtures, not numerical Hit damage or ordinary ingress"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r47-action-present-result/allocator-controls.json",
+      "bytes": 4556,
+      "sha256": "7ea01d86c0f28154bbb937bdf223430cb232fcd1db454076cd1ccb0acbd42bc0",
+      "role": "R47 supplied current Fireball Action sequence lookup, original callbacks and event argument cleanup; empty events/listeners and constructor/provider/TLS fixtures, not numerical Hit damage or ordinary ingress"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r47-action-present-result/original-records.json",
+      "bytes": 446220,
+      "sha256": "f75475804addf2c72a78d3f0027103852a10dc7d8fd290bfb5feaf8e58bb9a6b",
+      "role": "R47 supplied current Fireball Action sequence lookup, original callbacks and event argument cleanup; empty events/listeners and constructor/provider/TLS fixtures, not numerical Hit damage or ordinary ingress"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r47-action-present-result/fresh-check.json",
+      "bytes": 599,
+      "sha256": "b151f8ce0569525e63b36c81041bde5f965a5d63b599a84ff46123706d2f1ebd",
+      "role": "R47 supplied current Fireball Action sequence lookup, original callbacks and event argument cleanup; empty events/listeners and constructor/provider/TLS fixtures, not numerical Hit damage or ordinary ingress"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r47-action-present-result/audit.json",
+      "bytes": 529234,
+      "sha256": "8d9b902add4cda4b0d008ee47364012e9b19deea3389a9521533a61d0f852b52",
+      "role": "R47 supplied current Fireball Action sequence lookup, original callbacks and event argument cleanup; empty events/listeners and constructor/provider/TLS fixtures, not numerical Hit damage or ordinary ingress"
     }
   ],
   "auxiliaryDataTables": [
@@ -83828,5 +84561,18 @@
       "Original native getter/boolean vtable slots execute; no scalar resource-rate provider or copied rate adapter.",
       "Resource object/reservation/checkpoint/empty lifecycle and notification fixtures remain; no source instance or ordinary provider selection is established."
     ]
+  },
+  "actionPresentResultCompositionVerification": {
+    "result": "PASS_FRESH_ACTION_PRESENT_BOUNDARIES",
+    "runtimeExecuted": false,
+    "recordSha256": "f75475804addf2c72a78d3f0027103852a10dc7d8fd290bfb5feaf8e58bb9a6b",
+    "originalFunctions": 35,
+    "anchors": 15,
+    "factoryLeas": 2,
+    "pointerSlots": 3,
+    "movsdControls": 12,
+    "savedCompositions": 8,
+    "allocatorControls": 42,
+    "limits": "Saved compositions, source actor/action/config/provider and normalized TLS remain supplied. Only selected constructor arena slice executes. Empty events/listeners are not all skills; no accepted-Hit numerical-damage or global absence claim."
   }
 }

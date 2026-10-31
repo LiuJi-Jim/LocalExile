@@ -78,6 +78,7 @@ How to regenerate them: [re/tooling.md](re/tooling.md) §7.
 | [re/client-buff-clock-authority.md](re/client-buff-clock-authority.md) | Actual insertion, owner timing-stat notifications and retained network clocks; initializer floor versus received speed and explicit refresh limits |
 | [re/client-buff-rate-independence.md](re/client-buff-rate-independence.md) | Original Buff expiration/removal composed with independent network rates and subsequent Life loss; source-rate publication remains open |
 | [re/client-hit-result-resource-composition.md](re/client-hit-result-resource-composition.md) | Actual received-result processing versus resource assignment; current target ES and the u16 sequence-derived stun trial, with explicit empty-listener limits |
+| [re/client-hit-action-present-composition.md](re/client-hit-action-present-composition.md) | Sequence-matched current Fireball Action, original callbacks and typed event cleanup; eight supplied-state compositions, separate from numerical Hit damage |
 | [re/client-buff-initial-granted-values.md](re/client-buff-initial-granted-values.md) | initial Buff magnitude eligibility, byte-order distinction and prefix-preserving normalization |
 | [re/client-buff-wire-magnitudes.md](re/client-buff-wire-magnitudes.md) | AddBuff writer/reader magnitude gate, uncounted definition slots and wire-cardinality agreement |
 | [re/client-buff-observer-attraction-shape.md](re/client-buff-observer-attraction-shape.md) | concrete no-op Buff observer callbacks and a separately guarded presentation output |

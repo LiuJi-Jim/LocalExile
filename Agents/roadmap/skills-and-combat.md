@@ -202,8 +202,10 @@ The suspend/restore lifecycle is explicit LocalExile policy; see protocol/11-ski
   Reuse [actual received-result/resource compositions](../docs/re/client-hit-result-resource-composition.md):
   missing-action ProcessResult can succeed with no current/carry/reservation change in the supplied empty signals.
   Current target ES and protects-Mana gate a sequence-derived control trial; resource assignment order matters.
-  Do not repeat the exhaustive u16 trial or treat its duration rewrite as numerical damage; nonempty subscribers,
-  concrete action consequences and the accepted-Hit numerical publisher remain separate next boundaries.
+  Do not repeat the exhaustive u16 trial or treat its duration rewrite as numerical damage.
+  [Current Fireball Action lookup/callback/event cleanup](../docs/re/client-hit-action-present-composition.md) now
+  executes for supplied states. Do not repeat that empty-event path; ordinary construction/ingress, nonempty
+  numerical subscribers and the accepted-Hit numerical publisher remain separate next boundaries.
   Reuse integer pool cost/sacrifice paths separately; trace payment-gate provenance before claiming client prepayment.
   Their concrete numerical writes do not close accepted-Hit damage or DoT source publication.
   Reuse [terminal Mana-refund arithmetic](../docs/re/client-terminal-mana-refunds.md), preserving FireMortar scope,

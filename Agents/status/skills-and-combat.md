@@ -727,6 +727,10 @@ and can require explicit recipes.
   These paths preserve currents/carry/reservations; independent decoded resource assignment changes the pool.
   Positive target ES and zero protects-Mana stat enable a sequence-derived stun-suppression trial, odd over u16;
   ES assignment order changes its duration rewrite. Nonempty listeners and numerical Hit damage remain open.
+  [Action-present Fireball continuation](../docs/re/client-hit-action-present-composition.md) executes current-Action
+  sequence lookup, actual final-table no-op callbacks and typed event argument cleanup in eight supplied states.
+  The original arena initialization slice replaces invalid zero-filled arena state; full construction/ingress,
+  nonempty events and numerical Hit damage remain separate. All three pools preserve current/carry/reservation.
     [Critical Link's numerical collector](../docs/re/client-critical-link-export.md) binds three raw Stats appends
     and exact final action slots; its two non-recovery Buff definitions omit granted magnitudes on AddBuff.
     Actual collector invocation, grant application and refresh remain open; this is separate from Hit damage.
