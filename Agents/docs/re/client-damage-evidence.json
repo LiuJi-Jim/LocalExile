@@ -9551,6 +9551,8 @@
         "network-and-sources",
         "r19-stat-order",
         "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition",
         "virtual-loss-and-base"
       ],
       "selectedDecompilationCompleted": true
@@ -9601,7 +9603,9 @@
       ],
       "sourceBatches": [
         "r19-stat-order",
-        "r42-dot-native-composition"
+        "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -9634,7 +9638,9 @@
       ],
       "sourceBatches": [
         "r19-stat-order",
-        "r42-dot-native-composition"
+        "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -9766,7 +9772,9 @@
       "sourceBatches": [
         "r19-stat-order",
         "r2-typed-routes",
-        "r42-dot-native-composition"
+        "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -9832,7 +9840,9 @@
       "sourceBatches": [
         "r19-stat-order",
         "r2-typed-routes",
-        "r42-dot-native-composition"
+        "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -9850,7 +9860,9 @@
       "sourceBatches": [
         "r19-stat-order",
         "r2-typed-routes",
-        "r42-dot-native-composition"
+        "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -9884,7 +9896,9 @@
       "sourceBatches": [
         "r19-stat-order",
         "r2-typed-routes",
-        "r42-dot-native-composition"
+        "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -9902,7 +9916,9 @@
       "sourceBatches": [
         "r19-stat-order",
         "r2-typed-routes",
-        "r42-dot-native-composition"
+        "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -9936,7 +9952,9 @@
       "sourceBatches": [
         "r19-stat-order",
         "r2-typed-routes",
-        "r42-dot-native-composition"
+        "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -9954,7 +9972,9 @@
       "sourceBatches": [
         "r19-stat-order",
         "r2-typed-routes",
-        "r42-dot-native-composition"
+        "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -10004,7 +10024,9 @@
       "sourceBatches": [
         "r19-stat-order",
         "r2-typed-routes",
-        "r42-dot-native-composition"
+        "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -10022,7 +10044,9 @@
       "sourceBatches": [
         "r19-stat-order",
         "r2-typed-routes",
-        "r42-dot-native-composition"
+        "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -10040,7 +10064,9 @@
       "sourceBatches": [
         "r19-stat-order",
         "r2-typed-routes",
-        "r42-dot-native-composition"
+        "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -10058,7 +10084,9 @@
       "sourceBatches": [
         "r19-stat-order",
         "r2-typed-routes",
-        "r42-dot-native-composition"
+        "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -10076,7 +10104,9 @@
       "sourceBatches": [
         "r19-stat-order",
         "r2-typed-routes",
-        "r42-dot-native-composition"
+        "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -10094,7 +10124,9 @@
       "sourceBatches": [
         "r19-stat-order",
         "r2-typed-routes",
-        "r42-dot-native-composition"
+        "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -10112,7 +10144,9 @@
       "sourceBatches": [
         "r19-stat-order",
         "r2-typed-routes",
-        "r42-dot-native-composition"
+        "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -10132,6 +10166,8 @@
         "r19-stat-order",
         "r2-typed-routes",
         "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition",
         "virtual-loss-and-base"
       ],
       "selectedDecompilationCompleted": true
@@ -10150,7 +10186,9 @@
       "sourceBatches": [
         "r19-stat-order",
         "r2-typed-routes",
-        "r42-dot-native-composition"
+        "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -10168,7 +10206,9 @@
       "sourceBatches": [
         "r19-stat-order",
         "r2-typed-routes",
-        "r42-dot-native-composition"
+        "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -10186,7 +10226,9 @@
       "sourceBatches": [
         "r19-stat-order",
         "r2-typed-routes",
-        "r42-dot-native-composition"
+        "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -10204,7 +10246,9 @@
       "sourceBatches": [
         "r19-stat-order",
         "r2-typed-routes",
-        "r42-dot-native-composition"
+        "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -10222,7 +10266,9 @@
       "sourceBatches": [
         "r19-stat-order",
         "r2-typed-routes",
-        "r42-dot-native-composition"
+        "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -10240,7 +10286,9 @@
       "sourceBatches": [
         "r19-stat-order",
         "r2-typed-routes",
-        "r42-dot-native-composition"
+        "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -10258,7 +10306,9 @@
       "sourceBatches": [
         "r19-stat-order",
         "r2-typed-routes",
-        "r42-dot-native-composition"
+        "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -10276,7 +10326,9 @@
       "sourceBatches": [
         "r19-stat-order",
         "r2-typed-routes",
-        "r42-dot-native-composition"
+        "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -10294,7 +10346,9 @@
       "sourceBatches": [
         "r19-stat-order",
         "r2-typed-routes",
-        "r42-dot-native-composition"
+        "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -10313,6 +10367,8 @@
         "r19-stat-order",
         "r2-typed-routes",
         "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition",
         "virtual-loss-and-base"
       ],
       "selectedDecompilationCompleted": true
@@ -10334,6 +10390,8 @@
         "r2-registration-discovery",
         "r2-typed-routes",
         "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition",
         "virtual-loss-and-base"
       ],
       "selectedDecompilationCompleted": true
@@ -10352,7 +10410,9 @@
       "sourceBatches": [
         "r19-stat-order",
         "r2-typed-routes",
-        "r42-dot-native-composition"
+        "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -10370,7 +10430,9 @@
       "sourceBatches": [
         "r19-stat-order",
         "r2-typed-routes",
-        "r42-dot-native-composition"
+        "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -10388,7 +10450,9 @@
       "sourceBatches": [
         "r19-stat-order",
         "r2-typed-routes",
-        "r42-dot-native-composition"
+        "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -10406,7 +10470,9 @@
       "sourceBatches": [
         "r19-stat-order",
         "r2-typed-routes",
-        "r42-dot-native-composition"
+        "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -10424,7 +10490,9 @@
       "sourceBatches": [
         "r19-stat-order",
         "r2-typed-routes",
-        "r42-dot-native-composition"
+        "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -10459,7 +10527,9 @@
       "sourceBatches": [
         "r19-stat-order",
         "r2-typed-routes",
-        "r42-dot-native-composition"
+        "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -10477,7 +10547,9 @@
       "sourceBatches": [
         "r19-stat-order",
         "r2-typed-routes",
-        "r42-dot-native-composition"
+        "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -10495,7 +10567,9 @@
       "sourceBatches": [
         "r19-stat-order",
         "r2-typed-routes",
-        "r42-dot-native-composition"
+        "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -10513,7 +10587,9 @@
       "sourceBatches": [
         "r19-stat-order",
         "r2-typed-routes",
-        "r42-dot-native-composition"
+        "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -10531,7 +10607,9 @@
       "sourceBatches": [
         "r19-stat-order",
         "r2-typed-routes",
-        "r42-dot-native-composition"
+        "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -10549,7 +10627,9 @@
       "sourceBatches": [
         "r19-stat-order",
         "r2-typed-routes",
-        "r42-dot-native-composition"
+        "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -10567,7 +10647,9 @@
       "sourceBatches": [
         "r19-stat-order",
         "r2-typed-routes",
-        "r42-dot-native-composition"
+        "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -10585,7 +10667,9 @@
       "sourceBatches": [
         "r19-stat-order",
         "r2-typed-routes",
-        "r42-dot-native-composition"
+        "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -10603,7 +10687,9 @@
       "sourceBatches": [
         "r19-stat-order",
         "r2-typed-routes",
-        "r42-dot-native-composition"
+        "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -10621,7 +10707,9 @@
       "sourceBatches": [
         "r19-stat-order",
         "r2-typed-routes",
-        "r42-dot-native-composition"
+        "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -10639,7 +10727,9 @@
       "sourceBatches": [
         "r19-stat-order",
         "r2-typed-routes",
-        "r42-dot-native-composition"
+        "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -10657,7 +10747,9 @@
       "sourceBatches": [
         "r19-stat-order",
         "r2-typed-routes",
-        "r42-dot-native-composition"
+        "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -10675,7 +10767,9 @@
       "sourceBatches": [
         "r19-stat-order",
         "r2-typed-routes",
-        "r42-dot-native-composition"
+        "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -10693,7 +10787,9 @@
       "sourceBatches": [
         "r19-stat-order",
         "r2-typed-routes",
-        "r42-dot-native-composition"
+        "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -10711,7 +10807,9 @@
       "sourceBatches": [
         "r19-stat-order",
         "r2-typed-routes",
-        "r42-dot-native-composition"
+        "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -10729,7 +10827,9 @@
       "sourceBatches": [
         "r19-stat-order",
         "r2-typed-routes",
-        "r42-dot-native-composition"
+        "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -10747,7 +10847,9 @@
       "sourceBatches": [
         "r19-stat-order",
         "r2-typed-routes",
-        "r42-dot-native-composition"
+        "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -10765,7 +10867,9 @@
       "sourceBatches": [
         "r19-stat-order",
         "r2-typed-routes",
-        "r42-dot-native-composition"
+        "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -10783,7 +10887,9 @@
       "sourceBatches": [
         "r19-stat-order",
         "r2-typed-routes",
-        "r42-dot-native-composition"
+        "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -10801,7 +10907,9 @@
       "sourceBatches": [
         "r19-stat-order",
         "r2-typed-routes",
-        "r42-dot-native-composition"
+        "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -10819,7 +10927,9 @@
       "sourceBatches": [
         "r19-stat-order",
         "r2-typed-routes",
-        "r42-dot-native-composition"
+        "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -10837,7 +10947,9 @@
       "sourceBatches": [
         "r19-stat-order",
         "r2-typed-routes",
-        "r42-dot-native-composition"
+        "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -10855,7 +10967,9 @@
       "sourceBatches": [
         "r19-stat-order",
         "r2-typed-routes",
-        "r42-dot-native-composition"
+        "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -10873,7 +10987,9 @@
       "sourceBatches": [
         "r19-stat-order",
         "r2-typed-routes",
-        "r42-dot-native-composition"
+        "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -10891,7 +11007,9 @@
       "sourceBatches": [
         "r19-stat-order",
         "r2-typed-routes",
-        "r42-dot-native-composition"
+        "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -10909,7 +11027,9 @@
       "sourceBatches": [
         "r19-stat-order",
         "r2-typed-routes",
-        "r42-dot-native-composition"
+        "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -10927,7 +11047,9 @@
       "sourceBatches": [
         "r19-stat-order",
         "r2-typed-routes",
-        "r42-dot-native-composition"
+        "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -10945,7 +11067,9 @@
       "sourceBatches": [
         "r19-stat-order",
         "r2-typed-routes",
-        "r42-dot-native-composition"
+        "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -10963,7 +11087,9 @@
       "sourceBatches": [
         "r19-stat-order",
         "r2-typed-routes",
-        "r42-dot-native-composition"
+        "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -10981,7 +11107,9 @@
       "sourceBatches": [
         "r19-stat-order",
         "r2-typed-routes",
-        "r42-dot-native-composition"
+        "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -10999,7 +11127,9 @@
       "sourceBatches": [
         "r19-stat-order",
         "r2-typed-routes",
-        "r42-dot-native-composition"
+        "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -11017,7 +11147,9 @@
       "sourceBatches": [
         "r19-stat-order",
         "r2-typed-routes",
-        "r42-dot-native-composition"
+        "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -11035,7 +11167,9 @@
       "sourceBatches": [
         "r19-stat-order",
         "r2-typed-routes",
-        "r42-dot-native-composition"
+        "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -11053,7 +11187,9 @@
       "sourceBatches": [
         "r19-stat-order",
         "r2-typed-routes",
-        "r42-dot-native-composition"
+        "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -11071,7 +11207,9 @@
       "sourceBatches": [
         "r19-stat-order",
         "r2-typed-routes",
-        "r42-dot-native-composition"
+        "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -11089,7 +11227,9 @@
       "sourceBatches": [
         "r19-stat-order",
         "r2-typed-routes",
-        "r42-dot-native-composition"
+        "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -11107,7 +11247,9 @@
       "sourceBatches": [
         "r19-stat-order",
         "r2-typed-routes",
-        "r42-dot-native-composition"
+        "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -11125,7 +11267,9 @@
       "sourceBatches": [
         "r19-stat-order",
         "r2-typed-routes",
-        "r42-dot-native-composition"
+        "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -11143,7 +11287,9 @@
       "sourceBatches": [
         "r19-stat-order",
         "r2-typed-routes",
-        "r42-dot-native-composition"
+        "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -11161,7 +11307,9 @@
       "sourceBatches": [
         "r19-stat-order",
         "r2-typed-routes",
-        "r42-dot-native-composition"
+        "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -11179,7 +11327,9 @@
       "sourceBatches": [
         "r19-stat-order",
         "r2-typed-routes",
-        "r42-dot-native-composition"
+        "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -11197,7 +11347,9 @@
       "sourceBatches": [
         "r19-stat-order",
         "r2-typed-routes",
-        "r42-dot-native-composition"
+        "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -11317,7 +11469,9 @@
       "sourceBatches": [
         "r19-stat-order",
         "r2-typed-routes",
-        "r42-dot-native-composition"
+        "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -11335,7 +11489,9 @@
       "sourceBatches": [
         "r19-stat-order",
         "r2-typed-routes",
-        "r42-dot-native-composition"
+        "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -11353,7 +11509,9 @@
       "sourceBatches": [
         "r19-stat-order",
         "r2-typed-routes",
-        "r42-dot-native-composition"
+        "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -11371,7 +11529,9 @@
       "sourceBatches": [
         "r19-stat-order",
         "r2-typed-routes",
-        "r42-dot-native-composition"
+        "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -11389,7 +11549,9 @@
       "sourceBatches": [
         "r19-stat-order",
         "r2-typed-routes",
-        "r42-dot-native-composition"
+        "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -11407,7 +11569,9 @@
       "sourceBatches": [
         "r19-stat-order",
         "r2-typed-routes",
-        "r42-dot-native-composition"
+        "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -11425,7 +11589,9 @@
       "sourceBatches": [
         "r19-stat-order",
         "r2-typed-routes",
-        "r42-dot-native-composition"
+        "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -11443,7 +11609,9 @@
       "sourceBatches": [
         "r19-stat-order",
         "r2-typed-routes",
-        "r42-dot-native-composition"
+        "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -11461,7 +11629,9 @@
       "sourceBatches": [
         "r19-stat-order",
         "r2-typed-routes",
-        "r42-dot-native-composition"
+        "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -11479,7 +11649,9 @@
       "sourceBatches": [
         "r19-stat-order",
         "r2-typed-routes",
-        "r42-dot-native-composition"
+        "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -11497,7 +11669,9 @@
       "sourceBatches": [
         "r19-stat-order",
         "r2-typed-routes",
-        "r42-dot-native-composition"
+        "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -11515,7 +11689,9 @@
       "sourceBatches": [
         "r19-stat-order",
         "r2-typed-routes",
-        "r42-dot-native-composition"
+        "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -11533,7 +11709,9 @@
       "sourceBatches": [
         "r19-stat-order",
         "r2-typed-routes",
-        "r42-dot-native-composition"
+        "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -11551,7 +11729,9 @@
       "sourceBatches": [
         "r19-stat-order",
         "r2-typed-routes",
-        "r42-dot-native-composition"
+        "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -11569,7 +11749,9 @@
       "sourceBatches": [
         "r19-stat-order",
         "r2-routing-support",
-        "r42-dot-native-composition"
+        "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -11587,7 +11769,9 @@
       "sourceBatches": [
         "r19-stat-order",
         "r2-typed-routes",
-        "r42-dot-native-composition"
+        "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -11605,7 +11789,9 @@
       "sourceBatches": [
         "r19-stat-order",
         "r2-typed-routes",
-        "r42-dot-native-composition"
+        "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -14591,7 +14777,9 @@
       "sourceBatches": [
         "r19-stat-order",
         "r2-typed-routes",
-        "r42-dot-native-composition"
+        "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -14706,7 +14894,9 @@
       "sourceBatches": [
         "r19-stat-order",
         "r2-route-guards",
-        "r42-dot-native-composition"
+        "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -14821,7 +15011,9 @@
       "sourceBatches": [
         "r19-stat-order",
         "r2-route-guards",
-        "r42-dot-native-composition"
+        "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -14936,7 +15128,9 @@
       "sourceBatches": [
         "r19-stat-order",
         "r2-route-guards",
-        "r42-dot-native-composition"
+        "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -24073,7 +24267,9 @@
       "sourceBatches": [
         "r19-stat-order",
         "r2-typed-routes",
-        "r42-dot-native-composition"
+        "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -24091,7 +24287,9 @@
       "sourceBatches": [
         "r19-stat-order",
         "r2-typed-routes",
-        "r42-dot-native-composition"
+        "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -24109,7 +24307,9 @@
       "sourceBatches": [
         "r19-stat-order",
         "r2-typed-routes",
-        "r42-dot-native-composition"
+        "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -24127,7 +24327,9 @@
       "sourceBatches": [
         "r19-stat-order",
         "r2-typed-routes",
-        "r42-dot-native-composition"
+        "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -24145,7 +24347,9 @@
       "sourceBatches": [
         "r19-stat-order",
         "r2-typed-routes",
-        "r42-dot-native-composition"
+        "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -26682,7 +26886,9 @@
       "sourceBatches": [
         "r19-stat-order",
         "r2-typed-routes",
-        "r42-dot-native-composition"
+        "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -26700,7 +26906,9 @@
       "sourceBatches": [
         "r19-stat-order",
         "r2-typed-routes",
-        "r42-dot-native-composition"
+        "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -26718,7 +26926,9 @@
       "sourceBatches": [
         "r19-stat-order",
         "r2-typed-routes",
-        "r42-dot-native-composition"
+        "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -41530,6 +41740,7 @@
         "r4-buff-clock-update-callbacks",
         "r4-buff-network-clock-contract",
         "r4-contact-leaf-coverage",
+        "r45-native-pool-composition",
         "r9-ground-ownership"
       ],
       "selectedDecompilationCompleted": true
@@ -41893,6 +42104,8 @@
         "r36-duration-formulas",
         "r37-skill-duration",
         "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition",
         "r5-ailment-outgoing-helpers",
         "r5-critical-math-final",
         "r6-critical-inputs",
@@ -42296,6 +42509,7 @@
         "r33-result-resource-composition",
         "r34-buff-clock-authority",
         "r4-pool-notification-leaves",
+        "r45-native-pool-composition",
         "r8-ground-effect-boundary",
         "r9-ground-ownership"
       ],
@@ -52661,7 +52875,8 @@
         "r32-buff-rate-independence",
         "r33-result-resource-composition",
         "r34-buff-clock-authority",
-        "r4-buff-guard-revive"
+        "r4-buff-guard-revive",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -52709,7 +52924,8 @@
         "r34-buff-clock-authority",
         "r4-buff-clock-producers-discovery",
         "r4-buff-clock-producers-life-guard",
-        "r4-buff-guard-revive"
+        "r4-buff-guard-revive",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -52735,7 +52951,8 @@
         "r32-buff-rate-independence",
         "r33-result-resource-composition",
         "r34-buff-clock-authority",
-        "r4-buff-clock-producers-transition-search"
+        "r4-buff-clock-producers-transition-search",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -52760,7 +52977,8 @@
         "r32-buff-rate-independence",
         "r33-result-resource-composition",
         "r34-buff-clock-authority",
-        "r4-pool-assignment-effects"
+        "r4-pool-assignment-effects",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -52946,7 +53164,8 @@
         "r32-buff-rate-independence",
         "r33-result-resource-composition",
         "r34-buff-clock-authority",
-        "r4-buff-guard-revive"
+        "r4-buff-guard-revive",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -53018,6 +53237,7 @@
         "r32-buff-rate-independence",
         "r33-result-resource-composition",
         "r34-buff-clock-authority",
+        "r45-native-pool-composition",
         "source-and-authority"
       ],
       "selectedDecompilationCompleted": true
@@ -53072,7 +53292,8 @@
         "r30-initial-stats-rate",
         "r32-buff-rate-independence",
         "r33-result-resource-composition",
-        "r34-buff-clock-authority"
+        "r34-buff-clock-authority",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -53110,7 +53331,8 @@
         "r30-initial-stats-rate",
         "r32-buff-rate-independence",
         "r33-result-resource-composition",
-        "r34-buff-clock-authority"
+        "r34-buff-clock-authority",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -53150,7 +53372,8 @@
         "r32-buff-rate-independence",
         "r33-result-resource-composition",
         "r34-buff-clock-authority",
-        "r4-buff-clock-producers-transition-search"
+        "r4-buff-clock-producers-transition-search",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -53174,7 +53397,8 @@
         "r30-initial-stats-rate",
         "r32-buff-rate-independence",
         "r33-result-resource-composition",
-        "r34-buff-clock-authority"
+        "r34-buff-clock-authority",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -53200,6 +53424,7 @@
         "r32-buff-rate-independence",
         "r33-result-resource-composition",
         "r34-buff-clock-authority",
+        "r45-native-pool-composition",
         "source-and-authority"
       ],
       "selectedDecompilationCompleted": true
@@ -53224,7 +53449,8 @@
         "r30-initial-stats-rate",
         "r32-buff-rate-independence",
         "r33-result-resource-composition",
-        "r34-buff-clock-authority"
+        "r34-buff-clock-authority",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -53249,6 +53475,7 @@
         "r32-buff-rate-independence",
         "r33-result-resource-composition",
         "r34-buff-clock-authority",
+        "r45-native-pool-composition",
         "source-and-authority"
       ],
       "selectedDecompilationCompleted": true
@@ -53360,7 +53587,8 @@
         "r32-buff-rate-independence",
         "r33-result-resource-composition",
         "r34-buff-clock-authority",
-        "r4-pool-assignment-effects"
+        "r4-pool-assignment-effects",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -53383,7 +53611,8 @@
         "r32-buff-rate-independence",
         "r33-result-resource-composition",
         "r34-buff-clock-authority",
-        "r4-pool-assignment-effects"
+        "r4-pool-assignment-effects",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -53407,7 +53636,8 @@
         "r32-buff-rate-independence",
         "r33-result-resource-composition",
         "r34-buff-clock-authority",
-        "r4-pool-assignment-effects"
+        "r4-pool-assignment-effects",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -53431,7 +53661,8 @@
         "r32-buff-rate-independence",
         "r33-result-resource-composition",
         "r34-buff-clock-authority",
-        "r4-pool-recharge-notify"
+        "r4-pool-recharge-notify",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -53512,6 +53743,7 @@
         "r32-buff-rate-independence",
         "r33-result-resource-composition",
         "r34-buff-clock-authority",
+        "r45-native-pool-composition",
         "source-and-authority"
       ],
       "selectedDecompilationCompleted": true
@@ -57814,7 +58046,9 @@
         "r1-producer-refs",
         "r1-skill-producers",
         "r19-stat-order",
-        "r42-dot-native-composition"
+        "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -57882,6 +58116,8 @@
       ],
       "sourceBatches": [
         "r1-skill-native-link-v2",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition",
         "stat-and-formula-v2"
       ],
       "selectedDecompilationCompleted": true
@@ -57973,6 +58209,8 @@
         "r12-applydamage-index-final",
         "r19-stat-order",
         "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition",
         "stat-evaluation-dispatch"
       ],
       "selectedDecompilationCompleted": true
@@ -57991,6 +58229,8 @@
       "sourceBatches": [
         "r19-stat-order",
         "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition",
         "stat-evaluation-dispatch"
       ],
       "selectedDecompilationCompleted": true
@@ -58073,6 +58313,8 @@
         "r12-applydamage-index-final",
         "r19-stat-order",
         "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition",
         "stat-evaluation-dispatch",
         "stat-update-evaluation"
       ],
@@ -58144,6 +58386,8 @@
         "r3-offence-scalar-helpers",
         "r3-offence-typed",
         "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition",
         "r5-ailment-outgoing-helpers",
         "r7-ailment-chance",
         "r7-bleeding-family",
@@ -58167,6 +58411,8 @@
       "sourceBatches": [
         "r10-fire-self-rate",
         "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition",
         "r7-ailment-chance",
         "r9-poison-family",
         "stat-and-formula-v2"
@@ -58187,6 +58433,8 @@
       "sourceBatches": [
         "r19-stat-order",
         "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition",
         "stat-and-formula-v2"
       ],
       "selectedDecompilationCompleted": true
@@ -58207,6 +58455,8 @@
         "r3-offence-scalar-helpers",
         "r3-offence-typed",
         "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition",
         "r5-ailment-outgoing-helpers",
         "r6-critical-inputs",
         "r7-bleeding-family",
@@ -58229,6 +58479,8 @@
       ],
       "sourceBatches": [
         "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition",
         "r5-ailment-outgoing-saturating-v2",
         "r7-bleeding-family",
         "r8-dot-multiplier-family",
@@ -65607,6 +65859,8 @@
       "sourceBatches": [
         "r2-base-rates",
         "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition",
         "stat-and-formula-v2"
       ],
       "selectedDecompilationCompleted": true
@@ -65669,7 +65923,9 @@
       ],
       "sourceBatches": [
         "r2-base-rates",
-        "r42-dot-native-composition"
+        "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -65686,7 +65942,9 @@
       ],
       "sourceBatches": [
         "r2-base-rates",
-        "r42-dot-native-composition"
+        "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -65767,7 +66025,9 @@
       ],
       "sourceBatches": [
         "r2-typed-routes",
-        "r42-dot-native-composition"
+        "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -65784,7 +66044,9 @@
       ],
       "sourceBatches": [
         "r2-typed-routes",
-        "r42-dot-native-composition"
+        "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -65801,7 +66063,9 @@
       ],
       "sourceBatches": [
         "r2-typed-routes",
-        "r42-dot-native-composition"
+        "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -65818,7 +66082,9 @@
       ],
       "sourceBatches": [
         "r2-typed-routes",
-        "r42-dot-native-composition"
+        "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -65835,7 +66101,9 @@
       ],
       "sourceBatches": [
         "r2-typed-routes",
-        "r42-dot-native-composition"
+        "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -65884,7 +66152,9 @@
       ],
       "sourceBatches": [
         "r2-typed-routes",
-        "r42-dot-native-composition"
+        "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -65901,7 +66171,9 @@
       ],
       "sourceBatches": [
         "r2-typed-routes",
-        "r42-dot-native-composition"
+        "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -65918,7 +66190,9 @@
       ],
       "sourceBatches": [
         "r2-typed-routes",
-        "r42-dot-native-composition"
+        "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -65935,7 +66209,9 @@
       ],
       "sourceBatches": [
         "r2-typed-routes",
-        "r42-dot-native-composition"
+        "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -65952,7 +66228,9 @@
       ],
       "sourceBatches": [
         "r2-typed-routes",
-        "r42-dot-native-composition"
+        "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -65970,7 +66248,9 @@
       "sourceBatches": [
         "network-and-sources",
         "r2-typed-routes",
-        "r42-dot-native-composition"
+        "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -65987,7 +66267,9 @@
       ],
       "sourceBatches": [
         "r2-typed-routes",
-        "r42-dot-native-composition"
+        "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -66005,6 +66287,8 @@
       "sourceBatches": [
         "r2-typed-routes",
         "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition",
         "stat-and-formula-v2"
       ],
       "selectedDecompilationCompleted": true
@@ -66022,7 +66306,9 @@
       ],
       "sourceBatches": [
         "r2-typed-routes",
-        "r42-dot-native-composition"
+        "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -66039,7 +66325,9 @@
       ],
       "sourceBatches": [
         "r2-typed-routes",
-        "r42-dot-native-composition"
+        "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -66056,7 +66344,9 @@
       ],
       "sourceBatches": [
         "r2-typed-routes",
-        "r42-dot-native-composition"
+        "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -66073,7 +66363,9 @@
       ],
       "sourceBatches": [
         "r2-typed-routes",
-        "r42-dot-native-composition"
+        "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -66090,7 +66382,9 @@
       ],
       "sourceBatches": [
         "r2-typed-routes",
-        "r42-dot-native-composition"
+        "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -66107,7 +66401,9 @@
       ],
       "sourceBatches": [
         "r2-typed-routes",
-        "r42-dot-native-composition"
+        "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -66124,7 +66420,9 @@
       ],
       "sourceBatches": [
         "r2-typed-routes",
-        "r42-dot-native-composition"
+        "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -66141,7 +66439,9 @@
       ],
       "sourceBatches": [
         "r2-typed-routes",
-        "r42-dot-native-composition"
+        "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -66158,7 +66458,9 @@
       ],
       "sourceBatches": [
         "r2-typed-routes",
-        "r42-dot-native-composition"
+        "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -66218,7 +66520,9 @@
       "sourceBatches": [
         "network-and-sources",
         "r2-typed-routes",
-        "r42-dot-native-composition"
+        "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -66285,6 +66589,8 @@
       "sourceBatches": [
         "r2-typed-routes",
         "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition",
         "stat-and-formula-v2"
       ],
       "selectedDecompilationCompleted": true
@@ -66330,7 +66636,9 @@
       ],
       "sourceBatches": [
         "r2-typed-routes",
-        "r42-dot-native-composition"
+        "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -66396,7 +66704,9 @@
       ],
       "sourceBatches": [
         "r2-typed-routes",
-        "r42-dot-native-composition"
+        "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -66462,7 +66772,9 @@
       ],
       "sourceBatches": [
         "r2-typed-routes",
-        "r42-dot-native-composition"
+        "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -66521,7 +66833,9 @@
       ],
       "sourceBatches": [
         "r2-typed-routes",
-        "r42-dot-native-composition"
+        "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -66566,7 +66880,9 @@
       ],
       "sourceBatches": [
         "r2-typed-routes",
-        "r42-dot-native-composition"
+        "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -66641,7 +66957,9 @@
       ],
       "sourceBatches": [
         "r2-typed-routes",
-        "r42-dot-native-composition"
+        "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -66658,7 +66976,9 @@
       ],
       "sourceBatches": [
         "r2-typed-routes",
-        "r42-dot-native-composition"
+        "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -66675,7 +66995,9 @@
       ],
       "sourceBatches": [
         "r2-typed-routes",
-        "r42-dot-native-composition"
+        "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -66692,7 +67014,9 @@
       ],
       "sourceBatches": [
         "r2-typed-routes",
-        "r42-dot-native-composition"
+        "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -66709,7 +67033,9 @@
       ],
       "sourceBatches": [
         "r2-typed-routes",
-        "r42-dot-native-composition"
+        "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -66726,7 +67052,9 @@
       ],
       "sourceBatches": [
         "r2-typed-routes",
-        "r42-dot-native-composition"
+        "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -66757,7 +67085,9 @@
       ],
       "sourceBatches": [
         "r2-typed-routes",
-        "r42-dot-native-composition"
+        "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -66774,7 +67104,9 @@
       ],
       "sourceBatches": [
         "r2-typed-routes",
-        "r42-dot-native-composition"
+        "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -66791,7 +67123,9 @@
       ],
       "sourceBatches": [
         "r2-typed-routes",
-        "r42-dot-native-composition"
+        "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -66808,7 +67142,9 @@
       ],
       "sourceBatches": [
         "r2-typed-routes",
-        "r42-dot-native-composition"
+        "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -66825,7 +67161,9 @@
       ],
       "sourceBatches": [
         "r2-typed-routes",
-        "r42-dot-native-composition"
+        "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -66842,7 +67180,9 @@
       ],
       "sourceBatches": [
         "r2-typed-routes",
-        "r42-dot-native-composition"
+        "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -66873,7 +67213,9 @@
       ],
       "sourceBatches": [
         "r2-typed-routes",
-        "r42-dot-native-composition"
+        "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -66890,7 +67232,9 @@
       ],
       "sourceBatches": [
         "r2-typed-routes",
-        "r42-dot-native-composition"
+        "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -66907,7 +67251,9 @@
       ],
       "sourceBatches": [
         "r2-typed-routes",
-        "r42-dot-native-composition"
+        "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -66924,7 +67270,9 @@
       ],
       "sourceBatches": [
         "r2-typed-routes",
-        "r42-dot-native-composition"
+        "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -66941,7 +67289,9 @@
       ],
       "sourceBatches": [
         "r2-typed-routes",
-        "r42-dot-native-composition"
+        "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -66958,7 +67308,9 @@
       ],
       "sourceBatches": [
         "r2-typed-routes",
-        "r42-dot-native-composition"
+        "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -66989,7 +67341,9 @@
       ],
       "sourceBatches": [
         "r2-typed-routes",
-        "r42-dot-native-composition"
+        "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -67006,7 +67360,9 @@
       ],
       "sourceBatches": [
         "r2-typed-routes",
-        "r42-dot-native-composition"
+        "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -67023,7 +67379,9 @@
       ],
       "sourceBatches": [
         "r2-typed-routes",
-        "r42-dot-native-composition"
+        "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -67040,7 +67398,9 @@
       ],
       "sourceBatches": [
         "r2-typed-routes",
-        "r42-dot-native-composition"
+        "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -67057,7 +67417,9 @@
       ],
       "sourceBatches": [
         "r2-typed-routes",
-        "r42-dot-native-composition"
+        "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -67074,7 +67436,9 @@
       ],
       "sourceBatches": [
         "r2-typed-routes",
-        "r42-dot-native-composition"
+        "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -67105,7 +67469,9 @@
       ],
       "sourceBatches": [
         "r2-typed-routes",
-        "r42-dot-native-composition"
+        "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -67122,7 +67488,9 @@
       ],
       "sourceBatches": [
         "r2-typed-routes",
-        "r42-dot-native-composition"
+        "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -67139,7 +67507,9 @@
       ],
       "sourceBatches": [
         "r2-typed-routes",
-        "r42-dot-native-composition"
+        "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -67156,7 +67526,9 @@
       ],
       "sourceBatches": [
         "r2-typed-routes",
-        "r42-dot-native-composition"
+        "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -67173,7 +67545,9 @@
       ],
       "sourceBatches": [
         "r2-typed-routes",
-        "r42-dot-native-composition"
+        "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -67190,7 +67564,9 @@
       ],
       "sourceBatches": [
         "r2-typed-routes",
-        "r42-dot-native-composition"
+        "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -67221,7 +67597,9 @@
       ],
       "sourceBatches": [
         "r2-typed-routes",
-        "r42-dot-native-composition"
+        "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -67238,7 +67616,9 @@
       ],
       "sourceBatches": [
         "r2-typed-routes",
-        "r42-dot-native-composition"
+        "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -67255,7 +67635,9 @@
       ],
       "sourceBatches": [
         "r2-typed-routes",
-        "r42-dot-native-composition"
+        "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -67272,7 +67654,9 @@
       ],
       "sourceBatches": [
         "r2-typed-routes",
-        "r42-dot-native-composition"
+        "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -67289,7 +67673,9 @@
       ],
       "sourceBatches": [
         "r2-typed-routes",
-        "r42-dot-native-composition"
+        "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -67306,7 +67692,9 @@
       ],
       "sourceBatches": [
         "r2-typed-routes",
-        "r42-dot-native-composition"
+        "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -67337,7 +67725,9 @@
       ],
       "sourceBatches": [
         "r2-typed-routes",
-        "r42-dot-native-composition"
+        "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -67354,7 +67744,9 @@
       ],
       "sourceBatches": [
         "r2-typed-routes",
-        "r42-dot-native-composition"
+        "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -67371,7 +67763,9 @@
       ],
       "sourceBatches": [
         "r2-typed-routes",
-        "r42-dot-native-composition"
+        "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -67388,7 +67782,9 @@
       ],
       "sourceBatches": [
         "r2-typed-routes",
-        "r42-dot-native-composition"
+        "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -67405,7 +67801,9 @@
       ],
       "sourceBatches": [
         "r2-typed-routes",
-        "r42-dot-native-composition"
+        "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -67422,7 +67820,9 @@
       ],
       "sourceBatches": [
         "r2-typed-routes",
-        "r42-dot-native-composition"
+        "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -67536,6 +67936,8 @@
       "sourceBatches": [
         "r2-typed-routes",
         "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition",
         "stat-and-formula-v2"
       ],
       "selectedDecompilationCompleted": true
@@ -67553,7 +67955,9 @@
       ],
       "sourceBatches": [
         "r2-typed-routes",
-        "r42-dot-native-composition"
+        "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -67570,7 +67974,9 @@
       ],
       "sourceBatches": [
         "r2-typed-routes",
-        "r42-dot-native-composition"
+        "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -67587,7 +67993,9 @@
       ],
       "sourceBatches": [
         "r2-typed-routes",
-        "r42-dot-native-composition"
+        "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -67604,7 +68012,9 @@
       ],
       "sourceBatches": [
         "r2-typed-routes",
-        "r42-dot-native-composition"
+        "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -67621,7 +68031,9 @@
       ],
       "sourceBatches": [
         "r2-typed-routes",
-        "r42-dot-native-composition"
+        "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -67638,7 +68050,9 @@
       ],
       "sourceBatches": [
         "r2-typed-routes",
-        "r42-dot-native-composition"
+        "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -67655,7 +68069,9 @@
       ],
       "sourceBatches": [
         "r2-typed-routes",
-        "r42-dot-native-composition"
+        "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -67673,7 +68089,9 @@
       "sourceBatches": [
         "life-and-stat-binding",
         "r2-typed-routes",
-        "r42-dot-native-composition"
+        "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -67706,6 +68124,8 @@
         "life-and-stat-binding",
         "r2-typed-routes",
         "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition",
         "source-and-authority"
       ],
       "selectedDecompilationCompleted": true
@@ -67723,7 +68143,9 @@
       ],
       "sourceBatches": [
         "r2-typed-routes",
-        "r42-dot-native-composition"
+        "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -67755,7 +68177,9 @@
       "sourceBatches": [
         "network-and-sources",
         "r2-typed-routes",
-        "r42-dot-native-composition"
+        "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -67773,6 +68197,8 @@
       "sourceBatches": [
         "r2-typed-routes",
         "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition",
         "stat-and-formula-v2"
       ],
       "selectedDecompilationCompleted": true
@@ -67791,7 +68217,9 @@
       "sourceBatches": [
         "network-and-sources",
         "r2-typed-routes",
-        "r42-dot-native-composition"
+        "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -67808,7 +68236,9 @@
       ],
       "sourceBatches": [
         "r2-routing-support",
-        "r42-dot-native-composition"
+        "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -67825,7 +68255,9 @@
       ],
       "sourceBatches": [
         "r2-typed-routes",
-        "r42-dot-native-composition"
+        "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -67842,7 +68274,9 @@
       ],
       "sourceBatches": [
         "r2-typed-routes",
-        "r42-dot-native-composition"
+        "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -68356,6 +68790,8 @@
       "sourceBatches": [
         "r2-typed-routes",
         "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition",
         "stat-and-formula-v2"
       ],
       "selectedDecompilationCompleted": true
@@ -68424,7 +68860,9 @@
       ],
       "sourceBatches": [
         "r2-route-guards",
-        "r42-dot-native-composition"
+        "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -68499,7 +68937,9 @@
       ],
       "sourceBatches": [
         "r2-route-guards",
-        "r42-dot-native-composition"
+        "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -68532,7 +68972,9 @@
       ],
       "sourceBatches": [
         "r2-route-guards",
-        "r42-dot-native-composition"
+        "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -70365,7 +70807,9 @@
       ],
       "sourceBatches": [
         "r2-typed-routes",
-        "r42-dot-native-composition"
+        "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -70382,7 +70826,9 @@
       ],
       "sourceBatches": [
         "r2-typed-routes",
-        "r42-dot-native-composition"
+        "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -70399,7 +70845,9 @@
       ],
       "sourceBatches": [
         "r2-typed-routes",
-        "r42-dot-native-composition"
+        "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -70416,7 +70864,9 @@
       ],
       "sourceBatches": [
         "r2-typed-routes",
-        "r42-dot-native-composition"
+        "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -70631,6 +71081,8 @@
         "r2-route-guards",
         "r2-typed-routes",
         "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition",
         "stat-and-formula-v2"
       ],
       "selectedDecompilationCompleted": true
@@ -71577,7 +72029,9 @@
       ],
       "sourceBatches": [
         "r19-stat-order",
-        "r42-dot-native-composition"
+        "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -71596,7 +72050,9 @@
         "r12-applydamage-index-final",
         "r19-stat-order",
         "r4-native-mask-initializer",
-        "r42-dot-native-composition"
+        "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": true
     },
@@ -72115,7 +72571,8 @@
         "r30-initial-stats-rate",
         "r32-buff-rate-independence",
         "r33-result-resource-composition",
-        "r34-buff-clock-authority"
+        "r34-buff-clock-authority",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -72171,7 +72628,8 @@
         "r30-initial-stats-rate",
         "r32-buff-rate-independence",
         "r33-result-resource-composition",
-        "r34-buff-clock-authority"
+        "r34-buff-clock-authority",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -72194,7 +72652,8 @@
         "r30-initial-stats-rate",
         "r32-buff-rate-independence",
         "r33-result-resource-composition",
-        "r34-buff-clock-authority"
+        "r34-buff-clock-authority",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -72217,7 +72676,8 @@
         "r30-initial-stats-rate",
         "r32-buff-rate-independence",
         "r33-result-resource-composition",
-        "r34-buff-clock-authority"
+        "r34-buff-clock-authority",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -72240,7 +72700,8 @@
         "r30-initial-stats-rate",
         "r32-buff-rate-independence",
         "r33-result-resource-composition",
-        "r34-buff-clock-authority"
+        "r34-buff-clock-authority",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -72277,7 +72738,8 @@
         "r30-initial-stats-rate",
         "r32-buff-rate-independence",
         "r33-result-resource-composition",
-        "r34-buff-clock-authority"
+        "r34-buff-clock-authority",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -72300,7 +72762,8 @@
         "r30-initial-stats-rate",
         "r32-buff-rate-independence",
         "r33-result-resource-composition",
-        "r34-buff-clock-authority"
+        "r34-buff-clock-authority",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -72324,7 +72787,9 @@
         "r32-buff-rate-independence",
         "r33-result-resource-composition",
         "r34-buff-clock-authority",
-        "r42-dot-native-composition"
+        "r42-dot-native-composition",
+        "r43-dot-original-old-value",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -72360,7 +72825,8 @@
         "r30-initial-stats-rate",
         "r32-buff-rate-independence",
         "r33-result-resource-composition",
-        "r34-buff-clock-authority"
+        "r34-buff-clock-authority",
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -73184,6 +73650,22 @@
       ],
       "sourceBatches": [
         "r37-skill-duration"
+      ],
+      "selectedDecompilationCompleted": false
+    },
+    "0x1424fb5a0": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x1424fb5a0",
+          "endExclusive": "0x1424fb5b3",
+          "bytes": 19,
+          "fileOffset": 38775200,
+          "sha256": "a6e6af9c26439c9c714b4a473f73288b6d8e8a213b4a02c8cc0f6de2659ac2c7"
+        }
+      ],
+      "sourceBatches": [
+        "r45-native-pool-composition"
       ],
       "selectedDecompilationCompleted": false
     }
@@ -74528,6 +75010,16 @@
       "name": "r42-dot-native-composition",
       "auditSha256": "360555c06c951e1f45e5354174a8349477ed855c3b0b477d2c9f30efd9c36a49",
       "functionCount": 218
+    },
+    {
+      "name": "r43-dot-original-old-value",
+      "auditSha256": "1e705d4f407d581c254f9b62aadcb6de2f64636f4eb5b4f3b3337bbb8210e5f9",
+      "functionCount": 219
+    },
+    {
+      "name": "r45-native-pool-composition",
+      "auditSha256": "810e0c23c47bf782e3fe8866f60f36d8b2877df2fd00aec7361ac54af6c91f2e",
+      "functionCount": 248
     }
   ],
   "pointerSlots": [
@@ -76874,6 +77366,14 @@
       "fileOffset": 49922432,
       "sha256": "d3814e4c63560704ee112d964a66844e757e3293b3f3a38a2a14c50e74a2942a",
       "source": "R34 original network getter and retained-Buff holder housekeeping observer cleanup"
+    },
+    {
+      "table": "0x14363d3b0",
+      "offset": "0x8",
+      "target": "0x1424fb5a0",
+      "fileOffset": 56870840,
+      "sha256": "87bd43a8013f6dd304a68d3698dde6960030041a7a038e76dbd2387bf665cdae",
+      "sourceBatch": "r45-native-pool-composition"
     }
   ],
   "scanCoverage": {
@@ -76926,7 +77426,7 @@
     "checkedReferenceInstructions": 13431,
     "decompilationFailures": [],
     "scope": "Original ranges/offsets, unwind ownership or explicit boundaries, stat identity, reference instructions and pointer-slot contents revalidated offline.",
-    "additionalFreshValidation": "R42 rechecked all retained ranges, unwind ownership, offsets, pointer slots and prior sealed supports; 105 selected original DoT registrars and actual rank/dirty/queue/callback composition pass eight supplied-state cases. Source publication, ordinary actor eligibility, shared-cap reachability, numerical Hit-to-pool and generic clock refresh remain open."
+    "additionalFreshValidation": "R43/R45 rechecked all retained ranges, ownership, offsets, pointer slots and prior sealed supports; actual native previous-value/boolean getters preserve eight witnesses and compose into 24 Life/ES numerical loss steps. Actual source publication, ordinary provider selection/eligibility, shared-cap reachability, numerical Hit-to-pool and generic clock refresh remain open."
   },
   "supportingRecords": [
     {
@@ -82691,6 +83191,78 @@
       "bytes": 1248,
       "sha256": "08456adba6ec7350801d3658b67a6f13d432a133219329aad29289f2008bb930",
       "role": "R42 native DoT rank/dirty/queue/callback composition, fresh original registrar/byte checks and instruction controls; explicit eligible/cache-ready inputs, not source-instance publication or official global-cap proof"
+    },
+    {
+      "path": "Agents/docs/re/client-native-dot-pool-composition.md",
+      "bytes": 8329,
+      "sha256": "5a681650f4b5718f91c917c2c1b205c80cf083bfdbbeb12ce6dacf5b6a4c1a03",
+      "role": "R43 original native previous-value getter and R45 native records/getter-to-Life/ES numerical loss composition; explicit eligibility/provider/resource fixtures, not source-instance publication or ordinary actor authority"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r43-dot-original-old-value.py",
+      "bytes": 2646,
+      "sha256": "50580537b618b47cf2090653fffc23bbd8e11b145265d3f5d95ebac1e714088f",
+      "role": "R43 original native previous-value getter and R45 native records/getter-to-Life/ES numerical loss composition; explicit eligibility/provider/resource fixtures, not source-instance publication or ordinary actor authority"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r43-original-old-value-fresh.py",
+      "bytes": 2951,
+      "sha256": "98f6ac556e83bf79395ba43374f3007c1b4b05d7b8c1d3c079645e795113d3c5",
+      "role": "R43 original native previous-value getter and R45 native records/getter-to-Life/ES numerical loss composition; explicit eligibility/provider/resource fixtures, not source-instance publication or ordinary actor authority"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r45-native-pool-composition.py",
+      "bytes": 4473,
+      "sha256": "24f2b5658ebc2a431f04e47de619e868ee8084c954a6ddd52d3e06301eb01bbf",
+      "role": "R43 original native previous-value getter and R45 native records/getter-to-Life/ES numerical loss composition; explicit eligibility/provider/resource fixtures, not source-instance publication or ordinary actor authority"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r45-native-pool-fresh.py",
+      "bytes": 2836,
+      "sha256": "d1458bf7d7d1249bf3901ce8a2d72e5363adf7b279982cc7127a89489687a241",
+      "role": "R43 original native previous-value getter and R45 native records/getter-to-Life/ES numerical loss composition; explicit eligibility/provider/resource fixtures, not source-instance publication or ordinary actor authority"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r45-seal.py",
+      "bytes": 4635,
+      "sha256": "4270d431f4415e3668bfa33814db4b6f6ebcc5b8c264aadfb224aa3054e04ff2",
+      "role": "R43 original native previous-value getter and R45 native records/getter-to-Life/ES numerical loss composition; explicit eligibility/provider/resource fixtures, not source-instance publication or ordinary actor authority"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r43-dot-original-old-value/audit.json",
+      "bytes": 3571919,
+      "sha256": "1e705d4f407d581c254f9b62aadcb6de2f64636f4eb5b4f3b3337bbb8210e5f9",
+      "role": "R43 original native previous-value getter and R45 native records/getter-to-Life/ES numerical loss composition; explicit eligibility/provider/resource fixtures, not source-instance publication or ordinary actor authority"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r43-dot-original-old-value/verification.json",
+      "bytes": 149083,
+      "sha256": "2faf1650bafcc74cfd906fa559896946d26a66d564b7fdf7e53c9fb73f1af05a",
+      "role": "R43 original native previous-value getter and R45 native records/getter-to-Life/ES numerical loss composition; explicit eligibility/provider/resource fixtures, not source-instance publication or ordinary actor authority"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r43-dot-original-old-value/fresh-check.json",
+      "bytes": 745,
+      "sha256": "9e7e3d64b6e0439439a37f4097a491d17f21f42b9c2946f496809538e9bca9a4",
+      "role": "R43 original native previous-value getter and R45 native records/getter-to-Life/ES numerical loss composition; explicit eligibility/provider/resource fixtures, not source-instance publication or ordinary actor authority"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r45-native-pool-composition/audit.json",
+      "bytes": 3874901,
+      "sha256": "810e0c23c47bf782e3fe8866f60f36d8b2877df2fd00aec7361ac54af6c91f2e",
+      "role": "R43 original native previous-value getter and R45 native records/getter-to-Life/ES numerical loss composition; explicit eligibility/provider/resource fixtures, not source-instance publication or ordinary actor authority"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r45-native-pool-composition/verification.json",
+      "bytes": 215637,
+      "sha256": "17098c082fdbde5cc2d4e1dd83be9ea6675a7bcb37eba27e37c2cf34ee4b141e",
+      "role": "R43 original native previous-value getter and R45 native records/getter-to-Life/ES numerical loss composition; explicit eligibility/provider/resource fixtures, not source-instance publication or ordinary actor authority"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r45-native-pool-composition/fresh-check.json",
+      "bytes": 696,
+      "sha256": "1dcf0d86d983a9ee3006919e4fe9803475c086d9daab106a269fae2c89dcca46",
+      "role": "R43 original native previous-value getter and R45 native records/getter-to-Life/ES numerical loss composition; explicit eligibility/provider/resource fixtures, not source-instance publication or ordinary actor authority"
     }
   ],
   "auxiliaryDataTables": [
@@ -83219,6 +83791,42 @@
       "Previous-output getter reads supplied native cache; existing materialized records, reserved vector capacity and host memory/allocation/sort support.",
       "Function-index updater is observational; transaction queue is explicitly reset between drains; original final observer/child/cleanup exit not executed.",
       "Not an actual Entity/skill/Buff instance or network provider; no source infliction, selection, publication, cap reachability or official scheduling assertion."
+    ]
+  },
+  "dotOriginalValueCompositionVerification": {
+    "result": "PASS",
+    "runtimeExecuted": false,
+    "functions": 219,
+    "ranges": 283,
+    "decodedInstructions": 26367,
+    "compositionCases": 8,
+    "interpretedInstructions": 586210,
+    "visitedSites": 6184,
+    "unchangedR42Witnesses": true,
+    "nativeRecordCacheComparisons": 1995,
+    "instructionSemanticControls": 24,
+    "limits": [
+      "Native record existence/presence, selected eligible registry, ready input cache and remaining R42 fixtures are supplied.",
+      "Original getter and dispatcher now replace the previous-value hook; unchanged-output propagation is tested with real native record reads.",
+      "No native Entity/skill/Buff infliction, publisher, ordinary eligibility or actual pool deduction is established."
+    ]
+  },
+  "nativeDotPoolCompositionVerification": {
+    "result": "PASS",
+    "runtimeExecuted": false,
+    "functions": 248,
+    "ranges": 328,
+    "decodedInstructions": 28534,
+    "compositionCases": 6,
+    "poolSteps": 24,
+    "interpretedInstructions": 496629,
+    "visitedSites": 6663,
+    "pointerSlots": 2,
+    "nativeGetterReads": 303,
+    "limits": [
+      "Native provider binding, materialized records, native eligibility and external inputs are supplied.",
+      "Original native getter/boolean vtable slots execute; no scalar resource-rate provider or copied rate adapter.",
+      "Resource object/reservation/checkpoint/empty lifecycle and notification fixtures remain; no source instance or ordinary provider selection is established."
     ]
   }
 }
