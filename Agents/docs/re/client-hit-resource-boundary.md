@@ -69,6 +69,12 @@ reason codes and integer ABI remain separate from floating damage and ordinary
 accepted-Hit prediction. The earlier `+0x48` receiver search was not an inventory
 of every numerical resource-write mechanism.
 
+The additional [terminal Mana-refund audit](client-terminal-mana-refunds.md)
+binds two conditional numerical slices to the actual Mana integer method and
+setter. One is installed in concrete FireMortar tables; the other's actual
+incoming caller is still unbound. Neither supplies target Hit loss. The bounded
+Life-accessor caller search is navigation, not a whole-program receiver census.
+
 A raw eight-byte-pointer search finds each concrete reducer exactly once, at
 its table's `+0x48`: `0x1435a5de8`, `0x1435a5bb0`, `0x1435a6260`.
 The boundary-checked RIP-LEA search for the four tables finds the four constructor

@@ -188,6 +188,8 @@ The suspend/restore lifecycle is explicit LocalExile policy; see protocol/11-ski
   Connect accepted contacts to numerical damage/critical/mitigation and pool receivers; these edges remain open.
   Reuse integer pool cost/sacrifice paths separately; trace payment-gate provenance before claiming client prepayment.
   Their concrete numerical writes do not close accepted-Hit damage or DoT source publication.
+  Reuse [terminal Mana-refund arithmetic](../docs/re/client-terminal-mana-refunds.md), preserving FireMortar scope,
+  the separate reason-body ingress limit, fresh cost-stat reads and unsigned product widening.
   Follow other event configurations beyond GEAL/native listeners; selected player/Sand Spitter files have no handler.
   Extend the selected 22-source semantic catalogue through positive data/native links to numerical publication.
   Preserve its exact inheritance, repeated fields, mode and component distinctions; six scripts are catalogued.

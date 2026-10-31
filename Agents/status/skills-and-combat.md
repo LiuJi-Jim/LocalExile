@@ -688,6 +688,9 @@ and can require explicit recipes.
   Integer pool deltas separately bind skill-cost routing/payment and extra-arrow Life sacrifice.
   The arrow benefit precedes its skip-sacrifice check; two cost callers can bypass payment through a context gate.
   See [conditional resource mutations](../docs/re/client-integer-resource-mutations.md); ordinary hit loss stays open.
+  Conditional terminal Mana refunds now reach a positively typed pool/setter; FireMortar's table-bound callback
+  differs from a separate reason-qualified body with unbound ingress. Percent caps, wrapping and cost layouts
+  are explicit in [the refund audit](../docs/re/client-terminal-mana-refunds.md), without a target-damage claim.
   Actual network Actor/skill providers, current fallback and same-key notification masking are bound statically.
   Opcode `0x1b4` updates selected skill/stat-set key-value overrides; its pairs are not projectile path points.
   Native formula transactions are separate; successful startup disables native action-context mutation.

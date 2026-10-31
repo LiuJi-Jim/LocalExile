@@ -45537,6 +45537,7 @@
       ],
       "sourceBatches": [
         "historical-static-callback-binding",
+        "r22-integer-ingress-navigation",
         "r9-hit-result-qualification"
       ],
       "selectedDecompilationCompleted": null
@@ -48964,6 +48965,7 @@
         }
       ],
       "sourceBatches": [
+        "r22-integer-ingress-navigation",
         "r3-contact-producers-verified"
       ],
       "selectedDecompilationCompleted": null
@@ -49054,6 +49056,8 @@
         }
       ],
       "sourceBatches": [
+        "r22-integer-ingress-navigation",
+        "r22-mana-refunds",
         "r3-contact-hit-request"
       ],
       "selectedDecompilationCompleted": null
@@ -52640,6 +52644,7 @@
       ],
       "sourceBatches": [
         "r21-integer-pools",
+        "r22-mana-refunds",
         "r4-client-selfkill-invoke"
       ],
       "selectedDecompilationCompleted": null
@@ -71376,7 +71381,8 @@
         }
       ],
       "sourceBatches": [
-        "r21-integer-pools"
+        "r21-integer-pools",
+        "r22-mana-refunds"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -71409,6 +71415,151 @@
       ],
       "sourceBatches": [
         "r21-integer-pools"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x141b80a30": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x141b80a30",
+          "endExclusive": "0x141b80f84",
+          "bytes": 1364,
+          "fileOffset": 28835376,
+          "sha256": "77b29929e0e09ed441617c2ee3e64965b9e4d0cf664c495cfc040e779e813692"
+        }
+      ],
+      "sourceBatches": [
+        "r22-integer-ingress-navigation",
+        "r22-mana-refunds"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x141ee7320": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x141ee7320",
+          "endExclusive": "0x141ee73ce",
+          "bytes": 174,
+          "fileOffset": 32401184,
+          "sha256": "6576490a8dc7562358203adc228e76ac77cb23ea59a9faf9d0d07b136d935d01"
+        }
+      ],
+      "sourceBatches": [
+        "r22-mana-refunds"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x14193aa00": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x14193aa00",
+          "endExclusive": "0x14193aa2c",
+          "bytes": 44,
+          "fileOffset": 26451456,
+          "sha256": "c322637b9e7676a0c3c920b47218f6dc68b5c990c33b1e2792521b0c01183fe8"
+        }
+      ],
+      "sourceBatches": [
+        "r22-mana-refunds"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x141b800c0": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x141b800c0",
+          "endExclusive": "0x141b80143",
+          "bytes": 131,
+          "fileOffset": 28832960,
+          "sha256": "6176fe69d7e21d7bfb016fc2c213b29d3378ce9bbb1ad5e4be0a20b8c4fbfe00"
+        }
+      ],
+      "sourceBatches": [
+        "r22-mana-refunds"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x14129f6f0": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x14129f6f0",
+          "endExclusive": "0x14129f834",
+          "bytes": 324,
+          "fileOffset": 19524336,
+          "sha256": "308c16314cdca87117b7a91e5efcc0650e66cae1754532a790dafa0f612d1992"
+        }
+      ],
+      "sourceBatches": [
+        "r22-mana-refunds"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x140692c30": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x140692c30",
+          "endExclusive": "0x14069372b",
+          "bytes": 2811,
+          "fileOffset": 6889520,
+          "sha256": "fd3b0668593c5ba8839d967255f4fd2217a3b72cbe69d9d811bc826bc3dcd715"
+        }
+      ],
+      "sourceBatches": [
+        "r22-integer-ingress-navigation"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x141318390": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x141318390",
+          "endExclusive": "0x141318767",
+          "bytes": 983,
+          "fileOffset": 20019088,
+          "sha256": "a3fad8cbb5124f12506639ec0ca2be163a2c9723a9805f8cb432bc207cc53025"
+        }
+      ],
+      "sourceBatches": [
+        "r22-integer-ingress-navigation"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x141afe5a0": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x141afe5a0",
+          "endExclusive": "0x141afe7ad",
+          "bytes": 525,
+          "fileOffset": 28301728,
+          "sha256": "8aa5530dea082890b1583e9f1ff182cc49b0622c81fc5c31b68fdbc1ea478aae"
+        }
+      ],
+      "sourceBatches": [
+        "r22-integer-ingress-navigation"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x141c128a0": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x141c128a0",
+          "endExclusive": "0x141c12ad1",
+          "bytes": 561,
+          "fileOffset": 29432992,
+          "sha256": "b3226d82cbc525c30fa156e2031797cd0a10608f4b2d13625490909cbc063f82"
+        }
+      ],
+      "sourceBatches": [
+        "r22-integer-ingress-navigation"
       ],
       "selectedDecompilationCompleted": null
     }
@@ -72663,6 +72814,16 @@
       "name": "r21-integer-pools",
       "auditSha256": "7926095283ad2f77bdcea123aa9a909dc168964bffd5d09ca8934c20f8f5de52",
       "functionCount": 12
+    },
+    {
+      "name": "r22-mana-refunds",
+      "auditSha256": "63ebac03186d50c1bcdf2f1aae255a52032389afaf9ff64a0c5805ea7803067f",
+      "functionCount": 8
+    },
+    {
+      "name": "r22-integer-ingress-navigation",
+      "auditSha256": "31dcaf7491ecefb95d1d223a6574897b7eb8fe3ec0f24dcf065d62e414ac9d3e",
+      "functionCount": 8
     }
   ],
   "pointerSlots": [
@@ -74737,6 +74898,78 @@
       "fileOffset": 56256504,
       "sha256": "acedef358174578d84d9004ba153795321469a4432ebccf9755615ebb1ace7cf",
       "source": "r21-integer-pools concrete integer delta and floor slots"
+    },
+    {
+      "table": "0x1432a7c08",
+      "offset": "0x528",
+      "target": "0x141b80a30",
+      "sha256": "357af731093d09874990d418743544ad605b1e92c1e71d2ccad80ea4a12b91c6",
+      "fileOffset": 53114160,
+      "source": "r22-mana-refunds concrete FireMortar callback, empty ordinary callbacks and numerical Mana interface"
+    },
+    {
+      "table": "0x1432a83a0",
+      "offset": "0x528",
+      "target": "0x141b80a30",
+      "sha256": "357af731093d09874990d418743544ad605b1e92c1e71d2ccad80ea4a12b91c6",
+      "fileOffset": 53116104,
+      "source": "r22-mana-refunds concrete FireMortar callback, empty ordinary callbacks and numerical Mana interface"
+    },
+    {
+      "table": "0x1432a7c08",
+      "offset": "0x358",
+      "target": "0x14193aa00",
+      "sha256": "50722b39745cfc5506602f21cff3f3eb93c4b89ed4bade8fc4061b100d01b6fa",
+      "fileOffset": 53113696,
+      "source": "r22-mana-refunds concrete FireMortar callback, empty ordinary callbacks and numerical Mana interface"
+    },
+    {
+      "table": "0x1432a83a0",
+      "offset": "0x358",
+      "target": "0x14193aa00",
+      "sha256": "50722b39745cfc5506602f21cff3f3eb93c4b89ed4bade8fc4061b100d01b6fa",
+      "fileOffset": 53115640,
+      "source": "r22-mana-refunds concrete FireMortar callback, empty ordinary callbacks and numerical Mana interface"
+    },
+    {
+      "table": "0x14326d930",
+      "offset": "0x528",
+      "target": "0x1400f0f00",
+      "sha256": "d9ef84a3fe6554ba5faec6f478a120be36e4d00d060b896c9a9387cfb67472f0",
+      "fileOffset": 52875864,
+      "source": "r22-mana-refunds concrete FireMortar callback, empty ordinary callbacks and numerical Mana interface"
+    },
+    {
+      "table": "0x14326b9c0",
+      "offset": "0x528",
+      "target": "0x1400f0f00",
+      "sha256": "d9ef84a3fe6554ba5faec6f478a120be36e4d00d060b896c9a9387cfb67472f0",
+      "fileOffset": 52867816,
+      "source": "r22-mana-refunds concrete FireMortar callback, empty ordinary callbacks and numerical Mana interface"
+    },
+    {
+      "table": "0x143423898",
+      "offset": "0x528",
+      "target": "0x1400f0f00",
+      "sha256": "d9ef84a3fe6554ba5faec6f478a120be36e4d00d060b896c9a9387cfb67472f0",
+      "fileOffset": 54669760,
+      "source": "r22-mana-refunds concrete FireMortar callback, empty ordinary callbacks and numerical Mana interface"
+    },
+    {
+      "table": "0x1432ec7e8",
+      "offset": "0x528",
+      "target": "0x1400f0f00",
+      "sha256": "d9ef84a3fe6554ba5faec6f478a120be36e4d00d060b896c9a9387cfb67472f0",
+      "fileOffset": 53395728,
+      "source": "r22-mana-refunds concrete FireMortar callback, empty ordinary callbacks and numerical Mana interface"
+    },
+    {
+      "table": "0x14333ac40",
+      "offset": "0x528",
+      "target": "0x1400f0f00",
+      "sha256": "d9ef84a3fe6554ba5faec6f478a120be36e4d00d060b896c9a9387cfb67472f0",
+      "fileOffset": 53716328,
+      "source": "r22-mana-refunds concrete FireMortar callback, empty ordinary callbacks and numerical Mana interface"
     }
   ],
   "scanCoverage": {
@@ -74779,7 +75012,7 @@
     "checkedReferenceInstructions": 13431,
     "decompilationFailures": [],
     "scope": "Original ranges/offsets, unwind ownership or explicit boundaries, stat identity, reference instructions and pointer-slot contents revalidated offline.",
-    "additionalFreshValidation": "R21 rechecked all retained original ranges/offsets/unwind owners and pointer slots; conditional integer costs and Life sacrifice are distinct from accepted-Hit loss. Earlier reference-instruction and decompilation checks retained, not rerun."
+    "additionalFreshValidation": "R22 rechecked all retained original ranges/unwind owners/offsets and pointer slots; bound conditional terminal Mana refunds separately from target Hit/DoT loss. Earlier decompilation/reference checks retained, not rerun."
   },
   "supportingRecords": [
     {
@@ -79560,6 +79793,72 @@
       "bytes": 33416,
       "sha256": "1ea80bd8c55ac8a68a575eb18bc5869a4e63d791d019b60944be3b4ebeedc544",
       "role": "R21 original-byte conditional integer cost and Life-sacrifice paths, same-agent instruction/scalar controls; offset navigation is not semantic coverage"
+    },
+    {
+      "path": "Agents/docs/re/client-terminal-mana-refunds.md",
+      "bytes": 9597,
+      "sha256": "31eae606354d20088db226af38b2e2443a800b7bc2b21958456b7e3d9baf00c3",
+      "role": "R22 bounded Life-accessor navigation and conditional terminal Mana numerical slices; geometry/reason ingress are supplied, not actual invocation evidence"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r22-integer-ingress.py",
+      "bytes": 3814,
+      "sha256": "1b3f1988de58363a365657792c9b82286222c99f359a1464675ba656b3691f7e",
+      "role": "R22 bounded Life-accessor navigation and conditional terminal Mana numerical slices; geometry/reason ingress are supplied, not actual invocation evidence"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r22-mana-refunds.py",
+      "bytes": 6826,
+      "sha256": "097e738287cfaf0c9ff48ece89a35c358bba708206bc04096bf648bfda766b21",
+      "role": "R22 bounded Life-accessor navigation and conditional terminal Mana numerical slices; geometry/reason ingress are supplied, not actual invocation evidence"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r22-refund-fresh.py",
+      "bytes": 3439,
+      "sha256": "9fb1fcc20a75dc7c99bdf4c67741c74d1a2b537eaa7b5dd652485303a3e02192",
+      "role": "R22 bounded Life-accessor navigation and conditional terminal Mana numerical slices; geometry/reason ingress are supplied, not actual invocation evidence"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r22-seal.py",
+      "bytes": 5546,
+      "sha256": "dc1e1eb666b2d0e4cd55320802dacb38f39794506b483e4bd3446eef148760da",
+      "role": "R22 bounded Life-accessor navigation and conditional terminal Mana numerical slices; geometry/reason ingress are supplied, not actual invocation evidence"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/coordination-r37-reuse.py",
+      "bytes": 1795,
+      "sha256": "2f69a9ad7270bf31551b84132ae452373908897b1090f085c28bbfdbeee302bc",
+      "role": "R22 bounded Life-accessor navigation and conditional terminal Mana numerical slices; geometry/reason ingress are supplied, not actual invocation evidence"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/coordination-r37-reuse.json",
+      "bytes": 665,
+      "sha256": "e14193796d9a9b6fc170c2fc213d1aec4c9873563ebeaecacf220a208899405e",
+      "role": "R22 bounded Life-accessor navigation and conditional terminal Mana numerical slices; geometry/reason ingress are supplied, not actual invocation evidence"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r22-mana-refunds/audit.json",
+      "bytes": 153763,
+      "sha256": "63ebac03186d50c1bcdf2f1aae255a52032389afaf9ff64a0c5805ea7803067f",
+      "role": "R22 bounded Life-accessor navigation and conditional terminal Mana numerical slices; geometry/reason ingress are supplied, not actual invocation evidence"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r22-mana-refunds/verification.json",
+      "bytes": 7121,
+      "sha256": "56c5d83eae5007feccef5743c51643388acf6927f5a9dd3bfd77251dbe777ec9",
+      "role": "R22 bounded Life-accessor navigation and conditional terminal Mana numerical slices; geometry/reason ingress are supplied, not actual invocation evidence"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r22-mana-refunds/fresh-check.json",
+      "bytes": 5775,
+      "sha256": "efdda16754ce29d751e83b9c5eab27c449d204a8b6b51385f7ae2a7dc99a6188",
+      "role": "R22 bounded Life-accessor navigation and conditional terminal Mana numerical slices; geometry/reason ingress are supplied, not actual invocation evidence"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r22-integer-ingress/audit.json",
+      "bytes": 792652,
+      "sha256": "31dcaf7491ecefb95d1d223a6574897b7eb8fe3ec0f24dcf065d62e414ac9d3e",
+      "role": "R22 bounded Life-accessor navigation and conditional terminal Mana numerical slices; geometry/reason ingress are supplied, not actual invocation evidence"
     }
   ],
   "auxiliaryDataTables": [
@@ -79711,6 +80010,16 @@
       "snapshotFiles": 56,
       "exactGitSources": 43,
       "boundary": "Pinned peer R36 repeat backend state/0x1c1 receiver; snapshot hashes/Git/parents checked, numerical audit not rerun"
+    },
+    {
+      "repository": "LocalExile/LocalExile",
+      "commit": "8344af2114b7605e4d0460805f436f94c0369546",
+      "path": "Agents/docs/re/projectiles/chain-candidate-admission.md",
+      "url": "https://github.com/LocalExile/LocalExile/blob/8344af2114b7605e4d0460805f436f94c0369546/Agents/docs/re/projectiles/chain-candidate-admission.md",
+      "snapshotManifestSha256": "8af06ee9413d4d827f759a4627158622523112f40563477f6989a44153a40a30",
+      "snapshotFiles": 63,
+      "exactGitSources": 44,
+      "boundary": "Pinned peer R37 ordered Chain admission/TLS discovery; snapshot hashes/Git/parents checked, numerical audit not rerun"
     }
   ],
   "reductionInputVerification": {
@@ -79780,5 +80089,23 @@
     "steps": 270494,
     "visitedInstructions": 614,
     "limits": "Resolved providers, prepared RNG sample, reservation totals, threshold listeners and resource notifications are fixtures; no ordinary-client gate provenance or numerical Hit-to-pool closure"
+  },
+  "terminalManaRefundVerification": {
+    "runtimeExecuted": false,
+    "functions": 8,
+    "ranges": 10,
+    "decodedInstructions": 1105,
+    "cases": 1240,
+    "steps": 177192,
+    "visitedInstructions": 306,
+    "actionTypesSha256": "eef7b004b13a3f32e487d5c102c41362b62131f83249f45194ece05b8518d9d6",
+    "actionType": {
+      "row": 373,
+      "Id": "FireMortar",
+      "HASH16": 60164,
+      "__col2": true,
+      "__col3": false
+    },
+    "limits": "Selected conditional numerical slices; no preceding geometry execution, second-body actual caller, ordinary network invocation, target Hit loss or DoT publication claim"
   }
 }

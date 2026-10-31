@@ -138,6 +138,8 @@ These are client addresses; their presence is not proof of official-server imple
 | `0x1425733e0` / `0x1425926c0` | Fn | First/last of twenty [ordered both-hand typed attack ranges](../re/client-attack-hit-formulas.md); separate base/added factors, conversion remainders and Lightning Purist min/max differences |
 | `0x142543a80` / `0x142544860` | Fn | First/last of four attack hand totals: wrapping signed32 typed sums, no saturation/clamp |
 | `0x1419e3530` | Fn | [Extra-arrow Life sacrifice](../re/client-integer-resource-mutations.md): wrapping percentage, floor-one capacity, arrow benefit before skip check and reason-7 integer payment |
+| `0x141b80a30` | Fn | [Conditional FireMortar terminal Mana refund](../re/client-terminal-mana-refunds.md): concrete `+528` tables, unused-chain percent/cost inputs and actual Mana integer receiver; preceding geometry is separate |
+| `0x141ee7320` | Fn | [Cost-stat result layout](../re/client-terminal-mana-refunds.md): first dword is `mana_cost`; distinct from the adjusted payment record's leading kind |
 | `0x141e6c7d0` / `0x141e6c950` / `0x141e6ca30` | Fn | Cost preparation, affordability and conditional payment; ES-before-Mana, insufficient-resource clamps and distinct reason-6 pool writes |
 | `0x141e699d0` / `0x141e6b6e0` / `0x141e6c0a0` | Fn | Life/Mana/ES integer-delta slot `+0x28`; distinct from floating loss slot `+0x48` |
 | `0x142544d00` / `0x142551dc0` | Fn | First/last of ten [final typed spell ranges](../re/client-spell-hit-formulas.md); complete conversion paths and branch equations |
