@@ -52440,6 +52440,7 @@
       "sourceBatches": [
         "network-and-sources",
         "r16-buff-granted-final",
+        "r23-pool-maximum-refresh",
         "r4-buff-guard-revive"
       ],
       "selectedDecompilationCompleted": true
@@ -52476,6 +52477,7 @@
       "sourceBatches": [
         "life-and-stat-binding",
         "r16-buff-granted-final",
+        "r23-pool-maximum-refresh",
         "r3-loss-receiver-boundary",
         "r4-buff-clock-producers-discovery",
         "r4-buff-clock-producers-life-guard",
@@ -52496,6 +52498,7 @@
       ],
       "sourceBatches": [
         "r17-dot-consumers-final",
+        "r23-pool-maximum-refresh",
         "r4-buff-clock-producers-transition-search"
       ],
       "selectedDecompilationCompleted": null
@@ -52512,6 +52515,7 @@
         }
       ],
       "sourceBatches": [
+        "r23-pool-maximum-refresh",
         "r4-pool-assignment-effects"
       ],
       "selectedDecompilationCompleted": true
@@ -52645,6 +52649,7 @@
       "sourceBatches": [
         "r21-integer-pools",
         "r22-mana-refunds",
+        "r23-pool-maximum-refresh",
         "r4-client-selfkill-invoke"
       ],
       "selectedDecompilationCompleted": null
@@ -71365,7 +71370,8 @@
         }
       ],
       "sourceBatches": [
-        "r21-integer-pools"
+        "r21-integer-pools",
+        "r23-pool-maximum-refresh"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -71382,7 +71388,8 @@
       ],
       "sourceBatches": [
         "r21-integer-pools",
-        "r22-mana-refunds"
+        "r22-mana-refunds",
+        "r23-pool-maximum-refresh"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -71398,7 +71405,8 @@
         }
       ],
       "sourceBatches": [
-        "r21-integer-pools"
+        "r21-integer-pools",
+        "r23-pool-maximum-refresh"
       ],
       "selectedDecompilationCompleted": null
     },
@@ -71560,6 +71568,70 @@
       ],
       "sourceBatches": [
         "r22-integer-ingress-navigation"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x141e6c350": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x141e6c350",
+          "endExclusive": "0x141e6c4dd",
+          "bytes": 397,
+          "fileOffset": 31897424,
+          "sha256": "af311a11960f1925aa983005e96b88a9b708ed96f79bd376e39a886facf11727"
+        }
+      ],
+      "sourceBatches": [
+        "r23-pool-maximum-refresh"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x141e6b0a0": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x141e6b0a0",
+          "endExclusive": "0x141e6b27a",
+          "bytes": 474,
+          "fileOffset": 31892640,
+          "sha256": "5082eacb891890ae44c0e0eb877b7b36a768748657910c91696d1e4aded04554"
+        }
+      ],
+      "sourceBatches": [
+        "r23-pool-maximum-refresh"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x141e697e0": {
+      "boundary": "PE-unwind-root-and-chains",
+      "ranges": [
+        {
+          "start": "0x141e697e0",
+          "endExclusive": "0x141e69894",
+          "bytes": 180,
+          "fileOffset": 31886304,
+          "sha256": "dade8cecdcb0faec70843df29c4b0253103a15ced6044279373e95630fbd5e79"
+        }
+      ],
+      "sourceBatches": [
+        "r23-pool-maximum-refresh"
+      ],
+      "selectedDecompilationCompleted": null
+    },
+    "0x14164dc70": {
+      "boundary": "explicit-analyst-leaf-range",
+      "ranges": [
+        {
+          "start": "0x14164dc70",
+          "endExclusive": "0x14164dc7f",
+          "bytes": 15,
+          "fileOffset": 23384176,
+          "sha256": "0dae3c6074e51f80a38ce64aac153c911bd13ef478875aa334e4a8e60cb88885"
+        }
+      ],
+      "sourceBatches": [
+        "r23-pool-maximum-refresh"
       ],
       "selectedDecompilationCompleted": null
     }
@@ -72824,6 +72896,11 @@
       "name": "r22-integer-ingress-navigation",
       "auditSha256": "31dcaf7491ecefb95d1d223a6574897b7eb8fe3ec0f24dcf065d62e414ac9d3e",
       "functionCount": 8
+    },
+    {
+      "name": "r23-pool-maximum-refresh",
+      "auditSha256": "cf1caf7c312345ab647962f0bfb15d753fdf303da4a0799cad01e6ee4b1d1a54",
+      "functionCount": 12
     }
   ],
   "pointerSlots": [
@@ -74970,6 +75047,38 @@
       "sha256": "d9ef84a3fe6554ba5faec6f478a120be36e4d00d060b896c9a9387cfb67472f0",
       "fileOffset": 53716328,
       "source": "r22-mana-refunds concrete FireMortar callback, empty ordinary callbacks and numerical Mana interface"
+    },
+    {
+      "table": "0x1435a64b0",
+      "offset": "0x0",
+      "target": "0x141e6c350",
+      "fileOffset": 56252592,
+      "sha256": "f90a6ed7fb29f30b3df3bcd212b9b648d415a75f456bfa2ee914b0f684653b3b",
+      "source": "r23-pool-maximum-refresh actual Life listener, pool maximum/current interfaces and two client World mode getters"
+    },
+    {
+      "table": "0x1435a5da0",
+      "offset": "0x38",
+      "target": "0x141e6b0a0",
+      "fileOffset": 56250840,
+      "sha256": "32a6f2b6beeebb6352b7956cd4b87848f95460cb3eadeee9d84862187977bc84",
+      "source": "r23-pool-maximum-refresh actual Life listener, pool maximum/current interfaces and two client World mode getters"
+    },
+    {
+      "table": "0x1435a5b68",
+      "offset": "0x38",
+      "target": "0x141e697e0",
+      "fileOffset": 56250272,
+      "sha256": "b2f642cb1620495f95923e0b2ad0e0290f63f7a51269684514f9aeec659e542e",
+      "source": "r23-pool-maximum-refresh actual Life listener, pool maximum/current interfaces and two client World mode getters"
+    },
+    {
+      "table": "0x1435a6218",
+      "offset": "0x38",
+      "target": "0x141e697e0",
+      "fileOffset": 56251984,
+      "sha256": "b2f642cb1620495f95923e0b2ad0e0290f63f7a51269684514f9aeec659e542e",
+      "source": "r23-pool-maximum-refresh actual Life listener, pool maximum/current interfaces and two client World mode getters"
     }
   ],
   "scanCoverage": {
@@ -75012,7 +75121,7 @@
     "checkedReferenceInstructions": 13431,
     "decompilationFailures": [],
     "scope": "Original ranges/offsets, unwind ownership or explicit boundaries, stat identity, reference instructions and pointer-slot contents revalidated offline.",
-    "additionalFreshValidation": "R22 rechecked all retained original ranges/unwind owners/offsets and pointer slots; bound conditional terminal Mana refunds separately from target Hit/DoT loss. Earlier decompilation/reference checks retained, not rerun."
+    "additionalFreshValidation": "R23 rechecked all retained original ranges/unwind owners/offsets and pointer slots; actual maximum-stat callback reaches typed pool refresh behind two nonzero client-mode getters. Prior decompilation/reference checks retained, not rerun."
   },
   "supportingRecords": [
     {
@@ -79859,6 +79968,78 @@
       "bytes": 792652,
       "sha256": "31dcaf7491ecefb95d1d223a6574897b7eb8fe3ec0f24dcf065d62e414ac9d3e",
       "role": "R22 bounded Life-accessor navigation and conditional terminal Mana numerical slices; geometry/reason ingress are supplied, not actual invocation evidence"
+    },
+    {
+      "path": "Agents/docs/re/client-pool-maximum-refresh.md",
+      "bytes": 10024,
+      "sha256": "c8cce3cdba4fb59f93d926d6300652e696ba0069383a63a81bdb1eb1e3325b58",
+      "role": "R23 actual maximum-stat subscriber, client-mode current-value boundary and conditional rescaling; independent slot navigation remains navigation only"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r23-pool-slot-ingress.py",
+      "bytes": 3142,
+      "sha256": "7f8c3f6fdc926c125b492e249f6c01df26a0f558222444bc90154930de22c09f",
+      "role": "R23 actual maximum-stat subscriber, client-mode current-value boundary and conditional rescaling; independent slot navigation remains navigation only"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r23-pool-max-refresh.py",
+      "bytes": 8002,
+      "sha256": "6c8fb0a4d3afa38eaa8cfb0b87d20cbb59f4f0166656ceb87e2a26202a120f2b",
+      "role": "R23 actual maximum-stat subscriber, client-mode current-value boundary and conditional rescaling; independent slot navigation remains navigation only"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r23-pool-max-fresh.py",
+      "bytes": 4281,
+      "sha256": "d690d6cc6d0c2f0dab6c9e92e1e7b07cbf43da15e09bd455afb9a66cecd834d5",
+      "role": "R23 actual maximum-stat subscriber, client-mode current-value boundary and conditional rescaling; independent slot navigation remains navigation only"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r23-seal.py",
+      "bytes": 6011,
+      "sha256": "29ad4773286e62a9aa310eeee4c614767625eed6713c77ff3cc6441fafa3c60c",
+      "role": "R23 actual maximum-stat subscriber, client-mode current-value boundary and conditional rescaling; independent slot navigation remains navigation only"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/coordination-r38-reuse.py",
+      "bytes": 1834,
+      "sha256": "92735d9c06b1c8a991760dee40bd6f1abace178ebaf9f42da831619b3e9e2520",
+      "role": "R23 actual maximum-stat subscriber, client-mode current-value boundary and conditional rescaling; independent slot navigation remains navigation only"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/coordination-r38-reuse.json",
+      "bytes": 666,
+      "sha256": "a8023620aea53a636755c40475c57152ff6bbc43e8d27088af7d234f6b5f4597",
+      "role": "R23 actual maximum-stat subscriber, client-mode current-value boundary and conditional rescaling; independent slot navigation remains navigation only"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r23-pool-max-refresh/audit.json",
+      "bytes": 178522,
+      "sha256": "cf1caf7c312345ab647962f0bfb15d753fdf303da4a0799cad01e6ee4b1d1a54",
+      "role": "R23 actual maximum-stat subscriber, client-mode current-value boundary and conditional rescaling; independent slot navigation remains navigation only"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r23-pool-max-refresh/verification.json",
+      "bytes": 11904,
+      "sha256": "2c49ed9d3f68efc1287a602c0b09087659379e979bdf474ed9a249faabe971cf",
+      "role": "R23 actual maximum-stat subscriber, client-mode current-value boundary and conditional rescaling; independent slot navigation remains navigation only"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r23-pool-max-refresh/fresh-check.json",
+      "bytes": 6336,
+      "sha256": "e3781223d5dbad8ea00b6fd8b7fd055c2b2c101bbd0b68da6ea793bce818ac4a",
+      "role": "R23 actual maximum-stat subscriber, client-mode current-value boundary and conditional rescaling; independent slot navigation remains navigation only"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r23-pool-slot-ingress/audit.json",
+      "bytes": 13579715,
+      "sha256": "a885af9756c21b819a3631552cd8a5a72703c1a4d663722d2a4925434b6474b6",
+      "role": "R23 actual maximum-stat subscriber, client-mode current-value boundary and conditional rescaling; independent slot navigation remains navigation only"
+    },
+    {
+      "path": "Tools/re/out/client-damage-audit/r23-pool-slot-ingress/summary.json",
+      "bytes": 165,
+      "sha256": "22495a27da5e74828bdc4dce530574519f5db969eb263ddb5c5713db9d962cfa",
+      "role": "R23 actual maximum-stat subscriber, client-mode current-value boundary and conditional rescaling; independent slot navigation remains navigation only"
     }
   ],
   "auxiliaryDataTables": [
@@ -80020,6 +80201,16 @@
       "snapshotFiles": 63,
       "exactGitSources": 44,
       "boundary": "Pinned peer R37 ordered Chain admission/TLS discovery; snapshot hashes/Git/parents checked, numerical audit not rerun"
+    },
+    {
+      "repository": "LocalExile/LocalExile",
+      "commit": "742e0b6103203b44aa043fae5bd4cde3d4917e22",
+      "path": "Agents/docs/re/projectiles/results-and-protocol.md",
+      "url": "https://github.com/LocalExile/LocalExile/blob/742e0b6103203b44aa043fae5bd4cde3d4917e22/Agents/docs/re/projectiles/results-and-protocol.md",
+      "snapshotManifestSha256": "588bade51e888e92899d8282584b890c19742f2303e2ed5c4ae03dda2c9e2233",
+      "snapshotFiles": 61,
+      "exactGitSources": 45,
+      "boundary": "Pinned R38 snapshot and inherited two-client-World mode contract; snapshot/Git/parent checks, numerical audit not rerun; local fresh slots/getter checked for max-refresh interoperability"
     }
   ],
   "reductionInputVerification": {
@@ -80107,5 +80298,31 @@
       "__col3": false
     },
     "limits": "Selected conditional numerical slices; no preceding geometry execution, second-body actual caller, ordinary network invocation, target Hit loss or DoT publication claim"
+  },
+  "poolMaximumRefreshVerification": {
+    "runtimeExecuted": false,
+    "functions": 12,
+    "ranges": 20,
+    "decodedInstructions": 1294,
+    "constructorMaxKeys": [
+      247,
+      248,
+      249
+    ],
+    "cases": 3432,
+    "steps": 256900,
+    "visitedInstructions": 397,
+    "limits": "Owner/source getter and reservation/policy helper fixtures; nonzero Life-policy branches and full transitive listeners not recovered; no accepted-Hit loss/DoT publisher claim",
+    "navigation": {
+      "raw": 1003,
+      "owners": 724,
+      "decoded": 276464,
+      "failed": 0,
+      "calls": 988,
+      "callOwners": 722,
+      "withFields": 71,
+      "withoutLifeGetter": 67,
+      "limits": "Four selected memory dispatch encodings; proximity is not typed receiver proof or global absence; 71 navigation bodies are not added as semantic manifest discoveries"
+    }
   }
 }

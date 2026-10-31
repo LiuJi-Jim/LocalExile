@@ -141,6 +141,11 @@ The [Buff clock guard audit](client-buff-clock-producers.md#a-decoded-life-assig
 binds the latter callback to the retained Buffs component and its conditional advancement-guard clear.
 The Mana/ES selector branches return after the setter and do not execute that Life-only block.
 
+A separate [maximum-stat subscriber](client-pool-maximum-refresh.md) adds another concrete carry-reset path.
+On the two verified client World tables, maximum Life/Mana/ES notifications refresh the pool maximum without
+proportional current-value adjustment. The Life refresh clears its carry even on that no-adjust path;
+Mana/ES preserve theirs. This does not change the assignment setter's behavior or imply a reset on every stat.
+
 ### Assignment notifications and recharge delay
 
 The setter is not just a silent integer store. Its guarded consequences are:

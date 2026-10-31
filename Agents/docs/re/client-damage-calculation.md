@@ -85,6 +85,7 @@ Detailed supplements keep the evidence reviewable without treating this summary 
 - [Thirty spell base, intermediate-added and selected-added component equations](client-spell-damage-components.md).
 - [Life-cost, hand-cast, Battlemage and weapon-as-spell contributor builders](client-spell-contributor-builders.md).
 - [Integer pool mutations, skill-cost routing/payment and extra-arrow Life sacrifice](client-integer-resource-mutations.md).
+- [Actual maximum-stat subscriber, client-mode current-value gate and Life-only fractional-carry reset](client-pool-maximum-refresh.md).
 - [Complete final spell min/max/total ranges, ordered equations and conversion branch asymmetries](client-spell-hit-formulas.md).
 - [Taken-as coefficients and ordered armour applicability overrides](client-defence-transfer-formulas.md).
 - [Complete physical/elemental reduction inputs, Strength of Blood and physical ceiling](client-reduction-inputs.md).
@@ -666,6 +667,7 @@ damage-bearing paths. Keep missing source eligibility/selection, formulas and sy
 | R1 | Network Stats, actor/skill inputs, lookup freshness and native publication | Established | Actual network provider chain, updates/notifications and guarded native boundary audited; [details](client-stat-evaluation.md); subsequent skill update identified as [0x1b4](client-damage-pr373-comparison.md#0x1b4-is-a-skill-stat-update) |
 | R1 | Native dependency ordering and work-vector algorithm | Established for audited helpers and recovered declaration graph | [Cycle-checked traversal, rank rewriting, growing ordered dispatch, unchanged-output propagation stops and 24 actual duplicate-containing declarations](client-stat-dependency-order.md); declared edges do not guarantee all actual reads or arbitrary reentrant callbacks |
 | R1 | Absolute pool update path | Established | Preserve decoded-field vs wire-offset distinction |
+| R1/R4 | Maximum-stat notification and current-resource authority | Established for three pool keys and two client World tables | [Actual Life subscriber and pool refresh](client-pool-maximum-refresh.md) update maxima without proportional current changes on the two nonzero client getters; Life alone clears carry; conditional rescaling code and notification limits remain explicit |
 | R3/R4 | Integer resource changes and selected skill payments | Established for selected conditional paths | [Integer deltas, extra-arrow Life sacrifice, cost routing/check/payment and zero-gate bypass](client-integer-resource-mutations.md); ordinary-client gate provenance, final arrow emission and accepted-Hit loss remain separate |
 | R3/R4 | Conditional terminal Mana refunds | Established for selected numerical slices | [FireMortar table-bound refund and separate reason-qualified slice](client-terminal-mana-refunds.md), actual cost-stat layout, signed percent cap, wrapped product/unsigned widening and typed Mana setter; preceding geometry and the second body's actual incoming caller remain separate |
 | R2 | Typed DoT formulas through mitigation | Established locally | All five types and nonlethal branches audited; [asymmetries](client-dot-routing.md) remain explicit |

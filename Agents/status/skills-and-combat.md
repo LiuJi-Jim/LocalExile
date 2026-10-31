@@ -691,6 +691,10 @@ and can require explicit recipes.
   Conditional terminal Mana refunds now reach a positively typed pool/setter; FireMortar's table-bound callback
   differs from a separate reason-qualified body with unbound ingress. Percent caps, wrapping and cost layouts
   are explicit in [the refund audit](../docs/re/client-terminal-mana-refunds.md), without a target-damage claim.
+  An actual maximum-stat subscriber now binds three pool keys to their refresh methods and the client World gate.
+  The two verified client getters update maxima without proportional current changes; Life clears carry,
+  while Mana/ES preserve it. Conditional rescaling and its numerical asymmetries are retained separately in
+  [the maximum-refresh audit](../docs/re/client-pool-maximum-refresh.md); Hit/DoT application stays open.
   Actual network Actor/skill providers, current fallback and same-key notification masking are bound statically.
   Opcode `0x1b4` updates selected skill/stat-set key-value overrides; its pairs are not projectile path points.
   Native formula transactions are separate; successful startup disables native action-context mutation.

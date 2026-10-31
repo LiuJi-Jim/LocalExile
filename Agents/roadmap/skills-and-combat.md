@@ -190,6 +190,9 @@ The suspend/restore lifecycle is explicit LocalExile policy; see protocol/11-ski
   Their concrete numerical writes do not close accepted-Hit damage or DoT source publication.
   Reuse [terminal Mana-refund arithmetic](../docs/re/client-terminal-mana-refunds.md), preserving FireMortar scope,
   the separate reason-body ingress limit, fresh cost-stat reads and unsigned product widening.
+  Reuse the [maximum-stat subscriber and mode gate](../docs/re/client-pool-maximum-refresh.md): the two bound
+  client World implementations suppress proportional current adjustment, while Life alone clears carry.
+  Do not replace that contract with unconditional rescaling or confuse it with accepted-Hit resource loss.
   Follow other event configurations beyond GEAL/native listeners; selected player/Sand Spitter files have no handler.
   Extend the selected 22-source semantic catalogue through positive data/native links to numerical publication.
   Preserve its exact inheritance, repeated fields, mode and component distinctions; six scripts are catalogued.

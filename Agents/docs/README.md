@@ -67,6 +67,7 @@ How to regenerate them: [re/tooling.md](re/tooling.md) §7.
 | [re/client-attack-hit-formulas.md](re/client-attack-hit-formulas.md) | twenty typed attack ranges and four hand totals, ordered equations, base/added scaling and endpoint differences |
 | [re/client-integer-resource-mutations.md](re/client-integer-resource-mutations.md) | integer pool deltas, arrow Life sacrifice, skill-cost preparation/check/payment and conditional caller gates |
 | [re/client-terminal-mana-refunds.md](re/client-terminal-mana-refunds.md) | conditional FireMortar/zero-reason Mana refund slices, cost-stat layout, percent cap and wrapped-product conversion; invocation limits remain explicit |
+| [re/client-pool-maximum-refresh.md](re/client-pool-maximum-refresh.md) | actual maximum-stat subscriber, client-mode current-value gate, Life carry reset and conditional rescaling arithmetic |
 | [re/client-buff-initial-granted-values.md](re/client-buff-initial-granted-values.md) | initial Buff magnitude eligibility, byte-order distinction and prefix-preserving normalization |
 | [re/client-buff-observer-attraction-shape.md](re/client-buff-observer-attraction-shape.md) | concrete no-op Buff observer callbacks and a separately guarded presentation output |
 | [re/client-coldsnap-buff-backend.md](re/client-coldsnap-buff-backend.md) | exact Cold Snap Buff/factory joins and concrete animation/matrix backend boundary |
